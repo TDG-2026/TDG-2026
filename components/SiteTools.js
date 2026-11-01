@@ -1,0 +1,4 @@
+'use client';
+import {splitPath} from '@/lib/i18n/config';
+import {useEffect} from 'react';
+export default function SiteTools(){useEffect(()=>{function onClick(e){const a=e.target.closest?.('a');if(!a)return;let c;try{c=JSON.parse(localStorage.getItem('tg-consent-v1')||'null');}catch{return;}if(c?.version!==1||c.analytics!==true||Date.now()-c.updatedAt>180*86400000)return;const raw=a.getAttribute('href')||'';const href=raw.startsWith('/')?splitPath(raw).path:raw;const event=a.dataset.conversion||(href.includes('.exe')?'installer_link_click':href==='/download'?'download_page_click':href.startsWith('/products/')||href.startsWith('/platform/')?'product_view_click':null);if(event)window.dispatchEvent(new CustomEvent('tg:conversion',{detail:{event,path:location.pathname,language:document.documentElement.lang}}));}document.addEventListener('click',onClick);return()=>document.removeEventListener('click',onClick);},[]);return null;}

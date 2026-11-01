@@ -1,0 +1,243 @@
+export const resources = [
+{slug: 'passport-docs-ctcm-ctce-gds',
+ title: 'Passport DOCS Entry in Amadeus, Galileo and Sabre',
+ description: 'How to enter passport details (SSR DOCS) in Amadeus, Travelport Galileo and Sabre, with examples, a format comparison and the checks to make before you end the booking.',
+ category: 'GDS workflows',
+ sections: [
+  ['What is a passport DOCS entry?', 'A DOCS entry sends the passenger’s passport details to the airline. It holds the document type, number, nationality, issuing country, date of birth, sex, expiry date and full name. Airlines need it for border checks. CTCM and CTCE are separate entries for the passenger’s mobile and email.'],
+  ['How do I enter passport details in Amadeus?', 'In Amadeus, add the passport as an SR DOCS element linked to the passenger with /P1. Fields are split by hyphens: type, issuing country, number, nationality, birth date, sex, expiry, surname and first name. Use three-letter country codes and dates like 12JUL85.',
+   {code: ['SRDOCS YY HK1-P-PAK-AB1234567-PAK-12JUL85-M-15JAN30-KHAN-ALI/P1']}],
+  ['How do I enter passport details in Travelport Galileo?', 'In Travelport Galileo, add the passport with an SI entry for the passenger, such as SI.P1, followed by SSRDOCS, the airline code and HK1. Fields are split by slashes in the same order as Amadeus. Check the passenger number before you end the booking.',
+   {code: ['SI.P1/SSRDOCSYYHK1/P/PAK/AB1234567/PAK/12JUL85/M/15JAN30/KHAN/ALI']}],
+  ['How do I enter passport details in Sabre?', 'In Sabre, the passport entry starts with 3DOCS. Fields are split by slashes, and the passenger is linked at the end with a name number such as -1.1. Use the passenger’s name exactly as it appears in the passport’s machine-readable zone, then check the response.',
+   {code: ['3DOCS/P/PAK/AB1234567/PAK/12JUL85/M/15JAN30/KHAN/ALI-1.1']}],
+  ['How do the DOCS formats compare?', 'All three systems carry the same passport fields in the same order. The difference is the command at the start, the separator and how the passenger is linked. This table shows the three formats side by side for one passenger, so you can compare them quickly.',
+   {table: {head: ['GDS', 'Starts with', 'Separator', 'Passenger link'], rows: [
+          ['Amadeus', 'SRDOCS YY HK1', 'Hyphen (-)', '/P1'],
+     ['Travelport Galileo', 'SI.P1/SSRDOCSYYHK1', 'Slash (/)', 'SI.P1'],
+     ['Sabre', '3DOCS', 'Slash (/)', '-1.1']]}}],
+  ['How to prepare a passport DOCS entry, step by step', 'Work from the passport, not from memory. Read the details, check each field, build the entry in the right format and link it to the right passenger. Magic Toolbar does the reading and building for you, but you still check each line before you copy it.',
+   {steps: ['Scan or paste the passport into Magic Toolbar.', 'Compare the name, number, dates and nationality with the passport.', 'Fill in any field marked as unclear.', 'Choose Amadeus, Travelport or Sabre.', 'Copy the entry into your GDS and check the response.']}],
+  ['What should I check for children and infants?', 'Confirm the passenger type, date of birth and name spelling. An infant’s DOCS entry uses MI or FI as the sex code and is linked to the adult who travels with them. Age rules depend on the airline, so check them before ticketing.'],
+  ['How should I handle passport reading warnings?', 'Compare every field Magic Toolbar reads with the real passport. If a field is marked as unclear, fix it yourself instead of guessing. A correct MRZ check means the code lines were read cleanly. It does not prove the passport is genuine or that the passenger may travel.']
+ ],
+ related: ['ctcm-ctce-passenger-contacts', 'adult-child-infant-name-entry-gds', 'amadeus-commands-notes', 'travelport-galileo-commands-notes', 'sabre-commands-notes']},
+
+{slug: 'ctcm-ctce-passenger-contacts',
+ title: 'CTCM and CTCE Entry in Amadeus, Galileo and Sabre',
+ description: 'How to add passenger mobile (CTCM) and email (CTCE) contacts in Amadeus, Travelport Galileo and Sabre, with examples and the special characters each email needs.',
+ category: 'Passenger contacts',
+ sections: [
+  ['What is the difference between CTCM and CTCE?', 'CTCM is the passenger’s mobile number. CTCE is the passenger’s email address. Airlines use both to send flight changes and delay messages straight to the traveller. Always use the passenger’s own details here, not your agency’s number or email, unless your workflow says otherwise.'],
+  ['How do I write an email address in CTCE?', 'GDS systems cannot use some email characters, so you replace them. Write @ as two slashes (//), an underscore as two dots (..) and a hyphen as a dot and slash (./). Use capital letters. For example, ali_khan@mail-box.com becomes ALI..KHAN//MAIL./BOX.COM in the entry.',
+   {table: {head: ['Character', 'Write it as', 'Example'], rows: [
+     ['@', '//', 'ALI//GMAIL.COM'],
+     ['_ (underscore)', '..', 'ALI..KHAN'],
+     ['- (hyphen)', './', 'MAIL./BOX.COM']]}}],
+  ['How do I add CTCM and CTCE in Amadeus?', 'In Amadeus, add each contact as an SR element linked to the passenger with /P1. The mobile number goes in full with the country code and no plus sign or spaces. The email uses the special characters shown above. Add both if the passenger has both.',
+   {code: ['SRCTCMYYHK1/923001234567/P1', 'SRCTCEYYHK1/ALI.KHAN//GMAIL.COM/P1']}],
+  ['How do I add CTCM and CTCE in Travelport Galileo?', 'In Travelport Galileo, start each contact with SI and the passenger number, such as SI.P1, then SSRCTCM or SSRCTCE with the airline code and HK1. The number and email follow after a slash. Check that each line is linked to the right passenger.',
+   {code: ['SI.P1/SSRCTCMYYHK1/923001234567', 'SI.P1/SSRCTCEYYHK1/ALI.KHAN//GMAIL.COM']}],
+  ['How do I add CTCM and CTCE in Sabre?', 'In Sabre, contact entries start with 3CTCM or 3CTCE. The mobile number or email follows a slash, and the passenger is linked at the end with a name number such as -1.1. Use the same email characters as the other systems and check the response.',
+   {code: ['3CTCM/923001234567-1.1', '3CTCE/ALI.KHAN//GMAIL.COM-1.1']}],
+  ['What if the passenger refuses to share contacts?', 'A passenger can decline to share contacts. In that case, airlines expect a CTCR entry that records the refusal, instead of an empty booking. Ask the passenger first and explain why airlines want the details: they use them to warn about delays, cancellations and gate changes.'],
+  ['What should I check before I end the booking?', 'Check the country code, the number and the email spelling against what the passenger gave you. Make sure each contact is linked to the right passenger, not the whole booking. If Magic Toolbar warns that a country code is missing, ask the passenger rather than guessing it.']
+ ],
+ related: ['passport-docs-ctcm-ctce-gds', 'adult-child-infant-name-entry-gds', 'amadeus-commands-notes']},
+
+{slug: 'adult-child-infant-name-entry-gds',
+ title: 'Adult, Child and Infant Name Entry in GDS',
+ description: 'How to enter adult, child and infant names in Amadeus, Travelport Galileo and Sabre, with examples for each passenger type and the checks to make before pricing.',
+ category: 'GDS workflows',
+ sections: [
+  ['How do passenger types differ in a name entry?', 'An adult is entered with surname, first name and title. A child also carries an age or date of birth, so the right fare applies. An infant under two usually travels on an adult’s lap, so the infant is attached to that adult’s name entry.'],
+  ['How do I enter adult, child and infant names in Amadeus?', 'In Amadeus, names use NM followed by the number of passengers. A child adds CHD and the date of birth in brackets. An infant goes in brackets after the adult, with INF, the infant’s first name and date of birth. Add the surname too if it differs.',
+   {code: ['NM1KHAN/ALI MR', 'NM1KHAN/SARA MISS(CHD/15MAR18)', 'NM1KHAN/ALI MR(INFZARA/10JAN25)', 'NM1KHAN/ALI MR(INFAHMED/ZARA/10JAN25)']}],
+  ['How do I enter adult, child and infant names in Travelport Galileo?', 'In Travelport Galileo, names start with N. and the surname. A child adds the age after *P-C, such as *P-C08 for an eight-year-old. An infant is entered as its own name with N.I/ and the date of birth, then linked to the adult who travels with them.',
+   {code: ['N.KHAN/ALI MR', 'N.KHAN/SARA MISS*P-C08', 'N.I/KHAN/ZARA MISS*10JAN25']}],
+  ['How do I enter adult, child and infant names in Sabre?', 'In Sabre, names start with a hyphen and the surname. A child adds the age, such as *C08, and an infant uses -I/ before the surname. Airlines also expect an SSR for the infant with the date of birth, linked to the adult who travels with them.',
+   {code: ['-KHAN/ALI MR', '-KHAN/SARA MISS*C08', '-I/KHAN/ZARA MISS', '3INFT/KHAN/ZARA/10JAN25-1.1']}],
+  ['How do name formats compare?', 'The idea is the same in all three systems: surname, first name and title, plus extra details for children and infants. Only the command and the way age or date of birth is added change. Use this table as a quick reference before you start a booking.',
+   {table: {head: ['Passenger', 'Amadeus', 'Travelport Galileo', 'Sabre'], rows: [
+     ['Adult', 'NM1KHAN/ALI MR', 'N.KHAN/ALI MR', '-KHAN/ALI MR'],
+     ['Child (8)', 'NM1KHAN/SARA MISS(CHD/15MAR18)', 'N.KHAN/SARA MISS*P-C08', '-KHAN/SARA MISS*C08'],
+     ['Infant', 'NM1KHAN/ALI MR(INFZARA/10JAN25)', 'N.I/KHAN/ZARA MISS*10JAN25', '-I/KHAN/ZARA MISS']]}}],
+  ['Can Magic Toolbar make name entries for me?', 'Yes. When you scan or paste a passport, Magic Toolbar builds the NAME entry with the DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre. You still check the passenger type, title and each line before you copy it into your GDS.'],
+  ['What should I check before pricing?', 'Check that each name matches the passport exactly, including spelling and order. Work out the child’s age and the infant’s age on the day of travel, not today. Age rules and fares depend on the airline, so check the price result before you ticket.']
+ ],
+ related: ['passport-docs-ctcm-ctce-gds', 'ctcm-ctce-passenger-contacts', 'amadeus-commands-notes']},
+
+{slug: 'amadeus-commands-notes',
+ title: 'Amadeus Commands Notes: Travel Agent Cheat Sheet',
+ description: 'A practical Amadeus cheat sheet for travel agents: availability, booking, names, contacts, pricing and decoding commands, each with a ready example.',
+ category: 'GDS workflows',
+ sections: [
+  ['What are Amadeus command notes?', 'Amadeus command notes are a short list of the entries a travel agent uses every day: checking seats, booking, adding names and contacts, pricing and saving. This cheat sheet groups the most common commands by task, with an example for each one you can copy and adapt.'],
+  ['Which Amadeus commands build a booking?', 'A booking needs flights, names, a contact, a ticketing arrangement and a received-from line before you save it. Check availability with AN, sell seats with SS, then add each element. End and save the booking with ER, which also shows the record again.',
+   {table: {head: ['Task', 'Command', 'Example'], rows: [
+     ['Check availability', 'AN', 'AN15DECKHIDXB'],
+     ['Sell seats', 'SS', 'SS1Y1'],
+     ['Add a name', 'NM', 'NM1KHAN/ALI MR'],
+     ['Add a contact', 'AP', 'AP 923001234567'],
+     ['Ticketing arrangement', 'TK', 'TKOK'],
+     ['Received from', 'RF', 'RFALI'],
+     ['Save the booking', 'ER', 'ER'],
+     ['Retrieve a booking', 'RT', 'RTABC123'],
+     ['Cancel an element', 'XE', 'XE4'],
+     ['Cancel the itinerary', 'XI', 'XI']]}}],
+  ['Which Amadeus commands price and decode?', 'Use FXP to price and store a fare, or FXX to see a price without storing it. FQD shows the fares for a route. To decode codes, use DAC for a city, DAN to find a city code and DNA for an airline.',
+   {table: {head: ['Task', 'Command', 'Example'], rows: [
+     ['Price and store', 'FXP', 'FXP'],
+     ['Price, information only', 'FXX', 'FXX'],
+     ['Fare display', 'FQD', 'FQDKHIDXB/15DEC'],
+     ['Decode a city', 'DAC', 'DAC KHI'],
+     ['Find a city code', 'DAN', 'DAN KARACHI'],
+     ['Decode an airline', 'DNA', 'DNA EK'],
+     ['Help on a command', 'HE', 'HE FXP']]}}],
+  ['Where are the Amadeus passenger entries?', 'Name, passport and contact entries have their own detailed guides with examples for adults, children and infants. In short: names use NM, passport details use SRDOCS and contacts use SRCTCM and SRCTCE. Follow the related guides below for the full formats and checks.'],
+  ['How can I keep these notes one key away?', 'Magic Toolbar keeps command notes for Amadeus, Travelport and Sabre in one place on Windows. Its GDS decode search helps you look up codes quickly, and you can save your own entries to F1–F12 keys. Notes are a reference, so always check the response in your GDS.']
+ ],
+ related: ['adult-child-infant-name-entry-gds', 'passport-docs-ctcm-ctce-gds', 'ctcm-ctce-passenger-contacts', 'travelport-galileo-commands-notes', 'sabre-commands-notes']},
+
+{slug: 'travelport-galileo-commands-notes',
+ title: 'Travelport Galileo Commands Notes: Cheat Sheet',
+ description: 'A practical Travelport Galileo cheat sheet for travel agents: availability, booking, names, phone, pricing and decoding commands, each with a ready example.',
+ category: 'GDS workflows',
+ sections: [
+  ['What are Travelport Galileo command notes?', 'Travelport Galileo command notes are a short list of the entries a travel agent uses every day: checking seats, booking, adding names and contacts, pricing and saving. This cheat sheet groups the most common Galileo commands by task, with an example for each one.'],
+  ['Which Galileo commands build a booking?', 'A Galileo booking needs flights, names, a phone field, a ticketing arrangement and a received-from line. Check availability with A, sell seats from the display, then add N. for names, P. for phone, T. for ticketing and R. for received. Save with ER.',
+   {table: {head: ['Task', 'Command', 'Example'], rows: [
+     ['Check availability', 'A', 'A15DECKHIDXB'],
+     ['Sell seats', 'N', 'N1Y1'],
+     ['Add a name', 'N.', 'N.KHAN/ALI MR'],
+     ['Add a phone', 'P.', 'P.KHIT*922112345678'],
+     ['Ticketing arrangement', 'T.', 'T.TAU/15DEC'],
+     ['Received from', 'R.', 'R.ALI'],
+     ['Save the booking', 'ER', 'ER'],
+     ['Display the booking', '*R', '*R'],
+     ['Retrieve by record locator', '*', '*ABC123'],
+     ['Cancel the itinerary', 'XI', 'XI']]}}],
+  ['Which Galileo commands price and decode?', 'Use FQ to price the booking and see the fare. FD shows the fares for a route and date. To decode codes, use .CD for a city or airport and .AD for an airline. Always read the full response before you store or quote a fare.',
+   {table: {head: ['Task', 'Command', 'Example'], rows: [
+     ['Price the booking', 'FQ', 'FQ'],
+     ['Fare display', 'FD', 'FDKHIDXB15DEC'],
+     ['Decode a city', '.CD', '.CDKHI'],
+     ['Decode an airline', '.AD', '.ADEK']]}}],
+  ['Where are the Galileo passenger entries?', 'Name, passport and contact entries have their own detailed guides with examples for adults, children and infants. In short: names use N., passport details use SI.P1/SSRDOCS and contacts use SI.P1/SSRCTCM and SI.P1/SSRCTCE. Follow the related guides below for the full formats.'],
+  ['How can I keep these notes one key away?', 'Magic Toolbar keeps command notes for Amadeus, Travelport and Sabre in one place on Windows. Its GDS decode search helps you look up codes quickly, and you can save your own entries to F1–F12 keys. Notes are a reference, so always check the response in your GDS.']
+ ],
+ related: ['adult-child-infant-name-entry-gds', 'passport-docs-ctcm-ctce-gds', 'ctcm-ctce-passenger-contacts', 'amadeus-commands-notes', 'sabre-commands-notes']},
+
+{slug: 'sabre-commands-notes',
+ title: 'Sabre Commands Notes: Travel Agent Cheat Sheet',
+ description: 'A practical Sabre cheat sheet for travel agents: availability, booking, names, phone, pricing and decoding commands, each with a ready example.',
+ category: 'GDS workflows',
+ sections: [
+  ['What are Sabre command notes?', 'Sabre command notes are a short list of the entries a travel agent uses every day: checking seats, booking, adding names and contacts, pricing and saving. This cheat sheet groups the most common Sabre commands by task, with an example for each one you can copy and adapt.'],
+  ['Which Sabre commands build a booking?', 'A Sabre booking needs flights, names, a phone field, a ticketing arrangement and a received-from line. Check availability with 1, sell seats with 0, then add names with a hyphen, phone with 9, ticketing with 7 and received with 6. Save with ER.',
+   {table: {head: ['Task', 'Command', 'Example'], rows: [
+     ['Check availability', '1', '115DECKHIDXB'],
+     ['Sell seats', '0', '01Y1'],
+     ['Add a name', '-', '-KHAN/ALI MR'],
+     ['Add a phone', '9', '9922112345678-A'],
+     ['Ticketing arrangement', '7', '7TAW15DEC/'],
+     ['Received from', '6', '6ALI'],
+     ['Save the booking', 'ER', 'ER'],
+     ['Display the booking', '*A', '*A'],
+     ['Retrieve by record locator', '*', '*ABCDEF'],
+     ['Cancel the itinerary', 'XI', 'XI']]}}],
+  ['Which Sabre commands price and decode?', 'Use WP to price the booking and WPRQ to price and store it as a price quote. FQ shows the fares for a route and date. To decode codes, use W/* followed by a city, airport or airline code. Read the full response before you quote a fare.',
+   {table: {head: ['Task', 'Command', 'Example'], rows: [
+     ['Price the booking', 'WP', 'WP'],
+     ['Price and store', 'WPRQ', 'WPRQ'],
+     ['Fare quote', 'FQ', 'FQKHIDXB15DEC'],
+     ['Decode a city', 'W/*', 'W/*KHI'],
+     ['Decode an airline', 'W/*', 'W/*EK']]}}],
+  ['Where are the Sabre passenger entries?', 'Name, passport and contact entries have their own detailed guides with examples for adults, children and infants. In short: names start with a hyphen, passport details use 3DOCS and contacts use 3CTCM and 3CTCE. Follow the related guides below for the full formats and checks.'],
+  ['How can I keep these notes one key away?', 'Magic Toolbar keeps command notes for Amadeus, Travelport and Sabre in one place on Windows. Its GDS decode search helps you look up codes quickly, and you can save your own entries to F1–F12 keys. Notes are a reference, so always check the response in your GDS.']
+ ],
+ related: ['adult-child-infant-name-entry-gds', 'passport-docs-ctcm-ctce-gds', 'ctcm-ctce-passenger-contacts', 'amadeus-commands-notes', 'travelport-galileo-commands-notes']},
+
+{slug: 'visa-photo-preparation',
+ title: 'Visa Photo Fixer: Size, Quality, Rotate and Align',
+ description: 'How to fix a visa photo for size, framing, quality and tilt with Magic Toolbar’s Visa Photo Fixer, and why no tool can guarantee embassy approval.',
+ category: 'Photo tools',
+ sections: [
+  ['What does Visa Photo Fixer do?', 'Visa Photo Fixer prepares a photo against the size rules you pick. It shows crown and chin guides, checks head height and frame, straightens a tilted photo, improves image quality and checks the JPEG size. It helps you get close to the rules, but it cannot guarantee approval.'],
+  ['How to fix a visa photo, step by step', 'Start with the clearest photo you have, and keep the original file. Then work through the steps below in order. Fixing the angle and quality first makes the size and framing checks more accurate, and you avoid saving the image again and again.',
+   {steps: ['Open the original photo in Visa Photo Fixer.', 'Pick the size rule for the country, such as 35×45 mm.', 'Rotate and align the photo so the eyes are level.', 'Use the quality enhancer if the photo looks dull or soft.', 'Fit the head between the crown and chin guides.', 'Check the background, size and file size, then save once.']}],
+  ['Can Magic Toolbar improve photo quality?', 'Yes. The photo quality enhancer improves a dull or soft photo so it looks clearer before you check it. Keep changes light, because many authorities reject photos that look edited. It cannot add detail that was never there, so retake a blurred, dark or heavily edited photo instead.'],
+  ['How do I rotate and align a tilted photo?', 'Use the rotate and align tools to straighten the photo until the eyes are level and the face is centred. Then line up the crown and chin with the guides. A straight photo also makes the head-height check more accurate, so fix the angle before you crop.'],
+  ['Which visa photo size should I use?', 'Always use the size given by the authority that receives the application. Many countries ask for 35×45 mm, while the United States uses 2×2 inches. Rules also cover head height, background and file size, and they change, so check the official page each time.',
+   {table: {head: ['Common size', 'Measurements', 'Where it is often used'], rows: [
+     ['35×45 mm', '35 mm wide, 45 mm high', 'Many visa and passport forms, including Schengen countries'],
+     ['2×2 inches', '51×51 mm', 'United States visas and passports']]}}],
+  ['Does Visa Photo Fixer guarantee approval?', 'No. Visa Photo Fixer checks your photo against the measurements you choose and explains problems in plain words. Each embassy, visa centre and online system has its own rules and checks. Always compare the final file with the latest official instructions before you submit it.']
+ ],
+ related: ['f1-f12-hotkeys-saved-messages', 'passport-docs-ctcm-ctce-gds']},
+
+{slug: 'f1-f12-hotkeys-saved-messages',
+ title: 'F1–F12 Hotkeys for Saved Messages on Windows',
+ description: 'Save the messages you type every day to F1–F12 keys with Magic Toolbar’s Container Manager and bring them back with one key press on Windows.',
+ category: 'Desk productivity',
+ sections: [
+  ['What is an F1–F12 hotkey manager?', 'An F1–F12 hotkey manager saves text you type often and puts it on a function key. Press the key and the text appears, so you stop retyping greetings, fare rules, baggage notes and payment messages. Magic Toolbar does this with its Container Manager on Windows.'],
+  ['How to set up F1–F12 saved messages', 'Setup takes a few minutes. Start with the five messages you type most, give each one a key, and test it in the app where you usually write to passengers. Add more keys later as you notice which texts you repeat during the day.',
+   {steps: ['Open the Container Manager in Magic Toolbar.', 'Add a text you type often, such as a greeting or baggage note.', 'Give it a key from F1 to F12, or Shift plus a key.', 'Sort your texts into groups, such as Greetings or Fare rules.', 'Press the key to check the text appears, then back up your list.']}],
+  ['What messages should a travel agent save?', 'Save text you send many times a day: greetings, payment reminders, baggage allowances, document checklists, fare rule summaries and closing lines. Keep each message short and approved by your agency. Do not store passenger passport numbers or other private data in general shortcuts.'],
+  ['Can I back up and move my hotkeys?', 'Yes. You can back up all your saved texts from the Container Manager and restore them later, for example on a new PC. Keep the backup somewhere safe, and update it after you add new messages so you never have to rebuild your list.']
+ ],
+ related: ['travel-agent-shortcuts-notes', 'translator-for-travel-agents', 'mute-zoom-meeting-hotkey']},
+
+{slug: 'translator-for-travel-agents',
+ title: 'Translator for Travel Agents: Passenger Messages',
+ description: 'Translate passenger messages and replies in many languages with Magic Toolbar’s translator on Windows, and learn what to keep out of any online translation.',
+ category: 'Desk productivity',
+ sections: [
+  ['How can a translator help a travel agent?', 'Passengers often write in their own language: Arabic, Urdu, Persian, French or many others. A translator lets you read their message and reply in their language without leaving your desk. Magic Toolbar includes a translator on Windows next to your other daily tools.'],
+  ['How to translate a passenger message', 'Translate the passenger’s message first so you understand the request. Then write your reply in simple English, translate it and read it once more before you send it. Short, simple sentences translate much better than long ones full of travel codes.',
+   {steps: ['Copy the passenger’s message.', 'Translate it in Magic Toolbar and read the meaning.', 'Write a short reply in simple words.', 'Translate your reply into the passenger’s language.', 'Check names, dates and prices, then send it.']}],
+  ['Is it safe to translate passenger messages?', 'The translator is the only Magic Toolbar tool that sends text online, and it sends only the text you pick. Remove passport numbers, card details and other private data before you translate. Passport reading and photo tools stay on your own PC.'],
+  ['Should I translate GDS codes and names?', 'No. Keep airline codes, city codes, booking references, names and times exactly as they are. Translation tools can change them or turn them into words. Translate the message around them, then check that every code and number is still correct before you send it.']
+ ],
+ related: ['f1-f12-hotkeys-saved-messages', 'travel-agent-shortcuts-notes']},
+{slug: 'mute-zoom-meeting-hotkey',
+ title: 'Mute Zoom Meeting Sound With One Hotkey',
+ description: 'Silence Zoom meeting sound with Ctrl+Shift+Z in Magic Toolbar when a passenger calls you on WhatsApp or another app, and turn it back on with the same keys.',
+ category: 'Desk productivity',
+ sections: [
+  ['How do I mute Zoom meeting sound with one key?', 'Press Ctrl+Shift+Z while Magic Toolbar is running. Zoom meeting sound goes quiet at once, so you stop hearing the meeting. Press Ctrl+Shift+Z again to bring the sound back. You do not need to find the Zoom window or open its settings first.'],
+  ['How do I take a WhatsApp or other call during a Zoom meeting?', 'When a passenger calls on WhatsApp or any other app during a Zoom meeting on Windows, press Ctrl+Shift+Z to silence the meeting so you can hear the caller. After the call, press the same keys to hear the meeting again. The hotkey only controls Zoom sound, not the calling app.'],
+  ['Does Ctrl+Shift+Z mute my microphone?', 'No. Ctrl+Shift+Z mutes the Zoom sound you hear, not your microphone or camera. To mute your microphone, use Zoom’s own shortcut, Alt+A on Windows, or the mute button. Use Alt+V to stop your video. Check the meeting controls to be sure.'],
+  ['How to take a call during a Zoom meeting on Windows', 'A short routine keeps you polite in the meeting and clear on the phone. Tell the meeting you are stepping away, silence both your sound and your microphone, take the call, then come back in the same order. These steps take only a few seconds.',
+   {steps: ['Press Alt+A in Zoom to mute your microphone.', 'Press Ctrl+Shift+Z to silence the Zoom meeting sound.', 'Answer the call on WhatsApp or your other calling app.', 'After the call, press Ctrl+Shift+Z to hear the meeting again.', 'Press Alt+A to unmute your microphone when you speak.']}]
+ ],
+ related: ['f1-f12-hotkeys-saved-messages', 'travel-agent-shortcuts-notes']},
+
+{slug: 'travel-agent-shortcuts-notes',
+ title: 'Travel desk shortcuts, notes and reminders: a practical setup',
+ description: 'Organize F1–F12 shortcuts, reusable desk content and reminders without confusing stored notes with live GDS commands.',
+ category: 'Desk productivity',
+ sections: [
+  ['What are travel desk shortcuts?', 'Shortcuts put frequently used desk actions within reach of a key. Magic Toolbar includes an F1–F12 shortcut feature alongside a container manager, notes, phone directory and reminders. Configure them around work you actually repeat.'],
+  ['How do I organize command notes?', 'Keep Amadeus, Travelport and Sabre notes clearly labelled. Separate explanatory notes from text intended for copying, and review instructions when your GDS workflow changes. Stored notes are a reference, not a source of live fares or a guarantee that an entry is current.'],
+  ['What belongs in a reusable container?', 'Use approved standard wording, internal checklists and reusable desk content. Keep sensitive passenger data out of general-purpose snippets, and confirm who can access the Windows account before storing customer information.'],
+  ['How should I use reminders?', 'Create reminders for follow-ups and tasks, then review them as part of your day. Desktop reminders supplement your agency’s process; they should not be the sole record for payment deadlines, ticketing time limits or other critical commitments.'],
+  ['Does the Zoom hotkey mute my microphone?', 'No. Ctrl+Shift+Z silences the Zoom meeting sound you hear and brings it back with a second press. It does not mute your microphone or stop your video, so use Zoom’s own controls for those. The Zoom hotkey guide shows a full routine for taking calls.']
+ ],
+ related: ['f1-f12-hotkeys-saved-messages', 'mute-zoom-meeting-hotkey', 'amadeus-commands-notes', 'travel-agency-software-checklist']},
+
+{slug: 'travel-agency-software-checklist',
+ title: 'How to choose travel agency software for your daily work',
+ description: 'Compare travel agency tools by task, supported workflows, data handling, setup, pricing and support rather than unsupported feature claims.',
+ category: 'Buying guide',
+ sections: [
+  ['What is travel agency software?', 'Travel agency software supports business tasks such as passenger records, customer follow-ups, quotations and reporting. A booking portal, a CRM and a desktop productivity toolbar solve different problems. Choose by the work you need to complete, not by a long list of feature names.'],
+  ['How do I compare tools?', 'Write down your recurring task, required input, expected output and systems involved. Ask for a demonstration using synthetic data. Check operating systems, actual integrations, review steps and failure handling. A claim of compatibility should be supported by a documented workflow.'],
+  ['What should I check about customer data?', 'Identify what is stored, where it is stored, who can access it and which services receive it. Ask about export, deletion and retention. Do not assume that every product in one brand has identical data handling.'],
+  ['What should I check before paying?', 'Confirm the plan, billing period, activation method, device limits, refund terms and support route. Magic Toolbar lists $30 monthly and $220 yearly in USD; lifetime terms are by enquiry. Separate specialist products have their own release status and terms.'],
+  ['Is Magic Toolbar a booking portal?', 'No. Magic Toolbar prepares entries and brings Windows desk tools together. It does not search live inventory, hold seats or issue tickets. The separate online-platform concepts in the catalogue have no confirmed public booking or payment capabilities.']
+ ],
+ related: ['passport-docs-ctcm-ctce-gds', 'travel-agent-shortcuts-notes', 'amadeus-commands-notes']}
+];
+export const findResource = slug => resources.find(r => r.slug === slug);

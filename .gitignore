@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env
+.env*.local
+*.log
+.vercel/
+I18N_AUTO_REPORT.json
+RENDERED_AUDIT.json
+TRANSLATION_COVERAGE.json
+SITEMAP_URLS.txt

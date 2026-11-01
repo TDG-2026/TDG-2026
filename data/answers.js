@@ -1,0 +1,16 @@
+export const answers = [
+  {id: 'what-is-magic-toolbar', q: 'What is Travel Genie Magic Toolbar?', link: {href: '/products/magic-toolbar', label: 'See all features'},
+   a: 'Magic Toolbar is a Windows app for travel agents. It reads a passport and makes NAME, DOCS, CTCM and CTCE entries. It shows them for Amadeus, Travelport and Sabre. It also has F1–F12 shortcuts, reminders, a phone book, a translator and a visa photo tool. You check every entry.'},
+  {id: 'how-docs-works', q: 'How does Magic Toolbar make a DOCS entry?', link: {href: '/resources/passport-docs-ctcm-ctce-gds', label: 'Read the DOCS guide'},
+   a: 'Paste or scan the passport. Magic Toolbar finds the code lines at the bottom, called the MRZ. It checks the numbers and expiry date. Then it fills in passenger details and builds the DOCS entry for your GDS. If a detail is unclear, it stays blank until you fill it in.'},
+  {id: 'ctcm-vs-ctce', q: 'What is the difference between CTCM and CTCE?', link: {href: '/resources/ctcm-ctce-passenger-contacts', label: 'Compare CTCM and CTCE'},
+   a: 'CTCM is the passenger’s mobile number. CTCE is the passenger’s email address. Airlines use both to tell travellers about flight changes. They belong to the passenger, not your agency. Magic Toolbar writes each in the right format for Amadeus, Travelport and Sabre. It warns you if a country code is missing.'},
+  {id: 'gds-tickets', q: 'Does Magic Toolbar issue tickets or connect to a GDS?', link: {href: '/security-and-privacy', label: 'Read how we handle data'},
+   a: 'No. Magic Toolbar only makes text entries. You check them and paste them into your own GDS. It does not search fares, hold seats or issue tickets. It does not connect to Amadeus, Sabre or Travelport. It is not part of any GDS or airline, so your booking work stays the same.'},
+  {id: 'price', q: 'How much does Magic Toolbar cost?', link: {href: '/pricing', label: 'See prices'},
+   a: 'Magic Toolbar costs $30 a month or $220 a year. The yearly plan saves you $140. Ask us for the lifetime price. You can start with a 3-day trial from the download page. Our team then turns it on for each Windows PC on your plan.'},
+  {id: 'data-safety', q: 'Is passenger data safe with Magic Toolbar?', link: {href: '/security-and-privacy', label: 'Read how we handle data'},
+   a: 'Passport reading and photo editing run on your own PC. Family records you save are locked to your Windows account with Windows DPAPI. Only the translator sends text online, and only the text you pick. This website never asks you to upload a passport.'},
+  {id: 'languages', q: 'Which languages does the Travel Genie website support?', link: {href: '/languages', label: 'Choose a language'},
+   a: 'This website is built for more than 80 languages, such as Arabic, Urdu, Hindi, Persian, French, Spanish, Turkish and Chinese. It picks a language from your browser and region. You can change it at any time from the language menu at the top. Your choice is saved on this device.'},
+];

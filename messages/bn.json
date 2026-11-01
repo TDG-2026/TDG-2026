@@ -1,0 +1,237 @@
+{
+  "locale": "bn",
+  "status": "draft",
+  "messages": {
+    "LanguageSwitcher.m0420": {
+      "text": "ওয়েবসাইটের ভাষা বেছে নিন",
+      "sourceHash": "7988b92a76f73cbca6f01c54e74bc1b9b1f84806a02434f0db4599c0276e2733",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageSwitcher.m0422": {
+      "text": "ভাষা বা দেশ খুঁজুন",
+      "sourceHash": "9564c9cb7cfad01928fc04e9c765caf85a68a2dff8d6a416e99059f9f9e0a00e",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "Footer.m0363": {
+      "text": "ভাষা",
+      "sourceHash": "318655cea4bd2096fbfad433d7c019bac40750d1a456fc34d366df41fcc77197",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageSwitcher.m0423": {
+      "text": "দেশ ও অঞ্চল",
+      "sourceHash": "bac86cc25339410db5cf7fa8c5bf0fea2642db1717501efa941860d9d2085328",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageSwitcher.m0425": {
+      "text": "সব ভাষা দেখান",
+      "sourceHash": "ebd10fbf3cb038b4a7355c15c166c2deef946af74a1969b55f51faf5dc9cf501",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageSwitcher.m0421": {
+      "text": "বন্ধ করুন",
+      "sourceHash": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageSwitcher.m0426": {
+      "text": "কোনো ফলাফল পাওয়া যায়নি।",
+      "sourceHash": "eb82569d8230c86546e83b83df283488983e6bd4a32cb386481081ee6fd66c19",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageSwitcher.m0427": {
+      "text": "ভাষা লোড হচ্ছে…",
+      "sourceHash": "42609e39e159a0b8e43640ad10fdb568187b03b69a490d91f0209d9fbead00bd",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageNotice.m0416": {
+      "text": "ভাষা পরিবর্তন করা হয়েছে।",
+      "sourceHash": "9b19c37f2b8751544da37c3836a637b7c6608be271a97921b5f5a683e457d949",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageSwitcher.m0419": {
+      "text": "ভাষা লোড করা যায়নি। আবার চেষ্টা করুন।",
+      "sourceHash": "632ce51fe67cc3375ea0eae81c1e15cb3d424f97ce51b02d8508140a11d1ef8b",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageNotice.m0417": {
+      "text": "বিজ্ঞপ্তি বন্ধ করুন",
+      "sourceHash": "48845bff334a50a59aaecf499f28a7a24c3b4b891b8b18a9f1169ad8e8a6b261",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageNotice.m0414": {
+      "text": "অনুবাদ প্রস্তুত করা হচ্ছে। কিছু বিষয়বস্তু বর্তমানে ইংরেজিতে দেখানো হচ্ছে।",
+      "sourceHash": "75491009dc14a0079f74d4cb28c583469cdbe09fc3d812119072bf7aeecf9999",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "LanguageNotice.m0415": {
+      "text": "স্বয়ংক্রিয় অনুবাদের পূর্বরূপ। ভাষাগত পর্যালোচনা বাকি আছে।",
+      "sourceHash": "9d652f180b0d691387e3e57be2be39b7fe62793e224efa8b7835b686afe191fe",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "page.m0150": {
+      "text": "মূলপাতা",
+      "sourceHash": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "page.m0151": {
+      "text": "পণ্য",
+      "sourceHash": "4edc8bfafc6bd936b849f38c009454eac0febc8982f990e734724156584d56f9",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "Footer.m0360": {
+      "text": "দাম",
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "page.m0225": {
+      "text": "সম্পদ",
+      "sourceHash": "e89b30aa1dc30a6ad8c34610689bede83b3ef645a24c3a84a0990826687fb735",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "Footer.m0364": {
+      "text": "ব্যবহারকারীর নির্দেশিকা",
+      "sourceHash": "d131ef7f9b5e2b457faba856dcc5f90438b46b97df6a849234432e76c63f6cbd",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "Footer.m0361": {
+      "text": "সহায়তা",
+      "sourceHash": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "Footer.m0359": {
+      "text": "যোগাযোগ",
+      "sourceHash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "page.m0185": {
+      "text": "Windows-এর জন্য ডাউনলোড করুন",
+      "sourceHash": "62eaf8ed6a90d53f45447fe47aeff74eb01a5ce687ef7a1e469cddb510a01eff",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1054": {
+      "text": "Genie-এর সাথে চ্যাট করুন",
+      "sourceHash": "e83309b77e6a33d19bf3aeeaf2902a70f7c08e76f8472844214b513cef8b5579",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1055": {
+      "text": "চ্যাট বন্ধ করুন",
+      "sourceHash": "3b14c5dc986f2a367a41de958956a0c442bbaa8ef5dac3ec4e4ae27307c25002",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1056": {
+      "text": "২৪/৭ · সারাক্ষণ",
+      "sourceHash": "37302365fa506991eaac9ba381cfe25183c38f2a4f99b3a061370ed580d4097b",
+      "status": "needs-review",
+      "origin": "AI-drafted; not human-reviewed",
+      "qa": [
+        "missing 24/7"
+      ]
+    },
+    "i18n.m1057": {
+      "text": "হ্যালো, আমি Genie। Magic Toolbar সম্পর্কে জিজ্ঞেস করুন: ফিচার, GDS এন্ট্রি, দাম, ইনস্টলেশন বা সাপোর্ট।",
+      "sourceHash": "6e51b3fe9036ef647e3dff98f494d58f1a022637d8dfbcb0de7fdeaeb53d2e86",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1058": {
+      "text": "আপনার প্রশ্ন লিখুন…",
+      "sourceHash": "31fb0a75f5a43f55bd2724259165744bc5f95d01a2c16476117fcd628438a26b",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1059": {
+      "text": "পাঠান",
+      "sourceHash": "f6f4688ff23d50c67053963c251fa0ce64a925cf283537cf066b1f362cb9b778",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "knowledge.m0729": {
+      "text": "ফিচার",
+      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "knowledge.m0707": {
+      "text": "ইনস্টলেশন",
+      "sourceHash": "c3fc54aa5390dc2c333d4bb596a339d552ad787337c1fdaac3957ca5a7facf50",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "knowledge.m0713": {
+      "text": "ডেমো বুক করুন",
+      "sourceHash": "f149d8534427d9a6405a0e427a09d38077c28a96509618769e56630212a3a2dc",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "knowledge.m0738": {
+      "text": "কারিগরি সহায়তা",
+      "sourceHash": "a9cea7b91cfbd5cab4a595f46f928dd30d89f393212e1fc05f6d65a54d69b254",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1060": {
+      "text": "WhatsApp-এ চালিয়ে যান",
+      "sourceHash": "d5151f4f3f3c78a0d0a58c72bb7386e243e15351aefa9f80b51ab6d3dc17d84c",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1061": {
+      "text": "অনুগ্রহ করে এই চ্যাটে পাসপোর্ট নম্বর বা ব্যক্তিগত তথ্য শেয়ার করবেন না।",
+      "sourceHash": "7b4ec811b3623a917dd51e7a49242a246bbfd86f12e9ec59a69cb04163156cd0",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1062": {
+      "text": "এর নিশ্চিত উত্তর আমার কাছে নেই। আমাদের টিম WhatsApp-এ সাহায্য করতে পারে।",
+      "sourceHash": "fcd77b40f47093b68277120e70875412308b987d2688216a35ead5b511085bdc",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1063": {
+      "text": "এই ভাষা পর্যালোচনা না হওয়া পর্যন্ত বিস্তারিত উত্তর ইংরেজিতে দেখানো হবে।",
+      "sourceHash": "9c04fb6859e6f712752757e563cf3638c7ed6c261937d1d8d43a677ad32f75ba",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1064": {
+      "text": "ভাষা",
+      "sourceHash": "a4fe65264ef7dbb38d104b1e81eb3350f3142f3d16f32bdec39b1d9b42c1b8d1",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1065": {
+      "text": "দেশ",
+      "sourceHash": "701d021d08c54579f23343581e45b65ffb1150b2c99f94352fdac4b7036dbbd5",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    },
+    "i18n.m1066": {
+      "text": "নতুন চ্যাট",
+      "sourceHash": "db18382a249e0206bc28514931d423b77d55dce180c1eb8e4bf35f861c9a50ec",
+      "status": "qa-passed",
+      "origin": "AI-drafted; not human-reviewed"
+    }
+  }
+}

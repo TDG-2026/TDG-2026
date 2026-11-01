@@ -1,0 +1,5 @@
+
+import {L} from '@/lib/i18n/client';
+import {Link} from '@/lib/i18n/client';
+import {legalPages} from '@/data/legal';
+export default function LegalPage({type}){const page=legalPages[type];return <L as="section" className="section static-page"><L as="div" className="container"><L as="p" className="eyebrow">Legal information · Draft template</L><L as="h1" className="title">{page.title}</L><L as="p" className="lead">{page.intro}</L><L as="div" className="policy-notice" role="note">This policy is an editable draft. Sections marked “Owner to complete” require business details and review before being relied upon as a final policy.</L><L as="div" className="legal-layout"><L as="aside"><L as="nav" aria-label="Policy contents">{page.sections.map((s,i)=><L as="a" key={s.title} href={'#section-'+i}>{i+1}. {s.title}</L>)}</L><Link href="/contact">Contact the team →</Link></L><L as="div">{page.sections.map((s,i)=><L as="section" id={'section-'+i} key={s.title}><L as="h2" id={`policy-heading-${i}`}>{i+1}. {s.title}</L><L as="p">{s.text}</L></L>)}</L></L></L></L>}
