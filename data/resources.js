@@ -187,7 +187,7 @@ export const resources = [
   ['What messages should a travel agent save?', 'Save text you send many times a day: greetings, payment reminders, baggage allowances, document checklists, fare rule summaries and closing lines. Keep each message short and approved by your agency. Do not store passenger passport numbers or other private data in general shortcuts.'],
   ['Can I back up and move my hotkeys?', 'Yes. You can back up all your saved texts from the Container Manager and restore them later, for example on a new PC. Keep the backup somewhere safe, and update it after you add new messages so you never have to rebuild your list.']
  ],
- related: ['travel-agent-shortcuts-notes', 'translator-for-travel-agents', 'mute-zoom-meeting-hotkey']},
+ related: ['travel-agent-shortcuts-notes', 'translator-for-travel-agents', 'mute-meeting-apps-hotkey']},
 
 {slug: 'translator-for-travel-agents',
  title: 'Translator for Travel Agents: Passenger Messages',
@@ -201,18 +201,70 @@ export const resources = [
   ['Should I translate GDS codes and names?', 'No. Keep airline codes, city codes, booking references, names and times exactly as they are. Translation tools can change them or turn them into words. Translate the message around them, then check that every code and number is still correct before you send it.']
  ],
  related: ['f1-f12-hotkeys-saved-messages', 'travel-agent-shortcuts-notes']},
+
+{slug: 'mute-meeting-apps-hotkey',
+ title: 'Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey',
+ description: 'Silence Zoom, Microsoft Teams, Google Meet, WhatsApp and other meeting sound with one hotkey in Magic Toolbar, or let it mute meetings when a call comes in.',
+ category: 'Desk productivity',
+ updated: '2026-11-02',
+ sections: [
+  ['How do I mute meeting sound with one key?', 'Press a hotkey while Magic Toolbar is running on Windows. Ctrl+Shift+Z silences Zoom, Ctrl+Alt+K silences all supported meeting apps and web browsers at once, and separate keys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Press the same keys again to bring the sound back.'],
+  ['Which hotkey mutes which app?', 'Each hotkey works as a switch: the first press mutes, the second press unmutes. If another program already uses a combination, Magic Toolbar uses Ctrl+Shift+Alt with the same letter instead. This table lists every mute hotkey and what it covers.',
+   {table: {head: ['Hotkey', 'Mutes or unmutes', 'Covers'], rows: [
+     ['CTRL+SHIFT+Z', 'Zoom', 'Zoom meetings and webinars in the Zoom desktop app'],
+     ['CTRL+ALT+K', 'All meeting apps', 'Every supported meeting app and every web browser at once'],
+     ['CTRL+ALT+B', 'All web browsers', 'Chrome, Edge, Firefox, Brave, Opera and Vivaldi'],
+     ['CTRL+ALT+J', 'Microsoft Teams', 'Microsoft Teams meetings, calls and notification sounds'],
+     ['CTRL+ALT+G', 'WhatsApp Desktop', 'WhatsApp calls, voice notes and notification sounds'],
+     ['CTRL+ALT+V', 'Unite Phone', 'Unite Phone ringtone and call sound']]}}],
+  ['Which meeting apps does Ctrl+Alt+K cover?', 'Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Zoom and Microsoft Teams also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.',
+   {table: {head: ['Meeting app', 'Runs as', 'Best for'], rows: [
+     ['Zoom', 'Desktop app', 'Individuals and small teams'],
+     ['Microsoft Teams', 'Desktop app', 'Microsoft 365 users'],
+     ['Cisco Webex', 'Desktop app', 'Corporate conferences and multinational companies'],
+     ['Slack', 'Desktop app', 'Instant huddles'],
+     ['GoTo Meeting', 'Desktop app', 'Meetings on the go'],
+     ['RingCentral', 'Desktop app', 'Phone systems and team messaging'],
+     ['Zoho Meeting', 'Desktop app', 'Webinars with polls and Q&A'],
+     ['Jitsi Meet', 'Desktop app', 'Free, open-source meetings'],
+     ['TrueConf', 'Desktop app', 'Secure, high-quality video calls'],
+     ['Adobe Connect', 'Desktop app', 'Custom-designed meeting rooms'],
+     ['Google Meet', 'Web browser', 'Google Workspace users'],
+     ['Whereby', 'Web browser', 'Video meetings embedded in your own product'],
+     ['Livestorm', 'Web browser', 'Client-facing webinars and training'],
+     ['ClickMeeting', 'Web browser', 'Large online events'],
+     ['Viva Engage', 'Web browser', 'Company-wide broadcasts']]}}],
+  ['How do I mute a meeting that runs in my browser?', 'Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Zoom or Microsoft Teams run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.'],
+  ['Can Magic Toolbar mute meetings automatically when a call comes in?', 'Yes, when call monitoring and auto-mute are switched on in Magic Toolbar’s Settings. When it detects a WhatsApp, Unite Phone or Microsoft Teams call, meeting apps and web browsers go quiet and a short notice shows which ones. When the call ends, the meeting sound it muted comes back.',
+   {table: {head: ['Situation', 'What happens'], rows: [
+     ['A WhatsApp or Unite Phone call rings', 'All meeting apps and web browsers are muted'],
+     ['A Microsoft Teams call rings', 'Everything is muted except Microsoft Teams, so you can hear the caller'],
+     ['The call ends', 'The meeting sound muted for the call comes back; sound that was already muted stays muted'],
+     ['You close Magic Toolbar', 'Any meeting sound it muted is turned back on first']]}}],
+  ['Will muting a meeting silence my WhatsApp call?', 'No. WhatsApp and Unite Phone are never part of the meeting group, so Ctrl+Alt+K and the automatic call mute leave them alone and you still hear your caller. To silence WhatsApp or Unite Phone themselves, for example their notification sounds, use Ctrl+Alt+G or Ctrl+Alt+V.'],
+  ['Do the mute hotkeys mute my microphone?', 'No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Alt+A in Zoom, Ctrl+Shift+M in Microsoft Teams or Ctrl+D in Google Meet on Windows.'],
+  ['How to take a call during an online meeting on Windows', 'A short routine keeps you polite in the meeting and clear on the phone. Silence your microphone and the meeting sound, take the call, then come back in the same order. If auto-mute is on, Magic Toolbar does the meeting sound steps for you.',
+   {steps: ['Mute your microphone in the meeting app, such as Alt+A in Zoom.', 'Press Ctrl+Alt+K to silence all meeting sound, or the hotkey for one app.', 'Answer the call on WhatsApp, Unite Phone or your other calling app.', 'After the call, press the same hotkey to hear the meeting again.', 'Unmute your microphone in the meeting app when you speak.']}],
+  ['How can I check that an app is muted?', 'Magic Toolbar uses the same switch as the speaker icons in Windows Settings, under System, Sound, Volume mixer. When an app is muted, its speaker icon there shows it, and you can turn the sound back on by hand at any time. No plugins, browser extensions or meeting settings are needed.'],
+  ['Why does Magic Toolbar say an app has not played any sound yet?', 'Windows only lists an app in the Volume mixer after it has played sound once. If Magic Toolbar says an app is not running or has not played any sound yet, start the app or join the meeting, wait until you hear it, then press the hotkey again.'],
+  ['Do the mute hotkeys work while Magic Toolbar is locked?', 'Yes. The mute hotkeys keep working on the lock screen, because they only change sound and never show your saved data. Tools that show saved texts, passenger details or screenshots stay closed until you unlock Magic Toolbar with your password.']
+ ],
+ related: ['mute-zoom-meeting-hotkey', 'f1-f12-hotkeys-saved-messages', 'travel-agent-shortcuts-notes']},
+
 {slug: 'mute-zoom-meeting-hotkey',
  title: 'Mute Zoom Meeting Sound With One Hotkey',
  description: 'Silence Zoom meeting sound with Ctrl+Shift+Z in Magic Toolbar when a passenger calls you on WhatsApp or another app, and turn it back on with the same keys.',
  category: 'Desk productivity',
+ updated: '2026-11-02',
  sections: [
   ['How do I mute Zoom meeting sound with one key?', 'Press Ctrl+Shift+Z while Magic Toolbar is running. Zoom meeting sound goes quiet at once, so you stop hearing the meeting. Press Ctrl+Shift+Z again to bring the sound back. You do not need to find the Zoom window or open its settings first.'],
-  ['How do I take a WhatsApp or other call during a Zoom meeting?', 'When a passenger calls on WhatsApp or any other app during a Zoom meeting on Windows, press Ctrl+Shift+Z to silence the meeting so you can hear the caller. After the call, press the same keys to hear the meeting again. The hotkey only controls Zoom sound, not the calling app.'],
+  ['How do I take a WhatsApp or other call during a Zoom meeting?', 'When a passenger calls on WhatsApp or another app during a Zoom meeting on Windows, press Ctrl+Shift+Z to silence the meeting so you can hear the caller. After the call, press the same keys to hear the meeting again. Ctrl+Shift+Z only controls Zoom sound, not the calling app.'],
   ['Does Ctrl+Shift+Z mute my microphone?', 'No. Ctrl+Shift+Z mutes the Zoom sound you hear, not your microphone or camera. To mute your microphone, use Zoom’s own shortcut, Alt+A on Windows, or the mute button. Use Alt+V to stop your video. Check the meeting controls to be sure.'],
   ['How to take a call during a Zoom meeting on Windows', 'A short routine keeps you polite in the meeting and clear on the phone. Tell the meeting you are stepping away, silence both your sound and your microphone, take the call, then come back in the same order. These steps take only a few seconds.',
-   {steps: ['Press Alt+A in Zoom to mute your microphone.', 'Press Ctrl+Shift+Z to silence the Zoom meeting sound.', 'Answer the call on WhatsApp or your other calling app.', 'After the call, press Ctrl+Shift+Z to hear the meeting again.', 'Press Alt+A to unmute your microphone when you speak.']}]
+   {steps: ['Press Alt+A in Zoom to mute your microphone.', 'Press Ctrl+Shift+Z to silence the Zoom meeting sound.', 'Answer the call on WhatsApp or your other calling app.', 'After the call, press Ctrl+Shift+Z to hear the meeting again.', 'Press Alt+A to unmute your microphone when you speak.']}],
+  ['Can Magic Toolbar mute other meeting apps too?', 'Yes. Ctrl+Alt+K silences all supported meeting apps and web browsers at once, including Microsoft Teams, Google Meet and Webex, and separate hotkeys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Magic Toolbar can also mute meetings automatically when a call comes in. The meeting mute guide lists every hotkey.']
  ],
- related: ['f1-f12-hotkeys-saved-messages', 'travel-agent-shortcuts-notes']},
+ related: ['mute-meeting-apps-hotkey', 'f1-f12-hotkeys-saved-messages', 'travel-agent-shortcuts-notes']},
 
 {slug: 'travel-agent-shortcuts-notes',
  title: 'Travel desk shortcuts, notes and reminders: a practical setup',
@@ -223,9 +275,9 @@ export const resources = [
   ['How do I organize command notes?', 'Keep Amadeus, Travelport and Sabre notes clearly labelled. Separate explanatory notes from text intended for copying, and review instructions when your GDS workflow changes. Stored notes are a reference, not a source of live fares or a guarantee that an entry is current.'],
   ['What belongs in a reusable container?', 'Use approved standard wording, internal checklists and reusable desk content. Keep sensitive passenger data out of general-purpose snippets, and confirm who can access the Windows account before storing customer information.'],
   ['How should I use reminders?', 'Create reminders for follow-ups and tasks, then review them as part of your day. Desktop reminders supplement your agency’s process; they should not be the sole record for payment deadlines, ticketing time limits or other critical commitments.'],
-  ['Does the Zoom hotkey mute my microphone?', 'No. Ctrl+Shift+Z silences the Zoom meeting sound you hear and brings it back with a second press. It does not mute your microphone or stop your video, so use Zoom’s own controls for those. The Zoom hotkey guide shows a full routine for taking calls.']
+  ['Do the meeting mute hotkeys mute my microphone?', 'No. Ctrl+Shift+Z silences Zoom and Ctrl+Alt+K silences all supported meeting apps and browsers, but only the sound you hear. They do not mute your microphone or stop your video, so use the meeting app’s own controls for those. The meeting mute guide lists every hotkey.']
  ],
- related: ['f1-f12-hotkeys-saved-messages', 'mute-zoom-meeting-hotkey', 'amadeus-commands-notes', 'travel-agency-software-checklist']},
+ related: ['f1-f12-hotkeys-saved-messages', 'mute-meeting-apps-hotkey', 'amadeus-commands-notes', 'travel-agency-software-checklist']},
 
 {slug: 'travel-agency-software-checklist',
  title: 'How to choose travel agency software for your daily work',

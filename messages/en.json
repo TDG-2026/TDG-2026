@@ -1157,7 +1157,12 @@
       "sourceHash": "b2f0081009f1550154b52035615447e76651143f787504c685de192c48d0b32b",
       "status": "published"
     },
-    "page.m1727": {
+    "page.m1862": {
+      "text": "Mute Zoom, Teams & Meet Sound With a Hotkey | Travel Genie",
+      "sourceHash": "7f510d5174bb2ef68aed93599029ccc03ff4983a31454754b315d72040289e8c",
+      "status": "published"
+    },
+    "page.m1863": {
       "text": "Mute Zoom During a WhatsApp Call: Hotkey | Travel Genie",
       "sourceHash": "0aa242bf22365cbb210cc9a1a9bb3dce854dec10e20d3e1fac309017ef69c829",
       "status": "published"
@@ -1197,9 +1202,9 @@
       "sourceHash": "0deeb5111e87be3ff04c9593e3e50a05428b228c05e097153b2ce0633bab764f",
       "status": "published"
     },
-    "page.m1731": {
-      "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and a Zoom mute hotkey together on Windows, so your daily desk work moves faster.",
-      "sourceHash": "94a7be35d8447fd0282a6d261dad7a7db03c16e4a9ab3afe89ba6f836f1b1381",
+    "page.m1771": {
+      "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and meeting mute hotkeys together on Windows, so your daily desk work moves faster.",
+      "sourceHash": "1c2969ed5e09a5493fed8efe4dba9cb9979578e7fc85ec571181d8b0e4b0dd37",
       "status": "published"
     },
     "page.m1442": {
@@ -7082,79 +7087,524 @@
       "sourceHash": "bfccd27362bd44f62f807af9e4bb9dcc7d224c1d948a4db5bd2a78324f42999e",
       "status": "published"
     },
-    "resources.m1702": {
+    "resources.m1772": {
+      "text": "Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey",
+      "sourceHash": "4feac44d42f5b5418624340fe815f5835d9fb981261124b941b54f487130ec7c",
+      "status": "published"
+    },
+    "resources.m1864": {
+      "text": "Silence Zoom, Microsoft Teams, Google Meet, WhatsApp and other meeting sound with one hotkey in Magic Toolbar, or let it mute meetings when a call comes in.",
+      "sourceHash": "ec7f438c09bdbc0707ae24fb2f713a46812caa55a47c6ec8849c0b8aa3d7574c",
+      "status": "published"
+    },
+    "resources.m1774": {
+      "text": "How do I mute meeting sound with one key?",
+      "sourceHash": "431c293498fc8c3548511b52d1abbca2a8146f7140f3184689034746e104538c",
+      "status": "published"
+    },
+    "resources.m1775": {
+      "text": "Press a hotkey while Magic Toolbar is running on Windows. Ctrl+Shift+Z silences Zoom, Ctrl+Alt+K silences all supported meeting apps and web browsers at once, and separate keys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Press the same keys again to bring the sound back.",
+      "sourceHash": "23a7344f5a8673517668dce9547b3b60218104297274a330b526109340562919",
+      "status": "published"
+    },
+    "resources.m1776": {
+      "text": "Which hotkey mutes which app?",
+      "sourceHash": "e1944173d4a7ff7b62cfb92995fc046327e6b324cf5dc9355c316bcf167483e0",
+      "status": "published"
+    },
+    "resources.m1777": {
+      "text": "Each hotkey works as a switch: the first press mutes, the second press unmutes. If another program already uses a combination, Magic Toolbar uses Ctrl+Shift+Alt with the same letter instead. This table lists every mute hotkey and what it covers.",
+      "sourceHash": "2750d907e589fb2e512eabff303b21cd58e0ce0917e2de6980d13e9a26fa852e",
+      "status": "published"
+    },
+    "resources.m1778": {
+      "text": "Hotkey",
+      "sourceHash": "6a6485af02cab90b55fb2ffb5b7d796d431d6e65cb8804ebf6c10c77b6ad4515",
+      "status": "published"
+    },
+    "resources.m1779": {
+      "text": "Mutes or unmutes",
+      "sourceHash": "984a322f80adce25926511bb5ed615e4a1071078e2f8b598888d1bea2511c463",
+      "status": "published"
+    },
+    "resources.m1780": {
+      "text": "Covers",
+      "sourceHash": "3f8d88db585d15e79b9d4b833b88b9bde9cb12b58a130379699b2d255198c810",
+      "status": "published"
+    },
+    "resources.m1781": {
+      "text": "Zoom",
+      "sourceHash": "509c517ede79fef060a5f3a109fd1f45951eef2c7970b25c20992011e36a4070",
+      "status": "published"
+    },
+    "resources.m1782": {
+      "text": "Zoom meetings and webinars in the Zoom desktop app",
+      "sourceHash": "05b9dba111a8265f6e664c170cf25afa64a0ef65e3d9eb21cd87a760ba3d781c",
+      "status": "published"
+    },
+    "resources.m1783": {
+      "text": "All meeting apps",
+      "sourceHash": "5a8bc85d24b72b811c0e5c3354162ad1f77952dc82377eda66bafb179676a839",
+      "status": "published"
+    },
+    "resources.m1784": {
+      "text": "Every supported meeting app and every web browser at once",
+      "sourceHash": "9bde550f21e05ebf93b0e09cfa7b769680b2b0db56227db22111edc76c7e177f",
+      "status": "published"
+    },
+    "resources.m1785": {
+      "text": "All web browsers",
+      "sourceHash": "25b8f83561930ef93dad9594410817d05fa99bc4df8b73975fe4ccee767e4a09",
+      "status": "published"
+    },
+    "resources.m1786": {
+      "text": "Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
+      "sourceHash": "62b19755881b3c87acab2dbd811688b4da5b680f06449d020de4eb822066f193",
+      "status": "published"
+    },
+    "resources.m1865": {
+      "text": "Microsoft Teams",
+      "sourceHash": "a7b52b269a23c025905190cdd81a2123f01b23aba7e7458b46f56dd0ab5a6ee8",
+      "status": "published"
+    },
+    "resources.m1788": {
+      "text": "Microsoft Teams meetings, calls and notification sounds",
+      "sourceHash": "0a76a22d3a42b3249fd42396032332a4c50a3e54533195f2b658c6068b4ab3c0",
+      "status": "published"
+    },
+    "resources.m1789": {
+      "text": "WhatsApp Desktop",
+      "sourceHash": "f8aec84cbada6c00f5f034e7600c76712b840e00c4efdcd28fa517d2a04721c2",
+      "status": "published"
+    },
+    "resources.m1790": {
+      "text": "WhatsApp calls, voice notes and notification sounds",
+      "sourceHash": "37df3031e2f1b34188c1233eb9bbb52dba9edc3422a64963937c55bdd133a30a",
+      "status": "published"
+    },
+    "resources.m1791": {
+      "text": "Unite Phone",
+      "sourceHash": "d0b0ffeacb39a3e1d2d7e639f5db571aed293e3367d41de8df1c78fbe1b48ff3",
+      "status": "published"
+    },
+    "resources.m1792": {
+      "text": "Unite Phone ringtone and call sound",
+      "sourceHash": "1205dc3b855a2ab16669f4d09b57afd5549ffc4ae8c65a182b6f036d9bf101f7",
+      "status": "published"
+    },
+    "resources.m1793": {
+      "text": "Which meeting apps does Ctrl+Alt+K cover?",
+      "sourceHash": "0efe52231481b2c1cce805a4d643477e57eeeff9e1845381d2358155f7c3e669",
+      "status": "published"
+    },
+    "resources.m1866": {
+      "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Zoom and Microsoft Teams also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
+      "sourceHash": "4b0ae7a029aeabbe48b840c9b9c02a40d6bcd1abe4e355686cc70eb358d75f06",
+      "status": "published"
+    },
+    "resources.m1795": {
+      "text": "Meeting app",
+      "sourceHash": "627512eb40fdc583941a23f2bee66be18c46c74fa67ed9663c1eecbaec8e7eac",
+      "status": "published"
+    },
+    "resources.m1796": {
+      "text": "Runs as",
+      "sourceHash": "dc98511e6b34e7f44f974fc81094df7d4accb47fcaed18249030bccd0c73c69b",
+      "status": "published"
+    },
+    "resources.m1797": {
+      "text": "Best for",
+      "sourceHash": "15582071ab2c6633117f2792ff83b0c207000b6c30473bd457b106ed0068a017",
+      "status": "published"
+    },
+    "resources.m1798": {
+      "text": "Desktop app",
+      "sourceHash": "7102842054a4a55bb11a84e9ca549c31daf4d932f05ed075ca8ca569ef09f0ab",
+      "status": "published"
+    },
+    "resources.m1867": {
+      "text": "Individuals and small teams",
+      "sourceHash": "4737dd0a3774492f59638ee93728a029663ee1000ddef025e1b7c7172410c639",
+      "status": "published"
+    },
+    "resources.m1800": {
+      "text": "Microsoft 365 users",
+      "sourceHash": "dda0e854c1ce7c0b01bb5487c6bfe5e133f8d64624bdcc82265b76e9f910a631",
+      "status": "published"
+    },
+    "resources.m1801": {
+      "text": "Cisco Webex",
+      "sourceHash": "a618e3b6b577f65be1804b88e063f9240561c15ba94a5af381e1e38b31359b87",
+      "status": "published"
+    },
+    "resources.m1802": {
+      "text": "Corporate conferences and multinational companies",
+      "sourceHash": "6a5e9ea020581f6e057cd8b2884b06cd8d95b00d22cc6b4ece657b8550a4d5bf",
+      "status": "published"
+    },
+    "resources.m1803": {
+      "text": "Slack",
+      "sourceHash": "b27fb38ba323745c91fe7fd9021605430d43bdb7d3be765266e29364d103e26f",
+      "status": "published"
+    },
+    "resources.m1804": {
+      "text": "Instant huddles",
+      "sourceHash": "3c80bddc2e214538843255662735485b0b9ac3ebeb924fa7fee19b5edbc6738c",
+      "status": "published"
+    },
+    "resources.m1805": {
+      "text": "GoTo Meeting",
+      "sourceHash": "0dab4a93fd3789550e5efdefdc879aa9d02bb875db9e6f7f6cea2fbdf72b9cb1",
+      "status": "published"
+    },
+    "resources.m1806": {
+      "text": "Meetings on the go",
+      "sourceHash": "249fc2a60c7b1cc4ea11d7bc4e0dd4b10752a157639bdb3261a3d3dbb2437303",
+      "status": "published"
+    },
+    "resources.m1807": {
+      "text": "RingCentral",
+      "sourceHash": "61df27a3c89e59845349c0b0e1adae474fe5308f396895ce8ccd6ee38a3e6269",
+      "status": "published"
+    },
+    "resources.m1808": {
+      "text": "Phone systems and team messaging",
+      "sourceHash": "a2ed355de54d9d60bfe5dfe9aecedf15a29f46fdc938af697a60ecdffee178fb",
+      "status": "published"
+    },
+    "resources.m1809": {
+      "text": "Zoho Meeting",
+      "sourceHash": "2319681729392edc88d1ad29c1a5702c73402a2cfab8b961a9bfb175410a690b",
+      "status": "published"
+    },
+    "resources.m1810": {
+      "text": "Webinars with polls and Q&A",
+      "sourceHash": "d9069895314b9746daca6c7904e594c09f28e38989e628dbbd8aef639ca5951e",
+      "status": "published"
+    },
+    "resources.m1811": {
+      "text": "Jitsi Meet",
+      "sourceHash": "9ec96cb44dd76a1d206ef8e09fdea5364c883c9259a07dac3aeb010c6d44f81a",
+      "status": "published"
+    },
+    "resources.m1812": {
+      "text": "Free, open-source meetings",
+      "sourceHash": "c9ad4d7202312963bf9e60f509ca186d43f6b4e0fb142ad8fe8178306cb2720b",
+      "status": "published"
+    },
+    "resources.m1813": {
+      "text": "TrueConf",
+      "sourceHash": "824d5a00c5e64677dbfb881388a904b473649a02546ca366cb3242afb9acdb96",
+      "status": "published"
+    },
+    "resources.m1814": {
+      "text": "Secure, high-quality video calls",
+      "sourceHash": "8946dd5adac883c2bf95b3072e73536a331d94bff5221b05d947b6446087fa02",
+      "status": "published"
+    },
+    "resources.m1815": {
+      "text": "Adobe Connect",
+      "sourceHash": "6dc7ffa4255666fee88952d7a5eb64f4a536609972dda21219c32f32c4107134",
+      "status": "published"
+    },
+    "resources.m1816": {
+      "text": "Custom-designed meeting rooms",
+      "sourceHash": "c7e55a81da07089f935231005d7e3387e9c506a8c1e6e8b09d65085cc15fbda1",
+      "status": "published"
+    },
+    "resources.m1817": {
+      "text": "Google Meet",
+      "sourceHash": "78aeb390abbc558f405421c2bf46708d6c4ccf96745cee50e9a4b36dae6f6975",
+      "status": "published"
+    },
+    "resources.m1818": {
+      "text": "Web browser",
+      "sourceHash": "21d699ed42e387772c0c2951563ed983d3935865cd9086e6acbcceb147b56399",
+      "status": "published"
+    },
+    "resources.m1819": {
+      "text": "Google Workspace users",
+      "sourceHash": "b176f3580000a7e6e5a85238b6b99d6fa8592e108d7d861e6a078e04d25061d6",
+      "status": "published"
+    },
+    "resources.m1820": {
+      "text": "Whereby",
+      "sourceHash": "de4518bbd4eb578feeddd591e24d9620d19d03684ba1fbb2eb68272ec08f9873",
+      "status": "published"
+    },
+    "resources.m1821": {
+      "text": "Video meetings embedded in your own product",
+      "sourceHash": "9672f20cc7d3a612c15b3e3afc546136ab20a215515e12d51691887d97996595",
+      "status": "published"
+    },
+    "resources.m1822": {
+      "text": "Livestorm",
+      "sourceHash": "1478f68a6ac05b2679a0034b0bbbe7274cbda41ad1e522d81beee53bb4e9f595",
+      "status": "published"
+    },
+    "resources.m1823": {
+      "text": "Client-facing webinars and training",
+      "sourceHash": "c49348735a8744f9576cb8ee9f57a97ee17dbe630b7da6d5a45a46e49ac93b45",
+      "status": "published"
+    },
+    "resources.m1824": {
+      "text": "ClickMeeting",
+      "sourceHash": "562f266f84659a4e3fd4948a1314ffa35acc28e44c5e63f773d98d376b03e7b3",
+      "status": "published"
+    },
+    "resources.m1825": {
+      "text": "Large online events",
+      "sourceHash": "3e38acbb17e3b85f0d8622a60050ce01b9270dcdeea1b655e9802d776fbf298f",
+      "status": "published"
+    },
+    "resources.m1826": {
+      "text": "Viva Engage",
+      "sourceHash": "701369762f0e15fcb27cdd390e96d9c089ca8ac9f77c602c09db82a81d1557e1",
+      "status": "published"
+    },
+    "resources.m1827": {
+      "text": "Company-wide broadcasts",
+      "sourceHash": "bacaf653450c871227e88e27f4eb1cedbd070fb7ec57940b93fbdf5172254a0c",
+      "status": "published"
+    },
+    "resources.m1828": {
+      "text": "How do I mute a meeting that runs in my browser?",
+      "sourceHash": "362c731fbe3373e3b70b3c20262c19ff17432274bb1b7ab644fe12f6903ba75a",
+      "status": "published"
+    },
+    "resources.m1829": {
+      "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Zoom or Microsoft Teams run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
+      "sourceHash": "9f979c190f13de8d32f677ba696e0b1b625fa7e68b9430a58616db1b4211dad0",
+      "status": "published"
+    },
+    "resources.m1830": {
+      "text": "Can Magic Toolbar mute meetings automatically when a call comes in?",
+      "sourceHash": "5382b5300db9411b1e6d054004e7796d01555742081301338b8a5ab591bc9cd4",
+      "status": "published"
+    },
+    "resources.m1868": {
+      "text": "Yes, when call monitoring and auto-mute are switched on in Magic Toolbar’s Settings. When it detects a WhatsApp, Unite Phone or Microsoft Teams call, meeting apps and web browsers go quiet and a short notice shows which ones. When the call ends, the meeting sound it muted comes back.",
+      "sourceHash": "82d918dd8407631280b045802fbeb399c05369a40a138b492cd29da059564f1d",
+      "status": "published"
+    },
+    "resources.m1832": {
+      "text": "Situation",
+      "sourceHash": "b3aeeb32a0c7c5d45b6e955370301ca1c8d271eaabafaf9125e371ef28984223",
+      "status": "published"
+    },
+    "resources.m1833": {
+      "text": "What happens",
+      "sourceHash": "70fbb54bd5e6ff77ad448bae4307cccaab65d37717f72d5e6ebd307d903d28aa",
+      "status": "published"
+    },
+    "resources.m1834": {
+      "text": "A WhatsApp or Unite Phone call rings",
+      "sourceHash": "b02cc28675a5225cc3ba19816a9ed113b220f4a16524c65fb7b6d5ec27f3d347",
+      "status": "published"
+    },
+    "resources.m1835": {
+      "text": "All meeting apps and web browsers are muted",
+      "sourceHash": "0401f17523b4c8fad2fa2baf075b8f9a3959037bbb86ce299a2732488ce549af",
+      "status": "published"
+    },
+    "resources.m1869": {
+      "text": "A Microsoft Teams call rings",
+      "sourceHash": "8cc75098a2935d716603e3667837dd8602449802bbc52a0ff09447d30534d09a",
+      "status": "published"
+    },
+    "resources.m1837": {
+      "text": "Everything is muted except Microsoft Teams, so you can hear the caller",
+      "sourceHash": "22e9e8fae42132935bdc2e74aa45b833a32bf0e83c77619ebb47839ac6cf7467",
+      "status": "published"
+    },
+    "resources.m1838": {
+      "text": "The call ends",
+      "sourceHash": "8a95d155d60ba425824b2b6c3192b9ddfff793f46ca29110219091e7f6330208",
+      "status": "published"
+    },
+    "resources.m1839": {
+      "text": "The meeting sound muted for the call comes back; sound that was already muted stays muted",
+      "sourceHash": "aba32f62b90cb36d40e7fbe74c99cabed6022e913733d2c59fe49d7ef7dae533",
+      "status": "published"
+    },
+    "resources.m1840": {
+      "text": "You close Magic Toolbar",
+      "sourceHash": "c0e673be9bd81364e6be7eef34443b9e190e91985f0ee9c234e0edaee43aba13",
+      "status": "published"
+    },
+    "resources.m1841": {
+      "text": "Any meeting sound it muted is turned back on first",
+      "sourceHash": "a43ef82014d84788c412729fc84b7d42c57d9d37789f5c25c8df016e9f19bf95",
+      "status": "published"
+    },
+    "resources.m1842": {
+      "text": "Will muting a meeting silence my WhatsApp call?",
+      "sourceHash": "e4c74553e4f64ad9730fe2fc2aaf80a17e37ff44bf435328319417117da22276",
+      "status": "published"
+    },
+    "resources.m1843": {
+      "text": "No. WhatsApp and Unite Phone are never part of the meeting group, so Ctrl+Alt+K and the automatic call mute leave them alone and you still hear your caller. To silence WhatsApp or Unite Phone themselves, for example their notification sounds, use Ctrl+Alt+G or Ctrl+Alt+V.",
+      "sourceHash": "a4a2a3b9fd112979bb9f1a90acba5d1c2cba4903dd92c08e8605ddf37e85e391",
+      "status": "published"
+    },
+    "resources.m1844": {
+      "text": "Do the mute hotkeys mute my microphone?",
+      "sourceHash": "89d5bbbde9d4e3a8e49fb7080f903b586a66865970903952c05035e56c75cbe3",
+      "status": "published"
+    },
+    "resources.m1870": {
+      "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Alt+A in Zoom, Ctrl+Shift+M in Microsoft Teams or Ctrl+D in Google Meet on Windows.",
+      "sourceHash": "b1d1adbc08ed2028fa9415e2c49b2c49e123aac61bb3e237b4783af44cd9c700",
+      "status": "published"
+    },
+    "resources.m1846": {
+      "text": "How to take a call during an online meeting on Windows",
+      "sourceHash": "7971f177771f3b8cd3393e86f60f4aeb84cfaf5e1875270d77c0c4b11397ec8c",
+      "status": "published"
+    },
+    "resources.m1847": {
+      "text": "A short routine keeps you polite in the meeting and clear on the phone. Silence your microphone and the meeting sound, take the call, then come back in the same order. If auto-mute is on, Magic Toolbar does the meeting sound steps for you.",
+      "sourceHash": "722027796e76ce3113c041ba6d6402b4e4a73374af1b6573ffc856da304ee4e1",
+      "status": "published"
+    },
+    "resources.m1848": {
+      "text": "Mute your microphone in the meeting app, such as Alt+A in Zoom.",
+      "sourceHash": "f3f853eff1a442cb8843a696cc35a9be8ed829098650ba0bf52000562335f2f9",
+      "status": "published"
+    },
+    "resources.m1849": {
+      "text": "Press Ctrl+Alt+K to silence all meeting sound, or the hotkey for one app.",
+      "sourceHash": "56d06c1fbbb7bc7fa59ab8c7f4936412f1069ce6f04f27fdaad63f225a49db6e",
+      "status": "published"
+    },
+    "resources.m1850": {
+      "text": "Answer the call on WhatsApp, Unite Phone or your other calling app.",
+      "sourceHash": "a3a1dc957629e35a40e6835ad70ae652ddf71bb819e4aa48ac4a90160e981e55",
+      "status": "published"
+    },
+    "resources.m1851": {
+      "text": "After the call, press the same hotkey to hear the meeting again.",
+      "sourceHash": "de19f50bbd8c66e45f64c26263287144237c09092782a78a15afb58535884bca",
+      "status": "published"
+    },
+    "resources.m1852": {
+      "text": "Unmute your microphone in the meeting app when you speak.",
+      "sourceHash": "4351a1f1a9c79ed99d1110d3f4515081532fdba5daa8896e0198340c436395d6",
+      "status": "published"
+    },
+    "resources.m1853": {
+      "text": "How can I check that an app is muted?",
+      "sourceHash": "a60a8424f04853da2f467e73289dd4bbb3a33aebcc99372818664a70cf962ea3",
+      "status": "published"
+    },
+    "resources.m1854": {
+      "text": "Magic Toolbar uses the same switch as the speaker icons in Windows Settings, under System, Sound, Volume mixer. When an app is muted, its speaker icon there shows it, and you can turn the sound back on by hand at any time. No plugins, browser extensions or meeting settings are needed.",
+      "sourceHash": "0330a44ae026116feff29576b45b9bdfde9a85f4b124cdcfdbae30f8fd4b6fee",
+      "status": "published"
+    },
+    "resources.m1855": {
+      "text": "Why does Magic Toolbar say an app has not played any sound yet?",
+      "sourceHash": "775ade9dbabbdb37c804f78eec26152cb8b43ed6409541f2a18cceeb369a7581",
+      "status": "published"
+    },
+    "resources.m1856": {
+      "text": "Windows only lists an app in the Volume mixer after it has played sound once. If Magic Toolbar says an app is not running or has not played any sound yet, start the app or join the meeting, wait until you hear it, then press the hotkey again.",
+      "sourceHash": "975bb5080301212f7f88fe33593a00d6a2de03841abf422ee60e423047c00b38",
+      "status": "published"
+    },
+    "resources.m1857": {
+      "text": "Do the mute hotkeys work while Magic Toolbar is locked?",
+      "sourceHash": "26c028c8e66be7e86509bfa3618b55dd35ad8142ce93058ea2c78a4196a8b443",
+      "status": "published"
+    },
+    "resources.m1858": {
+      "text": "Yes. The mute hotkeys keep working on the lock screen, because they only change sound and never show your saved data. Tools that show saved texts, passenger details or screenshots stay closed until you unlock Magic Toolbar with your password.",
+      "sourceHash": "283540397ef8df6b87120efcd49a59f16f7b1c93c8b2b0495cbc6386bfdf8c62",
+      "status": "published"
+    },
+    "resources.m1871": {
       "text": "Mute Zoom Meeting Sound With One Hotkey",
       "sourceHash": "0bdb1076e2c55e3a8ce92c4a327fa4df6623be86280c38d90a83cd346dd5b2be",
       "status": "published"
     },
-    "resources.m1735": {
+    "resources.m1872": {
       "text": "Silence Zoom meeting sound with Ctrl+Shift+Z in Magic Toolbar when a passenger calls you on WhatsApp or another app, and turn it back on with the same keys.",
       "sourceHash": "f20c8ed8b6217f2ba52668b490bb26da6e0872e1f29127ee0f5283258987ae46",
       "status": "published"
     },
-    "resources.m1704": {
+    "resources.m1873": {
       "text": "How do I mute Zoom meeting sound with one key?",
       "sourceHash": "7c02a0c73dd0e9425d20c6c3c2c2c6c6e28eac49fe40b1bc18f0c449cfac1865",
       "status": "published"
     },
-    "resources.m1705": {
+    "resources.m1874": {
       "text": "Press Ctrl+Shift+Z while Magic Toolbar is running. Zoom meeting sound goes quiet at once, so you stop hearing the meeting. Press Ctrl+Shift+Z again to bring the sound back. You do not need to find the Zoom window or open its settings first.",
       "sourceHash": "6d84f572633e2a855dc58be4c2ef5a15ab0731b3fa1e172ec71b9f99f069559b",
       "status": "published"
     },
-    "resources.m1736": {
+    "resources.m1875": {
       "text": "How do I take a WhatsApp or other call during a Zoom meeting?",
       "sourceHash": "a981ed87dfee98dc73627fd7bd0c85dd683f71b635e07e1077cf84f542d6af23",
       "status": "published"
     },
-    "resources.m1737": {
-      "text": "When a passenger calls on WhatsApp or any other app during a Zoom meeting on Windows, press Ctrl+Shift+Z to silence the meeting so you can hear the caller. After the call, press the same keys to hear the meeting again. The hotkey only controls Zoom sound, not the calling app.",
-      "sourceHash": "45df73fce87f2bb7c9ea0a45aa6c6d89d2b0f9a7abf6d0bee174522809480b58",
+    "resources.m1876": {
+      "text": "When a passenger calls on WhatsApp or another app during a Zoom meeting on Windows, press Ctrl+Shift+Z to silence the meeting so you can hear the caller. After the call, press the same keys to hear the meeting again. Ctrl+Shift+Z only controls Zoom sound, not the calling app.",
+      "sourceHash": "261c0392058096d89562b837b282e72b4a42e5ee86de677061a86846ebb4ffa7",
       "status": "published"
     },
-    "resources.m1708": {
+    "resources.m1877": {
       "text": "Does Ctrl+Shift+Z mute my microphone?",
       "sourceHash": "80878ecd3a100d6835ee0e1dab354cb6452ecdb31eccb3a82810cec212109574",
       "status": "published"
     },
-    "resources.m1709": {
+    "resources.m1878": {
       "text": "No. Ctrl+Shift+Z mutes the Zoom sound you hear, not your microphone or camera. To mute your microphone, use Zoom’s own shortcut, Alt+A on Windows, or the mute button. Use Alt+V to stop your video. Check the meeting controls to be sure.",
       "sourceHash": "7272244b02c8e49de46f91a9a4b105fa77275286eb6bdcd285c7695f253bd1be",
       "status": "published"
     },
-    "resources.m1738": {
+    "resources.m1879": {
       "text": "How to take a call during a Zoom meeting on Windows",
       "sourceHash": "e51819ac31e136b4ee4c3aa33ea64cc0ddbf2e506cdfe7b8d321b70162bea035",
       "status": "published"
     },
-    "resources.m1711": {
+    "resources.m1880": {
       "text": "A short routine keeps you polite in the meeting and clear on the phone. Tell the meeting you are stepping away, silence both your sound and your microphone, take the call, then come back in the same order. These steps take only a few seconds.",
       "sourceHash": "c91bc1117615ac718992139274adb5468345f9c56c12cf996ff5a3418a26e3fc",
       "status": "published"
     },
-    "resources.m1712": {
+    "resources.m1881": {
       "text": "Press Alt+A in Zoom to mute your microphone.",
       "sourceHash": "2dcdfadef778e8b61b1a5e023e1f44907cf332d84bfb358e2c08f483cf6a63c2",
       "status": "published"
     },
-    "resources.m1713": {
+    "resources.m1882": {
       "text": "Press Ctrl+Shift+Z to silence the Zoom meeting sound.",
       "sourceHash": "4988c6ebc1b0975eb7aa051679878f8689ced311f5ca204b5da175ac16fd3803",
       "status": "published"
     },
-    "resources.m1739": {
+    "resources.m1883": {
       "text": "Answer the call on WhatsApp or your other calling app.",
       "sourceHash": "c6c3435d28daeb3c96428d196a03198fcc7652c880f719627f5d92df301e259b",
       "status": "published"
     },
-    "resources.m1715": {
+    "resources.m1884": {
       "text": "After the call, press Ctrl+Shift+Z to hear the meeting again.",
       "sourceHash": "ae251bba480ff673aca02bb72d7c14fd2efad7c5b0094820800ff7d8a1e5f0e3",
       "status": "published"
     },
-    "resources.m1716": {
+    "resources.m1885": {
       "text": "Press Alt+A to unmute your microphone when you speak.",
       "sourceHash": "9472e2211c58af37990b0c982dc78791ffe404b89182795bfb15b9a884cbe8d6",
+      "status": "published"
+    },
+    "resources.m1886": {
+      "text": "Can Magic Toolbar mute other meeting apps too?",
+      "sourceHash": "6bf8c0599d008859ea7db09140b5eb8c0991da9d6bce7053c4468cf6c02baf58",
+      "status": "published"
+    },
+    "resources.m1887": {
+      "text": "Yes. Ctrl+Alt+K silences all supported meeting apps and web browsers at once, including Microsoft Teams, Google Meet and Webex, and separate hotkeys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Magic Toolbar can also mute meetings automatically when a call comes in. The meeting mute guide lists every hotkey.",
+      "sourceHash": "e9e1b2218ba82ef4d5089920d73d8467101846ae1b886548e4b10ba25f098e1f",
       "status": "published"
     },
     "resources.m0919": {
@@ -7207,14 +7657,14 @@
       "sourceHash": "be78623bbd567fc9f35dacb0c389350d555474ed12690c7b2d97239d8b9e2ffe",
       "status": "published"
     },
-    "resources.m0930": {
-      "text": "Does the Zoom hotkey mute my microphone?",
-      "sourceHash": "d25c6939247f208a9c9160c46d7dd70662bec23a1e5d86e070d95e919d163b9f",
+    "resources.m1859": {
+      "text": "Do the meeting mute hotkeys mute my microphone?",
+      "sourceHash": "7456de76edae4fada44c905e60581cf6c92cf90b2c87c2a763cc206df368a00a",
       "status": "published"
     },
-    "resources.m1717": {
-      "text": "No. Ctrl+Shift+Z silences the Zoom meeting sound you hear and brings it back with a second press. It does not mute your microphone or stop your video, so use Zoom’s own controls for those. The Zoom hotkey guide shows a full routine for taking calls.",
-      "sourceHash": "c3fcf39ce3c2bd8314bb585a397f381828a9ac260a5ddf1f08b033084fd5adba",
+    "resources.m1860": {
+      "text": "No. Ctrl+Shift+Z silences Zoom and Ctrl+Alt+K silences all supported meeting apps and browsers, but only the sound you hear. They do not mute your microphone or stop your video, so use the meeting app’s own controls for those. The meeting mute guide lists every hotkey.",
+      "sourceHash": "ec79186f693040c56047b8ac15f0b96064d271e779966d03f6e75a6c10f9f39f",
       "status": "published"
     },
     "resources.m0931": {
@@ -7875,6 +8325,11 @@
     "seo.m1478": {
       "text": "Reminders and phone directory",
       "sourceHash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
+      "status": "published"
+    },
+    "seo.m1861": {
+      "text": "Meeting mute hotkeys for Zoom, Microsoft Teams and browsers",
+      "sourceHash": "90627faf67cd5d512528324edc60ed546e3f5b1abbdc65efce7d32d13cb18c52",
       "status": "published"
     },
     "seo.m1040": {

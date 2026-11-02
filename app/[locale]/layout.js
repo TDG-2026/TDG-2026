@@ -27,7 +27,7 @@ export default async function LocaleLayout({children, params}) {
   const info = localeInfo(locale);
   const [catalog, dict] = await Promise.all([getCatalog(info.code), getClientDictionary(info.code)]);
   return (
-    <html lang={info.code} dir={info.dir}>
+    <html lang={info.code} dir={info.dir} data-scroll-behavior="smooth">
       <body>
         <LocaleProvider locale={info.code} dict={dict} complete={catalog.complete} published={catalog.published} machine={catalog.machine}>
           <StructuredData data={[organizationSchema(), websiteSchema(info.code)]} />

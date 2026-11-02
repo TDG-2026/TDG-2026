@@ -89,7 +89,7 @@
     "hash": "32c8d8980df3f3465113ea6d12507cb3ee7906efd12993844c4419c2ea68d6bb",
     "sources": [
       "app\\[locale]\\about\\page.js:21",
-      "app\\[locale]\\resources\\[slug]\\page.js:123",
+      "app\\[locale]\\resources\\[slug]\\page.js:124",
       "components\\EcosystemIntro.js:4",
       "components\\FinalCta.js:10",
       "components\\Hero.js:11",
@@ -477,7 +477,7 @@
     "hash": "b5658fc8edda24f9c94eabac9e536e0a18e3055a8ca255f9d1b8f256ea02a6cc",
     "sources": [
       "app\\[locale]\\guide\\page.js:8",
-      "app\\[locale]\\resources\\[slug]\\page.js:88",
+      "app\\[locale]\\resources\\[slug]\\page.js:89",
       "messages\\additional-source.json:1"
     ]
   },
@@ -683,8 +683,8 @@
       "app\\[locale]\\products\\[slug]\\page.js:66",
       "app\\[locale]\\products\\[slug]\\page.js:70",
       "app\\[locale]\\resources\\page.js:9",
-      "app\\[locale]\\resources\\[slug]\\page.js:75",
-      "app\\[locale]\\resources\\[slug]\\page.js:79",
+      "app\\[locale]\\resources\\[slug]\\page.js:76",
+      "app\\[locale]\\resources\\[slug]\\page.js:80",
       "data\\site.js:39",
       "data\\translations.en.js:5",
       "data\\site.js:1",
@@ -1101,7 +1101,7 @@
     "sources": [
       "app\\[locale]\\products\\magic-toolbar\\page.js:14",
       "app\\[locale]\\products\\[slug]\\page.js:69",
-      "app\\[locale]\\resources\\[slug]\\page.js:78",
+      "app\\[locale]\\resources\\[slug]\\page.js:79",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1620,8 +1620,8 @@
     "hash": "e89b30aa1dc30a6ad8c34610689bede83b3ef645a24c3a84a0990826687fb735",
     "sources": [
       "app\\[locale]\\resources\\page.js:9",
-      "app\\[locale]\\resources\\[slug]\\page.js:75",
-      "app\\[locale]\\resources\\[slug]\\page.js:80",
+      "app\\[locale]\\resources\\[slug]\\page.js:76",
+      "app\\[locale]\\resources\\[slug]\\page.js:81",
       "components\\Footer.js:50",
       "data\\site.js:40",
       "data\\site.js:1",
@@ -1726,18 +1726,25 @@
       "app\\[locale]\\resources\\[slug]\\page.js:22"
     ]
   },
-  "page.m1727": {
+  "page.m1862": {
+    "text": "Mute Zoom, Teams & Meet Sound With a Hotkey | Travel Genie",
+    "hash": "7f510d5174bb2ef68aed93599029ccc03ff4983a31454754b315d72040289e8c",
+    "sources": [
+      "app\\[locale]\\resources\\[slug]\\page.js:23"
+    ]
+  },
+  "page.m1863": {
     "text": "Mute Zoom During a WhatsApp Call: Hotkey | Travel Genie",
     "hash": "0aa242bf22365cbb210cc9a1a9bb3dce854dec10e20d3e1fac309017ef69c829",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:23"
+      "app\\[locale]\\resources\\[slug]\\page.js:24"
     ]
   },
   "additionalsourcejson.m1124": {
     "text": "Travel Desk Shortcuts & Notes | Travel Genie",
     "hash": "a965ed532febbecdbcb3ff66d532d51cef6c727781277d1d552be13ea5d78110",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:24",
+      "app\\[locale]\\resources\\[slug]\\page.js:25",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1745,7 +1752,7 @@
     "text": "Travel Agency Software Checklist | Travel Genie",
     "hash": "0b14f2a4d9c820b91b9abaca23d76e19784adc347ee1924c4e49c6a3494f9faf",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:25",
+      "app\\[locale]\\resources\\[slug]\\page.js:26",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1753,7 +1760,7 @@
     "text": "Photo tools",
     "hash": "4668afe39c9dd198f56ab2986398663cd58bdb39cc5d90d085bf568cbaccb6f4",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:30",
+      "app\\[locale]\\resources\\[slug]\\page.js:31",
       "data\\resources.js:164",
       "data\\resources.js:1"
     ]
@@ -1762,25 +1769,26 @@
     "text": "Fix visa photos in minutes",
     "hash": "ec8dca04e243e3161669d59955100c39d4615f8e99380afe7158d8697df847dc",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:30"
+      "app\\[locale]\\resources\\[slug]\\page.js:31"
     ]
   },
   "page.m1729": {
     "text": "Magic Toolbar checks visa photo size, improves quality and straightens tilted photos on Windows, so you can prepare each application photo in minutes.",
     "hash": "6ba42f38173f8a3c5576b90089957b32f9601e88982470678dfd3f6e4b13a7e6",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:30"
+      "app\\[locale]\\resources\\[slug]\\page.js:31"
     ]
   },
   "resources.m0921": {
     "text": "Desk productivity",
     "hash": "e15b719898bbe6141118eff322e6226cece2966e60c0ac8eeb9acbac719d91dc",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:31",
+      "app\\[locale]\\resources\\[slug]\\page.js:32",
       "data\\resources.js:182",
       "data\\resources.js:195",
-      "data\\resources.js:207",
-      "data\\resources.js:220",
+      "data\\resources.js:208",
+      "data\\resources.js:257",
+      "data\\resources.js:272",
       "data\\resources.js:1"
     ]
   },
@@ -1788,21 +1796,21 @@
     "text": "Make your travel desk faster",
     "hash": "0deeb5111e87be3ff04c9593e3e50a05428b228c05e097153b2ce0633bab764f",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:31"
+      "app\\[locale]\\resources\\[slug]\\page.js:32"
     ]
   },
-  "page.m1731": {
-    "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and a Zoom mute hotkey together on Windows, so your daily desk work moves faster.",
-    "hash": "94a7be35d8447fd0282a6d261dad7a7db03c16e4a9ab3afe89ba6f836f1b1381",
+  "page.m1771": {
+    "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and meeting mute hotkeys together on Windows, so your daily desk work moves faster.",
+    "hash": "1c2969ed5e09a5493fed8efe4dba9cb9979578e7fc85ec571181d8b0e4b0dd37",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:31"
+      "app\\[locale]\\resources\\[slug]\\page.js:32"
     ]
   },
   "page.m1442": {
     "text": "Ready to prepare entries faster?",
     "hash": "02b78c0a85a00bd5cb45ba219a8b60ddbd13ce178e02384b60b32dfc88f13dd0",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:33",
+      "app\\[locale]\\resources\\[slug]\\page.js:34",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1810,35 +1818,35 @@
     "text": "Magic Toolbar prepares NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre on Windows. You check each entry, then copy it into your GDS.",
     "hash": "a5a2360b9c17bc51e7d7e10568ad86a7a91d4ccfd27d59c0ec8665c0c007acfe",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:33"
+      "app\\[locale]\\resources\\[slug]\\page.js:34"
     ]
   },
   "page.m1437": {
     "text": "T00:00:00Z",
     "hash": "585ccfc41be5de6d7561af3c6b0b8c37eaf283995055ff7f4c94029f8f559388",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:35"
+      "app\\[locale]\\resources\\[slug]\\page.js:36"
     ]
   },
   "page.m1733": {
     "text": "HowTo",
     "hash": "35bb1a3a7ab3abad87253e8e97cc9a451411db09eaf0939f59d0e1292feb3cdd",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:63"
+      "app\\[locale]\\resources\\[slug]\\page.js:64"
     ]
   },
   "page.m1734": {
     "text": "HowToStep",
     "hash": "84f7b77c4d05f4377bc80ad8e57931903d52eb1b925e4a33c3c881002c2b3b29",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:64"
+      "app\\[locale]\\resources\\[slug]\\page.js:65"
     ]
   },
   "page.m1438": {
     "text": "By Travel Genie",
     "hash": "21bdff43ef22bf0ed5ff5f715f2a7533e0513e1e67a3c18b2a0a9d706e130224",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:86",
+      "app\\[locale]\\resources\\[slug]\\page.js:87",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1846,7 +1854,7 @@
     "text": "Published",
     "hash": "2ef42ec21d9300dd21ae3c7ca3711806cce3003fa4edafd22ee744fe86599799",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:86",
+      "app\\[locale]\\resources\\[slug]\\page.js:87",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1854,7 +1862,7 @@
     "text": "Updated",
     "hash": "3a5ecca188c0579c00ee24cf3cab21bd02c15a06f7a70cc8e0a8ff2381dcbbfd",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:86",
+      "app\\[locale]\\resources\\[slug]\\page.js:87",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1862,7 +1870,7 @@
     "text": "{minutes} min read",
     "hash": "7166006e74bc2008d901c104fb4fc0343ddd1876554daf82f375820e0d4b7d67",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:86",
+      "app\\[locale]\\resources\\[slug]\\page.js:87",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1870,7 +1878,7 @@
     "text": "Related guides",
     "hash": "1e5b36078e376cd4606154d914ba9eba7c5cb5aa0c5d35f1c86e4749c54d3279",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:118",
+      "app\\[locale]\\resources\\[slug]\\page.js:119",
       "messages\\additional-source.json:1"
     ]
   },
@@ -10541,123 +10549,850 @@
       "data\\resources.js:1"
     ]
   },
-  "resources.m1702": {
-    "text": "Mute Zoom Meeting Sound With One Hotkey",
-    "hash": "0bdb1076e2c55e3a8ce92c4a327fa4df6623be86280c38d90a83cd346dd5b2be",
-    "sources": [
-      "data\\resources.js:205",
-      "data\\resources.js:1"
-    ]
-  },
-  "resources.m1735": {
-    "text": "Silence Zoom meeting sound with Ctrl+Shift+Z in Magic Toolbar when a passenger calls you on WhatsApp or another app, and turn it back on with the same keys.",
-    "hash": "f20c8ed8b6217f2ba52668b490bb26da6e0872e1f29127ee0f5283258987ae46",
+  "resources.m1772": {
+    "text": "Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey",
+    "hash": "4feac44d42f5b5418624340fe815f5835d9fb981261124b941b54f487130ec7c",
     "sources": [
       "data\\resources.js:206",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1704": {
+  "resources.m1864": {
+    "text": "Silence Zoom, Microsoft Teams, Google Meet, WhatsApp and other meeting sound with one hotkey in Magic Toolbar, or let it mute meetings when a call comes in.",
+    "hash": "ec7f438c09bdbc0707ae24fb2f713a46812caa55a47c6ec8849c0b8aa3d7574c",
+    "sources": [
+      "data\\resources.js:207",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1774": {
+    "text": "How do I mute meeting sound with one key?",
+    "hash": "431c293498fc8c3548511b52d1abbca2a8146f7140f3184689034746e104538c",
+    "sources": [
+      "data\\resources.js:211",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1775": {
+    "text": "Press a hotkey while Magic Toolbar is running on Windows. Ctrl+Shift+Z silences Zoom, Ctrl+Alt+K silences all supported meeting apps and web browsers at once, and separate keys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Press the same keys again to bring the sound back.",
+    "hash": "23a7344f5a8673517668dce9547b3b60218104297274a330b526109340562919",
+    "sources": [
+      "data\\resources.js:211",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1776": {
+    "text": "Which hotkey mutes which app?",
+    "hash": "e1944173d4a7ff7b62cfb92995fc046327e6b324cf5dc9355c316bcf167483e0",
+    "sources": [
+      "data\\resources.js:212",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1777": {
+    "text": "Each hotkey works as a switch: the first press mutes, the second press unmutes. If another program already uses a combination, Magic Toolbar uses Ctrl+Shift+Alt with the same letter instead. This table lists every mute hotkey and what it covers.",
+    "hash": "2750d907e589fb2e512eabff303b21cd58e0ce0917e2de6980d13e9a26fa852e",
+    "sources": [
+      "data\\resources.js:212",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1778": {
+    "text": "Hotkey",
+    "hash": "6a6485af02cab90b55fb2ffb5b7d796d431d6e65cb8804ebf6c10c77b6ad4515",
+    "sources": [
+      "data\\resources.js:213",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1779": {
+    "text": "Mutes or unmutes",
+    "hash": "984a322f80adce25926511bb5ed615e4a1071078e2f8b598888d1bea2511c463",
+    "sources": [
+      "data\\resources.js:213",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1780": {
+    "text": "Covers",
+    "hash": "3f8d88db585d15e79b9d4b833b88b9bde9cb12b58a130379699b2d255198c810",
+    "sources": [
+      "data\\resources.js:213",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1781": {
+    "text": "Zoom",
+    "hash": "509c517ede79fef060a5f3a109fd1f45951eef2c7970b25c20992011e36a4070",
+    "sources": [
+      "data\\resources.js:214",
+      "data\\resources.js:222",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1782": {
+    "text": "Zoom meetings and webinars in the Zoom desktop app",
+    "hash": "05b9dba111a8265f6e664c170cf25afa64a0ef65e3d9eb21cd87a760ba3d781c",
+    "sources": [
+      "data\\resources.js:214",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1783": {
+    "text": "All meeting apps",
+    "hash": "5a8bc85d24b72b811c0e5c3354162ad1f77952dc82377eda66bafb179676a839",
+    "sources": [
+      "data\\resources.js:215",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1784": {
+    "text": "Every supported meeting app and every web browser at once",
+    "hash": "9bde550f21e05ebf93b0e09cfa7b769680b2b0db56227db22111edc76c7e177f",
+    "sources": [
+      "data\\resources.js:215",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1785": {
+    "text": "All web browsers",
+    "hash": "25b8f83561930ef93dad9594410817d05fa99bc4df8b73975fe4ccee767e4a09",
+    "sources": [
+      "data\\resources.js:216",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1786": {
+    "text": "Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
+    "hash": "62b19755881b3c87acab2dbd811688b4da5b680f06449d020de4eb822066f193",
+    "sources": [
+      "data\\resources.js:216",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1865": {
+    "text": "Microsoft Teams",
+    "hash": "a7b52b269a23c025905190cdd81a2123f01b23aba7e7458b46f56dd0ab5a6ee8",
+    "sources": [
+      "data\\resources.js:217",
+      "data\\resources.js:223",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1788": {
+    "text": "Microsoft Teams meetings, calls and notification sounds",
+    "hash": "0a76a22d3a42b3249fd42396032332a4c50a3e54533195f2b658c6068b4ab3c0",
+    "sources": [
+      "data\\resources.js:217",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1789": {
+    "text": "WhatsApp Desktop",
+    "hash": "f8aec84cbada6c00f5f034e7600c76712b840e00c4efdcd28fa517d2a04721c2",
+    "sources": [
+      "data\\resources.js:218",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1790": {
+    "text": "WhatsApp calls, voice notes and notification sounds",
+    "hash": "37df3031e2f1b34188c1233eb9bbb52dba9edc3422a64963937c55bdd133a30a",
+    "sources": [
+      "data\\resources.js:218",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1791": {
+    "text": "Unite Phone",
+    "hash": "d0b0ffeacb39a3e1d2d7e639f5db571aed293e3367d41de8df1c78fbe1b48ff3",
+    "sources": [
+      "data\\resources.js:219",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1792": {
+    "text": "Unite Phone ringtone and call sound",
+    "hash": "1205dc3b855a2ab16669f4d09b57afd5549ffc4ae8c65a182b6f036d9bf101f7",
+    "sources": [
+      "data\\resources.js:219",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1793": {
+    "text": "Which meeting apps does Ctrl+Alt+K cover?",
+    "hash": "0efe52231481b2c1cce805a4d643477e57eeeff9e1845381d2358155f7c3e669",
+    "sources": [
+      "data\\resources.js:220",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1866": {
+    "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Zoom and Microsoft Teams also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
+    "hash": "4b0ae7a029aeabbe48b840c9b9c02a40d6bcd1abe4e355686cc70eb358d75f06",
+    "sources": [
+      "data\\resources.js:220",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1795": {
+    "text": "Meeting app",
+    "hash": "627512eb40fdc583941a23f2bee66be18c46c74fa67ed9663c1eecbaec8e7eac",
+    "sources": [
+      "data\\resources.js:221",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1796": {
+    "text": "Runs as",
+    "hash": "dc98511e6b34e7f44f974fc81094df7d4accb47fcaed18249030bccd0c73c69b",
+    "sources": [
+      "data\\resources.js:221",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1797": {
+    "text": "Best for",
+    "hash": "15582071ab2c6633117f2792ff83b0c207000b6c30473bd457b106ed0068a017",
+    "sources": [
+      "data\\resources.js:221",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1798": {
+    "text": "Desktop app",
+    "hash": "7102842054a4a55bb11a84e9ca549c31daf4d932f05ed075ca8ca569ef09f0ab",
+    "sources": [
+      "data\\resources.js:222",
+      "data\\resources.js:223",
+      "data\\resources.js:224",
+      "data\\resources.js:225",
+      "data\\resources.js:226",
+      "data\\resources.js:227",
+      "data\\resources.js:228",
+      "data\\resources.js:229",
+      "data\\resources.js:230",
+      "data\\resources.js:231",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1867": {
+    "text": "Individuals and small teams",
+    "hash": "4737dd0a3774492f59638ee93728a029663ee1000ddef025e1b7c7172410c639",
+    "sources": [
+      "data\\resources.js:222",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1800": {
+    "text": "Microsoft 365 users",
+    "hash": "dda0e854c1ce7c0b01bb5487c6bfe5e133f8d64624bdcc82265b76e9f910a631",
+    "sources": [
+      "data\\resources.js:223",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1801": {
+    "text": "Cisco Webex",
+    "hash": "a618e3b6b577f65be1804b88e063f9240561c15ba94a5af381e1e38b31359b87",
+    "sources": [
+      "data\\resources.js:224",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1802": {
+    "text": "Corporate conferences and multinational companies",
+    "hash": "6a5e9ea020581f6e057cd8b2884b06cd8d95b00d22cc6b4ece657b8550a4d5bf",
+    "sources": [
+      "data\\resources.js:224",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1803": {
+    "text": "Slack",
+    "hash": "b27fb38ba323745c91fe7fd9021605430d43bdb7d3be765266e29364d103e26f",
+    "sources": [
+      "data\\resources.js:225",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1804": {
+    "text": "Instant huddles",
+    "hash": "3c80bddc2e214538843255662735485b0b9ac3ebeb924fa7fee19b5edbc6738c",
+    "sources": [
+      "data\\resources.js:225",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1805": {
+    "text": "GoTo Meeting",
+    "hash": "0dab4a93fd3789550e5efdefdc879aa9d02bb875db9e6f7f6cea2fbdf72b9cb1",
+    "sources": [
+      "data\\resources.js:226",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1806": {
+    "text": "Meetings on the go",
+    "hash": "249fc2a60c7b1cc4ea11d7bc4e0dd4b10752a157639bdb3261a3d3dbb2437303",
+    "sources": [
+      "data\\resources.js:226",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1807": {
+    "text": "RingCentral",
+    "hash": "61df27a3c89e59845349c0b0e1adae474fe5308f396895ce8ccd6ee38a3e6269",
+    "sources": [
+      "data\\resources.js:227",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1808": {
+    "text": "Phone systems and team messaging",
+    "hash": "a2ed355de54d9d60bfe5dfe9aecedf15a29f46fdc938af697a60ecdffee178fb",
+    "sources": [
+      "data\\resources.js:227",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1809": {
+    "text": "Zoho Meeting",
+    "hash": "2319681729392edc88d1ad29c1a5702c73402a2cfab8b961a9bfb175410a690b",
+    "sources": [
+      "data\\resources.js:228",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1810": {
+    "text": "Webinars with polls and Q&A",
+    "hash": "d9069895314b9746daca6c7904e594c09f28e38989e628dbbd8aef639ca5951e",
+    "sources": [
+      "data\\resources.js:228",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1811": {
+    "text": "Jitsi Meet",
+    "hash": "9ec96cb44dd76a1d206ef8e09fdea5364c883c9259a07dac3aeb010c6d44f81a",
+    "sources": [
+      "data\\resources.js:229",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1812": {
+    "text": "Free, open-source meetings",
+    "hash": "c9ad4d7202312963bf9e60f509ca186d43f6b4e0fb142ad8fe8178306cb2720b",
+    "sources": [
+      "data\\resources.js:229",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1813": {
+    "text": "TrueConf",
+    "hash": "824d5a00c5e64677dbfb881388a904b473649a02546ca366cb3242afb9acdb96",
+    "sources": [
+      "data\\resources.js:230",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1814": {
+    "text": "Secure, high-quality video calls",
+    "hash": "8946dd5adac883c2bf95b3072e73536a331d94bff5221b05d947b6446087fa02",
+    "sources": [
+      "data\\resources.js:230",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1815": {
+    "text": "Adobe Connect",
+    "hash": "6dc7ffa4255666fee88952d7a5eb64f4a536609972dda21219c32f32c4107134",
+    "sources": [
+      "data\\resources.js:231",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1816": {
+    "text": "Custom-designed meeting rooms",
+    "hash": "c7e55a81da07089f935231005d7e3387e9c506a8c1e6e8b09d65085cc15fbda1",
+    "sources": [
+      "data\\resources.js:231",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1817": {
+    "text": "Google Meet",
+    "hash": "78aeb390abbc558f405421c2bf46708d6c4ccf96745cee50e9a4b36dae6f6975",
+    "sources": [
+      "data\\resources.js:232",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1818": {
+    "text": "Web browser",
+    "hash": "21d699ed42e387772c0c2951563ed983d3935865cd9086e6acbcceb147b56399",
+    "sources": [
+      "data\\resources.js:232",
+      "data\\resources.js:233",
+      "data\\resources.js:234",
+      "data\\resources.js:235",
+      "data\\resources.js:236",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1819": {
+    "text": "Google Workspace users",
+    "hash": "b176f3580000a7e6e5a85238b6b99d6fa8592e108d7d861e6a078e04d25061d6",
+    "sources": [
+      "data\\resources.js:232",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1820": {
+    "text": "Whereby",
+    "hash": "de4518bbd4eb578feeddd591e24d9620d19d03684ba1fbb2eb68272ec08f9873",
+    "sources": [
+      "data\\resources.js:233",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1821": {
+    "text": "Video meetings embedded in your own product",
+    "hash": "9672f20cc7d3a612c15b3e3afc546136ab20a215515e12d51691887d97996595",
+    "sources": [
+      "data\\resources.js:233",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1822": {
+    "text": "Livestorm",
+    "hash": "1478f68a6ac05b2679a0034b0bbbe7274cbda41ad1e522d81beee53bb4e9f595",
+    "sources": [
+      "data\\resources.js:234",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1823": {
+    "text": "Client-facing webinars and training",
+    "hash": "c49348735a8744f9576cb8ee9f57a97ee17dbe630b7da6d5a45a46e49ac93b45",
+    "sources": [
+      "data\\resources.js:234",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1824": {
+    "text": "ClickMeeting",
+    "hash": "562f266f84659a4e3fd4948a1314ffa35acc28e44c5e63f773d98d376b03e7b3",
+    "sources": [
+      "data\\resources.js:235",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1825": {
+    "text": "Large online events",
+    "hash": "3e38acbb17e3b85f0d8622a60050ce01b9270dcdeea1b655e9802d776fbf298f",
+    "sources": [
+      "data\\resources.js:235",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1826": {
+    "text": "Viva Engage",
+    "hash": "701369762f0e15fcb27cdd390e96d9c089ca8ac9f77c602c09db82a81d1557e1",
+    "sources": [
+      "data\\resources.js:236",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1827": {
+    "text": "Company-wide broadcasts",
+    "hash": "bacaf653450c871227e88e27f4eb1cedbd070fb7ec57940b93fbdf5172254a0c",
+    "sources": [
+      "data\\resources.js:236",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1828": {
+    "text": "How do I mute a meeting that runs in my browser?",
+    "hash": "362c731fbe3373e3b70b3c20262c19ff17432274bb1b7ab644fe12f6903ba75a",
+    "sources": [
+      "data\\resources.js:237",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1829": {
+    "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Zoom or Microsoft Teams run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
+    "hash": "9f979c190f13de8d32f677ba696e0b1b625fa7e68b9430a58616db1b4211dad0",
+    "sources": [
+      "data\\resources.js:237",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1830": {
+    "text": "Can Magic Toolbar mute meetings automatically when a call comes in?",
+    "hash": "5382b5300db9411b1e6d054004e7796d01555742081301338b8a5ab591bc9cd4",
+    "sources": [
+      "data\\resources.js:238",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1868": {
+    "text": "Yes, when call monitoring and auto-mute are switched on in Magic Toolbar’s Settings. When it detects a WhatsApp, Unite Phone or Microsoft Teams call, meeting apps and web browsers go quiet and a short notice shows which ones. When the call ends, the meeting sound it muted comes back.",
+    "hash": "82d918dd8407631280b045802fbeb399c05369a40a138b492cd29da059564f1d",
+    "sources": [
+      "data\\resources.js:238",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1832": {
+    "text": "Situation",
+    "hash": "b3aeeb32a0c7c5d45b6e955370301ca1c8d271eaabafaf9125e371ef28984223",
+    "sources": [
+      "data\\resources.js:239",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1833": {
+    "text": "What happens",
+    "hash": "70fbb54bd5e6ff77ad448bae4307cccaab65d37717f72d5e6ebd307d903d28aa",
+    "sources": [
+      "data\\resources.js:239",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1834": {
+    "text": "A WhatsApp or Unite Phone call rings",
+    "hash": "b02cc28675a5225cc3ba19816a9ed113b220f4a16524c65fb7b6d5ec27f3d347",
+    "sources": [
+      "data\\resources.js:240",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1835": {
+    "text": "All meeting apps and web browsers are muted",
+    "hash": "0401f17523b4c8fad2fa2baf075b8f9a3959037bbb86ce299a2732488ce549af",
+    "sources": [
+      "data\\resources.js:240",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1869": {
+    "text": "A Microsoft Teams call rings",
+    "hash": "8cc75098a2935d716603e3667837dd8602449802bbc52a0ff09447d30534d09a",
+    "sources": [
+      "data\\resources.js:241",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1837": {
+    "text": "Everything is muted except Microsoft Teams, so you can hear the caller",
+    "hash": "22e9e8fae42132935bdc2e74aa45b833a32bf0e83c77619ebb47839ac6cf7467",
+    "sources": [
+      "data\\resources.js:241",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1838": {
+    "text": "The call ends",
+    "hash": "8a95d155d60ba425824b2b6c3192b9ddfff793f46ca29110219091e7f6330208",
+    "sources": [
+      "data\\resources.js:242",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1839": {
+    "text": "The meeting sound muted for the call comes back; sound that was already muted stays muted",
+    "hash": "aba32f62b90cb36d40e7fbe74c99cabed6022e913733d2c59fe49d7ef7dae533",
+    "sources": [
+      "data\\resources.js:242",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1840": {
+    "text": "You close Magic Toolbar",
+    "hash": "c0e673be9bd81364e6be7eef34443b9e190e91985f0ee9c234e0edaee43aba13",
+    "sources": [
+      "data\\resources.js:243",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1841": {
+    "text": "Any meeting sound it muted is turned back on first",
+    "hash": "a43ef82014d84788c412729fc84b7d42c57d9d37789f5c25c8df016e9f19bf95",
+    "sources": [
+      "data\\resources.js:243",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1842": {
+    "text": "Will muting a meeting silence my WhatsApp call?",
+    "hash": "e4c74553e4f64ad9730fe2fc2aaf80a17e37ff44bf435328319417117da22276",
+    "sources": [
+      "data\\resources.js:244",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1843": {
+    "text": "No. WhatsApp and Unite Phone are never part of the meeting group, so Ctrl+Alt+K and the automatic call mute leave them alone and you still hear your caller. To silence WhatsApp or Unite Phone themselves, for example their notification sounds, use Ctrl+Alt+G or Ctrl+Alt+V.",
+    "hash": "a4a2a3b9fd112979bb9f1a90acba5d1c2cba4903dd92c08e8605ddf37e85e391",
+    "sources": [
+      "data\\resources.js:244",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1844": {
+    "text": "Do the mute hotkeys mute my microphone?",
+    "hash": "89d5bbbde9d4e3a8e49fb7080f903b586a66865970903952c05035e56c75cbe3",
+    "sources": [
+      "data\\resources.js:245",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1870": {
+    "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Alt+A in Zoom, Ctrl+Shift+M in Microsoft Teams or Ctrl+D in Google Meet on Windows.",
+    "hash": "b1d1adbc08ed2028fa9415e2c49b2c49e123aac61bb3e237b4783af44cd9c700",
+    "sources": [
+      "data\\resources.js:245",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1846": {
+    "text": "How to take a call during an online meeting on Windows",
+    "hash": "7971f177771f3b8cd3393e86f60f4aeb84cfaf5e1875270d77c0c4b11397ec8c",
+    "sources": [
+      "data\\resources.js:246",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1847": {
+    "text": "A short routine keeps you polite in the meeting and clear on the phone. Silence your microphone and the meeting sound, take the call, then come back in the same order. If auto-mute is on, Magic Toolbar does the meeting sound steps for you.",
+    "hash": "722027796e76ce3113c041ba6d6402b4e4a73374af1b6573ffc856da304ee4e1",
+    "sources": [
+      "data\\resources.js:246",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1848": {
+    "text": "Mute your microphone in the meeting app, such as Alt+A in Zoom.",
+    "hash": "f3f853eff1a442cb8843a696cc35a9be8ed829098650ba0bf52000562335f2f9",
+    "sources": [
+      "data\\resources.js:247",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1849": {
+    "text": "Press Ctrl+Alt+K to silence all meeting sound, or the hotkey for one app.",
+    "hash": "56d06c1fbbb7bc7fa59ab8c7f4936412f1069ce6f04f27fdaad63f225a49db6e",
+    "sources": [
+      "data\\resources.js:247",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1850": {
+    "text": "Answer the call on WhatsApp, Unite Phone or your other calling app.",
+    "hash": "a3a1dc957629e35a40e6835ad70ae652ddf71bb819e4aa48ac4a90160e981e55",
+    "sources": [
+      "data\\resources.js:247",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1851": {
+    "text": "After the call, press the same hotkey to hear the meeting again.",
+    "hash": "de19f50bbd8c66e45f64c26263287144237c09092782a78a15afb58535884bca",
+    "sources": [
+      "data\\resources.js:247",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1852": {
+    "text": "Unmute your microphone in the meeting app when you speak.",
+    "hash": "4351a1f1a9c79ed99d1110d3f4515081532fdba5daa8896e0198340c436395d6",
+    "sources": [
+      "data\\resources.js:247",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1853": {
+    "text": "How can I check that an app is muted?",
+    "hash": "a60a8424f04853da2f467e73289dd4bbb3a33aebcc99372818664a70cf962ea3",
+    "sources": [
+      "data\\resources.js:248",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1854": {
+    "text": "Magic Toolbar uses the same switch as the speaker icons in Windows Settings, under System, Sound, Volume mixer. When an app is muted, its speaker icon there shows it, and you can turn the sound back on by hand at any time. No plugins, browser extensions or meeting settings are needed.",
+    "hash": "0330a44ae026116feff29576b45b9bdfde9a85f4b124cdcfdbae30f8fd4b6fee",
+    "sources": [
+      "data\\resources.js:248",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1855": {
+    "text": "Why does Magic Toolbar say an app has not played any sound yet?",
+    "hash": "775ade9dbabbdb37c804f78eec26152cb8b43ed6409541f2a18cceeb369a7581",
+    "sources": [
+      "data\\resources.js:249",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1856": {
+    "text": "Windows only lists an app in the Volume mixer after it has played sound once. If Magic Toolbar says an app is not running or has not played any sound yet, start the app or join the meeting, wait until you hear it, then press the hotkey again.",
+    "hash": "975bb5080301212f7f88fe33593a00d6a2de03841abf422ee60e423047c00b38",
+    "sources": [
+      "data\\resources.js:249",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1857": {
+    "text": "Do the mute hotkeys work while Magic Toolbar is locked?",
+    "hash": "26c028c8e66be7e86509bfa3618b55dd35ad8142ce93058ea2c78a4196a8b443",
+    "sources": [
+      "data\\resources.js:250",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1858": {
+    "text": "Yes. The mute hotkeys keep working on the lock screen, because they only change sound and never show your saved data. Tools that show saved texts, passenger details or screenshots stay closed until you unlock Magic Toolbar with your password.",
+    "hash": "283540397ef8df6b87120efcd49a59f16f7b1c93c8b2b0495cbc6386bfdf8c62",
+    "sources": [
+      "data\\resources.js:250",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1871": {
+    "text": "Mute Zoom Meeting Sound With One Hotkey",
+    "hash": "0bdb1076e2c55e3a8ce92c4a327fa4df6623be86280c38d90a83cd346dd5b2be",
+    "sources": [
+      "data\\resources.js:255",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1872": {
+    "text": "Silence Zoom meeting sound with Ctrl+Shift+Z in Magic Toolbar when a passenger calls you on WhatsApp or another app, and turn it back on with the same keys.",
+    "hash": "f20c8ed8b6217f2ba52668b490bb26da6e0872e1f29127ee0f5283258987ae46",
+    "sources": [
+      "data\\resources.js:256",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1873": {
     "text": "How do I mute Zoom meeting sound with one key?",
     "hash": "7c02a0c73dd0e9425d20c6c3c2c2c6c6e28eac49fe40b1bc18f0c449cfac1865",
     "sources": [
-      "data\\resources.js:209",
+      "data\\resources.js:260",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1705": {
+  "resources.m1874": {
     "text": "Press Ctrl+Shift+Z while Magic Toolbar is running. Zoom meeting sound goes quiet at once, so you stop hearing the meeting. Press Ctrl+Shift+Z again to bring the sound back. You do not need to find the Zoom window or open its settings first.",
     "hash": "6d84f572633e2a855dc58be4c2ef5a15ab0731b3fa1e172ec71b9f99f069559b",
     "sources": [
-      "data\\resources.js:209",
+      "data\\resources.js:260",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1736": {
+  "resources.m1875": {
     "text": "How do I take a WhatsApp or other call during a Zoom meeting?",
     "hash": "a981ed87dfee98dc73627fd7bd0c85dd683f71b635e07e1077cf84f542d6af23",
     "sources": [
-      "data\\resources.js:210",
+      "data\\resources.js:261",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1737": {
-    "text": "When a passenger calls on WhatsApp or any other app during a Zoom meeting on Windows, press Ctrl+Shift+Z to silence the meeting so you can hear the caller. After the call, press the same keys to hear the meeting again. The hotkey only controls Zoom sound, not the calling app.",
-    "hash": "45df73fce87f2bb7c9ea0a45aa6c6d89d2b0f9a7abf6d0bee174522809480b58",
+  "resources.m1876": {
+    "text": "When a passenger calls on WhatsApp or another app during a Zoom meeting on Windows, press Ctrl+Shift+Z to silence the meeting so you can hear the caller. After the call, press the same keys to hear the meeting again. Ctrl+Shift+Z only controls Zoom sound, not the calling app.",
+    "hash": "261c0392058096d89562b837b282e72b4a42e5ee86de677061a86846ebb4ffa7",
     "sources": [
-      "data\\resources.js:210",
+      "data\\resources.js:261",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1708": {
+  "resources.m1877": {
     "text": "Does Ctrl+Shift+Z mute my microphone?",
     "hash": "80878ecd3a100d6835ee0e1dab354cb6452ecdb31eccb3a82810cec212109574",
     "sources": [
-      "data\\resources.js:211",
+      "data\\resources.js:262",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1709": {
+  "resources.m1878": {
     "text": "No. Ctrl+Shift+Z mutes the Zoom sound you hear, not your microphone or camera. To mute your microphone, use Zoom’s own shortcut, Alt+A on Windows, or the mute button. Use Alt+V to stop your video. Check the meeting controls to be sure.",
     "hash": "7272244b02c8e49de46f91a9a4b105fa77275286eb6bdcd285c7695f253bd1be",
     "sources": [
-      "data\\resources.js:211",
+      "data\\resources.js:262",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1738": {
+  "resources.m1879": {
     "text": "How to take a call during a Zoom meeting on Windows",
     "hash": "e51819ac31e136b4ee4c3aa33ea64cc0ddbf2e506cdfe7b8d321b70162bea035",
     "sources": [
-      "data\\resources.js:212",
+      "data\\resources.js:263",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1711": {
+  "resources.m1880": {
     "text": "A short routine keeps you polite in the meeting and clear on the phone. Tell the meeting you are stepping away, silence both your sound and your microphone, take the call, then come back in the same order. These steps take only a few seconds.",
     "hash": "c91bc1117615ac718992139274adb5468345f9c56c12cf996ff5a3418a26e3fc",
     "sources": [
-      "data\\resources.js:212",
+      "data\\resources.js:263",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1712": {
+  "resources.m1881": {
     "text": "Press Alt+A in Zoom to mute your microphone.",
     "hash": "2dcdfadef778e8b61b1a5e023e1f44907cf332d84bfb358e2c08f483cf6a63c2",
     "sources": [
-      "data\\resources.js:213",
+      "data\\resources.js:264",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1713": {
+  "resources.m1882": {
     "text": "Press Ctrl+Shift+Z to silence the Zoom meeting sound.",
     "hash": "4988c6ebc1b0975eb7aa051679878f8689ced311f5ca204b5da175ac16fd3803",
     "sources": [
-      "data\\resources.js:213",
+      "data\\resources.js:264",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1739": {
+  "resources.m1883": {
     "text": "Answer the call on WhatsApp or your other calling app.",
     "hash": "c6c3435d28daeb3c96428d196a03198fcc7652c880f719627f5d92df301e259b",
     "sources": [
-      "data\\resources.js:213",
+      "data\\resources.js:264",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1715": {
+  "resources.m1884": {
     "text": "After the call, press Ctrl+Shift+Z to hear the meeting again.",
     "hash": "ae251bba480ff673aca02bb72d7c14fd2efad7c5b0094820800ff7d8a1e5f0e3",
     "sources": [
-      "data\\resources.js:213",
+      "data\\resources.js:264",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1716": {
+  "resources.m1885": {
     "text": "Press Alt+A to unmute your microphone when you speak.",
     "hash": "9472e2211c58af37990b0c982dc78791ffe404b89182795bfb15b9a884cbe8d6",
     "sources": [
-      "data\\resources.js:213",
+      "data\\resources.js:264",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1886": {
+    "text": "Can Magic Toolbar mute other meeting apps too?",
+    "hash": "6bf8c0599d008859ea7db09140b5eb8c0991da9d6bce7053c4468cf6c02baf58",
+    "sources": [
+      "data\\resources.js:265",
+      "data\\resources.js:1"
+    ]
+  },
+  "resources.m1887": {
+    "text": "Yes. Ctrl+Alt+K silences all supported meeting apps and web browsers at once, including Microsoft Teams, Google Meet and Webex, and separate hotkeys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Magic Toolbar can also mute meetings automatically when a call comes in. The meeting mute guide lists every hotkey.",
+    "hash": "e9e1b2218ba82ef4d5089920d73d8467101846ae1b886548e4b10ba25f098e1f",
+    "sources": [
+      "data\\resources.js:265",
       "data\\resources.js:1"
     ]
   },
@@ -10665,7 +11400,7 @@
     "text": "Travel desk shortcuts, notes and reminders: a practical setup",
     "hash": "4d113c8a3f1a64f57809700e05ca6b9c691049805110cd32d661ecacf13f32ad",
     "sources": [
-      "data\\resources.js:218",
+      "data\\resources.js:270",
       "data\\resources.js:1"
     ]
   },
@@ -10673,7 +11408,7 @@
     "text": "Organize F1–F12 shortcuts, reusable desk content and reminders without confusing stored notes with live GDS commands.",
     "hash": "73f2649e21a444f5eb6a3370920363eb83319c3edf0af2eec60fc22b4b574a0f",
     "sources": [
-      "data\\resources.js:219",
+      "data\\resources.js:271",
       "data\\resources.js:1"
     ]
   },
@@ -10681,7 +11416,7 @@
     "text": "What are travel desk shortcuts?",
     "hash": "77182d3048493c40ef53fdccf9caad296ed2fa5839bd27b66eebfd6cf4a56311",
     "sources": [
-      "data\\resources.js:222",
+      "data\\resources.js:274",
       "data\\resources.js:1"
     ]
   },
@@ -10689,7 +11424,7 @@
     "text": "Shortcuts put frequently used desk actions within reach of a key. Magic Toolbar includes an F1–F12 shortcut feature alongside a container manager, notes, phone directory and reminders. Configure them around work you actually repeat.",
     "hash": "90ed0038f23d348c96aea6876c504caa6b65e648441e36d76030726ce45e54f1",
     "sources": [
-      "data\\resources.js:222",
+      "data\\resources.js:274",
       "data\\resources.js:1"
     ]
   },
@@ -10697,7 +11432,7 @@
     "text": "How do I organize command notes?",
     "hash": "bd7376edd836b467c333fdaf8b37d92ceaf7e3cf3c2ede8a412c47b008420d13",
     "sources": [
-      "data\\resources.js:223",
+      "data\\resources.js:275",
       "data\\resources.js:1"
     ]
   },
@@ -10705,7 +11440,7 @@
     "text": "Keep Amadeus, Travelport and Sabre notes clearly labelled. Separate explanatory notes from text intended for copying, and review instructions when your GDS workflow changes. Stored notes are a reference, not a source of live fares or a guarantee that an entry is current.",
     "hash": "c43620eee1097eabbb87fed07320c429492c42f4ac3e8f51a1a077921272a212",
     "sources": [
-      "data\\resources.js:223",
+      "data\\resources.js:275",
       "data\\resources.js:1"
     ]
   },
@@ -10713,7 +11448,7 @@
     "text": "What belongs in a reusable container?",
     "hash": "cf2ff9e8b0f8619fa4af74b83ac7b27e57dcb4545b5bfaab4a704a52ae483efb",
     "sources": [
-      "data\\resources.js:224",
+      "data\\resources.js:276",
       "data\\resources.js:1"
     ]
   },
@@ -10721,7 +11456,7 @@
     "text": "Use approved standard wording, internal checklists and reusable desk content. Keep sensitive passenger data out of general-purpose snippets, and confirm who can access the Windows account before storing customer information.",
     "hash": "6b8b3217f57af8f2734652a8e1f1a3b6bf213e968be526b618c396c7674f7f67",
     "sources": [
-      "data\\resources.js:224",
+      "data\\resources.js:276",
       "data\\resources.js:1"
     ]
   },
@@ -10729,7 +11464,7 @@
     "text": "How should I use reminders?",
     "hash": "30cd83fa607a91d9cf3bffa296ca3b27c1bd983e858f1963ad7e16aea650fa61",
     "sources": [
-      "data\\resources.js:225",
+      "data\\resources.js:277",
       "data\\resources.js:1"
     ]
   },
@@ -10737,23 +11472,23 @@
     "text": "Create reminders for follow-ups and tasks, then review them as part of your day. Desktop reminders supplement your agency’s process; they should not be the sole record for payment deadlines, ticketing time limits or other critical commitments.",
     "hash": "be78623bbd567fc9f35dacb0c389350d555474ed12690c7b2d97239d8b9e2ffe",
     "sources": [
-      "data\\resources.js:225",
+      "data\\resources.js:277",
       "data\\resources.js:1"
     ]
   },
-  "resources.m0930": {
-    "text": "Does the Zoom hotkey mute my microphone?",
-    "hash": "d25c6939247f208a9c9160c46d7dd70662bec23a1e5d86e070d95e919d163b9f",
+  "resources.m1859": {
+    "text": "Do the meeting mute hotkeys mute my microphone?",
+    "hash": "7456de76edae4fada44c905e60581cf6c92cf90b2c87c2a763cc206df368a00a",
     "sources": [
-      "data\\resources.js:226",
+      "data\\resources.js:278",
       "data\\resources.js:1"
     ]
   },
-  "resources.m1717": {
-    "text": "No. Ctrl+Shift+Z silences the Zoom meeting sound you hear and brings it back with a second press. It does not mute your microphone or stop your video, so use Zoom’s own controls for those. The Zoom hotkey guide shows a full routine for taking calls.",
-    "hash": "c3fcf39ce3c2bd8314bb585a397f381828a9ac260a5ddf1f08b033084fd5adba",
+  "resources.m1860": {
+    "text": "No. Ctrl+Shift+Z silences Zoom and Ctrl+Alt+K silences all supported meeting apps and browsers, but only the sound you hear. They do not mute your microphone or stop your video, so use the meeting app’s own controls for those. The meeting mute guide lists every hotkey.",
+    "hash": "ec79186f693040c56047b8ac15f0b96064d271e779966d03f6e75a6c10f9f39f",
     "sources": [
-      "data\\resources.js:226",
+      "data\\resources.js:278",
       "data\\resources.js:1"
     ]
   },
@@ -10761,7 +11496,7 @@
     "text": "How to choose travel agency software for your daily work",
     "hash": "4fddccc1e08b843f8fdb25a24eee6cbe8e89bc7b8b2780c7f8a9d7b57d730444",
     "sources": [
-      "data\\resources.js:231",
+      "data\\resources.js:283",
       "data\\resources.js:1"
     ]
   },
@@ -10769,7 +11504,7 @@
     "text": "Compare travel agency tools by task, supported workflows, data handling, setup, pricing and support rather than unsupported feature claims.",
     "hash": "2cddc31be663369c411f4d9c03a340d4d73e2fbc85866ba97309b693854b7e06",
     "sources": [
-      "data\\resources.js:232",
+      "data\\resources.js:284",
       "data\\resources.js:1"
     ]
   },
@@ -10777,7 +11512,7 @@
     "text": "Buying guide",
     "hash": "0e8eec154c367ab1c35061315471f8e9cbdcb67978164a9d3d10bfd41fd4dad9",
     "sources": [
-      "data\\resources.js:233",
+      "data\\resources.js:285",
       "data\\resources.js:1"
     ]
   },
@@ -10785,7 +11520,7 @@
     "text": "What is travel agency software?",
     "hash": "00a896e5914d7f9513f0aaf4012db1e07a9dea35f6a03f85abea679a7680f21c",
     "sources": [
-      "data\\resources.js:235",
+      "data\\resources.js:287",
       "data\\resources.js:1"
     ]
   },
@@ -10793,7 +11528,7 @@
     "text": "Travel agency software supports business tasks such as passenger records, customer follow-ups, quotations and reporting. A booking portal, a CRM and a desktop productivity toolbar solve different problems. Choose by the work you need to complete, not by a long list of feature names.",
     "hash": "35ba85f1c8e6bf2d870aaf249fdfaed63809b72b361828197d8104d29bc0bff5",
     "sources": [
-      "data\\resources.js:235",
+      "data\\resources.js:287",
       "data\\resources.js:1"
     ]
   },
@@ -10801,7 +11536,7 @@
     "text": "How do I compare tools?",
     "hash": "d89a075580aafffb99a47e0a5e660abad7ad7ad58a97b2ab0b8e68d40c898b97",
     "sources": [
-      "data\\resources.js:236",
+      "data\\resources.js:288",
       "data\\resources.js:1"
     ]
   },
@@ -10809,7 +11544,7 @@
     "text": "Write down your recurring task, required input, expected output and systems involved. Ask for a demonstration using synthetic data. Check operating systems, actual integrations, review steps and failure handling. A claim of compatibility should be supported by a documented workflow.",
     "hash": "7deb0c46123e68d067b9c8ce91b512f237cfa6812e25936016926a08725eddf0",
     "sources": [
-      "data\\resources.js:236",
+      "data\\resources.js:288",
       "data\\resources.js:1"
     ]
   },
@@ -10817,7 +11552,7 @@
     "text": "What should I check about customer data?",
     "hash": "91e8e8c1fd2bc3ba29452d57a3af72a91d865a2fad6d902eb247ec81d64d3986",
     "sources": [
-      "data\\resources.js:237",
+      "data\\resources.js:289",
       "data\\resources.js:1"
     ]
   },
@@ -10825,7 +11560,7 @@
     "text": "Identify what is stored, where it is stored, who can access it and which services receive it. Ask about export, deletion and retention. Do not assume that every product in one brand has identical data handling.",
     "hash": "b90026ecb5a5d868c40554ac115b19e222dfa2de7f29cf366dae432bf699e81d",
     "sources": [
-      "data\\resources.js:237",
+      "data\\resources.js:289",
       "data\\resources.js:1"
     ]
   },
@@ -10833,7 +11568,7 @@
     "text": "What should I check before paying?",
     "hash": "cfa0bf8302b613325bdd6f36cff322cff9ab0c03ce30e44e98d55d839a2d7f28",
     "sources": [
-      "data\\resources.js:238",
+      "data\\resources.js:290",
       "data\\resources.js:1"
     ]
   },
@@ -10841,7 +11576,7 @@
     "text": "Confirm the plan, billing period, activation method, device limits, refund terms and support route. Magic Toolbar lists $30 monthly and $220 yearly in USD; lifetime terms are by enquiry. Separate specialist products have their own release status and terms.",
     "hash": "a59da06759d42e6f9252501e48ef4b130ed2d99a1b54eacc2d19ad70a12db6a1",
     "sources": [
-      "data\\resources.js:238",
+      "data\\resources.js:290",
       "data\\resources.js:1"
     ]
   },
@@ -10849,7 +11584,7 @@
     "text": "Is Magic Toolbar a booking portal?",
     "hash": "75038371888a1a529111723f6972230fe09856092fa5407be23917007f63a8d8",
     "sources": [
-      "data\\resources.js:239",
+      "data\\resources.js:291",
       "data\\resources.js:1"
     ]
   },
@@ -10857,7 +11592,7 @@
     "text": "No. Magic Toolbar prepares entries and brings Windows desk tools together. It does not search live inventory, hold seats or issue tickets. The separate online-platform concepts in the catalogue have no confirmed public booking or payment capabilities.",
     "hash": "79cb61e75e17424b92c60bab2bf0e9515f541872dd71e53759266d6883859cf9",
     "sources": [
-      "data\\resources.js:239",
+      "data\\resources.js:291",
       "data\\resources.js:1"
     ]
   },
@@ -11704,19 +12439,26 @@
       "messages\\additional-source.json:1"
     ]
   },
+  "seo.m1861": {
+    "text": "Meeting mute hotkeys for Zoom, Microsoft Teams and browsers",
+    "hash": "90627faf67cd5d512528324edc60ed546e3f5b1abbdc65efce7d32d13cb18c52",
+    "sources": [
+      "lib\\seo.js:100"
+    ]
+  },
   "seo.m1040": {
     "text": "Offer",
     "hash": "0cf57c63eb976556a273198f34e8816a586471aefa434f80dab8b77667c0a981",
     "sources": [
-      "lib\\seo.js:102",
-      "lib\\seo.js:103"
+      "lib\\seo.js:103",
+      "lib\\seo.js:104"
     ]
   },
   "seo.m1052": {
     "text": "Monthly plan",
     "hash": "babeb1cfcfbcdb714ba942c913f57403d0b8802544209e3a5f5dffc40a112862",
     "sources": [
-      "lib\\seo.js:102",
+      "lib\\seo.js:103",
       "messages\\additional-source.json:1"
     ]
   },
@@ -11724,14 +12466,14 @@
     "text": "Monthly subscription; activation arranged through the team.",
     "hash": "d928916ac19ac4c6e54383c86e31e88dc21ad5201e22aa02b80d11f264d6eeb7",
     "sources": [
-      "lib\\seo.js:102"
+      "lib\\seo.js:103"
     ]
   },
   "seo.m1053": {
     "text": "Yearly plan",
     "hash": "335301ff09914dc65c2ab3389667ed4eb12fc443d0c702c0ba800a16196e8835",
     "sources": [
-      "lib\\seo.js:103",
+      "lib\\seo.js:104",
       "messages\\additional-source.json:1"
     ]
   },
@@ -11739,49 +12481,49 @@
     "text": "Annual subscription; activation arranged through the team.",
     "hash": "1bf398a835228f88ab1e87c345f852fa7cba519584dd7f14b7b5ca46bdfb30cd",
     "sources": [
-      "lib\\seo.js:103"
+      "lib\\seo.js:104"
     ]
   },
   "page.m0118": {
     "text": "FAQPage",
     "hash": "3fa680a3b75b02b051a88c3a6fa1e2cf18ca4fc26da67c8acf4bee9f6e96876c",
     "sources": [
-      "lib\\seo.js:111"
+      "lib\\seo.js:112"
     ]
   },
   "seo.m1519": {
     "text": "Magic Toolbar frequently asked questions",
     "hash": "2ea04760d4b0214a28ebc6ebd4310cd13d3a8fb19b12d3b4b9b2dec410a4243a",
     "sources": [
-      "lib\\seo.js:112"
+      "lib\\seo.js:113"
     ]
   },
   "seo.m1520": {
     "text": "Common questions about Travel Genie Magic Toolbar: who it is for, passport reading, shortcuts, visa photos, saved records, system needs and support.",
     "hash": "643c21cbaea95f7237eedc8bb4cdb32d571fd36080d91563e1335383594df28c",
     "sources": [
-      "lib\\seo.js:113"
+      "lib\\seo.js:114"
     ]
   },
   "page.m0119": {
     "text": "Question",
     "hash": "289aff12b04274cb04b8f7dbf486ba8b3528c6fd16b60b9a31d31ce23b339236",
     "sources": [
-      "lib\\seo.js:116"
+      "lib\\seo.js:117"
     ]
   },
   "page.m0120": {
     "text": "Answer",
     "hash": "b2a3aa602762a782e47a4f8e93bb5ae1b8819d1b92b7e6ceb3ef46a3c7077eb0",
     "sources": [
-      "lib\\seo.js:116"
+      "lib\\seo.js:117"
     ]
   },
   "page.m0226": {
     "text": "TechArticle",
     "hash": "c243bdc5e0040ee1d6a05d74b95f5b924c4e0f18fedc04219b06f027722b02cb",
     "sources": [
-      "lib\\seo.js:124"
+      "lib\\seo.js:125"
     ]
   },
   "legal.m1101": {

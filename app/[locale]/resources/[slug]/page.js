@@ -20,6 +20,7 @@ const SEO_TITLES = {
   'visa-photo-preparation': 'Visa Photo Fixer: Size, Quality & Rotate | Travel Genie',
   'f1-f12-hotkeys-saved-messages': 'F1–F12 Hotkeys for Saved Messages | Travel Genie',
   'translator-for-travel-agents': 'Translator for Travel Agents | Travel Genie',
+  'mute-meeting-apps-hotkey': 'Mute Zoom, Teams & Meet Sound With a Hotkey | Travel Genie',
   'mute-zoom-meeting-hotkey': 'Mute Zoom During a WhatsApp Call: Hotkey | Travel Genie',
   'travel-agent-shortcuts-notes': 'Travel Desk Shortcuts & Notes | Travel Genie',
   'travel-agency-software-checklist': 'Travel Agency Software Checklist | Travel Genie',
@@ -28,7 +29,7 @@ const SEO_TITLES = {
 // Call-to-action per guide category: [heading, text]
 const CTA = {
   'Photo tools': ['Fix visa photos in minutes', 'Magic Toolbar checks visa photo size, improves quality and straightens tilted photos on Windows, so you can prepare each application photo in minutes.'],
-  'Desk productivity': ['Make your travel desk faster', 'Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and a Zoom mute hotkey together on Windows, so your daily desk work moves faster.'],
+    'Desk productivity': ['Make your travel desk faster', 'Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and meeting mute hotkeys together on Windows, so your daily desk work moves faster.'],
 };
 const DEFAULT_CTA = ['Ready to prepare entries faster?', 'Magic Toolbar prepares NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre on Windows. You check each entry, then copy it into your GDS.'];
 
