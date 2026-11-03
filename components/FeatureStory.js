@@ -35,7 +35,7 @@ export default function FeatureStory() {
               <Image
                 src={heroScreen.src}
                 alt="Close-up of the Travelport panel: parsed passenger fields with generated NAME, DOCS, CTCE and CTCM entries and copy buttons"
-                fill sizes="(max-width: 1200px) 110vw, 860px"
+                fill sizes="(max-width: 960px) calc(100vw - 40px), (max-width: 1280px) calc((100vw - 96px) / 2), 592px"
               />
               <L as="figcaption" className="chip chip--info zoom-label">Close-up · Travelport panel</L>
             </figure>

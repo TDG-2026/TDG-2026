@@ -13,11 +13,16 @@ export default function Reveal({ as: Tag = 'div', className = '', delay = 0, chi
     if (!el) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     if (!('IntersectionObserver' in window)) return;
-    if (el.getBoundingClientRect().top < window.innerHeight * 0.9) return;
-
-    setArmed(true);
+    // Observer geometry avoids synchronous layout reads during hydration.
+    let initial = true;
     const io = new IntersectionObserver(
       ([entry]) => {
+        if (initial) {
+          initial = false;
+          // Never hide content that is already visible on the first observation.
+          if (entry.isIntersecting) { io.disconnect(); return; }
+          setArmed(true);
+        }
         if (entry.isIntersecting) { setVisible(true); io.disconnect(); }
       },
       { rootMargin: '0px 0px -8% 0px' },

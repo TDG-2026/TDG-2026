@@ -31,14 +31,14 @@ export default function Hero() {
           <L as="div" className="hero-halo" aria-hidden="true" />
           <L as="div" className="hero-ring" aria-hidden="true" />
           <L as="div" className="portal hero-portal">
-            <Image src={mascot.src} alt={mascot.alt} fill priority fetchPriority="high" sizes="(max-width: 960px) 70vw, 420px" className="portal-img" />
+            <Image src={mascot.src} alt={mascot.alt} fill priority fetchPriority="high" sizes="(max-width: 460px) calc((100vw - 40px) * 0.82), 345px" className="portal-img" />
           </L>
         </L>
       </L>
       <L as="div" className="container">
         <L as="div" className="showcase">
           <figure className="showcase-frame">
-            <Image src={heroScreen.src} alt={heroScreen.alt} width={heroScreen.width} height={heroScreen.height} sizes="(max-width: 1280px) 100vw, 1240px" />
+            <Image src={heroScreen.src} alt={heroScreen.alt} width={heroScreen.width} height={heroScreen.height} sizes="(max-width: 1280px) calc(100vw - 40px), 1240px" />
           </figure>
           <L as="ul" className="callouts">
             {heroCallouts.map((c) => <L as="li" key={c.text} className={`callout c-${c.pos}`}><Icon name={c.icon} size={16} />{c.text}</L>)}

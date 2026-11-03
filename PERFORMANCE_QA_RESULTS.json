@@ -1,0 +1,12 @@
+{
+  "html_files_checked": 742,
+  "invalid_list_parents": 0,
+  "release_check": "passed",
+  "i18n_tests": "13 passed",
+  "production_build": "passed",
+  "localized_rendered_pages": "740 passed",
+  "chat_catalog_check": "fails on existing fa/ne/uz UI catalog findings",
+  "browser_audit": "not run; browser download unavailable",
+  "chatbot": "7 dedicated chatbot files byte-identical to original upload",
+  "search_safeguards": "SEO metadata, schema, answers, sitemap and robots source preserved"
+}

@@ -4,7 +4,7 @@
   --bg-violet: #f3f0ff;
   --ink: #0f1b3d;
   --ink-2: #3f4b75;
-  --muted: #6b7699;
+  --muted: #566181;
   --line: #e3e8f5;
   --violet: #6d4aff;
   --violet-600: #5a37f0;
@@ -13,7 +13,7 @@
   --gold-600: #d99a12;
   --night: #0a1028;
   --night-2: #141c45;
-  --ok: #128a4f;
+  --ok: #0c7541;
   --ok-bg: #e6f7ee;
   --warn: #9a6200;
   --warn-bg: #fff4dc;
@@ -76,7 +76,7 @@ code { font-family: var(--mono); }
 .eyebrow::before { content: ""; width: 18px; height: 2px; background: currentColor; border-radius: 2px; }
 .eyebrow--gold { color: var(--gold); }
 
-.grad { background: linear-gradient(100deg, var(--violet), var(--blue) 60%, #1aa0ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.grad { background: linear-gradient(100deg, var(--violet), var(--blue) 60%, #2262c6); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .grad--gold { background-image: linear-gradient(100deg, #ffd56b, var(--gold) 50%, #ff9f43); }
 
 /* Buttons */
@@ -202,7 +202,7 @@ code { font-family: var(--mono); }
 .m1::after, .m3::after, .m2::after, .m4::after { content: ""; position: absolute; top: 50%; width: 56px; height: 1px; }
 .m1::after, .m3::after { right: -56px; background: linear-gradient(90deg, rgba(242, 182, 50, .05), rgba(242, 182, 50, .75)); }
 .m2::after, .m4::after { left: -56px; background: linear-gradient(90deg, rgba(242, 182, 50, .75), rgba(242, 182, 50, .05)); }
-.core-dot { position: absolute; top: 18px; right: 18px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 0 rgba(242, 182, 50, .6); animation: pulse 2.6s ease-out infinite; }
+.core-dot { position: absolute; top: 18px; right: 18px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 3px rgba(242, 182, 50, .25); }
 
 /* Feature story */
 .split { display: grid; grid-template-columns: 1.05fr .95fr; gap: 64px; align-items: center; }
@@ -384,7 +384,9 @@ code { font-family: var(--mono); }
 
 @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
 @keyframes spin { to { transform: rotate(360deg); } }
-@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(242, 182, 50, .6); } 80%, 100% { box-shadow: 0 0 0 10px rgba(242, 182, 50, 0); } }
+/* Pulse uses a separate composited layer instead of animating box-shadow. */
+.core-dot::after { content: ""; position: absolute; inset: -3px; border: 2px solid rgba(242, 182, 50, .6); border-radius: 50%; animation: pulse 2.6s ease-out infinite; }
+@keyframes pulse { from { transform: scale(1); opacity: .8; } to { transform: scale(2.2); opacity: 0; } }
 
 /* Responsive */
 @media (max-width: 1080px) {

@@ -1,0 +1,70 @@
+Check the two process names
+
+Your Volume mixer shows display names, not exe names. Open Task Manager → Details while Unite Phone and WhatsApp are running. If their exe names aren’t in the Unite Phone / WhatsApp rows of Groups, add them without .exe. Your UnitePhoneProvider already looks for Unite Phone’s process, so copy the name from there.
+
+Hotkey reference (for the website page)
+Manual mute shortcuts
+
+Each shortcut is a toggle. The first press mutes the app; the second press unmutes it.
+
+Shortcut	Mutes / unmutes	Covers
+Ctrl + Shift + Z	Zoom	Zoom desktop app (meetings and webinars)
+Ctrl + Alt + K	All meeting apps at once	Zoom, Microsoft Teams, Webex, Slack huddles, GoTo Meeting, RingCentral, Zoho Meeting, Jitsi Meet, TrueConf, Adobe Connect, plus all browsers
+Ctrl + Alt + B	All web browsers	Chrome, Edge, Firefox, Brave, Opera, Vivaldi. Use it for Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and any meeting joined in a browser
+Ctrl + Alt + J	Microsoft Teams	Teams meetings, calls and notification sounds
+Ctrl + Alt + G	WhatsApp Desktop	WhatsApp calls, voice notes and notification sounds
+Ctrl + Alt + V	Unite Phone	Unite Phone ringtone and call audio
+
+If another program already uses a shortcut, the toolbar automatically switches to Ctrl + Shift + Alt + the same letter. Letters F and X remain free for future apps.
+
+Automatic mute during phone calls
+Situation	What happens
+WhatsApp or Unite Phone call rings	All meeting apps and browsers are muted. A toast lists which ones.
+Microsoft Teams call rings	Everything above is muted except Teams, so you hear the caller.
+Call ends or is declined	Only the apps the toolbar muted are unmuted. Anything you had muted yourself stays muted.
+You close the toolbar	Any meeting the toolbar muted is unmuted first.
+
+Automatic muting requires Call monitoring and Auto-mute to be switched on in Settings.
+
+Good to know
+It mutes what you hear, not your microphone. Your colleagues can still hear you unless you mute your mic inside the meeting app.
+Browsers are muted as a whole. Windows can’t mute a single tab, so music or videos in the same browser are silenced too.
+It uses the Windows Volume mixer. You can see each app’s speaker icon change under Settings → System → Sound → Volume mixer, and unmute it there by hand at any time.
+An app must have played sound once before Windows lists it. If a toast says “has no sound playing yet”, wait until the meeting audio starts.
+
+
+
+    private static readonly string[] ZoomProcessNames =
+        { "Zoom", "CptHost", "ZoomHybridConf", "Zoom_launcher", "ZoomAirHost" };
+
+    /// <summary>
+    /// Every app the toolbar knows, with its process names as shown in
+    /// Task Manager ▸ Details (without ".exe"). If an app does not mute, check
+    /// its exe name there and add it to its row.
+    /// </summary>
+    private static readonly AppGroup[] Groups =
+    {
+        // Meeting apps — silenced by Ctrl+Alt+K and automatically during calls.
+        new("zoom",        "Zoom",            AppKind.Meeting, ZoomProcessNames),
+        new(AppTeams,      "Microsoft Teams", AppKind.Meeting, new[] { "ms-teams", "MSTeams", "Teams" }),
+        new("webex",       "Webex",           AppKind.Meeting, new[] { "CiscoCollabHost", "Webex", "atmgr", "webexmta", "CiscoWebexStart" }),
+        new("slack",       "Slack",           AppKind.Meeting, new[] { "slack" }),
+        new("goto",        "GoTo Meeting",    AppKind.Meeting, new[] { "GoTo", "GoToMeeting", "g2mcomm", "g2mui", "g2mstart" }),
+        new("ringcentral", "RingCentral",     AppKind.Meeting, new[] { "RingCentral", "RingCentralMeetings", "RingCentral Video" }),
+        new("zoho",        "Zoho Meeting",    AppKind.Meeting, new[] { "ZohoMeeting", "Zoho Meeting" }),
+        new("jitsi",       "Jitsi Meet",      AppKind.Meeting, new[] { "Jitsi Meet", "JitsiMeet" }),
+        new("trueconf",    "TrueConf",        AppKind.Meeting, new[] { "TrueConf" }),
+        new("adobe",       "Adobe Connect",   AppKind.Meeting, new[] { "Adobe Connect", "AdobeConnect" }),
+
+        // Browsers — Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and
+        // web versions of the apps above. Windows mutes a whole browser, not a tab.
+        new("chrome",      "Google Chrome",   AppKind.Browser, new[] { "chrome" }),
+        new("edge",        "Microsoft Edge",  AppKind.Browser, new[] { "msedge" }),
+        new("firefox",     "Firefox",         AppKind.Browser, new[] { "firefox" }),
+        new("brave",       "Brave",           AppKind.Browser, new[] { "brave" }),
+        new("opera",       "Opera",           AppKind.Browser, new[] { "opera" }),
+        new("vivaldi",     "Vivaldi",         AppKind.Browser, new[] { "vivaldi" }),
+
+        // Phone apps — never muted as "meetings"; they have their own shortcuts.
+        new(AppWhatsApp,   "WhatsApp",        AppKind.Call,    new[] { "WhatsApp", "WhatsApp.Root", "WhatsAppDesktop" }),
+        new(AppUnitePhone, "Unite Phone",     AppKind.Call,    new[] { "Unite Phone", "UniteP

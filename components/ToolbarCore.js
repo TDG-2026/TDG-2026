@@ -30,7 +30,7 @@ export default function ToolbarCore() {
   const [selected, setSelected] = useState(0);
   const [paused, setPaused] = useState(false);
   const [hovering, setHovering] = useState(false);
-  const [inView, setInView] = useState(true);
+  const [inView, setInView] = useState(false);
   const [pageVisible, setPageVisible] = useState(true);
 
   const rootRef = useRef(null);
@@ -85,11 +85,17 @@ export default function ToolbarCore() {
   }, [selected]);
 
   useEffect(() => {
-    drawBeam();
-    const ro = new ResizeObserver(drawBeam);
+    if (!inView) return;
+    let frame;
+    const schedule = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(drawBeam);
+    };
+    schedule();
+    const ro = new ResizeObserver(schedule);
     if (stageRef.current) ro.observe(stageRef.current);
-    return () => ro.disconnect();
-  }, [drawBeam]);
+    return () => { ro.disconnect(); cancelAnimationFrame(frame); };
+  }, [drawBeam, inView]);
 
   const renderTool = (tool, i) => (
     <L as="button"
@@ -116,7 +122,7 @@ export default function ToolbarCore() {
   const current = tools[selected];
 
   return (
-  <L as="section" id="toolbar" ref={rootRef} className={`section section--dark ${paused ? styles.paused : ''}`}>
+  <L as="section" id="toolbar" ref={rootRef} className={`section section--dark ${paused || !inView || !pageVisible ? styles.paused : ''}`}>
     <L as="div" className="container">
       <L as="div" className="section-head center">
         <L as="p" className="eyebrow eyebrow--gold">Inside Magic Toolbar</L>

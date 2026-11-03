@@ -40,8 +40,9 @@ export default function Footer() {
         </L>
 
         <L as="div">
-          <L as="h2" id="help-and-resources"><L as="li"><Link href="/about">About Travel Genie</Link></L>Help &amp; resources</L>
+          <L as="h2" id="help-and-resources">Help &amp; resources</L>
           <L as="ul">
+            <L as="li"><Link href="/about">About Travel Genie</Link></L>
             <L as="li"><Link href="/#faq">FAQ</Link></L>
             <L as="li"><Link href="/#get-started">Getting started</Link></L>
             <L as="li"><Link href="/contact">Contact</Link></L>
