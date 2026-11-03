@@ -1,3 +1,5 @@
+> Mobile follow-up: see MOBILE_RESPONSIVE_FIX.md and MOBILE_RESPONSIVE_QA.json. The newer user-requested responsive CSS patch supersedes the earlier statement that all chatbot files are unchanged.
+
 # Travel Genie — Applied fixes and verification
 
 Date: 3 November 2026

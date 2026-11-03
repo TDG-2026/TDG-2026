@@ -724,3 +724,17 @@ html[dir=rtl] h1,html[dir=rtl] h2,html[dir=rtl] h3,html[dir=rtl] .eyebrow,html[d
 .data-table thead th { font-weight: 600; background: var(--surface-2, rgba(127, 127, 127, 0.08)); }
 .data-table tr:last-child td { border-bottom: 0; }
 .data-table code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.9em; white-space: nowrap; }
+/* Let mobile grid tracks shrink to the viewport instead of long code/content. */
+@media (max-width: 960px) {
+  html { overflow-x: clip; }
+  body { width: 100%; max-width: 100%; }
+  main, .container, .hero-grid > *, .split > *, .duo > *,
+  .demo-body > *, .footer-grid > *, .tour-body > * { min-width: 0; }
+  .hero-grid, .split, .duo, .demo-body { grid-template-columns: minmax(0, 1fr); }
+  .code { max-width: 100%; }
+  .answer-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+}
+@media (max-width: 600px) {
+  .callout { max-width: 100%; white-space: normal; }
+  .callout .icon { flex-shrink: 0; }
+}

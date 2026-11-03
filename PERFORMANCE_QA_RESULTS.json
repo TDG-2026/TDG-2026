@@ -7,6 +7,6 @@
   "localized_rendered_pages": "740 passed",
   "chat_catalog_check": "fails on existing fa/ne/uz UI catalog findings",
   "browser_audit": "not run; browser download unavailable",
-  "chatbot": "7 dedicated chatbot files byte-identical to original upload",
+  "chatbot": "Only responsive CSS modified at user request; original engine, data, launcher JS, and replies retained",
   "search_safeguards": "SEO metadata, schema, answers, sitemap and robots source preserved"
 }

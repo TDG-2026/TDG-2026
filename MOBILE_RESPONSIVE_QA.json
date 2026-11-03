@@ -1,0 +1,90 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "closed": {
+        "x": 252,
+        "y": 771.4282836914062,
+        "width": 56,
+        "height": 56
+      },
+      "open": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 844
+      },
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "width": 390,
+      "closed": {
+        "x": 322,
+        "y": 773.3092651367188,
+        "width": 56,
+        "height": 56
+      },
+      "open": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "width": 520,
+      "closed": {
+        "x": 452,
+        "y": 773.2153930664062,
+        "width": 56,
+        "height": 56
+      },
+      "open": {
+        "x": 0,
+        "y": 0,
+        "width": 520,
+        "height": 844
+      },
+      "viewport": 520,
+      "document": 520
+    },
+    {
+      "width": 768,
+      "closed": {
+        "x": 684,
+        "y": 759.2628784179688,
+        "width": 64,
+        "height": 64
+      },
+      "open": {
+        "x": 348,
+        "y": 88,
+        "width": 400,
+        "height": 660
+      },
+      "viewport": 768,
+      "document": 768
+    },
+    {
+      "width": 1440,
+      "closed": {
+        "x": 1356,
+        "y": 759.3093872070312,
+        "width": 64,
+        "height": 64
+      },
+      "open": {
+        "x": 1020,
+        "y": 88,
+        "width": 400,
+        "height": 660
+      },
+      "viewport": 1440,
+      "document": 1440
+    }
+  ],
+  "pageErrors": []
+}
