@@ -6,8 +6,8 @@ export const site = {
   downloadUrl: 'https://www.traveldeskgenie.com/download/Travel-Genie-Magic-Toolbar.exe',
   releaseVersion: null,
   contactUrl: '/contact',
-  supportEmail: 'waqarjim@gmail.com',
-  whatsappNumber: '923498441446',
+  supportEmail: 'traveldeskgenie@gmail.com',
+  whatsappNumber: '923477444312',
   // Languages your support team actually answers in (schema contactPoint.availableLanguage).
   supportLanguages: ['English'],
   // Business address for Organization schema. Only filled fields are output; leave blank to keep private.
@@ -27,7 +27,7 @@ export const site = {
   ],
   // Optional named author (stronger E-E-A-T). Leave name empty to credit the company instead.
   author: {
-    name: '',            // e.g. 'M Waqar Gull'
+    name: '',            // e.g. 'Muhammad Hunain'
     jobTitle: '',        // e.g. 'Founder, Travel Genie'
     url: '/en/about',
     sameAs: [],          // e.g. ['https://www.linkedin.com/in/YOUR-PROFILE']
