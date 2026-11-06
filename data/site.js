@@ -3,7 +3,7 @@ export const site = {
   product: 'Travel Genie Magic Toolbar',
   url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.traveldeskgenie.com').replace(/\/$/, ''),
   description: 'Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.',
-  downloadUrl: 'https://www.traveldeskgenie.com/download/Travel-Genie-Magic-Toolbar.exe',
+  downloadUrl: 'https://www.traveldeskgenie.com/download/Travel-Genie-Magic-Toolbar.msix',
   releaseVersion: null,
   contactUrl: '/contact',
   supportEmail: 'traveldeskgenie@gmail.com',
