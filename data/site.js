@@ -18,29 +18,51 @@ export const site = {
     postalCode: '',
     country: 'PK',
   },
-  // Official public profiles (LinkedIn, Facebook, YouTube): strong entity/GEO signal.
-  // Scanners show "partial author" until at least one real link is added.
+
+  // Official public profiles (Instagram, Facebook, YouTube).
+  // Add only genuine, publicly accessible company profiles.
+  // These links help establish consistent brand identity.
   sameAs: [
-    // 'https://www.linkedin.com/company/YOUR-PAGE',
-    // 'https://www.facebook.com/YOUR-PAGE',
-    // 'https://www.youtube.com/@YOUR-CHANNEL',
+     'https://www.instagram.com/traveldeskgenie/',
+     'https://www.facebook.com/profile.php?id=61596073299276',
+     'https://www.youtube.com/channel/UCXcwiBG0ojtQK3M0UEZ8Lqw',
   ],
-  // Optional named author (stronger E-E-A-T). Leave name empty to credit the company instead.
+
+
+  // Author and brand information.
+  // Use genuine company or author details only.
   author: {
-    name: '',            // e.g. 'Muhammad Hunain'
-    jobTitle: '',        // e.g. 'Founder, Travel Genie'
-    url: '/en/about',
-    sameAs: [],          // e.g. ['https://www.linkedin.com/in/YOUR-PROFILE']
+    name: 'TravelDeskGenie',
+    jobTitle: 'Travel Technology Platform',
+    url: 'https://www.traveldeskgenie.com/en/about',
+    sameAs: [
+      'https://www.facebook.com/profile.php?id=61596073299276',
+    ],
   },
-  legal: {privacy: '/privacy', terms: '/terms', refund: '/refund', delivery: '/delivery'},
+
+  // Legal and policy pages.
+  legal: {
+    privacy: '/privacy',
+    terms: '/terms',
+    refund: '/refund',
+    delivery: '/delivery',
+  },
 };
 
 export const navLinks = [
-  {href: '/', label: 'Home'}, {href: '/products', label: 'Products'},
-  {href: '/pricing', label: 'Pricing'}, {href: '/resources', label: 'Resources'},
-  {href: '/guide', label: 'User Guide'}, {href: '/support', label: 'Support'},
-  {href: '/contact', label: 'Contact'},
+  { href: '/', label: 'Home' },
+  { href: '/products', label: 'Products' },
+  { href: '/pricing', label: 'Pricing' },
+  { href: '/resources', label: 'Resources' },
+  { href: '/guide', label: 'User Guide' },
+  { href: '/support', label: 'Support' },
+  { href: '/contact', label: 'Contact' },
 ];
 
-export const mascot = {src: '/images/genie-mascot.webp', width: 1254, height: 1254,
-  alt: 'Travel Genie mascot: a friendly blue genie holding a globe circled by a golden plane'};
+export const mascot = {
+  src: '/images/genie-mascot.webp',
+  width: 1254,
+  height: 1254,
+  alt: 'TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane',
+};
+

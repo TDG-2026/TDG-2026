@@ -18,7 +18,7 @@
     "hash": "aa6d6025477234ee9966a72c31e1c7a391bfa8e1fc2d6f89eaa3ece3a1cb6460",
     "sources": [
       "app\\[locale]\\about\\page.js:13",
-      "components\\Footer.js:45"
+      "components\\Footer.js:71"
     ]
   },
   "page.m0004": {
@@ -188,7 +188,7 @@
     "hash": "52bfe584a5fc450539e2aa651b990fa2415060492a243816ab2994292089c6fd",
     "sources": [
       "app\\[locale]\\delivery\\page.js:3",
-      "data\\legal.js:7",
+      "data\\legal.js:160",
       "data\\legal.js:1"
     ]
   },
@@ -685,7 +685,7 @@
       "app\\[locale]\\resources\\page.js:9",
       "app\\[locale]\\resources\\[slug]\\page.js:76",
       "app\\[locale]\\resources\\[slug]\\page.js:80",
-      "data\\site.js:39",
+      "data\\site.js:53",
       "data\\translations.en.js:5",
       "data\\site.js:1",
       "messages\\additional-source.json:1"
@@ -704,7 +704,7 @@
     "hash": "318655cea4bd2096fbfad433d7c019bac40750d1a456fc34d366df41fcc77197",
     "sources": [
       "app\\[locale]\\languages\\page.js:22",
-      "components\\Footer.js:51",
+      "components\\Footer.js:82",
       "components\\LanguageSwitcher.js:11",
       "messages\\additional-source.json:1"
     ]
@@ -828,7 +828,7 @@
     "text": "Travel Agency Software & GDS Desk Tools | Travel Genie",
     "hash": "9b48f97ac71672b6883f8c846de036e1c077d149a0969c284635fa7ae84595cc",
     "sources": [
-      "app\\[locale]\\page.js:23",
+      "app\\[locale]\\page.js:25",
       "messages\\additional-source.json:1"
     ]
   },
@@ -836,8 +836,71 @@
     "text": "Magic Toolbar prepares DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre, with F1–F12 shortcuts and desk tools for Windows. From $30/month.",
     "hash": "6e09e607011b9185e739570cee082346b29f734086c8b766f8111486f0603780",
     "sources": [
-      "app\\[locale]\\page.js:24",
+      "app\\[locale]\\page.js:26",
       "messages\\additional-source.json:1"
+    ]
+  },
+  "page.m2188": {
+    "text": "Your account and your information",
+    "hash": "c2b80ff8782aaa69f20f7276cc7dc2784681cd9daaace952013f9a5ade241441",
+    "sources": [
+      "app\\[locale]\\page.js:71"
+    ]
+  },
+  "page.m2189": {
+    "text": "Google sign-in, privacy and support",
+    "hash": "22281178f7e151fb407725bbe9a9e2625f9522069f9c731cf1d051f3638c4cfa",
+    "sources": [
+      "app\\[locale]\\page.js:75"
+    ]
+  },
+  "page.m2190": {
+    "text": "Travel Genie Magic Toolbar is developed by Travel Desk Genie. Google sign-in identifies your customer account using your name, verified email address and Google account identifier. Machine activation, device approval and paid subscription access are managed separately. Signing in does not purchase or renew a subscription.",
+    "hash": "147b6e3caee631a8172031891eae892cd87fdd8c5460efbd85b4ededbc861fb4",
+    "sources": [
+      "app\\[locale]\\page.js:79"
+    ]
+  },
+  "page.m2191": {
+    "text": "Read our",
+    "hash": "70e24631793d00e0ac33f2c286eb9701573383d35601f557a49a83f6ba33afc1",
+    "sources": [
+      "app\\[locale]\\page.js:88"
+    ]
+  },
+  "page.m2192": {
+    "text": "Security & Privacy notice",
+    "hash": "8a6d1929b7723905c958dd7d4855764afc128d1727f4648c4f0f6285a7e5e3b9",
+    "sources": [
+      "app\\[locale]\\page.js:90"
+    ]
+  },
+  "page.m2193": {
+    "text": "for details about Google identity information, Cloudflare account and subscription records, local tools and privacy requests. See our",
+    "hash": "ce76cc58f296dd026e69f65c080792665b8215a9680e94c5225a5d26b9a77dbe",
+    "sources": [
+      "app\\[locale]\\page.js:92"
+    ]
+  },
+  "page.m2194": {
+    "text": "Terms of Service",
+    "hash": "4afa55bf7aec7ddc5dfb904271f881be278e7629ce258675bf4b62f460017abb",
+    "sources": [
+      "app\\[locale]\\page.js:96"
+    ]
+  },
+  "page.m2195": {
+    "text": "for service conditions.",
+    "hash": "7444b919cd075386b66b942027cb02d949134258bd61705adc805d058af7cba6",
+    "sources": [
+      "app\\[locale]\\page.js:96"
+    ]
+  },
+  "page.m2196": {
+    "text": "For account, subscription or privacy assistance, email",
+    "hash": "6dbc5c66474b1aca426cf0ad8b8f2a752f7d279da1d8e54c5e27f282eb412adf",
+    "sources": [
+      "app\\[locale]\\page.js:100"
     ]
   },
   "page.m0121": {
@@ -1054,7 +1117,7 @@
     "sources": [
       "app\\[locale]\\privacy\\page.js:3",
       "components\\CookieConsent.js:11",
-      "data\\legal.js:4",
+      "data\\legal.js:28",
       "data\\legal.js:1"
     ]
   },
@@ -1079,7 +1142,7 @@
       "app\\[locale]\\products\\magic-toolbar\\page.js:14",
       "app\\[locale]\\products\\page.js:10",
       "app\\[locale]\\products\\[slug]\\page.js:66",
-      "data\\site.js:39",
+      "data\\site.js:54",
       "data\\site.js:1"
     ]
   },
@@ -1091,7 +1154,7 @@
       "components\\EnquiryForm.js:8",
       "components\\EnquiryForm.js:9",
       "components\\EnquiryForm.js:11",
-      "components\\Footer.js:25",
+      "components\\Footer.js:45",
       "data\\translations.en.js:6"
     ]
   },
@@ -1397,7 +1460,7 @@
     "hash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24",
     "sources": [
       "app\\[locale]\\products\\[slug]\\page.js:59",
-      "components\\Footer.js:50",
+      "components\\Footer.js:76",
       "components\\Header.js:40",
       "data\\translations.en.js:5"
     ]
@@ -1407,7 +1470,7 @@
     "hash": "d05723c09029aff91b1afe181397afb94f7d2480935d98449104793a7e3ae4aa",
     "sources": [
       "app\\[locale]\\products\\[slug]\\page.js:71",
-      "components\\Footer.js:36",
+      "components\\Footer.js:56",
       "components\\JumpNav.js:8",
       "components\\ProductCatalogue.js:91",
       "data\\translations.en.js:6"
@@ -1432,7 +1495,7 @@
     "hash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6",
     "sources": [
       "app\\[locale]\\products\\[slug]\\page.js:96",
-      "components\\Footer.js:31",
+      "components\\Footer.js:51",
       "components\\WorkflowStrip.js:17",
       "data\\translations.en.js:6"
     ]
@@ -1597,7 +1660,7 @@
     "hash": "6b37bd35081fcbc6676dcfdfa7a7389f70be9ed70f7d50f5163708e2fafe65f8",
     "sources": [
       "app\\[locale]\\refund\\page.js:3",
-      "data\\legal.js:6",
+      "data\\legal.js:143",
       "data\\legal.js:1"
     ]
   },
@@ -1622,8 +1685,8 @@
       "app\\[locale]\\resources\\page.js:9",
       "app\\[locale]\\resources\\[slug]\\page.js:76",
       "app\\[locale]\\resources\\[slug]\\page.js:81",
-      "components\\Footer.js:51",
-      "data\\site.js:40",
+      "components\\Footer.js:77",
+      "data\\site.js:56",
       "data\\site.js:1",
       "messages\\additional-source.json:1"
     ]
@@ -1882,131 +1945,249 @@
       "messages\\additional-source.json:1"
     ]
   },
-  "page.m0241": {
-    "text": "Travel Genie Data Handling | Security & Privacy",
-    "hash": "0d6753ffb2c5a39068c8a1afabd05ffa97d0b41b98251d70730e4cf7a2277355",
+  "page.m2197": {
+    "text": "Travel Genie Magic Toolbar | Security & Privacy",
+    "hash": "62dd1490e3aa3d141861c906103f41190a218d04a50e8b36e784480384a017c7",
     "sources": [
       "app\\[locale]\\security-and-privacy\\page.js:6"
     ]
   },
-  "page.m0242": {
-    "text": "Understand documented local processing, saved passenger records, online translation and website storage before using Travel Genie tools.",
-    "hash": "c410e70084c61f21674553345a285ca601e0013f0ad921527385c9c32654a55f",
+  "page.m2198": {
+    "text": "Learn how Travel Desk Genie handles Google sign-in information, Cloudflare account and subscription records, local travel tools, website storage and privacy requests.",
+    "hash": "26d58519e563b7662e5f4e0108b5f6f01978146923aafd958d584a6a206dbc0f",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:6"
+      "app\\[locale]\\security-and-privacy\\page.js:7"
     ]
   },
   "page.m0243": {
     "text": "Know where information goes",
     "hash": "b7695772038bb77bda36b2a12fb3d84b4c129a52f6cc4811e098eaa8dc99ff8f",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:15"
     ]
   },
   "page.m0244": {
     "text": "Your workflow.",
     "hash": "94b6bffe19503c51ea5b73502efd1a8c18751ad5fda7dc7abd94db4da8f40a04",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:19"
     ]
   },
   "page.m0245": {
     "text": "Clear data boundaries.",
     "hash": "4dc353d818c0afb33250d4e0ceac573ef786c8651fd0417c1d061c60d828e977",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:22"
     ]
   },
-  "page.m0246": {
-    "text": "The supplied Magic Toolbar documentation describes local passport OCR and photo editing, optional saved family records, and an online translation service. These boundaries apply to the documented desktop workflows; separate applications need their own data-flow explanation.",
-    "hash": "e4c013b7d63959190eb54d48f0181e6d9a8f1ca60d661cd27ae125dfb3559c9d",
+  "page.m2199": {
+    "text": "Travel Desk Genie provides Travel Genie Magic Toolbar. This notice explains Google sign-in, machine registration, subscription administration and the documented desktop and website workflows.",
+    "hash": "86f9bf2cd9ff3cabcbf02399b72153331f207ebe2e25ba25c1779abcf3fc7c94",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:27"
+    ]
+  },
+  "page.m2200": {
+    "text": "Last updated: 5 November 2026.",
+    "hash": "c4e6d77883b7d0721a79a2176e338159d66ef682758197a7634de931027aed41",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:34"
     ]
   },
   "page.m0247": {
     "text": "What stays on the Windows PC?",
     "hash": "53ee13e3499c265a5ae7c64c17bdd29cf7e8727eec0ee17b7550fae50cc6dfab",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:38"
     ]
   },
   "page.m0248": {
     "text": "Passport OCR and photo editing are documented as local tasks. Saved family records are described as protected with Windows DPAPI for the current Windows account. Use the application’s Export/Import feature when moving supported records; do not assume raw file copies can be read under another account.",
     "hash": "089e99fa7e11ad775a0cc2a4569a4d971f8b1ee4eea915349046b60d0e8ff9cf",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:42"
     ]
   },
-  "page.m0249": {
+  "page.m2201": {
+    "text": "What information does Google sign-in share?",
+    "hash": "2385cad162ed5bde186d6d71609898f481222bacac4e352a06d6b5e6a9ff097b",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:50"
+    ]
+  },
+  "page.m2202": {
+    "text": "The app requests basic identity permissions: openid, email and profile. We use your Google account identifier, verified email address and display name to identify your customer account, link machine access requests and provide account and subscription support.",
+    "hash": "fa014922a4112f8f8602a73025c7ab8d68496c216e7a97efd86ab1e92bc1bdcd",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:54"
+    ]
+  },
+  "page.m2203": {
+    "text": "Your Google password is entered on Google’s website and is not received by Travel Desk Genie. This sign-in does not request access to Gmail messages, Google Drive files or contacts. Signing in identifies you; machine activation, device approval and paid subscription access are managed separately. Signing in does not purchase or renew a subscription.",
+    "hash": "0775ea9c4f5c52710eafeca7abfa8675f2e020305f5ab5b46c6aa6c27475576e",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:62"
+    ]
+  },
+  "page.m2204": {
+    "text": "What does the Cloudflare service store?",
+    "hash": "196b39e79b1f91eaccb4e52c409fa653d09385382fc3fc7782be2f158e58d52b",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:71"
+    ]
+  },
+  "page.m2205": {
+    "text": "Cloudflare Workers and D1 host the account and subscription service. Records include customer accounts, machine identifiers, device public keys and fingerprints, activation links, subscription status and expiry dates, and manually recorded payment amounts, currencies, receipt references and renewal history. The owner portal can also store internal support notes and account or access-security events.",
+    "hash": "5e83fc83314b360258a3bdde889ebeb3fc5125e13bdf4496d2a409a8d322033a",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:75"
+    ]
+  },
+  "page.m2206": {
+    "text": "Online access checks can record your public IP address, country, app version and contact times. Authorized administrators use these records to provide customer assistance, manage device and subscription access, investigate security issues and maintain renewal bookkeeping. A payment record is not an automatic bank charge.",
+    "hash": "429fc909653beded8702d0fbdb09c764784deb02f99c982bffaf5daa4c19d9da",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:85"
+    ]
+  },
+  "page.m2207": {
+    "text": "How is information used and shared?",
+    "hash": "01d0c61c35ca3c380346f207be2200005cc5c6ee284218aab26a5f55efe416a6",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:94"
+    ]
+  },
+  "page.m2208": {
+    "text": "Google identity information is used for customer identification, account linking, access management and related support. Google processes the authentication flow, and Cloudflare processes the hosted account and subscription records. Authorized administrators can view relevant customer and subscription details for those purposes.",
+    "hash": "607bbd04b07b790fe01c678245ece59b8691b2fa80ed582e03485fdc75f7eaa6",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:98"
+    ]
+  },
+  "page.m2209": {
+    "text": "Account and subscription requests use HTTPS. The desktop protects its saved app session credentials using Windows user-account protection. During sign-in, the browser sends a short-lived response to a temporary listener on your own PC so the app can finish verifying your account.",
+    "hash": "c31a633e037817c2787b9b2f9d0941faf7f13924e070fe90f0108e2c1347f50a",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:107"
+    ]
+  },
+  "page.m2181": {
     "text": "What uses an online service?",
     "hash": "68b3f02cc5a79881e74e52f125a37682c3245c4eb6eedfed4c467c125be94271",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:115"
     ]
   },
-  "page.m0250": {
+  "page.m2182": {
     "text": "Travel Genie Translate sends selected text to an online translation service. Do not send passport or customer information unless you have permission and your agency approves the service. A toolbar that prepares GDS text does not itself establish a booking-system connection.",
     "hash": "e93f7ee6e795ecbb629b426cd6f0bc9475c251ae501e249183a62d4d395335fc",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:119"
     ]
   },
   "page.m0251": {
     "text": "What does this website store?",
     "hash": "61a6b773d44e0319f3af7ba6e956a27c19270e3dd422fc09a30b1afbdb77e0e7",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:127"
     ]
   },
   "page.m0252": {
     "text": "Cookie choices, product ordering and chat preferences use browser storage. Chat messages are kept in session storage by the existing widget. The website has no passport-upload form and no installed analytics or advertising service. Optional analytics preferences do not themselves load a tracking provider.",
     "hash": "3c8ea5efa6c011067b84f52d562e046184773e947dc397e392d38dad9cb2ba69",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:131"
     ]
   },
-  "page.m0253": {
+  "page.m2210": {
+    "text": "How long are records kept, and how can I request deletion?",
+    "hash": "397ef1c8201f157a3f01b6071bdbf16b7e7bb9fed17d4d2214e9e932d41c3a04",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:140"
+    ]
+  },
+  "page.m2211": {
+    "text": "We keep account, device and subscription records while needed to provide the service, resolve support or security issues and meet applicable record-keeping obligations. Payment and audit history may need to be retained for those purposes. Requests to access, correct or delete account information are reviewed after verifying account ownership; we explain any records that must be retained.",
+    "hash": "0b291355f4976e8ec86afada461c98351b7f1006ec31a5f2e2a2a22731721fca",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:144"
+    ]
+  },
+  "page.m2212": {
+    "text": "Signing out or uninstalling does not automatically erase server-side account, subscription, payment or audit history. You can remove the app’s Google connection in your Google Account settings. Contact support to end Travel Genie sessions as well: removing the Google connection does not automatically invalidate all existing Travel Genie sessions or signed offline allowances. An already-issued offline allowance can remain valid until its expiry.",
+    "hash": "eafb4b2e2799d809338cf18f1aed668d22b045fe48c085059f6310570d194734",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:154"
+    ]
+  },
+  "page.m2213": {
+    "text": "Who handles privacy requests?",
+    "hash": "e549a71cd87156475844765750f9b1db08965dc1cf8edf058fa99d2f38fdcc75",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:165"
+    ]
+  },
+  "page.m2214": {
+    "text": "For privacy questions or requests to access, correct or delete account information, email",
+    "hash": "263e8c7065ed8e6b471a4c34489cdc19c350e3ef8bfec9a7e35964500cb02bac",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:169"
+    ]
+  },
+  "page.m2215": {
+    "text": ". Our alternate contact is",
+    "hash": "220c9a538c9c6b6cc6a64c3d1e6ceb1315bd0d287f75b37815a8ec9c02bf77e2",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:174"
+    ]
+  },
+  "page.m2216": {
+    "text": ". Include enough information to identify your account, but never send your Google password, session tokens or private keys.",
+    "hash": "7073a24dee14f11f82dc7de0944e269ca895f48c74f85546ad97caa8d2aa95af",
+    "sources": [
+      "app\\[locale]\\security-and-privacy\\page.js:178"
+    ]
+  },
+  "page.m2183": {
     "text": "What should I send to support?",
     "hash": "0568dcf2f875f31c5d9138a67ddd5936e8c88c27296f472d5d8405f924340b79",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:183"
     ]
   },
-  "page.m0254": {
+  "page.m2184": {
     "text": "Send the product name, operating system, release version if known and a description of the issue. Redact screenshots. Do not send passwords, full payment details, passport scans or customer records through the public chat.",
     "hash": "63ab17aa495e02622374112d9cbdc5d321f26e0029f5cd08f0e2b64b604756de",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:187"
     ]
   },
-  "page.m0255": {
-    "text": "Where are the full policies?",
-    "hash": "6dc5bed1d6e05788c20534566aa305496e1979b4d02c033d4676e6015be1d58c",
+  "page.m2217": {
+    "text": "The optional support diagnostic export can be previewed before saving. It contains app, runtime and operating-system details and access dates; it excludes passport data, databases, raw logs, clipboard contents, customer email, machine IDs, tokens and keys. That export does not upload anything automatically. Email, chat or WhatsApp providers process the information you choose to send through them.",
+    "hash": "77a19c6c5dc22ca06091860a77f6a4b73cc93004c6142afbc90f303ba3c20459",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:194"
     ]
   },
-  "page.m0256": {
-    "text": "The",
-    "hash": "b344d80e24a3679999fa964450b34bc24d1578a35509f934c1418b0a20d21a67",
+  "page.m2218": {
+    "text": "Related policies and changes",
+    "hash": "1607385f9c3e024808cf7ed344989e2e1596a0a28ae4d19540b14f699f60a654",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:204"
     ]
   },
-  "page.m1077": {
-    "text": "privacy",
-    "hash": "a4cc6bc01a927e2a78fd3bec51e865ac0d85e4daab6f988d5d33d056e125b1c3",
+  "page.m2219": {
+    "text": "This page describes the account and subscription privacy practices above alongside the documented local tools and website storage. The",
+    "hash": "a5609aa1c2cc658def34ac9dc6a2018139858a4d39d880cb133f215a0f00c6a0",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7",
-      "messages\\additional-source.json:1"
+      "app\\[locale]\\security-and-privacy\\page.js:208"
     ]
   },
   "page.m1078": {
     "text": "terms",
     "hash": "51d2361f4faea3bc8f9facdbc7d99abb555596a2e51f7b25fd3b41c93587e616",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7",
+      "app\\[locale]\\security-and-privacy\\page.js:212",
       "messages\\additional-source.json:1"
     ]
   },
@@ -2014,7 +2195,7 @@
     "text": "refund",
     "hash": "1d630127108f1feaf1f7beee59b66dd679daf712a441f3d0a39ee9ea0f2b7a95",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7",
+      "app\\[locale]\\security-and-privacy\\page.js:213",
       "messages\\additional-source.json:1"
     ]
   },
@@ -2022,7 +2203,7 @@
     "text": "and",
     "hash": "6201111b83a0cb5b0922cb37cc442b9a40e24e3b1ce100a4bb204f4c63fd2ac0",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7",
+      "app\\[locale]\\security-and-privacy\\page.js:213",
       "messages\\additional-source.json:1"
     ]
   },
@@ -2030,22 +2211,22 @@
     "text": "delivery",
     "hash": "b4af39d5b65a14849e885a9d65f0efe4f4e689989689c28c16cfcb3a6e78db5a",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7",
+      "app\\[locale]\\security-and-privacy\\page.js:214",
       "messages\\additional-source.json:1"
     ]
   },
-  "page.m0257": {
-    "text": "pages remain owner-editable drafts where company-specific details have not been supplied. This technical summary does not replace a finalized policy.",
-    "hash": "ea5adaf3d73171d5b70ea26f88f57cbda313d58336ed4aaa23a1ac149e04eb9b",
+  "page.m2220": {
+    "text": "pages cover their respective subjects. Material changes to these data practices will be reflected in an updated notice.",
+    "hash": "159fcad46b72d952aeebd8d76ed111f3de0d6551901fefe4d78a6aa4c9b9a6d3",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:214"
     ]
   },
   "page.m0258": {
     "text": "Ask a data-handling question",
     "hash": "bbcd1b5d55897aa48824b67be24618c7d73eeabdf543fba5dfdaaa7b7a2e25ac",
     "sources": [
-      "app\\[locale]\\security-and-privacy\\page.js:7"
+      "app\\[locale]\\security-and-privacy\\page.js:219"
     ]
   },
   "page.m0259": {
@@ -2150,9 +2331,7 @@
     "text": "Terms",
     "hash": "ede5489964834a514b61c7a4a8370be2452dd4a7d807180f14991ccc11ad2430",
     "sources": [
-      "app\\[locale]\\terms\\page.js:3",
-      "data\\legal.js:5",
-      "data\\legal.js:1"
+      "app\\[locale]\\terms\\page.js:3"
     ]
   },
   "AnswerHub.m1444": {
@@ -2644,7 +2823,7 @@
     "sources": [
       "components\\FeatureStory.js:48",
       "components\\FeatureStory.js:50",
-      "components\\Footer.js:28"
+      "components\\Footer.js:48"
     ]
   },
   "FeatureStory.m0340": {
@@ -2683,7 +2862,7 @@
     "sources": [
       "components\\FeatureStory.js:55",
       "components\\FeatureStory.js:57",
-      "components\\Footer.js:29"
+      "components\\Footer.js:49"
     ]
   },
   "FeatureStory.m0344": {
@@ -2746,7 +2925,7 @@
     "text": "Travel",
     "hash": "d2b98fb53714f23cc0aa7b0ad6dbf910dd537237d7debe818a142590a322b992",
     "sources": [
-      "components\\Footer.js:18",
+      "components\\Footer.js:23",
       "components\\Header.js:47"
     ]
   },
@@ -2754,23 +2933,30 @@
     "text": "Genie",
     "hash": "bc8359eb1335ec654b14ddb264bdcaa1ffe6ebebe431ebb2c2ede4552026a8c2",
     "sources": [
-      "components\\Footer.js:18",
+      "components\\Footer.js:24",
       "components\\Header.js:47",
-      "data\\genie\\config.js:7"
+      "data\\genie\\config.js:8"
     ]
   },
   "Footer.m0354": {
     "text": "Passport details, passenger contacts and everyday travel desk tools in one Windows workspace.",
     "hash": "c0665db017d49f7eb14da0dac21b89fba65b97b20f4f96dd2b1c4adeb4be32cc",
     "sources": [
-      "components\\Footer.js:20"
+      "components\\Footer.js:28"
+    ]
+  },
+  "Footer.m2221": {
+    "text": "Travel Genie Magic Toolbar is developed by Travel Desk Genie.",
+    "hash": "edf9547875b51c75be5e342def873ae934c6b7af8c8e4318281d207b48bdec00",
+    "sources": [
+      "components\\Footer.js:33"
     ]
   },
   "Footer.m0355": {
     "text": "Passport & DOCS",
     "hash": "b817037095838b78612fb14db7154f42c80a637a9078c712d78a1919d7665b3e",
     "sources": [
-      "components\\Footer.js:27",
+      "components\\Footer.js:47",
       "components\\JumpNav.js:4",
       "data\\toolbar.js:2"
     ]
@@ -2779,7 +2965,7 @@
     "text": "Desk tools",
     "hash": "22b91f3566da949849a525359e58645e0da25f75a736c1ca77eb4b966d3b2623",
     "sources": [
-      "components\\Footer.js:30",
+      "components\\Footer.js:50",
       "components\\JumpNav.js:7"
     ]
   },
@@ -2787,14 +2973,14 @@
     "text": "Help & resources",
     "hash": "59a592cbcf22c272788630e2fc2b236e1de0f2c7c40b567932674abe693aeb4a",
     "sources": [
-      "components\\Footer.js:43"
+      "components\\Footer.js:69"
     ]
   },
   "Faq.m1082": {
     "text": "FAQ",
     "hash": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b",
     "sources": [
-      "components\\Footer.js:46",
+      "components\\Footer.js:72",
       "messages\\additional-source.json:1"
     ]
   },
@@ -2802,7 +2988,7 @@
     "text": "Getting started",
     "hash": "831d0f72d242b7d12d4ef15123d43145e97e95be5aba57cd150e434159aae202",
     "sources": [
-      "components\\Footer.js:47",
+      "components\\Footer.js:73",
       "components\\GetStarted.js:19"
     ]
   },
@@ -2810,8 +2996,8 @@
     "text": "Contact",
     "hash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
     "sources": [
-      "components\\Footer.js:48",
-      "data\\site.js:42",
+      "components\\Footer.js:74",
+      "data\\site.js:59",
       "data\\translations.en.js:5",
       "data\\site.js:1"
     ]
@@ -2820,10 +3006,10 @@
     "text": "Pricing",
     "hash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040",
     "sources": [
-      "components\\Footer.js:49",
+      "components\\Footer.js:75",
       "data\\genie\\i18n.js:4",
       "data\\genie\\knowledge.js:156",
-      "data\\site.js:40",
+      "data\\site.js:55",
       "data\\translations.en.js:5",
       "data\\genie\\i18n.js:1",
       "data\\site.js:1"
@@ -2833,24 +3019,24 @@
     "text": "Support",
     "hash": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3",
     "sources": [
-      "components\\Footer.js:51",
-      "data\\site.js:41",
+      "components\\Footer.js:78",
+      "data\\site.js:58",
       "data\\site.js:1"
     ]
   },
-  "Footer.m0362": {
-    "text": "Security & data",
-    "hash": "863a0934146827287b6545d58019c442318a48313893448ac17fcff93815dee6",
+  "Footer.m2222": {
+    "text": "Security & Privacy",
+    "hash": "121fa1521e9563ecceefe26b9673a9decb4c3e820bc7d76349ff09e85dc0d7e8",
     "sources": [
-      "components\\Footer.js:51"
+      "components\\Footer.js:80"
     ]
   },
   "Footer.m0364": {
     "text": "User Guide",
     "hash": "d131ef7f9b5e2b457faba856dcc5f90438b46b97df6a849234432e76c63f6cbd",
     "sources": [
-      "components\\Footer.js:51",
-      "data\\site.js:41",
+      "components\\Footer.js:83",
+      "data\\site.js:57",
       "data\\site.js:1"
     ]
   },
@@ -2858,14 +3044,30 @@
     "text": "Legal",
     "hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
     "sources": [
-      "components\\Footer.js:56"
+      "components\\Footer.js:88"
     ]
   },
-  "Footer.m0366": {
-    "text": "Travel Genie. All rights reserved.",
-    "hash": "0a6b46d7af7e258da4258da02cf6abb6efc1bd3793ae514831f4e5bad2fb278e",
+  "Footer.m2223": {
+    "text": "Privacy Policy",
+    "hash": "506ff394621596dd88138642eddfc1e41833b3ae92d95e5c77c94327098abd9a",
     "sources": [
-      "components\\Footer.js:59"
+      "components\\Footer.js:94"
+    ]
+  },
+  "Footer.m2224": {
+    "text": "Terms of Use",
+    "hash": "12a0015fa32217778863154566bce500732726db6ea596518712c12955d9a225",
+    "sources": [
+      "components\\Footer.js:96",
+      "data\\legal.js:45",
+      "data\\legal.js:1"
+    ]
+  },
+  "Footer.m2225": {
+    "text": "Travel Desk Genie. All rights reserved.",
+    "hash": "243e00440c946603248f1a04bcf649f21912dd05a3e0d9821ea0f2fd27752fdb",
+    "sources": [
+      "components\\Footer.js:106"
     ]
   },
   "GenieChat.m1751": {
@@ -3262,8 +3464,8 @@
     "text": "\\u003c",
     "hash": "9f9fdabe6e34f4c1d60e9da00d427cf7d32c1f3b4374d5311f588df8c966dae5",
     "sources": [
-      "components\\JsonLd.js:6",
-      "components\\StructuredData.js:3"
+      "components\\JsonLd.js:49",
+      "components\\StructuredData.js:16"
     ]
   },
   "JumpNav.m0412": {
@@ -3425,32 +3627,46 @@
       "components\\LanguageSwitcher.js:11"
     ]
   },
+  "LegalPage.m2226": {
+    "text": "Travel Desk Genie · Legal information",
+    "hash": "3530fc49aa020f3610dba0a4794be203565cdd327a77b139112da9a788a6a264",
+    "sources": [
+      "components\\LegalPage.js:18"
+    ]
+  },
   "LegalPage.m0428": {
     "text": "Legal information · Draft template",
     "hash": "1d281efb5c2d8b2642072aa6e55e994d75439303a9cf77f4513a7a7e600b08ff",
     "sources": [
-      "components\\LegalPage.js:5"
+      "components\\LegalPage.js:19"
     ]
   },
   "LegalPage.m0429": {
     "text": "This policy is an editable draft. Sections marked “Owner to complete” require business details and review before being relied upon as a final policy.",
     "hash": "10938dbb260dd65f27c1cdf5217c836b710714e11f98a53a9b3fea010a844f0d",
     "sources": [
-      "components\\LegalPage.js:5"
+      "components\\LegalPage.js:26"
     ]
   },
   "LegalPage.m0430": {
     "text": "Policy contents",
     "hash": "034995f8beb6c278069aa8e2646ab09f3f6502e92b942962d1f11f48f85367a6",
     "sources": [
-      "components\\LegalPage.js:5"
+      "components\\LegalPage.js:35"
     ]
   },
   "LegalPage.m0431": {
     "text": "Contact the team →",
     "hash": "78c16d09137b9ed44ec2cb1715b154c754532b5e405c567451b3b916895c0414",
     "sources": [
-      "components\\LegalPage.js:5"
+      "components\\LegalPage.js:43"
+    ]
+  },
+  "LegalPage.m2227": {
+    "text": "Security & Privacy →",
+    "hash": "ef40ba18f2b350c68622ab98c84e82df128d7191532791a37f8f35218a3640ca",
+    "sources": [
+      "components\\LegalPage.js:47"
     ]
   },
   "ProductCatalogue.m0432": {
@@ -4575,14 +4791,14 @@
     "text": "Genie at your service",
     "hash": "8709ff0af4ef7f9e0dac99bab3dd0137ccf35bd758da8d98818fdc4ef92713cf",
     "sources": [
-      "data\\genie\\config.js:6"
+      "data\\genie\\config.js:7"
     ]
   },
   "config.m0598": {
     "text": "pt-BR",
     "hash": "2a67f1a4675ab88705c1a2bbe30bdd800f22c737e7f8c0328825cd247bd078ad",
     "sources": [
-      "data\\genie\\config.js:51",
+      "data\\genie\\config.js:61",
       "data\\genie\\i18n.js:15",
       "data\\locales.js:10",
       "lib\\genie\\engine.js:33",
@@ -4594,7 +4810,7 @@
     "text": "zh-Hans",
     "hash": "730d4d982206da1adf9ac14b9f9b0bfee4dea3f0db764effafc25fa7fd878f67",
     "sources": [
-      "data\\genie\\config.js:52",
+      "data\\genie\\config.js:62",
       "data\\genie\\i18n.js:20",
       "data\\locales.js:15",
       "lib\\genie\\engine.js:31",
@@ -6739,8 +6955,7 @@
     "text": "Container Manager",
     "hash": "23cde08b22bf89bb12c00c8229cb8e6d890f6fb66ba127c8358f4c0da3baf62a",
     "sources": [
-      "data\\genie\\knowledge.js:83",
-      "data\\screens.js:86"
+      "data\\genie\\knowledge.js:83"
     ]
   },
   "knowledge.m0636": {
@@ -7679,7 +7894,7 @@
     "text": "Introduction and scope",
     "hash": "0a6e7eb00f898b714e1a075ccf3973da17462e1d101896283b6ddfe3cafe8434",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:6",
       "data\\legal.js:1"
     ]
   },
@@ -7687,7 +7902,7 @@
     "text": "Who we are",
     "hash": "696ab4d5bfb5383b32834cc7435b2425605f1535be8004319519b2d27cc90b99",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:7",
       "data\\legal.js:1"
     ]
   },
@@ -7695,7 +7910,7 @@
     "text": "Information we collect",
     "hash": "45dd2377c277448d93178e04a6c1801ceb80b7d03c3de1add1bf1c79ed3e1507",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:8",
       "data\\legal.js:1"
     ]
   },
@@ -7703,7 +7918,7 @@
     "text": "How we use your information",
     "hash": "c4bb143ee1ed822d22a0536c6da0d14c17f7462a776c9f4be6efca137345da91",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:9",
       "data\\legal.js:1"
     ]
   },
@@ -7711,7 +7926,7 @@
     "text": "Legal bases for processing",
     "hash": "84cd7b8c33172027e93fa6ba24ea8e0dc00894f3903fd64772f47b0fd3cc7688",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:10",
       "data\\legal.js:1"
     ]
   },
@@ -7719,7 +7934,7 @@
     "text": "What stays on your device",
     "hash": "a2eb9bbea0c1b12d7e9d0a580ed053391904bcb8f90a2edd3aafc025d87de889",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:11",
       "data\\legal.js:1"
     ]
   },
@@ -7727,7 +7942,7 @@
     "text": "Cookies and similar technologies",
     "hash": "dd876409731457397ead3ec834f71bd7b00913a5f271682b009154bb8c781681",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:12",
       "data\\legal.js:1"
     ]
   },
@@ -7735,7 +7950,7 @@
     "text": "How we share information",
     "hash": "2243c220ef5d126d564283b958feb26ebf202a265ee3ef23c6fc6e1eb40e8fc1",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:13",
       "data\\legal.js:1"
     ]
   },
@@ -7743,7 +7958,7 @@
     "text": "Service providers we rely on",
     "hash": "d165fb4bbdbe467bc2d84a301666288eb5c89d29e13de347b028f33a8b1d2bbc",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:14",
       "data\\legal.js:1"
     ]
   },
@@ -7751,7 +7966,7 @@
     "text": "International data transfers",
     "hash": "43da394657b21c8cd03279e0d1227ba0f6203f5e319297ab91dfc1f25e879e66",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:15",
       "data\\legal.js:1"
     ]
   },
@@ -7759,7 +7974,7 @@
     "text": "How long we keep information",
     "hash": "67e3fe6511e42f57f6925a0786ede75fd8fbbd120df3ea5e74a389a4c0a30697",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:16",
       "data\\legal.js:1"
     ]
   },
@@ -7767,7 +7982,7 @@
     "text": "How we protect information",
     "hash": "d7dfb29f6dcb882aa4bc4c357b13dcf28352aaf037f92e46e049e274fcffa14e",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:17",
       "data\\legal.js:1"
     ]
   },
@@ -7775,7 +7990,7 @@
     "text": "Your privacy rights",
     "hash": "96d9030e811f7268465aba78350aeefa037c4c61b3fe3634a37035de3eed097d",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:18",
       "data\\legal.js:1"
     ]
   },
@@ -7783,7 +7998,7 @@
     "text": "Notice to California residents",
     "hash": "7538a3250e776ea15f0b5d256a1bea4c92da4c0698ceacfd68888e3a8022371f",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:19",
       "data\\legal.js:1"
     ]
   },
@@ -7791,7 +8006,7 @@
     "text": "Marketing communications",
     "hash": "b0238c2b4fb6ad2776adc7c21d2f50cde19320f8635c6c62a9a35c54fad70b8d",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:20",
       "data\\legal.js:1"
     ]
   },
@@ -7799,7 +8014,7 @@
     "text": "Children’s privacy",
     "hash": "740155cb51d893d9714ebf29691abe68055cb9a3d33f41df4af6d570b7634f67",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:21",
       "data\\legal.js:1"
     ]
   },
@@ -7807,7 +8022,7 @@
     "text": "Changes to this policy",
     "hash": "86cb08a84ff4d12d0d7e1741c28362b6c4923971cd8eb2b4bf0b7a9e5277534f",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:22",
       "data\\legal.js:1"
     ]
   },
@@ -7815,7 +8030,7 @@
     "text": "Contact and complaints",
     "hash": "f9f71392eae01e57c8806cd295654894aa79539bc4904e0749dc4bfd0d4418c5",
     "sources": [
-      "data\\legal.js:2",
+      "data\\legal.js:23",
       "data\\legal.js:1"
     ]
   },
@@ -7823,7 +8038,7 @@
     "text": "How information is handled across our website and desktop software.",
     "hash": "aba0c2049b7a1d8a814ec48215a54e5388a8013df8a938ecc1baedffd4861cd3",
     "sources": [
-      "data\\legal.js:4",
+      "data\\legal.js:30",
       "data\\legal.js:1"
     ]
   },
@@ -7831,7 +8046,7 @@
     "text": "Cookie preferences are stored in this browser. Optional analytics and marketing preferences default to off. No analytics or advertising scripts are installed in this website package.",
     "hash": "33ee5b2a446f4c59e685674256ce227c78e202afc02cbf4f3d4f87309d9f6f4d",
     "sources": [
-      "data\\legal.js:4",
+      "data\\legal.js:35",
       "data\\legal.js:1"
     ]
   },
@@ -7839,7 +8054,7 @@
     "text": "For privacy questions, contact traveldeskgenie@gmail.com. The operator must add its registered identity, address and applicable complaint authority before publishing this policy.",
     "hash": "18b8d89071601a5b566ce9b3fba37e4a5ab227edf5eb7bf28e71f80683a88aaa",
     "sources": [
-      "data\\legal.js:4",
+      "data\\legal.js:37",
       "data\\legal.js:1"
     ]
   },
@@ -7847,85 +8062,309 @@
     "text": "[Owner to complete: describe",
     "hash": "1f85238ea5b699355711569a9f17c379636f93026a7fc8eed93f88cc2256a73d",
     "sources": [
-      "data\\legal.js:4"
+      "data\\legal.js:38"
     ]
   },
   "legal.m0786": {
     "text": "accurately for the deployed website, desktop application and relevant service providers.]",
     "hash": "b65f1b7083267f8d9e7c494c77140168e1a5772ee4138425ce217e090cfc9564",
     "sources": [
-      "data\\legal.js:4"
+      "data\\legal.js:40"
     ]
   },
-  "legal.m0787": {
-    "text": "The terms governing access to Travel Genie and its software.",
-    "hash": "05549565a96bd3a6f3535d3d9dc427db1de5b8d0104ad15223b1b90ec064b582",
+  "legal.m2228": {
+    "text": "These terms apply to Travel Genie Magic Toolbar and its related account and subscription services, provided under the Travel Desk Genie business name. Last updated: 5 November 2026.",
+    "hash": "9518166edf51ef342e6e8977942c9a5fc6cc972e4d9b1617296e5973e227ad71",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:47",
       "data\\legal.js:1"
     ]
   },
-  "legal.m0788": {
-    "text": "Operator and agreement",
-    "hash": "d32241af3a3cda4c032877202ff1388b82bde7b3ab46b63215fa59831fc8bd74",
+  "legal.m2229": {
+    "text": "About these terms",
+    "hash": "6916fabd49b75790db1ff394dfb124cb5d684ddf49b7ab8902d11839ba8074e4",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:50",
       "data\\legal.js:1"
     ]
   },
-  "legal.m0789": {
-    "text": "[Owner to complete: legal entity, address, agreement scope and effective date.]",
-    "hash": "595ce82a5afb078ea448f2584fec6a1cede050bcc7fbee259df28ecc9fbf73a9",
+  "legal.m2230": {
+    "text": "Travel Genie Magic Toolbar is Windows desktop software that assists with passenger entries and everyday travel-desk tasks. Please read these terms before using the software or purchasing access. If you use the software for an agency or another organisation, you must have permission to do so. Purchase-specific details confirmed in writing, including the price, subscription period and device allowance, form part of your agreement with us.",
+    "hash": "5f073cdcaca9d0aa5ab56d623ce78dfe60f508ed574783abd8b497eca66b2992",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:52",
       "data\\legal.js:1"
     ]
   },
-  "legal.m0790": {
-    "text": "Licence and acceptable use",
-    "hash": "4ffb8463d752829e3ea6559d4bb0bb1de04f0672cf3bdc1c3618a95aff104614",
+  "legal.m2231": {
+    "text": "Contact and support",
+    "hash": "8e43ef3d51f510641c20f56fe2b97f8dc36416c337c9c74aa5cbaf9fef3d7d14",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:55",
       "data\\legal.js:1"
     ]
   },
-  "legal.m0791": {
-    "text": "[Owner to complete: permitted users, devices, licence duration, restrictions and suspension rules.]",
-    "hash": "c3a06b760a36c2a93c7234f5bf4e535245b924341b041270eaa9ad3e0b403924",
+  "legal.m2232": {
+    "text": "For account, activation, subscription, payment or privacy questions, contact info@traveldeskgenie.com. You may also contact traveldeskgenie@gmail.com. Include your account email, application version and relevant purchase reference when appropriate. Never send Google passwords, authentication codes, private keys, full payment-card details or passenger documents through public support chat.",
+    "hash": "7c76aefca4543ba21da30d57b1f08ea1fad5a54396713add8469fff65f06621f",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:57",
       "data\\legal.js:1"
     ]
   },
-  "legal.m0792": {
-    "text": "Plans and activation",
-    "hash": "0b1c74a82acbdca29dd55e6215785081af78f85ea9fa285b90190ca14edd1f35",
+  "legal.m2233": {
+    "text": "Google sign-in",
+    "hash": "a64b17b25d9d527dbcaba585dedbc57ef9f94e13ac84b96d97631846f1819be6",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:60",
       "data\\legal.js:1"
     ]
   },
-  "legal.m0793": {
-    "text": "Published options are $30 monthly, $220 yearly and lifetime pricing by enquiry. [Owner to complete: taxes, billing, renewal, cancellation, device and API-key requirements.]",
-    "hash": "c7a7948ad4cf518e76631eedfafb13deb9f5202403e2605782ab698ac2bb5db0",
+  "legal.m2234": {
+    "text": "Google sign-in identifies your customer account using your Google account identifier, verified email address and display name. Your Google password is entered on Google’s own sign-in page and is not provided to Travel Desk Genie. Our sign-in integration does not request access to your Gmail messages, Google Drive files or Google contacts. Google authentication does not by itself purchase a subscription, approve a device or grant paid access.",
+    "hash": "6bd18bb430a5fbf55180e17b3282cfbdf0d28ff2f9814e203e9f3f1f8aaa8b42",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:62",
       "data\\legal.js:1"
     ]
   },
-  "legal.m0794": {
-    "text": "Responsibilities and disputes",
-    "hash": "c51a73b52356b0f0fad00b7a3df09fa830c96256b596c66ccac7417dd1a770a6",
+  "legal.m2235": {
+    "text": "Account security",
+    "hash": "1d85c11e14444f61ffecab13bae85c0dd268ef28771b56307d30f7a9f0242b4e",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:65",
       "data\\legal.js:1"
     ]
   },
-  "legal.m0795": {
-    "text": "Review all generated passenger entries before use. [Owner to complete: warranties, liability provisions, governing law and dispute process.]",
-    "hash": "fdcbd5dca1750658a802621eaf963e9da60c84dad58c469c9373eb11a492a105",
+  "legal.m2236": {
+    "text": "Use an account you control or are authorised to use. Keep your Google account and Windows computer secure, and notify support if you suspect unauthorised access. Do not share activation credentials or allow others to bypass account or device controls. Account recovery and changes to linked devices may require verification of account ownership.",
+    "hash": "8dff766ffeec6a5ac0c0acae048058acd704953f6c3e2bae1a19d412f3b32f0d",
     "sources": [
-      "data\\legal.js:5",
+      "data\\legal.js:67",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2237": {
+    "text": "Licence and approved devices",
+    "hash": "232d546254e8d967270c9379a22dcbc44aaaeab77550b618c2e3038642bd480e",
+    "sources": [
+      "data\\legal.js:70",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2238": {
+    "text": "Subject to your agreed plan and valid access status, you may install and use the software on approved Windows devices within your device allowance. The software is licensed for use and is not sold as a transfer of its intellectual property. Do not resell access, distribute modified installers, remove access controls or use another customer’s credentials. Contact support before transferring access to a replacement computer.",
+    "hash": "c138d3ec761404e759d88afa15db6a8ce90c2cf901a5b97b86a4fe79110f2112",
+    "sources": [
+      "data\\legal.js:72",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2239": {
+    "text": "Plans, prices and payment",
+    "hash": "e39e5383bb8cc2a6265d63e88a0da4dc6ffa79ec155bce485a273a3b234f9ef3",
+    "sources": [
+      "data\\legal.js:75",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2240": {
+    "text": "Before paying, confirm the product, price, currency, subscription period, device allowance and any applicable charges with the team. The written offer or purchase confirmation records the terms of your purchase. Signing in or installing the software does not authorise a payment. Paid access depends on payment verification, licence activation and any required device approval. Keep your payment reference and contact support if the recorded access period does not match your confirmed purchase.",
+    "hash": "dd696cc5d48f29797ef954644472c69817a11b3a38a75de64bb450800153e7b0",
+    "sources": [
+      "data\\legal.js:77",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2241": {
+    "text": "Renewal and expiry",
+    "hash": "a351700740937225e9ecd3f6a7b2fb2dc5e578f1fffb82a6d259644f54ffcd0f",
+    "sources": [
+      "data\\legal.js:80",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2242": {
+    "text": "Your subscription permits access for its recorded paid-through period, subject to these terms. Contact the team to arrange renewal before expiry. Do not assume that payment or renewal will occur automatically unless you have separately agreed to a recurring-payment arrangement. Expired subscriptions may lose access to subscription-dependent features. Uninstalling the application does not itself submit a cancellation or refund request.",
+    "hash": "978cc845c5bc3684715647bcaa49551782ecaae46c33200e762c7f7bd81c3ead",
+    "sources": [
+      "data\\legal.js:82",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2243": {
+    "text": "Connectivity and offline access",
+    "hash": "2d4582e922b4d6bcc09d44cdee993facf31e60ab7f37a6f5d43feef831ee32db",
+    "sources": [
+      "data\\legal.js:85",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2244": {
+    "text": "Internet access is required for Google sign-in and online account, device and subscription checks. Where the application provides temporary offline access, that access remains subject to its verification limits and subscription expiry. Offline availability is not a permanent licence or an extension of the paid period. Network failures or interruptions affecting Google, Cloudflare or other service providers may temporarily prevent authentication or verification.",
+    "hash": "1a04a2b4d08874105edfd7c631d4db9c0e15dae6912ba10bf7bdb23d7d58d0c2",
+    "sources": [
+      "data\\legal.js:87",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2245": {
+    "text": "Passenger data and generated output",
+    "hash": "976dac255918919bddb95a7e1e7233bef473bed7145310344577f6a63e1dae0a",
+    "sources": [
+      "data\\legal.js:90",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2246": {
+    "text": "You are responsible for having permission to process passenger and customer information and for following your agency’s security procedures. Review extracted text, names, document numbers, dates, contact details and generated GDS entries before submission. OCR, translation and automated formatting may contain errors. The toolbar assists your work; it does not replace professional checks, airline rules or the requirements of your booking-system provider.",
+    "hash": "ca7bd98bfc456e37234f9c92911c914e8da05846021f88431db34122b85155cc",
+    "sources": [
+      "data\\legal.js:92",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2247": {
+    "text": "Third-party systems and translation",
+    "hash": "7603e7e7b04e8d5b437785984f78811e3e4b597ab2f019a6054c91cd5e29306a",
+    "sources": [
+      "data\\legal.js:95",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2248": {
+    "text": "Access to Amadeus, Travelport, Sabre and other third-party systems depends on your own authorised arrangements with their providers. Preparing an entry does not itself establish a booking-system connection or confirm a reservation. Online translation sends selected text to an external service. Submit confidential or passenger information only when you have appropriate permission and your agency approves that use. Third-party names and trademarks belong to their respective owners; their appearance does not imply endorsement.",
+    "hash": "b7d5d78329990f580f7ab4efd8f2473ead8c5cc098b03a0583631b833c48c892",
+    "sources": [
+      "data\\legal.js:97",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2249": {
+    "text": "Privacy and information handling",
+    "hash": "a52c0183ce7dfbf3d3fe915aebf60b046082928bd1eff1e094142ff87e5c9147",
+    "sources": [
+      "data\\legal.js:100",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2250": {
+    "text": "Our Security and Privacy page at https://www.traveldeskgenie.com/en/security-and-privacy explains local processing, Google sign-in information, Cloudflare-hosted account and subscription records, access events and privacy requests. Google identity information is used for customer identification, account linking, access management and related support as described there. Signing out, uninstalling the application or disconnecting Google access does not automatically delete server records. Contact support to request access, correction or deletion; we may verify ownership before acting.",
+    "hash": "6b3c0171168af77a1fd6e043a70e8f1e03f12a90974f86ce3e717ba2ea911ab8",
+    "sources": [
+      "data\\legal.js:102",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2251": {
+    "text": "Acceptable use",
+    "hash": "9b41b2884b0e979dd0dd6e0b3240e182d0c1d3a2bb65fa35f66075a9891c6d3d",
+    "sources": [
+      "data\\legal.js:105",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2252": {
+    "text": "Do not use the software for unlawful activity, unauthorised processing of personal information, credential theft or interference with other systems. Do not exploit vulnerabilities, evade subscription or device limits, or attempt to access another customer’s records. Security concerns should be reported privately to support with enough information to investigate and without exposing other people’s data.",
+    "hash": "647916222f50b9937cbee02a004e0c8cc2278c0a6ff31768c34d3b8e859e1ce5",
+    "sources": [
+      "data\\legal.js:107",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2253": {
+    "text": "Updates and availability",
+    "hash": "e120e0446db27839a35db952e890db6cfe1cb44ed0c8b7031f3819dc5aa078b4",
+    "sources": [
+      "data\\legal.js:110",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2254": {
+    "text": "We may release updates to correct defects, improve security or change supported features. Review update information and obtain installers through our official website or support channels. Compatibility may change as Windows or third-party services change. We do not promise uninterrupted availability, error-free output or compatibility with every computer or external system. Any specific support or service commitments must be confirmed separately in writing.",
+    "hash": "4b5cb543f036e99c739cc6ab1960a67944b7ca54cafa1e38d3a7346857f6728a",
+    "sources": [
+      "data\\legal.js:112",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2255": {
+    "text": "Cancellation and refund requests",
+    "hash": "e07bc60758c0b1be9cacb002fa72238584329193c4df671efd4cbffce0ebffe5",
+    "sources": [
+      "data\\legal.js:115",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2256": {
+    "text": "To request cancellation or a refund, contact support with your account email, purchase reference and reason for the request. Eligibility depends on the purchase terms disclosed before payment and any applicable mandatory rights. These terms do not create a blanket no-refund rule or an unconditional refund guarantee. We will communicate the outcome of a request and any agreed next steps. A refund, account deletion and subscription cancellation are separate actions and should be requested explicitly.",
+    "hash": "c730ffcc6fb4e42c3a107a0ca641b2c7f42839a14a1b81825a375ba96b16da7b",
+    "sources": [
+      "data\\legal.js:117",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2257": {
+    "text": "Suspension and termination",
+    "hash": "e1c5aa3752b3b7f09fb24c1afa090fe6bf81a4dcaa8a306a804ec3868954728b",
+    "sources": [
+      "data\\legal.js:120",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2258": {
+    "text": "Access may be restricted when a subscription expires, payment is disputed, a device is revoked, account security is at risk or these terms are breached. Where reasonably practicable, we will explain the restriction and how to contact support about it. Immediate restrictions may be necessary to protect accounts or the service. Any remaining payment or refund issues will be considered under the purchase terms and applicable mandatory rights.",
+    "hash": "9686f1f329e1f39665fdc35570d72fe3f6115294184c079e743bb2357aee7d46",
+    "sources": [
+      "data\\legal.js:122",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2259": {
+    "text": "Responsibilities and legal rights",
+    "hash": "c83f9cac88a5fb2ee420df6d307e253927bad57c591af0b1b5fc44d8bbfd4d74",
+    "sources": [
+      "data\\legal.js:125",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2260": {
+    "text": "You remain responsible for checking generated output, protecting your own records and maintaining appropriate backups. If a problem occurs, contact support promptly so that we can investigate. Nothing in these terms excludes or limits rights, remedies or responsibilities that cannot lawfully be excluded or limited. These terms do not require you to give up mandatory consumer protections or access to a competent court.",
+    "hash": "9c832726b6e8e137ea80a4016520af6f70c8c406a3f863ccd404f794635284b4",
+    "sources": [
+      "data\\legal.js:127",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2261": {
+    "text": "Complaints and disputes",
+    "hash": "14417788b737a01ee86b273b8c77b39a29644c7fede2d4fd0a16e12e7d362b95",
+    "sources": [
+      "data\\legal.js:130",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2262": {
+    "text": "Please first send complaints to info@traveldeskgenie.com with the relevant dates, account email, purchase reference and a description of the outcome you seek. We will review the information and seek to resolve the matter directly. If it remains unresolved, either party may use the remedies and dispute procedures available under applicable law. These terms do not impose mandatory arbitration or an exclusive foreign court.",
+    "hash": "d0c5854801492b764f5d7ab432cff5f32488ff644dd7384d52b3d25ceaa66ae6",
+    "sources": [
+      "data\\legal.js:132",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2263": {
+    "text": "Changes to these terms",
+    "hash": "2f58be0dd9092b4d001280f6e68e26e5866304508c758dc8059b66b8b735bcec",
+    "sources": [
+      "data\\legal.js:135",
+      "data\\legal.js:1"
+    ]
+  },
+  "legal.m2264": {
+    "text": "We may update these terms as the software or service changes. The updated version will show its revision date. Material changes affecting an existing paid arrangement will be communicated through an appropriate available channel before taking effect where required. An update does not retrospectively change a confirmed purchase price or remove applicable mandatory rights. Contact support if you have questions about a change.",
+    "hash": "391274d46d74ec9aff5ef37bd2698862108217531953b987df835ca12926f8c8",
+    "sources": [
+      "data\\legal.js:137",
       "data\\legal.js:1"
     ]
   },
@@ -7933,7 +8372,7 @@
     "text": "Information about cancellations and refund requests.",
     "hash": "22c76834e2acccc5db14a23f2b97834e6c25366c094f4d45b150f22b35988ff6",
     "sources": [
-      "data\\legal.js:6",
+      "data\\legal.js:144",
       "data\\legal.js:1"
     ]
   },
@@ -7941,7 +8380,7 @@
     "text": "Requesting a refund",
     "hash": "16542146a0483578ec7f6062c5adb97aaec63547f1bed19d91d06bed9421b820",
     "sources": [
-      "data\\legal.js:6",
+      "data\\legal.js:147",
       "data\\legal.js:1"
     ]
   },
@@ -7949,7 +8388,7 @@
     "text": "Contact traveldeskgenie@gmail.com with your purchase reference and account email. Do not include payment-card details.",
     "hash": "9f12ca8955a767de50151b77298ee5710be544b5f564952773299e5873b95608",
     "sources": [
-      "data\\legal.js:6",
+      "data\\legal.js:149",
       "data\\legal.js:1"
     ]
   },
@@ -7957,7 +8396,7 @@
     "text": "Eligibility and timing",
     "hash": "0599a570db8d5c485bc36dbac3fc9ac0858657f6942ab49b3b2252a8039f0eeb",
     "sources": [
-      "data\\legal.js:6",
+      "data\\legal.js:152",
       "data\\legal.js:1"
     ]
   },
@@ -7965,7 +8404,7 @@
     "text": "[Owner to complete: applicable refund eligibility, request deadlines, trial rules, statutory rights, cancellation rules and processing times.]",
     "hash": "3280230f26056d2405eee01bb392d9ecf8404b82f60c5864ef2ffcd5ea770249",
     "sources": [
-      "data\\legal.js:6",
+      "data\\legal.js:154",
       "data\\legal.js:1"
     ]
   },
@@ -7973,7 +8412,7 @@
     "text": "Digital software delivery and account activation.",
     "hash": "3be9c2d4fe268b0e0a9a63fe8e212eae79352e6cb39b87087e163742afe73815",
     "sources": [
-      "data\\legal.js:7",
+      "data\\legal.js:161",
       "data\\legal.js:1"
     ]
   },
@@ -7981,7 +8420,7 @@
     "text": "Digital delivery",
     "hash": "9c0ddc65ca3526f060056d7a528174e23fcd93f0b8c02942f749e7a966e64274",
     "sources": [
-      "data\\legal.js:7",
+      "data\\legal.js:164",
       "data\\legal.js:1"
     ]
   },
@@ -7989,7 +8428,7 @@
     "text": "Travel Genie Magic Toolbar is delivered as a downloadable Windows installer. No physical shipment is involved.",
     "hash": "d58242d77ef1d0306e9a24b9281bfa74f3fa0f983e59da38dca66ab8101da2a4",
     "sources": [
-      "data\\legal.js:7",
+      "data\\legal.js:166",
       "data\\legal.js:1"
     ]
   },
@@ -7997,7 +8436,7 @@
     "text": "Activation and support",
     "hash": "e1e733d0a2ecef4f159f3b9a9a76483e7018b122b56c23ab6fee5a80594f979b",
     "sources": [
-      "data\\legal.js:7",
+      "data\\legal.js:169",
       "data\\legal.js:1"
     ]
   },
@@ -8005,7 +8444,7 @@
     "text": "Paid access is arranged through the team. [Owner to complete: activation delivery time, confirmation method, support hours and escalation procedure.]",
     "hash": "78b3d31a95ade6fceeb6d16fba9e5c725229697b97ff74114b907903bfff8e63",
     "sources": [
-      "data\\legal.js:7",
+      "data\\legal.js:171",
       "data\\legal.js:1"
     ]
   },
@@ -8015,7 +8454,7 @@
     "sources": [
       "data\\locales.js:4",
       "data\\site.js:12",
-      "lib\\seo.js:38",
+      "lib\\seo.js:50",
       "data\\site.js:1"
     ]
   },
@@ -11596,438 +12035,445 @@
       "data\\resources.js:1"
     ]
   },
-  "screens.m0944": {
-    "text": "Travel Genie passport window with Sabre, Travelport and Amadeus panels side by side: raw passport OCR, parsed passenger fields, and generated NAME, DOCS, CTCM and CTCE entries with copy buttons",
-    "hash": "05ff85d66a5ad4dd88362c7bc09aab66d0c986d5c24b2c63009bece6263f8225",
+  "screens.m2265": {
+    "text": "TravelDeskGenie passport to GDS converter displaying passport OCR data and generated passenger entries for Sabre, Travelport and Amadeus, including NAME, DOCS, CTCM and CTCE fields with copy buttons",
+    "hash": "dfeb3408418f38f84d427802891fa24d12a6c4219a73dd009a768faceaf2c0a0",
     "sources": [
-      "data\\screens.js:5"
+      "data\\screens.js:6"
     ]
   },
   "screens.m0945": {
     "text": "MRZ found · check digits verified",
     "hash": "5c839b556169ed2595f186ec1a042088e6ea791a0cb9b31bfb0c61e8944a4729",
     "sources": [
-      "data\\screens.js:9"
+      "data\\screens.js:13"
     ]
   },
   "screens.m0946": {
     "text": "Sabre, Travelport & Amadeus side by side",
     "hash": "3cb2fa02f20b0e3e5534325dceffc9d1aa590359c92ef53d8b1151326c71d7bd",
     "sources": [
-      "data\\screens.js:10"
+      "data\\screens.js:18"
     ]
   },
   "screens.m0947": {
     "text": "Flags what needs checking",
     "hash": "1fc868f22519d646ac9e58d18d17a919056df88b000fd7e70d2f499e85239bec",
     "sources": [
-      "data\\screens.js:11"
+      "data\\screens.js:23"
     ]
   },
   "screens.m0948": {
     "text": "Copy one entry or COPY ALL",
     "hash": "517bc2fdffe53c19dbbb3435893715690385be34dc6ddb6cf37b4ed96fdb17c6",
     "sources": [
-      "data\\screens.js:12"
+      "data\\screens.js:28"
     ]
   },
-  "screens.m0949": {
-    "text": "Passport photograph",
-    "hash": "8a23964e4d7a6530036df2d1474d4598bb1393850ea7304ff05b3cfd2ce2c47d",
+  "screens.m2266": {
+    "text": "Passport Photograph Checker",
+    "hash": "3d1c5d73afc3974d9f132fd2bd5c1e027f85414fa5995d073d264eac3f0fc198",
     "sources": [
-      "data\\screens.js:19"
+      "data\\screens.js:36"
     ]
   },
-  "screens.m0950": {
-    "text": "Frame, straighten and measure a photo against the spec.",
-    "hash": "58a06f2e090b3c60f5a81ee1ddfb29384b922373b42f0d7cb11970d54485c069",
+  "screens.m2267": {
+    "text": "Frame, straighten and measure a passport photo against the configured specification.",
+    "hash": "8285e07ccc67fb5c9f1128f749c63b1d582baa2260e0ec1793833232f7b17809",
     "sources": [
-      "data\\screens.js:20"
+      "data\\screens.js:37"
     ]
   },
-  "screens.m0951": {
-    "text": "Passport photograph window with crown and chin guide lines, a head-height marker, and a checklist measuring pixel size, frame ratio, file size, head height, space above head, centring, background and JPEG quality",
-    "hash": "cb02df4053f561b00f4ae2fe693ab9c4da86e027d2f0d05dba0ef515e82e1bb1",
+  "screens.m2268": {
+    "text": "TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality",
+    "hash": "a18ce5ce5526c7d63e51632436f0e0fc56c34f3378d4a417d69eb1c79eee98bc",
     "sources": [
-      "data\\screens.js:24"
+      "data\\screens.js:41"
     ]
   },
   "screens.m0952": {
     "text": "Drag the frame to the crown and chin, or fit the head to 75% in one click.",
     "hash": "4a7bc76fcc572d8e6b564181f1e9812d2c145a86c3779fe206be96915aa5c569",
     "sources": [
-      "data\\screens.js:26"
+      "data\\screens.js:43"
     ]
   },
-  "screens.m0953": {
-    "text": "Straighten in 0.5° steps or turn the photo 90°.",
-    "hash": "db630e14e0400474c841deb454406dec5d32871b13b66b53799d96f3ded02cec",
+  "screens.m2269": {
+    "text": "Straighten in 0.5° steps or rotate the photo by 90°.",
+    "hash": "6e618723b1ecec6b0d68687f6c63b2f6a149404b3bd9e1945d81d173f3b29854",
     "sources": [
-      "data\\screens.js:27"
+      "data\\screens.js:44"
     ]
   },
-  "screens.m0954": {
-    "text": "A checklist measures the final JPEG: pixel size, 35:45 ratio, file size, head height, centring and background.",
-    "hash": "477609aa3c4402fd9e1c49ca0d1aae286969d99d4be058781d73e55361fa8ab0",
+  "screens.m2270": {
+    "text": "A checklist measures the final JPEG: pixel dimensions, 35:45 ratio, file size, head height, centring and background.",
+    "hash": "a3ca567e317218a027cfb9b6d638df4ce3ec23842aa63d1d210fef5f34d2a0e8",
     "sources": [
-      "data\\screens.js:28"
+      "data\\screens.js:45"
     ]
   },
-  "screens.m0955": {
-    "text": "Problems are explained in plain words, such as a crown too close to the top edge.",
-    "hash": "26d72bb44fdce825fed878745f5ab0e782fecd0a4c5bac321d1973efb07ffb03",
+  "screens.m2271": {
+    "text": "Problems are explained in plain language, such as a crown positioned too close to the top edge.",
+    "hash": "79ae35bda88a3ea07cc28644f8d52f8ef6ee12fa86ff8aeb0add2b363e6711e3",
     "sources": [
-      "data\\screens.js:29"
+      "data\\screens.js:46"
     ]
   },
-  "screens.m0956": {
-    "text": "Measures the photo against the configured specification. It can’t guarantee acceptance, so confirm current requirements with the issuing authority.",
-    "hash": "1e269550e423ec0876617fe3890f26187c2ea479deb444867f76ee1142884697",
+  "screens.m2272": {
+    "text": "Measures the photo against the configured specification. It cannot guarantee acceptance, so confirm current requirements with the issuing authority.",
+    "hash": "00be575cf6b4b666b149e1546a5d4bcada08a5ce7711e6d472bab6a7ea5ab804",
     "sources": [
-      "data\\screens.js:31"
+      "data\\screens.js:48"
     ]
   },
-  "screens.m0957": {
-    "text": "Logo & Screenshot",
-    "hash": "04dbb1e75966b93764cca219d05e1a0b560883a2af11b3d6725e0bfa2d7a1645",
+  "screens.m2273": {
+    "text": "Logo & Screenshot Editor",
+    "hash": "40ab37b0584087f9b7a7d0379eb258054bcf4d882d51eeb7ac0dec4ff8c489c8",
     "sources": [
-      "data\\screens.js:36"
+      "data\\screens.js:53"
     ]
   },
-  "screens.m0958": {
-    "text": "Capture, mark up, brand and export an image.",
-    "hash": "9e76c474d9c192f1470cf025a7a1f6889f2393f3a2fe58f961678a16b61a8cd3",
+  "screens.m2274": {
+    "text": "Capture, annotate, brand and export images.",
+    "hash": "42a5fcfd6bbf786a90d8cf3db20c4b6acb761da68550d685b876485cca80afe9",
     "sources": [
-      "data\\screens.js:37"
+      "data\\screens.js:54"
     ]
   },
-  "screens.m0959": {
-    "text": "Logo & Screenshot editor showing a specimen passport with strikethrough marks, an Approved stamp, colour choices, crop margins and export options",
-    "hash": "a8455a3e68c85b5e1aa07047e593ba7d3a24048a90b1450bbba39d0a7c11f9c6",
+  "screens.m2275": {
+    "text": "TravelDeskGenie Logo and Screenshot Editor showing a sample passport with strikethrough annotations, an Approved stamp, colour options, crop margins and image export settings",
+    "hash": "4d66e613fb4d25b168f5fbaba721877a7ddd4fea690a0ad5fa166ad1350cea10",
     "sources": [
-      "data\\screens.js:41"
+      "data\\screens.js:58"
     ]
   },
   "screens.m1098": {
     "text": "Browse, paste with Ctrl+V, drop a file or capture part of the screen.",
     "hash": "fd4f27e636019d17f678d165b4f8bc04e44f13e4ba393926abf11a52df024e41",
     "sources": [
-      "data\\screens.js:43"
+      "data\\screens.js:60"
     ]
   },
   "screens.m0960": {
     "text": "Highlight, underline, strike through, area-highlight or stamp, in six colours.",
     "hash": "4f867d97554d77a3ea8e1860cdb42eec33a9918742abde1f4cc185119246fb41",
     "sources": [
-      "data\\screens.js:44"
+      "data\\screens.js:61"
     ]
   },
   "screens.m0961": {
     "text": "Crop margins, nudge, rotate and auto-enhance. Undo restores your edits.",
     "hash": "772c9b165102178d542db826aeefeabdb7401e945c687f7b257afeaefc8c01d1",
     "sources": [
-      "data\\screens.js:45"
+      "data\\screens.js:62"
     ]
   },
   "screens.m0962": {
     "text": "Export as JPEG, PNG, BMP or a one-page A4 PDF, with or without your logo.",
     "hash": "f52956fe435b56f468bac54518810b0507881f3e411df7505ba6be14184bd89e",
     "sources": [
-      "data\\screens.js:46"
+      "data\\screens.js:63"
     ]
   },
-  "screens.m0963": {
-    "text": "Sharpening improves legibility, but it can’t restore characters that blur has already removed.",
-    "hash": "618e815501e8488c1ae8b7102de809238658febd44fe6f3d4983a57a0a2b393f",
+  "screens.m2276": {
+    "text": "Sharpening improves legibility, but it cannot restore characters that blur has already removed.",
+    "hash": "acf2e2259e91b813c14348a25297207c041b1e706b538d8e6822633b87efca1e",
     "sources": [
-      "data\\screens.js:48"
+      "data\\screens.js:65"
     ]
   },
-  "screens.m0964": {
-    "text": "Travel Genie Translate",
-    "hash": "06b20ac6d5af7640468d8fb7452fc6d3ed9e74946e719cd315c91250da1354d4",
+  "screens.m2277": {
+    "text": "Travel Genie Translator",
+    "hash": "c486bee113b58b2206d674ec96ab45e09b855ba7dc5312b8b7ffe99d39412cef",
     "sources": [
-      "data\\screens.js:53"
+      "data\\screens.js:70"
     ]
   },
-  "screens.m0965": {
-    "text": "Read customer messages and reply in their language.",
-    "hash": "b7b99b4a86e3da8702b0ca1423506f1ae757213d9718dae5100fa710a1c329b5",
+  "screens.m2278": {
+    "text": "Understand customer messages and prepare replies in different languages.",
+    "hash": "9c1ed44c5c7e499b678051b42306518f0c3fbd38f569c356bb1242888e17e72a",
     "sources": [
-      "data\\screens.js:54"
+      "data\\screens.js:71"
     ]
   },
-  "screens.m0966": {
-    "text": "Magnifier selecting a Dutch customer message beside the Translate window, which shows the detected language, the English translation and a reply box",
-    "hash": "59701918c477f6ff4e97a13f8beaf738df2426683c5bd40e667d76c6520dca6b",
+  "screens.m2279": {
+    "text": "TravelDeskGenie translation tool showing a selected Dutch customer message, detected language, English translation and a reply box",
+    "hash": "35186c64d7ae7c49df93e7d0ec5bf474ee78c12c3bb5d5fc080747c2644ecbf8",
     "sources": [
-      "data\\screens.js:58"
+      "data\\screens.js:75"
     ]
   },
   "screens.m0967": {
     "text": "Select text anywhere on screen with the magnifier.",
     "hash": "d5a4ae0ed0c317cb60f23bc91fcfd88abfb5418e3f9eeaa434f01d53b6d4f86a",
     "sources": [
-      "data\\screens.js:60"
+      "data\\screens.js:77"
     ]
   },
   "screens.m0968": {
     "text": "The language is detected and translated into English.",
     "hash": "62c64dfd3cfe1ef6f173932be4d7771d9b66d8a2f133dca9f523b5c01a781cfc",
     "sources": [
-      "data\\screens.js:61"
+      "data\\screens.js:78"
     ]
   },
-  "screens.m0969": {
-    "text": "Fix anything misread, then translate again.",
-    "hash": "c43777d19062ff3a81e30e0422d904493ec41d60a2e9a1504d6bf9915278ecc5",
+  "screens.m2280": {
+    "text": "Correct anything misread, then translate again.",
+    "hash": "967d6d439dd286fe3af291a1487ecac62f6f34467957e2ba688435288169b5d5",
     "sources": [
-      "data\\screens.js:62"
+      "data\\screens.js:79"
     ]
   },
   "screens.m0970": {
     "text": "Type your reply in English and translate it into the customer’s language.",
     "hash": "280ef1dde78408d51bd07d17af99200a07d3fb07471fc0813b88d139ee381585",
     "sources": [
-      "data\\screens.js:63"
+      "data\\screens.js:80"
     ]
   },
   "screens.m0971": {
     "text": "Translation uses an online service (Google, as shown in the app), so the selected text leaves your PC.",
     "hash": "52e7db40a6c292641b154ddb4f538d532e8d720db248739444941fcfa8f1fd9a",
     "sources": [
-      "data\\screens.js:65"
+      "data\\screens.js:82"
     ]
   },
-  "screens.m0972": {
-    "text": "GDS Decode",
-    "hash": "3b13c0d862786c12404ec5ab68d71f087403d57ad73471b7a3ec6fcab1ba434d",
+  "screens.m2281": {
+    "text": "GDS Command Decoder",
+    "hash": "60c748343b49e7cb25704a0a880f4a01fb7aaf0ff3c8fe99522f97e97cd0752c",
     "sources": [
-      "data\\screens.js:70"
+      "data\\screens.js:87"
     ]
   },
   "screens.m0973": {
     "text": "Decode commands for Travelport, Amadeus and Sabre side by side.",
     "hash": "750c7563c1b38f65024800ea80072c51f464cb9cb9f5189a25e6c09cdfac81d8",
     "sources": [
-      "data\\screens.js:71"
+      "data\\screens.js:88"
     ]
   },
-  "screens.m0974": {
-    "text": "Decode table listing city, airline, country, car company, hotel company and aircraft type commands in Travelport, Amadeus and Sabre columns, each with a copy button",
-    "hash": "f79acea0d1fe5d20d4a94b458cd22e1d6f318cddb01f50916e900c0c7bfae6be",
+  "screens.m2282": {
+    "text": "TravelDeskGenie GDS command decoder displaying city, airline, country, car rental, hotel and aircraft codes in Travelport, Amadeus and Sabre columns with copy buttons",
+    "hash": "179f95aa8aeedd9825f41d6de76ac7df1aea90e460d6d2306a04e68a0c205186",
     "sources": [
-      "data\\screens.js:75"
+      "data\\screens.js:92"
     ]
   },
   "screens.m0975": {
     "text": "City, airline, country, car company and hotel company decodes.",
     "hash": "15719962a6708acc758565b4b4290843dec4112807e9645fcbb2840092824b2c",
     "sources": [
-      "data\\screens.js:77"
+      "data\\screens.js:94"
     ]
   },
   "screens.m0976": {
     "text": "Aircraft type decodes.",
     "hash": "8b85204cfbb536c050f965edfb4dd4d80ab514f0cb473dc8dc83db04563c812d",
     "sources": [
-      "data\\screens.js:78"
+      "data\\screens.js:95"
     ]
   },
   "screens.m0977": {
     "text": "The same task in all three GDS formats, one row per task.",
     "hash": "19701280eb4659c4f0bb09bef949a6b32c3daeb1817d37a9cb31fdcaae4d807c",
     "sources": [
-      "data\\screens.js:79"
+      "data\\screens.js:96"
     ]
   },
   "screens.m0978": {
     "text": "Copy any command with one click, with three text sizes.",
     "hash": "87e5592bfe1518b9b178aca5ba2fa9a1899f1eefa2cebd12a4b2fdc215ecbfbf",
     "sources": [
-      "data\\screens.js:80"
+      "data\\screens.js:97"
     ]
   },
-  "screens.m0979": {
-    "text": "Your standard text, one key away.",
-    "hash": "5aba817363dc8ae7228ccb067f09ec388010ada99d82bc64e46784974e7ba510",
+  "screens.m2283": {
+    "text": "Travel Agent Text Container Manager",
+    "hash": "491002a9091330c671dbb5d29bccf84590e0842a924f0c52065d39330100fb7b",
     "sources": [
-      "data\\screens.js:87"
+      "data\\screens.js:103"
     ]
   },
-  "screens.m1099": {
-    "text": "Container Manager with categories, a list of saved text containers assigned to F-keys and Shift+F-keys, and an editor showing fare, baggage and ticket policy text",
-    "hash": "192eb016c9ab228a3d11bae3cb750afdbc5a0175ee947e95e85ec65562b7a70a",
+  "screens.m2284": {
+    "text": "Keep standard travel messages and templates one key away.",
+    "hash": "a20f889af0ea86a940503db0b7312443b9ab4f23c870fff5caf15414f51ded1e",
     "sources": [
-      "data\\screens.js:91"
+      "data\\screens.js:104"
+    ]
+  },
+  "screens.m2285": {
+    "text": "TravelDeskGenie Container Manager displaying categories, saved travel agent text templates assigned to F-keys and Shift plus F-keys, and an editor for fare, baggage and ticket policy messages",
+    "hash": "cac11d72e4053496eb869d3ef37eb2aefb479e42eaee801c3a23ccb7b13663cf",
+    "sources": [
+      "data\\screens.js:108"
     ]
   },
   "screens.m1100": {
     "text": "Assign standard text to hotkeys such as F1–F12 and Shift+F1.",
     "hash": "713dfcf0fffc0eef9ee748dfbc0652dccb899861899b3b00ffb392db9ad41a33",
     "sources": [
-      "data\\screens.js:93"
+      "data\\screens.js:110"
     ]
   },
   "screens.m0980": {
     "text": "Organise by category: tickets, visa, follow-up, greetings and more.",
     "hash": "eb0deecabc66278186ccf1f8ec6e1bb8663c73fdd0d11f34f30256a390d069d2",
     "sources": [
-      "data\\screens.js:94"
+      "data\\screens.js:111"
     ]
   },
   "screens.m0981": {
     "text": "Mark favourites and see which slots are still free.",
     "hash": "cb80ea006a0c7c9543e80abb9c48e9cfdb4e905b49d5e197fa7b39e0867ae272",
     "sources": [
-      "data\\screens.js:95"
+      "data\\screens.js:112"
     ]
   },
   "screens.m0982": {
     "text": "Export and import a backup of all containers.",
     "hash": "0de0c58074195026b6fd3010450de698952c7ad99dc89f56af42e236e1237b76",
     "sources": [
-      "data\\screens.js:96"
+      "data\\screens.js:113"
     ]
   },
-  "screens.m0983": {
-    "text": "Instant Phone Directory",
-    "hash": "4f5d51036e3e150489029366f9769e679716d9c9c86d296841b18ae5f32a0bef",
+  "screens.m2286": {
+    "text": "Travel Agent Phone Directory",
+    "hash": "809156204af2559f720581f3a19e4cf9242f80b78154835b71769b7abcb94e09",
     "sources": [
-      "data\\screens.js:102"
+      "data\\screens.js:119"
     ]
   },
-  "screens.m0984": {
-    "text": "Clients, agents and families in one searchable list.",
-    "hash": "6e13d3e9dada1d4ab160768b81588f6da3e11e1c38ff1306353d033a79724a97",
+  "screens.m2287": {
+    "text": "Manage clients, agents and family contacts in one searchable list.",
+    "hash": "b47ba75d6ccc57881c722427fec0358406385460d083d0349106f892474d072f",
     "sources": [
-      "data\\screens.js:103"
+      "data\\screens.js:120"
     ]
   },
-  "screens.m0985": {
-    "text": "Instant Phone Directory listing sample clients, agents and family members with codes, phone numbers, emails and notes",
-    "hash": "88bd7b427ad66d7b328213b336268cf6ab38dc7e5ff62b089d6179a512fca28e",
+  "screens.m2288": {
+    "text": "TravelDeskGenie Instant Phone Directory displaying sample client, agent and family contact records with codes, phone numbers, email addresses and notes",
+    "hash": "7670f4bc34c8a232a420d8afad68fd1471695fdf6dda5e181ef4930980b904ad",
     "sources": [
-      "data\\screens.js:107"
+      "data\\screens.js:124"
     ]
   },
   "screens.m0986": {
     "text": "Search by name, code, phone number or note.",
     "hash": "5ff5355c94293403422994901bfc24ff0d992017154b35aabcc8f9a4ebb47012",
     "sources": [
-      "data\\screens.js:109"
+      "data\\screens.js:126"
     ]
   },
   "screens.m0987": {
     "text": "Copy a phone number, an email or the whole record.",
     "hash": "22022f6ec3df4671aaea23eb1b5d33f92d3c5306d59b6a7b17f08e94a85a6224",
     "sources": [
-      "data\\screens.js:110"
+      "data\\screens.js:127"
     ]
   },
   "screens.m0988": {
     "text": "Group family members together.",
     "hash": "bb222e3fec922507a02bff0bfea90e004eef19152536a38be5f3e21d1c063089",
     "sources": [
-      "data\\screens.js:111"
+      "data\\screens.js:128"
     ]
   },
   "screens.m0989": {
     "text": "Import and export the list.",
     "hash": "2d290d228239921060de6e11994a8843662b4ed8d9e3c9ff9e0012b36fc9af2d",
     "sources": [
-      "data\\screens.js:112"
+      "data\\screens.js:129"
     ]
   },
-  "screens.m0990": {
-    "text": "Alarms & Reminders",
-    "hash": "ddcb461708d373552010e9a7d3c2cc8c44f5d78bb6e08de6c617352961589789",
+  "screens.m2289": {
+    "text": "Travel Agent Alarms & Reminders",
+    "hash": "3bc311a3e779017fda1a157d42088a8793a6657f7a8ccde0e259aac2af76201e",
     "sources": [
-      "data\\screens.js:118"
+      "data\\screens.js:135"
     ]
   },
-  "screens.m0991": {
-    "text": "Payment and follow-up reminders that don’t slip.",
-    "hash": "993aa3b3d656ffa4b9069d4c43f1fbd71b2840c6c834c3aaee55dab3a7c624ed",
+  "screens.m2290": {
+    "text": "Manage payment deadlines and customer follow-ups.",
+    "hash": "bf10f860e72a78a15ec6ba63b422ede4062373dfea47f2d1d7785d88f6aaaad5",
     "sources": [
-      "data\\screens.js:119"
+      "data\\screens.js:136"
     ]
   },
-  "screens.m0992": {
-    "text": "Alarms & Reminders window with upcoming payment follow-ups, each showing date, category, priority and action buttons",
-    "hash": "2cf5ad42bbd6142ccdea64744f8b491c69dc6de8cf4e0d7aadc731bc38808395",
+  "screens.m2291": {
+    "text": "TravelDeskGenie Alarms and Reminders dashboard showing upcoming payment and customer follow-up reminders with dates, categories, priorities and action buttons",
+    "hash": "3dece8e6bb39cee216b3a8e0cf3081f567855ca5efe134d007861226a61f4dfd",
     "sources": [
-      "data\\screens.js:123"
+      "data\\screens.js:140"
     ]
   },
   "screens.m0993": {
     "text": "Today, Upcoming, Overdue, Recurring, Completed and Missed views.",
     "hash": "51a2ff4c6f06952d5251900986251d03d6cf9158dda4618fc291b5cace643f51",
     "sources": [
-      "data\\screens.js:125"
+      "data\\screens.js:142"
     ]
   },
   "screens.m0994": {
     "text": "Every reminder carries a category and a priority.",
     "hash": "fb44575bab1e314f92f4ceccfe90ff11859a4bd8bb57cda790a206af9e6a4647",
     "sources": [
-      "data\\screens.js:126"
+      "data\\screens.js:143"
     ]
   },
   "screens.m0995": {
     "text": "Mark done, snooze, edit, copy or delete from the same row.",
     "hash": "b26f5e94b0063d3633c80f5e57aabb9108db3ebd26d99bae63834e722434bfeb",
     "sources": [
-      "data\\screens.js:127"
+      "data\\screens.js:144"
     ]
   },
   "screens.m0996": {
     "text": "An alert appears when a reminder falls due.",
     "hash": "e5feea0dea84d8e2ad149cc53f0e4a91ad598b6b59718eab09e65684e42c921a",
     "sources": [
-      "data\\screens.js:128"
+      "data\\screens.js:145"
     ]
   },
-  "screens.m0997": {
-    "text": "Sticky notes",
-    "hash": "a614d16aa5bcf99bb623cc7cc4f7a76988c37b1d4d85b301f7beed3170e43ec3",
+  "screens.m2292": {
+    "text": "Travel Agent Sticky Notes",
+    "hash": "c3e651ac1243dc5a503c012cb7f62ec6ac528b79d6d6e764eb72220fcb3dde98",
     "sources": [
-      "data\\screens.js:134"
+      "data\\screens.js:151"
     ]
   },
-  "screens.m0998": {
-    "text": "Quick notes that stay on screen.",
-    "hash": "7ba0898bcc096a42bee92319c085999e67946f43634e2a8e616e980389923c62",
+  "screens.m2293": {
+    "text": "Keep quick reminders visible on your desktop.",
+    "hash": "a7587f485589771ae098d0ec183561fe593919b1d9a5f90edc437a894b1da6e2",
     "sources": [
-      "data\\screens.js:135"
+      "data\\screens.js:152"
     ]
   },
-  "screens.m0999": {
-    "text": "Yellow Travel Genie sticky note with reminder, colour, pin, add and close buttons and a saved timestamp",
-    "hash": "0c4124e58dad3db39b99cd7fbf5e240ef8de6f90189db7f0ca526dcf74d0e6c0",
+  "screens.m2294": {
+    "text": "TravelDeskGenie yellow desktop sticky note showing a reminder, colour settings, pin, add and close buttons and a saved timestamp",
+    "hash": "3b6dbd9c461829ddaa1d8786cb10ec712e650e29deca1e310afd0a0e7d34448a",
     "sources": [
-      "data\\screens.js:140"
+      "data\\screens.js:157"
     ]
   },
   "screens.m1000": {
     "text": "Pin a note on top of other windows.",
     "hash": "56c68fc98c85ea0de065a6379c206fba7f73b4ec9f91a0b4688204c0126b89f9",
     "sources": [
-      "data\\screens.js:142"
+      "data\\screens.js:159"
     ]
   },
   "screens.m1001": {
     "text": "Add a reminder or change the colour.",
     "hash": "11fc8ab33cfcc9ea5563a1faf8f44cd83af45c3039e552d76ef8bd122b821ac5",
     "sources": [
-      "data\\screens.js:143"
+      "data\\screens.js:160"
     ]
   },
   "screens.m1002": {
     "text": "Saves automatically, with a timestamp.",
     "hash": "1dbee7ff719f8d9ee69b1a116bf7d5b2da65e539545ac422dce371f8a2a394c5",
     "sources": [
-      "data\\screens.js:144"
+      "data\\screens.js:161"
     ]
   },
   "site.m1003": {
@@ -12038,11 +12484,27 @@
       "data\\site.js:1"
     ]
   },
-  "site.m1004": {
-    "text": "Travel Genie mascot: a friendly blue genie holding a globe circled by a golden plane",
-    "hash": "9c233f8eae2e975076ad258a198f4d421d7ca8477b1d9defacf7800aa6ffdb61",
+  "site.m2295": {
+    "text": "TravelDeskGenie",
+    "hash": "b5e59bcb3de596fb47a20ded8db5c7bc2f9e845b73090ed5d01333cf858b76cb",
     "sources": [
-      "data\\site.js:46",
+      "data\\site.js:35",
+      "data\\site.js:1"
+    ]
+  },
+  "site.m2296": {
+    "text": "Travel Technology Platform",
+    "hash": "0853d24f6ce4581c763d255188b9dcf057648a5be382d3f95390b7d57f91d43a",
+    "sources": [
+      "data\\site.js:36",
+      "data\\site.js:1"
+    ]
+  },
+  "site.m2297": {
+    "text": "TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane",
+    "hash": "7b0d2f6ffed361e05663dd8c3d4d7a2a6b922756b9897e248abc39469bf57636",
+    "sources": [
+      "data\\site.js:66",
       "data\\site.js:1"
     ]
   },
@@ -12264,130 +12726,130 @@
       "lib\\genie\\engine.js:276"
     ]
   },
-  "seo.m1033": {
-    "text": "Travel Genie mascot",
-    "hash": "dcdbc92022dcb1d404ad3a72b26284deb679e0f7d3bee5ff751907e227c205bc",
+  "seo.m2298": {
+    "text": "TravelDeskGenie mascot holding a globe with a golden airplane",
+    "hash": "e63d44816b75b3d7f1f7ca542165f14a7e0ff4d17cc3e6ecb6978d1618fc1933",
     "sources": [
-      "lib\\seo.js:12"
+      "lib\\seo.js:23"
     ]
   },
   "seo.m1518": {
     "text": "PostalAddress",
     "hash": "939903375995bdddb58e49f79e28d252cecf50bafc99cfe216e4c37305d5fd9d",
     "sources": [
-      "lib\\seo.js:22"
+      "lib\\seo.js:34"
     ]
   },
   "layout.m0108": {
     "text": "Organization",
     "hash": "d764d42592fc968709b4c6c25c6e6b77919295dfce2c57ead02bedac5ddb3218",
     "sources": [
-      "lib\\seo.js:28"
+      "lib\\seo.js:40"
     ]
   },
   "seo.m1467": {
     "text": "ImageObject",
     "hash": "e511ba42a1fb2e0f3ecb8a42d7a5628d320661b14dbb3a6d00a9ff9899fd014b",
     "sources": [
-      "lib\\seo.js:30"
+      "lib\\seo.js:42"
     ]
   },
   "seo.m1468": {
     "text": "ContactPoint",
     "hash": "391d3f4b3052faa60092fb9452d1463e8f47eefc70c26e9187ad5690a25413c8",
     "sources": [
-      "lib\\seo.js:35"
+      "lib\\seo.js:47"
     ]
   },
   "seo.m1469": {
     "text": "customer support",
     "hash": "588c0628930086020a7beec4ff9208c8d1714b383b5ad43bdb74c08cad1fcc13",
     "sources": [
-      "lib\\seo.js:35"
+      "lib\\seo.js:47"
     ]
   },
   "seo.m1506": {
     "text": "Person",
     "hash": "6007db63e18e532c7399975ed77d2e3900810aa75cad165b8d2e5d8b08085c3d",
     "sources": [
-      "lib\\seo.js:51"
+      "lib\\seo.js:63"
     ]
   },
   "layout.m0109": {
     "text": "WebSite",
     "hash": "ab5b0dbb8ed0550b897c12f0e1cd96ebef652e02a535406b9e703397569be757",
     "sources": [
-      "lib\\seo.js:69"
+      "lib\\seo.js:81"
     ]
   },
   "page.m0117": {
     "text": "WebPage",
     "hash": "7d1d85cadc8332e50d982637fcb80c5db3e7839b681e72f5966752c3c8f903a0",
     "sources": [
-      "lib\\seo.js:74"
+      "lib\\seo.js:86"
     ]
   },
   "seo.m1470": {
     "text": "SpeakableSpecification",
     "hash": "4a1f15c157545cc7e590f561b40ae4058a61785f5c8e0be952f4c188cb7896a7",
     "sources": [
-      "lib\\seo.js:79"
+      "lib\\seo.js:91"
     ]
   },
   "seo.m1034": {
     "text": "BreadcrumbList",
     "hash": "c8522b6b2142d45a9660705597a5e7eb47fb5dd7e9e39a49fb2dbb1defd88d09",
     "sources": [
-      "lib\\seo.js:85"
+      "lib\\seo.js:97"
     ]
   },
   "seo.m1035": {
     "text": "ListItem",
     "hash": "d384f493fb4ac010eda38f8928878e21358386b93621aabfaadc27e991e2ef5a",
     "sources": [
-      "lib\\seo.js:86"
+      "lib\\seo.js:98"
     ]
   },
   "seo.m1036": {
     "text": "SoftwareApplication",
     "hash": "7fa408a1d90f66966c6706749a532665b93696afdddd9b4f6e44a8065e6c9cef",
     "sources": [
-      "lib\\seo.js:92"
+      "lib\\seo.js:104"
     ]
   },
   "seo.m1037": {
     "text": "BusinessApplication",
     "hash": "3ade7587b6a5f16c13047058082c29336ed7d721e968e1df674019683787c5c5",
     "sources": [
-      "lib\\seo.js:92"
+      "lib\\seo.js:104"
     ]
   },
   "seo.m1471": {
     "text": "Travel agency productivity software",
     "hash": "8a07d2343b6fc914d6286013c5035a73406254b7b7192061c6b22920fa2a1e6e",
     "sources": [
-      "lib\\seo.js:93"
+      "lib\\seo.js:105"
     ]
   },
   "seo.m1038": {
     "text": "Windows 11 (64-bit)",
     "hash": "8325a3b665e98bd468f907e52137f2cbb91471793b6327f0a3487f20635f35d6",
     "sources": [
-      "lib\\seo.js:93"
+      "lib\\seo.js:105"
     ]
   },
   "seo.m1039": {
     "text": "A Windows workspace for travel agents to prepare DOCS, CTCM and CTCE entries and use everyday desk tools.",
     "hash": "b6abf2acec09f0052014e9b3fc1807cb23bf6b2e9e669bd3fbb377e95fdbf1d1",
     "sources": [
-      "lib\\seo.js:94"
+      "lib\\seo.js:106"
     ]
   },
   "seo.m1472": {
     "text": "Passport to NAME, DOCS, CTCM and CTCE entries",
     "hash": "ed7fb35f9873cf0240f6c6f190bfbe26b50a69a17739ce1759dd3c24018d52a4",
     "sources": [
-      "lib\\seo.js:98",
+      "lib\\seo.js:110",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12395,7 +12857,7 @@
     "text": "Amadeus, Travelport and Sabre formats",
     "hash": "83c215435f4c5c34de7dafc3c03a5b739b1fde345c4c9962cca78d76242c6258",
     "sources": [
-      "lib\\seo.js:98",
+      "lib\\seo.js:110",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12403,7 +12865,7 @@
     "text": "F1–F12 text shortcuts",
     "hash": "7ca5ebd240d368db67b087b3cb6106a7dbb01e679d5baa1909a753c3a3caa987",
     "sources": [
-      "lib\\seo.js:98",
+      "lib\\seo.js:110",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12411,7 +12873,7 @@
     "text": "Visa photo checker",
     "hash": "dcc560734e456f78c3a281b22d4893396c52ae6fcdd8c6c52c501e19f6aaa8dd",
     "sources": [
-      "lib\\seo.js:99",
+      "lib\\seo.js:111",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12419,7 +12881,7 @@
     "text": "GDS decode search",
     "hash": "41ff9cc1a85bbb5a40cff84aa6117283292b1b2648e3e57052433bd1f87d95dc",
     "sources": [
-      "lib\\seo.js:99",
+      "lib\\seo.js:111",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12427,7 +12889,7 @@
     "text": "Translation and magnifier",
     "hash": "991a617a6284f18af919da250eb6622789006d79999273af05f671650b2dd35e",
     "sources": [
-      "lib\\seo.js:99",
+      "lib\\seo.js:111",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12435,7 +12897,7 @@
     "text": "Reminders and phone directory",
     "hash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
     "sources": [
-      "lib\\seo.js:99",
+      "lib\\seo.js:111",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12443,22 +12905,22 @@
     "text": "Meeting mute hotkeys for Zoom, Microsoft Teams and browsers",
     "hash": "90627faf67cd5d512528324edc60ed546e3f5b1abbdc65efce7d32d13cb18c52",
     "sources": [
-      "lib\\seo.js:100"
+      "lib\\seo.js:112"
     ]
   },
   "seo.m1040": {
     "text": "Offer",
     "hash": "0cf57c63eb976556a273198f34e8816a586471aefa434f80dab8b77667c0a981",
     "sources": [
-      "lib\\seo.js:103",
-      "lib\\seo.js:104"
+      "lib\\seo.js:115",
+      "lib\\seo.js:116"
     ]
   },
   "seo.m1052": {
     "text": "Monthly plan",
     "hash": "babeb1cfcfbcdb714ba942c913f57403d0b8802544209e3a5f5dffc40a112862",
     "sources": [
-      "lib\\seo.js:103",
+      "lib\\seo.js:115",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12466,14 +12928,14 @@
     "text": "Monthly subscription; activation arranged through the team.",
     "hash": "d928916ac19ac4c6e54383c86e31e88dc21ad5201e22aa02b80d11f264d6eeb7",
     "sources": [
-      "lib\\seo.js:103"
+      "lib\\seo.js:115"
     ]
   },
   "seo.m1053": {
     "text": "Yearly plan",
     "hash": "335301ff09914dc65c2ab3389667ed4eb12fc443d0c702c0ba800a16196e8835",
     "sources": [
-      "lib\\seo.js:104",
+      "lib\\seo.js:116",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12481,49 +12943,49 @@
     "text": "Annual subscription; activation arranged through the team.",
     "hash": "1bf398a835228f88ab1e87c345f852fa7cba519584dd7f14b7b5ca46bdfb30cd",
     "sources": [
-      "lib\\seo.js:104"
+      "lib\\seo.js:116"
     ]
   },
   "page.m0118": {
     "text": "FAQPage",
     "hash": "3fa680a3b75b02b051a88c3a6fa1e2cf18ca4fc26da67c8acf4bee9f6e96876c",
     "sources": [
-      "lib\\seo.js:112"
+      "lib\\seo.js:124"
     ]
   },
   "seo.m1519": {
     "text": "Magic Toolbar frequently asked questions",
     "hash": "2ea04760d4b0214a28ebc6ebd4310cd13d3a8fb19b12d3b4b9b2dec410a4243a",
     "sources": [
-      "lib\\seo.js:113"
+      "lib\\seo.js:125"
     ]
   },
   "seo.m1520": {
     "text": "Common questions about Travel Genie Magic Toolbar: who it is for, passport reading, shortcuts, visa photos, saved records, system needs and support.",
     "hash": "643c21cbaea95f7237eedc8bb4cdb32d571fd36080d91563e1335383594df28c",
     "sources": [
-      "lib\\seo.js:114"
+      "lib\\seo.js:126"
     ]
   },
   "page.m0119": {
     "text": "Question",
     "hash": "289aff12b04274cb04b8f7dbf486ba8b3528c6fd16b60b9a31d31ce23b339236",
     "sources": [
-      "lib\\seo.js:117"
+      "lib\\seo.js:129"
     ]
   },
   "page.m0120": {
     "text": "Answer",
     "hash": "b2a3aa602762a782e47a4f8e93bb5ae1b8819d1b92b7e6ceb3ef46a3c7077eb0",
     "sources": [
-      "lib\\seo.js:117"
+      "lib\\seo.js:129"
     ]
   },
   "page.m0226": {
     "text": "TechArticle",
     "hash": "c243bdc5e0040ee1d6a05d74b95f5b924c4e0f18fedc04219b06f027722b02cb",
     "sources": [
-      "lib\\seo.js:125"
+      "lib\\seo.js:137"
     ]
   },
   "legal.m1101": {
@@ -12669,6 +13131,13 @@
   "additionalsourcejson.m1121": {
     "text": "data and privacy",
     "hash": "8f459c3e56ed215111d8900294a50af7f3ee2b44fb9b15f37e9697db0c1e89f9",
+    "sources": [
+      "messages\\additional-source.json:1"
+    ]
+  },
+  "page.m1077": {
+    "text": "privacy",
+    "hash": "a4cc6bc01a927e2a78fd3bec51e865ac0d85e4daab6f988d5d33d056e125b1c3",
     "sources": [
       "messages\\additional-source.json:1"
     ]

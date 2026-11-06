@@ -24,13 +24,22 @@ if (!url) errors.push('NEXT_PUBLIC_SITE_URL is not set.');
 else {
   if (!url.startsWith('https://')) errors.push(`NEXT_PUBLIC_SITE_URL must use https:// (got ${url}).`);
   if (/localhost|127\.0\.0\.1|YOUR-CONFIRMED-DOMAIN/i.test(url)) errors.push(`NEXT_PUBLIC_SITE_URL is a placeholder or local address (${url}).`);
+if (!existsSync(resolve(root, 'public/images/genie-mascot.webp'))) {
+  errors.push('Missing public/images/genie-mascot.webp.');
 }
 
-if (!existsSync(resolve(root, 'public/images/genie-mascot.webp'))) errors.push('Missing public/images/genie-mascot.webp.');
-
 const { heroScreen, tourScreens } = await import('../data/screens.js');
+
 for (const s of [heroScreen, ...tourScreens]) {
-  if (!existsSync(resolve(root, 'public', s.src.replace(/^\//, '')))) errors.push(`Missing screenshot: ${s.src}`);
+  const imagePath = resolve(
+    root,
+    'public',
+    s.src.replace(/^\/+/, '')
+  );
+
+  if (!existsSync(imagePath)) {
+    errors.push(`Missing screenshot: ${s.src}`);
+  }
 }
 
 const ids = new Set();

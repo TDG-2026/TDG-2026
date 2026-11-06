@@ -1,27 +1,37 @@
-import {locales as websiteLocales} from '../../lib/i18n/config.js';
-import {availableLocales} from '../../lib/i18n/available.js';
+
+import { locales as websiteLocales } from '../../lib/i18n/config.js';
+import { availableLocales } from '../../lib/i18n/available.js';
 import { site } from '../site.js';
 
 export const genie = {
   name: 'Genie at your service',
   shortName: 'Genie',
-  // AVATAR PLACEHOLDER: drop your square image (256–512 px) at /public/images/genie-avatar.webp.
-  // Until it exists, the mascot is shown; if both fail, a "G" badge appears.
-  avatar: { src: '/images/genie-avatar.webp', fallbackSrc: '/images/genie-mascot.webp' },
+
+  // Avatar image: 256–512 px square.
+  // Place the image at /public/images/genie-avatar.webp.
+  // If unavailable, use the mascot image as a fallback.
+  avatar: {
+    src: '/images/genie-avatar.webp',
+    fallbackSrc: '/images/genie-mascot.webp',
+  },
+
   whatsappNumber: site.whatsappNumber,
   supportEmail: site.supportEmail,
   downloadUrl: site.downloadUrl,
+
   defaultLocale: 'en',
-  showDraftLocales: false,      // true = also offer languages the website has not translated yet
-  // "Book a demo" reminder bubble (once per browser session): one every 30 s, 5 times.
+  showDraftLocales: false,
+
+  // Demo reminder bubble: once per browser session.
   nudges: {
     enabled: true,
-    firstDelayMs: 30000, // first reminder 30 s after the page loads
-    visibleMs: 8000,     // each reminder stays on screen for 8 s
-    gapMs: 22000,        // 22 s pause, so a new reminder starts every 30 s
-    count: 5,            // number of reminders
+    firstDelayMs: 30000,
+    visibleMs: 8000,
+    gapMs: 22000,
+    count: 5,
   },
-  position: 'right',           // 'right' | 'left'
+
+  position: 'right',
   maxStoredMessages: 60,
 };
 

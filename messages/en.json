@@ -572,6 +572,51 @@
       "sourceHash": "6e09e607011b9185e739570cee082346b29f734086c8b766f8111486f0603780",
       "status": "published"
     },
+    "page.m2188": {
+      "text": "Your account and your information",
+      "sourceHash": "c2b80ff8782aaa69f20f7276cc7dc2784681cd9daaace952013f9a5ade241441",
+      "status": "published"
+    },
+    "page.m2189": {
+      "text": "Google sign-in, privacy and support",
+      "sourceHash": "22281178f7e151fb407725bbe9a9e2625f9522069f9c731cf1d051f3638c4cfa",
+      "status": "published"
+    },
+    "page.m2190": {
+      "text": "Travel Genie Magic Toolbar is developed by Travel Desk Genie. Google sign-in identifies your customer account using your name, verified email address and Google account identifier. Machine activation, device approval and paid subscription access are managed separately. Signing in does not purchase or renew a subscription.",
+      "sourceHash": "147b6e3caee631a8172031891eae892cd87fdd8c5460efbd85b4ededbc861fb4",
+      "status": "published"
+    },
+    "page.m2191": {
+      "text": "Read our",
+      "sourceHash": "70e24631793d00e0ac33f2c286eb9701573383d35601f557a49a83f6ba33afc1",
+      "status": "published"
+    },
+    "page.m2192": {
+      "text": "Security & Privacy notice",
+      "sourceHash": "8a6d1929b7723905c958dd7d4855764afc128d1727f4648c4f0f6285a7e5e3b9",
+      "status": "published"
+    },
+    "page.m2193": {
+      "text": "for details about Google identity information, Cloudflare account and subscription records, local tools and privacy requests. See our",
+      "sourceHash": "ce76cc58f296dd026e69f65c080792665b8215a9680e94c5225a5d26b9a77dbe",
+      "status": "published"
+    },
+    "page.m2194": {
+      "text": "Terms of Service",
+      "sourceHash": "4afa55bf7aec7ddc5dfb904271f881be278e7629ce258675bf4b62f460017abb",
+      "status": "published"
+    },
+    "page.m2195": {
+      "text": "for service conditions.",
+      "sourceHash": "7444b919cd075386b66b942027cb02d949134258bd61705adc805d058af7cba6",
+      "status": "published"
+    },
+    "page.m2196": {
+      "text": "For account, subscription or privacy assistance, email",
+      "sourceHash": "6dbc5c66474b1aca426cf0ad8b8f2a752f7d279da1d8e54c5e27f282eb412adf",
+      "status": "published"
+    },
     "page.m0121": {
       "text": "Magic Toolbar Pricing | Travel Genie",
       "sourceHash": "1bd7f3e79083fff3922fe2f1831edcfd616e445723f336eda4e82537cf767c4b",
@@ -1257,14 +1302,14 @@
       "sourceHash": "1e5b36078e376cd4606154d914ba9eba7c5cb5aa0c5d35f1c86e4749c54d3279",
       "status": "published"
     },
-    "page.m0241": {
-      "text": "Travel Genie Data Handling | Security & Privacy",
-      "sourceHash": "0d6753ffb2c5a39068c8a1afabd05ffa97d0b41b98251d70730e4cf7a2277355",
+    "page.m2197": {
+      "text": "Travel Genie Magic Toolbar | Security & Privacy",
+      "sourceHash": "62dd1490e3aa3d141861c906103f41190a218d04a50e8b36e784480384a017c7",
       "status": "published"
     },
-    "page.m0242": {
-      "text": "Understand documented local processing, saved passenger records, online translation and website storage before using Travel Genie tools.",
-      "sourceHash": "c410e70084c61f21674553345a285ca601e0013f0ad921527385c9c32654a55f",
+    "page.m2198": {
+      "text": "Learn how Travel Desk Genie handles Google sign-in information, Cloudflare account and subscription records, local travel tools, website storage and privacy requests.",
+      "sourceHash": "26d58519e563b7662e5f4e0108b5f6f01978146923aafd958d584a6a206dbc0f",
       "status": "published"
     },
     "page.m0243": {
@@ -1282,9 +1327,14 @@
       "sourceHash": "4dc353d818c0afb33250d4e0ceac573ef786c8651fd0417c1d061c60d828e977",
       "status": "published"
     },
-    "page.m0246": {
-      "text": "The supplied Magic Toolbar documentation describes local passport OCR and photo editing, optional saved family records, and an online translation service. These boundaries apply to the documented desktop workflows; separate applications need their own data-flow explanation.",
-      "sourceHash": "e4c013b7d63959190eb54d48f0181e6d9a8f1ca60d661cd27ae125dfb3559c9d",
+    "page.m2199": {
+      "text": "Travel Desk Genie provides Travel Genie Magic Toolbar. This notice explains Google sign-in, machine registration, subscription administration and the documented desktop and website workflows.",
+      "sourceHash": "86f9bf2cd9ff3cabcbf02399b72153331f207ebe2e25ba25c1779abcf3fc7c94",
+      "status": "published"
+    },
+    "page.m2200": {
+      "text": "Last updated: 5 November 2026.",
+      "sourceHash": "c4e6d77883b7d0721a79a2176e338159d66ef682758197a7634de931027aed41",
       "status": "published"
     },
     "page.m0247": {
@@ -1297,12 +1347,57 @@
       "sourceHash": "089e99fa7e11ad775a0cc2a4569a4d971f8b1ee4eea915349046b60d0e8ff9cf",
       "status": "published"
     },
-    "page.m0249": {
+    "page.m2201": {
+      "text": "What information does Google sign-in share?",
+      "sourceHash": "2385cad162ed5bde186d6d71609898f481222bacac4e352a06d6b5e6a9ff097b",
+      "status": "published"
+    },
+    "page.m2202": {
+      "text": "The app requests basic identity permissions: openid, email and profile. We use your Google account identifier, verified email address and display name to identify your customer account, link machine access requests and provide account and subscription support.",
+      "sourceHash": "fa014922a4112f8f8602a73025c7ab8d68496c216e7a97efd86ab1e92bc1bdcd",
+      "status": "published"
+    },
+    "page.m2203": {
+      "text": "Your Google password is entered on Google’s website and is not received by Travel Desk Genie. This sign-in does not request access to Gmail messages, Google Drive files or contacts. Signing in identifies you; machine activation, device approval and paid subscription access are managed separately. Signing in does not purchase or renew a subscription.",
+      "sourceHash": "0775ea9c4f5c52710eafeca7abfa8675f2e020305f5ab5b46c6aa6c27475576e",
+      "status": "published"
+    },
+    "page.m2204": {
+      "text": "What does the Cloudflare service store?",
+      "sourceHash": "196b39e79b1f91eaccb4e52c409fa653d09385382fc3fc7782be2f158e58d52b",
+      "status": "published"
+    },
+    "page.m2205": {
+      "text": "Cloudflare Workers and D1 host the account and subscription service. Records include customer accounts, machine identifiers, device public keys and fingerprints, activation links, subscription status and expiry dates, and manually recorded payment amounts, currencies, receipt references and renewal history. The owner portal can also store internal support notes and account or access-security events.",
+      "sourceHash": "5e83fc83314b360258a3bdde889ebeb3fc5125e13bdf4496d2a409a8d322033a",
+      "status": "published"
+    },
+    "page.m2206": {
+      "text": "Online access checks can record your public IP address, country, app version and contact times. Authorized administrators use these records to provide customer assistance, manage device and subscription access, investigate security issues and maintain renewal bookkeeping. A payment record is not an automatic bank charge.",
+      "sourceHash": "429fc909653beded8702d0fbdb09c764784deb02f99c982bffaf5daa4c19d9da",
+      "status": "published"
+    },
+    "page.m2207": {
+      "text": "How is information used and shared?",
+      "sourceHash": "01d0c61c35ca3c380346f207be2200005cc5c6ee284218aab26a5f55efe416a6",
+      "status": "published"
+    },
+    "page.m2208": {
+      "text": "Google identity information is used for customer identification, account linking, access management and related support. Google processes the authentication flow, and Cloudflare processes the hosted account and subscription records. Authorized administrators can view relevant customer and subscription details for those purposes.",
+      "sourceHash": "607bbd04b07b790fe01c678245ece59b8691b2fa80ed582e03485fdc75f7eaa6",
+      "status": "published"
+    },
+    "page.m2209": {
+      "text": "Account and subscription requests use HTTPS. The desktop protects its saved app session credentials using Windows user-account protection. During sign-in, the browser sends a short-lived response to a temporary listener on your own PC so the app can finish verifying your account.",
+      "sourceHash": "c31a633e037817c2787b9b2f9d0941faf7f13924e070fe90f0108e2c1347f50a",
+      "status": "published"
+    },
+    "page.m2181": {
       "text": "What uses an online service?",
       "sourceHash": "68b3f02cc5a79881e74e52f125a37682c3245c4eb6eedfed4c467c125be94271",
       "status": "published"
     },
-    "page.m0250": {
+    "page.m2182": {
       "text": "Travel Genie Translate sends selected text to an online translation service. Do not send passport or customer information unless you have permission and your agency approves the service. A toolbar that prepares GDS text does not itself establish a booking-system connection.",
       "sourceHash": "e93f7ee6e795ecbb629b426cd6f0bc9475c251ae501e249183a62d4d395335fc",
       "status": "published"
@@ -1317,29 +1412,64 @@
       "sourceHash": "3c8ea5efa6c011067b84f52d562e046184773e947dc397e392d38dad9cb2ba69",
       "status": "published"
     },
-    "page.m0253": {
+    "page.m2210": {
+      "text": "How long are records kept, and how can I request deletion?",
+      "sourceHash": "397ef1c8201f157a3f01b6071bdbf16b7e7bb9fed17d4d2214e9e932d41c3a04",
+      "status": "published"
+    },
+    "page.m2211": {
+      "text": "We keep account, device and subscription records while needed to provide the service, resolve support or security issues and meet applicable record-keeping obligations. Payment and audit history may need to be retained for those purposes. Requests to access, correct or delete account information are reviewed after verifying account ownership; we explain any records that must be retained.",
+      "sourceHash": "0b291355f4976e8ec86afada461c98351b7f1006ec31a5f2e2a2a22731721fca",
+      "status": "published"
+    },
+    "page.m2212": {
+      "text": "Signing out or uninstalling does not automatically erase server-side account, subscription, payment or audit history. You can remove the app’s Google connection in your Google Account settings. Contact support to end Travel Genie sessions as well: removing the Google connection does not automatically invalidate all existing Travel Genie sessions or signed offline allowances. An already-issued offline allowance can remain valid until its expiry.",
+      "sourceHash": "eafb4b2e2799d809338cf18f1aed668d22b045fe48c085059f6310570d194734",
+      "status": "published"
+    },
+    "page.m2213": {
+      "text": "Who handles privacy requests?",
+      "sourceHash": "e549a71cd87156475844765750f9b1db08965dc1cf8edf058fa99d2f38fdcc75",
+      "status": "published"
+    },
+    "page.m2214": {
+      "text": "For privacy questions or requests to access, correct or delete account information, email",
+      "sourceHash": "263e8c7065ed8e6b471a4c34489cdc19c350e3ef8bfec9a7e35964500cb02bac",
+      "status": "published"
+    },
+    "page.m2215": {
+      "text": ". Our alternate contact is",
+      "sourceHash": "220c9a538c9c6b6cc6a64c3d1e6ceb1315bd0d287f75b37815a8ec9c02bf77e2",
+      "status": "published"
+    },
+    "page.m2216": {
+      "text": ". Include enough information to identify your account, but never send your Google password, session tokens or private keys.",
+      "sourceHash": "7073a24dee14f11f82dc7de0944e269ca895f48c74f85546ad97caa8d2aa95af",
+      "status": "published"
+    },
+    "page.m2183": {
       "text": "What should I send to support?",
       "sourceHash": "0568dcf2f875f31c5d9138a67ddd5936e8c88c27296f472d5d8405f924340b79",
       "status": "published"
     },
-    "page.m0254": {
+    "page.m2184": {
       "text": "Send the product name, operating system, release version if known and a description of the issue. Redact screenshots. Do not send passwords, full payment details, passport scans or customer records through the public chat.",
       "sourceHash": "63ab17aa495e02622374112d9cbdc5d321f26e0029f5cd08f0e2b64b604756de",
       "status": "published"
     },
-    "page.m0255": {
-      "text": "Where are the full policies?",
-      "sourceHash": "6dc5bed1d6e05788c20534566aa305496e1979b4d02c033d4676e6015be1d58c",
+    "page.m2217": {
+      "text": "The optional support diagnostic export can be previewed before saving. It contains app, runtime and operating-system details and access dates; it excludes passport data, databases, raw logs, clipboard contents, customer email, machine IDs, tokens and keys. That export does not upload anything automatically. Email, chat or WhatsApp providers process the information you choose to send through them.",
+      "sourceHash": "77a19c6c5dc22ca06091860a77f6a4b73cc93004c6142afbc90f303ba3c20459",
       "status": "published"
     },
-    "page.m0256": {
-      "text": "The",
-      "sourceHash": "b344d80e24a3679999fa964450b34bc24d1578a35509f934c1418b0a20d21a67",
+    "page.m2218": {
+      "text": "Related policies and changes",
+      "sourceHash": "1607385f9c3e024808cf7ed344989e2e1596a0a28ae4d19540b14f699f60a654",
       "status": "published"
     },
-    "page.m1077": {
-      "text": "privacy",
-      "sourceHash": "a4cc6bc01a927e2a78fd3bec51e865ac0d85e4daab6f988d5d33d056e125b1c3",
+    "page.m2219": {
+      "text": "This page describes the account and subscription privacy practices above alongside the documented local tools and website storage. The",
+      "sourceHash": "a5609aa1c2cc658def34ac9dc6a2018139858a4d39d880cb133f215a0f00c6a0",
       "status": "published"
     },
     "page.m1078": {
@@ -1362,9 +1492,9 @@
       "sourceHash": "b4af39d5b65a14849e885a9d65f0efe4f4e689989689c28c16cfcb3a6e78db5a",
       "status": "published"
     },
-    "page.m0257": {
-      "text": "pages remain owner-editable drafts where company-specific details have not been supplied. This technical summary does not replace a finalized policy.",
-      "sourceHash": "ea5adaf3d73171d5b70ea26f88f57cbda313d58336ed4aaa23a1ac149e04eb9b",
+    "page.m2220": {
+      "text": "pages cover their respective subjects. Material changes to these data practices will be reflected in an updated notice.",
+      "sourceHash": "159fcad46b72d952aeebd8d76ed111f3de0d6551901fefe4d78a6aa4c9b9a6d3",
       "status": "published"
     },
     "page.m0258": {
@@ -1872,6 +2002,11 @@
       "sourceHash": "c0665db017d49f7eb14da0dac21b89fba65b97b20f4f96dd2b1c4adeb4be32cc",
       "status": "published"
     },
+    "Footer.m2221": {
+      "text": "Travel Genie Magic Toolbar is developed by Travel Desk Genie.",
+      "sourceHash": "edf9547875b51c75be5e342def873ae934c6b7af8c8e4318281d207b48bdec00",
+      "status": "published"
+    },
     "Footer.m0355": {
       "text": "Passport & DOCS",
       "sourceHash": "b817037095838b78612fb14db7154f42c80a637a9078c712d78a1919d7665b3e",
@@ -1912,9 +2047,9 @@
       "sourceHash": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3",
       "status": "published"
     },
-    "Footer.m0362": {
-      "text": "Security & data",
-      "sourceHash": "863a0934146827287b6545d58019c442318a48313893448ac17fcff93815dee6",
+    "Footer.m2222": {
+      "text": "Security & Privacy",
+      "sourceHash": "121fa1521e9563ecceefe26b9673a9decb4c3e820bc7d76349ff09e85dc0d7e8",
       "status": "published"
     },
     "Footer.m0364": {
@@ -1927,9 +2062,19 @@
       "sourceHash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
       "status": "published"
     },
-    "Footer.m0366": {
-      "text": "Travel Genie. All rights reserved.",
-      "sourceHash": "0a6b46d7af7e258da4258da02cf6abb6efc1bd3793ae514831f4e5bad2fb278e",
+    "Footer.m2223": {
+      "text": "Privacy Policy",
+      "sourceHash": "506ff394621596dd88138642eddfc1e41833b3ae92d95e5c77c94327098abd9a",
+      "status": "published"
+    },
+    "Footer.m2224": {
+      "text": "Terms of Use",
+      "sourceHash": "12a0015fa32217778863154566bce500732726db6ea596518712c12955d9a225",
+      "status": "published"
+    },
+    "Footer.m2225": {
+      "text": "Travel Desk Genie. All rights reserved.",
+      "sourceHash": "243e00440c946603248f1a04bcf649f21912dd05a3e0d9821ea0f2fd27752fdb",
       "status": "published"
     },
     "GenieChat.m1751": {
@@ -2317,6 +2462,11 @@
       "sourceHash": "42609e39e159a0b8e43640ad10fdb568187b03b69a490d91f0209d9fbead00bd",
       "status": "published"
     },
+    "LegalPage.m2226": {
+      "text": "Travel Desk Genie · Legal information",
+      "sourceHash": "3530fc49aa020f3610dba0a4794be203565cdd327a77b139112da9a788a6a264",
+      "status": "published"
+    },
     "LegalPage.m0428": {
       "text": "Legal information · Draft template",
       "sourceHash": "1d281efb5c2d8b2642072aa6e55e994d75439303a9cf77f4513a7a7e600b08ff",
@@ -2335,6 +2485,11 @@
     "LegalPage.m0431": {
       "text": "Contact the team →",
       "sourceHash": "78c16d09137b9ed44ec2cb1715b154c754532b5e405c567451b3b916895c0414",
+      "status": "published"
+    },
+    "LegalPage.m2227": {
+      "text": "Security & Privacy →",
+      "sourceHash": "ef40ba18f2b350c68622ab98c84e82df128d7191532791a37f8f35218a3640ca",
       "status": "published"
     },
     "ProductCatalogue.m0432": {
@@ -5407,49 +5562,189 @@
       "sourceHash": "b65f1b7083267f8d9e7c494c77140168e1a5772ee4138425ce217e090cfc9564",
       "status": "published"
     },
-    "legal.m0787": {
-      "text": "The terms governing access to Travel Genie and its software.",
-      "sourceHash": "05549565a96bd3a6f3535d3d9dc427db1de5b8d0104ad15223b1b90ec064b582",
+    "legal.m2228": {
+      "text": "These terms apply to Travel Genie Magic Toolbar and its related account and subscription services, provided under the Travel Desk Genie business name. Last updated: 5 November 2026.",
+      "sourceHash": "9518166edf51ef342e6e8977942c9a5fc6cc972e4d9b1617296e5973e227ad71",
       "status": "published"
     },
-    "legal.m0788": {
-      "text": "Operator and agreement",
-      "sourceHash": "d32241af3a3cda4c032877202ff1388b82bde7b3ab46b63215fa59831fc8bd74",
+    "legal.m2229": {
+      "text": "About these terms",
+      "sourceHash": "6916fabd49b75790db1ff394dfb124cb5d684ddf49b7ab8902d11839ba8074e4",
       "status": "published"
     },
-    "legal.m0789": {
-      "text": "[Owner to complete: legal entity, address, agreement scope and effective date.]",
-      "sourceHash": "595ce82a5afb078ea448f2584fec6a1cede050bcc7fbee259df28ecc9fbf73a9",
+    "legal.m2230": {
+      "text": "Travel Genie Magic Toolbar is Windows desktop software that assists with passenger entries and everyday travel-desk tasks. Please read these terms before using the software or purchasing access. If you use the software for an agency or another organisation, you must have permission to do so. Purchase-specific details confirmed in writing, including the price, subscription period and device allowance, form part of your agreement with us.",
+      "sourceHash": "5f073cdcaca9d0aa5ab56d623ce78dfe60f508ed574783abd8b497eca66b2992",
       "status": "published"
     },
-    "legal.m0790": {
-      "text": "Licence and acceptable use",
-      "sourceHash": "4ffb8463d752829e3ea6559d4bb0bb1de04f0672cf3bdc1c3618a95aff104614",
+    "legal.m2231": {
+      "text": "Contact and support",
+      "sourceHash": "8e43ef3d51f510641c20f56fe2b97f8dc36416c337c9c74aa5cbaf9fef3d7d14",
       "status": "published"
     },
-    "legal.m0791": {
-      "text": "[Owner to complete: permitted users, devices, licence duration, restrictions and suspension rules.]",
-      "sourceHash": "c3a06b760a36c2a93c7234f5bf4e535245b924341b041270eaa9ad3e0b403924",
+    "legal.m2232": {
+      "text": "For account, activation, subscription, payment or privacy questions, contact info@traveldeskgenie.com. You may also contact traveldeskgenie@gmail.com. Include your account email, application version and relevant purchase reference when appropriate. Never send Google passwords, authentication codes, private keys, full payment-card details or passenger documents through public support chat.",
+      "sourceHash": "7c76aefca4543ba21da30d57b1f08ea1fad5a54396713add8469fff65f06621f",
       "status": "published"
     },
-    "legal.m0792": {
-      "text": "Plans and activation",
-      "sourceHash": "0b1c74a82acbdca29dd55e6215785081af78f85ea9fa285b90190ca14edd1f35",
+    "legal.m2233": {
+      "text": "Google sign-in",
+      "sourceHash": "a64b17b25d9d527dbcaba585dedbc57ef9f94e13ac84b96d97631846f1819be6",
       "status": "published"
     },
-    "legal.m0793": {
-      "text": "Published options are $30 monthly, $220 yearly and lifetime pricing by enquiry. [Owner to complete: taxes, billing, renewal, cancellation, device and API-key requirements.]",
-      "sourceHash": "c7a7948ad4cf518e76631eedfafb13deb9f5202403e2605782ab698ac2bb5db0",
+    "legal.m2234": {
+      "text": "Google sign-in identifies your customer account using your Google account identifier, verified email address and display name. Your Google password is entered on Google’s own sign-in page and is not provided to Travel Desk Genie. Our sign-in integration does not request access to your Gmail messages, Google Drive files or Google contacts. Google authentication does not by itself purchase a subscription, approve a device or grant paid access.",
+      "sourceHash": "6bd18bb430a5fbf55180e17b3282cfbdf0d28ff2f9814e203e9f3f1f8aaa8b42",
       "status": "published"
     },
-    "legal.m0794": {
-      "text": "Responsibilities and disputes",
-      "sourceHash": "c51a73b52356b0f0fad00b7a3df09fa830c96256b596c66ccac7417dd1a770a6",
+    "legal.m2235": {
+      "text": "Account security",
+      "sourceHash": "1d85c11e14444f61ffecab13bae85c0dd268ef28771b56307d30f7a9f0242b4e",
       "status": "published"
     },
-    "legal.m0795": {
-      "text": "Review all generated passenger entries before use. [Owner to complete: warranties, liability provisions, governing law and dispute process.]",
-      "sourceHash": "fdcbd5dca1750658a802621eaf963e9da60c84dad58c469c9373eb11a492a105",
+    "legal.m2236": {
+      "text": "Use an account you control or are authorised to use. Keep your Google account and Windows computer secure, and notify support if you suspect unauthorised access. Do not share activation credentials or allow others to bypass account or device controls. Account recovery and changes to linked devices may require verification of account ownership.",
+      "sourceHash": "8dff766ffeec6a5ac0c0acae048058acd704953f6c3e2bae1a19d412f3b32f0d",
+      "status": "published"
+    },
+    "legal.m2237": {
+      "text": "Licence and approved devices",
+      "sourceHash": "232d546254e8d967270c9379a22dcbc44aaaeab77550b618c2e3038642bd480e",
+      "status": "published"
+    },
+    "legal.m2238": {
+      "text": "Subject to your agreed plan and valid access status, you may install and use the software on approved Windows devices within your device allowance. The software is licensed for use and is not sold as a transfer of its intellectual property. Do not resell access, distribute modified installers, remove access controls or use another customer’s credentials. Contact support before transferring access to a replacement computer.",
+      "sourceHash": "c138d3ec761404e759d88afa15db6a8ce90c2cf901a5b97b86a4fe79110f2112",
+      "status": "published"
+    },
+    "legal.m2239": {
+      "text": "Plans, prices and payment",
+      "sourceHash": "e39e5383bb8cc2a6265d63e88a0da4dc6ffa79ec155bce485a273a3b234f9ef3",
+      "status": "published"
+    },
+    "legal.m2240": {
+      "text": "Before paying, confirm the product, price, currency, subscription period, device allowance and any applicable charges with the team. The written offer or purchase confirmation records the terms of your purchase. Signing in or installing the software does not authorise a payment. Paid access depends on payment verification, licence activation and any required device approval. Keep your payment reference and contact support if the recorded access period does not match your confirmed purchase.",
+      "sourceHash": "dd696cc5d48f29797ef954644472c69817a11b3a38a75de64bb450800153e7b0",
+      "status": "published"
+    },
+    "legal.m2241": {
+      "text": "Renewal and expiry",
+      "sourceHash": "a351700740937225e9ecd3f6a7b2fb2dc5e578f1fffb82a6d259644f54ffcd0f",
+      "status": "published"
+    },
+    "legal.m2242": {
+      "text": "Your subscription permits access for its recorded paid-through period, subject to these terms. Contact the team to arrange renewal before expiry. Do not assume that payment or renewal will occur automatically unless you have separately agreed to a recurring-payment arrangement. Expired subscriptions may lose access to subscription-dependent features. Uninstalling the application does not itself submit a cancellation or refund request.",
+      "sourceHash": "978cc845c5bc3684715647bcaa49551782ecaae46c33200e762c7f7bd81c3ead",
+      "status": "published"
+    },
+    "legal.m2243": {
+      "text": "Connectivity and offline access",
+      "sourceHash": "2d4582e922b4d6bcc09d44cdee993facf31e60ab7f37a6f5d43feef831ee32db",
+      "status": "published"
+    },
+    "legal.m2244": {
+      "text": "Internet access is required for Google sign-in and online account, device and subscription checks. Where the application provides temporary offline access, that access remains subject to its verification limits and subscription expiry. Offline availability is not a permanent licence or an extension of the paid period. Network failures or interruptions affecting Google, Cloudflare or other service providers may temporarily prevent authentication or verification.",
+      "sourceHash": "1a04a2b4d08874105edfd7c631d4db9c0e15dae6912ba10bf7bdb23d7d58d0c2",
+      "status": "published"
+    },
+    "legal.m2245": {
+      "text": "Passenger data and generated output",
+      "sourceHash": "976dac255918919bddb95a7e1e7233bef473bed7145310344577f6a63e1dae0a",
+      "status": "published"
+    },
+    "legal.m2246": {
+      "text": "You are responsible for having permission to process passenger and customer information and for following your agency’s security procedures. Review extracted text, names, document numbers, dates, contact details and generated GDS entries before submission. OCR, translation and automated formatting may contain errors. The toolbar assists your work; it does not replace professional checks, airline rules or the requirements of your booking-system provider.",
+      "sourceHash": "ca7bd98bfc456e37234f9c92911c914e8da05846021f88431db34122b85155cc",
+      "status": "published"
+    },
+    "legal.m2247": {
+      "text": "Third-party systems and translation",
+      "sourceHash": "7603e7e7b04e8d5b437785984f78811e3e4b597ab2f019a6054c91cd5e29306a",
+      "status": "published"
+    },
+    "legal.m2248": {
+      "text": "Access to Amadeus, Travelport, Sabre and other third-party systems depends on your own authorised arrangements with their providers. Preparing an entry does not itself establish a booking-system connection or confirm a reservation. Online translation sends selected text to an external service. Submit confidential or passenger information only when you have appropriate permission and your agency approves that use. Third-party names and trademarks belong to their respective owners; their appearance does not imply endorsement.",
+      "sourceHash": "b7d5d78329990f580f7ab4efd8f2473ead8c5cc098b03a0583631b833c48c892",
+      "status": "published"
+    },
+    "legal.m2249": {
+      "text": "Privacy and information handling",
+      "sourceHash": "a52c0183ce7dfbf3d3fe915aebf60b046082928bd1eff1e094142ff87e5c9147",
+      "status": "published"
+    },
+    "legal.m2250": {
+      "text": "Our Security and Privacy page at https://www.traveldeskgenie.com/en/security-and-privacy explains local processing, Google sign-in information, Cloudflare-hosted account and subscription records, access events and privacy requests. Google identity information is used for customer identification, account linking, access management and related support as described there. Signing out, uninstalling the application or disconnecting Google access does not automatically delete server records. Contact support to request access, correction or deletion; we may verify ownership before acting.",
+      "sourceHash": "6b3c0171168af77a1fd6e043a70e8f1e03f12a90974f86ce3e717ba2ea911ab8",
+      "status": "published"
+    },
+    "legal.m2251": {
+      "text": "Acceptable use",
+      "sourceHash": "9b41b2884b0e979dd0dd6e0b3240e182d0c1d3a2bb65fa35f66075a9891c6d3d",
+      "status": "published"
+    },
+    "legal.m2252": {
+      "text": "Do not use the software for unlawful activity, unauthorised processing of personal information, credential theft or interference with other systems. Do not exploit vulnerabilities, evade subscription or device limits, or attempt to access another customer’s records. Security concerns should be reported privately to support with enough information to investigate and without exposing other people’s data.",
+      "sourceHash": "647916222f50b9937cbee02a004e0c8cc2278c0a6ff31768c34d3b8e859e1ce5",
+      "status": "published"
+    },
+    "legal.m2253": {
+      "text": "Updates and availability",
+      "sourceHash": "e120e0446db27839a35db952e890db6cfe1cb44ed0c8b7031f3819dc5aa078b4",
+      "status": "published"
+    },
+    "legal.m2254": {
+      "text": "We may release updates to correct defects, improve security or change supported features. Review update information and obtain installers through our official website or support channels. Compatibility may change as Windows or third-party services change. We do not promise uninterrupted availability, error-free output or compatibility with every computer or external system. Any specific support or service commitments must be confirmed separately in writing.",
+      "sourceHash": "4b5cb543f036e99c739cc6ab1960a67944b7ca54cafa1e38d3a7346857f6728a",
+      "status": "published"
+    },
+    "legal.m2255": {
+      "text": "Cancellation and refund requests",
+      "sourceHash": "e07bc60758c0b1be9cacb002fa72238584329193c4df671efd4cbffce0ebffe5",
+      "status": "published"
+    },
+    "legal.m2256": {
+      "text": "To request cancellation or a refund, contact support with your account email, purchase reference and reason for the request. Eligibility depends on the purchase terms disclosed before payment and any applicable mandatory rights. These terms do not create a blanket no-refund rule or an unconditional refund guarantee. We will communicate the outcome of a request and any agreed next steps. A refund, account deletion and subscription cancellation are separate actions and should be requested explicitly.",
+      "sourceHash": "c730ffcc6fb4e42c3a107a0ca641b2c7f42839a14a1b81825a375ba96b16da7b",
+      "status": "published"
+    },
+    "legal.m2257": {
+      "text": "Suspension and termination",
+      "sourceHash": "e1c5aa3752b3b7f09fb24c1afa090fe6bf81a4dcaa8a306a804ec3868954728b",
+      "status": "published"
+    },
+    "legal.m2258": {
+      "text": "Access may be restricted when a subscription expires, payment is disputed, a device is revoked, account security is at risk or these terms are breached. Where reasonably practicable, we will explain the restriction and how to contact support about it. Immediate restrictions may be necessary to protect accounts or the service. Any remaining payment or refund issues will be considered under the purchase terms and applicable mandatory rights.",
+      "sourceHash": "9686f1f329e1f39665fdc35570d72fe3f6115294184c079e743bb2357aee7d46",
+      "status": "published"
+    },
+    "legal.m2259": {
+      "text": "Responsibilities and legal rights",
+      "sourceHash": "c83f9cac88a5fb2ee420df6d307e253927bad57c591af0b1b5fc44d8bbfd4d74",
+      "status": "published"
+    },
+    "legal.m2260": {
+      "text": "You remain responsible for checking generated output, protecting your own records and maintaining appropriate backups. If a problem occurs, contact support promptly so that we can investigate. Nothing in these terms excludes or limits rights, remedies or responsibilities that cannot lawfully be excluded or limited. These terms do not require you to give up mandatory consumer protections or access to a competent court.",
+      "sourceHash": "9c832726b6e8e137ea80a4016520af6f70c8c406a3f863ccd404f794635284b4",
+      "status": "published"
+    },
+    "legal.m2261": {
+      "text": "Complaints and disputes",
+      "sourceHash": "14417788b737a01ee86b273b8c77b39a29644c7fede2d4fd0a16e12e7d362b95",
+      "status": "published"
+    },
+    "legal.m2262": {
+      "text": "Please first send complaints to info@traveldeskgenie.com with the relevant dates, account email, purchase reference and a description of the outcome you seek. We will review the information and seek to resolve the matter directly. If it remains unresolved, either party may use the remedies and dispute procedures available under applicable law. These terms do not impose mandatory arbitration or an exclusive foreign court.",
+      "sourceHash": "d0c5854801492b764f5d7ab432cff5f32488ff644dd7384d52b3d25ceaa66ae6",
+      "status": "published"
+    },
+    "legal.m2263": {
+      "text": "Changes to these terms",
+      "sourceHash": "2f58be0dd9092b4d001280f6e68e26e5866304508c758dc8059b66b8b735bcec",
+      "status": "published"
+    },
+    "legal.m2264": {
+      "text": "We may update these terms as the software or service changes. The updated version will show its revision date. Material changes affecting an existing paid arrangement will be communicated through an appropriate available channel before taking effect where required. An update does not retrospectively change a confirmed purchase price or remove applicable mandatory rights. Contact support if you have questions about a change.",
+      "sourceHash": "391274d46d74ec9aff5ef37bd2698862108217531953b987df835ca12926f8c8",
       "status": "published"
     },
     "legal.m0796": {
@@ -7732,9 +8027,9 @@
       "sourceHash": "79cb61e75e17424b92c60bab2bf0e9515f541872dd71e53759266d6883859cf9",
       "status": "published"
     },
-    "screens.m0944": {
-      "text": "Travel Genie passport window with Sabre, Travelport and Amadeus panels side by side: raw passport OCR, parsed passenger fields, and generated NAME, DOCS, CTCM and CTCE entries with copy buttons",
-      "sourceHash": "05ff85d66a5ad4dd88362c7bc09aab66d0c986d5c24b2c63009bece6263f8225",
+    "screens.m2265": {
+      "text": "TravelDeskGenie passport to GDS converter displaying passport OCR data and generated passenger entries for Sabre, Travelport and Amadeus, including NAME, DOCS, CTCM and CTCE fields with copy buttons",
+      "sourceHash": "dfeb3408418f38f84d427802891fa24d12a6c4219a73dd009a768faceaf2c0a0",
       "status": "published"
     },
     "screens.m0945": {
@@ -7757,19 +8052,19 @@
       "sourceHash": "517bc2fdffe53c19dbbb3435893715690385be34dc6ddb6cf37b4ed96fdb17c6",
       "status": "published"
     },
-    "screens.m0949": {
-      "text": "Passport photograph",
-      "sourceHash": "8a23964e4d7a6530036df2d1474d4598bb1393850ea7304ff05b3cfd2ce2c47d",
+    "screens.m2266": {
+      "text": "Passport Photograph Checker",
+      "sourceHash": "3d1c5d73afc3974d9f132fd2bd5c1e027f85414fa5995d073d264eac3f0fc198",
       "status": "published"
     },
-    "screens.m0950": {
-      "text": "Frame, straighten and measure a photo against the spec.",
-      "sourceHash": "58a06f2e090b3c60f5a81ee1ddfb29384b922373b42f0d7cb11970d54485c069",
+    "screens.m2267": {
+      "text": "Frame, straighten and measure a passport photo against the configured specification.",
+      "sourceHash": "8285e07ccc67fb5c9f1128f749c63b1d582baa2260e0ec1793833232f7b17809",
       "status": "published"
     },
-    "screens.m0951": {
-      "text": "Passport photograph window with crown and chin guide lines, a head-height marker, and a checklist measuring pixel size, frame ratio, file size, head height, space above head, centring, background and JPEG quality",
-      "sourceHash": "cb02df4053f561b00f4ae2fe693ab9c4da86e027d2f0d05dba0ef515e82e1bb1",
+    "screens.m2268": {
+      "text": "TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality",
+      "sourceHash": "a18ce5ce5526c7d63e51632436f0e0fc56c34f3378d4a417d69eb1c79eee98bc",
       "status": "published"
     },
     "screens.m0952": {
@@ -7777,39 +8072,39 @@
       "sourceHash": "4a7bc76fcc572d8e6b564181f1e9812d2c145a86c3779fe206be96915aa5c569",
       "status": "published"
     },
-    "screens.m0953": {
-      "text": "Straighten in 0.5° steps or turn the photo 90°.",
-      "sourceHash": "db630e14e0400474c841deb454406dec5d32871b13b66b53799d96f3ded02cec",
+    "screens.m2269": {
+      "text": "Straighten in 0.5° steps or rotate the photo by 90°.",
+      "sourceHash": "6e618723b1ecec6b0d68687f6c63b2f6a149404b3bd9e1945d81d173f3b29854",
       "status": "published"
     },
-    "screens.m0954": {
-      "text": "A checklist measures the final JPEG: pixel size, 35:45 ratio, file size, head height, centring and background.",
-      "sourceHash": "477609aa3c4402fd9e1c49ca0d1aae286969d99d4be058781d73e55361fa8ab0",
+    "screens.m2270": {
+      "text": "A checklist measures the final JPEG: pixel dimensions, 35:45 ratio, file size, head height, centring and background.",
+      "sourceHash": "a3ca567e317218a027cfb9b6d638df4ce3ec23842aa63d1d210fef5f34d2a0e8",
       "status": "published"
     },
-    "screens.m0955": {
-      "text": "Problems are explained in plain words, such as a crown too close to the top edge.",
-      "sourceHash": "26d72bb44fdce825fed878745f5ab0e782fecd0a4c5bac321d1973efb07ffb03",
+    "screens.m2271": {
+      "text": "Problems are explained in plain language, such as a crown positioned too close to the top edge.",
+      "sourceHash": "79ae35bda88a3ea07cc28644f8d52f8ef6ee12fa86ff8aeb0add2b363e6711e3",
       "status": "published"
     },
-    "screens.m0956": {
-      "text": "Measures the photo against the configured specification. It can’t guarantee acceptance, so confirm current requirements with the issuing authority.",
-      "sourceHash": "1e269550e423ec0876617fe3890f26187c2ea479deb444867f76ee1142884697",
+    "screens.m2272": {
+      "text": "Measures the photo against the configured specification. It cannot guarantee acceptance, so confirm current requirements with the issuing authority.",
+      "sourceHash": "00be575cf6b4b666b149e1546a5d4bcada08a5ce7711e6d472bab6a7ea5ab804",
       "status": "published"
     },
-    "screens.m0957": {
-      "text": "Logo & Screenshot",
-      "sourceHash": "04dbb1e75966b93764cca219d05e1a0b560883a2af11b3d6725e0bfa2d7a1645",
+    "screens.m2273": {
+      "text": "Logo & Screenshot Editor",
+      "sourceHash": "40ab37b0584087f9b7a7d0379eb258054bcf4d882d51eeb7ac0dec4ff8c489c8",
       "status": "published"
     },
-    "screens.m0958": {
-      "text": "Capture, mark up, brand and export an image.",
-      "sourceHash": "9e76c474d9c192f1470cf025a7a1f6889f2393f3a2fe58f961678a16b61a8cd3",
+    "screens.m2274": {
+      "text": "Capture, annotate, brand and export images.",
+      "sourceHash": "42a5fcfd6bbf786a90d8cf3db20c4b6acb761da68550d685b876485cca80afe9",
       "status": "published"
     },
-    "screens.m0959": {
-      "text": "Logo & Screenshot editor showing a specimen passport with strikethrough marks, an Approved stamp, colour choices, crop margins and export options",
-      "sourceHash": "a8455a3e68c85b5e1aa07047e593ba7d3a24048a90b1450bbba39d0a7c11f9c6",
+    "screens.m2275": {
+      "text": "TravelDeskGenie Logo and Screenshot Editor showing a sample passport with strikethrough annotations, an Approved stamp, colour options, crop margins and image export settings",
+      "sourceHash": "4d66e613fb4d25b168f5fbaba721877a7ddd4fea690a0ad5fa166ad1350cea10",
       "status": "published"
     },
     "screens.m1098": {
@@ -7832,24 +8127,24 @@
       "sourceHash": "f52956fe435b56f468bac54518810b0507881f3e411df7505ba6be14184bd89e",
       "status": "published"
     },
-    "screens.m0963": {
-      "text": "Sharpening improves legibility, but it can’t restore characters that blur has already removed.",
-      "sourceHash": "618e815501e8488c1ae8b7102de809238658febd44fe6f3d4983a57a0a2b393f",
+    "screens.m2276": {
+      "text": "Sharpening improves legibility, but it cannot restore characters that blur has already removed.",
+      "sourceHash": "acf2e2259e91b813c14348a25297207c041b1e706b538d8e6822633b87efca1e",
       "status": "published"
     },
-    "screens.m0964": {
-      "text": "Travel Genie Translate",
-      "sourceHash": "06b20ac6d5af7640468d8fb7452fc6d3ed9e74946e719cd315c91250da1354d4",
+    "screens.m2277": {
+      "text": "Travel Genie Translator",
+      "sourceHash": "c486bee113b58b2206d674ec96ab45e09b855ba7dc5312b8b7ffe99d39412cef",
       "status": "published"
     },
-    "screens.m0965": {
-      "text": "Read customer messages and reply in their language.",
-      "sourceHash": "b7b99b4a86e3da8702b0ca1423506f1ae757213d9718dae5100fa710a1c329b5",
+    "screens.m2278": {
+      "text": "Understand customer messages and prepare replies in different languages.",
+      "sourceHash": "9c1ed44c5c7e499b678051b42306518f0c3fbd38f569c356bb1242888e17e72a",
       "status": "published"
     },
-    "screens.m0966": {
-      "text": "Magnifier selecting a Dutch customer message beside the Translate window, which shows the detected language, the English translation and a reply box",
-      "sourceHash": "59701918c477f6ff4e97a13f8beaf738df2426683c5bd40e667d76c6520dca6b",
+    "screens.m2279": {
+      "text": "TravelDeskGenie translation tool showing a selected Dutch customer message, detected language, English translation and a reply box",
+      "sourceHash": "35186c64d7ae7c49df93e7d0ec5bf474ee78c12c3bb5d5fc080747c2644ecbf8",
       "status": "published"
     },
     "screens.m0967": {
@@ -7862,9 +8157,9 @@
       "sourceHash": "62c64dfd3cfe1ef6f173932be4d7771d9b66d8a2f133dca9f523b5c01a781cfc",
       "status": "published"
     },
-    "screens.m0969": {
-      "text": "Fix anything misread, then translate again.",
-      "sourceHash": "c43777d19062ff3a81e30e0422d904493ec41d60a2e9a1504d6bf9915278ecc5",
+    "screens.m2280": {
+      "text": "Correct anything misread, then translate again.",
+      "sourceHash": "967d6d439dd286fe3af291a1487ecac62f6f34467957e2ba688435288169b5d5",
       "status": "published"
     },
     "screens.m0970": {
@@ -7877,9 +8172,9 @@
       "sourceHash": "52e7db40a6c292641b154ddb4f538d532e8d720db248739444941fcfa8f1fd9a",
       "status": "published"
     },
-    "screens.m0972": {
-      "text": "GDS Decode",
-      "sourceHash": "3b13c0d862786c12404ec5ab68d71f087403d57ad73471b7a3ec6fcab1ba434d",
+    "screens.m2281": {
+      "text": "GDS Command Decoder",
+      "sourceHash": "60c748343b49e7cb25704a0a880f4a01fb7aaf0ff3c8fe99522f97e97cd0752c",
       "status": "published"
     },
     "screens.m0973": {
@@ -7887,9 +8182,9 @@
       "sourceHash": "750c7563c1b38f65024800ea80072c51f464cb9cb9f5189a25e6c09cdfac81d8",
       "status": "published"
     },
-    "screens.m0974": {
-      "text": "Decode table listing city, airline, country, car company, hotel company and aircraft type commands in Travelport, Amadeus and Sabre columns, each with a copy button",
-      "sourceHash": "f79acea0d1fe5d20d4a94b458cd22e1d6f318cddb01f50916e900c0c7bfae6be",
+    "screens.m2282": {
+      "text": "TravelDeskGenie GDS command decoder displaying city, airline, country, car rental, hotel and aircraft codes in Travelport, Amadeus and Sabre columns with copy buttons",
+      "sourceHash": "179f95aa8aeedd9825f41d6de76ac7df1aea90e460d6d2306a04e68a0c205186",
       "status": "published"
     },
     "screens.m0975": {
@@ -7912,14 +8207,19 @@
       "sourceHash": "87e5592bfe1518b9b178aca5ba2fa9a1899f1eefa2cebd12a4b2fdc215ecbfbf",
       "status": "published"
     },
-    "screens.m0979": {
-      "text": "Your standard text, one key away.",
-      "sourceHash": "5aba817363dc8ae7228ccb067f09ec388010ada99d82bc64e46784974e7ba510",
+    "screens.m2283": {
+      "text": "Travel Agent Text Container Manager",
+      "sourceHash": "491002a9091330c671dbb5d29bccf84590e0842a924f0c52065d39330100fb7b",
       "status": "published"
     },
-    "screens.m1099": {
-      "text": "Container Manager with categories, a list of saved text containers assigned to F-keys and Shift+F-keys, and an editor showing fare, baggage and ticket policy text",
-      "sourceHash": "192eb016c9ab228a3d11bae3cb750afdbc5a0175ee947e95e85ec65562b7a70a",
+    "screens.m2284": {
+      "text": "Keep standard travel messages and templates one key away.",
+      "sourceHash": "a20f889af0ea86a940503db0b7312443b9ab4f23c870fff5caf15414f51ded1e",
+      "status": "published"
+    },
+    "screens.m2285": {
+      "text": "TravelDeskGenie Container Manager displaying categories, saved travel agent text templates assigned to F-keys and Shift plus F-keys, and an editor for fare, baggage and ticket policy messages",
+      "sourceHash": "cac11d72e4053496eb869d3ef37eb2aefb479e42eaee801c3a23ccb7b13663cf",
       "status": "published"
     },
     "screens.m1100": {
@@ -7942,19 +8242,19 @@
       "sourceHash": "0de0c58074195026b6fd3010450de698952c7ad99dc89f56af42e236e1237b76",
       "status": "published"
     },
-    "screens.m0983": {
-      "text": "Instant Phone Directory",
-      "sourceHash": "4f5d51036e3e150489029366f9769e679716d9c9c86d296841b18ae5f32a0bef",
+    "screens.m2286": {
+      "text": "Travel Agent Phone Directory",
+      "sourceHash": "809156204af2559f720581f3a19e4cf9242f80b78154835b71769b7abcb94e09",
       "status": "published"
     },
-    "screens.m0984": {
-      "text": "Clients, agents and families in one searchable list.",
-      "sourceHash": "6e13d3e9dada1d4ab160768b81588f6da3e11e1c38ff1306353d033a79724a97",
+    "screens.m2287": {
+      "text": "Manage clients, agents and family contacts in one searchable list.",
+      "sourceHash": "b47ba75d6ccc57881c722427fec0358406385460d083d0349106f892474d072f",
       "status": "published"
     },
-    "screens.m0985": {
-      "text": "Instant Phone Directory listing sample clients, agents and family members with codes, phone numbers, emails and notes",
-      "sourceHash": "88bd7b427ad66d7b328213b336268cf6ab38dc7e5ff62b089d6179a512fca28e",
+    "screens.m2288": {
+      "text": "TravelDeskGenie Instant Phone Directory displaying sample client, agent and family contact records with codes, phone numbers, email addresses and notes",
+      "sourceHash": "7670f4bc34c8a232a420d8afad68fd1471695fdf6dda5e181ef4930980b904ad",
       "status": "published"
     },
     "screens.m0986": {
@@ -7977,19 +8277,19 @@
       "sourceHash": "2d290d228239921060de6e11994a8843662b4ed8d9e3c9ff9e0012b36fc9af2d",
       "status": "published"
     },
-    "screens.m0990": {
-      "text": "Alarms & Reminders",
-      "sourceHash": "ddcb461708d373552010e9a7d3c2cc8c44f5d78bb6e08de6c617352961589789",
+    "screens.m2289": {
+      "text": "Travel Agent Alarms & Reminders",
+      "sourceHash": "3bc311a3e779017fda1a157d42088a8793a6657f7a8ccde0e259aac2af76201e",
       "status": "published"
     },
-    "screens.m0991": {
-      "text": "Payment and follow-up reminders that don’t slip.",
-      "sourceHash": "993aa3b3d656ffa4b9069d4c43f1fbd71b2840c6c834c3aaee55dab3a7c624ed",
+    "screens.m2290": {
+      "text": "Manage payment deadlines and customer follow-ups.",
+      "sourceHash": "bf10f860e72a78a15ec6ba63b422ede4062373dfea47f2d1d7785d88f6aaaad5",
       "status": "published"
     },
-    "screens.m0992": {
-      "text": "Alarms & Reminders window with upcoming payment follow-ups, each showing date, category, priority and action buttons",
-      "sourceHash": "2cf5ad42bbd6142ccdea64744f8b491c69dc6de8cf4e0d7aadc731bc38808395",
+    "screens.m2291": {
+      "text": "TravelDeskGenie Alarms and Reminders dashboard showing upcoming payment and customer follow-up reminders with dates, categories, priorities and action buttons",
+      "sourceHash": "3dece8e6bb39cee216b3a8e0cf3081f567855ca5efe134d007861226a61f4dfd",
       "status": "published"
     },
     "screens.m0993": {
@@ -8012,19 +8312,19 @@
       "sourceHash": "e5feea0dea84d8e2ad149cc53f0e4a91ad598b6b59718eab09e65684e42c921a",
       "status": "published"
     },
-    "screens.m0997": {
-      "text": "Sticky notes",
-      "sourceHash": "a614d16aa5bcf99bb623cc7cc4f7a76988c37b1d4d85b301f7beed3170e43ec3",
+    "screens.m2292": {
+      "text": "Travel Agent Sticky Notes",
+      "sourceHash": "c3e651ac1243dc5a503c012cb7f62ec6ac528b79d6d6e764eb72220fcb3dde98",
       "status": "published"
     },
-    "screens.m0998": {
-      "text": "Quick notes that stay on screen.",
-      "sourceHash": "7ba0898bcc096a42bee92319c085999e67946f43634e2a8e616e980389923c62",
+    "screens.m2293": {
+      "text": "Keep quick reminders visible on your desktop.",
+      "sourceHash": "a7587f485589771ae098d0ec183561fe593919b1d9a5f90edc437a894b1da6e2",
       "status": "published"
     },
-    "screens.m0999": {
-      "text": "Yellow Travel Genie sticky note with reminder, colour, pin, add and close buttons and a saved timestamp",
-      "sourceHash": "0c4124e58dad3db39b99cd7fbf5e240ef8de6f90189db7f0ca526dcf74d0e6c0",
+    "screens.m2294": {
+      "text": "TravelDeskGenie yellow desktop sticky note showing a reminder, colour settings, pin, add and close buttons and a saved timestamp",
+      "sourceHash": "3b6dbd9c461829ddaa1d8786cb10ec712e650e29deca1e310afd0a0e7d34448a",
       "status": "published"
     },
     "screens.m1000": {
@@ -8047,9 +8347,19 @@
       "sourceHash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
       "status": "published"
     },
-    "site.m1004": {
-      "text": "Travel Genie mascot: a friendly blue genie holding a globe circled by a golden plane",
-      "sourceHash": "9c233f8eae2e975076ad258a198f4d421d7ca8477b1d9defacf7800aa6ffdb61",
+    "site.m2295": {
+      "text": "TravelDeskGenie",
+      "sourceHash": "b5e59bcb3de596fb47a20ded8db5c7bc2f9e845b73090ed5d01333cf858b76cb",
+      "status": "published"
+    },
+    "site.m2296": {
+      "text": "Travel Technology Platform",
+      "sourceHash": "0853d24f6ce4581c763d255188b9dcf057648a5be382d3f95390b7d57f91d43a",
+      "status": "published"
+    },
+    "site.m2297": {
+      "text": "TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane",
+      "sourceHash": "7b0d2f6ffed361e05663dd8c3d4d7a2a6b922756b9897e248abc39469bf57636",
       "status": "published"
     },
     "toolbar.m1005": {
@@ -8207,9 +8517,9 @@
       "sourceHash": "1931f2e1b46a5f542498bde2c1292cae3dba1d5cdb0823049c0016ba2dc2771a",
       "status": "published"
     },
-    "seo.m1033": {
-      "text": "Travel Genie mascot",
-      "sourceHash": "dcdbc92022dcb1d404ad3a72b26284deb679e0f7d3bee5ff751907e227c205bc",
+    "seo.m2298": {
+      "text": "TravelDeskGenie mascot holding a globe with a golden airplane",
+      "sourceHash": "e63d44816b75b3d7f1f7ca542165f14a7e0ff4d17cc3e6ecb6978d1618fc1933",
       "status": "published"
     },
     "seo.m1518": {
@@ -8490,6 +8800,11 @@
     "additionalsourcejson.m1121": {
       "text": "data and privacy",
       "sourceHash": "8f459c3e56ed215111d8900294a50af7f3ee2b44fb9b15f37e9697db0c1e89f9",
+      "status": "published"
+    },
+    "page.m1077": {
+      "text": "privacy",
+      "sourceHash": "a4cc6bc01a927e2a78fd3bec51e865ac0d85e4daab6f988d5d33d056e125b1c3",
       "status": "published"
     },
     "additionalsourcejson.m1122": {
