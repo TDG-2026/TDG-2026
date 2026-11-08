@@ -40,6 +40,7 @@ export const tourScreens = [
     height: 1030,
     alt: 'TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality',
     points: [
+      'Press **Ctrl + Alt + I** to instantly display the passport photograph editor and adjust your photo to meet visa application requirements.',
       'Drag the frame to the crown and chin, or fit the head to 75% in one click.',
       'Straighten in 0.5° steps or rotate the photo by 90°.',
       'A checklist measures the final JPEG: pixel dimensions, 35:45 ratio, file size, head height, centring and background.',
