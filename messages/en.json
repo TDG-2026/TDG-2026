@@ -2807,6 +2807,21 @@
       "sourceHash": "7064c25e49046767b608427f605537bf72e2cda10b99ec4d229c51e5cf32b91b",
       "status": "published"
     },
+    "ToolbarCore.m2311": {
+      "text": "Zoom Mute / Unmute Hotkey",
+      "sourceHash": "a19c8827e64e615a0b0219f4a471e7ee40d7aa2476e38f826675cd03dab464ed",
+      "status": "published"
+    },
+    "ToolbarCore.m2312": {
+      "text": "Control received Zoom speaker sound.",
+      "sourceHash": "429ea3ed6437c900f5dd9ed41fa3bfc94b77ce8ca6fe8e7a73298b93b72e813a",
+      "status": "published"
+    },
+    "ToolbarCore.m2313": {
+      "text": "Mute or unmute Zoom with a hotkey while keeping your workflow moving.",
+      "sourceHash": "c41672ac766ac26e072f9bd38cae1d9682072f88410a4f57baf6ca2948ffd13e",
+      "status": "published"
+    },
     "ToolbarCore.m0494": {
       "text": "Inside Magic Toolbar",
       "sourceHash": "356a787ab09cc3aade5736d43f9b96aab0a4e41d91784a078dde198c74955eac",

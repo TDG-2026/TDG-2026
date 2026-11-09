@@ -3106,7 +3106,7 @@
     "sources": [
       "components\\GenieChat.js:115",
       "components\\Reveal.js:14",
-      "components\\ToolbarCore.js:42"
+      "components\\ToolbarCore.js:43"
     ]
   },
   "GenieChat.m1754": {
@@ -4116,46 +4116,67 @@
       "components\\ToolbarCore.js:21"
     ]
   },
+  "ToolbarCore.m2311": {
+    "text": "Zoom Mute / Unmute Hotkey",
+    "hash": "a19c8827e64e615a0b0219f4a471e7ee40d7aa2476e38f826675cd03dab464ed",
+    "sources": [
+      "components\\ToolbarCore.js:22"
+    ]
+  },
+  "ToolbarCore.m2312": {
+    "text": "Control received Zoom speaker sound.",
+    "hash": "429ea3ed6437c900f5dd9ed41fa3bfc94b77ce8ca6fe8e7a73298b93b72e813a",
+    "sources": [
+      "components\\ToolbarCore.js:22"
+    ]
+  },
+  "ToolbarCore.m2313": {
+    "text": "Mute or unmute Zoom with a hotkey while keeping your workflow moving.",
+    "hash": "c41672ac766ac26e072f9bd38cae1d9682072f88410a4f57baf6ca2948ffd13e",
+    "sources": [
+      "components\\ToolbarCore.js:22"
+    ]
+  },
   "ToolbarCore.m0494": {
     "text": "Inside Magic Toolbar",
     "hash": "356a787ab09cc3aade5736d43f9b96aab0a4e41d91784a078dde198c74955eac",
     "sources": [
-      "components\\ToolbarCore.js:127"
+      "components\\ToolbarCore.js:128"
     ]
   },
   "ToolbarCore.m0495": {
     "text": "One toolbar.",
     "hash": "1299ea0e33072c57d0b03c088f698d8ef1f68f2f8aa4bfdbb01168af004825a7",
     "sources": [
-      "components\\ToolbarCore.js:128"
+      "components\\ToolbarCore.js:129"
     ]
   },
   "ToolbarCore.m0496": {
     "text": "Twelve everyday tools.",
     "hash": "c01771097aba55381bb32880b519153e34232500043862617cfb18b00c4b4a5e",
     "sources": [
-      "components\\ToolbarCore.js:129"
+      "components\\ToolbarCore.js:130"
     ]
   },
   "ToolbarCore.m1764": {
     "text": "Everything here is included with Magic Toolbar. These aren't separate purchases, just daily reservation jobs all the day, gathered in one place.",
     "hash": "c0ee1135843ee0f4f787f85db4a2265be91b09cd55e88521ac2bb8c0dd4c5e67",
     "sources": [
-      "components\\ToolbarCore.js:131"
+      "components\\ToolbarCore.js:132"
     ]
   },
   "ToolbarCore.m1765": {
     "text": "Time is Money-Genie Saves Both!",
     "hash": "5d7d294aab627783b923fbefe320b1e3c8f797a426829baf23e11f985aaa6ab3",
     "sources": [
-      "components\\ToolbarCore.js:135"
+      "components\\ToolbarCore.js:136"
     ]
   },
   "ToolbarCore.m1088": {
     "text": "EXPLORE YOUR TOOLBAR",
     "hash": "c7003482d11486c0cdfd0c61795eeae16f2f8bd08c9eec47a6d660f625ff5539",
     "sources": [
-      "components\\ToolbarCore.js:157",
+      "components\\ToolbarCore.js:158",
       "messages\\additional-source.json:1"
     ]
   },
@@ -4163,21 +4184,21 @@
     "text": "12 everyday tools. One connected workspace.",
     "hash": "907482b9596554afce87e879bd99c91ad61225467e9ef5a672625065ed3d4cb4",
     "sources": [
-      "components\\ToolbarCore.js:169"
+      "components\\ToolbarCore.js:170"
     ]
   },
   "ToolbarCore.m0499": {
     "text": "Play highlights",
     "hash": "5d8b3cb990cb4c1e21f0fa663ff131f2e8e08a990d9a02803b2a66dda7c84785",
     "sources": [
-      "components\\ToolbarCore.js:171"
+      "components\\ToolbarCore.js:172"
     ]
   },
   "ToolbarCore.m0500": {
     "text": "Pause highlights",
     "hash": "ec965d18e7859e4741ccd1b18b04c51c7db2e027fe4259d649c19aae382f0abb",
     "sources": [
-      "components\\ToolbarCore.js:171"
+      "components\\ToolbarCore.js:172"
     ]
   },
   "TravelGenieShowcase.m0501": {
