@@ -6,7 +6,7 @@ export const dynamic = 'force-static';
 export async function GET() {
   const b = site.url, live = [];
   for (const l of locales) if ((await getCatalog(l.code)).published) live.push(`- ${l.english} (${l.name}): ${b}/${l.code}`);
-  const body = `# Travel Genie
+  const body = `# Travel Desk Genie
 
 > Travel Genie makes Windows productivity software for travel agencies. Its flagship product, Magic Toolbar, prepares passenger NAME, DOCS, CTCM and CTCE entries in Amadeus, Travelport and Sabre formats and adds desk tools: F1–F12 text shortcuts, reminders, phone directory, translation and visa photo checks. It does not issue tickets, search fares or connect to a GDS.
 

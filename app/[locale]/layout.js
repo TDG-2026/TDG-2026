@@ -18,8 +18,8 @@ export function generateStaticParams() { return locales.map(({code}) => ({locale
 export const viewport = {width: 'device-width', initialScale: 1,
   themeColor: [{media: '(prefers-color-scheme: light)', color: '#ffffff'}, {media: '(prefers-color-scheme: dark)', color: '#0a1028'}]};
 export async function generateMetadata() {
-  return {metadataBase: new URL(site.url), applicationName: site.name, authors: [{name: site.name, url: site.url}],
-    creator: site.name, publisher: site.name, category: 'technology', formatDetection: {telephone: false, email: false, address: false}};
+  return {metadataBase: new URL(site.url), applicationName: site.publisherName || site.name, authors: [{name: site.publisherName || site.name, url: site.url}],
+    creator: site.publisherName || site.name, publisher: site.publisherName || site.name, category: 'technology', formatDetection: {telephone: false, email: false, address: false}};
 }
 
 export default async function LocaleLayout({children, params}) {

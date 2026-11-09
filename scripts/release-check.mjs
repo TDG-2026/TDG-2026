@@ -24,6 +24,7 @@ if (!url) errors.push('NEXT_PUBLIC_SITE_URL is not set.');
 else {
   if (!url.startsWith('https://')) errors.push(`NEXT_PUBLIC_SITE_URL must use https:// (got ${url}).`);
   if (/localhost|127\.0\.0\.1|YOUR-CONFIRMED-DOMAIN/i.test(url)) errors.push(`NEXT_PUBLIC_SITE_URL is a placeholder or local address (${url}).`);
+}
 if (!existsSync(resolve(root, 'public/images/genie-mascot.webp'))) {
   errors.push('Missing public/images/genie-mascot.webp.');
 }

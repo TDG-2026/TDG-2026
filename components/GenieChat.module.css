@@ -36,7 +36,8 @@
 .left .teaser{right:auto;left:calc(100% + 14px)}
 .teaserText{display:flex;align-items:center;gap:7px;padding:7px 8px 7px 11px;border:0;background:none;font:inherit;font-size:.88rem;color:var(--ink,#0f1b3d);cursor:pointer}
 .teaserText strong{font-weight:750}
-.teaserDot{width:8px;height:8px;border-radius:50%;background:#3ddc84;box-shadow:0 0 0 3px rgba(61,220,132,.25);animation:dotPulse 2s ease-in-out infinite}
+.teaserDot{position:relative;width:8px;height:8px;border-radius:50%;background:#16834a;flex:0 0 8px}
+.teaserDot::after{content:"";position:absolute;inset:-3px;border:2px solid rgba(22,131,74,.45);border-radius:50%;animation:dotPulse 2s ease-in-out infinite;pointer-events:none}
 .teaserDemo{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border:0;border-radius:999px;background:linear-gradient(135deg,#2f6bff,#6d4aff);color:#fff;font:inherit;font-size:.82rem;font-weight:750;cursor:pointer;box-shadow:0 6px 16px -8px rgba(47,107,255,.9)}
 .teaserDemo::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);transform:translateX(-120%);animation:shine 3.2s ease-in-out 1.2s infinite;pointer-events:none}
 .teaserDemo:hover{filter:brightness(1.08)}
@@ -161,7 +162,7 @@
 @keyframes teaserIn{from{opacity:0;transform:translate(10px,-50%)}to{opacity:1;transform:translate(0,-50%)}}
 @keyframes teaserBob{0%,100%{translate:0 0}50%{translate:0 -3px}}
 @keyframes shine{0%,60%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
-@keyframes dotPulse{0%,100%{box-shadow:0 0 0 3px rgba(61,220,132,.25)}50%{box-shadow:0 0 0 6px rgba(61,220,132,.08)}}
+@keyframes dotPulse{0%,100%{transform:scale(1);opacity:.8}50%{transform:scale(1.55);opacity:.25}}
 @keyframes auraSpin{to{transform:rotate(360deg)}}
 @keyframes auraBreath{0%,100%{scale:.92}50%{scale:1.12}}
 @keyframes ripple{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.9);opacity:0}}

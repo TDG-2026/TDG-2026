@@ -4,7 +4,7 @@ import {resources, findResource} from '@/data/resources';
 import {getTranslator} from '@/lib/i18n/catalog';
 import {localizeMetadata} from '@/lib/i18n/metadata';
 import {localePath} from '@/lib/i18n/config';
-import {pageMeta, webPageSchema, articleSchema, faqSchema, breadcrumbs, localizedUrl, UPDATED} from '@/lib/seo';
+import {pageMeta, webPageSchema, articleSchema, faqSchema, breadcrumbs, localizedUrl} from '@/lib/seo';
 import StructuredData from '@/components/StructuredData';
 
 export const dynamicParams = false;
@@ -20,8 +20,6 @@ const SEO_TITLES = {
   'visa-photo-preparation': 'Visa Photo Fixer: Size, Quality & Rotate | Travel Genie',
   'f1-f12-hotkeys-saved-messages': 'F1–F12 Hotkeys for Saved Messages | Travel Genie',
   'translator-for-travel-agents': 'Translator for Travel Agents | Travel Genie',
-  'mute-meeting-apps-hotkey': 'Mute Zoom, Teams & Meet Sound With a Hotkey | Travel Genie',
-  'mute-zoom-meeting-hotkey': 'Mute Zoom During a WhatsApp Call: Hotkey | Travel Genie',
   'travel-agent-shortcuts-notes': 'Travel Desk Shortcuts & Notes | Travel Genie',
   'travel-agency-software-checklist': 'Travel Agency Software Checklist | Travel Genie',
 };
@@ -29,7 +27,7 @@ const SEO_TITLES = {
 // Call-to-action per guide category: [heading, text]
 const CTA = {
   'Photo tools': ['Fix visa photos in minutes', 'Magic Toolbar checks visa photo size, improves quality and straightens tilted photos on Windows, so you can prepare each application photo in minutes.'],
-    'Desk productivity': ['Make your travel desk faster', 'Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and meeting mute hotkeys together on Windows, so your daily desk work moves faster.'],
+    'Desk productivity': ['Make your travel desk faster', 'Magic Toolbar puts F1–F12 saved messages, a translator, notes and reminders together on Windows, so your daily desk work moves faster.'],
 };
 const DEFAULT_CTA = ['Ready to prepare entries faster?', 'Magic Toolbar prepares NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre on Windows. You check each entry, then copy it into your GDS.'];
 
@@ -42,7 +40,7 @@ export async function generateMetadata({params}) {
   const {locale, slug} = await params;
   const r = findResource(slug); if (!r) return {};
   const meta = pageMeta(SEO_TITLES[r.slug] || r.title, r.description, '/resources/' + r.slug);
-  meta.openGraph = {...meta.openGraph, type: 'article', publishedTime: r.published || UPDATED, modifiedTime: r.updated || UPDATED};
+  meta.openGraph = {...meta.openGraph, type: 'article', ...(r.published ? {publishedTime: r.published} : {}), ...(r.updated ? {modifiedTime: r.updated} : {})};
   return localizeMetadata(meta, locale);
 }
 
@@ -52,7 +50,7 @@ export default async function ResourcePage({params}) {
   const t = await getTranslator(locale);
   const path = '/resources/' + r.slug;
   const url = localizedUrl(path, locale);
-  const published = r.published || UPDATED, modified = r.updated || UPDATED;
+  const published = r.published, modified = r.updated || r.published;
   const words = r.sections.reduce((n, [q, a, x]) => n + `${q} ${a} ${extraText(x)}`.trim().split(/\s+/).length, 0);
   const minutes = Math.max(2, Math.round(words / 200));
   const related = (r.related || []).map(findResource).filter(Boolean);
@@ -69,8 +67,8 @@ export default async function ResourcePage({params}) {
   return (
     <article className="section static-page">
       <StructuredData data={[
-        webPageSchema({locale, t, path, name: r.title, description: r.description, speakable: ['.article-summary', '.answer-first'], datePublished: published, dateModified: modified}),
-        articleSchema({locale, t, path, headline: r.title, description: r.description, section: r.category, datePublished: published, dateModified: modified, wordCount: words}),
+        webPageSchema({locale, t, path, name: r.title, description: r.description, ...(published ? {datePublished: published} : {}), ...(modified ? {dateModified: modified} : {})}),
+        articleSchema({locale, t, path, headline: r.title, description: r.description, section: r.category, ...(published ? {datePublished: published} : {}), ...(modified ? {dateModified: modified} : {}), wordCount: words}),
         faqPairs.length ? faqSchema(faqPairs, t, {name: r.title, description: r.description}) : null,
         ...howTos,
         breadcrumbs([['Home', '/'], ['Resources', '/resources'], [r.title, path]], locale, t),
@@ -84,7 +82,7 @@ export default async function ResourcePage({params}) {
         <span className="eyebrow">{t(r.category)}</span>
         <h1 className="title article-title">{t(r.title)}</h1>
         <p className="lead article-summary">{t(r.description)}</p>
-        <p className="content-date">{t('By Travel Genie')} · {t('Published')} <time dateTime={published}>{fmt(published, locale)}</time> · {t('Updated')} <time dateTime={modified}>{fmt(modified, locale)}</time> · {t('{minutes} min read', {minutes})}</p>
+        <p className="content-date">{t('By Travel Genie')}{published ? <> · {t('Published')} <time dateTime={published}>{fmt(published, locale)}</time></> : null}{modified ? <> · {t('Updated')} <time dateTime={modified}>{fmt(modified, locale)}</time></> : null} · {t('{minutes} min read', {minutes})}</p>
         <nav className="toc" aria-labelledby="toc-title">
           <h2 id="toc-title" className="h-sm">{t('On this page')}</h2>
           <ol>{r.sections.map(([q], i) => <li key={i}><a href={`#q${i + 1}`}>{t(q)}</a></li>)}</ol>

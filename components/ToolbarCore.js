@@ -19,7 +19,6 @@ const tools = [
   { title: 'Snip to Logo & Screenshot', short: 'Capture what matters on screen.', detail: 'Capture a logo, a selected area or a screenshot for your desk workflow.', icon: 'SNIP' },
   { title: 'Magnifier', short: 'Take a closer look at small text.', detail: 'Magnify details on screen when you need a closer look.', icon: 'ZOOM' },
   { title: 'Any Language Translator', short: 'Understand text across languages.', detail: 'Use translation support to understand text in another language.', icon: 'A↔' },
-  { title: 'Zoom Mute / Unmute Hotkey', short: 'Control received Zoom speaker sound.', detail: 'Mute or unmute Zoom with a hotkey while keeping your workflow moving.', icon: 'MIC' },
 ];
 
 const HALF = tools.length / 2;

@@ -20,6 +20,7 @@ import FinalCta from '@/components/FinalCta';
 import {faqs} from '@/data/faqs';
 import {answers} from '@/data/answers';
 import {products, categories} from '@/data/products';
+import {site} from '@/data/site';
 
 const META = pageMeta(
   'Travel Agency Software & GDS Desk Tools | Travel Genie',
@@ -44,8 +45,7 @@ export default async function Home({params}) {
           t,
           path: '/',
           name: META.title.absolute,
-          description: META.description,
-          speakable: ['#brand-summary', '.answer-first']
+          description: META.description
         }),
         appSchema(locale, t),
         faqSchema([...answers.map((a) => [a.q, a.a]), ...faqs], t),
@@ -99,8 +99,8 @@ export default async function Home({params}) {
 
           <L as="p">
             For account, subscription or privacy assistance, email{' '}
-            <a href="mailto:info@traveldeskgenie.com">
-              info@traveldeskgenie.com
+            <a href={`mailto:${site.supportEmail}`}>
+              {site.supportEmail}
             </a>.
           </L>
         </L>

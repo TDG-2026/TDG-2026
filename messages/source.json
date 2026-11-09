@@ -89,10 +89,10 @@
     "hash": "32c8d8980df3f3465113ea6d12507cb3ee7906efd12993844c4419c2ea68d6bb",
     "sources": [
       "app\\[locale]\\about\\page.js:21",
-      "app\\[locale]\\resources\\[slug]\\page.js:124",
+      "app\\[locale]\\resources\\[slug]\\page.js:122",
       "components\\EcosystemIntro.js:4",
       "components\\FinalCta.js:10",
-      "components\\Hero.js:11",
+      "components\\Hero.js:21",
       "data\\translations.en.js:12",
       "messages\\additional-source.json:1"
     ]
@@ -477,7 +477,7 @@
     "hash": "b5658fc8edda24f9c94eabac9e536e0a18e3055a8ca255f9d1b8f256ea02a6cc",
     "sources": [
       "app\\[locale]\\guide\\page.js:8",
-      "app\\[locale]\\resources\\[slug]\\page.js:89",
+      "app\\[locale]\\resources\\[slug]\\page.js:87",
       "messages\\additional-source.json:1"
     ]
   },
@@ -683,9 +683,9 @@
       "app\\[locale]\\products\\[slug]\\page.js:66",
       "app\\[locale]\\products\\[slug]\\page.js:70",
       "app\\[locale]\\resources\\page.js:9",
-      "app\\[locale]\\resources\\[slug]\\page.js:76",
-      "app\\[locale]\\resources\\[slug]\\page.js:80",
-      "data\\site.js:53",
+      "app\\[locale]\\resources\\[slug]\\page.js:74",
+      "app\\[locale]\\resources\\[slug]\\page.js:78",
+      "data\\site.js:45",
       "data\\translations.en.js:5",
       "data\\site.js:1",
       "messages\\additional-source.json:1"
@@ -828,7 +828,7 @@
     "text": "Travel Agency Software & GDS Desk Tools | Travel Genie",
     "hash": "9b48f97ac71672b6883f8c846de036e1c077d149a0969c284635fa7ae84595cc",
     "sources": [
-      "app\\[locale]\\page.js:25",
+      "app\\[locale]\\page.js:26",
       "messages\\additional-source.json:1"
     ]
   },
@@ -836,7 +836,7 @@
     "text": "Magic Toolbar prepares DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre, with F1–F12 shortcuts and desk tools for Windows. From $30/month.",
     "hash": "6e09e607011b9185e739570cee082346b29f734086c8b766f8111486f0603780",
     "sources": [
-      "app\\[locale]\\page.js:26",
+      "app\\[locale]\\page.js:27",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1142,7 +1142,7 @@
       "app\\[locale]\\products\\magic-toolbar\\page.js:14",
       "app\\[locale]\\products\\page.js:10",
       "app\\[locale]\\products\\[slug]\\page.js:66",
-      "data\\site.js:54",
+      "data\\site.js:46",
       "data\\site.js:1"
     ]
   },
@@ -1164,7 +1164,7 @@
     "sources": [
       "app\\[locale]\\products\\magic-toolbar\\page.js:14",
       "app\\[locale]\\products\\[slug]\\page.js:69",
-      "app\\[locale]\\resources\\[slug]\\page.js:79",
+      "app\\[locale]\\resources\\[slug]\\page.js:77",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1200,7 +1200,8 @@
       "app\\[locale]\\products\\magic-toolbar\\page.js:14",
       "components\\FinalCta.js:9",
       "components\\Header.js:39",
-      "components\\Hero.js:10",
+      "components\\Hero.js:15",
+      "components\\Hero.js:16",
       "data\\translations.en.js:12"
     ]
   },
@@ -1422,7 +1423,7 @@
     "hash": "ab81a9e909b65c33bba2541c600221d483c21ab76a0e7376251c1dd552852000",
     "sources": [
       "app\\[locale]\\products\\page.js:10",
-      "data\\site.js:3",
+      "data\\site.js:4",
       "data\\translations.en.js:9",
       "data\\site.js:1"
     ]
@@ -1575,7 +1576,7 @@
     "hash": "ee5ef73aae180f3e3b67330d9848af25609b8313c9c39703982044e70bc39081",
     "sources": [
       "app\\[locale]\\products\\[slug]\\page.js:145",
-      "data\\genie\\knowledge.js:192"
+      "data\\genie\\knowledge.js:185"
     ]
   },
   "page.m0168": {
@@ -1683,10 +1684,10 @@
     "hash": "e89b30aa1dc30a6ad8c34610689bede83b3ef645a24c3a84a0990826687fb735",
     "sources": [
       "app\\[locale]\\resources\\page.js:9",
-      "app\\[locale]\\resources\\[slug]\\page.js:76",
-      "app\\[locale]\\resources\\[slug]\\page.js:81",
+      "app\\[locale]\\resources\\[slug]\\page.js:74",
+      "app\\[locale]\\resources\\[slug]\\page.js:79",
       "components\\Footer.js:77",
-      "data\\site.js:56",
+      "data\\site.js:48",
       "data\\site.js:1",
       "messages\\additional-source.json:1"
     ]
@@ -1789,25 +1790,11 @@
       "app\\[locale]\\resources\\[slug]\\page.js:22"
     ]
   },
-  "page.m1862": {
-    "text": "Mute Zoom, Teams & Meet Sound With a Hotkey | Travel Genie",
-    "hash": "7f510d5174bb2ef68aed93599029ccc03ff4983a31454754b315d72040289e8c",
-    "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:23"
-    ]
-  },
-  "page.m1863": {
-    "text": "Mute Zoom During a WhatsApp Call: Hotkey | Travel Genie",
-    "hash": "0aa242bf22365cbb210cc9a1a9bb3dce854dec10e20d3e1fac309017ef69c829",
-    "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:24"
-    ]
-  },
   "additionalsourcejson.m1124": {
     "text": "Travel Desk Shortcuts & Notes | Travel Genie",
     "hash": "a965ed532febbecdbcb3ff66d532d51cef6c727781277d1d552be13ea5d78110",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:25",
+      "app\\[locale]\\resources\\[slug]\\page.js:23",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1815,7 +1802,7 @@
     "text": "Travel Agency Software Checklist | Travel Genie",
     "hash": "0b14f2a4d9c820b91b9abaca23d76e19784adc347ee1924c4e49c6a3494f9faf",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:26",
+      "app\\[locale]\\resources\\[slug]\\page.js:24",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1823,7 +1810,7 @@
     "text": "Photo tools",
     "hash": "4668afe39c9dd198f56ab2986398663cd58bdb39cc5d90d085bf568cbaccb6f4",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:31",
+      "app\\[locale]\\resources\\[slug]\\page.js:29",
       "data\\resources.js:164",
       "data\\resources.js:1"
     ]
@@ -1832,21 +1819,21 @@
     "text": "Fix visa photos in minutes",
     "hash": "ec8dca04e243e3161669d59955100c39d4615f8e99380afe7158d8697df847dc",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:31"
+      "app\\[locale]\\resources\\[slug]\\page.js:29"
     ]
   },
   "page.m1729": {
     "text": "Magic Toolbar checks visa photo size, improves quality and straightens tilted photos on Windows, so you can prepare each application photo in minutes.",
     "hash": "6ba42f38173f8a3c5576b90089957b32f9601e88982470678dfd3f6e4b13a7e6",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:31"
+      "app\\[locale]\\resources\\[slug]\\page.js:29"
     ]
   },
   "resources.m0921": {
     "text": "Desk productivity",
     "hash": "e15b719898bbe6141118eff322e6226cece2966e60c0ac8eeb9acbac719d91dc",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:32",
+      "app\\[locale]\\resources\\[slug]\\page.js:30",
       "data\\resources.js:182",
       "data\\resources.js:195",
       "data\\resources.js:208",
@@ -1859,21 +1846,21 @@
     "text": "Make your travel desk faster",
     "hash": "0deeb5111e87be3ff04c9593e3e50a05428b228c05e097153b2ce0633bab764f",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:32"
+      "app\\[locale]\\resources\\[slug]\\page.js:30"
     ]
   },
-  "page.m1771": {
-    "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and meeting mute hotkeys together on Windows, so your daily desk work moves faster.",
-    "hash": "1c2969ed5e09a5493fed8efe4dba9cb9979578e7fc85ec571181d8b0e4b0dd37",
+  "page.m2299": {
+    "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes and reminders together on Windows, so your daily desk work moves faster.",
+    "hash": "ef5ff293987523c042ca17b6f85dd7bf7707ad7c9cbf3f24fb7cebf464475540",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:32"
+      "app\\[locale]\\resources\\[slug]\\page.js:30"
     ]
   },
   "page.m1442": {
     "text": "Ready to prepare entries faster?",
     "hash": "02b78c0a85a00bd5cb45ba219a8b60ddbd13ce178e02384b60b32dfc88f13dd0",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:34",
+      "app\\[locale]\\resources\\[slug]\\page.js:32",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1881,35 +1868,35 @@
     "text": "Magic Toolbar prepares NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre on Windows. You check each entry, then copy it into your GDS.",
     "hash": "a5a2360b9c17bc51e7d7e10568ad86a7a91d4ccfd27d59c0ec8665c0c007acfe",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:34"
+      "app\\[locale]\\resources\\[slug]\\page.js:32"
     ]
   },
   "page.m1437": {
     "text": "T00:00:00Z",
     "hash": "585ccfc41be5de6d7561af3c6b0b8c37eaf283995055ff7f4c94029f8f559388",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:36"
+      "app\\[locale]\\resources\\[slug]\\page.js:34"
     ]
   },
   "page.m1733": {
     "text": "HowTo",
     "hash": "35bb1a3a7ab3abad87253e8e97cc9a451411db09eaf0939f59d0e1292feb3cdd",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:64"
+      "app\\[locale]\\resources\\[slug]\\page.js:62"
     ]
   },
   "page.m1734": {
     "text": "HowToStep",
     "hash": "84f7b77c4d05f4377bc80ad8e57931903d52eb1b925e4a33c3c881002c2b3b29",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:65"
+      "app\\[locale]\\resources\\[slug]\\page.js:63"
     ]
   },
   "page.m1438": {
     "text": "By Travel Genie",
     "hash": "21bdff43ef22bf0ed5ff5f715f2a7533e0513e1e67a3c18b2a0a9d706e130224",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:87",
+      "app\\[locale]\\resources\\[slug]\\page.js:85",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1917,7 +1904,7 @@
     "text": "Published",
     "hash": "2ef42ec21d9300dd21ae3c7ca3711806cce3003fa4edafd22ee744fe86599799",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:87",
+      "app\\[locale]\\resources\\[slug]\\page.js:85",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1925,7 +1912,7 @@
     "text": "Updated",
     "hash": "3a5ecca188c0579c00ee24cf3cab21bd02c15a06f7a70cc8e0a8ff2381dcbbfd",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:87",
+      "app\\[locale]\\resources\\[slug]\\page.js:85",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1933,7 +1920,7 @@
     "text": "{minutes} min read",
     "hash": "7166006e74bc2008d901c104fb4fc0343ddd1876554daf82f375820e0d4b7d67",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:87",
+      "app\\[locale]\\resources\\[slug]\\page.js:85",
       "messages\\additional-source.json:1"
     ]
   },
@@ -1941,7 +1928,7 @@
     "text": "Related guides",
     "hash": "1e5b36078e376cd4606154d914ba9eba7c5cb5aa0c5d35f1c86e4749c54d3279",
     "sources": [
-      "app\\[locale]\\resources\\[slug]\\page.js:119",
+      "app\\[locale]\\resources\\[slug]\\page.js:117",
       "messages\\additional-source.json:1"
     ]
   },
@@ -2651,7 +2638,7 @@
     "hash": "432fb7cbbe15e31a60640097ab56cde4e467808c489dab7540b3d963c82572e4",
     "sources": [
       "components\\EnquiryForm.js:11",
-      "data\\genie\\knowledge.js:167"
+      "data\\genie\\knowledge.js:160"
     ]
   },
   "EnquiryForm.m0319": {
@@ -2997,7 +2984,7 @@
     "hash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
     "sources": [
       "components\\Footer.js:74",
-      "data\\site.js:59",
+      "data\\site.js:51",
       "data\\translations.en.js:5",
       "data\\site.js:1"
     ]
@@ -3008,8 +2995,8 @@
     "sources": [
       "components\\Footer.js:75",
       "data\\genie\\i18n.js:4",
-      "data\\genie\\knowledge.js:156",
-      "data\\site.js:55",
+      "data\\genie\\knowledge.js:149",
+      "data\\site.js:47",
       "data\\translations.en.js:5",
       "data\\genie\\i18n.js:1",
       "data\\site.js:1"
@@ -3020,7 +3007,7 @@
     "hash": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3",
     "sources": [
       "components\\Footer.js:78",
-      "data\\site.js:58",
+      "data\\site.js:50",
       "data\\site.js:1"
     ]
   },
@@ -3036,7 +3023,7 @@
     "hash": "d131ef7f9b5e2b457faba856dcc5f90438b46b97df6a849234432e76c63f6cbd",
     "sources": [
       "components\\Footer.js:83",
-      "data\\site.js:57",
+      "data\\site.js:49",
       "data\\site.js:1"
     ]
   },
@@ -3119,7 +3106,7 @@
     "sources": [
       "components\\GenieChat.js:115",
       "components\\Reveal.js:14",
-      "components\\ToolbarCore.js:43"
+      "components\\ToolbarCore.js:42"
     ]
   },
   "GenieChat.m1754": {
@@ -3367,60 +3354,53 @@
       "components\\WorkflowDemo.js:29"
     ]
   },
-  "Hero.m1069": {
-    "text": "· v",
-    "hash": "0bb917d86bec6d623ddbe8a217fcd58e132c2d0ffdc08ae20e9fc6e0b940b227",
+  "Hero.m2300": {
+    "text": "Magic Toolbar for Windows",
+    "hash": "25a97ad01e5206761002c66b4ae8bfdf2b7fcdc6828135e88b1e8bfd8822984e",
     "sources": [
-      "components\\Hero.js:10"
-    ]
-  },
-  "Hero.m1447": {
-    "text": "Travel agency software for Windows",
-    "hash": "f351f57ef25601c81137c01c6f151f7acef57952e547226de8390f76035dc1fb",
-    "sources": [
-      "components\\Hero.js:16"
+      "components\\Hero.js:29"
     ]
   },
   "Hero.m1448": {
     "text": "Travel agency software for",
     "hash": "16a9543d978387d7747849903ad4c63dc342d142a3efef6fa14b30b272e6309e",
     "sources": [
-      "components\\Hero.js:17"
+      "components\\Hero.js:31"
     ]
   },
   "Hero.m1449": {
     "text": "faster GDS desk work.",
     "hash": "60f611538a3f4ef99a815b43e638f951aa2d7b408151b89ad16d8c9e31c15b75",
     "sources": [
-      "components\\Hero.js:17"
+      "components\\Hero.js:33"
     ]
   },
-  "Hero.m1479": {
-    "text": "Magic Toolbar is Windows software for travel agents. Paste a passport and it makes NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre. It also adds shortcuts, reminders and a translator. You check each entry, then copy it into your GDS.",
-    "hash": "90193a821ced9dad11d2363b44fbfcf2abf5501e35aa848b9f8aaaa84aa1e656",
+  "Hero.m2301": {
+    "text": "Magic Toolbar turns passport details into NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre. Review each entry before copying it into your GDS.",
+    "hash": "c12e6d4aac48d9fc3e2bf26db06d7d7561cffc31cad481bec51cb8199bd9ce5a",
     "sources": [
-      "components\\Hero.js:18"
+      "components\\Hero.js:36"
     ]
   },
-  "Hero.m0401": {
-    "text": "Magic Toolbar.",
-    "hash": "fab4ccb8046969ab62e52df76ebf7174f2027dfcc61866b19ce8ffa7c6c7af6f",
+  "Hero.m2302": {
+    "text": "Time is money.",
+    "hash": "610a881a6fd2c1e6759e8cea94a387bbfce46ea6fea157892940e9dd3067c867",
     "sources": [
-      "components\\Hero.js:19"
+      "components\\Hero.js:42"
     ]
   },
-  "Hero.m0402": {
-    "text": "Time is money. Travel Genie saves both.",
-    "hash": "b9f981473cd0e98d50e0a1aad4076f875b65e9966de545709dd1ed758d42c228",
+  "Hero.m2303": {
+    "text": "Travel Genie saves both.",
+    "hash": "41afedb5cd88aaeef630281457c4eb63e3af131eacbadb700d13fcd70aa2ba7c",
     "sources": [
-      "components\\Hero.js:19"
+      "components\\Hero.js:44"
     ]
   },
   "Hero.m0405": {
     "text": "Take the tour",
     "hash": "a83c4366d2dfe50aa8ba4853438972b87a771b0e8a590e095ced47c61e51547d",
     "sources": [
-      "components\\Hero.js:22",
+      "components\\Hero.js:57",
       "components\\ProductTour.js:31",
       "data\\translations.en.js:12"
     ]
@@ -3429,35 +3409,35 @@
     "text": "You review every entry",
     "hash": "4ba803444845dc6f663a6b86ecbb5c60e3bbf60784c40b973ee7ef8d85fe1b54",
     "sources": [
-      "components\\Hero.js:25"
+      "components\\Hero.js:63"
     ]
   },
   "Hero.m0407": {
     "text": "Passport OCR runs on your PC",
     "hash": "a13dd07bb231b3648349a28ab5a202aafbfccdd41a5e8891e05c5b6a4d74b102",
     "sources": [
-      "components\\Hero.js:26"
+      "components\\Hero.js:64"
     ]
   },
-  "Hero.m0408": {
-    "text": "Amadeus, Travelport & Sabre formats",
-    "hash": "8d85f8eadc576ed5e950c87738a5b6c7a4babc59caabd49dd2b17206d0b55dff",
+  "Hero.m2304": {
+    "text": "Shortcuts, reminders and translation",
+    "hash": "5faed59d7f576d8949ae95b57807175fbeee3e1e761e0012d774eb0845d2da47",
     "sources": [
-      "components\\Hero.js:27"
+      "components\\Hero.js:65"
     ]
   },
-  "Hero.m0409": {
-    "text": "A real Travel Genie screen: one passport, three GDS formats.",
-    "hash": "1bb92097c45188687dbfcba71a7035382d16f6c879e2a351d982636abf7e31c3",
+  "Hero.m2305": {
+    "text": "Magic Toolbar in action. One passport, three GDS formats.",
+    "hash": "395f80965cff364c7c8cfa8bb85a4b3735fc198ed1f44db33be471ceb1c274c5",
     "sources": [
-      "components\\Hero.js:47"
+      "components\\Hero.js:113"
     ]
   },
   "Hero.m0410": {
     "text": "View full size ↗",
     "hash": "2c3d837b06dfc39c3f93076bc20ea8897ce7297d6678bae3babe86b54ad66892",
     "sources": [
-      "components\\Hero.js:48"
+      "components\\Hero.js:120"
     ]
   },
   "JsonLd.m0411": {
@@ -4098,7 +4078,7 @@
     "hash": "b3a4c2cd1daea7f8ee7b0924c30154618e8541289bfee8c4867b221e48ac8ecb",
     "sources": [
       "components\\ToolbarCore.js:20",
-      "data\\genie\\knowledge.js:99"
+      "data\\genie\\knowledge.js:92"
     ]
   },
   "ToolbarCore.m0486": {
@@ -4136,67 +4116,46 @@
       "components\\ToolbarCore.js:21"
     ]
   },
-  "ToolbarCore.m0491": {
-    "text": "Zoom Mute / Unmute Hotkey",
-    "hash": "a19c8827e64e615a0b0219f4a471e7ee40d7aa2476e38f826675cd03dab464ed",
-    "sources": [
-      "components\\ToolbarCore.js:22"
-    ]
-  },
-  "ToolbarCore.m0492": {
-    "text": "Control received Zoom speaker sound.",
-    "hash": "429ea3ed6437c900f5dd9ed41fa3bfc94b77ce8ca6fe8e7a73298b93b72e813a",
-    "sources": [
-      "components\\ToolbarCore.js:22"
-    ]
-  },
-  "ToolbarCore.m0493": {
-    "text": "Mute or unmute Zoom with a hotkey while keeping your workflow moving.",
-    "hash": "c41672ac766ac26e072f9bd38cae1d9682072f88410a4f57baf6ca2948ffd13e",
-    "sources": [
-      "components\\ToolbarCore.js:22"
-    ]
-  },
   "ToolbarCore.m0494": {
     "text": "Inside Magic Toolbar",
     "hash": "356a787ab09cc3aade5736d43f9b96aab0a4e41d91784a078dde198c74955eac",
     "sources": [
-      "components\\ToolbarCore.js:128"
+      "components\\ToolbarCore.js:127"
     ]
   },
   "ToolbarCore.m0495": {
     "text": "One toolbar.",
     "hash": "1299ea0e33072c57d0b03c088f698d8ef1f68f2f8aa4bfdbb01168af004825a7",
     "sources": [
-      "components\\ToolbarCore.js:129"
+      "components\\ToolbarCore.js:128"
     ]
   },
   "ToolbarCore.m0496": {
     "text": "Twelve everyday tools.",
     "hash": "c01771097aba55381bb32880b519153e34232500043862617cfb18b00c4b4a5e",
     "sources": [
-      "components\\ToolbarCore.js:130"
+      "components\\ToolbarCore.js:129"
     ]
   },
   "ToolbarCore.m1764": {
     "text": "Everything here is included with Magic Toolbar. These aren't separate purchases, just daily reservation jobs all the day, gathered in one place.",
     "hash": "c0ee1135843ee0f4f787f85db4a2265be91b09cd55e88521ac2bb8c0dd4c5e67",
     "sources": [
-      "components\\ToolbarCore.js:132"
+      "components\\ToolbarCore.js:131"
     ]
   },
   "ToolbarCore.m1765": {
     "text": "Time is Money-Genie Saves Both!",
     "hash": "5d7d294aab627783b923fbefe320b1e3c8f797a426829baf23e11f985aaa6ab3",
     "sources": [
-      "components\\ToolbarCore.js:136"
+      "components\\ToolbarCore.js:135"
     ]
   },
   "ToolbarCore.m1088": {
     "text": "EXPLORE YOUR TOOLBAR",
     "hash": "c7003482d11486c0cdfd0c61795eeae16f2f8bd08c9eec47a6d660f625ff5539",
     "sources": [
-      "components\\ToolbarCore.js:158",
+      "components\\ToolbarCore.js:157",
       "messages\\additional-source.json:1"
     ]
   },
@@ -4204,21 +4163,21 @@
     "text": "12 everyday tools. One connected workspace.",
     "hash": "907482b9596554afce87e879bd99c91ad61225467e9ef5a672625065ed3d4cb4",
     "sources": [
-      "components\\ToolbarCore.js:170"
+      "components\\ToolbarCore.js:169"
     ]
   },
   "ToolbarCore.m0499": {
     "text": "Play highlights",
     "hash": "5d8b3cb990cb4c1e21f0fa663ff131f2e8e08a990d9a02803b2a66dda7c84785",
     "sources": [
-      "components\\ToolbarCore.js:172"
+      "components\\ToolbarCore.js:171"
     ]
   },
   "ToolbarCore.m0500": {
     "text": "Pause highlights",
     "hash": "ec965d18e7859e4741ccd1b18b04c51c7db2e027fe4259d649c19aae382f0abb",
     "sources": [
-      "components\\ToolbarCore.js:172"
+      "components\\ToolbarCore.js:171"
     ]
   },
   "TravelGenieShowcase.m0501": {
@@ -4871,7 +4830,7 @@
     "hash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd",
     "sources": [
       "data\\genie\\i18n.js:4",
-      "data\\genie\\knowledge.js:201",
+      "data\\genie\\knowledge.js:194",
       "data\\genie\\i18n.js:1"
     ]
   },
@@ -4882,7 +4841,7 @@
       "data\\genie\\i18n.js:4",
       "data\\genie\\i18n.js:12",
       "data\\genie\\i18n.js:14",
-      "data\\genie\\knowledge.js:167",
+      "data\\genie\\knowledge.js:160",
       "data\\genie\\i18n.js:1"
     ]
   },
@@ -4891,7 +4850,7 @@
     "hash": "f149d8534427d9a6405a0e427a09d38077c28a96509618769e56630212a3a2dc",
     "sources": [
       "data\\genie\\i18n.js:4",
-      "data\\genie\\knowledge.js:179",
+      "data\\genie\\knowledge.js:172",
       "data\\genie\\i18n.js:1"
     ]
   },
@@ -4900,7 +4859,7 @@
     "hash": "a9cea7b91cfbd5cab4a595f46f928dd30d89f393212e1fc05f6d65a54d69b254",
     "sources": [
       "data\\genie\\i18n.js:4",
-      "data\\genie\\knowledge.js:216",
+      "data\\genie\\knowledge.js:208",
       "data\\genie\\i18n.js:1"
     ]
   },
@@ -6715,7 +6674,7 @@
     "hash": "a73fcf339640929207281fb8e038884806e2eb0840f2245694dbba1d5cc89e65",
     "sources": [
       "data\\genie\\knowledge.js:6",
-      "data\\genie\\knowledge.js:187"
+      "data\\genie\\knowledge.js:180"
     ]
   },
   "knowledge.m0606": {
@@ -6723,7 +6682,7 @@
     "hash": "6068f86ff5e6d3a3e100e95fd0ab03a5fb9ebfca9386b2c0ee131361a62526c2",
     "sources": [
       "data\\genie\\knowledge.js:7",
-      "data\\genie\\knowledge.js:187"
+      "data\\genie\\knowledge.js:180"
     ]
   },
   "knowledge.m0607": {
@@ -6745,7 +6704,7 @@
     "hash": "64c83df872d808a1820aab72aa20bf2cf33b96fff4933e691e30f7646dfcc1be",
     "sources": [
       "data\\genie\\knowledge.js:8",
-      "data\\genie\\knowledge.js:187"
+      "data\\genie\\knowledge.js:180"
     ]
   },
   "knowledge.m0610": {
@@ -6944,9 +6903,9 @@
       "data\\genie\\knowledge.js:77"
     ]
   },
-  "knowledge.m1742": {
-    "text": "**F1–F12 shortcuts**\nContainer Manager lets you assign your standard text to F1–F12 and Shift+F-keys, so remarks, policies and greetings are one key away. Organise slots by category, mark favourites, see which slots are free, and export/import a backup.\nThere's also a Zoom meeting sound hotkey: Ctrl + Shift + Z.",
-    "hash": "d85e1c7b39451a4f321f2365ec008f6ab632c8099521f3b257613906a645f5e0",
+  "knowledge.m2306": {
+    "text": "**F1–F12 shortcuts**\nContainer Manager lets you assign your standard text to F1–F12 and Shift+F-keys, so remarks, policies and greetings are one key away. Organise slots by category, mark favourites, see which slots are free, and export/import a backup.\nReview each saved message before you paste it into a customer or booking workflow.",
+    "hash": "c31663889363a62e3218136541f86537b0a5cf130614e24dd2fe475738615c7f",
     "sources": [
       "data\\genie\\knowledge.js:78"
     ]
@@ -6993,270 +6952,228 @@
       "data\\genie\\knowledge.js:85"
     ]
   },
-  "knowledge.m0640": {
-    "text": "Zoom mute hotkey",
-    "hash": "c79911df3b6c233b3b22e671a93e75e3d4be10f4e13ec9c615ec5a869e18464c",
-    "sources": [
-      "data\\genie\\knowledge.js:92"
-    ]
-  },
-  "knowledge.m0641": {
-    "text": "zoom mute",
-    "hash": "32436903a26fcde9a76af7b96b2012ec40936bec7be3df94dbd87ab11929586b",
-    "sources": [
-      "data\\genie\\knowledge.js:93"
-    ]
-  },
-  "knowledge.m1743": {
-    "text": "zoom sound",
-    "hash": "c4756423442fbd86bfa8056961b4e7edb15d367d8e7d73c00c8566d98af5e86a",
-    "sources": [
-      "data\\genie\\knowledge.js:93"
-    ]
-  },
-  "knowledge.m1744": {
-    "text": "call during zoom",
-    "hash": "3f7ad311f520305005d1b407e62add9a3f7b4d0f9f5c7fbb1dc1694443bdc3f3",
-    "sources": [
-      "data\\genie\\knowledge.js:93"
-    ]
-  },
-  "knowledge.m1745": {
-    "text": "whatsapp call",
-    "hash": "0ff7c5e9608e7452229911f2b25a3f68ae363cdb037dd3f30e0a5dd9218f33cf",
-    "sources": [
-      "data\\genie\\knowledge.js:93"
-    ]
-  },
-  "knowledge.m1746": {
-    "text": "**Zoom meeting sound hotkey**\nCtrl + Shift + Z silences the Zoom meeting sound you hear, for example when a passenger calls you on WhatsApp, and a second press turns it back on.\nIt doesn't mute your microphone or stop your video. Use Zoom's own shortcuts for those: Alt+A for the microphone and Alt+V for video.",
-    "hash": "0caf59aab890158b5d3f137f501295c99bc5f5d08f3101f542e6d2e8942cf7a9",
-    "sources": [
-      "data\\genie\\knowledge.js:94"
-    ]
-  },
   "knowledge.m0642": {
     "text": "zoom in",
     "hash": "c852fe287ffbc9c772581481873559a781d9de0d2c4ff5bdf457000a77720f18",
     "sources": [
-      "data\\genie\\knowledge.js:100"
+      "data\\genie\\knowledge.js:93"
     ]
   },
   "knowledge.m0643": {
     "text": "small text",
     "hash": "8e71a59f33cf8eab6aa0c070f73beecd7b9bea960b0ff3dda7c547fb4744e55c",
     "sources": [
-      "data\\genie\\knowledge.js:100"
+      "data\\genie\\knowledge.js:93"
     ]
   },
   "knowledge.m0644": {
     "text": "büyüteç",
     "hash": "e263fdcfbdb2a29a6d07378ffa4fc1aa72e933d40c56f359823d7060614a2609",
     "sources": [
-      "data\\genie\\knowledge.js:100"
+      "data\\genie\\knowledge.js:93"
     ]
   },
   "knowledge.m0645": {
     "text": "kaca pembesar",
     "hash": "a15f175804d6125653b16772f25c630b3e16c0923cd49313e83a1c4da1d5a981",
     "sources": [
-      "data\\genie\\knowledge.js:100"
+      "data\\genie\\knowledge.js:93"
     ]
   },
   "knowledge.m0646": {
     "text": "kính lúp",
     "hash": "7293e7089ce0b52c6dbdac9708b86e635ca226e80b67a49bdf0faad89d3bd941",
     "sources": [
-      "data\\genie\\knowledge.js:100"
+      "data\\genie\\knowledge.js:93"
     ]
   },
   "knowledge.m0647": {
     "text": "szkło powiększające",
     "hash": "9ca895605a9b425a312dd65d876fde5acf192e48931951a99bb48b9a969d5abf",
     "sources": [
-      "data\\genie\\knowledge.js:100"
+      "data\\genie\\knowledge.js:93"
     ]
   },
   "knowledge.m0648": {
     "text": "**Magnifier**\nSelect any area on screen to read small text clearly. The same magnifier feeds Travel Genie Translate: select a customer's message and translate it in one step.",
     "hash": "7ce8c7aa9eede8155f7351e2e6f177a185539c9d25bbcd807e31d44ffee3f0d4",
     "sources": [
-      "data\\genie\\knowledge.js:101"
+      "data\\genie\\knowledge.js:94"
     ]
   },
   "knowledge.m0649": {
     "text": "Translate",
     "hash": "8fe147696fbf47f30d37aeb7ba669ce027c1a598e0d260cbbf0532c64f88a57e",
     "sources": [
-      "data\\genie\\knowledge.js:105"
+      "data\\genie\\knowledge.js:98"
     ]
   },
   "knowledge.m0650": {
     "text": "übersetzen",
     "hash": "1a64c5a46aa87e8ad0a4e6729825521c0a22761d067c305606b04c6939c58891",
     "sources": [
-      "data\\genie\\knowledge.js:106"
+      "data\\genie\\knowledge.js:99"
     ]
   },
   "knowledge.m0651": {
     "text": "übersetzung",
     "hash": "b36b7a7441499c0b319d0180cec8668946deffc2eb9588922a46497910c8aa10",
     "sources": [
-      "data\\genie\\knowledge.js:106"
+      "data\\genie\\knowledge.js:99"
     ]
   },
   "knowledge.m0652": {
     "text": "traducción",
     "hash": "cfedc14a33938988d228d60d7452511866cdef31322e21baf50c4921c17b0ef6",
     "sources": [
-      "data\\genie\\knowledge.js:106"
+      "data\\genie\\knowledge.js:99"
     ]
   },
   "knowledge.m0653": {
     "text": "tradução",
     "hash": "951d78c2b653f461512e793cf56b3fa9200dbcdb27072c11e9cdd1011f1fa138",
     "sources": [
-      "data\\genie\\knowledge.js:106"
+      "data\\genie\\knowledge.js:99"
     ]
   },
   "knowledge.m0654": {
     "text": "çeviri",
     "hash": "5727ffc1bc5acb8e063a13b91539838acec78eff14326c96ebcd438fb0702b84",
     "sources": [
-      "data\\genie\\knowledge.js:106"
+      "data\\genie\\knowledge.js:99"
     ]
   },
   "knowledge.m0655": {
     "text": "dịch",
     "hash": "9caaaab2cfbfe9e4d9add85551bbb4b36ec7620dea526b5e41808a5bd633c6d6",
     "sources": [
-      "data\\genie\\knowledge.js:106"
+      "data\\genie\\knowledge.js:99"
     ]
   },
   "knowledge.m0656": {
     "text": "tłumacz",
     "hash": "71dbc79baabdead0cb4242b344554b027b45a2b6a5fa2a3b3d0daa0c36c0323f",
     "sources": [
-      "data\\genie\\knowledge.js:106"
+      "data\\genie\\knowledge.js:99"
     ]
   },
   "knowledge.m0657": {
     "text": "**Travel Genie Translate**\n• Select text anywhere on screen with the magnifier.\n• The language is detected and translated into English.\n• Fix anything misread and translate again.\n• Type your reply in English and translate it into the customer's language.\n\nNote: translation uses an online service (Google, as shown in the app), so the selected text leaves your PC.",
     "hash": "1cb21dbdd401eea44b34d8a7e0fdf7762da37264c36c967bf39e26cdbbe55458",
     "sources": [
-      "data\\genie\\knowledge.js:107"
+      "data\\genie\\knowledge.js:100"
     ]
   },
   "knowledge.m0658": {
     "text": "GDS decode",
     "hash": "b8fcd10daecc905d8da6b1d66c6d81e260af39d4c4c78d6ec48f93556fac58a8",
     "sources": [
-      "data\\genie\\knowledge.js:116"
+      "data\\genie\\knowledge.js:109"
     ]
   },
   "knowledge.m0659": {
     "text": "city code",
     "hash": "817e7467c3767116784c6f35d27bd5331409df5341a472bee5bf4956f79e6ab1",
     "sources": [
-      "data\\genie\\knowledge.js:117"
+      "data\\genie\\knowledge.js:110"
     ]
   },
   "knowledge.m0660": {
     "text": "airline code",
     "hash": "9b6183a23cd33e09e0612e20fb9cc8626a4c6377806faec309b6e5a5a5b2ea0a",
     "sources": [
-      "data\\genie\\knowledge.js:117"
+      "data\\genie\\knowledge.js:110"
     ]
   },
   "knowledge.m0661": {
     "text": "airport code",
     "hash": "41cf5c4d7f2b442d69b4dc7acec0cd99155d7bca5da5f4371142e1e35044c710",
     "sources": [
-      "data\\genie\\knowledge.js:117"
+      "data\\genie\\knowledge.js:110"
     ]
   },
   "knowledge.m0662": {
     "text": "iata code",
     "hash": "f13a9155159981b9ea648fee4a2a0fe51d87820699a6afe7ced6c263ddf0bcfd",
     "sources": [
-      "data\\genie\\knowledge.js:117"
+      "data\\genie\\knowledge.js:110"
     ]
   },
   "knowledge.m0663": {
     "text": "décoder",
     "hash": "f302e2f740c9612ff4c97ed04bf754149b86c4480fbd2549b84531cd4bc0a61a",
     "sources": [
-      "data\\genie\\knowledge.js:117"
+      "data\\genie\\knowledge.js:110"
     ]
   },
   "knowledge.m0664": {
     "text": "giải mã",
     "hash": "18a23eed7e15b827fa16df6ec158e3720763ba3feef4893e5972536675580d09",
     "sources": [
-      "data\\genie\\knowledge.js:117"
+      "data\\genie\\knowledge.js:110"
     ]
   },
   "knowledge.m0665": {
     "text": "**GDS Decode**\nCity, airline, country, car company, hotel company and aircraft-type decodes. Each task is shown for Travelport, Amadeus and Sabre in one row, with one-click copy and three text sizes.",
     "hash": "d51c8badc34b95c3b83815c6d5dba647c3726060b10da5b2597e075497769569",
     "sources": [
-      "data\\genie\\knowledge.js:118"
+      "data\\genie\\knowledge.js:111"
     ]
   },
   "knowledge.m0666": {
     "text": "Phone directory",
     "hash": "e325cbd08dd4e6187393b2cf52cf8a60e3f7f1a5d63549d970d82dc049efdb07",
     "sources": [
-      "data\\genie\\knowledge.js:122"
+      "data\\genie\\knowledge.js:115"
     ]
   },
   "knowledge.m0667": {
     "text": "phone directory",
     "hash": "57f6c0d61e0da2bf469636de8feeb6ea3ddb3d59ba44d635ac71d1599a91d605",
     "sources": [
-      "data\\genie\\knowledge.js:123"
+      "data\\genie\\knowledge.js:116"
     ]
   },
   "knowledge.m0668": {
     "text": "phone book",
     "hash": "9949bcaf8ee92f489df5bf3bcb31b2f0fff4221777a22cd1b15044ad044b5e92",
     "sources": [
-      "data\\genie\\knowledge.js:123"
+      "data\\genie\\knowledge.js:116"
     ]
   },
   "knowledge.m0669": {
     "text": "address book",
     "hash": "32f46eb9435f5b8dc060fab1a694fd6485b1da715f0e05d8261262224a4ae2c8",
     "sources": [
-      "data\\genie\\knowledge.js:123"
+      "data\\genie\\knowledge.js:116"
     ]
   },
   "knowledge.m0670": {
     "text": "contacts list",
     "hash": "04d5e302f5ed3634d036cd8187cd4dede5ddea0f97dc567faeb1d00330b92106",
     "sources": [
-      "data\\genie\\knowledge.js:123"
+      "data\\genie\\knowledge.js:116"
     ]
   },
   "knowledge.m0671": {
     "text": "**Instant Phone Directory**\nClients, agents and family members in one searchable list. Search by name, code, phone or note; copy a number, email or the whole record; group families; and import/export the list.",
     "hash": "407a21846bbc2d0dabc627ac474dbb61e33ad66727c47ca5cd99880a8806d14e",
     "sources": [
-      "data\\genie\\knowledge.js:124"
+      "data\\genie\\knowledge.js:117"
     ]
   },
   "knowledge.m0672": {
     "text": "Reminders & notes",
     "hash": "83f4ac8d3c94d6b17cd0a0afc8693736004abb3dcf2fba030b010392bd072a19",
     "sources": [
-      "data\\genie\\knowledge.js:128"
+      "data\\genie\\knowledge.js:121"
     ]
   },
   "knowledge.m0673": {
     "text": "follow up",
     "hash": "9b90887d1e2510b2cd18a645d0199bb0223bdd82d106bbe1f61373d444fb00b2",
     "sources": [
-      "data\\genie\\knowledge.js:129",
+      "data\\genie\\knowledge.js:122",
       "data\\products.js:61"
     ]
   },
@@ -7264,630 +7181,630 @@
     "text": "hatırlatıcı",
     "hash": "e4b9a5014df9416292e61284ed94ec6adfd85773ebadc04f0c93430c5af111c4",
     "sources": [
-      "data\\genie\\knowledge.js:129"
+      "data\\genie\\knowledge.js:122"
     ]
   },
   "knowledge.m0675": {
     "text": "nhắc",
     "hash": "a08802906772593a9dcbb38a80720aa1c8740b0bbb58c98fe25f2a47fe360707",
     "sources": [
-      "data\\genie\\knowledge.js:129"
+      "data\\genie\\knowledge.js:122"
     ]
   },
   "knowledge.m0676": {
     "text": "**Reminders & sticky notes**\n• Today, Upcoming, Overdue, Recurring, Completed and Missed views.\n• Each reminder has a category and priority; mark done, snooze, edit or copy from the same row.\n• An alert appears when a reminder is due.\n• Sticky notes stay on top, can carry a reminder and save automatically.",
     "hash": "fbb63b6e651980753d6a40fab06e0229222d10a4a643fe90bf46ac8aa72c9597",
     "sources": [
-      "data\\genie\\knowledge.js:130"
+      "data\\genie\\knowledge.js:123"
     ]
   },
   "knowledge.m0677": {
     "text": "Passenger families",
     "hash": "4002c3fb10decbc7c4832297e87278a1496c9436800aabc05000ce41d12adcd2",
     "sources": [
-      "data\\genie\\knowledge.js:137"
+      "data\\genie\\knowledge.js:130"
     ]
   },
   "knowledge.m0678": {
     "text": "repeat traveller",
     "hash": "be752320a30b283be2651c49b198bf65a6727e6f35e4689e680d62409401910b",
     "sources": [
-      "data\\genie\\knowledge.js:138"
+      "data\\genie\\knowledge.js:131"
     ]
   },
   "knowledge.m0679": {
     "text": "repeat traveler",
     "hash": "7fe03303062c53d56e62369caf6d107f324b56ca195104711f17fca2da9ec73b",
     "sources": [
-      "data\\genie\\knowledge.js:138"
+      "data\\genie\\knowledge.js:131"
     ]
   },
   "knowledge.m0680": {
     "text": "passenger profile",
     "hash": "fadca3931b42e27216902d07ede7f583e37608a085b3daa053d36afd416c0a28",
     "sources": [
-      "data\\genie\\knowledge.js:138"
+      "data\\genie\\knowledge.js:131"
     ]
   },
   "knowledge.m0681": {
     "text": "saved passengers",
     "hash": "e74b3d446349c97e3274108d20319b9bb8f68584e5b577fbc1a7a86203d590e0",
     "sources": [
-      "data\\genie\\knowledge.js:138"
+      "data\\genie\\knowledge.js:131"
     ]
   },
   "knowledge.m0682": {
     "text": "família",
     "hash": "cbc873e598ab0df40833a7c6cdb28e40aa2dcc0563e81c9a47d0ecfe75e3df8b",
     "sources": [
-      "data\\genie\\knowledge.js:138"
+      "data\\genie\\knowledge.js:131"
     ]
   },
   "knowledge.m0683": {
     "text": "gia đình",
     "hash": "b224805e1139bf4e63367120e80b6e64e19c43db4981bf1380e7539fc145a1c1",
     "sources": [
-      "data\\genie\\knowledge.js:138"
+      "data\\genie\\knowledge.js:131"
     ]
   },
   "knowledge.m0684": {
     "text": "**Passenger families**\nKeep repeat travellers and their families together. Saved records are protected with Windows DPAPI for your Windows account; use the built-in Export/Import to move them to another account or PC.",
     "hash": "00df89c9ff00de4fe95db2ca692ea8e8bd6574d1473f1d20da8b66268817d7e5",
     "sources": [
-      "data\\genie\\knowledge.js:139"
+      "data\\genie\\knowledge.js:132"
     ]
   },
   "knowledge.m0685": {
     "text": "More products",
     "hash": "a2cc0a59147890cd75d9189fa3f70f97c18e3f62d5c42ec905a3a9c6b641fbf6",
     "sources": [
-      "data\\genie\\knowledge.js:143"
+      "data\\genie\\knowledge.js:136"
     ]
   },
   "knowledge.m0686": {
     "text": "More Travel Genie products",
     "hash": "8a389554b2c3faa6c41159f502adfe408b0854b2c17620a0a194dc233d67b256",
     "sources": [
-      "data\\genie\\knowledge.js:143"
+      "data\\genie\\knowledge.js:136"
     ]
   },
   "knowledge.m0687": {
     "text": "whatsapp extractor",
     "hash": "443cfddb03838d3af9003264db8b568f8164929869045b2c89c2082da6bb6631",
     "sources": [
-      "data\\genie\\knowledge.js:144"
+      "data\\genie\\knowledge.js:137"
     ]
   },
   "knowledge.m0688": {
     "text": "observation desk",
     "hash": "22d339b9234bb2c28575bd7f2ede9fc72b45d0d7461ea825e0242851b2341e80",
     "sources": [
-      "data\\genie\\knowledge.js:144"
+      "data\\genie\\knowledge.js:137"
     ]
   },
   "knowledge.m0689": {
     "text": "sales report",
     "hash": "54d4cf70ee1e30e20be75293bb0c11dd7551c1afd6b3fb17b163ffa4d26fbcda",
     "sources": [
-      "data\\genie\\knowledge.js:144"
+      "data\\genie\\knowledge.js:137"
     ]
   },
   "knowledge.m0690": {
     "text": "other products",
     "hash": "865a314edb6ed4f494be531b8f6516f4723b850c2d0214e5a3f96c2c73427479",
     "sources": [
-      "data\\genie\\knowledge.js:144"
+      "data\\genie\\knowledge.js:137"
     ]
   },
   "knowledge.m0691": {
     "text": "more products",
     "hash": "040909c70f0bae31a706a7179eb69b26b171016a3c0bc44cd269f09bd2a515fc",
     "sources": [
-      "data\\genie\\knowledge.js:144"
+      "data\\genie\\knowledge.js:137"
     ]
   },
   "knowledge.m0692": {
     "text": "**More Travel Genie products**\nSeparate applications, not included with Magic Toolbar: NADRA Visa Cross-Check, WhatsApp Contact Number Extractor, WhatsApp Customer Observation Desk, CRM for All GDS, Amadeus Proposal Generator and Emirates Portal Sales Report Automation.\nFull details are still being prepared. Ask us on WhatsApp for early information.",
     "hash": "984200d8d28b50c534dcae3318a8b4fa33345ea73314993a169fa6c7647b21f1",
     "sources": [
-      "data\\genie\\knowledge.js:145"
+      "data\\genie\\knowledge.js:138"
     ]
   },
   "knowledge.m0693": {
     "text": "Flight booking?",
     "hash": "53b595bb66c2b34759371a5552addf44d8bbd6a15783805cad9ddf73e4ebb44a",
     "sources": [
-      "data\\genie\\knowledge.js:150"
+      "data\\genie\\knowledge.js:143"
     ]
   },
   "knowledge.m0694": {
     "text": "book a flight",
     "hash": "b65500c78b5a01fc3c87c11e6f31b28e03f69b5b46aa20a9543c568a4bc2a696",
     "sources": [
-      "data\\genie\\knowledge.js:151"
+      "data\\genie\\knowledge.js:144"
     ]
   },
   "knowledge.m0695": {
     "text": "book flight",
     "hash": "301c64f638dc194b1b2e0fd01d0204a897f4785e6cc9d142f8152bf80f28a3a8",
     "sources": [
-      "data\\genie\\knowledge.js:151"
+      "data\\genie\\knowledge.js:144"
     ]
   },
   "knowledge.m0696": {
     "text": "flight booking",
     "hash": "8dc7afe71e6cd8b93d7fd79d5cf234bbb8383ab51fa613d9ccf44de8dcd0edff",
     "sources": [
-      "data\\genie\\knowledge.js:151"
+      "data\\genie\\knowledge.js:144"
     ]
   },
   "knowledge.m0697": {
     "text": "cheap flight",
     "hash": "e967d0f62ff6351a5707580ff26882f03bc041e1241ec225fa92a5b069fc1429",
     "sources": [
-      "data\\genie\\knowledge.js:151"
+      "data\\genie\\knowledge.js:144"
     ]
   },
   "knowledge.m0698": {
     "text": "uçuş",
     "hash": "370b83aeeabfa8da2473e638cd1b97816a5ef690ae7daf00300ba3ad1c83d039",
     "sources": [
-      "data\\genie\\knowledge.js:151"
+      "data\\genie\\knowledge.js:144"
     ]
   },
   "knowledge.m0699": {
     "text": "vé máy bay",
     "hash": "16a775eb43f21ded7ee26f204d4de1c48bc39e727063dd62809342f287056d36",
     "sources": [
-      "data\\genie\\knowledge.js:151"
+      "data\\genie\\knowledge.js:144"
     ]
   },
   "knowledge.m0700": {
     "text": "I can't book flights or issue tickets, and neither does Magic Toolbar. It isn't a GDS: it prepares entries (DOCS, CTCM, CTCE and more) for you to review and use in your own Amadeus, Travelport or Sabre session. It isn't affiliated with any GDS or airline.\nWant to see how it speeds up your desk?",
     "hash": "bebcbecab8d640c31401835b43352570abd6ec8d2a101837e5f05acc11bb2f04",
     "sources": [
-      "data\\genie\\knowledge.js:152"
+      "data\\genie\\knowledge.js:145"
     ]
   },
   "knowledge.m0701": {
     "text": "Pricing & licensing",
     "hash": "882bd90aba792cff52f2fbd808be92a525fd3425e566fd43dd280171f092fb8a",
     "sources": [
-      "data\\genie\\knowledge.js:156"
+      "data\\genie\\knowledge.js:149"
     ]
   },
   "knowledge.m0702": {
     "text": "how much",
     "hash": "6b6d33f066acb2121fb3b3341d438417dd5dfce39ee3c0e34f5d7f65bc25c1e7",
     "sources": [
-      "data\\genie\\knowledge.js:157"
+      "data\\genie\\knowledge.js:150"
     ]
   },
   "knowledge.m0703": {
     "text": "preço",
     "hash": "90639633ec1350b24a3e99c83856b027e614fc49969a1caf224e7f303073d69d",
     "sources": [
-      "data\\genie\\knowledge.js:157"
+      "data\\genie\\knowledge.js:150"
     ]
   },
   "knowledge.m0704": {
     "text": "preços",
     "hash": "8382022538e26c22f91ebc1ea1e5460053dc644be76c13bedff57e842937ce40",
     "sources": [
-      "data\\genie\\knowledge.js:157"
+      "data\\genie\\knowledge.js:150"
     ]
   },
   "knowledge.m0705": {
     "text": "ücret",
     "hash": "4f4b11c08fabc818e7ffb6cc27aa5e03a083b7aa9a7b5c91003b39ed6f15b76e",
     "sources": [
-      "data\\genie\\knowledge.js:157"
+      "data\\genie\\knowledge.js:150"
     ]
   },
   "knowledge.m0706": {
     "text": "giá",
     "hash": "e6ac75df2032f106aa28ea0e7353eb67fd81ba36a07dc89b5663ed2781c5e3af",
     "sources": [
-      "data\\genie\\knowledge.js:157"
+      "data\\genie\\knowledge.js:150"
     ]
   },
   "knowledge.m1747": {
     "text": "**Magic Toolbar plans (USD)**\n• Monthly: {monthly} per month\n• Yearly: {yearly} per year (regular {regular}, you save {save})\n• Lifetime: contact us for pricing\n\nEach PC is activated on your subscription. Message us on WhatsApp to get started or to ask about licensing.",
     "hash": "a76a1ecd3b867dc9f1b2bcebfd9dc271bebcc03649db65e9abcaf2f2dd1b95a3",
     "sources": [
-      "data\\genie\\knowledge.js:159"
+      "data\\genie\\knowledge.js:152"
     ]
   },
   "knowledge.m0708": {
     "text": "set up",
     "hash": "ec153694483b2b7d1ccc1bffbbffff8cc09e7568288edd6f18450557ed2dce31",
     "sources": [
-      "data\\genie\\knowledge.js:168"
+      "data\\genie\\knowledge.js:161"
     ]
   },
   "knowledge.m0709": {
     "text": "system requirements",
     "hash": "9513375adfd1fb7c001f3a7c3555bd1e1d3205a943a75770fa4eda8382246f7a",
     "sources": [
-      "data\\genie\\knowledge.js:168"
+      "data\\genie\\knowledge.js:161"
     ]
   },
   "knowledge.m0710": {
     "text": "télécharger",
     "hash": "4165fb706a50847a92c564b39813d9e9b45c2baf482de422f31d0d0ae0a0c91e",
     "sources": [
-      "data\\genie\\knowledge.js:168"
+      "data\\genie\\knowledge.js:161"
     ]
   },
   "knowledge.m0711": {
     "text": "cài đặt",
     "hash": "942f2c256573aff48d41fcece2639ad094e8274c7310b6a1fcea8c5c23629097",
     "sources": [
-      "data\\genie\\knowledge.js:168"
+      "data\\genie\\knowledge.js:161"
     ]
   },
   "knowledge.m1748": {
     "text": "**Installation**\nMagic Toolbar is a Windows desktop application.\n1. Get the official installer from this website. Each release lists its version, date and requirements.\n2. Run it and activate your PC on your subscription (steps come with the release).\n3. Open the toolbar, review passenger details and copy prepared entries into your GDS.",
     "hash": "239ad6a6bd6f76a51a781c3f795686c6321e0a2aa98ae44c3c7b58349540965b",
     "sources": [
-      "data\\genie\\knowledge.js:169"
+      "data\\genie\\knowledge.js:162"
     ]
   },
   "knowledge.m1749": {
     "text": "Official download: {url}",
     "hash": "b69d424f5e18c58f1dbc73a8ee0657f843e6b87dfdd2a88854f27894cdc72fdb",
     "sources": [
-      "data\\genie\\knowledge.js:175"
+      "data\\genie\\knowledge.js:168"
     ]
   },
   "knowledge.m0712": {
     "text": "The public download link isn't live yet, and we won't send unverified files. Message us on WhatsApp for the release or installation help.",
     "hash": "13125a7a309bca186c4ba72f5f71253e7ae7f79cca294d90eb07d3aa47055a88",
     "sources": [
-      "data\\genie\\knowledge.js:176"
+      "data\\genie\\knowledge.js:169"
     ]
   },
   "knowledge.m0714": {
     "text": "Product demo",
     "hash": "4dcd79b3943581af24cde3723ca01a9240fe9953913b2ce4c40c786e41563677",
     "sources": [
-      "data\\genie\\knowledge.js:179"
+      "data\\genie\\knowledge.js:172"
     ]
   },
   "knowledge.m0715": {
     "text": "show me",
     "hash": "34e159b1c5723f5da5a0e74fa5e6b558bde78515ef8073c19df3113e9a1e557a",
     "sources": [
-      "data\\genie\\knowledge.js:180"
+      "data\\genie\\knowledge.js:173"
     ]
   },
   "knowledge.m0716": {
     "text": "vorführung",
     "hash": "9fe2746986faacf3ca6ee712294b61a21910efa7e733a304a6f9d0d4bb199b32",
     "sources": [
-      "data\\genie\\knowledge.js:180"
+      "data\\genie\\knowledge.js:173"
     ]
   },
   "knowledge.m0717": {
     "text": "demostración",
     "hash": "117fb7c80510c4322562a9baff8d75ceecb05094c091af6c64882ba4418285c8",
     "sources": [
-      "data\\genie\\knowledge.js:180"
+      "data\\genie\\knowledge.js:173"
     ]
   },
   "knowledge.m0718": {
     "text": "demonstração",
     "hash": "e084b29f5d833579e6ad398046e6c8ab2479a4be0ce789526e7213d5122f3d9c",
     "sources": [
-      "data\\genie\\knowledge.js:180"
+      "data\\genie\\knowledge.js:173"
     ]
   },
   "knowledge.m0719": {
     "text": "**Book a live demo**\nWe'll walk you through passport → DOCS, CTCM/CTCE, F1–F12 containers, translation and the visa-photo tool over a WhatsApp call or screen share, at a time that suits you.\nTap below; your language and topic are already filled in.",
     "hash": "f68ec8f00fd6352a7c082db126a92b764439f51b5b2f2d16ecd09ea7e101be9d",
     "sources": [
-      "data\\genie\\knowledge.js:181"
+      "data\\genie\\knowledge.js:174"
     ]
   },
   "knowledge.m0720": {
     "text": "Supported GDS",
     "hash": "9e270044a3a4af2b086638097e007e74b867d9991d97f490f76e1fe10aa3097b",
     "sources": [
-      "data\\genie\\knowledge.js:186"
+      "data\\genie\\knowledge.js:179"
     ]
   },
   "knowledge.m0721": {
     "text": "which gds",
     "hash": "68da9a502b3019c924556bd22f24ca69f5481346924358daad9dba7838356770",
     "sources": [
-      "data\\genie\\knowledge.js:187"
+      "data\\genie\\knowledge.js:180"
     ]
   },
   "knowledge.m0722": {
     "text": "supported gds",
     "hash": "80e611b784ef50c16407da3ce3899d4f635fabc43e493f8c075e8bd069c643c0",
     "sources": [
-      "data\\genie\\knowledge.js:187"
+      "data\\genie\\knowledge.js:180"
     ]
   },
   "knowledge.m0723": {
     "text": "**Supported GDS formats**\nMagic Toolbar prepares entries in Amadeus (1A), Travelport (1G) and Sabre (1S) formats, side by side. Exact supported versions and workflows are published with each release. It prepares entries only; it doesn't connect to or replace your GDS.",
     "hash": "48c50daa100ffc238c39985712d90f175a0ad6898a2b9cb8d1180e2bd615b141",
     "sources": [
-      "data\\genie\\knowledge.js:188"
+      "data\\genie\\knowledge.js:181"
     ]
   },
   "knowledge.m0724": {
     "text": "confidentialité",
     "hash": "40a5ff7101bb18171ef477b395ca8e7f1253558209f6505169905c9bf1102f5e",
     "sources": [
-      "data\\genie\\knowledge.js:193"
+      "data\\genie\\knowledge.js:186"
     ]
   },
   "knowledge.m0725": {
     "text": "données",
     "hash": "a08317648ecfdd257a6328166319101373e68d092af3272a323bf31715b962da",
     "sources": [
-      "data\\genie\\knowledge.js:193"
+      "data\\genie\\knowledge.js:186"
     ]
   },
   "knowledge.m0726": {
     "text": "bảo mật",
     "hash": "5b9919c0fecd6b1443fa0ec0b496b910d874017bb48945227177addf472081d0",
     "sources": [
-      "data\\genie\\knowledge.js:193"
+      "data\\genie\\knowledge.js:186"
     ]
   },
   "knowledge.m0727": {
     "text": "prywatność",
     "hash": "c10bcd12bbe15e500ea973167449d7665e17d63413bf6bf22a9b0a9381e00ed3",
     "sources": [
-      "data\\genie\\knowledge.js:193"
+      "data\\genie\\knowledge.js:186"
     ]
   },
   "knowledge.m0728": {
     "text": "**Your data**\n• Passport OCR and image editing run locally on your PC.\n• Passenger families you save are protected with Windows DPAPI for your Windows account.\n• Travel Genie Translate sends the text you select to an online service (Google).\n• This website chat doesn't need passport data, so please don't type any here.",
     "hash": "b447d0e2b0555e9722e67241fc6d41be9e28d74e729666e33ad32c4ee0bbbcf5",
     "sources": [
-      "data\\genie\\knowledge.js:194"
+      "data\\genie\\knowledge.js:187"
     ]
   },
   "knowledge.m0730": {
     "text": "visaPhoto",
     "hash": "a1bdd78c5a7a24dae2c8b51eba01617a9997f414585c08dd6d5616f641d4351c",
     "sources": [
-      "data\\genie\\knowledge.js:201"
+      "data\\genie\\knowledge.js:194"
     ]
   },
   "knowledge.m0731": {
     "text": "what is",
     "hash": "86a8be5224fb42ad8e06a7b7d3bdb865910a8eee9cfb9cb641386ba7e9cb1e86",
     "sources": [
-      "data\\genie\\knowledge.js:202"
+      "data\\genie\\knowledge.js:195"
     ]
   },
   "knowledge.m0732": {
     "text": "what does",
     "hash": "0645d4f77d14ed70507bec669cd9ada96e17a0bf04a791dde7a636cbc7ab82e9",
     "sources": [
-      "data\\genie\\knowledge.js:202"
+      "data\\genie\\knowledge.js:195"
     ]
   },
   "knowledge.m0733": {
     "text": "magic toolbar",
     "hash": "1836774faf9cf87fabe8dc825d49b706ae604b3de7431ac341029c1f9893a7a3",
     "sources": [
-      "data\\genie\\knowledge.js:202"
+      "data\\genie\\knowledge.js:195"
     ]
   },
   "knowledge.m0734": {
     "text": "fonctionnalités",
     "hash": "9add521700e32a2401c10ef94d039354a4e4a62350851c6efa3cefe26f70026a",
     "sources": [
-      "data\\genie\\knowledge.js:202"
+      "data\\genie\\knowledge.js:195"
     ]
   },
   "knowledge.m0735": {
     "text": "özellikler",
     "hash": "d77b6c99afd1c8ec12939924fbd55893f12122be751a0729afff65e3674c1ff3",
     "sources": [
-      "data\\genie\\knowledge.js:202"
+      "data\\genie\\knowledge.js:195"
     ]
   },
   "knowledge.m0736": {
     "text": "tính năng",
     "hash": "1cd1fcefa11423dacc1b4d7e5cc8ac172145ecec75143fa55132f95fd23ec61a",
     "sources": [
-      "data\\genie\\knowledge.js:202"
+      "data\\genie\\knowledge.js:195"
     ]
   },
-  "knowledge.m1750": {
-    "text": "**Magic Toolbar: one Windows workspace for travel desks**\n• Passport → NAME, DOCS, CTCM, CTCE for Amadeus, Travelport & Sabre\n• F1–F12 shortcuts and Container Manager\n• Visa photo fixer with quality enhancer and rotate/align\n• GDS decode search\n• Translate & magnifier\n• Phone directory and passenger families\n• Reminders, sticky notes, snip & screenshot\n• Zoom meeting sound hotkey\n\nWhat would you like to explore?",
-    "hash": "88e500e71c6b39506a221cb78e433dd0d01455f134a7c2e57d43706b002212bc",
+  "knowledge.m2307": {
+    "text": "**Magic Toolbar: one Windows workspace for travel desks**\n• Passport → NAME, DOCS, CTCM, CTCE for Amadeus, Travelport & Sabre\n• F1–F12 shortcuts and Container Manager\n• Visa photo fixer with quality enhancer and rotate/align\n• GDS decode search\n• Translate & magnifier\n• Phone directory and passenger families\n• Reminders, sticky notes, snip & screenshot\n\nWhat would you like to explore?",
+    "hash": "4c37cdbe67b1c3debf1151d805f6d14371d0a5f8c98598d2512299d4c9894d9e",
     "sources": [
-      "data\\genie\\knowledge.js:203"
+      "data\\genie\\knowledge.js:196"
     ]
   },
   "knowledge.m0739": {
     "text": "not working",
     "hash": "df19064d96673a4c6aa65516690233cb04499cc829d0db538e2256382146aa96",
     "sources": [
-      "data\\genie\\knowledge.js:217"
+      "data\\genie\\knowledge.js:209"
     ]
   },
   "knowledge.m0740": {
     "text": "doesnt work",
     "hash": "92ce4fd3ee5af0c5ac06905aa719457c7b9657f55e81766be7679e194bad63b9",
     "sources": [
-      "data\\genie\\knowledge.js:217"
+      "data\\genie\\knowledge.js:209"
     ]
   },
   "knowledge.m0741": {
     "text": "problème",
     "hash": "3b4130bce32a05ba022dceed2eca64d6af36c70dbb0db112c105e9574ae6e5e8",
     "sources": [
-      "data\\genie\\knowledge.js:217"
+      "data\\genie\\knowledge.js:209"
     ]
   },
   "knowledge.m0742": {
     "text": "yardım",
     "hash": "e68e851a5503866fbe10225ecfc3fe6843643df01317c6d6e2ebd40551531500",
     "sources": [
-      "data\\genie\\knowledge.js:217"
+      "data\\genie\\knowledge.js:209"
     ]
   },
   "knowledge.m0743": {
     "text": "lỗi",
     "hash": "9f2be3acefea0d7274ba717a927b615d0e0f3f6ac6e2553e42a950e4c13c7b7b",
     "sources": [
-      "data\\genie\\knowledge.js:217"
+      "data\\genie\\knowledge.js:209"
     ]
   },
   "knowledge.m0744": {
     "text": "hỗ trợ",
     "hash": "d268299b487701d19df458111c72262bbda1134d3a2f59989ccb7f2bb51e4fb7",
     "sources": [
-      "data\\genie\\knowledge.js:217"
+      "data\\genie\\knowledge.js:209"
     ]
   },
   "knowledge.m0745": {
     "text": "błąd",
     "hash": "003cc72686a2409f182af91e1ead13d7c8fc593a94d17b8553846090781eecd1",
     "sources": [
-      "data\\genie\\knowledge.js:217"
+      "data\\genie\\knowledge.js:209"
     ]
   },
   "knowledge.m0746": {
     "text": "**Technical support**\nSend us on WhatsApp:\n1. Your Magic Toolbar version and Windows version\n2. Which tool you were using and what you expected\n3. The exact error message\n4. A screenshot with passenger data hidden\n\nQuick checks: restart the toolbar, confirm your PC is activated, and make sure Translate has internet access.",
     "hash": "678df14eb4488d96f4c54d2ba682c8c65c9140229925866239629a5839e7aff1",
     "sources": [
-      "data\\genie\\knowledge.js:218"
+      "data\\genie\\knowledge.js:210"
     ]
   },
   "knowledge.m0747": {
     "text": "Talk to the team",
     "hash": "ec58fda05a5ef59c21e334fcffd5ae2def547b222cc08333464a249072f33974",
     "sources": [
-      "data\\genie\\knowledge.js:228"
+      "data\\genie\\knowledge.js:220"
     ]
   },
   "knowledge.m0748": {
     "text": "talk to",
     "hash": "c5f3b116e4c5f38cf53329e7524f42dbfee628b5643f1f6e9402960025b41f8d",
     "sources": [
-      "data\\genie\\knowledge.js:229"
+      "data\\genie\\knowledge.js:221"
     ]
   },
   "knowledge.m0749": {
     "text": "speak to",
     "hash": "a431650066dfa7add523cb15e0145352acbe104c4de91dafe59d63b75e35f64a",
     "sources": [
-      "data\\genie\\knowledge.js:229"
+      "data\\genie\\knowledge.js:221"
     ]
   },
   "knowledge.m0750": {
     "text": "call me",
     "hash": "fed012051b5eab94715a87ede8346655f5c20f6a1a48f8d1c89296fc7f5bcfa6",
     "sources": [
-      "data\\genie\\knowledge.js:229"
+      "data\\genie\\knowledge.js:221"
     ]
   },
   "knowledge.m0751": {
     "text": "nhân viên",
     "hash": "3b3dc410e390723dce75905e35b98fa9ffb3e4240517f47dc3a6ceef248c15b7",
     "sources": [
-      "data\\genie\\knowledge.js:229"
+      "data\\genie\\knowledge.js:221"
     ]
   },
   "knowledge.m0752": {
     "text": "Our team is available on WhatsApp. Tap below; your topic, language and country are filled in so you don't have to repeat yourself.\nGenie stays here 24/7 for instant answers, and the team replies on WhatsApp as soon as possible.",
     "hash": "19313b5a4b2d39f84cbf068dcdda3202bafe52851c695ee27a31dd8fe12545de",
     "sources": [
-      "data\\genie\\knowledge.js:230"
+      "data\\genie\\knowledge.js:222"
     ]
   },
   "knowledge.m0753": {
     "text": "Thanks",
     "hash": "bb47b8ff5f623996f8f46b80933095a90e29a5bb4442ac09498c9e9e8fc1cbf4",
     "sources": [
-      "data\\genie\\knowledge.js:234"
+      "data\\genie\\knowledge.js:226"
     ]
   },
   "knowledge.m0754": {
     "text": "thank you",
     "hash": "844347e54f00c4b97fe4736909730faaf8365292b076ea5a1378ebd1b0fd3bbb",
     "sources": [
-      "data\\genie\\knowledge.js:235"
+      "data\\genie\\knowledge.js:227"
     ]
   },
   "knowledge.m0755": {
     "text": "teşekkür",
     "hash": "69d5e69ebfaeee910e2896068fea92f8965d87c2aa1f22a45f9abe6f07d10155",
     "sources": [
-      "data\\genie\\knowledge.js:235"
+      "data\\genie\\knowledge.js:227"
     ]
   },
   "knowledge.m0756": {
     "text": "terima kasih",
     "hash": "56ada838860e4f8575ec8346659dd6d7efa4c91dd40f9269d8d36c85fd4bd44a",
     "sources": [
-      "data\\genie\\knowledge.js:235"
+      "data\\genie\\knowledge.js:227"
     ]
   },
   "knowledge.m0757": {
     "text": "cảm ơn",
     "hash": "def27973aeed2adc7fdf2d3f75e4f7073f434127624d3035657ee9c8e022d4e9",
     "sources": [
-      "data\\genie\\knowledge.js:235"
+      "data\\genie\\knowledge.js:227"
     ]
   },
   "knowledge.m0758": {
     "text": "dziękuję",
     "hash": "c9b9c6a21fb5548569402cf54cb39dc091ecadc41a51fc45de7cee0544decdb8",
     "sources": [
-      "data\\genie\\knowledge.js:235"
+      "data\\genie\\knowledge.js:227"
     ]
   },
   "knowledge.m0759": {
     "text": "You're welcome! Anything else I can help with?",
     "hash": "1c9de21e6cdb9a1d594e8f99656f0e66f59346c7d745af2fdb2619cde7488fc7",
     "sources": [
-      "data\\genie\\knowledge.js:236"
+      "data\\genie\\knowledge.js:228"
     ]
   },
   "knowledge.m0760": {
     "text": "Hello",
     "hash": "185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969",
     "sources": [
-      "data\\genie\\knowledge.js:239"
+      "data\\genie\\knowledge.js:231"
     ]
   },
   "knowledge.m0761": {
     "text": "olá",
     "hash": "9b186e077c7c6d044f5789d76e6d8070a5b0aaa902ebc608bc34170722dba903",
     "sources": [
-      "data\\genie\\knowledge.js:240"
+      "data\\genie\\knowledge.js:232"
     ]
   },
   "knowledge.m0762": {
     "text": "xin chào",
     "hash": "8aaecd06d85c7f743d3545e7b865f3053c647591f95919c1c0b003046d4757aa",
     "sources": [
-      "data\\genie\\knowledge.js:240"
+      "data\\genie\\knowledge.js:232"
     ]
   },
   "knowledge.m0763": {
     "text": "cześć",
     "hash": "e2f0579652b0c51622f526c1c05ef1a2d979e20521010dab1cc1334ed3c845aa",
     "sources": [
-      "data\\genie\\knowledge.js:240"
+      "data\\genie\\knowledge.js:232"
     ]
   },
   "knowledge.m0764": {
     "text": "Hello! How can I help today?",
     "hash": "a92917c0b7621ae1ec885340fb1e591b050c3112e7ac93a3798efdc7cb2e4116",
     "sources": [
-      "data\\genie\\knowledge.js:241"
+      "data\\genie\\knowledge.js:233"
     ]
   },
   "legal.m0765": {
@@ -8453,7 +8370,7 @@
     "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
     "sources": [
       "data\\locales.js:4",
-      "data\\site.js:12",
+      "data\\site.js:13",
       "lib\\seo.js:50",
       "data\\site.js:1"
     ]
@@ -10992,72 +10909,63 @@
     "text": "Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey",
     "hash": "4feac44d42f5b5418624340fe815f5835d9fb981261124b941b54f487130ec7c",
     "sources": [
-      "data\\resources.js:206",
-      "data\\resources.js:1"
+      "data\\resources.js:206"
     ]
   },
   "resources.m1864": {
     "text": "Silence Zoom, Microsoft Teams, Google Meet, WhatsApp and other meeting sound with one hotkey in Magic Toolbar, or let it mute meetings when a call comes in.",
     "hash": "ec7f438c09bdbc0707ae24fb2f713a46812caa55a47c6ec8849c0b8aa3d7574c",
     "sources": [
-      "data\\resources.js:207",
-      "data\\resources.js:1"
+      "data\\resources.js:207"
     ]
   },
   "resources.m1774": {
     "text": "How do I mute meeting sound with one key?",
     "hash": "431c293498fc8c3548511b52d1abbca2a8146f7140f3184689034746e104538c",
     "sources": [
-      "data\\resources.js:211",
-      "data\\resources.js:1"
+      "data\\resources.js:211"
     ]
   },
   "resources.m1775": {
     "text": "Press a hotkey while Magic Toolbar is running on Windows. Ctrl+Shift+Z silences Zoom, Ctrl+Alt+K silences all supported meeting apps and web browsers at once, and separate keys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Press the same keys again to bring the sound back.",
     "hash": "23a7344f5a8673517668dce9547b3b60218104297274a330b526109340562919",
     "sources": [
-      "data\\resources.js:211",
-      "data\\resources.js:1"
+      "data\\resources.js:211"
     ]
   },
   "resources.m1776": {
     "text": "Which hotkey mutes which app?",
     "hash": "e1944173d4a7ff7b62cfb92995fc046327e6b324cf5dc9355c316bcf167483e0",
     "sources": [
-      "data\\resources.js:212",
-      "data\\resources.js:1"
+      "data\\resources.js:212"
     ]
   },
   "resources.m1777": {
     "text": "Each hotkey works as a switch: the first press mutes, the second press unmutes. If another program already uses a combination, Magic Toolbar uses Ctrl+Shift+Alt with the same letter instead. This table lists every mute hotkey and what it covers.",
     "hash": "2750d907e589fb2e512eabff303b21cd58e0ce0917e2de6980d13e9a26fa852e",
     "sources": [
-      "data\\resources.js:212",
-      "data\\resources.js:1"
+      "data\\resources.js:212"
     ]
   },
   "resources.m1778": {
     "text": "Hotkey",
     "hash": "6a6485af02cab90b55fb2ffb5b7d796d431d6e65cb8804ebf6c10c77b6ad4515",
     "sources": [
-      "data\\resources.js:213",
-      "data\\resources.js:1"
+      "data\\resources.js:213"
     ]
   },
   "resources.m1779": {
     "text": "Mutes or unmutes",
     "hash": "984a322f80adce25926511bb5ed615e4a1071078e2f8b598888d1bea2511c463",
     "sources": [
-      "data\\resources.js:213",
-      "data\\resources.js:1"
+      "data\\resources.js:213"
     ]
   },
   "resources.m1780": {
     "text": "Covers",
     "hash": "3f8d88db585d15e79b9d4b833b88b9bde9cb12b58a130379699b2d255198c810",
     "sources": [
-      "data\\resources.js:213",
-      "data\\resources.js:1"
+      "data\\resources.js:213"
     ]
   },
   "resources.m1781": {
@@ -11065,48 +10973,42 @@
     "hash": "509c517ede79fef060a5f3a109fd1f45951eef2c7970b25c20992011e36a4070",
     "sources": [
       "data\\resources.js:214",
-      "data\\resources.js:222",
-      "data\\resources.js:1"
+      "data\\resources.js:222"
     ]
   },
   "resources.m1782": {
     "text": "Zoom meetings and webinars in the Zoom desktop app",
     "hash": "05b9dba111a8265f6e664c170cf25afa64a0ef65e3d9eb21cd87a760ba3d781c",
     "sources": [
-      "data\\resources.js:214",
-      "data\\resources.js:1"
+      "data\\resources.js:214"
     ]
   },
   "resources.m1783": {
     "text": "All meeting apps",
     "hash": "5a8bc85d24b72b811c0e5c3354162ad1f77952dc82377eda66bafb179676a839",
     "sources": [
-      "data\\resources.js:215",
-      "data\\resources.js:1"
+      "data\\resources.js:215"
     ]
   },
   "resources.m1784": {
     "text": "Every supported meeting app and every web browser at once",
     "hash": "9bde550f21e05ebf93b0e09cfa7b769680b2b0db56227db22111edc76c7e177f",
     "sources": [
-      "data\\resources.js:215",
-      "data\\resources.js:1"
+      "data\\resources.js:215"
     ]
   },
   "resources.m1785": {
     "text": "All web browsers",
     "hash": "25b8f83561930ef93dad9594410817d05fa99bc4df8b73975fe4ccee767e4a09",
     "sources": [
-      "data\\resources.js:216",
-      "data\\resources.js:1"
+      "data\\resources.js:216"
     ]
   },
   "resources.m1786": {
     "text": "Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
     "hash": "62b19755881b3c87acab2dbd811688b4da5b680f06449d020de4eb822066f193",
     "sources": [
-      "data\\resources.js:216",
-      "data\\resources.js:1"
+      "data\\resources.js:216"
     ]
   },
   "resources.m1865": {
@@ -11114,88 +11016,77 @@
     "hash": "a7b52b269a23c025905190cdd81a2123f01b23aba7e7458b46f56dd0ab5a6ee8",
     "sources": [
       "data\\resources.js:217",
-      "data\\resources.js:223",
-      "data\\resources.js:1"
+      "data\\resources.js:223"
     ]
   },
   "resources.m1788": {
     "text": "Microsoft Teams meetings, calls and notification sounds",
     "hash": "0a76a22d3a42b3249fd42396032332a4c50a3e54533195f2b658c6068b4ab3c0",
     "sources": [
-      "data\\resources.js:217",
-      "data\\resources.js:1"
+      "data\\resources.js:217"
     ]
   },
   "resources.m1789": {
     "text": "WhatsApp Desktop",
     "hash": "f8aec84cbada6c00f5f034e7600c76712b840e00c4efdcd28fa517d2a04721c2",
     "sources": [
-      "data\\resources.js:218",
-      "data\\resources.js:1"
+      "data\\resources.js:218"
     ]
   },
   "resources.m1790": {
     "text": "WhatsApp calls, voice notes and notification sounds",
     "hash": "37df3031e2f1b34188c1233eb9bbb52dba9edc3422a64963937c55bdd133a30a",
     "sources": [
-      "data\\resources.js:218",
-      "data\\resources.js:1"
+      "data\\resources.js:218"
     ]
   },
   "resources.m1791": {
     "text": "Unite Phone",
     "hash": "d0b0ffeacb39a3e1d2d7e639f5db571aed293e3367d41de8df1c78fbe1b48ff3",
     "sources": [
-      "data\\resources.js:219",
-      "data\\resources.js:1"
+      "data\\resources.js:219"
     ]
   },
   "resources.m1792": {
     "text": "Unite Phone ringtone and call sound",
     "hash": "1205dc3b855a2ab16669f4d09b57afd5549ffc4ae8c65a182b6f036d9bf101f7",
     "sources": [
-      "data\\resources.js:219",
-      "data\\resources.js:1"
+      "data\\resources.js:219"
     ]
   },
   "resources.m1793": {
     "text": "Which meeting apps does Ctrl+Alt+K cover?",
     "hash": "0efe52231481b2c1cce805a4d643477e57eeeff9e1845381d2358155f7c3e669",
     "sources": [
-      "data\\resources.js:220",
-      "data\\resources.js:1"
+      "data\\resources.js:220"
     ]
   },
   "resources.m1866": {
     "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Zoom and Microsoft Teams also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
     "hash": "4b0ae7a029aeabbe48b840c9b9c02a40d6bcd1abe4e355686cc70eb358d75f06",
     "sources": [
-      "data\\resources.js:220",
-      "data\\resources.js:1"
+      "data\\resources.js:220"
     ]
   },
   "resources.m1795": {
     "text": "Meeting app",
     "hash": "627512eb40fdc583941a23f2bee66be18c46c74fa67ed9663c1eecbaec8e7eac",
     "sources": [
-      "data\\resources.js:221",
-      "data\\resources.js:1"
+      "data\\resources.js:221"
     ]
   },
   "resources.m1796": {
     "text": "Runs as",
     "hash": "dc98511e6b34e7f44f974fc81094df7d4accb47fcaed18249030bccd0c73c69b",
     "sources": [
-      "data\\resources.js:221",
-      "data\\resources.js:1"
+      "data\\resources.js:221"
     ]
   },
   "resources.m1797": {
     "text": "Best for",
     "hash": "15582071ab2c6633117f2792ff83b0c207000b6c30473bd457b106ed0068a017",
     "sources": [
-      "data\\resources.js:221",
-      "data\\resources.js:1"
+      "data\\resources.js:221"
     ]
   },
   "resources.m1798": {
@@ -11211,160 +11102,140 @@
       "data\\resources.js:228",
       "data\\resources.js:229",
       "data\\resources.js:230",
-      "data\\resources.js:231",
-      "data\\resources.js:1"
+      "data\\resources.js:231"
     ]
   },
   "resources.m1867": {
     "text": "Individuals and small teams",
     "hash": "4737dd0a3774492f59638ee93728a029663ee1000ddef025e1b7c7172410c639",
     "sources": [
-      "data\\resources.js:222",
-      "data\\resources.js:1"
+      "data\\resources.js:222"
     ]
   },
   "resources.m1800": {
     "text": "Microsoft 365 users",
     "hash": "dda0e854c1ce7c0b01bb5487c6bfe5e133f8d64624bdcc82265b76e9f910a631",
     "sources": [
-      "data\\resources.js:223",
-      "data\\resources.js:1"
+      "data\\resources.js:223"
     ]
   },
   "resources.m1801": {
     "text": "Cisco Webex",
     "hash": "a618e3b6b577f65be1804b88e063f9240561c15ba94a5af381e1e38b31359b87",
     "sources": [
-      "data\\resources.js:224",
-      "data\\resources.js:1"
+      "data\\resources.js:224"
     ]
   },
   "resources.m1802": {
     "text": "Corporate conferences and multinational companies",
     "hash": "6a5e9ea020581f6e057cd8b2884b06cd8d95b00d22cc6b4ece657b8550a4d5bf",
     "sources": [
-      "data\\resources.js:224",
-      "data\\resources.js:1"
+      "data\\resources.js:224"
     ]
   },
   "resources.m1803": {
     "text": "Slack",
     "hash": "b27fb38ba323745c91fe7fd9021605430d43bdb7d3be765266e29364d103e26f",
     "sources": [
-      "data\\resources.js:225",
-      "data\\resources.js:1"
+      "data\\resources.js:225"
     ]
   },
   "resources.m1804": {
     "text": "Instant huddles",
     "hash": "3c80bddc2e214538843255662735485b0b9ac3ebeb924fa7fee19b5edbc6738c",
     "sources": [
-      "data\\resources.js:225",
-      "data\\resources.js:1"
+      "data\\resources.js:225"
     ]
   },
   "resources.m1805": {
     "text": "GoTo Meeting",
     "hash": "0dab4a93fd3789550e5efdefdc879aa9d02bb875db9e6f7f6cea2fbdf72b9cb1",
     "sources": [
-      "data\\resources.js:226",
-      "data\\resources.js:1"
+      "data\\resources.js:226"
     ]
   },
   "resources.m1806": {
     "text": "Meetings on the go",
     "hash": "249fc2a60c7b1cc4ea11d7bc4e0dd4b10752a157639bdb3261a3d3dbb2437303",
     "sources": [
-      "data\\resources.js:226",
-      "data\\resources.js:1"
+      "data\\resources.js:226"
     ]
   },
   "resources.m1807": {
     "text": "RingCentral",
     "hash": "61df27a3c89e59845349c0b0e1adae474fe5308f396895ce8ccd6ee38a3e6269",
     "sources": [
-      "data\\resources.js:227",
-      "data\\resources.js:1"
+      "data\\resources.js:227"
     ]
   },
   "resources.m1808": {
     "text": "Phone systems and team messaging",
     "hash": "a2ed355de54d9d60bfe5dfe9aecedf15a29f46fdc938af697a60ecdffee178fb",
     "sources": [
-      "data\\resources.js:227",
-      "data\\resources.js:1"
+      "data\\resources.js:227"
     ]
   },
   "resources.m1809": {
     "text": "Zoho Meeting",
     "hash": "2319681729392edc88d1ad29c1a5702c73402a2cfab8b961a9bfb175410a690b",
     "sources": [
-      "data\\resources.js:228",
-      "data\\resources.js:1"
+      "data\\resources.js:228"
     ]
   },
   "resources.m1810": {
     "text": "Webinars with polls and Q&A",
     "hash": "d9069895314b9746daca6c7904e594c09f28e38989e628dbbd8aef639ca5951e",
     "sources": [
-      "data\\resources.js:228",
-      "data\\resources.js:1"
+      "data\\resources.js:228"
     ]
   },
   "resources.m1811": {
     "text": "Jitsi Meet",
     "hash": "9ec96cb44dd76a1d206ef8e09fdea5364c883c9259a07dac3aeb010c6d44f81a",
     "sources": [
-      "data\\resources.js:229",
-      "data\\resources.js:1"
+      "data\\resources.js:229"
     ]
   },
   "resources.m1812": {
     "text": "Free, open-source meetings",
     "hash": "c9ad4d7202312963bf9e60f509ca186d43f6b4e0fb142ad8fe8178306cb2720b",
     "sources": [
-      "data\\resources.js:229",
-      "data\\resources.js:1"
+      "data\\resources.js:229"
     ]
   },
   "resources.m1813": {
     "text": "TrueConf",
     "hash": "824d5a00c5e64677dbfb881388a904b473649a02546ca366cb3242afb9acdb96",
     "sources": [
-      "data\\resources.js:230",
-      "data\\resources.js:1"
+      "data\\resources.js:230"
     ]
   },
   "resources.m1814": {
     "text": "Secure, high-quality video calls",
     "hash": "8946dd5adac883c2bf95b3072e73536a331d94bff5221b05d947b6446087fa02",
     "sources": [
-      "data\\resources.js:230",
-      "data\\resources.js:1"
+      "data\\resources.js:230"
     ]
   },
   "resources.m1815": {
     "text": "Adobe Connect",
     "hash": "6dc7ffa4255666fee88952d7a5eb64f4a536609972dda21219c32f32c4107134",
     "sources": [
-      "data\\resources.js:231",
-      "data\\resources.js:1"
+      "data\\resources.js:231"
     ]
   },
   "resources.m1816": {
     "text": "Custom-designed meeting rooms",
     "hash": "c7e55a81da07089f935231005d7e3387e9c506a8c1e6e8b09d65085cc15fbda1",
     "sources": [
-      "data\\resources.js:231",
-      "data\\resources.js:1"
+      "data\\resources.js:231"
     ]
   },
   "resources.m1817": {
     "text": "Google Meet",
     "hash": "78aeb390abbc558f405421c2bf46708d6c4ccf96745cee50e9a4b36dae6f6975",
     "sources": [
-      "data\\resources.js:232",
-      "data\\resources.js:1"
+      "data\\resources.js:232"
     ]
   },
   "resources.m1818": {
@@ -11375,464 +11246,406 @@
       "data\\resources.js:233",
       "data\\resources.js:234",
       "data\\resources.js:235",
-      "data\\resources.js:236",
-      "data\\resources.js:1"
+      "data\\resources.js:236"
     ]
   },
   "resources.m1819": {
     "text": "Google Workspace users",
     "hash": "b176f3580000a7e6e5a85238b6b99d6fa8592e108d7d861e6a078e04d25061d6",
     "sources": [
-      "data\\resources.js:232",
-      "data\\resources.js:1"
+      "data\\resources.js:232"
     ]
   },
   "resources.m1820": {
     "text": "Whereby",
     "hash": "de4518bbd4eb578feeddd591e24d9620d19d03684ba1fbb2eb68272ec08f9873",
     "sources": [
-      "data\\resources.js:233",
-      "data\\resources.js:1"
+      "data\\resources.js:233"
     ]
   },
   "resources.m1821": {
     "text": "Video meetings embedded in your own product",
     "hash": "9672f20cc7d3a612c15b3e3afc546136ab20a215515e12d51691887d97996595",
     "sources": [
-      "data\\resources.js:233",
-      "data\\resources.js:1"
+      "data\\resources.js:233"
     ]
   },
   "resources.m1822": {
     "text": "Livestorm",
     "hash": "1478f68a6ac05b2679a0034b0bbbe7274cbda41ad1e522d81beee53bb4e9f595",
     "sources": [
-      "data\\resources.js:234",
-      "data\\resources.js:1"
+      "data\\resources.js:234"
     ]
   },
   "resources.m1823": {
     "text": "Client-facing webinars and training",
     "hash": "c49348735a8744f9576cb8ee9f57a97ee17dbe630b7da6d5a45a46e49ac93b45",
     "sources": [
-      "data\\resources.js:234",
-      "data\\resources.js:1"
+      "data\\resources.js:234"
     ]
   },
   "resources.m1824": {
     "text": "ClickMeeting",
     "hash": "562f266f84659a4e3fd4948a1314ffa35acc28e44c5e63f773d98d376b03e7b3",
     "sources": [
-      "data\\resources.js:235",
-      "data\\resources.js:1"
+      "data\\resources.js:235"
     ]
   },
   "resources.m1825": {
     "text": "Large online events",
     "hash": "3e38acbb17e3b85f0d8622a60050ce01b9270dcdeea1b655e9802d776fbf298f",
     "sources": [
-      "data\\resources.js:235",
-      "data\\resources.js:1"
+      "data\\resources.js:235"
     ]
   },
   "resources.m1826": {
     "text": "Viva Engage",
     "hash": "701369762f0e15fcb27cdd390e96d9c089ca8ac9f77c602c09db82a81d1557e1",
     "sources": [
-      "data\\resources.js:236",
-      "data\\resources.js:1"
+      "data\\resources.js:236"
     ]
   },
   "resources.m1827": {
     "text": "Company-wide broadcasts",
     "hash": "bacaf653450c871227e88e27f4eb1cedbd070fb7ec57940b93fbdf5172254a0c",
     "sources": [
-      "data\\resources.js:236",
-      "data\\resources.js:1"
+      "data\\resources.js:236"
     ]
   },
   "resources.m1828": {
     "text": "How do I mute a meeting that runs in my browser?",
     "hash": "362c731fbe3373e3b70b3c20262c19ff17432274bb1b7ab644fe12f6903ba75a",
     "sources": [
-      "data\\resources.js:237",
-      "data\\resources.js:1"
+      "data\\resources.js:237"
     ]
   },
   "resources.m1829": {
     "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Zoom or Microsoft Teams run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
     "hash": "9f979c190f13de8d32f677ba696e0b1b625fa7e68b9430a58616db1b4211dad0",
     "sources": [
-      "data\\resources.js:237",
-      "data\\resources.js:1"
+      "data\\resources.js:237"
     ]
   },
   "resources.m1830": {
     "text": "Can Magic Toolbar mute meetings automatically when a call comes in?",
     "hash": "5382b5300db9411b1e6d054004e7796d01555742081301338b8a5ab591bc9cd4",
     "sources": [
-      "data\\resources.js:238",
-      "data\\resources.js:1"
+      "data\\resources.js:238"
     ]
   },
   "resources.m1868": {
     "text": "Yes, when call monitoring and auto-mute are switched on in Magic Toolbar’s Settings. When it detects a WhatsApp, Unite Phone or Microsoft Teams call, meeting apps and web browsers go quiet and a short notice shows which ones. When the call ends, the meeting sound it muted comes back.",
     "hash": "82d918dd8407631280b045802fbeb399c05369a40a138b492cd29da059564f1d",
     "sources": [
-      "data\\resources.js:238",
-      "data\\resources.js:1"
+      "data\\resources.js:238"
     ]
   },
   "resources.m1832": {
     "text": "Situation",
     "hash": "b3aeeb32a0c7c5d45b6e955370301ca1c8d271eaabafaf9125e371ef28984223",
     "sources": [
-      "data\\resources.js:239",
-      "data\\resources.js:1"
+      "data\\resources.js:239"
     ]
   },
   "resources.m1833": {
     "text": "What happens",
     "hash": "70fbb54bd5e6ff77ad448bae4307cccaab65d37717f72d5e6ebd307d903d28aa",
     "sources": [
-      "data\\resources.js:239",
-      "data\\resources.js:1"
+      "data\\resources.js:239"
     ]
   },
   "resources.m1834": {
     "text": "A WhatsApp or Unite Phone call rings",
     "hash": "b02cc28675a5225cc3ba19816a9ed113b220f4a16524c65fb7b6d5ec27f3d347",
     "sources": [
-      "data\\resources.js:240",
-      "data\\resources.js:1"
+      "data\\resources.js:240"
     ]
   },
   "resources.m1835": {
     "text": "All meeting apps and web browsers are muted",
     "hash": "0401f17523b4c8fad2fa2baf075b8f9a3959037bbb86ce299a2732488ce549af",
     "sources": [
-      "data\\resources.js:240",
-      "data\\resources.js:1"
+      "data\\resources.js:240"
     ]
   },
   "resources.m1869": {
     "text": "A Microsoft Teams call rings",
     "hash": "8cc75098a2935d716603e3667837dd8602449802bbc52a0ff09447d30534d09a",
     "sources": [
-      "data\\resources.js:241",
-      "data\\resources.js:1"
+      "data\\resources.js:241"
     ]
   },
   "resources.m1837": {
     "text": "Everything is muted except Microsoft Teams, so you can hear the caller",
     "hash": "22e9e8fae42132935bdc2e74aa45b833a32bf0e83c77619ebb47839ac6cf7467",
     "sources": [
-      "data\\resources.js:241",
-      "data\\resources.js:1"
+      "data\\resources.js:241"
     ]
   },
   "resources.m1838": {
     "text": "The call ends",
     "hash": "8a95d155d60ba425824b2b6c3192b9ddfff793f46ca29110219091e7f6330208",
     "sources": [
-      "data\\resources.js:242",
-      "data\\resources.js:1"
+      "data\\resources.js:242"
     ]
   },
   "resources.m1839": {
     "text": "The meeting sound muted for the call comes back; sound that was already muted stays muted",
     "hash": "aba32f62b90cb36d40e7fbe74c99cabed6022e913733d2c59fe49d7ef7dae533",
     "sources": [
-      "data\\resources.js:242",
-      "data\\resources.js:1"
+      "data\\resources.js:242"
     ]
   },
   "resources.m1840": {
     "text": "You close Magic Toolbar",
     "hash": "c0e673be9bd81364e6be7eef34443b9e190e91985f0ee9c234e0edaee43aba13",
     "sources": [
-      "data\\resources.js:243",
-      "data\\resources.js:1"
+      "data\\resources.js:243"
     ]
   },
   "resources.m1841": {
     "text": "Any meeting sound it muted is turned back on first",
     "hash": "a43ef82014d84788c412729fc84b7d42c57d9d37789f5c25c8df016e9f19bf95",
     "sources": [
-      "data\\resources.js:243",
-      "data\\resources.js:1"
+      "data\\resources.js:243"
     ]
   },
   "resources.m1842": {
     "text": "Will muting a meeting silence my WhatsApp call?",
     "hash": "e4c74553e4f64ad9730fe2fc2aaf80a17e37ff44bf435328319417117da22276",
     "sources": [
-      "data\\resources.js:244",
-      "data\\resources.js:1"
+      "data\\resources.js:244"
     ]
   },
   "resources.m1843": {
     "text": "No. WhatsApp and Unite Phone are never part of the meeting group, so Ctrl+Alt+K and the automatic call mute leave them alone and you still hear your caller. To silence WhatsApp or Unite Phone themselves, for example their notification sounds, use Ctrl+Alt+G or Ctrl+Alt+V.",
     "hash": "a4a2a3b9fd112979bb9f1a90acba5d1c2cba4903dd92c08e8605ddf37e85e391",
     "sources": [
-      "data\\resources.js:244",
-      "data\\resources.js:1"
+      "data\\resources.js:244"
     ]
   },
   "resources.m1844": {
     "text": "Do the mute hotkeys mute my microphone?",
     "hash": "89d5bbbde9d4e3a8e49fb7080f903b586a66865970903952c05035e56c75cbe3",
     "sources": [
-      "data\\resources.js:245",
-      "data\\resources.js:1"
+      "data\\resources.js:245"
     ]
   },
   "resources.m1870": {
     "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Alt+A in Zoom, Ctrl+Shift+M in Microsoft Teams or Ctrl+D in Google Meet on Windows.",
     "hash": "b1d1adbc08ed2028fa9415e2c49b2c49e123aac61bb3e237b4783af44cd9c700",
     "sources": [
-      "data\\resources.js:245",
-      "data\\resources.js:1"
+      "data\\resources.js:245"
     ]
   },
   "resources.m1846": {
     "text": "How to take a call during an online meeting on Windows",
     "hash": "7971f177771f3b8cd3393e86f60f4aeb84cfaf5e1875270d77c0c4b11397ec8c",
     "sources": [
-      "data\\resources.js:246",
-      "data\\resources.js:1"
+      "data\\resources.js:246"
     ]
   },
   "resources.m1847": {
     "text": "A short routine keeps you polite in the meeting and clear on the phone. Silence your microphone and the meeting sound, take the call, then come back in the same order. If auto-mute is on, Magic Toolbar does the meeting sound steps for you.",
     "hash": "722027796e76ce3113c041ba6d6402b4e4a73374af1b6573ffc856da304ee4e1",
     "sources": [
-      "data\\resources.js:246",
-      "data\\resources.js:1"
+      "data\\resources.js:246"
     ]
   },
   "resources.m1848": {
     "text": "Mute your microphone in the meeting app, such as Alt+A in Zoom.",
     "hash": "f3f853eff1a442cb8843a696cc35a9be8ed829098650ba0bf52000562335f2f9",
     "sources": [
-      "data\\resources.js:247",
-      "data\\resources.js:1"
+      "data\\resources.js:247"
     ]
   },
   "resources.m1849": {
     "text": "Press Ctrl+Alt+K to silence all meeting sound, or the hotkey for one app.",
     "hash": "56d06c1fbbb7bc7fa59ab8c7f4936412f1069ce6f04f27fdaad63f225a49db6e",
     "sources": [
-      "data\\resources.js:247",
-      "data\\resources.js:1"
+      "data\\resources.js:247"
     ]
   },
   "resources.m1850": {
     "text": "Answer the call on WhatsApp, Unite Phone or your other calling app.",
     "hash": "a3a1dc957629e35a40e6835ad70ae652ddf71bb819e4aa48ac4a90160e981e55",
     "sources": [
-      "data\\resources.js:247",
-      "data\\resources.js:1"
+      "data\\resources.js:247"
     ]
   },
   "resources.m1851": {
     "text": "After the call, press the same hotkey to hear the meeting again.",
     "hash": "de19f50bbd8c66e45f64c26263287144237c09092782a78a15afb58535884bca",
     "sources": [
-      "data\\resources.js:247",
-      "data\\resources.js:1"
+      "data\\resources.js:247"
     ]
   },
   "resources.m1852": {
     "text": "Unmute your microphone in the meeting app when you speak.",
     "hash": "4351a1f1a9c79ed99d1110d3f4515081532fdba5daa8896e0198340c436395d6",
     "sources": [
-      "data\\resources.js:247",
-      "data\\resources.js:1"
+      "data\\resources.js:247"
     ]
   },
   "resources.m1853": {
     "text": "How can I check that an app is muted?",
     "hash": "a60a8424f04853da2f467e73289dd4bbb3a33aebcc99372818664a70cf962ea3",
     "sources": [
-      "data\\resources.js:248",
-      "data\\resources.js:1"
+      "data\\resources.js:248"
     ]
   },
   "resources.m1854": {
     "text": "Magic Toolbar uses the same switch as the speaker icons in Windows Settings, under System, Sound, Volume mixer. When an app is muted, its speaker icon there shows it, and you can turn the sound back on by hand at any time. No plugins, browser extensions or meeting settings are needed.",
     "hash": "0330a44ae026116feff29576b45b9bdfde9a85f4b124cdcfdbae30f8fd4b6fee",
     "sources": [
-      "data\\resources.js:248",
-      "data\\resources.js:1"
+      "data\\resources.js:248"
     ]
   },
   "resources.m1855": {
     "text": "Why does Magic Toolbar say an app has not played any sound yet?",
     "hash": "775ade9dbabbdb37c804f78eec26152cb8b43ed6409541f2a18cceeb369a7581",
     "sources": [
-      "data\\resources.js:249",
-      "data\\resources.js:1"
+      "data\\resources.js:249"
     ]
   },
   "resources.m1856": {
     "text": "Windows only lists an app in the Volume mixer after it has played sound once. If Magic Toolbar says an app is not running or has not played any sound yet, start the app or join the meeting, wait until you hear it, then press the hotkey again.",
     "hash": "975bb5080301212f7f88fe33593a00d6a2de03841abf422ee60e423047c00b38",
     "sources": [
-      "data\\resources.js:249",
-      "data\\resources.js:1"
+      "data\\resources.js:249"
     ]
   },
   "resources.m1857": {
     "text": "Do the mute hotkeys work while Magic Toolbar is locked?",
     "hash": "26c028c8e66be7e86509bfa3618b55dd35ad8142ce93058ea2c78a4196a8b443",
     "sources": [
-      "data\\resources.js:250",
-      "data\\resources.js:1"
+      "data\\resources.js:250"
     ]
   },
   "resources.m1858": {
     "text": "Yes. The mute hotkeys keep working on the lock screen, because they only change sound and never show your saved data. Tools that show saved texts, passenger details or screenshots stay closed until you unlock Magic Toolbar with your password.",
     "hash": "283540397ef8df6b87120efcd49a59f16f7b1c93c8b2b0495cbc6386bfdf8c62",
     "sources": [
-      "data\\resources.js:250",
-      "data\\resources.js:1"
+      "data\\resources.js:250"
     ]
   },
   "resources.m1871": {
     "text": "Mute Zoom Meeting Sound With One Hotkey",
     "hash": "0bdb1076e2c55e3a8ce92c4a327fa4df6623be86280c38d90a83cd346dd5b2be",
     "sources": [
-      "data\\resources.js:255",
-      "data\\resources.js:1"
+      "data\\resources.js:255"
     ]
   },
   "resources.m1872": {
     "text": "Silence Zoom meeting sound with Ctrl+Shift+Z in Magic Toolbar when a passenger calls you on WhatsApp or another app, and turn it back on with the same keys.",
     "hash": "f20c8ed8b6217f2ba52668b490bb26da6e0872e1f29127ee0f5283258987ae46",
     "sources": [
-      "data\\resources.js:256",
-      "data\\resources.js:1"
+      "data\\resources.js:256"
     ]
   },
   "resources.m1873": {
     "text": "How do I mute Zoom meeting sound with one key?",
     "hash": "7c02a0c73dd0e9425d20c6c3c2c2c6c6e28eac49fe40b1bc18f0c449cfac1865",
     "sources": [
-      "data\\resources.js:260",
-      "data\\resources.js:1"
+      "data\\resources.js:260"
     ]
   },
   "resources.m1874": {
     "text": "Press Ctrl+Shift+Z while Magic Toolbar is running. Zoom meeting sound goes quiet at once, so you stop hearing the meeting. Press Ctrl+Shift+Z again to bring the sound back. You do not need to find the Zoom window or open its settings first.",
     "hash": "6d84f572633e2a855dc58be4c2ef5a15ab0731b3fa1e172ec71b9f99f069559b",
     "sources": [
-      "data\\resources.js:260",
-      "data\\resources.js:1"
+      "data\\resources.js:260"
     ]
   },
   "resources.m1875": {
     "text": "How do I take a WhatsApp or other call during a Zoom meeting?",
     "hash": "a981ed87dfee98dc73627fd7bd0c85dd683f71b635e07e1077cf84f542d6af23",
     "sources": [
-      "data\\resources.js:261",
-      "data\\resources.js:1"
+      "data\\resources.js:261"
     ]
   },
   "resources.m1876": {
     "text": "When a passenger calls on WhatsApp or another app during a Zoom meeting on Windows, press Ctrl+Shift+Z to silence the meeting so you can hear the caller. After the call, press the same keys to hear the meeting again. Ctrl+Shift+Z only controls Zoom sound, not the calling app.",
     "hash": "261c0392058096d89562b837b282e72b4a42e5ee86de677061a86846ebb4ffa7",
     "sources": [
-      "data\\resources.js:261",
-      "data\\resources.js:1"
+      "data\\resources.js:261"
     ]
   },
   "resources.m1877": {
     "text": "Does Ctrl+Shift+Z mute my microphone?",
     "hash": "80878ecd3a100d6835ee0e1dab354cb6452ecdb31eccb3a82810cec212109574",
     "sources": [
-      "data\\resources.js:262",
-      "data\\resources.js:1"
+      "data\\resources.js:262"
     ]
   },
   "resources.m1878": {
     "text": "No. Ctrl+Shift+Z mutes the Zoom sound you hear, not your microphone or camera. To mute your microphone, use Zoom’s own shortcut, Alt+A on Windows, or the mute button. Use Alt+V to stop your video. Check the meeting controls to be sure.",
     "hash": "7272244b02c8e49de46f91a9a4b105fa77275286eb6bdcd285c7695f253bd1be",
     "sources": [
-      "data\\resources.js:262",
-      "data\\resources.js:1"
+      "data\\resources.js:262"
     ]
   },
   "resources.m1879": {
     "text": "How to take a call during a Zoom meeting on Windows",
     "hash": "e51819ac31e136b4ee4c3aa33ea64cc0ddbf2e506cdfe7b8d321b70162bea035",
     "sources": [
-      "data\\resources.js:263",
-      "data\\resources.js:1"
+      "data\\resources.js:263"
     ]
   },
   "resources.m1880": {
     "text": "A short routine keeps you polite in the meeting and clear on the phone. Tell the meeting you are stepping away, silence both your sound and your microphone, take the call, then come back in the same order. These steps take only a few seconds.",
     "hash": "c91bc1117615ac718992139274adb5468345f9c56c12cf996ff5a3418a26e3fc",
     "sources": [
-      "data\\resources.js:263",
-      "data\\resources.js:1"
+      "data\\resources.js:263"
     ]
   },
   "resources.m1881": {
     "text": "Press Alt+A in Zoom to mute your microphone.",
     "hash": "2dcdfadef778e8b61b1a5e023e1f44907cf332d84bfb358e2c08f483cf6a63c2",
     "sources": [
-      "data\\resources.js:264",
-      "data\\resources.js:1"
+      "data\\resources.js:264"
     ]
   },
   "resources.m1882": {
     "text": "Press Ctrl+Shift+Z to silence the Zoom meeting sound.",
     "hash": "4988c6ebc1b0975eb7aa051679878f8689ced311f5ca204b5da175ac16fd3803",
     "sources": [
-      "data\\resources.js:264",
-      "data\\resources.js:1"
+      "data\\resources.js:264"
     ]
   },
   "resources.m1883": {
     "text": "Answer the call on WhatsApp or your other calling app.",
     "hash": "c6c3435d28daeb3c96428d196a03198fcc7652c880f719627f5d92df301e259b",
     "sources": [
-      "data\\resources.js:264",
-      "data\\resources.js:1"
+      "data\\resources.js:264"
     ]
   },
   "resources.m1884": {
     "text": "After the call, press Ctrl+Shift+Z to hear the meeting again.",
     "hash": "ae251bba480ff673aca02bb72d7c14fd2efad7c5b0094820800ff7d8a1e5f0e3",
     "sources": [
-      "data\\resources.js:264",
-      "data\\resources.js:1"
+      "data\\resources.js:264"
     ]
   },
   "resources.m1885": {
     "text": "Press Alt+A to unmute your microphone when you speak.",
     "hash": "9472e2211c58af37990b0c982dc78791ffe404b89182795bfb15b9a884cbe8d6",
     "sources": [
-      "data\\resources.js:264",
-      "data\\resources.js:1"
+      "data\\resources.js:264"
     ]
   },
   "resources.m1886": {
     "text": "Can Magic Toolbar mute other meeting apps too?",
     "hash": "6bf8c0599d008859ea7db09140b5eb8c0991da9d6bce7053c4468cf6c02baf58",
     "sources": [
-      "data\\resources.js:265",
-      "data\\resources.js:1"
+      "data\\resources.js:265"
     ]
   },
   "resources.m1887": {
     "text": "Yes. Ctrl+Alt+K silences all supported meeting apps and web browsers at once, including Microsoft Teams, Google Meet and Webex, and separate hotkeys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Magic Toolbar can also mute meetings automatically when a call comes in. The meeting mute guide lists every hotkey.",
     "hash": "e9e1b2218ba82ef4d5089920d73d8467101846ae1b886548e4b10ba25f098e1f",
     "sources": [
-      "data\\resources.js:265",
-      "data\\resources.js:1"
+      "data\\resources.js:265"
     ]
   },
   "resources.m0919": {
@@ -11915,27 +11728,11 @@
       "data\\resources.js:1"
     ]
   },
-  "resources.m1859": {
-    "text": "Do the meeting mute hotkeys mute my microphone?",
-    "hash": "7456de76edae4fada44c905e60581cf6c92cf90b2c87c2a763cc206df368a00a",
-    "sources": [
-      "data\\resources.js:278",
-      "data\\resources.js:1"
-    ]
-  },
-  "resources.m1860": {
-    "text": "No. Ctrl+Shift+Z silences Zoom and Ctrl+Alt+K silences all supported meeting apps and browsers, but only the sound you hear. They do not mute your microphone or stop your video, so use the meeting app’s own controls for those. The meeting mute guide lists every hotkey.",
-    "hash": "ec79186f693040c56047b8ac15f0b96064d271e779966d03f6e75a6c10f9f39f",
-    "sources": [
-      "data\\resources.js:278",
-      "data\\resources.js:1"
-    ]
-  },
   "resources.m0931": {
     "text": "How to choose travel agency software for your daily work",
     "hash": "4fddccc1e08b843f8fdb25a24eee6cbe8e89bc7b8b2780c7f8a9d7b57d730444",
     "sources": [
-      "data\\resources.js:283",
+      "data\\resources.js:282",
       "data\\resources.js:1"
     ]
   },
@@ -11943,7 +11740,7 @@
     "text": "Compare travel agency tools by task, supported workflows, data handling, setup, pricing and support rather than unsupported feature claims.",
     "hash": "2cddc31be663369c411f4d9c03a340d4d73e2fbc85866ba97309b693854b7e06",
     "sources": [
-      "data\\resources.js:284",
+      "data\\resources.js:283",
       "data\\resources.js:1"
     ]
   },
@@ -11951,7 +11748,7 @@
     "text": "Buying guide",
     "hash": "0e8eec154c367ab1c35061315471f8e9cbdcb67978164a9d3d10bfd41fd4dad9",
     "sources": [
-      "data\\resources.js:285",
+      "data\\resources.js:284",
       "data\\resources.js:1"
     ]
   },
@@ -11959,7 +11756,7 @@
     "text": "What is travel agency software?",
     "hash": "00a896e5914d7f9513f0aaf4012db1e07a9dea35f6a03f85abea679a7680f21c",
     "sources": [
-      "data\\resources.js:287",
+      "data\\resources.js:286",
       "data\\resources.js:1"
     ]
   },
@@ -11967,7 +11764,7 @@
     "text": "Travel agency software supports business tasks such as passenger records, customer follow-ups, quotations and reporting. A booking portal, a CRM and a desktop productivity toolbar solve different problems. Choose by the work you need to complete, not by a long list of feature names.",
     "hash": "35ba85f1c8e6bf2d870aaf249fdfaed63809b72b361828197d8104d29bc0bff5",
     "sources": [
-      "data\\resources.js:287",
+      "data\\resources.js:286",
       "data\\resources.js:1"
     ]
   },
@@ -11975,7 +11772,7 @@
     "text": "How do I compare tools?",
     "hash": "d89a075580aafffb99a47e0a5e660abad7ad7ad58a97b2ab0b8e68d40c898b97",
     "sources": [
-      "data\\resources.js:288",
+      "data\\resources.js:287",
       "data\\resources.js:1"
     ]
   },
@@ -11983,7 +11780,7 @@
     "text": "Write down your recurring task, required input, expected output and systems involved. Ask for a demonstration using synthetic data. Check operating systems, actual integrations, review steps and failure handling. A claim of compatibility should be supported by a documented workflow.",
     "hash": "7deb0c46123e68d067b9c8ce91b512f237cfa6812e25936016926a08725eddf0",
     "sources": [
-      "data\\resources.js:288",
+      "data\\resources.js:287",
       "data\\resources.js:1"
     ]
   },
@@ -11991,7 +11788,7 @@
     "text": "What should I check about customer data?",
     "hash": "91e8e8c1fd2bc3ba29452d57a3af72a91d865a2fad6d902eb247ec81d64d3986",
     "sources": [
-      "data\\resources.js:289",
+      "data\\resources.js:288",
       "data\\resources.js:1"
     ]
   },
@@ -11999,7 +11796,7 @@
     "text": "Identify what is stored, where it is stored, who can access it and which services receive it. Ask about export, deletion and retention. Do not assume that every product in one brand has identical data handling.",
     "hash": "b90026ecb5a5d868c40554ac115b19e222dfa2de7f29cf366dae432bf699e81d",
     "sources": [
-      "data\\resources.js:289",
+      "data\\resources.js:288",
       "data\\resources.js:1"
     ]
   },
@@ -12007,7 +11804,7 @@
     "text": "What should I check before paying?",
     "hash": "cfa0bf8302b613325bdd6f36cff322cff9ab0c03ce30e44e98d55d839a2d7f28",
     "sources": [
-      "data\\resources.js:290",
+      "data\\resources.js:289",
       "data\\resources.js:1"
     ]
   },
@@ -12015,7 +11812,7 @@
     "text": "Confirm the plan, billing period, activation method, device limits, refund terms and support route. Magic Toolbar lists $30 monthly and $220 yearly in USD; lifetime terms are by enquiry. Separate specialist products have their own release status and terms.",
     "hash": "a59da06759d42e6f9252501e48ef4b130ed2d99a1b54eacc2d19ad70a12db6a1",
     "sources": [
-      "data\\resources.js:290",
+      "data\\resources.js:289",
       "data\\resources.js:1"
     ]
   },
@@ -12023,7 +11820,7 @@
     "text": "Is Magic Toolbar a booking portal?",
     "hash": "75038371888a1a529111723f6972230fe09856092fa5407be23917007f63a8d8",
     "sources": [
-      "data\\resources.js:291",
+      "data\\resources.js:290",
       "data\\resources.js:1"
     ]
   },
@@ -12031,7 +11828,7 @@
     "text": "No. Magic Toolbar prepares entries and brings Windows desk tools together. It does not search live inventory, hold seats or issue tickets. The separate online-platform concepts in the catalogue have no confirmed public booking or payment capabilities.",
     "hash": "79cb61e75e17424b92c60bab2bf0e9515f541872dd71e53759266d6883859cf9",
     "sources": [
-      "data\\resources.js:291",
+      "data\\resources.js:290",
       "data\\resources.js:1"
     ]
   },
@@ -12091,412 +11888,412 @@
       "data\\screens.js:41"
     ]
   },
+  "screens.m2308": {
+    "text": "Press **Ctrl + Alt + I** to instantly display the passport photograph editor and adjust your photo to meet visa application requirements.",
+    "hash": "83f2a6b2f87b3fce7e5644ec0201a85fa0bb00bca9cd01c74ddd0e335cffba27",
+    "sources": [
+      "data\\screens.js:43"
+    ]
+  },
   "screens.m0952": {
     "text": "Drag the frame to the crown and chin, or fit the head to 75% in one click.",
     "hash": "4a7bc76fcc572d8e6b564181f1e9812d2c145a86c3779fe206be96915aa5c569",
     "sources": [
-      "data\\screens.js:43"
+      "data\\screens.js:44"
     ]
   },
   "screens.m2269": {
     "text": "Straighten in 0.5° steps or rotate the photo by 90°.",
     "hash": "6e618723b1ecec6b0d68687f6c63b2f6a149404b3bd9e1945d81d173f3b29854",
     "sources": [
-      "data\\screens.js:44"
+      "data\\screens.js:45"
     ]
   },
   "screens.m2270": {
     "text": "A checklist measures the final JPEG: pixel dimensions, 35:45 ratio, file size, head height, centring and background.",
     "hash": "a3ca567e317218a027cfb9b6d638df4ce3ec23842aa63d1d210fef5f34d2a0e8",
     "sources": [
-      "data\\screens.js:45"
+      "data\\screens.js:46"
     ]
   },
   "screens.m2271": {
     "text": "Problems are explained in plain language, such as a crown positioned too close to the top edge.",
     "hash": "79ae35bda88a3ea07cc28644f8d52f8ef6ee12fa86ff8aeb0add2b363e6711e3",
     "sources": [
-      "data\\screens.js:46"
+      "data\\screens.js:47"
     ]
   },
   "screens.m2272": {
     "text": "Measures the photo against the configured specification. It cannot guarantee acceptance, so confirm current requirements with the issuing authority.",
     "hash": "00be575cf6b4b666b149e1546a5d4bcada08a5ce7711e6d472bab6a7ea5ab804",
     "sources": [
-      "data\\screens.js:48"
+      "data\\screens.js:49"
     ]
   },
   "screens.m2273": {
     "text": "Logo & Screenshot Editor",
     "hash": "40ab37b0584087f9b7a7d0379eb258054bcf4d882d51eeb7ac0dec4ff8c489c8",
     "sources": [
-      "data\\screens.js:53"
+      "data\\screens.js:54"
     ]
   },
   "screens.m2274": {
     "text": "Capture, annotate, brand and export images.",
     "hash": "42a5fcfd6bbf786a90d8cf3db20c4b6acb761da68550d685b876485cca80afe9",
     "sources": [
-      "data\\screens.js:54"
+      "data\\screens.js:55"
     ]
   },
   "screens.m2275": {
     "text": "TravelDeskGenie Logo and Screenshot Editor showing a sample passport with strikethrough annotations, an Approved stamp, colour options, crop margins and image export settings",
     "hash": "4d66e613fb4d25b168f5fbaba721877a7ddd4fea690a0ad5fa166ad1350cea10",
     "sources": [
-      "data\\screens.js:58"
+      "data\\screens.js:59"
     ]
   },
   "screens.m1098": {
     "text": "Browse, paste with Ctrl+V, drop a file or capture part of the screen.",
     "hash": "fd4f27e636019d17f678d165b4f8bc04e44f13e4ba393926abf11a52df024e41",
     "sources": [
-      "data\\screens.js:60"
+      "data\\screens.js:61"
     ]
   },
   "screens.m0960": {
     "text": "Highlight, underline, strike through, area-highlight or stamp, in six colours.",
     "hash": "4f867d97554d77a3ea8e1860cdb42eec33a9918742abde1f4cc185119246fb41",
     "sources": [
-      "data\\screens.js:61"
+      "data\\screens.js:62"
     ]
   },
   "screens.m0961": {
     "text": "Crop margins, nudge, rotate and auto-enhance. Undo restores your edits.",
     "hash": "772c9b165102178d542db826aeefeabdb7401e945c687f7b257afeaefc8c01d1",
     "sources": [
-      "data\\screens.js:62"
+      "data\\screens.js:63"
     ]
   },
   "screens.m0962": {
     "text": "Export as JPEG, PNG, BMP or a one-page A4 PDF, with or without your logo.",
     "hash": "f52956fe435b56f468bac54518810b0507881f3e411df7505ba6be14184bd89e",
     "sources": [
-      "data\\screens.js:63"
+      "data\\screens.js:64"
     ]
   },
   "screens.m2276": {
     "text": "Sharpening improves legibility, but it cannot restore characters that blur has already removed.",
     "hash": "acf2e2259e91b813c14348a25297207c041b1e706b538d8e6822633b87efca1e",
     "sources": [
-      "data\\screens.js:65"
+      "data\\screens.js:66"
     ]
   },
   "screens.m2277": {
     "text": "Travel Genie Translator",
     "hash": "c486bee113b58b2206d674ec96ab45e09b855ba7dc5312b8b7ffe99d39412cef",
     "sources": [
-      "data\\screens.js:70"
+      "data\\screens.js:71"
     ]
   },
   "screens.m2278": {
     "text": "Understand customer messages and prepare replies in different languages.",
     "hash": "9c1ed44c5c7e499b678051b42306518f0c3fbd38f569c356bb1242888e17e72a",
     "sources": [
-      "data\\screens.js:71"
+      "data\\screens.js:72"
     ]
   },
   "screens.m2279": {
     "text": "TravelDeskGenie translation tool showing a selected Dutch customer message, detected language, English translation and a reply box",
     "hash": "35186c64d7ae7c49df93e7d0ec5bf474ee78c12c3bb5d5fc080747c2644ecbf8",
     "sources": [
-      "data\\screens.js:75"
+      "data\\screens.js:76"
     ]
   },
   "screens.m0967": {
     "text": "Select text anywhere on screen with the magnifier.",
     "hash": "d5a4ae0ed0c317cb60f23bc91fcfd88abfb5418e3f9eeaa434f01d53b6d4f86a",
     "sources": [
-      "data\\screens.js:77"
+      "data\\screens.js:78"
     ]
   },
   "screens.m0968": {
     "text": "The language is detected and translated into English.",
     "hash": "62c64dfd3cfe1ef6f173932be4d7771d9b66d8a2f133dca9f523b5c01a781cfc",
     "sources": [
-      "data\\screens.js:78"
+      "data\\screens.js:79"
     ]
   },
   "screens.m2280": {
     "text": "Correct anything misread, then translate again.",
     "hash": "967d6d439dd286fe3af291a1487ecac62f6f34467957e2ba688435288169b5d5",
     "sources": [
-      "data\\screens.js:79"
+      "data\\screens.js:80"
     ]
   },
   "screens.m0970": {
     "text": "Type your reply in English and translate it into the customer’s language.",
     "hash": "280ef1dde78408d51bd07d17af99200a07d3fb07471fc0813b88d139ee381585",
     "sources": [
-      "data\\screens.js:80"
+      "data\\screens.js:81"
     ]
   },
   "screens.m0971": {
     "text": "Translation uses an online service (Google, as shown in the app), so the selected text leaves your PC.",
     "hash": "52e7db40a6c292641b154ddb4f538d532e8d720db248739444941fcfa8f1fd9a",
     "sources": [
-      "data\\screens.js:82"
+      "data\\screens.js:83"
     ]
   },
   "screens.m2281": {
     "text": "GDS Command Decoder",
     "hash": "60c748343b49e7cb25704a0a880f4a01fb7aaf0ff3c8fe99522f97e97cd0752c",
     "sources": [
-      "data\\screens.js:87"
+      "data\\screens.js:88"
     ]
   },
   "screens.m0973": {
     "text": "Decode commands for Travelport, Amadeus and Sabre side by side.",
     "hash": "750c7563c1b38f65024800ea80072c51f464cb9cb9f5189a25e6c09cdfac81d8",
     "sources": [
-      "data\\screens.js:88"
+      "data\\screens.js:89"
     ]
   },
   "screens.m2282": {
     "text": "TravelDeskGenie GDS command decoder displaying city, airline, country, car rental, hotel and aircraft codes in Travelport, Amadeus and Sabre columns with copy buttons",
     "hash": "179f95aa8aeedd9825f41d6de76ac7df1aea90e460d6d2306a04e68a0c205186",
     "sources": [
-      "data\\screens.js:92"
+      "data\\screens.js:93"
     ]
   },
   "screens.m0975": {
     "text": "City, airline, country, car company and hotel company decodes.",
     "hash": "15719962a6708acc758565b4b4290843dec4112807e9645fcbb2840092824b2c",
     "sources": [
-      "data\\screens.js:94"
+      "data\\screens.js:95"
     ]
   },
   "screens.m0976": {
     "text": "Aircraft type decodes.",
     "hash": "8b85204cfbb536c050f965edfb4dd4d80ab514f0cb473dc8dc83db04563c812d",
     "sources": [
-      "data\\screens.js:95"
+      "data\\screens.js:96"
     ]
   },
   "screens.m0977": {
     "text": "The same task in all three GDS formats, one row per task.",
     "hash": "19701280eb4659c4f0bb09bef949a6b32c3daeb1817d37a9cb31fdcaae4d807c",
     "sources": [
-      "data\\screens.js:96"
+      "data\\screens.js:97"
     ]
   },
   "screens.m0978": {
     "text": "Copy any command with one click, with three text sizes.",
     "hash": "87e5592bfe1518b9b178aca5ba2fa9a1899f1eefa2cebd12a4b2fdc215ecbfbf",
     "sources": [
-      "data\\screens.js:97"
+      "data\\screens.js:98"
     ]
   },
   "screens.m2283": {
     "text": "Travel Agent Text Container Manager",
     "hash": "491002a9091330c671dbb5d29bccf84590e0842a924f0c52065d39330100fb7b",
     "sources": [
-      "data\\screens.js:103"
+      "data\\screens.js:104"
     ]
   },
   "screens.m2284": {
     "text": "Keep standard travel messages and templates one key away.",
     "hash": "a20f889af0ea86a940503db0b7312443b9ab4f23c870fff5caf15414f51ded1e",
     "sources": [
-      "data\\screens.js:104"
+      "data\\screens.js:105"
     ]
   },
   "screens.m2285": {
     "text": "TravelDeskGenie Container Manager displaying categories, saved travel agent text templates assigned to F-keys and Shift plus F-keys, and an editor for fare, baggage and ticket policy messages",
     "hash": "cac11d72e4053496eb869d3ef37eb2aefb479e42eaee801c3a23ccb7b13663cf",
     "sources": [
-      "data\\screens.js:108"
+      "data\\screens.js:109"
     ]
   },
   "screens.m1100": {
     "text": "Assign standard text to hotkeys such as F1–F12 and Shift+F1.",
     "hash": "713dfcf0fffc0eef9ee748dfbc0652dccb899861899b3b00ffb392db9ad41a33",
     "sources": [
-      "data\\screens.js:110"
+      "data\\screens.js:111"
     ]
   },
   "screens.m0980": {
     "text": "Organise by category: tickets, visa, follow-up, greetings and more.",
     "hash": "eb0deecabc66278186ccf1f8ec6e1bb8663c73fdd0d11f34f30256a390d069d2",
     "sources": [
-      "data\\screens.js:111"
+      "data\\screens.js:112"
     ]
   },
   "screens.m0981": {
     "text": "Mark favourites and see which slots are still free.",
     "hash": "cb80ea006a0c7c9543e80abb9c48e9cfdb4e905b49d5e197fa7b39e0867ae272",
     "sources": [
-      "data\\screens.js:112"
+      "data\\screens.js:113"
     ]
   },
   "screens.m0982": {
     "text": "Export and import a backup of all containers.",
     "hash": "0de0c58074195026b6fd3010450de698952c7ad99dc89f56af42e236e1237b76",
     "sources": [
-      "data\\screens.js:113"
+      "data\\screens.js:114"
     ]
   },
   "screens.m2286": {
     "text": "Travel Agent Phone Directory",
     "hash": "809156204af2559f720581f3a19e4cf9242f80b78154835b71769b7abcb94e09",
     "sources": [
-      "data\\screens.js:119"
+      "data\\screens.js:120"
     ]
   },
   "screens.m2287": {
     "text": "Manage clients, agents and family contacts in one searchable list.",
     "hash": "b47ba75d6ccc57881c722427fec0358406385460d083d0349106f892474d072f",
     "sources": [
-      "data\\screens.js:120"
+      "data\\screens.js:121"
     ]
   },
   "screens.m2288": {
     "text": "TravelDeskGenie Instant Phone Directory displaying sample client, agent and family contact records with codes, phone numbers, email addresses and notes",
     "hash": "7670f4bc34c8a232a420d8afad68fd1471695fdf6dda5e181ef4930980b904ad",
     "sources": [
-      "data\\screens.js:124"
+      "data\\screens.js:125"
     ]
   },
   "screens.m0986": {
     "text": "Search by name, code, phone number or note.",
     "hash": "5ff5355c94293403422994901bfc24ff0d992017154b35aabcc8f9a4ebb47012",
     "sources": [
-      "data\\screens.js:126"
+      "data\\screens.js:127"
     ]
   },
   "screens.m0987": {
     "text": "Copy a phone number, an email or the whole record.",
     "hash": "22022f6ec3df4671aaea23eb1b5d33f92d3c5306d59b6a7b17f08e94a85a6224",
     "sources": [
-      "data\\screens.js:127"
+      "data\\screens.js:128"
     ]
   },
   "screens.m0988": {
     "text": "Group family members together.",
     "hash": "bb222e3fec922507a02bff0bfea90e004eef19152536a38be5f3e21d1c063089",
     "sources": [
-      "data\\screens.js:128"
+      "data\\screens.js:129"
     ]
   },
   "screens.m0989": {
     "text": "Import and export the list.",
     "hash": "2d290d228239921060de6e11994a8843662b4ed8d9e3c9ff9e0012b36fc9af2d",
     "sources": [
-      "data\\screens.js:129"
+      "data\\screens.js:130"
     ]
   },
   "screens.m2289": {
     "text": "Travel Agent Alarms & Reminders",
     "hash": "3bc311a3e779017fda1a157d42088a8793a6657f7a8ccde0e259aac2af76201e",
     "sources": [
-      "data\\screens.js:135"
+      "data\\screens.js:136"
     ]
   },
   "screens.m2290": {
     "text": "Manage payment deadlines and customer follow-ups.",
     "hash": "bf10f860e72a78a15ec6ba63b422ede4062373dfea47f2d1d7785d88f6aaaad5",
     "sources": [
-      "data\\screens.js:136"
+      "data\\screens.js:137"
     ]
   },
   "screens.m2291": {
     "text": "TravelDeskGenie Alarms and Reminders dashboard showing upcoming payment and customer follow-up reminders with dates, categories, priorities and action buttons",
     "hash": "3dece8e6bb39cee216b3a8e0cf3081f567855ca5efe134d007861226a61f4dfd",
     "sources": [
-      "data\\screens.js:140"
+      "data\\screens.js:141"
     ]
   },
   "screens.m0993": {
     "text": "Today, Upcoming, Overdue, Recurring, Completed and Missed views.",
     "hash": "51a2ff4c6f06952d5251900986251d03d6cf9158dda4618fc291b5cace643f51",
     "sources": [
-      "data\\screens.js:142"
+      "data\\screens.js:143"
     ]
   },
   "screens.m0994": {
     "text": "Every reminder carries a category and a priority.",
     "hash": "fb44575bab1e314f92f4ceccfe90ff11859a4bd8bb57cda790a206af9e6a4647",
     "sources": [
-      "data\\screens.js:143"
+      "data\\screens.js:144"
     ]
   },
   "screens.m0995": {
     "text": "Mark done, snooze, edit, copy or delete from the same row.",
     "hash": "b26f5e94b0063d3633c80f5e57aabb9108db3ebd26d99bae63834e722434bfeb",
     "sources": [
-      "data\\screens.js:144"
+      "data\\screens.js:145"
     ]
   },
   "screens.m0996": {
     "text": "An alert appears when a reminder falls due.",
     "hash": "e5feea0dea84d8e2ad149cc53f0e4a91ad598b6b59718eab09e65684e42c921a",
     "sources": [
-      "data\\screens.js:145"
+      "data\\screens.js:146"
     ]
   },
   "screens.m2292": {
     "text": "Travel Agent Sticky Notes",
     "hash": "c3e651ac1243dc5a503c012cb7f62ec6ac528b79d6d6e764eb72220fcb3dde98",
     "sources": [
-      "data\\screens.js:151"
+      "data\\screens.js:152"
     ]
   },
   "screens.m2293": {
     "text": "Keep quick reminders visible on your desktop.",
     "hash": "a7587f485589771ae098d0ec183561fe593919b1d9a5f90edc437a894b1da6e2",
     "sources": [
-      "data\\screens.js:152"
+      "data\\screens.js:153"
     ]
   },
   "screens.m2294": {
     "text": "TravelDeskGenie yellow desktop sticky note showing a reminder, colour settings, pin, add and close buttons and a saved timestamp",
     "hash": "3b6dbd9c461829ddaa1d8786cb10ec712e650e29deca1e310afd0a0e7d34448a",
     "sources": [
-      "data\\screens.js:157"
+      "data\\screens.js:158"
     ]
   },
   "screens.m1000": {
     "text": "Pin a note on top of other windows.",
     "hash": "56c68fc98c85ea0de065a6379c206fba7f73b4ec9f91a0b4688204c0126b89f9",
     "sources": [
-      "data\\screens.js:159"
+      "data\\screens.js:160"
     ]
   },
   "screens.m1001": {
     "text": "Add a reminder or change the colour.",
     "hash": "11fc8ab33cfcc9ea5563a1faf8f44cd83af45c3039e552d76ef8bd122b821ac5",
     "sources": [
-      "data\\screens.js:160"
+      "data\\screens.js:161"
     ]
   },
   "screens.m1002": {
     "text": "Saves automatically, with a timestamp.",
     "hash": "1dbee7ff719f8d9ee69b1a116bf7d5b2da65e539545ac422dce371f8a2a394c5",
     "sources": [
-      "data\\screens.js:161"
+      "data\\screens.js:162"
+    ]
+  },
+  "site.m2309": {
+    "text": "Travel Desk Genie",
+    "hash": "56ddcee628252b1ff012fc7044ef8342fb08464c7781d86e4e1c231d473d8b3b",
+    "sources": [
+      "data\\site.js:3",
+      "lib\\seo.js:40",
+      "data\\site.js:1"
     ]
   },
   "site.m1003": {
     "text": "Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
     "hash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
     "sources": [
-      "data\\site.js:5",
-      "data\\site.js:1"
-    ]
-  },
-  "site.m2295": {
-    "text": "TravelDeskGenie",
-    "hash": "b5e59bcb3de596fb47a20ded8db5c7bc2f9e845b73090ed5d01333cf858b76cb",
-    "sources": [
-      "data\\site.js:35",
-      "data\\site.js:1"
-    ]
-  },
-  "site.m2296": {
-    "text": "Travel Technology Platform",
-    "hash": "0853d24f6ce4581c763d255188b9dcf057648a5be382d3f95390b7d57f91d43a",
-    "sources": [
-      "data\\site.js:36",
+      "data\\site.js:6",
       "data\\site.js:1"
     ]
   },
@@ -12504,7 +12301,7 @@
     "text": "TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane",
     "hash": "7b0d2f6ffed361e05663dd8c3d4d7a2a6b922756b9897e248abc39469bf57636",
     "sources": [
-      "data\\site.js:66",
+      "data\\site.js:58",
       "data\\site.js:1"
     ]
   },
@@ -12730,7 +12527,7 @@
     "text": "TravelDeskGenie mascot holding a globe with a golden airplane",
     "hash": "e63d44816b75b3d7f1f7ca542165f14a7e0ff4d17cc3e6ecb6978d1618fc1933",
     "sources": [
-      "lib\\seo.js:23"
+      "lib\\seo.js:21"
     ]
   },
   "seo.m1518": {
@@ -12745,6 +12542,14 @@
     "hash": "d764d42592fc968709b4c6c25c6e6b77919295dfce2c57ead02bedac5ddb3218",
     "sources": [
       "lib\\seo.js:40"
+    ]
+  },
+  "seo.m2310": {
+    "text": "Brand",
+    "hash": "090ed4316f1d99fd01dabfa175ba107c9cf9bb0f7c0a3feaa0b47d5bd3443fd3",
+    "sources": [
+      "lib\\seo.js:41",
+      "lib\\seo.js:91"
     ]
   },
   "seo.m1467": {
@@ -12768,88 +12573,74 @@
       "lib\\seo.js:47"
     ]
   },
-  "seo.m1506": {
-    "text": "Person",
-    "hash": "6007db63e18e532c7399975ed77d2e3900810aa75cad165b8d2e5d8b08085c3d",
-    "sources": [
-      "lib\\seo.js:63"
-    ]
-  },
   "layout.m0109": {
     "text": "WebSite",
     "hash": "ab5b0dbb8ed0550b897c12f0e1cd96ebef652e02a535406b9e703397569be757",
     "sources": [
-      "lib\\seo.js:81"
+      "lib\\seo.js:68"
     ]
   },
   "page.m0117": {
     "text": "WebPage",
     "hash": "7d1d85cadc8332e50d982637fcb80c5db3e7839b681e72f5966752c3c8f903a0",
     "sources": [
-      "lib\\seo.js:86"
-    ]
-  },
-  "seo.m1470": {
-    "text": "SpeakableSpecification",
-    "hash": "4a1f15c157545cc7e590f561b40ae4058a61785f5c8e0be952f4c188cb7896a7",
-    "sources": [
-      "lib\\seo.js:91"
+      "lib\\seo.js:73"
     ]
   },
   "seo.m1034": {
     "text": "BreadcrumbList",
     "hash": "c8522b6b2142d45a9660705597a5e7eb47fb5dd7e9e39a49fb2dbb1defd88d09",
     "sources": [
-      "lib\\seo.js:97"
+      "lib\\seo.js:84"
     ]
   },
   "seo.m1035": {
     "text": "ListItem",
     "hash": "d384f493fb4ac010eda38f8928878e21358386b93621aabfaadc27e991e2ef5a",
     "sources": [
-      "lib\\seo.js:98"
+      "lib\\seo.js:85"
     ]
   },
   "seo.m1036": {
     "text": "SoftwareApplication",
     "hash": "7fa408a1d90f66966c6706749a532665b93696afdddd9b4f6e44a8065e6c9cef",
     "sources": [
-      "lib\\seo.js:104"
+      "lib\\seo.js:91"
     ]
   },
   "seo.m1037": {
     "text": "BusinessApplication",
     "hash": "3ade7587b6a5f16c13047058082c29336ed7d721e968e1df674019683787c5c5",
     "sources": [
-      "lib\\seo.js:104"
+      "lib\\seo.js:91"
     ]
   },
   "seo.m1471": {
     "text": "Travel agency productivity software",
     "hash": "8a07d2343b6fc914d6286013c5035a73406254b7b7192061c6b22920fa2a1e6e",
     "sources": [
-      "lib\\seo.js:105"
+      "lib\\seo.js:92"
     ]
   },
   "seo.m1038": {
     "text": "Windows 11 (64-bit)",
     "hash": "8325a3b665e98bd468f907e52137f2cbb91471793b6327f0a3487f20635f35d6",
     "sources": [
-      "lib\\seo.js:105"
+      "lib\\seo.js:92"
     ]
   },
   "seo.m1039": {
     "text": "A Windows workspace for travel agents to prepare DOCS, CTCM and CTCE entries and use everyday desk tools.",
     "hash": "b6abf2acec09f0052014e9b3fc1807cb23bf6b2e9e669bd3fbb377e95fdbf1d1",
     "sources": [
-      "lib\\seo.js:106"
+      "lib\\seo.js:93"
     ]
   },
   "seo.m1472": {
     "text": "Passport to NAME, DOCS, CTCM and CTCE entries",
     "hash": "ed7fb35f9873cf0240f6c6f190bfbe26b50a69a17739ce1759dd3c24018d52a4",
     "sources": [
-      "lib\\seo.js:110",
+      "lib\\seo.js:97",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12857,7 +12648,7 @@
     "text": "Amadeus, Travelport and Sabre formats",
     "hash": "83c215435f4c5c34de7dafc3c03a5b739b1fde345c4c9962cca78d76242c6258",
     "sources": [
-      "lib\\seo.js:110",
+      "lib\\seo.js:97",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12865,7 +12656,7 @@
     "text": "F1–F12 text shortcuts",
     "hash": "7ca5ebd240d368db67b087b3cb6106a7dbb01e679d5baa1909a753c3a3caa987",
     "sources": [
-      "lib\\seo.js:110",
+      "lib\\seo.js:97",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12873,7 +12664,7 @@
     "text": "Visa photo checker",
     "hash": "dcc560734e456f78c3a281b22d4893396c52ae6fcdd8c6c52c501e19f6aaa8dd",
     "sources": [
-      "lib\\seo.js:111",
+      "lib\\seo.js:98",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12881,7 +12672,7 @@
     "text": "GDS decode search",
     "hash": "41ff9cc1a85bbb5a40cff84aa6117283292b1b2648e3e57052433bd1f87d95dc",
     "sources": [
-      "lib\\seo.js:111",
+      "lib\\seo.js:98",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12889,7 +12680,7 @@
     "text": "Translation and magnifier",
     "hash": "991a617a6284f18af919da250eb6622789006d79999273af05f671650b2dd35e",
     "sources": [
-      "lib\\seo.js:111",
+      "lib\\seo.js:98",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12897,30 +12688,23 @@
     "text": "Reminders and phone directory",
     "hash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
     "sources": [
-      "lib\\seo.js:111",
+      "lib\\seo.js:98",
       "messages\\additional-source.json:1"
-    ]
-  },
-  "seo.m1861": {
-    "text": "Meeting mute hotkeys for Zoom, Microsoft Teams and browsers",
-    "hash": "90627faf67cd5d512528324edc60ed546e3f5b1abbdc65efce7d32d13cb18c52",
-    "sources": [
-      "lib\\seo.js:112"
     ]
   },
   "seo.m1040": {
     "text": "Offer",
     "hash": "0cf57c63eb976556a273198f34e8816a586471aefa434f80dab8b77667c0a981",
     "sources": [
-      "lib\\seo.js:115",
-      "lib\\seo.js:116"
+      "lib\\seo.js:101",
+      "lib\\seo.js:102"
     ]
   },
   "seo.m1052": {
     "text": "Monthly plan",
     "hash": "babeb1cfcfbcdb714ba942c913f57403d0b8802544209e3a5f5dffc40a112862",
     "sources": [
-      "lib\\seo.js:115",
+      "lib\\seo.js:101",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12928,14 +12712,14 @@
     "text": "Monthly subscription; activation arranged through the team.",
     "hash": "d928916ac19ac4c6e54383c86e31e88dc21ad5201e22aa02b80d11f264d6eeb7",
     "sources": [
-      "lib\\seo.js:115"
+      "lib\\seo.js:101"
     ]
   },
   "seo.m1053": {
     "text": "Yearly plan",
     "hash": "335301ff09914dc65c2ab3389667ed4eb12fc443d0c702c0ba800a16196e8835",
     "sources": [
-      "lib\\seo.js:116",
+      "lib\\seo.js:102",
       "messages\\additional-source.json:1"
     ]
   },
@@ -12943,49 +12727,49 @@
     "text": "Annual subscription; activation arranged through the team.",
     "hash": "1bf398a835228f88ab1e87c345f852fa7cba519584dd7f14b7b5ca46bdfb30cd",
     "sources": [
-      "lib\\seo.js:116"
+      "lib\\seo.js:102"
     ]
   },
   "page.m0118": {
     "text": "FAQPage",
     "hash": "3fa680a3b75b02b051a88c3a6fa1e2cf18ca4fc26da67c8acf4bee9f6e96876c",
     "sources": [
-      "lib\\seo.js:124"
+      "lib\\seo.js:110"
     ]
   },
   "seo.m1519": {
     "text": "Magic Toolbar frequently asked questions",
     "hash": "2ea04760d4b0214a28ebc6ebd4310cd13d3a8fb19b12d3b4b9b2dec410a4243a",
     "sources": [
-      "lib\\seo.js:125"
+      "lib\\seo.js:111"
     ]
   },
   "seo.m1520": {
     "text": "Common questions about Travel Genie Magic Toolbar: who it is for, passport reading, shortcuts, visa photos, saved records, system needs and support.",
     "hash": "643c21cbaea95f7237eedc8bb4cdb32d571fd36080d91563e1335383594df28c",
     "sources": [
-      "lib\\seo.js:126"
+      "lib\\seo.js:112"
     ]
   },
   "page.m0119": {
     "text": "Question",
     "hash": "289aff12b04274cb04b8f7dbf486ba8b3528c6fd16b60b9a31d31ce23b339236",
     "sources": [
-      "lib\\seo.js:129"
+      "lib\\seo.js:115"
     ]
   },
   "page.m0120": {
     "text": "Answer",
     "hash": "b2a3aa602762a782e47a4f8e93bb5ae1b8819d1b92b7e6ceb3ef46a3c7077eb0",
     "sources": [
-      "lib\\seo.js:129"
+      "lib\\seo.js:115"
     ]
   },
   "page.m0226": {
     "text": "TechArticle",
     "hash": "c243bdc5e0040ee1d6a05d74b95f5b924c4e0f18fedc04219b06f027722b02cb",
     "sources": [
-      "lib\\seo.js:137"
+      "lib\\seo.js:123"
     ]
   },
   "legal.m1101": {

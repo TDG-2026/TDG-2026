@@ -77,7 +77,7 @@ DOCS examples:` },
     keywords: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f1-f12', 'shortcut', 'shortcuts', 'hotkey', 'hotkeys', 'function key', 'sneltoets', 'tastenkürzel', 'raccourci', 'atajo', 'atalho', 'scorciatoia', 'kısayol', '快捷键', '快捷鍵', 'ショートカット', '단축키', 'pintasan', 'ทางลัด', 'phím tắt', 'शॉर्टकट', 'শর্টকাট', 'горяч', 'skrót', 'اختصار', 'شارٹ کٹ', 'میانبر'],
     answer: { en: `**F1–F12 shortcuts**
 Container Manager lets you assign your standard text to F1–F12 and Shift+F-keys, so remarks, policies and greetings are one key away. Organise slots by category, mark favourites, see which slots are free, and export/import a backup.
-There's also a Zoom meeting sound hotkey: Ctrl + Shift + Z.` },
+Review each saved message before you paste it into a customer or booking workflow.` },
   },
   {
     id: 'containers', label: { en: 'Container Manager' }, followUps: ['shortcuts', 'demo', 'pricing'],
@@ -87,13 +87,6 @@ There's also a Zoom meeting sound hotkey: Ctrl + Shift + Z.` },
 • Assign each container to F1–F12 or Shift+F-keys.
 • Mark favourites and see which slots are free.
 • Export and import a backup of all containers.` },
-  },
-  {
-    id: 'zoomMute', label: { en: 'Zoom mute hotkey' }, followUps: ['shortcuts', 'features'],
-    keywords: ['zoom mute', 'mute', 'unmute', 'microphone', 'mic', 'zoom sound', 'call during zoom', 'whatsapp call'],
-    answer: { en: `**Zoom meeting sound hotkey**
-Ctrl + Shift + Z silences the Zoom meeting sound you hear, for example when a passenger calls you on WhatsApp, and a second press turns it back on.
-It doesn't mute your microphone or stop your video. Use Zoom's own shortcuts for those: Alt+A for the microphone and Alt+V for video.` },
   },
   {
     id: 'magnifier', label: { en: 'Magnifier' }, followUps: ['translate', 'features'],
@@ -208,7 +201,6 @@ Magic Toolbar prepares entries in Amadeus (1A), Travelport (1G) and Sabre (1S) f
 • Translate & magnifier
 • Phone directory and passenger families
 • Reminders, sticky notes, snip & screenshot
-• Zoom meeting sound hotkey
 
 What would you like to explore?` },
   },

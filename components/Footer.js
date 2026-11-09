@@ -5,7 +5,7 @@ import {products, trademarkNote} from '@/data/products';
 export default function Footer() {
   const named = products.filter((p) => p.status !== 'soon');
   const year = new Date().getFullYear();
-  const supportEmail = 'info@traveldeskgenie.com';
+  const supportEmail = site.supportEmail;
 
   // Use the updated privacy page while preserving other legal destinations.
   const legalLinks = {

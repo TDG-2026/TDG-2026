@@ -1202,16 +1202,6 @@
       "sourceHash": "b2f0081009f1550154b52035615447e76651143f787504c685de192c48d0b32b",
       "status": "published"
     },
-    "page.m1862": {
-      "text": "Mute Zoom, Teams & Meet Sound With a Hotkey | Travel Genie",
-      "sourceHash": "7f510d5174bb2ef68aed93599029ccc03ff4983a31454754b315d72040289e8c",
-      "status": "published"
-    },
-    "page.m1863": {
-      "text": "Mute Zoom During a WhatsApp Call: Hotkey | Travel Genie",
-      "sourceHash": "0aa242bf22365cbb210cc9a1a9bb3dce854dec10e20d3e1fac309017ef69c829",
-      "status": "published"
-    },
     "additionalsourcejson.m1124": {
       "text": "Travel Desk Shortcuts & Notes | Travel Genie",
       "sourceHash": "a965ed532febbecdbcb3ff66d532d51cef6c727781277d1d552be13ea5d78110",
@@ -1247,9 +1237,9 @@
       "sourceHash": "0deeb5111e87be3ff04c9593e3e50a05428b228c05e097153b2ce0633bab764f",
       "status": "published"
     },
-    "page.m1771": {
-      "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes, reminders and meeting mute hotkeys together on Windows, so your daily desk work moves faster.",
-      "sourceHash": "1c2969ed5e09a5493fed8efe4dba9cb9979578e7fc85ec571181d8b0e4b0dd37",
+    "page.m2299": {
+      "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes and reminders together on Windows, so your daily desk work moves faster.",
+      "sourceHash": "ef5ff293987523c042ca17b6f85dd7bf7707ad7c9cbf3f24fb7cebf464475540",
       "status": "published"
     },
     "page.m1442": {
@@ -2282,14 +2272,9 @@
       "sourceHash": "cbaad3cf4a6507e5d6f98157fa255ca964588c8c30ecf198fb9c98ed97413f59",
       "status": "published"
     },
-    "Hero.m1069": {
-      "text": "· v",
-      "sourceHash": "0bb917d86bec6d623ddbe8a217fcd58e132c2d0ffdc08ae20e9fc6e0b940b227",
-      "status": "published"
-    },
-    "Hero.m1447": {
-      "text": "Travel agency software for Windows",
-      "sourceHash": "f351f57ef25601c81137c01c6f151f7acef57952e547226de8390f76035dc1fb",
+    "Hero.m2300": {
+      "text": "Magic Toolbar for Windows",
+      "sourceHash": "25a97ad01e5206761002c66b4ae8bfdf2b7fcdc6828135e88b1e8bfd8822984e",
       "status": "published"
     },
     "Hero.m1448": {
@@ -2302,19 +2287,19 @@
       "sourceHash": "60f611538a3f4ef99a815b43e638f951aa2d7b408151b89ad16d8c9e31c15b75",
       "status": "published"
     },
-    "Hero.m1479": {
-      "text": "Magic Toolbar is Windows software for travel agents. Paste a passport and it makes NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre. It also adds shortcuts, reminders and a translator. You check each entry, then copy it into your GDS.",
-      "sourceHash": "90193a821ced9dad11d2363b44fbfcf2abf5501e35aa848b9f8aaaa84aa1e656",
+    "Hero.m2301": {
+      "text": "Magic Toolbar turns passport details into NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre. Review each entry before copying it into your GDS.",
+      "sourceHash": "c12e6d4aac48d9fc3e2bf26db06d7d7561cffc31cad481bec51cb8199bd9ce5a",
       "status": "published"
     },
-    "Hero.m0401": {
-      "text": "Magic Toolbar.",
-      "sourceHash": "fab4ccb8046969ab62e52df76ebf7174f2027dfcc61866b19ce8ffa7c6c7af6f",
+    "Hero.m2302": {
+      "text": "Time is money.",
+      "sourceHash": "610a881a6fd2c1e6759e8cea94a387bbfce46ea6fea157892940e9dd3067c867",
       "status": "published"
     },
-    "Hero.m0402": {
-      "text": "Time is money. Travel Genie saves both.",
-      "sourceHash": "b9f981473cd0e98d50e0a1aad4076f875b65e9966de545709dd1ed758d42c228",
+    "Hero.m2303": {
+      "text": "Travel Genie saves both.",
+      "sourceHash": "41afedb5cd88aaeef630281457c4eb63e3af131eacbadb700d13fcd70aa2ba7c",
       "status": "published"
     },
     "Hero.m0405": {
@@ -2332,14 +2317,14 @@
       "sourceHash": "a13dd07bb231b3648349a28ab5a202aafbfccdd41a5e8891e05c5b6a4d74b102",
       "status": "published"
     },
-    "Hero.m0408": {
-      "text": "Amadeus, Travelport & Sabre formats",
-      "sourceHash": "8d85f8eadc576ed5e950c87738a5b6c7a4babc59caabd49dd2b17206d0b55dff",
+    "Hero.m2304": {
+      "text": "Shortcuts, reminders and translation",
+      "sourceHash": "5faed59d7f576d8949ae95b57807175fbeee3e1e761e0012d774eb0845d2da47",
       "status": "published"
     },
-    "Hero.m0409": {
-      "text": "A real Travel Genie screen: one passport, three GDS formats.",
-      "sourceHash": "1bb92097c45188687dbfcba71a7035382d16f6c879e2a351d982636abf7e31c3",
+    "Hero.m2305": {
+      "text": "Magic Toolbar in action. One passport, three GDS formats.",
+      "sourceHash": "395f80965cff364c7c8cfa8bb85a4b3735fc198ed1f44db33be471ceb1c274c5",
       "status": "published"
     },
     "Hero.m0410": {
@@ -2820,21 +2805,6 @@
     "ToolbarCore.m0490": {
       "text": "Use translation support to understand text in another language.",
       "sourceHash": "7064c25e49046767b608427f605537bf72e2cda10b99ec4d229c51e5cf32b91b",
-      "status": "published"
-    },
-    "ToolbarCore.m0491": {
-      "text": "Zoom Mute / Unmute Hotkey",
-      "sourceHash": "a19c8827e64e615a0b0219f4a471e7ee40d7aa2476e38f826675cd03dab464ed",
-      "status": "published"
-    },
-    "ToolbarCore.m0492": {
-      "text": "Control received Zoom speaker sound.",
-      "sourceHash": "429ea3ed6437c900f5dd9ed41fa3bfc94b77ce8ca6fe8e7a73298b93b72e813a",
-      "status": "published"
-    },
-    "ToolbarCore.m0493": {
-      "text": "Mute or unmute Zoom with a hotkey while keeping your workflow moving.",
-      "sourceHash": "c41672ac766ac26e072f9bd38cae1d9682072f88410a4f57baf6ca2948ffd13e",
       "status": "published"
     },
     "ToolbarCore.m0494": {
@@ -4772,9 +4742,9 @@
       "sourceHash": "f025261592b07838d3d0f1ab143c70c386808469ca7a61a2b76b39d79c4527ef",
       "status": "published"
     },
-    "knowledge.m1742": {
-      "text": "**F1–F12 shortcuts**\nContainer Manager lets you assign your standard text to F1–F12 and Shift+F-keys, so remarks, policies and greetings are one key away. Organise slots by category, mark favourites, see which slots are free, and export/import a backup.\nThere's also a Zoom meeting sound hotkey: Ctrl + Shift + Z.",
-      "sourceHash": "d85e1c7b39451a4f321f2365ec008f6ab632c8099521f3b257613906a645f5e0",
+    "knowledge.m2306": {
+      "text": "**F1–F12 shortcuts**\nContainer Manager lets you assign your standard text to F1–F12 and Shift+F-keys, so remarks, policies and greetings are one key away. Organise slots by category, mark favourites, see which slots are free, and export/import a backup.\nReview each saved message before you paste it into a customer or booking workflow.",
+      "sourceHash": "c31663889363a62e3218136541f86537b0a5cf130614e24dd2fe475738615c7f",
       "status": "published"
     },
     "ToolbarCore.m0461": {
@@ -4805,36 +4775,6 @@
     "knowledge.m1092": {
       "text": "**Container Manager**\n• Save standard text (fares, baggage, ticket policy, visa notes, greetings) in categories.\n• Assign each container to F1–F12 or Shift+F-keys.\n• Mark favourites and see which slots are free.\n• Export and import a backup of all containers.",
       "sourceHash": "66418d58f47851d94e559c6b30ddae6aa954fffa863730e764d45d58a0716333",
-      "status": "published"
-    },
-    "knowledge.m0640": {
-      "text": "Zoom mute hotkey",
-      "sourceHash": "c79911df3b6c233b3b22e671a93e75e3d4be10f4e13ec9c615ec5a869e18464c",
-      "status": "published"
-    },
-    "knowledge.m0641": {
-      "text": "zoom mute",
-      "sourceHash": "32436903a26fcde9a76af7b96b2012ec40936bec7be3df94dbd87ab11929586b",
-      "status": "published"
-    },
-    "knowledge.m1743": {
-      "text": "zoom sound",
-      "sourceHash": "c4756423442fbd86bfa8056961b4e7edb15d367d8e7d73c00c8566d98af5e86a",
-      "status": "published"
-    },
-    "knowledge.m1744": {
-      "text": "call during zoom",
-      "sourceHash": "3f7ad311f520305005d1b407e62add9a3f7b4d0f9f5c7fbb1dc1694443bdc3f3",
-      "status": "published"
-    },
-    "knowledge.m1745": {
-      "text": "whatsapp call",
-      "sourceHash": "0ff7c5e9608e7452229911f2b25a3f68ae363cdb037dd3f30e0a5dd9218f33cf",
-      "status": "published"
-    },
-    "knowledge.m1746": {
-      "text": "**Zoom meeting sound hotkey**\nCtrl + Shift + Z silences the Zoom meeting sound you hear, for example when a passenger calls you on WhatsApp, and a second press turns it back on.\nIt doesn't mute your microphone or stop your video. Use Zoom's own shortcuts for those: Alt+A for the microphone and Alt+V for video.",
-      "sourceHash": "0caf59aab890158b5d3f137f501295c99bc5f5d08f3101f542e6d2e8942cf7a9",
       "status": "published"
     },
     "knowledge.m0642": {
@@ -5312,9 +5252,9 @@
       "sourceHash": "1cd1fcefa11423dacc1b4d7e5cc8ac172145ecec75143fa55132f95fd23ec61a",
       "status": "published"
     },
-    "knowledge.m1750": {
-      "text": "**Magic Toolbar: one Windows workspace for travel desks**\n• Passport → NAME, DOCS, CTCM, CTCE for Amadeus, Travelport & Sabre\n• F1–F12 shortcuts and Container Manager\n• Visa photo fixer with quality enhancer and rotate/align\n• GDS decode search\n• Translate & magnifier\n• Phone directory and passenger families\n• Reminders, sticky notes, snip & screenshot\n• Zoom meeting sound hotkey\n\nWhat would you like to explore?",
-      "sourceHash": "88e500e71c6b39506a221cb78e433dd0d01455f134a7c2e57d43706b002212bc",
+    "knowledge.m2307": {
+      "text": "**Magic Toolbar: one Windows workspace for travel desks**\n• Passport → NAME, DOCS, CTCM, CTCE for Amadeus, Travelport & Sabre\n• F1–F12 shortcuts and Container Manager\n• Visa photo fixer with quality enhancer and rotate/align\n• GDS decode search\n• Translate & magnifier\n• Phone directory and passenger families\n• Reminders, sticky notes, snip & screenshot\n\nWhat would you like to explore?",
+      "sourceHash": "4c37cdbe67b1c3debf1151d805f6d14371d0a5f8c98598d2512299d4c9894d9e",
       "status": "published"
     },
     "knowledge.m0739": {
@@ -7952,16 +7892,6 @@
       "sourceHash": "be78623bbd567fc9f35dacb0c389350d555474ed12690c7b2d97239d8b9e2ffe",
       "status": "published"
     },
-    "resources.m1859": {
-      "text": "Do the meeting mute hotkeys mute my microphone?",
-      "sourceHash": "7456de76edae4fada44c905e60581cf6c92cf90b2c87c2a763cc206df368a00a",
-      "status": "published"
-    },
-    "resources.m1860": {
-      "text": "No. Ctrl+Shift+Z silences Zoom and Ctrl+Alt+K silences all supported meeting apps and browsers, but only the sound you hear. They do not mute your microphone or stop your video, so use the meeting app’s own controls for those. The meeting mute guide lists every hotkey.",
-      "sourceHash": "ec79186f693040c56047b8ac15f0b96064d271e779966d03f6e75a6c10f9f39f",
-      "status": "published"
-    },
     "resources.m0931": {
       "text": "How to choose travel agency software for your daily work",
       "sourceHash": "4fddccc1e08b843f8fdb25a24eee6cbe8e89bc7b8b2780c7f8a9d7b57d730444",
@@ -8065,6 +7995,11 @@
     "screens.m2268": {
       "text": "TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality",
       "sourceHash": "a18ce5ce5526c7d63e51632436f0e0fc56c34f3378d4a417d69eb1c79eee98bc",
+      "status": "published"
+    },
+    "screens.m2308": {
+      "text": "Press **Ctrl + Alt + I** to instantly display the passport photograph editor and adjust your photo to meet visa application requirements.",
+      "sourceHash": "83f2a6b2f87b3fce7e5644ec0201a85fa0bb00bca9cd01c74ddd0e335cffba27",
       "status": "published"
     },
     "screens.m0952": {
@@ -8342,19 +8277,14 @@
       "sourceHash": "1dbee7ff719f8d9ee69b1a116bf7d5b2da65e539545ac422dce371f8a2a394c5",
       "status": "published"
     },
+    "site.m2309": {
+      "text": "Travel Desk Genie",
+      "sourceHash": "56ddcee628252b1ff012fc7044ef8342fb08464c7781d86e4e1c231d473d8b3b",
+      "status": "published"
+    },
     "site.m1003": {
       "text": "Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
       "sourceHash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
-      "status": "published"
-    },
-    "site.m2295": {
-      "text": "TravelDeskGenie",
-      "sourceHash": "b5e59bcb3de596fb47a20ded8db5c7bc2f9e845b73090ed5d01333cf858b76cb",
-      "status": "published"
-    },
-    "site.m2296": {
-      "text": "Travel Technology Platform",
-      "sourceHash": "0853d24f6ce4581c763d255188b9dcf057648a5be382d3f95390b7d57f91d43a",
       "status": "published"
     },
     "site.m2297": {
@@ -8532,6 +8462,11 @@
       "sourceHash": "d764d42592fc968709b4c6c25c6e6b77919295dfce2c57ead02bedac5ddb3218",
       "status": "published"
     },
+    "seo.m2310": {
+      "text": "Brand",
+      "sourceHash": "090ed4316f1d99fd01dabfa175ba107c9cf9bb0f7c0a3feaa0b47d5bd3443fd3",
+      "status": "published"
+    },
     "seo.m1467": {
       "text": "ImageObject",
       "sourceHash": "e511ba42a1fb2e0f3ecb8a42d7a5628d320661b14dbb3a6d00a9ff9899fd014b",
@@ -8547,11 +8482,6 @@
       "sourceHash": "588c0628930086020a7beec4ff9208c8d1714b383b5ad43bdb74c08cad1fcc13",
       "status": "published"
     },
-    "seo.m1506": {
-      "text": "Person",
-      "sourceHash": "6007db63e18e532c7399975ed77d2e3900810aa75cad165b8d2e5d8b08085c3d",
-      "status": "published"
-    },
     "layout.m0109": {
       "text": "WebSite",
       "sourceHash": "ab5b0dbb8ed0550b897c12f0e1cd96ebef652e02a535406b9e703397569be757",
@@ -8560,11 +8490,6 @@
     "page.m0117": {
       "text": "WebPage",
       "sourceHash": "7d1d85cadc8332e50d982637fcb80c5db3e7839b681e72f5966752c3c8f903a0",
-      "status": "published"
-    },
-    "seo.m1470": {
-      "text": "SpeakableSpecification",
-      "sourceHash": "4a1f15c157545cc7e590f561b40ae4058a61785f5c8e0be952f4c188cb7896a7",
       "status": "published"
     },
     "seo.m1034": {
@@ -8635,11 +8560,6 @@
     "seo.m1478": {
       "text": "Reminders and phone directory",
       "sourceHash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
-      "status": "published"
-    },
-    "seo.m1861": {
-      "text": "Meeting mute hotkeys for Zoom, Microsoft Teams and browsers",
-      "sourceHash": "90627faf67cd5d512528324edc60ed546e3f5b1abbdc65efce7d32d13cb18c52",
       "status": "published"
     },
     "seo.m1040": {

@@ -5,14 +5,19 @@ import { intents, gdsEntries } from '../data/genie/knowledge.js';
 const keys = Object.keys(strings.en);
 const ids = new Set(intents.map((i) => i.id));
 let errors = 0;
+let warnings = 0;
 const rows = [];
 
 for (const l of locales) {
   const cat = strings[l.code];
   const missing = cat ? keys.filter((k) => typeof cat[k] !== 'string' || !cat[k].trim()) : keys;
   const answered = intents.filter((i) => i.answer[l.code]).length;
-  if (missing.length) { errors += 1; console.error(`✖ ${l.code}: missing UI keys → ${missing.join(', ')}`); }
-  if (l.status === 'production' && answered < intents.length) {
+  if (missing.length) {
+    const message = `${l.code}: missing UI keys → ${missing.join(', ')}`;
+    if (l.status === 'draft') { warnings += 1; console.warn(`! ${message} (draft locale; not indexable)`); }
+    else { errors += 1; console.error(`✖ ${message}`); }
+  }
+  if (l.status !== 'draft' && answered < intents.length) {
     errors += 1; console.error(`✖ ${l.code}: marked production but ${intents.length - answered} answers are untranslated`);
   }
   rows.push({
@@ -31,4 +36,4 @@ for (const code of Object.keys(strings)) if (!locales.some((l) => l.code === cod
 
 console.table(rows);
 if (errors) { console.error(`\nGenie check failed with ${errors} error(s).`); process.exit(1); }
-console.log('\nGenie catalogs are structurally valid. Locales marked "NO" are not production-ready.');
+console.log(`\nGenie catalogs checked: ${errors} error(s), ${warnings} draft warning(s). Draft locales must remain noindex until reviewed and complete.`);

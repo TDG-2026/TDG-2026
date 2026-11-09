@@ -1,4 +1,4 @@
-export const resources = [
+const allResources = [
 {slug: 'passport-docs-ctcm-ctce-gds',
  title: 'Passport DOCS Entry in Amadeus, Galileo and Sabre',
  description: 'How to enter passport details (SSR DOCS) in Amadeus, Travelport Galileo and Sabre, with examples, a format comparison and the checks to make before you end the booking.',
@@ -187,7 +187,7 @@ export const resources = [
   ['What messages should a travel agent save?', 'Save text you send many times a day: greetings, payment reminders, baggage allowances, document checklists, fare rule summaries and closing lines. Keep each message short and approved by your agency. Do not store passenger passport numbers or other private data in general shortcuts.'],
   ['Can I back up and move my hotkeys?', 'Yes. You can back up all your saved texts from the Container Manager and restore them later, for example on a new PC. Keep the backup somewhere safe, and update it after you add new messages so you never have to rebuild your list.']
  ],
- related: ['travel-agent-shortcuts-notes', 'translator-for-travel-agents', 'mute-meeting-apps-hotkey']},
+ related: ['travel-agent-shortcuts-notes', 'translator-for-travel-agents']},
 
 {slug: 'translator-for-travel-agents',
  title: 'Translator for Travel Agents: Passenger Messages',
@@ -275,9 +275,8 @@ export const resources = [
   ['How do I organize command notes?', 'Keep Amadeus, Travelport and Sabre notes clearly labelled. Separate explanatory notes from text intended for copying, and review instructions when your GDS workflow changes. Stored notes are a reference, not a source of live fares or a guarantee that an entry is current.'],
   ['What belongs in a reusable container?', 'Use approved standard wording, internal checklists and reusable desk content. Keep sensitive passenger data out of general-purpose snippets, and confirm who can access the Windows account before storing customer information.'],
   ['How should I use reminders?', 'Create reminders for follow-ups and tasks, then review them as part of your day. Desktop reminders supplement your agency’s process; they should not be the sole record for payment deadlines, ticketing time limits or other critical commitments.'],
-  ['Do the meeting mute hotkeys mute my microphone?', 'No. Ctrl+Shift+Z silences Zoom and Ctrl+Alt+K silences all supported meeting apps and browsers, but only the sound you hear. They do not mute your microphone or stop your video, so use the meeting app’s own controls for those. The meeting mute guide lists every hotkey.']
  ],
- related: ['f1-f12-hotkeys-saved-messages', 'mute-meeting-apps-hotkey', 'amadeus-commands-notes', 'travel-agency-software-checklist']},
+ related: ['f1-f12-hotkeys-saved-messages', 'amadeus-commands-notes', 'travel-agency-software-checklist']},
 
 {slug: 'travel-agency-software-checklist',
  title: 'How to choose travel agency software for your daily work',
@@ -292,4 +291,7 @@ export const resources = [
  ],
  related: ['passport-docs-ctcm-ctce-gds', 'travel-agent-shortcuts-notes', 'amadeus-commands-notes']}
 ];
+// Meeting-audio controls remain unpublished until the Windows feature is tested and signed off.
+const UNVERIFIED_RESOURCE_SLUGS = new Set(['mute-meeting-apps-hotkey', 'mute-zoom-meeting-hotkey']);
+export const resources = allResources.filter((resource) => !UNVERIFIED_RESOURCE_SLUGS.has(resource.slug));
 export const findResource = slug => resources.find(r => r.slug === slug);

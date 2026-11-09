@@ -6,7 +6,8 @@ import {tourScreens} from '@/data/screens';
 export const dynamic = 'force-static';
 export function GET() {
   const b = site.url;
-  const body = [`# Travel Genie — full reference\nSource: ${b}/en · Updated 2026-10-30\n`,
+  const referenceDate = new Date().toISOString().slice(0, 10);
+  const body = [`# Travel Desk Genie — full reference\nSource: ${b}/en · Generated ${referenceDate}\n`,
     '## Quick answers', ...answers.map((a) => `### ${a.q}\n${a.a}\nMore: ${b}/en${a.link.href}\n`),
     '## Frequently asked questions', ...faqs.map(([q, a]) => `### ${q}\n${a}\n`),
     '## Magic Toolbar tools', ...tourScreens.map((s) => `### ${s.title}\n${s.short}\n${s.points.map((p) => '- ' + p).join('\n')}${s.note ? '\nNote: ' + s.note : ''}\n`),

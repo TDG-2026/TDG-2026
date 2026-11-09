@@ -91,7 +91,7 @@ export default function WorkflowDemo() {
             </L>
             <L as="div" className="segmented" role="group" aria-label="GDS format">
               {systems.map((s) => (
-                <L as="button" key={s.id} type="button" aria-pressed={gds === s.id} onClick={() => setGds(s.id)}>
+                <L as="button" key={s.id} type="button" aria-pressed={gds === s.id} aria-label={`${s.label} GDS format (${s.id})`} onClick={() => setGds(s.id)}>
                   {s.label} <L as="small">{s.id}</L>
                 </L>
               ))}
