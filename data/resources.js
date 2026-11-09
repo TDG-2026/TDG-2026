@@ -291,7 +291,9 @@ const allResources = [
  ],
  related: ['passport-docs-ctcm-ctce-gds', 'travel-agent-shortcuts-notes', 'amadeus-commands-notes']}
 ];
-// Meeting-audio controls remain unpublished until the Windows feature is tested and signed off.
-const UNVERIFIED_RESOURCE_SLUGS = new Set(['mute-meeting-apps-hotkey', 'mute-zoom-meeting-hotkey']);
-export const resources = allResources.filter((resource) => !UNVERIFIED_RESOURCE_SLUGS.has(resource.slug));
+// These guides remain routable for existing links, but are non-indexable until
+// the Windows meeting-audio feature is compiled, tested and approved for release.
+export const UNVERIFIED_RESOURCE_SLUGS = new Set(['mute-meeting-apps-hotkey', 'mute-zoom-meeting-hotkey']);
+export const resources = allResources;
+export const indexableResources = resources.filter((resource) => !UNVERIFIED_RESOURCE_SLUGS.has(resource.slug));
 export const findResource = slug => resources.find(r => r.slug === slug);

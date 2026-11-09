@@ -242,14 +242,19 @@
       "sourceHash": "f6368e7f5afae57c89fc88c05045f4dbbef1c962ca1b22bf26990f3f641f5670",
       "status": "published"
     },
-    "error.m0057": {
-      "text": "Please try again.",
-      "sourceHash": "eea4fb33efd382834952e3e7ab52f8dc41ccc2c3f5c3f246f0505235e0e962aa",
+    "error.m2299": {
+      "text": "A temporary page error may have interrupted loading. Please try again or reload the page.",
+      "sourceHash": "45d49db821114b3e6b6ab9153ed30ac86147e826571223c2b8c2983e4167bfda",
       "status": "published"
     },
     "error.m0058": {
       "text": "Try again",
       "sourceHash": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f",
+      "status": "published"
+    },
+    "error.m2300": {
+      "text": "Reload page",
+      "sourceHash": "437d0d63bfbd97326878414b17d443b5cf971bb426262793732682a828c0a442",
       "status": "published"
     },
     "page.m0059": {
@@ -1152,6 +1157,11 @@
       "sourceHash": "447f618ef3110a18cc6fa307dc6b11b994c155c4ccae1e958ef4f47d478f9828",
       "status": "published"
     },
+    "page.m2301": {
+      "text": "· Pre-release guide",
+      "sourceHash": "fb83ce3bd7ae7fd21fe88721c8a170dffa8d27e4db5b909d30060e9e5b0a6d7e",
+      "status": "published"
+    },
     "page.m0240": {
       "text": "Read the guide →",
       "sourceHash": "ca30938da4069420f832215d1fa96185a4769796a2d1e1cea48aeb150ec5f022",
@@ -1212,6 +1222,16 @@
       "sourceHash": "0b14f2a4d9c820b91b9abaca23d76e19784adc347ee1924c4e49c6a3494f9faf",
       "status": "published"
     },
+    "page.m2302": {
+      "text": "Meeting App Mute Hotkeys for Windows | Travel Genie",
+      "sourceHash": "abbf86357bcc0316dcfbc22549fb20d332481f415c875d8919801a47124097d8",
+      "status": "published"
+    },
+    "page.m2303": {
+      "text": "Mute Zoom Meeting Sound With One Hotkey | Travel Genie",
+      "sourceHash": "314546e290222fbf63ebcc014f99ff8625e5c603f52aed99760f788c899d41ee",
+      "status": "published"
+    },
     "resources.m0910": {
       "text": "Photo tools",
       "sourceHash": "4668afe39c9dd198f56ab2986398663cd58bdb39cc5d90d085bf568cbaccb6f4",
@@ -1237,7 +1257,7 @@
       "sourceHash": "0deeb5111e87be3ff04c9593e3e50a05428b228c05e097153b2ce0633bab764f",
       "status": "published"
     },
-    "page.m2299": {
+    "page.m2304": {
       "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes and reminders together on Windows, so your daily desk work moves faster.",
       "sourceHash": "ef5ff293987523c042ca17b6f85dd7bf7707ad7c9cbf3f24fb7cebf464475540",
       "status": "published"
@@ -1265,6 +1285,21 @@
     "page.m1734": {
       "text": "HowToStep",
       "sourceHash": "84f7b77c4d05f4377bc80ad8e57931903d52eb1b925e4a33c3c881002c2b3b29",
+      "status": "published"
+    },
+    "page.m2305": {
+      "text": "Feature release status",
+      "sourceHash": "8ed2b2d2f601ff0a85485943c2bde4826fff0cc346676d2fb7e2a1a4cc8d9dbb",
+      "status": "published"
+    },
+    "page.m2306": {
+      "text": "Feature release status:",
+      "sourceHash": "bc8099f435bea68c430582833e71cf88b0cbe5aefee74dc135aba72b2e528744",
+      "status": "published"
+    },
+    "page.m2307": {
+      "text": "This guide describes meeting-audio controls that have not yet completed Windows release testing. The shortcuts and app compatibility listed below are not confirmed for production use. Please wait for a verified Magic Toolbar release before relying on them.",
+      "sourceHash": "e9471111c85547de70d03d93280ec8f803b2e70b0a695ada4893d641f22accfd",
       "status": "published"
     },
     "page.m1438": {
@@ -2272,7 +2307,7 @@
       "sourceHash": "cbaad3cf4a6507e5d6f98157fa255ca964588c8c30ecf198fb9c98ed97413f59",
       "status": "published"
     },
-    "Hero.m2300": {
+    "Hero.m2308": {
       "text": "Magic Toolbar for Windows",
       "sourceHash": "25a97ad01e5206761002c66b4ae8bfdf2b7fcdc6828135e88b1e8bfd8822984e",
       "status": "published"
@@ -2287,17 +2322,17 @@
       "sourceHash": "60f611538a3f4ef99a815b43e638f951aa2d7b408151b89ad16d8c9e31c15b75",
       "status": "published"
     },
-    "Hero.m2301": {
+    "Hero.m2309": {
       "text": "Magic Toolbar turns passport details into NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre. Review each entry before copying it into your GDS.",
       "sourceHash": "c12e6d4aac48d9fc3e2bf26db06d7d7561cffc31cad481bec51cb8199bd9ce5a",
       "status": "published"
     },
-    "Hero.m2302": {
+    "Hero.m2310": {
       "text": "Time is money.",
       "sourceHash": "610a881a6fd2c1e6759e8cea94a387bbfce46ea6fea157892940e9dd3067c867",
       "status": "published"
     },
-    "Hero.m2303": {
+    "Hero.m2311": {
       "text": "Travel Genie saves both.",
       "sourceHash": "41afedb5cd88aaeef630281457c4eb63e3af131eacbadb700d13fcd70aa2ba7c",
       "status": "published"
@@ -2317,12 +2352,12 @@
       "sourceHash": "a13dd07bb231b3648349a28ab5a202aafbfccdd41a5e8891e05c5b6a4d74b102",
       "status": "published"
     },
-    "Hero.m2304": {
+    "Hero.m2312": {
       "text": "Shortcuts, reminders and translation",
       "sourceHash": "5faed59d7f576d8949ae95b57807175fbeee3e1e761e0012d774eb0845d2da47",
       "status": "published"
     },
-    "Hero.m2305": {
+    "Hero.m2313": {
       "text": "Magic Toolbar in action. One passport, three GDS formats.",
       "sourceHash": "395f80965cff364c7c8cfa8bb85a4b3735fc198ed1f44db33be471ceb1c274c5",
       "status": "published"
@@ -2807,17 +2842,17 @@
       "sourceHash": "7064c25e49046767b608427f605537bf72e2cda10b99ec4d229c51e5cf32b91b",
       "status": "published"
     },
-    "ToolbarCore.m2311": {
+    "ToolbarCore.m0491": {
       "text": "Zoom Mute / Unmute Hotkey",
       "sourceHash": "a19c8827e64e615a0b0219f4a471e7ee40d7aa2476e38f826675cd03dab464ed",
       "status": "published"
     },
-    "ToolbarCore.m2312": {
+    "ToolbarCore.m0492": {
       "text": "Control received Zoom speaker sound.",
       "sourceHash": "429ea3ed6437c900f5dd9ed41fa3bfc94b77ce8ca6fe8e7a73298b93b72e813a",
       "status": "published"
     },
-    "ToolbarCore.m2313": {
+    "ToolbarCore.m0493": {
       "text": "Mute or unmute Zoom with a hotkey while keeping your workflow moving.",
       "sourceHash": "c41672ac766ac26e072f9bd38cae1d9682072f88410a4f57baf6ca2948ffd13e",
       "status": "published"
@@ -4757,7 +4792,7 @@
       "sourceHash": "f025261592b07838d3d0f1ab143c70c386808469ca7a61a2b76b39d79c4527ef",
       "status": "published"
     },
-    "knowledge.m2306": {
+    "knowledge.m2314": {
       "text": "**F1–F12 shortcuts**\nContainer Manager lets you assign your standard text to F1–F12 and Shift+F-keys, so remarks, policies and greetings are one key away. Organise slots by category, mark favourites, see which slots are free, and export/import a backup.\nReview each saved message before you paste it into a customer or booking workflow.",
       "sourceHash": "c31663889363a62e3218136541f86537b0a5cf130614e24dd2fe475738615c7f",
       "status": "published"
@@ -5267,7 +5302,7 @@
       "sourceHash": "1cd1fcefa11423dacc1b4d7e5cc8ac172145ecec75143fa55132f95fd23ec61a",
       "status": "published"
     },
-    "knowledge.m2307": {
+    "knowledge.m2315": {
       "text": "**Magic Toolbar: one Windows workspace for travel desks**\n• Passport → NAME, DOCS, CTCM, CTCE for Amadeus, Travelport & Sabre\n• F1–F12 shortcuts and Container Manager\n• Visa photo fixer with quality enhancer and rotate/align\n• GDS decode search\n• Translate & magnifier\n• Phone directory and passenger families\n• Reminders, sticky notes, snip & screenshot\n\nWhat would you like to explore?",
       "sourceHash": "4c37cdbe67b1c3debf1151d805f6d14371d0a5f8c98598d2512299d4c9894d9e",
       "status": "published"
@@ -8012,7 +8047,7 @@
       "sourceHash": "a18ce5ce5526c7d63e51632436f0e0fc56c34f3378d4a417d69eb1c79eee98bc",
       "status": "published"
     },
-    "screens.m2308": {
+    "screens.m2316": {
       "text": "Press **Ctrl + Alt + I** to instantly display the passport photograph editor and adjust your photo to meet visa application requirements.",
       "sourceHash": "83f2a6b2f87b3fce7e5644ec0201a85fa0bb00bca9cd01c74ddd0e335cffba27",
       "status": "published"
@@ -8292,7 +8327,7 @@
       "sourceHash": "1dbee7ff719f8d9ee69b1a116bf7d5b2da65e539545ac422dce371f8a2a394c5",
       "status": "published"
     },
-    "site.m2309": {
+    "site.m2317": {
       "text": "Travel Desk Genie",
       "sourceHash": "56ddcee628252b1ff012fc7044ef8342fb08464c7781d86e4e1c231d473d8b3b",
       "status": "published"
@@ -8477,7 +8512,7 @@
       "sourceHash": "d764d42592fc968709b4c6c25c6e6b77919295dfce2c57ead02bedac5ddb3218",
       "status": "published"
     },
-    "seo.m2310": {
+    "seo.m2318": {
       "text": "Brand",
       "sourceHash": "090ed4316f1d99fd01dabfa175ba107c9cf9bb0f7c0a3feaa0b47d5bd3443fd3",
       "status": "published"

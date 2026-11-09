@@ -1,6 +1,6 @@
 import NextLink from 'next/link';
 import {notFound} from 'next/navigation';
-import {resources, findResource} from '@/data/resources';
+import {resources, findResource, UNVERIFIED_RESOURCE_SLUGS} from '@/data/resources';
 import {getTranslator} from '@/lib/i18n/catalog';
 import {localizeMetadata} from '@/lib/i18n/metadata';
 import {localePath} from '@/lib/i18n/config';
@@ -22,6 +22,8 @@ const SEO_TITLES = {
   'translator-for-travel-agents': 'Translator for Travel Agents | Travel Genie',
   'travel-agent-shortcuts-notes': 'Travel Desk Shortcuts & Notes | Travel Genie',
   'travel-agency-software-checklist': 'Travel Agency Software Checklist | Travel Genie',
+  'mute-meeting-apps-hotkey': 'Meeting App Mute Hotkeys for Windows | Travel Genie',
+  'mute-zoom-meeting-hotkey': 'Mute Zoom Meeting Sound With One Hotkey | Travel Genie',
 };
 
 // Call-to-action per guide category: [heading, text]
@@ -41,6 +43,9 @@ export async function generateMetadata({params}) {
   const r = findResource(slug); if (!r) return {};
   const meta = pageMeta(SEO_TITLES[r.slug] || r.title, r.description, '/resources/' + r.slug);
   meta.openGraph = {...meta.openGraph, type: 'article', ...(r.published ? {publishedTime: r.published} : {}), ...(r.updated ? {modifiedTime: r.updated} : {})};
+  if (UNVERIFIED_RESOURCE_SLUGS.has(r.slug)) {
+    meta.robots = {index: false, follow: true, googleBot: {index: false, follow: true}};
+  }
   return localizeMetadata(meta, locale);
 }
 
@@ -79,6 +84,11 @@ export default async function ResourcePage({params}) {
           <NextLink href={localePath('/resources', locale)}>{t('Resources')}</NextLink><span aria-hidden="true">/</span>
           <span aria-current="page">{t(r.title)}</span>
         </nav>
+        {UNVERIFIED_RESOURCE_SLUGS.has(r.slug) && (
+          <aside className="release-status-notice" role="note" aria-label="Feature release status">
+            <strong>Feature release status:</strong> This guide describes meeting-audio controls that have not yet completed Windows release testing. The shortcuts and app compatibility listed below are not confirmed for production use. Please wait for a verified Magic Toolbar release before relying on them.
+          </aside>
+        )}
         <span className="eyebrow">{t(r.category)}</span>
         <h1 className="title article-title">{t(r.title)}</h1>
         <p className="lead article-summary">{t(r.description)}</p>

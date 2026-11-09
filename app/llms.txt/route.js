@@ -1,5 +1,5 @@
 import {site} from '@/data/site';
-import {resources} from '@/data/resources';
+import {indexableResources as resources} from '@/data/resources';
 import {locales} from '@/lib/i18n/config';
 import {getCatalog} from '@/lib/i18n/catalog';
 export const dynamic = 'force-static';

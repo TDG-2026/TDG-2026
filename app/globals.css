@@ -738,3 +738,7 @@ html[dir=rtl] h1,html[dir=rtl] h2,html[dir=rtl] h3,html[dir=rtl] .eyebrow,html[d
   .callout { max-width: 100%; white-space: normal; }
   .callout .icon { flex-shrink: 0; }
 }
+
+/* Clearly disclose unverified pre-release feature guides without implying availability. */
+.release-status-notice{margin:18px 0 24px;padding:16px 18px;border:1px solid #e4c675;border-inline-start:4px solid #c58b18;border-radius:12px;background:#fff9e9;color:#58451c;font-size:.94rem;line-height:1.65}
+.release-status-notice strong{display:block;margin-bottom:4px;color:#49370f}

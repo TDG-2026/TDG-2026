@@ -36,8 +36,8 @@ check(meta.alternates?.canonical === '/', 'Page metadata must provide a canonica
 check(meta.twitter?.card === 'summary_large_image', 'Twitter cards should use a large image preview.');
 check(meta.openGraph?.images?.[0]?.width === 512 && meta.openGraph?.images?.[0]?.height === 512, 'Open Graph dimensions must match the actual 512px mascot asset.');
 
-const hiddenSlugs = ['mute-meeting-apps-hotkey', 'mute-zoom-meeting-hotkey'];
-for (const slug of hiddenSlugs) check(!findResource(slug), `Unverified resource must remain unpublished: ${slug}`);
+const unverifiedSlugs = ['mute-meeting-apps-hotkey', 'mute-zoom-meeting-hotkey'];
+for (const slug of unverifiedSlugs) check(Boolean(findResource(slug)), `Legacy guide route must remain available: ${slug}`);
 for (const resource of resources) {
   check(resource.title?.trim().length > 8, `Resource title is missing or too short: ${resource.slug}`);
   check(resource.description?.trim().length > 40, `Resource description is missing or too short: ${resource.slug}`);

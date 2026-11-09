@@ -24,7 +24,7 @@
     "i18n:auto": "node scripts/i18n-auto.mjs all",
     "i18n:auto:tier1": "node scripts/i18n-auto.mjs all --tier=1",
     "i18n:status": "node scripts/i18n-auto.mjs --status-only",
-    "check:seo": "node scripts/check-seo.mjs"
+    "check:seo": "node scripts/check-seo.mjs && node scripts/check-resource-routes.mjs"
   },
   "dependencies": {
     "next": "^16.4.3",

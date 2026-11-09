@@ -1,5 +1,5 @@
 import {site} from '@/data/site';
-import {resources} from '@/data/resources';
+import {indexableResources as resources} from '@/data/resources';
 import {faqs} from '@/data/faqs';
 import {answers} from '@/data/answers';
 import {tourScreens} from '@/data/screens';

@@ -21,11 +21,9 @@ const nextConfig = {
   async redirects() {
     const bare = SITE.host.replace(/^www\./, '');
     const hostRedirect = bare === SITE.host ? [] : [{source: '/:path*', has: [{type: 'host', value: bare}], destination: `${SITE.origin}/:path*`, permanent: true}];
-    const retiredGuideRedirects = [
-      {source: '/:locale/resources/mute-meeting-apps-hotkey', destination: '/:locale/resources', permanent: true},
-      {source: '/:locale/resources/mute-zoom-meeting-hotkey', destination: '/:locale/resources', permanent: true},
-    ];
-    return [...hostRedirect, ...retiredGuideRedirects];
+    // Keep legacy guide slugs routable. Their pages carry release-status notices
+    // and noindex metadata until the Windows feature is verified.
+    return hostRedirect;
   },
 };
 export default nextConfig;
