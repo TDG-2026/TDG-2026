@@ -1,212 +1,959 @@
-#!/usr/bin/env node
-// Travel Genie v6 — automatic translation with automated QA.
-// Provider order: Azure Translator v3 (if AZURE_TRANSLATOR_KEY is set), then self-hosted LibreTranslate
-// (if LIBRETRANSLATE_URL is set) as an automatic fallback when Azure is missing or fails.
-// Usage: node scripts/i18n-auto.mjs [all|<codes...>] [--tier=1] [--force] [--upgrade] [--status-only]
+// Travel Genie — automatic translation with automated QA.
+// Azure Translator v3 is preferred; self-hosted LibreTranslate is the fallback.
+// Usage: node scripts/i18n-auto.mjs [all|<locale-codes...>] [--tier=1] [--force] [--upgrade] [--status-only]
+
 import {readFile, writeFile, rename} from 'node:fs/promises';
 import {existsSync, readFileSync} from 'node:fs';
 import path from 'node:path';
 import {localeRegistry} from '../lib/i18n/locales.registry.js';
 
-for (const f of ['.env.local', '.env']) {
-  if (!existsSync(f)) continue;
-  for (const line of readFileSync(f, 'utf8').split(/\r?\n/)) {
-    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
-    if (m && process.env[m[1]] === undefined) process.env[m[1]] = m[2].replace(/^(['"])(.*)\1$/, '$2');
+for (const file of ['.env.local', '.env']) {
+  if (!existsSync(file)) continue;
+
+  for (const line of readFileSync(file, 'utf8').split(/\r?\n/)) {
+    const match = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
+
+    if (match && process.env[match[1]] === undefined) {      process.env[match[1]] = match[2].replace(/^(['"])(.*)\1$/, '$2');
+    }
   }
 }
 
-const ROOT = process.cwd(), MSG = path.join(ROOT, 'messages');
+const ROOT = process.cwd();
+const MSG = path.join(ROOT, 'messages');
 const argv = process.argv.slice(2);
-const has = (f) => argv.includes('--' + f);
-const val = (f, d) => { const a = argv.find((x) => x.startsWith(`--${f}=`)); return a ? a.slice(f.length + 3) : d; };
-const STATUS_ONLY = has('status-only'), FORCE = has('force'), UPGRADE = has('upgrade');
-const TIER = Number(val('tier', 99)), MAX_FAIL = Number(val('max-fail', 0.02));
-const MIN_AVAILABLE = Number(process.env.I18N_AVAILABLE_MIN || val('min-available', 0.9));
-const names = argv.filter((a) => !a.startsWith('--') && a !== 'all');
-const KEY = process.env.AZURE_TRANSLATOR_KEY, REGION = process.env.AZURE_TRANSLATOR_REGION;
-const ENDPOINT = (process.env.AZURE_TRANSLATOR_ENDPOINT || 'https://api.cognitive.microsofttranslator.com').replace(/\/+$/, '');
-if (!ENDPOINT.startsWith('https://')) throw new Error('AZURE_TRANSLATOR_ENDPOINT must use HTTPS');
-const LIBRE_URL = (process.env.LIBRETRANSLATE_URL || '').replace(/\/+$/, '');
-const LIBRE_KEY = process.env.LIBRETRANSLATE_API_KEY || '';
-const GOOD = new Set(['reviewed', 'published', 'qa-passed']);
-const ORIGIN = 'Azure Translator (machine) + automated QA';
-const LIBRE_ORIGIN = 'LibreTranslate (self-hosted machine) + automated QA';
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-let azureDown = !KEY;
 
-const GLOSSARY = ['Travel Genie Magic Toolbar', 'Travel Genie Translate', 'Travel Genie', 'Magic Toolbar', 'Genie', 'Amadeus', 'Sabre', 'Travelport+', 'Travelport',
-  'Galileo', 'Worldspan', 'Apollo', 'Abacus', 'GDS', 'NAME', 'DOCS', 'CTCM', 'CTCE', 'SSR', 'PNR', 'MRZ', 'OCR', 'APIS', 'IATA', 'WhatsApp', 'Windows 11',
-  'Windows', 'Zoom', 'DPAPI', 'NADRA', 'Emirates', 'Google', 'USD', 'F1–F12', 'Shift+F1', 'Ctrl + Shift + Z', 'Ctrl+V', 'COPY ALL', 'JPEG', 'PNG', 'BMP',
-  'PDF', 'A4', 'API', 'B2B', 'B2C', 'CRM', '1A', '1G', '1S', '24/7',
-  // v6.3: shortcuts and feature names used in the guides
-  'Ctrl+Shift+Z', 'Alt+A', 'Alt+V', 'Container Manager', 'Visa Photo Fixer',
-  // v6.3: GDS commands and codes that appear inside sentences
-  'SRDOCS', 'SSRDOCS', 'SRCTCM', 'SRCTCE', 'SSRCTCM', 'SSRCTCE', '3DOCS', '3CTCM', '3CTCE', '3INFT', 'CTCR', 'HK1', 'SR', 'SI',
-  'CHD', 'INF', 'MI', 'FI', 'AN', 'SS', 'NM', 'AP', 'TK', 'RF', 'ER', 'RT', 'XE', 'XI', 'FXP', 'FXX', 'FQD', 'DAC', 'DAN', 'DNA', 'HE',
-  'FQ', 'FD', 'WP', 'WPRQ',
-  // v6.3: CTCE email markers written in prose
-  '(..)', '(./)'];
-const reEsc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const TERMS = [...new Set(GLOSSARY)].sort((a, b) => b.length - a.length).map(reEsc).join('|');
+const has = flag => argv.includes(`--${flag}`);
+
+const argValue = (flag, fallback) => {
+  const arg = argv.find(item => item.startsWith(`--${flag}=`));
+  return arg ? arg.slice(flag.length + 3) : fallback;
+};
+
+const STATUS_ONLY = has('status-only');
+const FORCE = has('force');
+const UPGRADE = has('upgrade');
+
+const TIER = Number(argValue('tier', 99));
+const MAX_FAIL = Number(argValue('max-fail', 0.02));
+
+const MIN_AVAILABLE = Number(
+  process.env.I18N_AVAILABLE_MIN ?? argValue('min-available', 0.9)
+);
+
+const requestedLocales = argv.filter(
+  arg => !arg.startsWith('--') && arg !== 'all'
+);
+
+const KEY = process.env.AZURE_TRANSLATOR_KEY;
+const REGION = process.env.AZURE_TRANSLATOR_REGION;
+
+const ENDPOINT = (
+  process.env.AZURE_TRANSLATOR_ENDPOINT ||
+  'https://api.cognitive.microsofttranslator.com'
+).replace(/\/+$/, '');
+
+const LIBRE_URL = (
+  process.env.LIBRETRANSLATE_URL || ''
+).replace(/\/+$/, '');
+
+const LIBRE_KEY = process.env.LIBRETRANSLATE_API_KEY || '';
+
+const GOOD = new Set(['reviewed', 'published', 'qa-passed']);
+
+const AZURE_ORIGIN = 'Azure Translator (machine) + automated QA';
+
+const LIBRE_ORIGIN = 'LibreTranslate (self-hosted machine) + automated QA';
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// --------------------------------------------------
+// CONFIGURATION VALIDATION
+// --------------------------------------------------
+
+if (!Number.isFinite(TIER) || TIER < 0) {
+  throw new Error('--tier must be a non-negative number.');
+}
+
+if (!Number.isFinite(MAX_FAIL) || MAX_FAIL < 0 || MAX_FAIL > 1) {
+  throw new Error('--max-fail must be between 0 and 1.');
+}
+
+if (
+  !Number.isFinite(MIN_AVAILABLE) ||
+  MIN_AVAILABLE < 0 ||
+  MIN_AVAILABLE > 1
+) {
+  throw new Error(
+    'I18N_AVAILABLE_MIN / --min-available must be between 0 and 1.'
+  );
+}
+
+if (KEY && !/^https:\/\//i.test(ENDPOINT)) {
+  throw new Error('AZURE_TRANSLATOR_ENDPOINT must use HTTPS.');
+}
+
+if (!Array.isArray(localeRegistry) || !localeRegistry.length) {
+  throw new Error('Locale registry is missing or empty.');
+}
+
+const knownCodes = new Set(
+  localeRegistry.map(locale => locale.code)
+);
+
+const unknownCodes = requestedLocales.filter(
+  code => !knownCodes.has(code)
+);
+
+if (unknownCodes.length) {
+  throw new Error(
+    `Unknown locale code(s): ${unknownCodes.join(', ')}`
+  );
+}
+
+// --------------------------------------------------
+// PROTECTED GLOSSARY
+// --------------------------------------------------
+
+const GLOSSARY = [
+  'Travel Genie Magic Toolbar',
+  'Travel Genie Translate',
+  'Travel Genie',
+  'Magic Toolbar',
+  'Genie',
+
+  'Amadeus',
+  'Sabre',
+  'Travelport+',
+  'Travelport',
+  'Galileo',
+  'Worldspan',
+  'Apollo',
+  'Abacus',
+  'GDS',
+
+  'NAME',
+  'DOCS',
+  'CTCM',
+  'CTCE',
+  'SSR',
+  'PNR',
+  'MRZ',
+  'OCR',
+  'APIS',
+  'IATA',
+
+  'WhatsApp',
+  'Windows 11',
+  'Windows',
+  'Zoom',
+  'DPAPI',
+  'NADRA',
+  'Emirates',
+  'Google',
+  'USD',
+
+  'F1–F12',
+  'Shift+F1',
+  'Ctrl + Shift + Z',
+  'Ctrl+V',
+  'COPY ALL',
+
+  'JPEG',
+  'PNG',
+  'BMP',
+  'PDF',
+  'A4',
+  'API',
+  'B2B',
+  'B2C',
+  'CRM',
+
+  '1A',
+  '1G',
+  '1S',
+  '24/7',
+
+  'Ctrl+Shift+Z',
+  'Alt+A',
+  'Alt+V',
+
+  'Container Manager',
+  'Visa Photo Fixer',
+
+  'SRDOCS',
+  'SSRDOCS',
+  'SRCTCM',
+  'SRCTCE',
+  'SSRCTCM',
+  'SSRCTCE',
+
+  '3DOCS',
+  '3CTCM',
+  '3CTCE',
+  '3INFT',
+
+  'CTCR',
+  'HK1',
+  'SR',
+  'SI',
+  'CHD',
+  'INF',
+  'MI',
+  'FI',
+
+  'AN',
+  'SS',
+  'NM',
+  'AP',
+  'TK',
+  'RF',
+  'ER',
+  'RT',
+  'XE',
+  'XI',
+  'FXP',
+  'FXX',
+  'FQD',
+  'DAC',
+  'DAN',
+  'DNA',
+  'HE',
+  'FQ',
+  'FD',
+  'WP',
+  'WPRQ',
+
+  '(..)',
+  '(./)'
+];
+
+const escapeRegExp = text =>
+  text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+const glossaryPattern = [...new Set(GLOSSARY)]
+  .sort((a, b) => b.length - a.length)
+  .map(escapeRegExp)
+  .join('|');
+
+// --------------------------------------------------
+// PROTECTED TOKENS
+// --------------------------------------------------
+
 const PROTECT = new RegExp([
-  '\\{[A-Za-z0-9_]+\\}', 'https?://[^\\s<>"\']+', '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}',
-  '\\b[A-Z][A-Z0-9]*(?:[/.][A-Z0-9]+)+\\b', `(?<![\\p{L}\\p{N}])(?:${TERMS})(?![\\p{L}\\p{N}])`,
-  // v6.3: any uppercase/number token that contains . / * - or @ (N.  /P1  -1.1  *P-C08  .CD  W/*  N.I/)
+  '\\{[A-Za-z0-9_]+\\}',
+
+  'https?://[^\\s<>"\']+',
+
+  '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}',
+
+  '\\b[A-Z][A-Z0-9]*(?:[/.][A-Z0-9]+)+\\b',
+
+  `(?<![\\p{L}\\p{N}])(?:${glossaryPattern})(?![\\p{L}\\p{N}])`,
+
   '(?<![\\p{L}\\p{N}./*@-])(?=[A-Z0-9./*@-]*[./*@-])(?=[A-Z0-9./*@-]*[A-Z0-9])[A-Z0-9./*@-]{2,}(?![\\p{L}\\p{N}])',
-  '\\$\\d[\\d,.]*', '\\*\\*', '//',
+
+  '\\$\\d[\\d,.]*',
+
+  '\\*\\*',
+
+  '//'
 ].join('|'), 'gu');
 
-const escHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const unescHtml = (s) => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#0*39;|&apos;/g, "'").replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&');
+const escapeHtml = text =>
+  text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+
+const unescapeHtml = text =>
+  text
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#0*39;|&apos;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&');
+
+// --------------------------------------------------
+// PROTECT AND RESTORE CONTENT
+// --------------------------------------------------
+
 function protect(text) {
-  let out = '', last = 0;
-  for (const m of text.matchAll(PROTECT)) { out += escHtml(text.slice(last, m.index)) + `<span class="notranslate" translate="no">${escHtml(m[0])}</span>`; last = m.index + m[0].length; }
-  return (out + escHtml(text.slice(last))).replace(/\n/g, '<br/>');
-}
-function unprotect(html) {
-  return unescHtml(html.replace(/<br\s*\/?>/gi, '\n').replace(/<span[^>]*notranslate[^>]*>([\s\S]*?)<\/span>/gi, '$1').replace(/<\/?[a-z][^>]*>/gi, '')).replace(/[ \t]+\n/g, '\n').trim();
-}
-function qa(src, out) {
-  const issues = [];
-  if (!out || !out.trim()) issues.push('empty');
-  for (const m of src.matchAll(PROTECT)) if (!out.includes(m[0])) issues.push('missing ' + m[0]);
-  if (src.replace(PROTECT, '').trim().length > 30) { const r = out.length / src.length; if (r < 0.15 || r > 4) issues.push('length ratio ' + r.toFixed(2)); }
-  if ((src.match(/\n/g) || []).length !== (out.match(/\n/g) || []).length) issues.push('line breaks');
-  return issues;
-}
-const readJson = async (f, fb) => { try { return JSON.parse(await readFile(f, 'utf8')); } catch { return fb; } };
-async function writeJsonAtomic(file, data) { const tmp = file + '.tmp'; await writeFile(tmp, JSON.stringify(data, null, 2) + '\n', 'utf8'); await rename(tmp, file); }
+  let output = '';
+  let last = 0;
 
-async function azure(texts, to) {
-  const url = `${ENDPOINT}/translate?api-version=3.0&from=en&to=${encodeURIComponent(to)}&textType=html`;
-  for (let attempt = 1; attempt <= 6; attempt++) {
-    let res;
-    try {
-      res = await fetch(url, {method: 'POST', signal: AbortSignal.timeout(60000),
-        headers: {'Ocp-Apim-Subscription-Key': KEY, ...(REGION ? {'Ocp-Apim-Subscription-Region': REGION} : {}), 'Content-Type': 'application/json; charset=UTF-8'},
-        body: JSON.stringify(texts.map((Text) => ({Text})))});
-    } catch (e) { if (attempt === 6) throw e; await sleep(2 ** attempt * 1000); continue; }
-    if (res.ok) {
-      const data = await res.json();
-      if (!Array.isArray(data) || data.length !== texts.length) throw new Error('Malformed Azure response');
-      return data.map((d) => d?.translations?.[0]?.text ?? '');
-    }
-    if (res.status === 429 || res.status >= 500) { await sleep((Number(res.headers.get('retry-after')) || 2 ** attempt) * 1000); continue; }
-    throw new Error(`Azure ${res.status}: ${(await res.text()).slice(0, 300)}`);
+  for (const match of text.matchAll(PROTECT)) {
+    output += escapeHtml(
+      text.slice(last, match.index)
+    );
+
+    output += `<span class="notranslate" translate="no">${escapeHtml(match[0])}</span>`;
+
+    last = match.index + match[0].length;
   }
-  throw new Error('Azure retries exhausted');
+
+  return (
+    output + escapeHtml(text.slice(last))
+  ).replace(/\n/g, '<br/>');
 }
 
-// ---- Self-hosted LibreTranslate fallback (no account, no third party) ----
+function unprotect(html) {
+  const withNewlines = html.replace(
+    /<br\s*\/?>/gi,
+    '\n'
+  );
+
+  const withTokens = withNewlines.replace(
+    /<span[^>]*notranslate[^>]*>([\s\S]*?)<\/span>/gi,
+    '$1'
+  );
+
+  return unescapeHtml(
+    withTokens.replace(/<\/?[a-z][^>]*>/gi, '')
+  )
+    .replace(/[ \t]+\n/g, '\n')
+    .trim();
+}
+
+// --------------------------------------------------
+// AUTOMATED QUALITY ASSURANCE
+// --------------------------------------------------
+
+function qa(source, translated) {
+  const issues = [];
+
+  if (!translated || !translated.trim()) {
+    issues.push('empty');
+  }
+
+  for (const match of source.matchAll(PROTECT)) {
+    if (!translated.includes(match[0])) {
+      issues.push(`missing protected token: ${match[0]}`);
+    }
+  }
+
+  const plainSource = source.replace(PROTECT, '').trim();
+
+  if (plainSource.length > 30 && translated.length) {
+    const ratio = translated.length / source.length;
+
+    if (ratio < 0.15 || ratio > 4) {
+      issues.push(`length ratio ${ratio.toFixed(2)}`);
+    }
+  }
+
+  if (
+    (source.match(/\n/g) || []).length !==
+    (translated.match(/\n/g) || []).length
+  ) {
+    issues.push('line breaks');
+  }
+
+  return [...new Set(issues)];
+}
+
+// --------------------------------------------------
+// SAFE JSON OPERATIONS
+// --------------------------------------------------
+
+async function readJson(file, fallback) {
+  try {
+    return JSON.parse(
+      await readFile(file, 'utf8')
+    );
+  } catch (error) {
+    if (error.code === 'ENOENT') return fallback;
+
+    throw new Error(
+      `Cannot read/parse ${path.relative(ROOT, file)}: ${error.message}`
+    );
+  }
+}
+
+async function writeJsonAtomic(file, data) {
+  const temp = `${file}.tmp`;
+
+  await writeFile(
+    temp,
+    JSON.stringify(data, null, 2) + '\n',
+    'utf8'
+  );
+
+  await rename(temp, file);
+}
+
+// --------------------------------------------------
+// AZURE TRANSLATOR
+// --------------------------------------------------
+
+async function azure(texts, target) {
+  const url =
+    `${ENDPOINT}/translate?api-version=3.0&from=en&to=${encodeURIComponent(target)}&textType=html`;
+
+  for (let attempt = 1; attempt <= 6; attempt++) {
+    let response;
+
+    try {
+      response = await fetch(url, {
+        method: 'POST',
+
+        signal: AbortSignal.timeout(60000),
+
+        headers: {
+          'Ocp-Apim-Subscription-Key': KEY,
+
+          ...(REGION
+            ? {'Ocp-Apim-Subscription-Region': REGION}
+            : {}),
+
+          'Content-Type': 'application/json; charset=UTF-8'
+        },
+
+        body: JSON.stringify(
+          texts.map(Text => ({Text}))
+        )
+      });
+
+    } catch (error) {
+      if (attempt === 6) throw error;
+
+      await sleep(2 ** attempt * 1000);
+      continue;
+    }
+
+    if (response.ok) {
+      const data = await response.json();
+
+      if (
+        !Array.isArray(data) ||
+        data.length !== texts.length
+      ) {
+        throw new Error('Malformed Azure response.');
+      }
+
+      return data.map(
+        item => item?.translations?.[0]?.text ?? ''
+      );
+    }
+
+    if (
+      response.status === 429 ||
+      response.status >= 500
+    ) {
+      await sleep(
+        (Number(response.headers.get('retry-after')) || 2 ** attempt) * 1000
+      );
+
+      continue;
+    }
+
+    throw new Error(
+      `Azure ${response.status}: ${(await response.text()).slice(0, 300)}`
+    );
+  }
+
+  throw new Error('Azure retries exhausted.');
+}
+
+// --------------------------------------------------
+// LIBRETRANSLATE FALLBACK
+// --------------------------------------------------
+
 async function libreLanguageSet() {
   try {
-    const r = await fetch(`${LIBRE_URL}/languages`, {signal: AbortSignal.timeout(10000)});
-    if (!r.ok) return null;
-    return new Set((await r.json()).map((l) => l.code));
-  } catch { return null; }
+    const response = await fetch(
+      `${LIBRE_URL}/languages`,
+      {signal: AbortSignal.timeout(10000)}
+    );
+
+    if (!response.ok) return null;
+
+    return new Set(
+      (await response.json()).map(item => item.code)
+    );
+
+  } catch {
+    return null;
+  }
 }
-function libreCodeFor(loc, set) {
-  if (!set) return null;
-  const candidates = [loc.code, loc.mt, loc.code.split('-')[0], loc.code === 'zh-Hans' ? 'zh' : null, loc.code === 'pt-BR' ? 'pt' : null];
-  return candidates.find((c) => c && set.has(c)) || null;
+
+function libreCodeFor(locale, available) {
+  if (!available) return null;
+
+  const candidates = [
+    locale.mt,
+    locale.code,
+    locale.code.split('-')[0],
+
+    locale.code === 'zh-Hans' ? 'zh' : null,
+    locale.code === 'pt-BR' ? 'pt' : null
+  ];
+
+  return candidates.find(
+    code => code && available.has(code)
+  ) || null;
 }
+
 async function libre(texts, target) {
-  const res = await fetch(`${LIBRE_URL}/translate`, {method: 'POST', signal: AbortSignal.timeout(300000),
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({q: texts, source: 'en', target, format: 'html', ...(LIBRE_KEY ? {api_key: LIBRE_KEY} : {})})});
-  if (!res.ok) throw new Error(`LibreTranslate ${res.status}: ${(await res.text()).slice(0, 300)}`);
-  const data = await res.json();
-  const out = Array.isArray(data.translatedText) ? data.translatedText : [data.translatedText];
-  if (out.length !== texts.length) throw new Error('Malformed LibreTranslate response');
-  return out;
+  const response = await fetch(
+    `${LIBRE_URL}/translate`,
+    {
+      method: 'POST',
+
+      signal: AbortSignal.timeout(300000),
+
+      headers: {
+        'Content-Type': 'application/json'
+      },
+
+      body: JSON.stringify({
+        q: texts,
+        source: 'en',
+        target,
+        format: 'html',
+
+        ...(LIBRE_KEY
+          ? {api_key: LIBRE_KEY}
+          : {})
+      })
+    }
+  );
+
+  if (!response.ok) {
+    throw new Error(
+      `LibreTranslate ${response.status}: ${(await response.text()).slice(0, 300)}`
+    );
+  }
+
+  const data = await response.json();
+
+  const output = Array.isArray(data.translatedText)
+    ? data.translatedText
+    : [data.translatedText];
+
+  if (output.length !== texts.length) {
+    throw new Error('Malformed LibreTranslate response.');
+  }
+
+  return output;
 }
-async function viaLibre(htmls, target) {
-  const out = [];
-  for (let i = 0; i < htmls.length; i += 20) out.push(...await libre(htmls.slice(i, i + 20), target));
-  return out;
+
+async function viaLibre(texts, target) {
+  const output = [];
+
+  for (let i = 0; i < texts.length; i += 20) {
+    output.push(
+      ...await libre(
+        texts.slice(i, i + 20),
+        target
+      )
+    );
+  }
+
+  return output;
 }
+
+// --------------------------------------------------
+// BATCH MANAGEMENT
+// --------------------------------------------------
 
 function batches(items) {
-  const out = []; let cur = [], size = 0;
-  for (const it of items) { if (cur.length && (cur.length >= 100 || size + it.html.length > 40000)) { out.push(cur); cur = []; size = 0; } cur.push(it); size += it.html.length; }
-  if (cur.length) out.push(cur); return out;
+  const output = [];
+
+  let current = [];
+  let size = 0;
+
+  for (const item of items) {
+    if (
+      current.length &&
+      (
+        current.length >= 100 ||
+        size + item.html.length > 40000
+      )
+    ) {
+      output.push(current);
+
+      current = [];
+      size = 0;
+    }
+
+    current.push(item);
+    size += item.html.length;
+  }
+
+  if (current.length) {
+    output.push(current);
+  }
+
+  return output;
 }
 
-const source = await readJson(path.join(MSG, 'source.json'), null);
-if (!source) { console.error('messages/source.json missing — run npm run i18n:extract first.'); process.exit(1); }
-const keys = Object.keys(source);
-const targets = new Set(localeRegistry.filter((l) => l.code !== 'en' && l.tier <= TIER && (!names.length || names.includes(l.code))).map((l) => l.code));
-const libreSet = !STATUS_ONLY && LIBRE_URL ? await libreLanguageSet() : null;
-if (!STATUS_ONLY) {
-  if (LIBRE_URL && !libreSet) console.warn(`LibreTranslate not reachable at ${LIBRE_URL}: fallback disabled for this run.`);
-  if (!KEY && !libreSet) console.warn('No translation provider configured: running QA on existing translations only.');
-  else if (!KEY) console.log('AZURE_TRANSLATOR_KEY not set: using self-hosted LibreTranslate.');
+// --------------------------------------------------
+// LOAD AND VALIDATE SOURCE CATALOG
+// --------------------------------------------------
+
+const source = await readJson(
+  path.join(MSG, 'source.json'),
+  null
+);
+
+if (
+  !source ||
+  typeof source !== 'object' ||
+  Array.isArray(source)
+) {
+  throw new Error(
+    'messages/source.json missing/invalid — run npm run i18n:extract first.'
+  );
 }
-const report = {generatedAt: new Date().toISOString(), totalMessages: keys.length, locales: {}};
+
+const keys = Object.keys(source).filter(
+  key => source[key]?.retired !== true
+);
+
+if (!keys.length) {
+  throw new Error(
+    'messages/source.json is empty. Refusing to update locale files.'
+  );
+}
+
+for (const key of keys) {
+  if (
+    typeof source[key]?.text !== 'string' ||
+    typeof source[key]?.hash !== 'string'
+  ) {
+    throw new Error(
+      `Invalid source message "${key}": expected text and hash.`
+    );
+  }
+}
+
+// --------------------------------------------------
+// SELECT TARGET LOCALES
+// --------------------------------------------------
+
+const targets = new Set(
+  localeRegistry
+    .filter(locale =>
+      locale.code !== 'en' &&
+      locale.tier <= TIER &&
+      (
+        !requestedLocales.length ||
+        requestedLocales.includes(locale.code)
+      )
+    )
+    .map(locale => locale.code)
+);
+
+// --------------------------------------------------
+// PROVIDER INITIALIZATION
+// --------------------------------------------------
+
+const libreSet =
+  !STATUS_ONLY && LIBRE_URL
+    ? await libreLanguageSet()
+    : null;
+
+let azureDown = !KEY;
+
+if (!STATUS_ONLY) {
+  if (LIBRE_URL && !libreSet) {
+    console.warn(
+      `LibreTranslate unreachable at ${LIBRE_URL}; fallback disabled.`
+    );
+  }
+
+  if (!KEY && !libreSet) {
+    console.warn(
+      'No translation provider configured; existing translations will receive QA only.'
+    );
+  } else if (!KEY) {
+    console.log(
+      'AZURE_TRANSLATOR_KEY not set; using self-hosted LibreTranslate.'
+    );
+  }
+}
+
+// --------------------------------------------------
+// MAIN TRANSLATION PROCESS
+// --------------------------------------------------
+
+const report = {
+  generatedAt: new Date().toISOString(),
+  totalMessages: keys.length,
+  locales: {}
+};
+
 const available = ['en'];
 
-for (const loc of localeRegistry.filter((l) => l.code !== 'en')) {
-  const file = path.join(MSG, loc.code + '.json');
-  const catalog = await readJson(file, {locale: loc.code, status: 'draft', messages: {}});
-  catalog.locale = loc.code; catalog.messages ||= {};
-  const active = !STATUS_ONLY && targets.has(loc.code);
+for (
+  const locale of localeRegistry.filter(
+    item => item.code !== 'en'
+  )
+) {
+  const file = path.join(
+    MSG,
+    `${locale.code}.json`
+  );
+
+  const catalog = await readJson(
+    file,
+    {
+      locale: locale.code,
+      status: 'draft',
+      messages: {}
+    }
+  );
+
+  catalog.locale = locale.code;
+  catalog.messages ||= {};
+
+  const active =
+    !STATUS_ONLY &&
+    targets.has(locale.code);
+
   if (active) {
     try {
-      for (const k of Object.keys(catalog.messages)) if (!source[k]) delete catalog.messages[k];
-      const libreCode = libreCodeFor(loc, libreSet);
+      const libreCode = libreCodeFor(
+        locale,
+        libreSet
+      );
+
       const todo = [];
-      for (const k of keys) {
-        const m = catalog.messages[k];
-        const fresh = m?.text && m.sourceHash === source[k].hash;
-        if (fresh && (m.status === 'reviewed' || m.status === 'published')) continue;
-        const upgradable = UPGRADE && !azureDown && fresh && m.origin === LIBRE_ORIGIN;
-        if (fresh && !FORCE && !upgradable) {
-          if (m.status !== 'qa-passed') { const issues = qa(source[k].text, m.text); m.status = issues.length ? 'needs-review' : 'qa-passed'; if (issues.length) m.qa = issues; else delete m.qa; }
+
+      for (const key of keys) {
+        const message = catalog.messages[key];
+
+        const fresh = Boolean(
+          message?.text &&
+          message.sourceHash === source[key].hash
+        );
+
+        if (
+          fresh &&
+          ['reviewed', 'published'].includes(message.status) &&
+          !FORCE
+        ) {
           continue;
         }
-        todo.push({k, html: protect(source[k].text)});
-      }
-      if (todo.length && azureDown && !libreCode) {
-        console.warn(`[${loc.code}] skipped: Azure unavailable and LibreTranslate does not offer this language.`);
-      } else if (todo.length) {
-        let done = 0;
-        for (const group of batches(todo)) {
-          let out = null, origin = ORIGIN;
-          if (!azureDown) {
-            try { out = await azure(group.map((x) => x.html), loc.mt); }
-            catch (e) {
-              azureDown = true;
-              if (!libreCode) throw e;
-              console.warn(`\n[${loc.code}] Azure failed (${e.message.slice(0, 120)}). Switching to LibreTranslate for the rest of this run.`);
+
+        const upgrade =
+          UPGRADE &&
+          !azureDown &&
+          fresh &&
+          message.origin === LIBRE_ORIGIN;
+
+        if (fresh && !FORCE && !upgrade) {
+          if (message.status !== 'qa-passed') {
+            const issues = qa(
+              source[key].text,
+              message.text
+            );
+
+            message.status = issues.length
+              ? 'needs-review'
+              : 'qa-passed';
+
+            if (issues.length) {
+              message.qa = issues;
+            } else {
+              delete message.qa;
             }
           }
-          if (!out) { out = await viaLibre(group.map((x) => x.html), libreCode); origin = LIBRE_ORIGIN; }
-          group.forEach((x, i) => {
-            const text = unprotect(out[i]); const issues = qa(source[x.k].text, text);
-            catalog.messages[x.k] = {text, sourceHash: source[x.k].hash, status: issues.length ? 'needs-review' : 'qa-passed', origin,
-              translatedAt: new Date().toISOString(), ...(issues.length ? {qa: issues} : {})};
-          });
-          done += group.length; await writeJsonAtomic(file, catalog);
-          process.stdout.write(`\r[${loc.code}] ${done}/${todo.length} (${origin === ORIGIN ? 'Azure' : 'LibreTranslate'})   `);
+
+          continue;
         }
-        process.stdout.write('\n');
-      }
-    } catch (e) { console.error(`\n[${loc.code}] failed: ${e.message}`); report.locales[loc.code] = {error: e.message}; }
-  }
-  const valid = keys.filter((k) => catalog.messages[k]?.text && catalog.messages[k].sourceHash === source[k].hash);
-  const good = valid.filter((k) => GOOD.has(catalog.messages[k].status)).length;
-  const libreCount = valid.filter((k) => catalog.messages[k].origin === LIBRE_ORIGIN).length;
-  const coverage = valid.length / keys.length;
-  if (active && catalog.status !== 'published') {
-    catalog.status = valid.length === keys.length && 1 - good / keys.length <= MAX_FAIL ? 'machine-published' : 'draft';
-    await writeJsonAtomic(file, catalog);
-  }
-  if (coverage >= MIN_AVAILABLE) available.push(loc.code);
-  report.locales[loc.code] = {...report.locales[loc.code], coverage: +coverage.toFixed(4), good, needsReview: valid.length - good, libre: libreCount, status: catalog.status};
+
+// Never automatically overwrite human-reviewed translations,
+// including when the English source text has changed.
+
+if (
+  message?.text &&
+  ['reviewed', 'published'].includes(message.status) &&
+  !fresh
+) {
+  message.sourceChanged = true;
+  message.previousSourceHash = message.sourceHash;
+  message.currentSourceHash = source[key].hash;
+
+  continue;
 }
 
-await writeFile(path.join(ROOT, 'lib/i18n/available.js'),
-  `// Generated by scripts/i18n-auto.mjs. Locales with enough translated content for automatic negotiation.\nexport const availableLocales=${JSON.stringify(available)};\n`);
-if (!STATUS_ONLY) await writeJsonAtomic(path.join(ROOT, 'I18N_AUTO_REPORT.json'), report);
-console.log(`Available for auto-negotiation: ${available.length}/${localeRegistry.length} locales.`);
+        todo.push({
+          key,
+          html: protect(source[key].text)
+        });
+      }
+
+      if (todo.length && azureDown && !libreCode) {
+        console.warn(
+          `[${locale.code}] skipped: no configured provider supports this language.`
+        );
+
+      } else if (todo.length) {
+        let completed = 0;
+
+        for (const group of batches(todo)) {
+          let output = null;
+          let origin = AZURE_ORIGIN;
+
+          if (!azureDown) {
+            try {
+              if (!locale.mt) {
+                throw new Error(
+                  `No Azure language code configured for ${locale.code}.`
+                );
+              }
+
+              output = await azure(
+                group.map(item => item.html),
+                locale.mt
+              );
+
+            } catch (error) {
+              azureDown = true;
+
+              if (!libreCode) {
+                throw error;
+              }
+
+              console.warn(
+                `\n[${locale.code}] Azure failed (${error.message.slice(0, 120)}); switching to LibreTranslate.`
+              );
+            }
+          }
+
+          if (!output) {
+            output = await viaLibre(
+              group.map(item => item.html),
+              libreCode
+            );
+
+            origin = LIBRE_ORIGIN;
+          }
+
+          group.forEach((item, index) => {
+            const text = unprotect(output[index]);
+
+            const issues = qa(
+              source[item.key].text,
+              text
+            );
+
+            catalog.messages[item.key] = {
+              text,
+              sourceHash: source[item.key].hash,
+
+              status: issues.length
+                ? 'needs-review'
+                : 'qa-passed',
+
+              origin,
+              translatedAt: new Date().toISOString(),
+
+              ...(issues.length
+                ? {qa: issues}
+                : {})
+            };
+          });
+
+          completed += group.length;
+
+          await writeJsonAtomic(file, catalog);
+
+          process.stdout.write(
+            `\r[${locale.code}] ${completed}/${todo.length} (${origin === AZURE_ORIGIN ? 'Azure' : 'LibreTranslate'})   `
+          );
+        }
+
+        process.stdout.write('\n');
+      }
+
+    } catch (error) {
+      console.error(
+        `\n[${locale.code}] failed: ${error.message}`
+      );
+
+      report.locales[locale.code] = {
+        error: error.message
+      };
+    }
+  }
+
+  // ------------------------------------------------
+  // COVERAGE AND QUALITY REPORT
+  // ------------------------------------------------
+
+  const valid = keys.filter(key =>
+    catalog.messages[key]?.text &&
+    catalog.messages[key].sourceHash === source[key].hash
+  );
+
+  const good = valid.filter(key =>
+    GOOD.has(catalog.messages[key].status)
+  ).length;
+
+  const libreCount = valid.filter(key =>
+    catalog.messages[key].origin === LIBRE_ORIGIN
+  ).length;
+
+  const coverage = valid.length / keys.length;
+
+  if (
+    active &&
+    catalog.status !== 'published'
+  ) {
+    catalog.status =
+      valid.length === keys.length &&
+      (1 - good / keys.length) <= MAX_FAIL
+        ? 'machine-published'
+        : 'draft';
+
+    await writeJsonAtomic(file, catalog);
+  }
+
+  if (coverage >= MIN_AVAILABLE) {
+    available.push(locale.code);
+  }
+
+  report.locales[locale.code] = {
+    ...report.locales[locale.code],
+
+    coverage: Number(coverage.toFixed(4)),
+    good,
+    needsReview: valid.length - good,
+    libre: libreCount,
+    status: catalog.status
+  };
+}
+
+// --------------------------------------------------
+// WRITE OUTPUTS
+// --------------------------------------------------
+
+// Status-only mode must never modify files.
+
+if (!STATUS_ONLY) {
+  await writeFile(
+    path.join(ROOT, 'lib/i18n/available.js'),
+
+    `// Generated by scripts/i18n-auto.mjs. Locales with enough translated content for automatic negotiation.\nexport const availableLocales=${JSON.stringify(available)};\n`,
+
+    'utf8'
+  );
+
+  await writeJsonAtomic(
+    path.join(ROOT, 'I18N_AUTO_REPORT.json'),
+    report
+  );
+}
+
+console.log(
+  `Available for auto-negotiation: ${available.length}/${localeRegistry.length} locales.`
+);
+
+if (STATUS_ONLY) {
+  console.log(
+    'Status-only mode: no files were changed.'
+  );
+}

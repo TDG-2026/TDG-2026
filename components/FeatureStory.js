@@ -35,7 +35,8 @@ export default function FeatureStory() {
               <Image
                 src={heroScreen.src}
                 alt="Close-up of the Travelport panel: parsed passenger fields with generated NAME, DOCS, CTCE and CTCM entries and copy buttons"
-                fill sizes="(max-width: 960px) calc(100vw - 40px), (max-width: 1280px) calc((100vw - 96px) / 2), 592px"
+                fill
+                sizes="(max-width: 960px) calc(100vw - 40px), (max-width: 1280px) calc((100vw - 96px) / 2), 592px"
               />
               <L as="figcaption" className="chip chip--info zoom-label">Close-up · Travelport panel</L>
             </figure>
@@ -47,17 +48,33 @@ export default function FeatureStory() {
             <L as="span" className="itile"><Icon name="phone" /></L>
             <L as="p" className="eyebrow">CTCM</L>
             <L as="h3" id="passenger-mobile-contact">Passenger mobile contact</L>
-            <L as="p"><L as="strong">CTCM</L> carries the <L as="em">passenger&apos;s</L> mobile number, so the airline can reach the traveller about schedule changes and disruptions. Magic Toolbar prepares it for each GDS and warns when the country code is missing.</L>
+
+            <L as="p">
+              <L as="strong">CTCM</L>
+              <L as="span">
+                carries the passenger&apos;s mobile number, so the airline can reach the traveller about schedule changes and disruptions. Magic Toolbar prepares it for each GDS and warns when the country code is missing.
+              </L>
+            </L>
+
             <L as="code" className="code">SI.P1/SSRCTCMTKHK1/923000000000</L>
           </Reveal>
+
           <Reveal id="ctce" className="card feature-card" delay={100}>
             <L as="span" className="itile"><Icon name="mail" /></L>
             <L as="p" className="eyebrow">CTCE</L>
             <L as="h3" id="passenger-email-contact">Passenger email contact</L>
-            <L as="p"><L as="strong">CTCE</L> carries the <L as="em">passenger&apos;s</L> email address. Special characters are encoded the way GDS entries expect, for example <L as="code">@</L> written as <L as="code">//</L>.</L>
+
+            <L as="p">
+              <L as="strong">CTCE</L>
+              <L as="span">
+                carries the passenger&apos;s email address. Special characters are encoded as required by the GDS. For example, an at sign (@) is written as two forward slashes (//).
+              </L>
+            </L>
+
             <L as="code" className="code">SI.P1/SSRCTCETKHK1/AHMED.KHAN//EXAMPLE.COM</L>
           </Reveal>
         </L>
+
         <L as="p" className="fineprint center">
           Code examples use synthetic data. Always confirm formats against your GDS. Passenger contacts are different from agency contacts.
         </L>

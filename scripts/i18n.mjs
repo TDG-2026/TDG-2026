@@ -5,7 +5,18 @@ import {codes,canonicalLocale} from '../lib/i18n/config.js';
 import {translateBatch,protect} from '../lib/i18n/provider.mjs';
 const root=path.resolve(import.meta.dirname,'..');process.chdir(root);
 for(const name of ['.env.local','.env']){if(fs.existsSync(name))process.loadEnvFile(name);}
-const source=JSON.parse(fs.readFileSync('messages/source.json'));const keys=Object.keys(source);const command=process.argv[2]||'report';const target=process.argv[3];
+const source = JSON.parse(
+  fs.readFileSync('messages/source.json', 'utf8')
+);
+
+// Historical records remain preserved but are excluded
+// from active translation and publication coverage.
+const keys = Object.keys(source).filter(
+  key => source[key]?.retired !== true
+);
+
+const command = process.argv[2] || 'report';
+const target = process.argv[3];
 const read=locale=>{const file=`messages/${locale}.json`;return fs.existsSync(file)?JSON.parse(fs.readFileSync(file)):{locale,status:'draft',messages:{}};};
 const write=(locale,data)=>{const file=`messages/${locale}.json`;fs.writeFileSync(file+'.tmp',JSON.stringify(data,null,2)+'\n');fs.renameSync(file+'.tmp',file);};
 const fresh=(c,k)=>c.messages[k]?.sourceHash===source[k].hash&&typeof c.messages[k]?.text==='string'&&c.messages[k].text.trim();
