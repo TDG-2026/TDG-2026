@@ -68,7 +68,12 @@ for (const p of products) {
 }
 
 if (!products.some((p) => p.published)) warnings.push('Specialist applications remain previews and are excluded from the sitemap.');
-if (!site.downloadUrl) warnings.push('No downloadUrl: the hero uses Explore Magic Toolbar and the Download page shows the unavailable state.');
+if (!site.storeUrl || site.storeUrl !== 'https://apps.microsoft.com/detail/9P1J21G2Z9LZ' ||
+    site.storeProductId !== '9P1J21G2Z9LZ' ||
+    !site.storePackageIdentity ||
+    !site.storePublisherDisplayName) {
+  errors.push('The official Microsoft Store URL or supplied product identity is missing or inconsistent.');
+}
 if (!site.contactUrl && !site.supportEmail) warnings.push('No contact destination configured.');
 if (!site.legal.privacy || !site.legal.terms) warnings.push('Privacy and/or terms pages are not configured.');
 

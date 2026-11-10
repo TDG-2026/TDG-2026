@@ -24,6 +24,8 @@ check(!org.address || Boolean(org.address.addressLocality || org.address.streetA
 const app = appSchema();
 check(app['@type'] === 'SoftwareApplication', 'SoftwareApplication JSON-LD must be present.');
 check(app.brand?.name === site.name, 'SoftwareApplication must identify the Travel Genie brand.');
+check(app.downloadUrl === site.storeUrl, 'SoftwareApplication downloadUrl must use the official Microsoft Store listing.');
+check(app.identifier === site.storeProductId, 'SoftwareApplication identifier must match the supplied Store product ID.');
 check(!app.featureList.some((item) => /meeting mute|zoom mute/i.test(item)), 'Unverified meeting-audio claims must not appear in SoftwareApplication schema.');
 check((app.offers || []).every((offer) => !('availability' in offer)), 'Do not assert stock availability for subscription offers.');
 

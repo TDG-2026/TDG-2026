@@ -8,19 +8,11 @@ import Icon from './Icon';
 export default function Hero() {
   const { t: tr } = useI18n();
 
-  const primary = site.downloadUrl
-  ? {
-      href: '/download',
-      label: site.releaseVersion
-        ? `${tr('Download for Windows')} · v${site.releaseVersion}`
-        : tr('Download for Windows'),
-      icon: 'download',
-    }
-  : {
-      href: '#toolbar',
-      label: tr('Explore Magic Toolbar'),
-      icon: 'arrowRight',
-    };
+  const primary = {
+    href: site.storeUrl,
+    label: tr('Get it from Microsoft Store'),
+    icon: 'download',
+  };
 
   return (
     <L as="section" className="hero" aria-labelledby="hero-title">
@@ -48,6 +40,8 @@ export default function Hero() {
             <L
               as="a"
               href={primary.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn btn--primary btn--lg"
               data-conversion="hero_primary"
             >

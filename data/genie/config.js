@@ -1,6 +1,5 @@
 
 import { locales as websiteLocales } from '../../lib/i18n/config.js';
-import { availableLocales } from '../../lib/i18n/available.js';
 import { site } from '../site.js';
 
 export const genie = {
@@ -17,10 +16,10 @@ export const genie = {
 
   whatsappNumber: site.whatsappNumber,
   supportEmail: site.supportEmail,
-  downloadUrl: site.downloadUrl,
+  storeUrl: site.storeUrl,
 
   defaultLocale: 'en',
-  showDraftLocales: false,
+  showDraftLocales: true,
 
   // Demo reminder bubble: once per browser session.
   nudges: {
@@ -38,28 +37,22 @@ export const genie = {
 export const pricing = { currency: 'USD', monthly: 30, yearly: 220, yearlyRegular: 360 };
 
 // status: 'production' = English source.
-//         'machine'    = the website has this language at least 90% translated (lib/i18n/available.js),
-//                        so Genie offers it, using the same translation catalog for answers and UI.
-//         'draft'      = not translated yet; Genie answers in English unless showDraftLocales is true.
+//         'machine'    = a supported locale with localized Genie interface strings;
+//                        detailed website/catalog answers may still fall back to English.
+//         'draft'      = not ready for the Genie language selector.
 export const locales = websiteLocales.map((l) => ({
   code: l.code, native: l.name, english: l.english, dir: l.dir,
-  status: l.code === 'en' ? 'production' : availableLocales.includes(l.code) ? 'machine' : 'draft',
+  status: l.code === 'en' ? 'production' : 'draft',
 }));
 
 export const DEFAULT_LOCALE = 'en';
 
 // Country → suggested language (only applied if the visitor hasn't chosen a language).
 export const countries = [
-  ['PK', 'ur'], ['IN', 'hi'], ['BD', 'bn'], ['NP', 'ne'], ['AF', 'fa'], ['IR', 'fa'],
-  ['AE', 'ar'], ['SA', 'ar'], ['QA', 'ar'], ['KW', 'ar'], ['OM', 'ar'], ['BH', 'ar'], ['EG', 'ar'], ['JO', 'ar'],
-  ['LB', 'ar'], ['IQ', 'ar'], ['SY', 'ar'], ['YE', 'ar'], ['PS', 'ar'], ['MA', 'ar'], ['DZ', 'ar'], ['TN', 'ar'],
-  ['LY', 'ar'], ['SD', 'ar'],
-  ['TR', 'tr'], ['AZ', 'tr'], ['RU', 'ru'], ['KZ', 'ru'], ['KG', 'ru'], ['TJ', 'ru'], ['BY', 'ru'], ['UZ', 'uz'],
-  ['FR', 'fr'], ['BE', 'fr'], ['LU', 'fr'], ['SN', 'fr'], ['CI', 'fr'], ['CM', 'fr'], ['ML', 'fr'], ['BF', 'fr'],
-  ['NE', 'fr'], ['TG', 'fr'], ['BJ', 'fr'], ['GN', 'fr'], ['CD', 'fr'], ['MG', 'fr'],
-  ['ES', 'es'], ['MX', 'es'], ['AR', 'es'], ['CO', 'es'], ['PE', 'es'], ['CL', 'es'], ['VE', 'es'], ['EC', 'es'],
-  ['BR', 'pt-BR'], ['PT', 'pt-BR'], ['AO', 'pt-BR'], ['MZ', 'pt-BR'],
-  ['ID', 'id'], ['MY', 'ms'], ['BN', 'ms'], ['TH', 'th'], ['VN', 'vi'], ['CN', 'zh-Hans'],
-  ['IT', 'it'], ['DE', 'de'], ['AT', 'de'], ['CH', 'de'],
+  ['NL', 'nl'], ['BE', 'nl'], ['DE', 'de'], ['AT', 'de'], ['CH', 'de'],
+  ['FR', 'fr'], ['ES', 'es'], ['IT', 'it'],
+  ['AF', 'ps'], ['PK', 'ur'],
+  ['SA', 'ar'], ['AE', 'ar'], ['QA', 'ar'], ['KW', 'ar'], ['OM', 'ar'],
+  ['BH', 'ar'], ['EG', 'ar'], ['JO', 'ar'], ['LB', 'ar'], ['IQ', 'ar'],
   ['GB', 'en'], ['US', 'en'], ['CA', 'en'], ['AU', 'en'],
 ].map(([code, locale]) => ({ code, locale }));

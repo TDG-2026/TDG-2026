@@ -164,8 +164,8 @@ Magic Toolbar is a Windows desktop application.
 1. Get the official installer from this website. Each release lists its version, date and requirements.
 2. Run it and activate your PC on your subscription (steps come with the release).
 3. Open the toolbar, review passenger details and copy prepared entries into your GDS.` },
-    appendix: genie.downloadUrl
-      ? { en: 'Official download: {url}', vars: { url: genie.downloadUrl } }
+    appendix: genie.storeUrl
+      ? { en: 'Official download: {url}', vars: { url: genie.storeUrl } }
       : { en: "The public download link isn't live yet, and we won't send unverified files. Message us on WhatsApp for the release or installation help." },
   },
   {

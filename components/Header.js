@@ -35,9 +35,7 @@ export default function Header() {
     return () => mq.removeEventListener('change', onChange);
   }, []);
 
-  const cta = site.downloadUrl
-    ? { href: '/download', label: 'Download for Windows' }
-    : { href: '/download', label: 'Download' };
+  const cta = { href: site.storeUrl, label: 'Get it from Microsoft Store' };
 
   return (
     <L as="header" className="site-header">
@@ -52,7 +50,10 @@ export default function Header() {
         </L>
 
         <LanguageSwitcher/>
-        <Link href={cta.href} className="btn btn--primary btn--sm header-cta">{cta.label}</Link>
+        <L as="a" href={cta.href} target="_blank" rel="noopener noreferrer"
+          className="btn btn--primary btn--sm header-cta" data-conversion="header_store">
+          {cta.label}
+        </L>
 
         <L as="button"
           ref={btnRef} type="button" className="menu-btn"
@@ -70,7 +71,11 @@ export default function Header() {
             {navLinks.map((l) => (
               <Link key={l.href} href={l.href} onClick={() => setOpen(false)}>{l.label}</Link>
             ))}
-            <Link href={cta.href} className="btn btn--primary" onClick={() => setOpen(false)}>{cta.label}</Link>
+            <L as="a" href={cta.href} target="_blank" rel="noopener noreferrer"
+              className="btn btn--primary" data-conversion="mobile_header_store"
+              onClick={() => setOpen(false)}>
+              {cta.label}
+            </L>
           </L>
         </L>
       )}

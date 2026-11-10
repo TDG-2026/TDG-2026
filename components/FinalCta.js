@@ -5,9 +5,7 @@ import Icon from './Icon';
 import { site, mascot } from '@/data/site';
 
 export default function FinalCta() {
-  const primary = site.downloadUrl
-    ? { href: '/download', label: 'Download for Windows' }
-    : { href: '#toolbar', label: 'Explore Magic Toolbar' };
+  const primary = { href: site.storeUrl, label: 'Get it from Microsoft Store' };
 
   return (
     <L as="section" className="section">
@@ -18,7 +16,10 @@ export default function FinalCta() {
             <L as="h2" className="title">Your travel desk, with a little <L as="span" className="grad grad--gold">genie magic.</L></L>
             <L as="p" className="lead">Passport details, passenger contacts and desk tools in one Windows workspace.</L>
             <L as="div" className="hero-actions">
-              <L as="a" href={primary.href} className="btn btn--gold btn--lg">{primary.label}<Icon name="arrowRight" /></L>
+              <L as="a" href={primary.href} target="_blank" rel="noopener noreferrer"
+                data-conversion="final_store" className="btn btn--gold btn--lg">
+                {primary.label}<Icon name="arrowRight" />
+              </L>
               <L as="a" href="#products" className="btn btn--light btn--lg">Browse products</L>
             </L>
           </L>

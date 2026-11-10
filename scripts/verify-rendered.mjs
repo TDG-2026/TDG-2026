@@ -3,6 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import {locales, splitPath} from '../lib/i18n/config.js';
 import {products} from '../data/products.js';
+import {UNVERIFIED_RESOURCE_SLUGS} from '../data/resources.js';
 import {getCatalog} from '../lib/i18n/catalog.js';
 import {site} from '../data/site.js';
 
@@ -27,9 +28,17 @@ for (const [route, html] of rendered) {
   for (const m of html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)) JSON.parse(m[1]);
   const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
   assert.equal(new Set(ids).size, ids.length, route + ' duplicate IDs');
-  const draft = !catalog.published || routePath.startsWith('/platform/')
-    || products.some((p) => !p.published && (p.path || '/products/' + p.slug) === routePath)
-    || ['/privacy', '/terms', '/refund', '/delivery'].includes(routePath);
+  const resourceSlug = routePath.startsWith('/resources/')
+  ? routePath.slice('/resources/'.length)
+  : '';
+
+const draft = !catalog.published
+  || routePath.startsWith('/platform/')
+  || UNVERIFIED_RESOURCE_SLUGS.has(resourceSlug)
+  || products.some((p) =>
+    !p.published && (p.path || '/products/' + p.slug) === routePath
+  )
+  || ['/privacy', '/terms', '/refund', '/delivery'].includes(routePath);
   assert.equal(html.includes('content="noindex, follow"'), draft, route + ' indexing mismatch');
   if (draft) assert(!/<link[^>]+rel="alternate"[^>]+hrefLang=/.test(html), route + ' draft must not advertise SEO alternates');
   for (const m of html.matchAll(/<a\b[^>]*href="([^"]*)"/g)) {

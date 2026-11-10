@@ -5,8 +5,13 @@ import {localizeMetadata} from '@/lib/i18n/metadata';
 import {pageMeta, webPageSchema, breadcrumbs} from '@/lib/seo';
 import StructuredData from '@/components/StructuredData';
 
+const LANGUAGE_FLAGS = {
+  nl: '🇳🇱', en: '🇬🇧', de: '🇩🇪', fr: '🇫🇷', it: '🇮🇹',
+  es: '🇪🇸', ps: '🇦🇫', ar: '🇸🇦', ur: '🇵🇰',
+};
+
 const META = pageMeta('Website Languages | Travel Genie',
-  'Use the Travel Genie website in your language. See every supported language, its translation status and how language detection works.', '/languages');
+  'Choose from nine configured website languages. See translation readiness and how browser and region language detection works.', '/languages');
 export async function generateMetadata({params}) { const {locale} = await params; return localizeMetadata(META, locale); }
 
 export default async function LanguagesPage({params}) {
@@ -21,7 +26,7 @@ export default async function LanguagesPage({params}) {
         <div className="section-head">
           <span className="eyebrow">{t('Languages')}</span>
           <h1 className="title">{t('Choose your language')}</h1>
-          <p className="lead">{t('Travel Genie is built for {count} languages. Pick the one you read best. Your choice is saved on this device for 180 days.', {count: locales.length})}</p>
+          <p className="lead">{t('Travel Genie offers {count} language choices. Full page translations are released after review. Choose the language you prefer; your choice is saved on this device for 180 days.', {count: locales.length})}</p>
         </div>
         <ul className="language-list">
           {rows.map((l) => {
@@ -29,13 +34,13 @@ export default async function LanguagesPage({params}) {
               : t('In preparation · {percent}% translated', {percent: Math.round(l.coverage * 100)});
             return <li key={l.code}>
               <NextLink href={localePath('/', l.code)} hrefLang={l.code} prefetch={false} aria-current={l.code === locale ? 'page' : undefined}>
-                <strong lang={l.code} dir={l.dir}>{l.name}</strong><small>{l.english} · {status}</small>
+                <strong lang={l.code} dir={l.dir}><span aria-hidden="true">{LANGUAGE_FLAGS[l.code] || '🌐'} </span>{l.name}</strong><small>{l.english} · {status}</small>
               </NextLink>
             </li>;
           })}
         </ul>
         <h2 className="sub-title">{t('How is my language chosen?')}</h2>
-        <p className="answer-first">{t('The website first uses the language in the page address. If there is none, it uses the language you chose before, then your browser languages, then your region when the hosting platform provides it, and finally English. Automatic detection only picks languages that are fully translated. You can change the language at any time from the menu at the top.')}</p>
+        <p className="answer-first">{t('The website first respects an explicit language in the page address and your saved preference. On a first visit it checks your browser language, then your region when the hosting platform provides a trusted country signal, and finally English. Some non-English page catalogs are still awaiting translation and native review; those pages remain out of search indexes until ready. You can change language at any time from the menu.')}</p>
       </div>
     </section>
   );

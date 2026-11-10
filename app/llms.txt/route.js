@@ -11,7 +11,8 @@ export async function GET() {
 > Travel Genie makes Windows productivity software for travel agencies. Its flagship product, Magic Toolbar, prepares passenger NAME, DOCS, CTCM and CTCE entries in Amadeus, Travelport and Sabre formats and adds desk tools: F1–F12 text shortcuts, reminders, phone directory, translation and visa photo checks. It does not issue tickets, search fares or connect to a GDS.
 
 ## Key facts
-- Platform: Windows 11 (64-bit) desktop application
+- Platform: Windows desktop application; check the Microsoft Store listing for current device requirements
+- Official Microsoft Store listing: ${site.storeUrl} (Store ID: ${site.storeProductId})
 - Pricing (USD): $30/month, $220/year (saves $140), lifetime on request, 3-day trial
 - Data: passport OCR runs locally; saved family records use Windows DPAPI; Translate sends selected text to an online service
 - Support: ${site.supportEmail} · WhatsApp +${site.whatsappNumber}
@@ -20,7 +21,8 @@ export async function GET() {
 ## Main pages
 - [Magic Toolbar](${b}/en/products/magic-toolbar)
 - [Pricing](${b}/en/pricing)
-- [Download](${b}/en/download)
+- [Download and Microsoft Store installation guide](${b}/en/download)
+- [Official Microsoft Store listing](${site.storeUrl})
 - [User guide](${b}/en/guide)
 - [Data handling](${b}/en/security-and-privacy)
 - [Support](${b}/en/support)
