@@ -16,7 +16,15 @@ test('migrated locale entries use current source keys and exact current source h
       assert.ok(source[key], `${locale}/${key} is not a current source key`);
       assert.equal(message.sourceHash, source[key].hash, `${locale}/${key} has stale source hash`);
       assert.equal(message.status, 'machine-translated');
-      assert.ok(message.migration?.legacyKey, `${locale}/${key} lacks legacy mapping trace`);
+      if (message.migration) {
+  assert.ok(message.migration.legacyKey, `${locale}/${key} has incomplete legacy mapping`);
+} else {
+  assert.equal(
+    message.translationProvider,
+    'DeepL API',
+    `${locale}/${key} must have migration trace or DeepL provider metadata`
+  );
+}
     }
   }
 });

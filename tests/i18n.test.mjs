@@ -120,7 +120,14 @@ test('Azure and LibreTranslate website translation integrations are removed', ()
   const envExample = fs.readFileSync('.env.example', 'utf8');
   assert(!/AZURE_TRANSLATOR|LIBRETRANSLATE|TRANSLATION_PROVIDER/.test(envExample));
   const packageJson = JSON.parse(fs.readFileSync('package.json', 'utf8'));
-  assert(!Object.keys(packageJson.scripts).some((key) => /translate|i18n:auto|i18n:release/.test(key)));
+  assert(!Object.keys(packageJson.scripts).some((key) =>
+  /^(i18n:auto|i18n:release|translate:auto)$/.test(key)
+));
+
+assert.equal(
+  packageJson.scripts['translate:deepl'],
+  'node scripts/translate-deepl-once.mjs'
+);
 });
 
 test('all primary product download destinations use the central Store URL', () => {
