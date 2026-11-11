@@ -112,7 +112,7 @@ test('retired locale prefixes are consolidated to English', () => {
   assert.equal(response.headers.get('location'), 'https://example.com/en/contact');
 });
 
-test('Azure and LibreTranslate website translation integrations are removed', () => {
+test('paid translation integrations and scripts are removed', () => {
   assert.equal(fs.existsSync('lib/i18n/provider.mjs'), false);
   assert.equal(fs.existsSync('scripts/i18n-auto.mjs'), false);
   assert.equal(fs.existsSync('scripts/i18n.mjs'), false);
@@ -124,10 +124,10 @@ test('Azure and LibreTranslate website translation integrations are removed', ()
   /^(i18n:auto|i18n:release|translate:auto)$/.test(key)
 ));
 
-assert.equal(
-  packageJson.scripts['translate:deepl'],
-  'node scripts/translate-deepl-once.mjs'
-);
+assert.equal(packageJson.scripts['translate:deepl'], undefined);
+assert(!Object.keys(packageJson.scripts).some((key) =>
+  /translate:deepl/.test(key)
+));
 });
 
 test('all primary product download destinations use the central Store URL', () => {
