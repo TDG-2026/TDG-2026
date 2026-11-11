@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-11-11T02:36:39.355Z",
+  "method": "sha256-source-text-match",
+  "note": "Machine-translated content is not human-reviewed and all non-English catalogs remain draft/noindex.",
+  "locales": [
+    {
+      "locale": "nl",
+      "total": 1238,
+      "migrated": 35,
+      "missing": 1203,
+      "conflicts": 0,
+      "invalid": 0
+    },
+    {
+      "locale": "de",
+      "total": 1238,
+      "migrated": 1196,
+      "missing": 42,
+      "conflicts": 0,
+      "invalid": 0
+    },
+    {
+      "locale": "fr",
+      "total": 1238,
+      "migrated": 1196,
+      "missing": 42,
+      "conflicts": 0,
+      "invalid": 0
+    },
+    {
+      "locale": "it",
+      "total": 1238,
+      "migrated": 1196,
+      "missing": 42,
+      "conflicts": 0,
+      "invalid": 0
+    },
+    {
+      "locale": "es",
+      "total": 1238,
+      "migrated": 1196,
+      "missing": 42,
+      "conflicts": 0,
+      "invalid": 0
+    },
+    {
+      "locale": "ps",
+      "total": 1238,
+      "migrated": 0,
+      "missing": 1238,
+      "conflicts": 0,
+      "invalid": 0
+    },
+    {
+      "locale": "ar",
+      "total": 1238,
+      "migrated": 1196,
+      "missing": 42,
+      "conflicts": 0,
+      "invalid": 0
+    },
+    {
+      "locale": "ur",
+      "total": 1238,
+      "migrated": 1196,
+      "missing": 42,
+      "conflicts": 0,
+      "invalid": 0
+    }
+  ]
+}

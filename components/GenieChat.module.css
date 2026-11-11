@@ -82,12 +82,12 @@
 .sheetSearch{margin:0 16px 10px;padding:10px 14px;border:1px solid var(--line,#e3e8f5);border-radius:12px;font:inherit;font-size:.92rem;color:var(--ink,#0f1b3d)}
 .sheetSearch:focus{outline:none;border-color:var(--violet,#6d4aff);box-shadow:0 0 0 3px rgba(109,74,255,.15)}
 .langList{flex:1;display:grid;align-content:start;gap:6px;margin:0;padding:4px 12px 16px;list-style:none;overflow-y:auto;overscroll-behavior:contain}
-.langItem{width:100%;display:grid;grid-template-columns:1fr auto;column-gap:12px;row-gap:1px;align-items:center;padding:11px 14px;border:1px solid var(--line,#e3e8f5);border-radius:14px;background:#fff;font:inherit;color:var(--ink,#0f1b3d);text-align:start;cursor:pointer;transition:background .15s,border-color .15s}
+.langItem{width:100%;display:grid;grid-template-columns:26px minmax(0,1fr) auto;column-gap:12px;row-gap:1px;align-items:center;padding:11px 14px;border:1px solid var(--line,#e3e8f5);border-radius:14px;background:#fff;font:inherit;color:var(--ink,#0f1b3d);text-align:start;cursor:pointer;transition:background .15s,border-color .15s}
 .langItem:hover{background:var(--bg-soft,#f6f8ff);border-color:#d5dcf5}
-.langNative{grid-column:1;justify-self:start;font-size:1.02rem;font-weight:700;line-height:1.35}
+.langNative{grid-column:2;justify-self:start;font-size:1.02rem;font-weight:700;line-height:1.35}
 .langNative[lang='ur']{font-family:"Noto Nastaliq Urdu","Jameel Noori Nastaleeq",inherit;line-height:1.9}
-.langEnglish{grid-column:1;justify-self:start;font-size:.78rem;color:var(--muted,#6b7699)}
-.check{grid-column:2;grid-row:1/3;width:26px;height:26px;display:grid;place-items:center;border-radius:50%;background:linear-gradient(135deg,#2f6bff,#6d4aff);color:#fff;font-size:.8rem;font-weight:800}
+.langEnglish{grid-column:2;justify-self:start;font-size:.78rem;color:var(--muted,#6b7699)}
+.check{grid-column:3;grid-row:1/3;width:26px;height:26px;display:grid;place-items:center;border-radius:50%;background:linear-gradient(135deg,#2f6bff,#6d4aff);color:#fff;font-size:.8rem;font-weight:800}
 .langActive{background:linear-gradient(135deg,#f3f0ff,#eef4ff);border-color:#cbbfff}
 .sheetNote{padding:4px 18px 18px;font-size:.82rem;color:var(--muted,#6b7699)}
 
@@ -250,3 +250,5 @@
   .compose input, .sheetSearch { font-size: 16px; }
   .bubble, .langItem, .actionText { min-width: 0; overflow-wrap: anywhere; }
 }
+
+.langFlag{grid-column:1;grid-row:1/3;width:24px;height:18px;object-fit:cover;border-radius:3px;box-shadow:0 0 0 1px #142b4620;align-self:center}

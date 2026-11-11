@@ -1,5 +1,12 @@
 {
   "locale": "ps",
   "status": "draft",
+  "migration": {
+    "method": "sha256-source-text-match",
+    "sourceMessages": 1238,
+    "migratedMessages": 0,
+    "missingMessages": 1238,
+    "humanReviewed": false
+  },
   "messages": {}
 }

@@ -824,7 +824,7 @@
     "sources": [
       "app/[locale]/languages/page.js:27",
       "components/Footer.js:82",
-      "components/LanguageSwitcher.js:24",
+      "components/LanguageSwitcher.js:12",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -3499,7 +3499,7 @@
     "sources": [
       "components/GenieChat.js:215",
       "components/Header.js:23",
-      "components/LanguageSwitcher.js:20"
+      "components/LanguageSwitcher.js:8"
     ],
     "retired": false
   },
@@ -3516,7 +3516,7 @@
     "hash": "7f3f1f69fd897f07e196b35307ed9c8fa7d275f124f52f5f1ae77044f0678722",
     "sources": [
       "components/GenieChat.js:283",
-      "components/GenieChat.js:427"
+      "components/GenieChat.js:428"
     ],
     "retired": false
   },
@@ -3558,7 +3558,7 @@
     "text": "More languages are coming soon.",
     "hash": "600703ac45c0a943e5f2a469541c9724ce6a2046dcdec70af22f4eaa174181f4",
     "sources": [
-      "components/GenieChat.js:333"
+      "components/GenieChat.js:334"
     ],
     "retired": false
   },
@@ -3566,7 +3566,7 @@
     "text": "Continue in {language}",
     "hash": "311cb4fb468ca83b69f4bb18a6d44c43b15a3d3379c5ecf2871d21d064eeb489",
     "sources": [
-      "components/GenieChat.js:360"
+      "components/GenieChat.js:361"
     ],
     "retired": false
   },
@@ -3574,8 +3574,8 @@
     "text": "Quick questions",
     "hash": "b07e7e579215bf9fe0989151db61e02a65ab55f19d6a494a8a8370dad6bae56f",
     "sources": [
-      "components/GenieChat.js:378",
-      "components/GenieChat.js:398"
+      "components/GenieChat.js:379",
+      "components/GenieChat.js:399"
     ],
     "retired": false
   },
@@ -3583,7 +3583,7 @@
     "text": "General enquiry",
     "hash": "b780f79758b34c40402a10f9bb1704efc727d02ed3702a0847ab996395c0f6d3",
     "sources": [
-      "components/GenieChat.js:412"
+      "components/GenieChat.js:413"
     ],
     "retired": false
   },
@@ -3591,7 +3591,7 @@
     "text": "Ask Genie",
     "hash": "87bdda422ad71d4e27be31d2224bbe144a23e805bf619cd5416d7c1b0b8d7c96",
     "sources": [
-      "components/GenieChat.js:423"
+      "components/GenieChat.js:424"
     ],
     "retired": false
   },
@@ -3898,7 +3898,7 @@
     "text": "Language changed successfully.",
     "hash": "9b19c37f2b8751544da37c3836a637b7c6608be271a97921b5f5a683e457d949",
     "sources": [
-      "components/LanguageNotice.js:39"
+      "components/LanguageNotice.js:49"
     ],
     "retired": false
   },
@@ -3906,7 +3906,7 @@
     "text": "We selected {language} based on your browser or region.",
     "hash": "70001744acb7f29befd92d1a77f3274d76de970ba5b4b3b2dfd89211aa28d6bf",
     "sources": [
-      "components/LanguageNotice.js:41"
+      "components/LanguageNotice.js:51"
     ],
     "retired": false
   },
@@ -3914,7 +3914,7 @@
     "text": "This language is not fully translated yet. Some or all page content may appear in English.",
     "hash": "8875bb138cb25b3f8c4523c4707cd6c44d417a278cadddaac28c9a64c1825dee",
     "sources": [
-      "components/LanguageNotice.js:50"
+      "components/LanguageNotice.js:60"
     ],
     "retired": false
   },
@@ -3922,7 +3922,7 @@
     "text": "This language is awaiting review and is not included in search results yet.",
     "hash": "db96231aa7bc693640ed62c18a50b1ecec0f6fe4c1de105be411dd5aef06fc22",
     "sources": [
-      "components/LanguageNotice.js:55"
+      "components/LanguageNotice.js:65"
     ],
     "retired": false
   },
@@ -3930,7 +3930,7 @@
     "text": "This page was translated automatically. Contact us if anything is unclear.",
     "hash": "b9d7bb0b935aa4ceefdec08a182acae3e96fac55a7bf0822ae1fa37257b23571",
     "sources": [
-      "components/LanguageNotice.js:60",
+      "components/LanguageNotice.js:70",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -3939,7 +3939,7 @@
     "text": "Dismiss",
     "hash": "48845bff334a50a59aaecf499f28a7a24c3b4b891b8b18a9f1169ad8e8a6b261",
     "sources": [
-      "components/LanguageNotice.js:68"
+      "components/LanguageNotice.js:78"
     ],
     "retired": false
   },
@@ -3948,7 +3948,7 @@
     "hash": "40744f57fe9e14b8571352a5289a41170c7c0902e448ef13891a9ae391656144",
     "sources": [
       "components/LanguageSuggest.js:8",
-      "components/LanguageSwitcher.js:22"
+      "components/LanguageSwitcher.js:10"
     ],
     "retired": false
   },
@@ -3983,7 +3983,7 @@
     "text": "-panel",
     "hash": "68f4e3ae3fbca42ecfb0c59493cc1b8192ebb182fe17ebe3a8cc5f142fa4e5a2",
     "sources": [
-      "components/LanguageSwitcher.js:19"
+      "components/LanguageSwitcher.js:7"
     ],
     "retired": false
   },
@@ -3991,7 +3991,7 @@
     "text": "-search",
     "hash": "c896c7d84348e80cd30f8b939df3e89482e82fab37f66a254284d9c011fc62a2",
     "sources": [
-      "components/LanguageSwitcher.js:19"
+      "components/LanguageSwitcher.js:7"
     ],
     "retired": false
   },
@@ -3999,7 +3999,7 @@
     "text": "Language could not be loaded. Please try again.",
     "hash": "632ce51fe67cc3375ea0eae81c1e15cb3d424f97ce51b02d8508140a11d1ef8b",
     "sources": [
-      "components/LanguageSwitcher.js:22"
+      "components/LanguageSwitcher.js:10"
     ],
     "retired": false
   },
@@ -4007,7 +4007,7 @@
     "text": "Choose website language",
     "hash": "7988b92a76f73cbca6f01c54e74bc1b9b1f84806a02434f0db4599c0276e2733",
     "sources": [
-      "components/LanguageSwitcher.js:24"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },
@@ -4015,7 +4015,7 @@
     "text": "Close",
     "hash": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
     "sources": [
-      "components/LanguageSwitcher.js:24"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },
@@ -4023,7 +4023,7 @@
     "text": "Search languages or countries",
     "hash": "9564c9cb7cfad01928fc04e9c765caf85a68a2dff8d6a416e99059f9f9e0a00e",
     "sources": [
-      "components/LanguageSwitcher.js:24"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },
@@ -4031,7 +4031,7 @@
     "text": "Countries and regions",
     "hash": "bac86cc25339410db5cf7fa8c5bf0fea2642db1717501efa941860d9d2085328",
     "sources": [
-      "components/LanguageSwitcher.js:24"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },
@@ -4039,7 +4039,7 @@
     "text": "Available site languages for this market. All languages remain accessible.",
     "hash": "67c268864ce0849523bef70b1af169909fcbb5e0ff65f918d253376e418e6d33",
     "sources": [
-      "components/LanguageSwitcher.js:24"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },
@@ -4047,7 +4047,7 @@
     "text": "Show all languages",
     "hash": "ebd10fbf3cb038b4a7355c15c166c2deef946af74a1969b55f51faf5dc9cf501",
     "sources": [
-      "components/LanguageSwitcher.js:24"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },
@@ -4055,7 +4055,7 @@
     "text": "No matches found.",
     "hash": "eb82569d8230c86546e83b83df283488983e6bd4a32cb386481081ee6fd66c19",
     "sources": [
-      "components/LanguageSwitcher.js:24"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },
@@ -4063,7 +4063,7 @@
     "text": "Loading language…",
     "hash": "42609e39e159a0b8e43640ad10fdb568187b03b69a490d91f0209d9fbead00bd",
     "sources": [
-      "components/LanguageSwitcher.js:24"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },

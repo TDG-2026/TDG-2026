@@ -36,3 +36,12 @@ Use the exact current `sourceHash` from `messages/source.json`. A changed Englis
 A locale should only be marked `published` when its complete current message set has been translated and checked by a competent native-language reviewer. Until then, its pages display the translation-in-progress notice, remain `noindex`, and are excluded from sitemap and hreflang output.
 
 The launch locale list is maintained in `lib/i18n/locales.registry.js`. Browser and region negotiation is configured in `lib/i18n/available.js`. Keep these lists aligned when adding or pausing locales.
+
+
+## Legacy translation recovery
+
+Legacy locale catalogs are preserved in `messages/legacy/`. The migration script matches entries to current English source records by exact SHA-256 source-text hash, not by legacy key or fuzzy text matching.
+
+Run `npm run migrate:i18n` to regenerate current-key locale dictionaries from those preserved originals. This command is deterministic and does not run during build. Migrated strings remain `machine-translated`; every non-English catalog remains `draft` until full coverage and native review.
+
+Run `npm run audit:i18n` to inspect coverage. A non-zero result is expected while dictionaries are incomplete. `npm run test:i18n` includes migration integrity checks.

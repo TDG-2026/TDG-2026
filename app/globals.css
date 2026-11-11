@@ -742,3 +742,9 @@ html[dir=rtl] h1,html[dir=rtl] h2,html[dir=rtl] h3,html[dir=rtl] .eyebrow,html[d
 /* Clearly disclose unverified pre-release feature guides without implying availability. */
 .release-status-notice{margin:18px 0 24px;padding:16px 18px;border:1px solid #e4c675;border-inline-start:4px solid #c58b18;border-radius:12px;background:#fff9e9;color:#58451c;font-size:.94rem;line-height:1.65}
 .release-status-notice strong{display:block;margin-bottom:4px;color:#49370f}
+
+/* Locally hosted country flags: stable rendering without emoji-font dependence. */
+.locale-flag{display:inline-block;flex:0 0 24px;width:24px;height:18px;object-fit:cover;border-radius:3px;box-shadow:0 0 0 1px #142b4620}
+.locale-trigger{white-space:nowrap}
+.locale-trigger .locale-flag{width:24px;height:18px}
+@media(max-width:600px){.locale-trigger{max-width:100%;padding:7px 9px;gap:6px}.locale-trigger .locale-flag{width:22px;height:16px}.locale-panel{inset-inline-end:0;max-width:calc(100vw - 20px)}}

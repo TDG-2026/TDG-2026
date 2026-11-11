@@ -35,6 +35,16 @@ export default function LanguageNotice() {
     }
   }, [locale]);
 
+  // Keep confirmation unobtrusive: it disappears automatically after 4.2 seconds.
+  useEffect(() => {
+    if (!changed && !autoSelected) return undefined;
+    const timer = window.setTimeout(() => {
+      setChanged(false);
+      setAutoSelected(false);
+    }, 4200);
+    return () => window.clearTimeout(timer);
+  }, [changed, autoSelected]);
+
   const toastText = changed
     ? t('Language changed successfully.')
     : autoSelected

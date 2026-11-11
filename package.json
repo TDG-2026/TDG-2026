@@ -15,9 +15,11 @@
     "check:genie": "node scripts/check-genie.mjs",
     "check:rendered": "node scripts/verify-rendered.mjs",
     "release": "npm run check && npm run test:i18n && npm run check:genie && npm run build && npm run check:rendered",
-    "test:i18n": "node --test tests/i18n.test.mjs",
+    "test:i18n": "node --test tests/i18n.test.mjs tests/i18n-migration.test.mjs",
     "i18n:extract": "node scripts/i18n-extract.mjs",
-    "check:seo": "node scripts/check-seo.mjs && node scripts/check-resource-routes.mjs"
+    "check:seo": "node scripts/check-seo.mjs && node scripts/check-resource-routes.mjs",
+    "audit:i18n": "node scripts/audit-locales.mjs",
+    "migrate:i18n": "node scripts/migrate-legacy-translations.mjs"
   },
   "dependencies": {
     "next": "^16.4.3",

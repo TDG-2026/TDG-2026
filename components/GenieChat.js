@@ -322,6 +322,7 @@ export default function GenieChat({ initialOpen = false }) {
                   return (
                     <li key={l.code}>
                       <button type="button" className={`${styles.langItem} ${active ? styles.langActive : ''}`} aria-current={active ? 'true' : undefined} onClick={() => changeLanguage(l.code)}>
+                        <img className={styles.langFlag} src={`/flags/${l.code}.svg`} width="24" height="18" alt="" aria-hidden="true" />
                         <span className={styles.langNative} lang={l.code} dir={l.dir} translate="no">{l.name}</span>
                         <span className={styles.langEnglish} translate="no">{l.english}</span>
                         {active && <span className={styles.check} aria-hidden="true">✓</span>}

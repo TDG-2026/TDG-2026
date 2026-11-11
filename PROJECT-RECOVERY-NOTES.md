@@ -62,3 +62,17 @@ npm run build
 ```
 
 This ZIP was edited in an offline environment without `node_modules`; dependency installation, the full Next.js build and browser/device checks could not be executed here. Run the commands above locally or in Vercel before production deployment.
+
+
+## Follow-up: legacy translation migration
+
+The legacy catalogs were recoverable through their original SHA-256 `sourceHash` values. They have now been mapped to the current source keys by exact hash identity. See `MULTILINGUAL-REPAIR-REPORT.md` for locale-by-locale coverage and verification.
+
+- German, French, Italian, Spanish, Arabic and Urdu: 1,196/1,238 messages migrated each (96.6%).
+- Dutch: 35/1,238 (2.8%).
+- Pashto: 0/1,238 (no legacy translations supplied).
+- Original catalogs are preserved in `messages/legacy/`.
+- All migrated strings remain machine-translated and every non-English catalog remains draft/noindex.
+- Run `npm run migrate:i18n` to repeat the deterministic migration, `npm run audit:i18n` to inspect coverage, and `npm run test:i18n` to run locale and migration safety tests.
+
+The six larger catalogs passed exact-hash mapping with no ambiguous hashes and no placeholder-token mismatches. This is a migration of existing AI-drafted content, not a claim of native review or production translation readiness.
