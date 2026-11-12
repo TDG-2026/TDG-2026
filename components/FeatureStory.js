@@ -30,17 +30,21 @@ export default function FeatureStory() {
             </L>
           </Reveal>
 
-          <Reveal delay={120}>
+          
+            <Reveal delay={120}>
             <figure className="zoom-crop">
-              <Image
-                src={heroScreen.src}
-                alt="Close-up of the Travelport panel: parsed passenger fields with generated NAME, DOCS, CTCE and CTCM entries and copy buttons"
-                fill
-                sizes="(max-width: 960px) calc(100vw - 40px), (max-width: 1280px) calc((100vw - 96px) / 2), 592px"
-              />
-              <L as="figcaption" className="chip chip--info zoom-label">Close-up · Travelport panel</L>
-            </figure>
+            <Image
+            src={heroScreen.src}
+            alt="Travelport passenger NAME, DOCS, CTCM and CTCE fields in Magic Toolbar"
+            fill
+            sizes="(max-width: 960px) calc(100vw - 40px), (max-width: 1280px) calc((100vw - 96px) / 2), 592px"
+            />
+            <L as="figcaption" className="chip chip--info zoom-label">
+            Close-up · Travelport panel
+            </L>
+          </figure>
           </Reveal>
+
         </L>
 
         <L as="div" className="duo">

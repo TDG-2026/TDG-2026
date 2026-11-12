@@ -3,7 +3,7 @@ export const heroScreen = {
   src: '/images/screens/passport-gds.webp',
   width: 1892,
   height: 930,
-  alt: 'TravelDeskGenie passport to GDS converter displaying passport OCR data and generated passenger entries for Sabre, Travelport and Amadeus, including NAME, DOCS, CTCM and CTCE fields with copy buttons',
+  alt: 'Magic Toolbar preparing passport details for Amadeus, Sabre and Travelport',
 };
 
 export const heroCallouts = [
@@ -38,7 +38,7 @@ export const tourScreens = [
     src: '/images/screens/passport-photo.webp',
     width: 1563,
     height: 1030,
-    alt: 'TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality',
+    alt: 'Passport photo checker with face alignment and image validation guides',
     points: [
       'Press **Ctrl + Alt + I** to instantly display the passport photograph editor and adjust your photo to meet visa application requirements.',
       'Drag the frame to the crown and chin, or fit the head to 75% in one click.',

@@ -60,6 +60,6 @@ export const mascot = {
   src: '/images/genie-mascot.webp',
   width: 512,
   height: 512,
-  alt: 'TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane',
+  alt: 'Travel Genie mascot holding a globe with an airplane',
 };
 

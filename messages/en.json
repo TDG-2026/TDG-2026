@@ -1922,9 +1922,9 @@
       "sourceHash": "de1f4aca87a75dce2f102a40ee1104c4d24203ab30fd3fc77a38405ecca9e777",
       "status": "published"
     },
-    "FeatureStory.m0384": {
-      "text": "Close-up of the Travelport panel: parsed passenger fields with generated NAME, DOCS, CTCE and CTCM entries and copy buttons",
-      "sourceHash": "e1cabc7c3b68d2a463b9d9163c668aca912e4d5d881d941ef3c10be72b88c3be",
+    "FeatureStory.m1246": {
+      "text": "Travelport passenger NAME, DOCS, CTCM and CTCE fields in Magic Toolbar",
+      "sourceHash": "17d81bd46defd15cdff60ff3870999c0ae75529e557d6fd570579bce60357b5b",
       "status": "published"
     },
     "FeatureStory.m0385": {
@@ -5427,9 +5427,9 @@
       "sourceHash": "79cb61e75e17424b92c60bab2bf0e9515f541872dd71e53759266d6883859cf9",
       "status": "published"
     },
-    "screens.m1083": {
-      "text": "TravelDeskGenie passport to GDS converter displaying passport OCR data and generated passenger entries for Sabre, Travelport and Amadeus, including NAME, DOCS, CTCM and CTCE fields with copy buttons",
-      "sourceHash": "dfeb3408418f38f84d427802891fa24d12a6c4219a73dd009a768faceaf2c0a0",
+    "screens.m1247": {
+      "text": "Magic Toolbar preparing passport details for Amadeus, Sabre and Travelport",
+      "sourceHash": "10dc21095c79f4056bc0b19bc4e0cda34d72dd7d48d392ed14e5e1b89d5910bc",
       "status": "published"
     },
     "screens.m1084": {
@@ -5462,9 +5462,9 @@
       "sourceHash": "8285e07ccc67fb5c9f1128f749c63b1d582baa2260e0ec1793833232f7b17809",
       "status": "published"
     },
-    "screens.m1090": {
-      "text": "TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality",
-      "sourceHash": "a18ce5ce5526c7d63e51632436f0e0fc56c34f3378d4a417d69eb1c79eee98bc",
+    "screens.m1248": {
+      "text": "Passport photo checker with face alignment and image validation guides",
+      "sourceHash": "f6fd7ec6f34764bcc3d2abc11f6e7e763065a792efebbcd9a5d7bf168e062cd0",
       "status": "published"
     },
     "screens.m1091": {
@@ -5792,9 +5792,9 @@
       "sourceHash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
       "status": "published"
     },
-    "site.m1152": {
-      "text": "TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane",
-      "sourceHash": "7b0d2f6ffed361e05663dd8c3d4d7a2a6b922756b9897e248abc39469bf57636",
+    "site.m1249": {
+      "text": "Travel Genie mascot holding a globe with an airplane",
+      "sourceHash": "ac633a67a88c2393ccbf9a96121bf28092b87a359107b1345e407854d4ce4ec8",
       "status": "published"
     },
     "toolbar.m1153": {
@@ -6225,6 +6225,26 @@
     "additionalsource.m1238": {
       "text": "Reminders and phone directory",
       "sourceHash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
+      "status": "published"
+    },
+    "FeatureStory.m0384": {
+      "text": "Close-up of the Travelport panel: parsed passenger fields with generated NAME, DOCS, CTCE and CTCM entries and copy buttons",
+      "sourceHash": "e1cabc7c3b68d2a463b9d9163c668aca912e4d5d881d941ef3c10be72b88c3be",
+      "status": "published"
+    },
+    "screens.m1083": {
+      "text": "TravelDeskGenie passport to GDS converter displaying passport OCR data and generated passenger entries for Sabre, Travelport and Amadeus, including NAME, DOCS, CTCM and CTCE fields with copy buttons",
+      "sourceHash": "dfeb3408418f38f84d427802891fa24d12a6c4219a73dd009a768faceaf2c0a0",
+      "status": "published"
+    },
+    "screens.m1090": {
+      "text": "TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality",
+      "sourceHash": "a18ce5ce5526c7d63e51632436f0e0fc56c34f3378d4a417d69eb1c79eee98bc",
+      "status": "published"
+    },
+    "site.m1152": {
+      "text": "TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane",
+      "sourceHash": "7b0d2f6ffed361e05663dd8c3d4d7a2a6b922756b9897e248abc39469bf57636",
       "status": "published"
     }
   }

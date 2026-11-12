@@ -186,7 +186,8 @@
     "hash": "8461ca718f87fc29607bc04ffdac72c0dbfc30670df3005ab6d8ffa14147567b",
     "sources": [
       "app/[locale]/contact/page.js:8"
-    ]
+    ],
+    "retired": false
   },
   "page.m0023": {
     "text": "Keep the details safe.",
@@ -3185,11 +3186,11 @@
     ],
     "retired": false
   },
-  "FeatureStory.m0384": {
-    "text": "Close-up of the Travelport panel: parsed passenger fields with generated NAME, DOCS, CTCE and CTCM entries and copy buttons",
-    "hash": "e1cabc7c3b68d2a463b9d9163c668aca912e4d5d881d941ef3c10be72b88c3be",
+  "FeatureStory.m1246": {
+    "text": "Travelport passenger NAME, DOCS, CTCM and CTCE fields in Magic Toolbar",
+    "hash": "17d81bd46defd15cdff60ff3870999c0ae75529e557d6fd570579bce60357b5b",
     "sources": [
-      "components/FeatureStory.js:37"
+      "components/FeatureStory.js:38"
     ],
     "retired": false
   },
@@ -3197,7 +3198,7 @@
     "text": "Close-up · Travelport panel",
     "hash": "f54207a5d6c838fc288e835d98124dd714f27555bb6decec702ddc2d91b26f55",
     "sources": [
-      "components/FeatureStory.js:41"
+      "components/FeatureStory.js:42"
     ],
     "retired": false
   },
@@ -3205,7 +3206,7 @@
     "text": "Passenger mobile contact",
     "hash": "5a0bdc64a6327f4af8861b4304feb1588d5a4bd889f9737509f590140e9bfb49",
     "sources": [
-      "components/FeatureStory.js:50"
+      "components/FeatureStory.js:54"
     ],
     "retired": false
   },
@@ -3213,7 +3214,7 @@
     "text": "carries the passenger's mobile number, so the airline can reach the traveller about schedule changes and disruptions. Magic Toolbar prepares it for each GDS and warns when the country code is missing.",
     "hash": "fa7315cac5830e9a4760f0ffd64c660d113cb112740790d031b31602c406d7ea",
     "sources": [
-      "components/FeatureStory.js:54"
+      "components/FeatureStory.js:58"
     ],
     "retired": false
   },
@@ -3221,7 +3222,7 @@
     "text": "Passenger email contact",
     "hash": "a2acd4d2b99c6ea180d0dbb5ff201804faf196ce3607ea46116668d139cd3012",
     "sources": [
-      "components/FeatureStory.js:65"
+      "components/FeatureStory.js:69"
     ],
     "retired": false
   },
@@ -3229,7 +3230,7 @@
     "text": "carries the passenger's email address. Special characters are encoded as required by the GDS. For example, an at sign (@) is written as two forward slashes (//).",
     "hash": "8e9226c93e1849aa848772ee6ddd14a1ea81e9f6844e6730a55d52e5f3abf2cf",
     "sources": [
-      "components/FeatureStory.js:69"
+      "components/FeatureStory.js:73"
     ],
     "retired": false
   },
@@ -3237,7 +3238,7 @@
     "text": "Code examples use synthetic data. Always confirm formats against your GDS. Passenger contacts are different from agency contacts.",
     "hash": "f56bc2b17930b27f06964265dafdf5413dd273fff77c70093a2ad9b1256bc50d",
     "sources": [
-      "components/FeatureStory.js:78"
+      "components/FeatureStory.js:82"
     ],
     "retired": false
   },
@@ -3313,14 +3314,16 @@
     "hash": "b236782372f7d99cc56b9f94bf001a70b3799c36e425c9ccadbdf325d93e5e2f",
     "sources": [
       "components/Footer.js:47"
-    ]
+    ],
+    "retired": false
   },
   "Footer.m1241": {
     "text": "Follow Travel Desk Genie",
     "hash": "6ebcd5d3bdeb717eab7139668a0c7345976c17b3f3609d171d096356db1a137a",
     "sources": [
       "components/Footer.js:48"
-    ]
+    ],
+    "retired": false
   },
   "Footer.m0399": {
     "text": "Passport & DOCS",
@@ -9340,9 +9343,9 @@
     ],
     "retired": false
   },
-  "screens.m1083": {
-    "text": "TravelDeskGenie passport to GDS converter displaying passport OCR data and generated passenger entries for Sabre, Travelport and Amadeus, including NAME, DOCS, CTCM and CTCE fields with copy buttons",
-    "hash": "dfeb3408418f38f84d427802891fa24d12a6c4219a73dd009a768faceaf2c0a0",
+  "screens.m1247": {
+    "text": "Magic Toolbar preparing passport details for Amadeus, Sabre and Travelport",
+    "hash": "10dc21095c79f4056bc0b19bc4e0cda34d72dd7d48d392ed14e5e1b89d5910bc",
     "sources": [
       "data/screens.js:6"
     ],
@@ -9396,9 +9399,9 @@
     ],
     "retired": false
   },
-  "screens.m1090": {
-    "text": "TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality",
-    "hash": "a18ce5ce5526c7d63e51632436f0e0fc56c34f3378d4a417d69eb1c79eee98bc",
+  "screens.m1248": {
+    "text": "Passport photo checker with face alignment and image validation guides",
+    "hash": "f6fd7ec6f34764bcc3d2abc11f6e7e763065a792efebbcd9a5d7bf168e062cd0",
     "sources": [
       "data/screens.js:41"
     ],
@@ -9858,7 +9861,8 @@
     "sources": [
       "data/site.js:2",
       "data/site.js:1"
-    ]
+    ],
+    "retired": false
   },
   "site.m1243": {
     "text": "Facebook",
@@ -9866,7 +9870,8 @@
     "sources": [
       "data/site.js:3",
       "data/site.js:1"
-    ]
+    ],
+    "retired": false
   },
   "site.m1244": {
     "text": "Instagram",
@@ -9874,7 +9879,8 @@
     "sources": [
       "data/site.js:4",
       "data/site.js:1"
-    ]
+    ],
+    "retired": false
   },
   "site.m1245": {
     "text": "YouTube",
@@ -9882,7 +9888,8 @@
     "sources": [
       "data/site.js:5",
       "data/site.js:1"
-    ]
+    ],
+    "retired": false
   },
   "site.m1147": {
     "text": "Travel Desk Genie",
@@ -9928,9 +9935,9 @@
     ],
     "retired": false
   },
-  "site.m1152": {
-    "text": "TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane",
-    "hash": "7b0d2f6ffed361e05663dd8c3d4d7a2a6b922756b9897e248abc39469bf57636",
+  "site.m1249": {
+    "text": "Travel Genie mascot holding a globe with an airplane",
+    "hash": "ac633a67a88c2393ccbf9a96121bf28092b87a359107b1345e407854d4ce4ec8",
     "sources": [
       "data/site.js:63",
       "data/site.js:1"
@@ -10629,5 +10636,38 @@
       "messages/additional-source.json:1"
     ],
     "retired": false
+  },
+  "FeatureStory.m0384": {
+    "text": "Close-up of the Travelport panel: parsed passenger fields with generated NAME, DOCS, CTCE and CTCM entries and copy buttons",
+    "hash": "e1cabc7c3b68d2a463b9d9163c668aca912e4d5d881d941ef3c10be72b88c3be",
+    "sources": [
+      "components/FeatureStory.js:37"
+    ],
+    "retired": true
+  },
+  "screens.m1083": {
+    "text": "TravelDeskGenie passport to GDS converter displaying passport OCR data and generated passenger entries for Sabre, Travelport and Amadeus, including NAME, DOCS, CTCM and CTCE fields with copy buttons",
+    "hash": "dfeb3408418f38f84d427802891fa24d12a6c4219a73dd009a768faceaf2c0a0",
+    "sources": [
+      "data/screens.js:6"
+    ],
+    "retired": true
+  },
+  "screens.m1090": {
+    "text": "TravelDeskGenie passport photo checker showing crown and chin alignment guides, head-height measurement and photo compliance checks for pixel dimensions, frame ratio, file size, head positioning, centring, background and JPEG quality",
+    "hash": "a18ce5ce5526c7d63e51632436f0e0fc56c34f3378d4a417d69eb1c79eee98bc",
+    "sources": [
+      "data/screens.js:41"
+    ],
+    "retired": true
+  },
+  "site.m1152": {
+    "text": "TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane",
+    "hash": "7b0d2f6ffed361e05663dd8c3d4d7a2a6b922756b9897e248abc39469bf57636",
+    "sources": [
+      "data/site.js:63",
+      "data/site.js:1"
+    ],
+    "retired": true
   }
 }
