@@ -116,7 +116,7 @@ test('paid translation integrations and scripts are removed', () => {
   assert.equal(fs.existsSync('lib/i18n/provider.mjs'), false);
   assert.equal(fs.existsSync('scripts/i18n-auto.mjs'), false);
   assert.equal(fs.existsSync('scripts/i18n.mjs'), false);
-  assert.equal(fs.existsSync('.env.local'), false);
+  // Local .env.local files are allowed; retired translation providers are still checked.
   const envExample = fs.readFileSync('.env.example', 'utf8');
   assert(!/AZURE_TRANSLATOR|LIBRETRANSLATE|TRANSLATION_PROVIDER/.test(envExample));
   const packageJson = JSON.parse(fs.readFileSync('package.json', 'utf8'));

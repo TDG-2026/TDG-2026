@@ -20,7 +20,7 @@
     "hash": "aa6d6025477234ee9966a72c31e1c7a391bfa8e1fc2d6f89eaa3ece3a1cb6460",
     "sources": [
       "app/[locale]/about/page.js:13",
-      "components/Footer.js:71"
+      "components/Footer.js:88"
     ],
     "retired": false
   },
@@ -180,6 +180,13 @@
       "components/EnquiryForm.js:11"
     ],
     "retired": false
+  },
+  "page.m1239": {
+    "text": "Official social profiles",
+    "hash": "8461ca718f87fc29607bc04ffdac72c0dbfc30670df3005ab6d8ffa14147567b",
+    "sources": [
+      "app/[locale]/contact/page.js:8"
+    ]
   },
   "page.m0023": {
     "text": "Keep the details safe.",
@@ -803,7 +810,7 @@
       "app/[locale]/resources/page.js:9",
       "app/[locale]/resources/[slug]/page.js:79",
       "app/[locale]/resources/[slug]/page.js:83",
-      "data/site.js:48",
+      "data/site.js:50",
       "data/site.js:1",
       "messages/additional-source.json:1"
     ],
@@ -823,7 +830,7 @@
     "hash": "318655cea4bd2096fbfad433d7c019bac40750d1a456fc34d366df41fcc77197",
     "sources": [
       "app/[locale]/languages/page.js:27",
-      "components/Footer.js:82",
+      "components/Footer.js:99",
       "components/LanguageSwitcher.js:12",
       "messages/additional-source.json:1"
     ],
@@ -1313,7 +1320,7 @@
       "app/[locale]/products/magic-toolbar/page.js:17",
       "app/[locale]/products/page.js:10",
       "app/[locale]/products/[slug]/page.js:66",
-      "data/site.js:49",
+      "data/site.js:51",
       "data/site.js:1"
     ],
     "retired": false
@@ -1326,7 +1333,7 @@
       "components/EnquiryForm.js:8",
       "components/EnquiryForm.js:9",
       "components/EnquiryForm.js:11",
-      "components/Footer.js:45"
+      "components/Footer.js:62"
     ],
     "retired": false
   },
@@ -1345,7 +1352,7 @@
       "app/[locale]/products/magic-toolbar/page.js:17",
       "components/CookieConsent.js:11",
       "components/ProductCatalogue.js:92",
-      "data/site.js:2",
+      "data/site.js:10",
       "data/site.js:1"
     ],
     "retired": false
@@ -1605,7 +1612,7 @@
     "hash": "ab81a9e909b65c33bba2541c600221d483c21ab76a0e7376251c1dd552852000",
     "sources": [
       "app/[locale]/products/page.js:10",
-      "data/site.js:4",
+      "data/site.js:12",
       "data/site.js:1"
     ],
     "retired": false
@@ -1647,7 +1654,7 @@
     "hash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24",
     "sources": [
       "app/[locale]/products/[slug]/page.js:59",
-      "components/Footer.js:76"
+      "components/Footer.js:93"
     ],
     "retired": false
   },
@@ -1656,7 +1663,7 @@
     "hash": "d05723c09029aff91b1afe181397afb94f7d2480935d98449104793a7e3ae4aa",
     "sources": [
       "app/[locale]/products/[slug]/page.js:71",
-      "components/Footer.js:56",
+      "components/Footer.js:73",
       "components/JumpNav.js:8",
       "components/ProductCatalogue.js:91"
     ],
@@ -1683,7 +1690,7 @@
     "hash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6",
     "sources": [
       "app/[locale]/products/[slug]/page.js:96",
-      "components/Footer.js:51",
+      "components/Footer.js:68",
       "components/WorkflowStrip.js:17"
     ],
     "retired": false
@@ -1897,8 +1904,8 @@
       "app/[locale]/resources/page.js:9",
       "app/[locale]/resources/[slug]/page.js:79",
       "app/[locale]/resources/[slug]/page.js:84",
-      "components/Footer.js:77",
-      "data/site.js:51",
+      "components/Footer.js:94",
+      "data/site.js:53",
       "data/site.js:1",
       "messages/additional-source.json:1"
     ],
@@ -3301,11 +3308,25 @@
     ],
     "retired": false
   },
+  "Footer.m1240": {
+    "text": "Official social media profiles",
+    "hash": "b236782372f7d99cc56b9f94bf001a70b3799c36e425c9ccadbdf325d93e5e2f",
+    "sources": [
+      "components/Footer.js:47"
+    ]
+  },
+  "Footer.m1241": {
+    "text": "Follow Travel Desk Genie",
+    "hash": "6ebcd5d3bdeb717eab7139668a0c7345976c17b3f3609d171d096356db1a137a",
+    "sources": [
+      "components/Footer.js:48"
+    ]
+  },
   "Footer.m0399": {
     "text": "Passport & DOCS",
     "hash": "b817037095838b78612fb14db7154f42c80a637a9078c712d78a1919d7665b3e",
     "sources": [
-      "components/Footer.js:47",
+      "components/Footer.js:64",
       "components/JumpNav.js:4",
       "data/toolbar.js:2"
     ],
@@ -3315,7 +3336,7 @@
     "text": "Desk tools",
     "hash": "22b91f3566da949849a525359e58645e0da25f75a736c1ca77eb4b966d3b2623",
     "sources": [
-      "components/Footer.js:50",
+      "components/Footer.js:67",
       "components/JumpNav.js:7"
     ],
     "retired": false
@@ -3324,7 +3345,7 @@
     "text": "Help & resources",
     "hash": "59a592cbcf22c272788630e2fc2b236e1de0f2c7c40b567932674abe693aeb4a",
     "sources": [
-      "components/Footer.js:69"
+      "components/Footer.js:86"
     ],
     "retired": false
   },
@@ -3332,7 +3353,7 @@
     "text": "Getting started",
     "hash": "831d0f72d242b7d12d4ef15123d43145e97e95be5aba57cd150e434159aae202",
     "sources": [
-      "components/Footer.js:73",
+      "components/Footer.js:90",
       "components/GetStarted.js:19"
     ],
     "retired": false
@@ -3341,8 +3362,8 @@
     "text": "Contact",
     "hash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
     "sources": [
-      "components/Footer.js:74",
-      "data/site.js:54",
+      "components/Footer.js:91",
+      "data/site.js:56",
       "data/site.js:1"
     ],
     "retired": false
@@ -3351,8 +3372,8 @@
     "text": "Pricing",
     "hash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040",
     "sources": [
-      "components/Footer.js:75",
-      "data/site.js:50",
+      "components/Footer.js:92",
+      "data/site.js:52",
       "data/genie/i18n.js:1",
       "data/site.js:1"
     ],
@@ -3362,8 +3383,8 @@
     "text": "Support",
     "hash": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3",
     "sources": [
-      "components/Footer.js:78",
-      "data/site.js:53",
+      "components/Footer.js:95",
+      "data/site.js:55",
       "data/site.js:1"
     ],
     "retired": false
@@ -3372,7 +3393,7 @@
     "text": "Security & Privacy",
     "hash": "121fa1521e9563ecceefe26b9673a9decb4c3e820bc7d76349ff09e85dc0d7e8",
     "sources": [
-      "components/Footer.js:80"
+      "components/Footer.js:97"
     ],
     "retired": false
   },
@@ -3380,8 +3401,8 @@
     "text": "User Guide",
     "hash": "d131ef7f9b5e2b457faba856dcc5f90438b46b97df6a849234432e76c63f6cbd",
     "sources": [
-      "components/Footer.js:83",
-      "data/site.js:52",
+      "components/Footer.js:100",
+      "data/site.js:54",
       "data/site.js:1"
     ],
     "retired": false
@@ -3390,7 +3411,7 @@
     "text": "Legal",
     "hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
     "sources": [
-      "components/Footer.js:88"
+      "components/Footer.js:105"
     ],
     "retired": false
   },
@@ -3398,7 +3419,7 @@
     "text": "Privacy Policy",
     "hash": "506ff394621596dd88138642eddfc1e41833b3ae92d95e5c77c94327098abd9a",
     "sources": [
-      "components/Footer.js:94"
+      "components/Footer.js:111"
     ],
     "retired": false
   },
@@ -3406,7 +3427,7 @@
     "text": "Terms of Use",
     "hash": "12a0015fa32217778863154566bce500732726db6ea596518712c12955d9a225",
     "sources": [
-      "components/Footer.js:96"
+      "components/Footer.js:113"
     ],
     "retired": false
   },
@@ -3414,7 +3435,7 @@
     "text": "Travel Desk Genie. All rights reserved.",
     "hash": "243e00440c946603248f1a04bcf649f21912dd05a3e0d9821ea0f2fd27752fdb",
     "sources": [
-      "components/Footer.js:106"
+      "components/Footer.js:123"
     ],
     "retired": false
   },
@@ -9831,11 +9852,43 @@
     ],
     "retired": false
   },
+  "site.m1242": {
+    "text": "LinkedIn",
+    "hash": "dd84425b72da12c6c828339ce814342daceac705b50d42e377e1acebf8f2320b",
+    "sources": [
+      "data/site.js:2",
+      "data/site.js:1"
+    ]
+  },
+  "site.m1243": {
+    "text": "Facebook",
+    "hash": "d41f5b4977ee05c6b61b3b5f054784628f5cd1cbe06a82a5484d1e6de6eefe85",
+    "sources": [
+      "data/site.js:3",
+      "data/site.js:1"
+    ]
+  },
+  "site.m1244": {
+    "text": "Instagram",
+    "hash": "bad57ef7837c8e6bf99c2a5935cc9d6fe5324a53d88744ad5551db0e46b03cd6",
+    "sources": [
+      "data/site.js:4",
+      "data/site.js:1"
+    ]
+  },
+  "site.m1245": {
+    "text": "YouTube",
+    "hash": "fb7accfff8c6f8ea9b03c91ee5576d0d08080e9ba35918d801aaeb6020dbc88c",
+    "sources": [
+      "data/site.js:5",
+      "data/site.js:1"
+    ]
+  },
   "site.m1147": {
     "text": "Travel Desk Genie",
     "hash": "56ddcee628252b1ff012fc7044ef8342fb08464c7781d86e4e1c231d473d8b3b",
     "sources": [
-      "data/site.js:3",
+      "data/site.js:11",
       "data/site.js:1"
     ],
     "retired": false
@@ -9844,7 +9897,7 @@
     "text": "Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
     "hash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
     "sources": [
-      "data/site.js:6",
+      "data/site.js:14",
       "data/site.js:1"
     ],
     "retired": false
@@ -9853,7 +9906,7 @@
     "text": "TravelDeskGenie.TravelDeskGenieMagicToolbar",
     "hash": "e13304451c10f19a261651a72d12f2214058d38194888ace01f694d768488344",
     "sources": [
-      "data/site.js:9",
+      "data/site.js:17",
       "data/site.js:1"
     ],
     "retired": false
@@ -9862,7 +9915,7 @@
     "text": "TravelDeskGenie",
     "hash": "b5e59bcb3de596fb47a20ded8db5c7bc2f9e845b73090ed5d01333cf858b76cb",
     "sources": [
-      "data/site.js:10",
+      "data/site.js:18",
       "data/site.js:1"
     ],
     "retired": false
@@ -9871,7 +9924,7 @@
     "text": "English",
     "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
     "sources": [
-      "data/site.js:16"
+      "data/site.js:25"
     ],
     "retired": false
   },
@@ -9879,7 +9932,7 @@
     "text": "TravelDeskGenie mascot, a friendly blue genie holding a globe surrounded by a golden airplane",
     "hash": "7b0d2f6ffed361e05663dd8c3d4d7a2a6b922756b9897e248abc39469bf57636",
     "sources": [
-      "data/site.js:61",
+      "data/site.js:63",
       "data/site.js:1"
     ],
     "retired": false

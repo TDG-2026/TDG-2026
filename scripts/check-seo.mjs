@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { site } from '../data/site.js';
+import { site, socialProfiles } from '../data/site.js';
 import { heroScreen, tourScreens } from '../data/screens.js';
 import { resources, findResource } from '../data/resources.js';
 import { organizationSchema, appSchema, faqSchema, pageMeta } from '../lib/seo.js';
@@ -14,11 +14,19 @@ check(/^https:\/\//.test(site.url), 'Canonical site URL must use HTTPS.');
 check(site.publisherName === 'Travel Desk Genie', 'Publisher identity must be Travel Desk Genie.');
 check(site.name === 'Travel Genie', 'Product brand identity must remain Travel Genie.');
 check(Boolean(site.supportEmail), 'A canonical support email must be configured.');
+check(site.supportEmail === 'inquiry@traveldeskgenie.com', 'Primary business enquiry email must match the confirmed address.');
+check(site.generalEmail === 'traveldeskgenie@gmail.com', 'General contact email must match the confirmed address.');
+check(socialProfiles.length === 5, 'Exactly five confirmed social profiles should be configured.');
+check(site.sameAs.length === socialProfiles.length && socialProfiles.every(({url}) => site.sameAs.includes(url)),
+  'Organization sameAs must match the visible official social profile list.');
 
 const org = organizationSchema();
 check(org['@type'] === 'Organization', 'Organization JSON-LD must describe an Organization.');
 check(org.name === site.publisherName, 'Organization name must match the publisher identity.');
 check(org.brand?.name === site.name, 'Organization must identify the Travel Genie brand.');
+check(org.sameAs?.length === 5, 'Organization schema must include the five confirmed official social profiles.');
+check(org.contactPoint?.some((point) => point.email === site.supportEmail), 'Organization schema must expose the confirmed enquiry email.');
+check(org.contactPoint?.some((point) => point.email === site.generalEmail), 'Organization schema must expose the general contact email.');
 check(!org.address || Boolean(org.address.addressLocality || org.address.streetAddress || org.address.addressRegion || org.address.postalCode), 'Do not publish a country-only PostalAddress.');
 
 const app = appSchema();

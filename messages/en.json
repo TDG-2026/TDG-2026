@@ -112,6 +112,11 @@
       "sourceHash": "5ac4b2d1103718bf7d0c9434545b899a41d04c04645c0a9b5278b803b75d9df5",
       "status": "published"
     },
+    "page.m1239": {
+      "text": "Official social profiles",
+      "sourceHash": "8461ca718f87fc29607bc04ffdac72c0dbfc30670df3005ab6d8ffa14147567b",
+      "status": "published"
+    },
     "page.m0023": {
       "text": "Keep the details safe.",
       "sourceHash": "3ba54c2c8a91860212bb60636978512b22024ce15c6571ff7a4197929667e2f3",
@@ -1990,6 +1995,16 @@
     "Footer.m0398": {
       "text": "Travel Genie Magic Toolbar is developed by Travel Desk Genie.",
       "sourceHash": "edf9547875b51c75be5e342def873ae934c6b7af8c8e4318281d207b48bdec00",
+      "status": "published"
+    },
+    "Footer.m1240": {
+      "text": "Official social media profiles",
+      "sourceHash": "b236782372f7d99cc56b9f94bf001a70b3799c36e425c9ccadbdf325d93e5e2f",
+      "status": "published"
+    },
+    "Footer.m1241": {
+      "text": "Follow Travel Desk Genie",
+      "sourceHash": "6ebcd5d3bdeb717eab7139668a0c7345976c17b3f3609d171d096356db1a137a",
       "status": "published"
     },
     "Footer.m0399": {
@@ -5730,6 +5745,26 @@
     "screens.m1146": {
       "text": "Saves automatically, with a timestamp.",
       "sourceHash": "1dbee7ff719f8d9ee69b1a116bf7d5b2da65e539545ac422dce371f8a2a394c5",
+      "status": "published"
+    },
+    "site.m1242": {
+      "text": "LinkedIn",
+      "sourceHash": "dd84425b72da12c6c828339ce814342daceac705b50d42e377e1acebf8f2320b",
+      "status": "published"
+    },
+    "site.m1243": {
+      "text": "Facebook",
+      "sourceHash": "d41f5b4977ee05c6b61b3b5f054784628f5cd1cbe06a82a5484d1e6de6eefe85",
+      "status": "published"
+    },
+    "site.m1244": {
+      "text": "Instagram",
+      "sourceHash": "bad57ef7837c8e6bf99c2a5935cc9d6fe5324a53d88744ad5551db0e46b03cd6",
+      "status": "published"
+    },
+    "site.m1245": {
+      "text": "YouTube",
+      "sourceHash": "fb7accfff8c6f8ea9b03c91ee5576d0d08080e9ba35918d801aaeb6020dbc88c",
       "status": "published"
     },
     "site.m1147": {

@@ -1,3 +1,11 @@
+export const socialProfiles = [
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/traveldeskgenie-undefined-54609944b/' },
+  { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61596073299276' },
+  { name: 'Instagram', url: 'https://www.instagram.com/traveldeskgenie/' },
+  { name: 'YouTube', url: 'https://www.youtube.com/channel/UCXcwiBG0ojtQK3M0UEZ8Lqw' },
+  { name: 'X', url: 'https://x.com/traveldeskgenie' },
+];
+
 export const site = {
   name: 'Travel Genie',
   publisherName: 'Travel Desk Genie',
@@ -10,7 +18,8 @@ export const site = {
   storePublisherDisplayName: 'TravelDeskGenie',
   releaseVersion: null,
   contactUrl: '/contact',
-  supportEmail: 'info@traveldeskgenie.com',
+  supportEmail: 'inquiry@traveldeskgenie.com',
+  generalEmail: 'traveldeskgenie@gmail.com',
   whatsappNumber: '923477444312',
   // Languages your support team actually answers in (schema contactPoint.availableLanguage).
   supportLanguages: ['English'],
@@ -23,15 +32,8 @@ export const site = {
     country: 'PK',
   },
 
-  // Official public profiles (Instagram, Facebook, YouTube).
-  // Add only genuine, publicly accessible company profiles.
-  // These links help establish consistent brand identity.
-  sameAs: [
-     'https://www.instagram.com/traveldeskgenie/',
-     'https://www.facebook.com/profile.php?id=61596073299276',
-     'https://www.youtube.com/channel/UCXcwiBG0ojtQK3M0UEZ8Lqw',
-  ],
-
+  // Schema identity links are generated from the same profile list used in the footer.
+  sameAs: socialProfiles.map(({url}) => url),
 
   // Publisher identity is the organization; do not invent a named individual author.
 

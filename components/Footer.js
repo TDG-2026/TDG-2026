@@ -1,5 +1,5 @@
 import {L, Link, Image} from '@/lib/i18n/client';
-import {site, mascot} from '@/data/site';
+import {site, mascot, socialProfiles} from '@/data/site';
 import {products, trademarkNote} from '@/data/products';
 
 export default function Footer() {
@@ -37,6 +37,23 @@ export default function Footer() {
           <L as="p">
             <L as="a" href={`mailto:${supportEmail}`}>
               {supportEmail}
+            </L>
+          </L>
+          <L as="p">
+            <L as="a" href={`mailto:${site.generalEmail}`}>
+              {site.generalEmail}
+            </L>
+          </L>
+          <L as="div" className="footer-social" aria-label="Official social media profiles">
+            <L as="h2">Follow Travel Desk Genie</L>
+            <L as="ul">
+              {socialProfiles.map(({name, url}) => (
+                <L as="li" key={name}>
+                  <L as="a" href={url} target="_blank" rel="noopener noreferrer" aria-label={`Travel Desk Genie on ${name}`}>
+                    {name}
+                  </L>
+                </L>
+              ))}
             </L>
           </L>
         </L>
