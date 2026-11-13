@@ -1,3 +1,4 @@
+
 import {localizeMetadata} from '@/lib/i18n/metadata';
 import {getTranslator} from '@/lib/i18n/catalog';
 import {L, Link} from '@/lib/i18n/client';
@@ -60,6 +61,144 @@ export default async function Home({params}) {
       <ProductTour />
       <WorkflowStrip />
       <DataPanel />
+
+      {/* GDS SEARCH ENGINE — INTERNAL LINKING FEATURE */}
+      <section
+        className="section"
+        id="gds-search-feature"
+        aria-labelledby="gds-search-feature-title"
+      >
+        <div className="container">
+          <div
+            style={{
+              position: 'relative',
+              overflow: 'hidden',
+              borderRadius: '24px',
+              padding: 'clamp(24px, 5vw, 48px)',
+              background:
+                'linear-gradient(135deg, #082e72 0%, #075fc4 55%, #087fbd 100%)',
+              color: '#ffffff',
+              boxShadow: '0 18px 45px rgba(7, 75, 150, 0.18)',
+            }}
+          >
+            <div
+              style={{
+                position: 'relative',
+                zIndex: 1,
+                maxWidth: '760px',
+              }}
+            >
+              <p
+                style={{
+                  margin: '0 0 12px',
+                  fontSize: '12px',
+                  fontWeight: 800,
+                  letterSpacing: '0.12em',
+                  textTransform: 'uppercase',
+                  color: '#c6eaff',
+                }}
+              >
+                Free GDS Command Reference Tool
+              </p>
+
+              <h2
+                id="gds-search-feature-title"
+                style={{
+                  margin: '0 0 16px',
+                  color: '#ffffff',
+                  fontSize: 'clamp(25px, 3.3vw, 38px)',
+                  lineHeight: 1.2,
+                  fontWeight: 850,
+                }}
+              >
+                Travel Desk Genie All GDS Search Engine
+              </h2>
+
+              <p
+                style={{
+                  margin: '0 0 20px',
+                  maxWidth: '680px',
+                  color: '#e3f2ff',
+                  fontSize: 'clamp(15px, 1.6vw, 17px)',
+                  lineHeight: 1.8,
+                }}
+              >
+                Search, compare and copy GDS command references for
+                Amadeus, Travelport/Galileo and Sabre — all in one
+                place. Explore reservation, ticketing, hotel,
+                passport DOCS, CTCM and CTCE topics with an
+                easy-to-use comparison search.
+              </p>
+
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  gap: '10px',
+                  marginBottom: '24px',
+                }}
+              >
+                {[
+                  'Amadeus Commands',
+                  'Travelport / Galileo',
+                  'Sabre Commands',
+                ].map((item) => (
+                  <span
+                    key={item}
+                    style={{
+                      padding: '8px 13px',
+                      borderRadius: '999px',
+                      border: '1px solid rgba(255,255,255,0.32)',
+                      background: 'rgba(255,255,255,0.10)',
+                      color: '#ffffff',
+                      fontSize: '12px',
+                      fontWeight: 650,
+                    }}
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+
+              <Link
+                href="/gds-search-engine"
+                aria-label="Open Travel Desk Genie All GDS Search Engine"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '10px',
+                  minHeight: '48px',
+                  padding: '12px 22px',
+                  borderRadius: '12px',
+                  background: '#ffffff',
+                  color: '#084a99',
+                  fontWeight: 800,
+                  fontSize: '15px',
+                  textDecoration: 'none',
+                  boxShadow: '0 8px 22px rgba(0,0,0,0.14)',
+                }}
+              >
+                Search &amp; Compare GDS Commands
+                <span aria-hidden="true">↗</span>
+              </Link>
+
+              <p
+                style={{
+                  margin: '16px 0 0',
+                  color: '#cce8ff',
+                  fontSize: '12px',
+                  lineHeight: 1.6,
+                }}
+              >
+                Educational reference only. Verify commands
+                against current GDS and airline documentation
+                before use.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <L
         as="section"

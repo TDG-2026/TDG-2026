@@ -272,6 +272,226 @@
       "sourceHash": "437d0d63bfbd97326878414b17d443b5cf971bb426262793732682a828c0a442",
       "status": "published"
     },
+    "page.m1250": {
+      "text": "GDS Commands Search Engine | Amadeus, Sabre & Galileo",
+      "sourceHash": "8e19f533a3a72a4d2e2013cb4b7e63ba1999e3e18b9df7b6cfe54b56897b8695",
+      "status": "published"
+    },
+    "page.m1251": {
+      "text": "Search and compare Amadeus, Sabre and Travelport/Galileo GDS commands. Explore reservation, ticketing, hotel, passport DOCS and contact SSR references.",
+      "sourceHash": "6d976884fe6c5dde2b84002ebbee53256d03fa2f8ea6ee52872269bf7f4bab97",
+      "status": "published"
+    },
+    "resources.m0772": {
+      "text": "Passport DOCS Entry in Amadeus, Galileo and Sabre",
+      "sourceHash": "1dc94de159df97249baadbc779deb92641ad1fdd25cc2d37dcc2e61c5e876edd",
+      "status": "published"
+    },
+    "page.m1428": {
+      "text": "Learn how to prepare passport SSR DOCS entries, compare GDS formats and check passenger document details.",
+      "sourceHash": "986a98d43a66f343e446dce8ddda6d0fbd880ed74f01d07b14b9d07d7d3ef274",
+      "status": "published"
+    },
+    "page.m1429": {
+      "text": "Passenger documentation",
+      "sourceHash": "633d3fb961267f892ceb35bef3336e5ada31c43ee8e647d5a2b4976ac2a739ab",
+      "status": "published"
+    },
+    "page.m1430": {
+      "text": "CTCM and CTCE Passenger Contact Entries",
+      "sourceHash": "0472cdcb50606e89f4f53bbda128d66d60b5eeb55b358618f2d4412ec8b75245",
+      "status": "published"
+    },
+    "page.m1431": {
+      "text": "Understand passenger mobile and email SSR entries, including GDS formatting and passenger association.",
+      "sourceHash": "8ba02cd56f78fb6b6ad07651b6b46ae6faab76f798e186d70396e37151973252",
+      "status": "published"
+    },
+    "page.m0174": {
+      "text": "Passenger contacts",
+      "sourceHash": "6664f2f5dd8643000789daa3c841cbcd323d4d727b29a8a554e6f92a6bf1220b",
+      "status": "published"
+    },
+    "resources.m0819": {
+      "text": "Adult, Child and Infant Name Entry in GDS",
+      "sourceHash": "c67c7e2c3de21c22973d99134286aa18863a7dd3c7b07da37c18d6359aabd8d5",
+      "status": "published"
+    },
+    "page.m1432": {
+      "text": "Compare passenger name entry formats and the additional details required for children and infants.",
+      "sourceHash": "b8b8e2147ac156ef8dff087d9d6a1509f3be63cab649e3d7eb129236bb0e8bb8",
+      "status": "published"
+    },
+    "page.m1433": {
+      "text": "Passenger names",
+      "sourceHash": "6e6e1593eaa6184c1e037b4e2365294c9d665054a34d616736f2602fd9c30537",
+      "status": "published"
+    },
+    "page.m1434": {
+      "text": "Amadeus Commands Notes and Cheat Sheet",
+      "sourceHash": "06a9791e748b32cc3db2bc45d3a46a85d983f1f88f0afe5230e115db7ecc72d0",
+      "status": "published"
+    },
+    "page.m1435": {
+      "text": "Explore Amadeus availability, booking, passenger details, pricing and decoding command examples.",
+      "sourceHash": "58adff5d0afa3136431a4b50b23216ccfdc342047d7204431ce8d00110ebd943",
+      "status": "published"
+    },
+    "page.m1436": {
+      "text": "Amadeus commands",
+      "sourceHash": "24e6ac7122efda12f91876665050290a6cdb7a5d86a120c2d9899dc4776591bf",
+      "status": "published"
+    },
+    "page.m1437": {
+      "text": "Travelport Galileo Commands Cheat Sheet",
+      "sourceHash": "42134be40c782b0af6be233053e2842cb9e6640b89d65aad7c611ad3acea8024",
+      "status": "published"
+    },
+    "page.m1438": {
+      "text": "Review Travelport Galileo commands for availability, reservations, passenger entries, pricing and decoding.",
+      "sourceHash": "a97574c6e4b48b16dd4d6f5c0590f78658a4c77a0932a868d10a7765afd0277a",
+      "status": "published"
+    },
+    "page.m1439": {
+      "text": "Travelport/Galileo commands",
+      "sourceHash": "cde8eae5e04edb1e59cca93747b0115486399751d194471e3d62e8f872a39658",
+      "status": "published"
+    },
+    "page.m1440": {
+      "text": "Sabre Commands Notes and Cheat Sheet",
+      "sourceHash": "5e3c463e1b0318827688f75d7db760226fd78a1b5cef5ef3236365d97d4e42fd",
+      "status": "published"
+    },
+    "page.m1441": {
+      "text": "Find Sabre command examples for reservations, passenger details, fare pricing and decoding.",
+      "sourceHash": "2a725c5f0fea6bd70a6269dd3c0124d3485002cb9e203b9732478eed6fbf678c",
+      "status": "published"
+    },
+    "page.m1442": {
+      "text": "Sabre commands",
+      "sourceHash": "a732cb7a298523713e98ffa909143a4db696639e4677995cdb5cd991a82d1f4c",
+      "status": "published"
+    },
+    "site.m1147": {
+      "text": "Travel Desk Genie",
+      "sourceHash": "56ddcee628252b1ff012fc7044ef8342fb08464c7781d86e4e1c231d473d8b3b",
+      "status": "published"
+    },
+    "page.m1252": {
+      "text": "Travel Desk Genie All GDS Search Engine",
+      "sourceHash": "6bc386b003b581b05060c7e2f1bc0c5a0df6cf9154decc1b55b4df9636b85ea2",
+      "status": "published"
+    },
+    "page.m1253": {
+      "text": "Thing",
+      "sourceHash": "7d92d02dacdd3bc9af6857c0373674164963a5a6c73409deb7aaaf6203b008ab",
+      "status": "published"
+    },
+    "page.m1254": {
+      "text": "Global Distribution System (GDS) commands",
+      "sourceHash": "81c6ad76060cfaf1e1a1c0668dccfc960640c90a8114d6b783322d02c3610827",
+      "status": "published"
+    },
+    "page.m1255": {
+      "text": "Amadeus, Sabre and Travelport/Galileo command comparison",
+      "sourceHash": "85e3ffef5b629e83b6ae42cf5107e457155060aa96a3e10c16423583ee979fd4",
+      "status": "published"
+    },
+    "page.m0098": {
+      "text": "Home",
+      "sourceHash": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c",
+      "status": "published"
+    },
+    "page.m1256": {
+      "text": "All GDS Search Engine",
+      "sourceHash": "f3a0e9ad28d7c08bf0f49285933877869e295ab3e97cbe6b22e697c55c63afef",
+      "status": "published"
+    },
+    "page.m1257": {
+      "text": "WebApplication",
+      "sourceHash": "cb958479f1f201e367aed1aa76a2022e30dde66430099d7557001bd29dddd2f0",
+      "status": "published"
+    },
+    "page.m1258": {
+      "text": "Browser-based reference search for comparing stored Amadeus, Travelport/Galileo and Sabre commands. Does not execute live GDS transactions.",
+      "sourceHash": "f2a8e79322fde8665ffcfa9f02c75dcc553f2c79dc09b500e99c5bea58a34225",
+      "status": "published"
+    },
+    "page.m1259": {
+      "text": "BusinessApplication",
+      "sourceHash": "3ade7587b6a5f16c13047058082c29336ed7d721e968e1df674019683787c5c5",
+      "status": "published"
+    },
+    "page.m1260": {
+      "text": "Any operating system with a modern web browser",
+      "sourceHash": "1020f50913fd2b0f6a9d954b971356d132810aeb54a9668e1fdee57dd3aa0660",
+      "status": "published"
+    },
+    "JsonLd.m0465": {
+      "text": "\\u003c",
+      "sourceHash": "9f9fdabe6e34f4c1d60e9da00d427cf7d32c1f3b4374d5311f588df8c966dae5",
+      "status": "published"
+    },
+    "page.m1443": {
+      "text": "44px 20px 64px",
+      "sourceHash": "25dc5bc07491b8f19081e35183ca555f76cb1ed4047b0ddd81724b10b191b08f",
+      "status": "published"
+    },
+    "page.m1444": {
+      "text": "0 auto",
+      "sourceHash": "0f308cfb7ef31a9bf19befc0661f6c56282fc5295c86462ee13873ffd93a762a",
+      "status": "published"
+    },
+    "page.m1445": {
+      "text": "GDS learning resources",
+      "sourceHash": "b330081d5b757781bd08c3c44ee97d7ffe2f1eb71270c522d0d03e48210c0304",
+      "status": "published"
+    },
+    "page.m1446": {
+      "text": "clamp(26px, 3.5vw, 38px)",
+      "sourceHash": "0790c0753c93d5fd7695f3f5c616cea93041d0153f92661cf1260ac003be1686",
+      "status": "published"
+    },
+    "page.m1447": {
+      "text": "0 0 14px",
+      "sourceHash": "825bb706ba69b9e7209204a9bfff39bc1319cf3d82beeb91688b5df361382ccc",
+      "status": "published"
+    },
+    "page.m1448": {
+      "text": "Learn GDS Commands: Step-by-Step Guides",
+      "sourceHash": "e3322516922a9681cbdcdfb4b24a1eb0aadb61dae470fa0403d0322a0be06b7e",
+      "status": "published"
+    },
+    "page.m1449": {
+      "text": "0 0 28px",
+      "sourceHash": "b37303e440bac2ff562db06e69fc57ae51d86b25609841bf1b75b5465030d008",
+      "status": "published"
+    },
+    "page.m1450": {
+      "text": "Explore practical guides for Amadeus, Travelport/Galileo and Sabre. Learn how to prepare passenger passport DOCS, CTCM and CTCE contact entries, enter adult, child and infant names, and use common reservation and pricing commands. These guides complement the GDS Search Engine with explanations, examples and workflow checks.",
+      "sourceHash": "9f062b9b11e4917ec13faf85edf6397c17f6cbb8878cf94cfe99dfcf6e8ab967",
+      "status": "published"
+    },
+    "page.m1451": {
+      "text": "repeat(auto-fit, minmax(min(100%, 290px), 1fr))",
+      "sourceHash": "191d8312033d638168902f42f0bf9c5df1c73d08932234a84b092fe1d45e47ae",
+      "status": "published"
+    },
+    "page.m0233": {
+      "text": "Read the guide →",
+      "sourceHash": "ca30938da4069420f832215d1fa96185a4769796a2d1e1cea48aeb150ec5f022",
+      "status": "published"
+    },
+    "page.m1452": {
+      "text": "24px 0 0",
+      "sourceHash": "6f41b923f8be0a7a2fc8b44cf739085b5c89f05fe9d8d874754001542bcdc426",
+      "status": "published"
+    },
+    "page.m1453": {
+      "text": "GDS commands and airline procedures can change. Always verify entries against your current GDS documentation and your agency's workflow.",
+      "sourceHash": "bee940e58019b2f4108b95392559c8da149693f1adb8695dc70289834cbb1bc2",
+      "status": "published"
+    },
     "page.m0054": {
       "text": "Magic Toolbar User Guide | Install & Activate",
       "sourceHash": "55babfcc68073395b4d3077922a5c8861e4e6f6cb8d02b361bcbd210c991cc59",
@@ -492,11 +712,6 @@
       "sourceHash": "66237e92f1101054f13b01cf441819b2143fd227fec9de930c9115c27474767c",
       "status": "published"
     },
-    "page.m0098": {
-      "text": "Home",
-      "sourceHash": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c",
-      "status": "published"
-    },
     "page.m0099": {
       "text": "Website languages",
       "sourceHash": "a67a2371c4e8d3044aae0fee7807cbf081734a756a9d600b7d222994d1260c47",
@@ -590,6 +805,121 @@
     "page.m0117": {
       "text": "Magic Toolbar prepares DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre, with F1–F12 shortcuts and desk tools for Windows. From $30/month.",
       "sourceHash": "6e09e607011b9185e739570cee082346b29f734086c8b766f8111486f0603780",
+      "status": "published"
+    },
+    "page.m1454": {
+      "text": "clamp(24px, 5vw, 48px)",
+      "sourceHash": "27d5f471b6dd59485dcc9a8c2e51fb16d2f0a223adbe16edcf98f1deed980232",
+      "status": "published"
+    },
+    "page.m1455": {
+      "text": "linear-gradient(135deg, #082e72 0%, #075fc4 55%, #087fbd 100%)",
+      "sourceHash": "f6c02326694328a19851df0793f376a1841fb1ef007b2bb7170ede455f4ae069",
+      "status": "published"
+    },
+    "page.m1456": {
+      "text": "0 18px 45px rgba(7, 75, 150, 0.18)",
+      "sourceHash": "a5d5dfe8108606d2b8201bde0f7bb7538df3a857f710ced247187855aa9776a2",
+      "status": "published"
+    },
+    "page.m1457": {
+      "text": "0 0 12px",
+      "sourceHash": "40dc9ef14b9091fffeb167b2fa0f58578b7c178cff42cee9368ceb2bc7d54a25",
+      "status": "published"
+    },
+    "page.m1458": {
+      "text": "0.12em",
+      "sourceHash": "4e52efcef77663f603cb105ed20cce666994d34fe15779c1b81b463b588f79b0",
+      "status": "published"
+    },
+    "page.m1459": {
+      "text": "Free GDS Command Reference Tool",
+      "sourceHash": "4d587cb3f82f72c4aeee42f579f5e98505cad500a78177fb67ed986a8137ac1b",
+      "status": "published"
+    },
+    "page.m1460": {
+      "text": "0 0 16px",
+      "sourceHash": "bb4c94551e64b544d16b3ea84838fe6e49ccc4533c867017135e1a776f9214ec",
+      "status": "published"
+    },
+    "page.m1461": {
+      "text": "clamp(25px, 3.3vw, 38px)",
+      "sourceHash": "14d32d7e1a62822c620c7373ed7cda12bbc604df0b57eed8a7d95752f7caea2d",
+      "status": "published"
+    },
+    "page.m1462": {
+      "text": "0 0 20px",
+      "sourceHash": "e9b332761b57cee3e5280383d1923a9257d598a6aa68c47e451cd1ded17a6b7d",
+      "status": "published"
+    },
+    "page.m1463": {
+      "text": "clamp(15px, 1.6vw, 17px)",
+      "sourceHash": "8ce7070cbeee171a3c432ca6737c5d42fecc36da72d545f3524056138dc3c827",
+      "status": "published"
+    },
+    "page.m1464": {
+      "text": "Search, compare and copy GDS command references for Amadeus, Travelport/Galileo and Sabre — all in one place. Explore reservation, ticketing, hotel, passport DOCS, CTCM and CTCE topics with an easy-to-use comparison search.",
+      "sourceHash": "070663d5f09733dc57f1c5a2798de9b78105643d3c193a120c2ac47078bf6a90",
+      "status": "published"
+    },
+    "page.m1465": {
+      "text": "Amadeus Commands",
+      "sourceHash": "946942171800327344c4d0f2c780f94f6261278d922150a474f235d58311f20a",
+      "status": "published"
+    },
+    "GdsSearch.m1284": {
+      "text": "Travelport / Galileo",
+      "sourceHash": "d9688633e5cf0e3b47d1f25df5bddda704f40f57a1b97e668fd5475656c74f79",
+      "status": "published"
+    },
+    "page.m1466": {
+      "text": "Sabre Commands",
+      "sourceHash": "9e1157d7efb219895602bfb9e5d08f7d0c4f1b069ff936db68f907c1c9d711ed",
+      "status": "published"
+    },
+    "page.m1467": {
+      "text": "8px 13px",
+      "sourceHash": "704b4905d970970fc39b52c4aa16841c9f6e8d4e30b5575607c8b5dd95163051",
+      "status": "published"
+    },
+    "page.m1468": {
+      "text": "1px solid rgba(255,255,255,0.32)",
+      "sourceHash": "4fe2cf27794b5f444883a51cc9b18da86e6eaffeb840b91db8d6b3be3b616836",
+      "status": "published"
+    },
+    "page.m1469": {
+      "text": "rgba(255,255,255,0.10)",
+      "sourceHash": "406e6cf83a51a6ca89da84de38904130ddafd11e47e4df77a1aa25a53de6b0b8",
+      "status": "published"
+    },
+    "page.m1470": {
+      "text": "Open Travel Desk Genie All GDS Search Engine",
+      "sourceHash": "9e692f00f9bb78216d22c5de413f2ac4dc9e134cc9a6454b65df8ca0f7b7d3d2",
+      "status": "published"
+    },
+    "page.m1471": {
+      "text": "12px 22px",
+      "sourceHash": "94121c060fc9ab3aed85e6f2275713ccfb750b737ef739ec52ef971b765ea3b4",
+      "status": "published"
+    },
+    "page.m1472": {
+      "text": "0 8px 22px rgba(0,0,0,0.14)",
+      "sourceHash": "02154e56819bf2edc4ae8581f895392dbfefae9a02067ebc0cc70080261a9b2b",
+      "status": "published"
+    },
+    "page.m1473": {
+      "text": "Search & Compare GDS Commands",
+      "sourceHash": "a0e8cc83f77879c5e0815d74dc5401e26e0b389bac2fae427b868214dd27fc6f",
+      "status": "published"
+    },
+    "page.m1474": {
+      "text": "16px 0 0",
+      "sourceHash": "53d85a284ba9b20b7aae33f980e99dbbdf52e1eff836be52e15dcc437d9750e7",
+      "status": "published"
+    },
+    "page.m1475": {
+      "text": "Educational reference only. Verify commands against current GDS and airline documentation before use.",
+      "sourceHash": "6bfb727df1dc337f96fdfeb07e526fca64913d215270aa6f35772eb2aee9dad7",
       "status": "published"
     },
     "page.m0118": {
@@ -872,11 +1202,6 @@
       "sourceHash": "ec39afa1b17cd3dcb4d57e4b3745a9be8eda153ccfdab4b77ca4493bc747ffc4",
       "status": "published"
     },
-    "page.m0174": {
-      "text": "Passenger contacts",
-      "sourceHash": "6664f2f5dd8643000789daa3c841cbcd323d4d727b29a8a554e6f92a6bf1220b",
-      "status": "published"
-    },
     "page.m0175": {
       "text": "Prepare CTCM and CTCE formats",
       "sourceHash": "6e4d96fedb9d3d77721c180017a0fcc80081b630b51644511c0f302c015a9a77",
@@ -912,9 +1237,9 @@
       "sourceHash": "2462efab8c372c7c0b7e10f5353b45e721f62447163b3e9a02ecbf83689a4f7b",
       "status": "published"
     },
-    "page.m0182": {
-      "text": "Confirm the destination’s current official specification",
-      "sourceHash": "247b13d0144f4892e49cca01df7ac467ad44d90ae67d16b5faedf5c4a8138e8e",
+    "page.m1476": {
+      "text": "Confirm the destination's current official specification",
+      "sourceHash": "eb7a1f94fb22455665a1df01dd8a5080eec64edeb01c84365d6451e63da1df6d",
       "status": "published"
     },
     "page.m0183": {
@@ -925,6 +1250,81 @@
     "page.m0184": {
       "text": "Read about data handling",
       "sourceHash": "f080a07cd21d2ec0dab4a94431825c2cb0ca7a99d3344ffe3c0cd40d2eafe6c0",
+      "status": "published"
+    },
+    "page.m1477": {
+      "text": "38px 0 12px",
+      "sourceHash": "d1b2c5e48dc98cf6b2cbc69bb630ee29913fca899f51fa0571cce2a0fe603009",
+      "status": "published"
+    },
+    "page.m1478": {
+      "text": "clamp(22px, 4vw, 36px)",
+      "sourceHash": "2f51fd99aad2a74bb1bf29a0adf580dfe8d755b4c49c220f5de8b8ed76fcfeb3",
+      "status": "published"
+    },
+    "page.m1479": {
+      "text": "linear-gradient(135deg, #082e72 0%, #075fc4 58%, #087fbd 100%)",
+      "sourceHash": "d420a1ff9a9244708f6aaea5ae44c1e92db6320747c513a198cbc3c3a618a157",
+      "status": "published"
+    },
+    "page.m1480": {
+      "text": "0 14px 35px rgba(7, 75, 150, 0.16)",
+      "sourceHash": "6c1f27579d008e24de7efc6ced858cf84ef13eaf0472a28f6b37f0049850a936",
+      "status": "published"
+    },
+    "page.m1481": {
+      "text": "0 0 10px",
+      "sourceHash": "926d06550488894e9a9c532f118e847f23f4a16733b96fe8939c8b687025f1ea",
+      "status": "published"
+    },
+    "page.m1482": {
+      "text": "0.11em",
+      "sourceHash": "0fa76d608e5c340e0f115e96825075478f175c56621911150940c8290728ad69",
+      "status": "published"
+    },
+    "page.m1483": {
+      "text": "clamp(23px, 3vw, 32px)",
+      "sourceHash": "d84d6cdbeb970b38ce9b3f2b2c476f6fb5a7146f698d30bffd0a48a7359cc344",
+      "status": "published"
+    },
+    "page.m1484": {
+      "text": "Search & Compare Amadeus, Galileo and Sabre Commands",
+      "sourceHash": "933dfb2b074ad9d2b2ac7a5118158610d4c8c539498b4ff3689f0e2cfb72edb4",
+      "status": "published"
+    },
+    "page.m1485": {
+      "text": "Need a GDS command reference while working with Magic Toolbar? Use the Travel Desk Genie All GDS Search Engine to discover and compare available Amadeus, Travelport/Galileo and Sabre commands for reservation, ticketing, hotel, passport DOCS, CTCM and CTCE tasks.",
+      "sourceHash": "b7d1c925fb2fe4ea8c114ddad2e90f9beb8fd9939203564a6214140516cd5f45",
+      "status": "published"
+    },
+    "page.m1486": {
+      "text": "Open the Travel Desk Genie All GDS Search Engine",
+      "sourceHash": "dd6eb7de3df714ffee7700be9e0b4e37dfda8030f052f9e60c17060ff9548d31",
+      "status": "published"
+    },
+    "page.m1487": {
+      "text": "11px 20px",
+      "sourceHash": "480436cb3fac4ba8f144ae96a8cb5affa5590f50bfdc5b2754ea256f137ab653",
+      "status": "published"
+    },
+    "page.m1488": {
+      "text": "0 7px 18px rgba(0,0,0,0.12)",
+      "sourceHash": "77045579c3476314f6b1d9920f0a9781a0faebac6c78bbfe5a831c9c66a545ec",
+      "status": "published"
+    },
+    "page.m1489": {
+      "text": "Explore All GDS Commands",
+      "sourceHash": "b37f544e7dd608ed03c732bdaed915cf78b4ac37f2d2836d67f0338e80992b8f",
+      "status": "published"
+    },
+    "page.m1490": {
+      "text": "15px 0 0",
+      "sourceHash": "3f1da7bec050170f7b6455eef3eaecf162ef8ef7a415cd9d10526c3262c812a4",
+      "status": "published"
+    },
+    "page.m1491": {
+      "text": "The GDS Search Engine is a separate browser-based reference tool. It does not connect to a live GDS or execute booking and ticketing transactions.",
+      "sourceHash": "bb2c8c9580bca04f33e37977296538dce59e003e6519474a1b2c89c7a751e035",
       "status": "published"
     },
     "page.m0185": {
@@ -1162,14 +1562,34 @@
       "sourceHash": "447f618ef3110a18cc6fa307dc6b11b994c155c4ccae1e958ef4f47d478f9828",
       "status": "published"
     },
+    "page.m1492": {
+      "text": "30px 0 36px",
+      "sourceHash": "0555bb3dc075c968ef289075fd4a29ccdf3c81b8ef7e5652dba0d32368ca1bd1",
+      "status": "published"
+    },
+    "page.m1493": {
+      "text": "Featured Free GDS Reference Tool",
+      "sourceHash": "e0cd8c28486159a2fab2d3c3684c6c98e0a604d79b20470e0c32a1f8c592c6dd",
+      "status": "published"
+    },
+    "page.m1494": {
+      "text": "Search, compare and copy GDS command references for Amadeus, Travelport/Galileo and Sabre in one place. Explore reservation, ticketing, hotel, passport DOCS, CTCM and CTCE topics with side-by-side comparisons.",
+      "sourceHash": "75dc607e7d5381448fa3e4dfdd4d488ba89c7c51eb4984dd094f6d9e30c5f5e8",
+      "status": "published"
+    },
+    "page.m1495": {
+      "text": "Explore the Travel Desk Genie All GDS Search Engine",
+      "sourceHash": "91619be590aca6ce9d4a489977f989539c984be1fbf854a2aec02fb45f3d6dc9",
+      "status": "published"
+    },
+    "page.m1496": {
+      "text": "Educational reference only. Verify command formats against current GDS and airline documentation.",
+      "sourceHash": "3a2da10b5d8a6ff281ac248def54ac04f2b5afcd383422f9070481e700c1338c",
+      "status": "published"
+    },
     "page.m0232": {
       "text": "· Pre-release guide",
       "sourceHash": "fb83ce3bd7ae7fd21fe88721c8a170dffa8d27e4db5b909d30060e9e5b0a6d7e",
-      "status": "published"
-    },
-    "page.m0233": {
-      "text": "Read the guide →",
-      "sourceHash": "ca30938da4069420f832215d1fa96185a4769796a2d1e1cea48aeb150ec5f022",
       "status": "published"
     },
     "page.m0234": {
@@ -1235,6 +1655,41 @@
     "page.m0246": {
       "text": "Mute Zoom Meeting Sound With One Hotkey | Travel Genie",
       "sourceHash": "314546e290222fbf63ebcc014f99ff8625e5c603f52aed99760f788c899d41ee",
+      "status": "published"
+    },
+    "page.m1497": {
+      "text": "Compare Amadeus, Travelport/Galileo and Sabre command references for passport DOCS, passenger information and other GDS workflows.",
+      "sourceHash": "bf0ad4a6758fc26becde8673bbda192e5f9a908c18f56b262b97a6f9986d9ca1",
+      "status": "published"
+    },
+    "page.m1498": {
+      "text": "Explore Amadeus, Travelport/Galileo and Sabre references for passenger contact entries, including CTCM and CTCE.",
+      "sourceHash": "35395a65faf7536cecde40af41145eef924ba4f70474bfd56715a4802c80b79c",
+      "status": "published"
+    },
+    "page.m1499": {
+      "text": "Find and compare GDS command references for passenger names, reservations and related workflows across Amadeus, Galileo and Sabre.",
+      "sourceHash": "2bc68d08c7bf954fa51c28e95ccc9fff5c8de8ad62982c44c50b240480415524",
+      "status": "published"
+    },
+    "page.m1500": {
+      "text": "Search Amadeus command references and compare available equivalents in Travelport/Galileo and Sabre.",
+      "sourceHash": "92fcdda49010a9a396a427298844f276ff785a5c36d04c21043991ac7b1e03f6",
+      "status": "published"
+    },
+    "page.m1501": {
+      "text": "Search Travelport/Galileo command references and compare available equivalents in Amadeus and Sabre.",
+      "sourceHash": "8ab978b717c07c5e73fd8adea48d36ae8b3b13176841254d4809ef57bb7c02d4",
+      "status": "published"
+    },
+    "page.m1502": {
+      "text": "Search Sabre command references and compare available equivalents in Amadeus and Travelport/Galileo.",
+      "sourceHash": "be1b23d302911fd456be6e2267b5a62d5fc8b0f996c2b99d497c13b0b4db65f7",
+      "status": "published"
+    },
+    "page.m1503": {
+      "text": "Look up Amadeus, Travelport/Galileo and Sabre command references online while organizing your travel desk notes and shortcuts.",
+      "sourceHash": "1ae5c4e4318db0b517138fd73b82b8d1024327196e40287ca03357f1025373f4",
       "status": "published"
     },
     "page.m0247": {
@@ -1310,6 +1765,71 @@
     "page.m0261": {
       "text": "{minutes} min read",
       "sourceHash": "7166006e74bc2008d901c104fb4fc0343ddd1876554daf82f375820e0d4b7d67",
+      "status": "published"
+    },
+    "page.m1504": {
+      "text": "34px 0",
+      "sourceHash": "664a9eda702736fed1dc4d235c4624aa17ec1cb75aa545d2800cb2fb7c5dfa94",
+      "status": "published"
+    },
+    "page.m1505": {
+      "text": "clamp(20px, 4vw, 30px)",
+      "sourceHash": "f685c99d70f0a9048ec8e69d2020cc837858b842d198fdcd24d79f04afaa4d1f",
+      "status": "published"
+    },
+    "page.m1506": {
+      "text": "1px solid #c8dff6",
+      "sourceHash": "47b03f5477ed6c4b1a1631b77febcd5c61923a88b7efa14a356dbbd2b55da1d1",
+      "status": "published"
+    },
+    "page.m1507": {
+      "text": "0 0 8px",
+      "sourceHash": "492fea136c1567324613662e0567e6cdec654f80cf247bf7920b3660f282c744",
+      "status": "published"
+    },
+    "page.m1508": {
+      "text": "0.08em",
+      "sourceHash": "52ab8565252e31ceadba56a24d084e220d8b0fda23428e73c5d467d9e70c346f",
+      "status": "published"
+    },
+    "page.m1509": {
+      "text": "Free GDS Command Reference",
+      "sourceHash": "24e88b2854a178209b72b2bb5ed463868ae7e0310ef68802e60c0a8c2a6bfa64",
+      "status": "published"
+    },
+    "page.m1510": {
+      "text": "clamp(20px, 3vw, 26px)",
+      "sourceHash": "2f74973e997d2f65e91b6c1e04348bba668c44368c2d315d38a77120c02f5f9c",
+      "status": "published"
+    },
+    "page.m1511": {
+      "text": "Search Amadeus, Galileo & Sabre Commands",
+      "sourceHash": "22c9a97286af5531167d3ed91bf3104ab96017717f7957706e40745042cba1e9",
+      "status": "published"
+    },
+    "page.m1512": {
+      "text": "0 0 18px",
+      "sourceHash": "e00b8422a7388d5ec4abdc06c1154a407f9981adf1610357ae715ad54451cbcb",
+      "status": "published"
+    },
+    "page.m1513": {
+      "text": "11px 18px",
+      "sourceHash": "ef8cf54f5cc60a04b1a765267db0627b6ac6137549f11c21181819ca17ef9ea3",
+      "status": "published"
+    },
+    "page.m1514": {
+      "text": "Open All GDS Search Engine →",
+      "sourceHash": "12ed44a3d1b83681fc0931cd026d2f24d98ee07cce55c7a28da07491a173fd7b",
+      "status": "published"
+    },
+    "page.m1515": {
+      "text": "14px 0 0",
+      "sourceHash": "8b29eec1e79b54053d28c489c65860a3fcb232de7b362bd5eeeb9ccba58baf28",
+      "status": "published"
+    },
+    "page.m1516": {
+      "text": "Educational reference only. Verify command formats in your GDS before use.",
+      "sourceHash": "b7d45d59fb71d7648bdb0456adcb3a6cb99ac7f60cf6682ddf71d655a7ba788d",
       "status": "published"
     },
     "page.m0262": {
@@ -2072,6 +2592,891 @@
       "sourceHash": "243e00440c946603248f1a04bcf649f21912dd05a3e0d9821ea0f2fd27752fdb",
       "status": "published"
     },
+    "GdsSearch.m1261": {
+      "text": "Search all GDS entries ... e.g. decode city, amadeus hotel, reservation, ticket issuance commands.",
+      "sourceHash": "6744be3cb61fd9f514e7c33af10dba7e12dff5c909daa216dd290cde1da80060",
+      "status": "published"
+    },
+    "GdsSearch.m1262": {
+      "text": "Search GDS commands... decode city, amadeus hotel, reservation, ticket issuance",
+      "sourceHash": "b934bf57826f1254ca34704fb9f04adee4976fcc0534911707acd44a5217c06f",
+      "status": "published"
+    },
+    "GdsSearch.m1263": {
+      "text": "Unclosed CSV quote",
+      "sourceHash": "9572c060898ce0df9eecd1cccf02387fa9c537a834281dda7c4a49e112b9bf37",
+      "status": "published"
+    },
+    "GdsSearch.m1264": {
+      "text": "search keywords",
+      "sourceHash": "f8914f4385d7fe407491a6e5bd8946de5c54452d6c0039847e6640adb93c93e8",
+      "status": "published"
+    },
+    "GdsSearch.m1265": {
+      "text": "Category and Topic headers required",
+      "sourceHash": "2527ef18eb305404748387b9cc567dfc2b7b298157542b31c644587535e8a28c",
+      "status": "published"
+    },
+    "GenieChat.m0418": {
+      "text": "(prefers-reduced-motion: reduce)",
+      "sourceHash": "fce63bfb9ebaba3d69fc9c9c02547367b47bcc63b3d99e8afdf4b7e429ce4368",
+      "status": "published"
+    },
+    "GdsSearch.m1266": {
+      "text": "Browser storage is full; changes may not persist. Export your data.",
+      "sourceHash": "5672fb1114aea78fcc9c5f3a230449f676aa2dc43a7d94c3ccff084d8a00fc42",
+      "status": "published"
+    },
+    "GdsSearch.m1267": {
+      "text": "Clipboard unavailable. Use HTTPS or localhost for testing.",
+      "sourceHash": "d9921ddf1e1f2af252f9670d5ddb1db059c445e8a4fdd88ab1d0d559d36cdf95",
+      "status": "published"
+    },
+    "GdsSearch.m1268": {
+      "text": "Category, topic and at least one GDS command are required.",
+      "sourceHash": "b3c67fc716526b3e853d1388a1e2d726656bb48c528316f7ed99b3f9731854d8",
+      "status": "published"
+    },
+    "GdsSearch.m1269": {
+      "text": "Possible duplicate category and topic. Save separately?",
+      "sourceHash": "76bc5a976e998a86735a53edfe1eeec2b1d2e723e44bec25806bc03dca85eb94",
+      "status": "published"
+    },
+    "GdsSearch.m1270": {
+      "text": "Saved in this browser (preview only).",
+      "sourceHash": "d1c44da33241515c6dc351a025cf80ed0ec90654b00006ff6c4e3b352f23042f",
+      "status": "published"
+    },
+    "GdsSearch.m1271": {
+      "text": "Entry removed from browser preview.",
+      "sourceHash": "0e5b09b12ffd551b666195fe403d689f7427634798841805601058dc9b92a040",
+      "status": "published"
+    },
+    "GdsSearch.m1272": {
+      "text": "gds-entries.json",
+      "sourceHash": "78c2deab22b01ea2bf9b6af553560eb36031cde1c954dee9af98108ab318617d",
+      "status": "published"
+    },
+    "GdsSearch.m1273": {
+      "text": "application/json",
+      "sourceHash": "bacb769b46f6d169fb227ea026550f411d46cbe66a9c2a6ba36449c8cf8e4dea",
+      "status": "published"
+    },
+    "GdsSearch.m1274": {
+      "text": "gds-entries.csv",
+      "sourceHash": "487f618076e439ce094a78b3408f1a25b02a5a72a942e0d730d4877fcdd3e2b1",
+      "status": "published"
+    },
+    "GdsSearch.m1275": {
+      "text": "Search keywords",
+      "sourceHash": "520c45ef94262bff47fd7a94bbbd04aeee6c693c8ca828b6069a6a5ca81b11e4",
+      "status": "published"
+    },
+    "GdsSearch.m1276": {
+      "text": "text/csv;charset=utf-8",
+      "sourceHash": "dbc080e39d857f915b215738744830969d7d4c6aba680faaf0b32090a7ec28dd",
+      "status": "published"
+    },
+    "GdsSearch.m1277": {
+      "text": "Preview import maximum is 5 MB",
+      "sourceHash": "acfee1816cfed6835643b8fddff469647ef2fabf346b12de9047de509d5793e2",
+      "status": "published"
+    },
+    "GdsSearch.m1278": {
+      "text": "Expected an array with no more than 10,000 rows",
+      "sourceHash": "66b034c037dd39625a792b0ae8816f539ac27b35a66730bda57ede2715f6649c",
+      "status": "published"
+    },
+    "GdsSearch.m1279": {
+      "text": "Import failed:",
+      "sourceHash": "113b8e2f4761d74c0c3fa13a4e00524cc71e297e629e30fe41d38d561806d1d4",
+      "status": "published"
+    },
+    "GdsSearch.m1280": {
+      "text": "GDS COMMAND REFERENCE & COMPARISON",
+      "sourceHash": "e184130a81bc41220b9e97b218623a05c989f6b6812fb4b7e5da6b434071fb55",
+      "status": "published"
+    },
+    "GdsSearch.m1281": {
+      "text": "Instant GDS Commands Discovery with All GDS Comparison",
+      "sourceHash": "1420e07a3a1d99f19faee4c16f07e43bf673ebde2d9e6139e41dbfb931eb2e28",
+      "status": "published"
+    },
+    "GdsSearch.m1282": {
+      "text": "All GDS under one umbrella — with a little genie magic.",
+      "sourceHash": "e8321d2b48b9e47320d59902e99d0616a6d4c96a22f377ba2e5fcb5afb310c63",
+      "status": "published"
+    },
+    "GdsSearch.m1283": {
+      "text": "Travel Desk Genie mascot",
+      "sourceHash": "d1954c5189a1652acd3fd25dfa59d6f0d2472b89713cd4b8f891770ace210c95",
+      "status": "published"
+    },
+    "WorkflowDemo.m0580": {
+      "text": "Amadeus",
+      "sourceHash": "698749ac9971383b7059650e3f1f55ed754728c8f50fde099d198a256f637bba",
+      "status": "published"
+    },
+    "WorkflowDemo.m0582": {
+      "text": "Sabre",
+      "sourceHash": "a12a31158c6fa09575faa7b35b5f13327e2088843db380b10c2524a3437d28c0",
+      "status": "published"
+    },
+    "GdsSearch.m1285": {
+      "text": "Travel Genie Magic Toolbar Windows application",
+      "sourceHash": "67cd0b4a5b23316446b8a888d89f7cea3ee434a33f7f1e6392202ac28d5fef8d",
+      "status": "published"
+    },
+    "GdsSearch.m1286": {
+      "text": "SMART AUTOMATION FOR TRAVEL PROFESSIONALS",
+      "sourceHash": "7d523fca43af8f83fe94c34edd16afb51af85bb87f5c35666b78c318de3b13d2",
+      "status": "published"
+    },
+    "GdsSearch.m1287": {
+      "text": "Thousands of Passport Entries. Minutes of Work. Pure Magic.",
+      "sourceHash": "17b08e21cadc30aba0c64e282573033242d8dc52997c90a16399edb2bc993f80",
+      "status": "published"
+    },
+    "GdsSearch.m1288": {
+      "text": "Transform the way you work with GDS. Automatically prepare passenger",
+      "sourceHash": "d041b88bc3c7432860a729e0f3a81cf3f6fb0ef746b88c722e737733b5a2a4ba",
+      "status": "published"
+    },
+    "GdsSearch.m1289": {
+      "text": "NAME, DOCS, CTCM & CTCE",
+      "sourceHash": "e0c4034c53692b80ca7c224584c4f039fed00f4579f398e5b40c4b93dfeafee9",
+      "status": "published"
+    },
+    "GdsSearch.m1290": {
+      "text": "entries for",
+      "sourceHash": "608e742080479699b80f58ddf14fa8aaf2ba9bddd975be5f260ac7f96af3e3ed",
+      "status": "published"
+    },
+    "GdsSearch.m1291": {
+      "text": "all GDS",
+      "sourceHash": "8c31636678ad14eff110e50c695b05127508f6c24f0e082c977f4f35d3a4b027",
+      "status": "published"
+    },
+    "GdsSearch.m1292": {
+      "text": "with speed, precision, and effortless efficiency.",
+      "sourceHash": "1a90460647efd4de86e99021feb619edf8cf71d41cdc7c9d2ac8f9f1ba467632",
+      "status": "published"
+    },
+    "GdsSearch.m1293": {
+      "text": "Get the app or learn how to use it",
+      "sourceHash": "8a06be577240b27223cc746f41175b1ba0860c47a5ee4c50f1a746841aa1abde",
+      "status": "published"
+    },
+    "GdsSearch.m1294": {
+      "text": "Get Travel Genie Magic Toolbar from Microsoft Store (opens in a new tab)",
+      "sourceHash": "1da36cabf1cbd94603f730c7ab5da96baf5b722fa9e0232480b0ed0f0a8c5b9a",
+      "status": "published"
+    },
+    "GdsSearch.m1295": {
+      "text": "GET IT FROM",
+      "sourceHash": "169a3cf0cf086bd9c96d5d58e2c75cd8fe12dd20c3f2d93b19543601fd2b76de",
+      "status": "published"
+    },
+    "GdsSearch.m1296": {
+      "text": "Microsoft Store",
+      "sourceHash": "50569f5c60f3bc540408be54fb4ac863f6f07a0b738990e6c17c112ca43a8972",
+      "status": "published"
+    },
+    "GdsSearch.m1297": {
+      "text": "Watch Travel Desk Genie video tutorials and product training on YouTube (opens in a new tab)",
+      "sourceHash": "46241296c46335b90cd82780472232580a12a135d0261e2d54832533f5f76a50",
+      "status": "published"
+    },
+    "GdsSearch.m1298": {
+      "text": "WATCH & LEARN",
+      "sourceHash": "144ad2d76da7eb3f3a5cea8d2493e15047a5de4ce1c882e6a933d49f59ed98fe",
+      "status": "published"
+    },
+    "GdsSearch.m1299": {
+      "text": "Video Tutorials",
+      "sourceHash": "c80bfbcb60f8e3f8c7192a49a91e107c1cc7b38e723161ba0a5f5d714d225f62",
+      "status": "published"
+    },
+    "GdsSearch.m1300": {
+      "text": "Windows desktop app on Microsoft Store · Tutorials and product training on YouTube",
+      "sourceHash": "47e22c3ad3143d3b1e39fdea9b0cbd4f0258565c2b93192f62f92207f026a11d",
+      "status": "published"
+    },
+    "GdsSearch.m1301": {
+      "text": "Search GDS entries",
+      "sourceHash": "469030aea73a0ec65b328e890cbe2d58c15f44dfea257428cffdcd4f51bc6fe3",
+      "status": "published"
+    },
+    "GdsSearch.m1302": {
+      "text": "All categories",
+      "sourceHash": "9d5097a837102a179a2d08a921a260c5058495e78469c3f1bad37a1b4bf59053",
+      "status": "published"
+    },
+    "GdsSearch.m1303": {
+      "text": "System",
+      "sourceHash": "6725e7bbcd28f3a8a586fa34bf191fd72dde8b61756932cd3237c17a6f196f1a",
+      "status": "published"
+    },
+    "GdsSearch.m1304": {
+      "text": "All systems",
+      "sourceHash": "09fae25379bfd5473b3e4c2fb7dc8e2b6dfe46b086bd3303fc76aeec22df3df7",
+      "status": "published"
+    },
+    "GdsSearch.m1305": {
+      "text": "Clear",
+      "sourceHash": "83b12c2216efb4fdc924e1deb5182e905e4926ed0c1c324d467107f46d5a26a9",
+      "status": "published"
+    },
+    "GdsSearch.m1306": {
+      "text": "results",
+      "sourceHash": "c099142bc3186ded72786ba27e9ea6d2da240fb9fd3fe79b479ecf8e734b2850",
+      "status": "published"
+    },
+    "GdsSearch.m1307": {
+      "text": "Search results",
+      "sourceHash": "e978b00de465a271a13bf2f6b9d74d67fdfaa7d973a37378fa32f988c3280599",
+      "status": "published"
+    },
+    "GdsSearch.m1308": {
+      "text": "Browse GDS entries",
+      "sourceHash": "50ff9b42a95984f54e5395b39ce392f7742428ecc8bb82ada31d36f99bcbcbf1",
+      "status": "published"
+    },
+    "GdsSearch.m1309": {
+      "text": "Copy reference commands individually. This tool does not execute GDS commands.",
+      "sourceHash": "f8a623ec036db5e1122a7041f7d94515a4bf01d2ec15d3326c9a08e35bc24c59",
+      "status": "published"
+    },
+    "GdsSearch.m1310": {
+      "text": "Close admin preview",
+      "sourceHash": "b1a727873d688ae4b5bcc49a7deb60869e5a911cfe1fc6bd6336ec38b18cc979",
+      "status": "published"
+    },
+    "GdsSearch.m1311": {
+      "text": "Admin preview",
+      "sourceHash": "a702a4e31bd03d35c641ca5af59492fff364395d8d00694fff2458aa098171e9",
+      "status": "published"
+    },
+    "GdsSearch.m1312": {
+      "text": "Entries manager",
+      "sourceHash": "507a8e2c87a2d6fe178577251abc432f52952d966fe6639cf0b99f1be402b498",
+      "status": "published"
+    },
+    "GdsSearch.m1313": {
+      "text": "Local preview only",
+      "sourceHash": "9f695f290fd5f1f66ab4fcc82ea50071a0b976173135719e38e26d7db98343d5",
+      "status": "published"
+    },
+    "GdsSearch.m1314": {
+      "text": "Not authenticated or connected to a backend. Do not publish this admin view. Changes are stored only in this browser.",
+      "sourceHash": "109107bdcfabfe6de48719c0e764e05df6316d72fc8e5bb73e186ae51d231189",
+      "status": "published"
+    },
+    "GdsSearch.m1315": {
+      "text": "+ Add entry",
+      "sourceHash": "b355ca9af18b8c4d862d563490b55f0c415a4874e227366c53d6e3449914bc0e",
+      "status": "published"
+    },
+    "GdsSearch.m1316": {
+      "text": "Import CSV / JSON",
+      "sourceHash": "e901a5a64c36f3f98ceda80e77d4250735d9d1479c9707af30543a15820112b0",
+      "status": "published"
+    },
+    "GdsSearch.m1317": {
+      "text": "Export CSV",
+      "sourceHash": "91f71c14c8d6cc647e8658f9a4b9dcb885ff3f7fef1d3e774f46eae35bff0bcd",
+      "status": "published"
+    },
+    "GdsSearch.m1318": {
+      "text": "Export JSON",
+      "sourceHash": "ff25653ee9e47f2a68ebc26cc2431ae8edc54c7b8305d1283357c64ae7cfb087",
+      "status": "published"
+    },
+    "GdsSearch.m1319": {
+      "text": "Add",
+      "sourceHash": "9fd728c66c9a256b121472dabf32a34317aed01d8427d70ec830289cf23a7cc8",
+      "status": "published"
+    },
+    "GdsSearch.m1320": {
+      "text": "Edit",
+      "sourceHash": "464c4ffd019e1e9691dcf0537c797353ef2b1c1d4833d3d463e5b74ae4547344",
+      "status": "published"
+    },
+    "GdsSearch.m1321": {
+      "text": "entry",
+      "sourceHash": "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf",
+      "status": "published"
+    },
+    "GdsSearch.m1322": {
+      "text": "Save entry",
+      "sourceHash": "e5e18267c1986f3bf2bd3c8b127f7ebff101d163c2ae74be31da601d29e254b3",
+      "status": "published"
+    },
+    "GdsSearch.m1323": {
+      "text": "Cancel",
+      "sourceHash": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "status": "published"
+    },
+    "GdsSearch.m1324": {
+      "text": "Remove",
+      "sourceHash": "c3812fc4acb861d5182fc2b8155f327f736fbe5e5eb86a7bd7afcb6dc5497282",
+      "status": "published"
+    },
+    "GdsSearch.m1325": {
+      "text": "Showing the first 200 entries in admin preview.",
+      "sourceHash": "12a47494fac0475a4124f577729006dd0955c3a62ed6238c2af042a70958cfbf",
+      "status": "published"
+    },
+    "GdsSearch.m1326": {
+      "text": "Internal desktop toolbar shortcut reference",
+      "sourceHash": "a6ea399d14ebf63b4acdfb6264161c961a366c153b385941dd149741b9eb9656",
+      "status": "published"
+    },
+    "GdsSearch.m1327": {
+      "text": "Windows Magic Toolbar only: Ctrl + Shift + G. Not a website keyboard shortcut.",
+      "sourceHash": "af53ac9e5b4dd2bcd500a5b4561fa07ce82dcaab8d1d58eb23c91bdf5ce500f1",
+      "status": "published"
+    },
+    "GdsSearch.m1328": {
+      "text": "Copied ✓",
+      "sourceHash": "58d73ef49a5d977726223c5d2294c8a267174a255399359b5f40d8a750ddd218",
+      "status": "published"
+    },
+    "GenieChat.m0417": {
+      "text": "Copy",
+      "sourceHash": "e21f935f11d7e966dbbae78da9daa378fe8142a14e7c0cd7434183005faa6c5c",
+      "status": "published"
+    },
+    "GdsSearch.m1329": {
+      "text": "No matching entries",
+      "sourceHash": "9c940e9dbe17d1e441e59e7313347b9ab53f755a57a8b927c033a7096a5138be",
+      "status": "published"
+    },
+    "GdsSearch.m1330": {
+      "text": "No entries yet",
+      "sourceHash": "84c62b11dc3735d7a03e7938de9eaa6d33789450e096b12aeecca4ed1a0dca92",
+      "status": "published"
+    },
+    "GdsSearch.m1331": {
+      "text": "Try a different search or reset the filters.",
+      "sourceHash": "e1afa8070bf9a95411b9d8801529cb4b12b934cbcbf86a70c111f0f9f29c42d6",
+      "status": "published"
+    },
+    "GdsSearch.m1332": {
+      "text": "Open the admin preview to add your first entry.",
+      "sourceHash": "34a5842f752c58193ca63cc9d1274c28e41b307bc4081c16a1979a2108317866",
+      "status": "published"
+    },
+    "GdsSearch.m1333": {
+      "text": "Clear filters",
+      "sourceHash": "7179ea0035fca783ec62b7185659b68c75f2a7c12b909306a57183dc9b3fa44b",
+      "status": "published"
+    },
+    "GdsSearch.m1334": {
+      "text": "Open admin preview",
+      "sourceHash": "2f1e6a6ae593e7f270e6f8c8580551cc9492cfd8b206f12f73e84b6925e1ef46",
+      "status": "published"
+    },
+    "GdsSearch.m1335": {
+      "text": "Previous",
+      "sourceHash": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa",
+      "status": "published"
+    },
+    "GdsSearch.m1336": {
+      "text": "Page",
+      "sourceHash": "0a30a815d67d7dd2018fe18f4e995a26f3b753369cd4327e9b6034b50a2cd153",
+      "status": "published"
+    },
+    "GdsSearch.m1337": {
+      "text": "of",
+      "sourceHash": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+      "status": "published"
+    },
+    "GdsSearch.m1338": {
+      "text": "Next",
+      "sourceHash": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858",
+      "status": "published"
+    },
+    "GdsSearch.m1339": {
+      "text": "Compare at a glance",
+      "sourceHash": "ab83cedd71b7c2658ad3b37bb763d7fb9d0b026a7b4ecf978c8a039aa799ea6c",
+      "status": "published"
+    },
+    "GdsSearch.m1340": {
+      "text": "Travelport, Amadeus and Sabre side by side, with unavailable commands left blank.",
+      "sourceHash": "4b8f32ee745f473d02f0d9dca3f1027ed2447180b1a07761402ac521d71011cf",
+      "status": "published"
+    },
+    "GdsSearch.m1341": {
+      "text": "Time is money. Travel Desk Genie saves both.",
+      "sourceHash": "13578b21e753287d66e030e36a09a1a2ffa5d0813bd87ce6e0c86eb00dbae90f",
+      "status": "published"
+    },
+    "GdsSearch.m1342": {
+      "text": "Decode comparison showing Travelport, Amadeus and Sabre commands",
+      "sourceHash": "2699108391f0c27cc78bfd6c0bc79086ad124e5b6cf756a91bd1e19e1e750b84",
+      "status": "published"
+    },
+    "GdsSeoContent.m1343": {
+      "text": "What is the Travel Desk Genie All GDS Search Engine?",
+      "sourceHash": "264639555fa693c1e3b6c6491d4699d4c296de8ed33b8dbdc78bdef758e5f953",
+      "status": "published"
+    },
+    "GdsSeoContent.m1344": {
+      "text": "It is a searchable reference library for finding and comparing stored Amadeus, Travelport/Galileo and Sabre commands. It does not connect to or execute transactions in a live GDS.",
+      "sourceHash": "763bae9b133e3ef91552dc170d32f4b7a7561e757be1eb9efd724f28fab189f9",
+      "status": "published"
+    },
+    "GdsSeoContent.m1345": {
+      "text": "How do I find and compare GDS commands?",
+      "sourceHash": "2fa8969d3eb6c007b71cc4f3c422005db67fde52a10b3df31f26b337101e60aa",
+      "status": "published"
+    },
+    "GdsSeoContent.m1346": {
+      "text": "Enter a task or keyword, optionally choose a category or GDS system, and review the available command references side by side. A blank command means no reference has been supplied for that system.",
+      "sourceHash": "3e061d1bc990ed511f86ab440804d3cc2e266bcd33320146ea89f4a353d8d9c4",
+      "status": "published"
+    },
+    "GdsSeoContent.m1347": {
+      "text": "Can I copy Amadeus, Sabre and Galileo commands?",
+      "sourceHash": "515ea762aa2c5f125c8f4beadea07420e08df696632aa530dc6899a1a2d45a02",
+      "status": "published"
+    },
+    "GdsSeoContent.m1348": {
+      "text": "Yes. Available reference entries have individual Copy controls. Check command syntax, passenger associations and current host or airline requirements before using any command in a live GDS.",
+      "sourceHash": "1b7ae15e8f9ccd5a47c2ef4663f96b01345f7b76f9f2fdc426689940e81eaa8b",
+      "status": "published"
+    },
+    "GdsSeoContent.m1349": {
+      "text": "What is the difference between SSR DOCS, CTCM and CTCE?",
+      "sourceHash": "9a75de96a9fc53a009f72dea3400aa1b8855e7d08f0b3b17baa4fcae01b3977d",
+      "status": "published"
+    },
+    "GdsSeoContent.m1350": {
+      "text": "DOCS is used for travel-document information, while CTCM and CTCE are contact-related special service requests. Required fields and accepted formats can vary by GDS, airline and itinerary.",
+      "sourceHash": "47007eb05be761c7f43a1ad5b0cb848fa6c6e62eabbae30d5d501bad107607bd",
+      "status": "published"
+    },
+    "GdsSeoContent.m1351": {
+      "text": "Does this website transmit passport information or update a PNR?",
+      "sourceHash": "dfd01c93c39872bd90292459bed76c7e700387b88c6bc5448b861086a9bde5b1",
+      "status": "published"
+    },
+    "GdsSeoContent.m1352": {
+      "text": "No. The search engine is a reference and comparison tool. Searching or copying a command does not send passenger details to an airline or modify a PNR. Do not enter real passenger information into the public search field.",
+      "sourceHash": "5ef2190cf92c2466b6ec3e0aa4ad18c6624a5bab6e8d28695e93f7f5c4511a4a",
+      "status": "published"
+    },
+    "GdsSeoContent.m1353": {
+      "text": "Where can I learn to use Travel Genie Magic Toolbar?",
+      "sourceHash": "fed55455304bc14bdfebe636f12793583c6ccb34c70dbbf5ff5599559185915f",
+      "status": "published"
+    },
+    "GdsSeoContent.m1354": {
+      "text": "Visit the Travel Desk Genie video tutorials channel for product demonstrations and training. The Windows Magic Toolbar is a separate desktop application available through its Microsoft Store listing.",
+      "sourceHash": "a0acf22e8d55f0c4b94a0c54dbf97eb26252c4045cf86473b87daa4edaf2ce6c",
+      "status": "published"
+    },
+    "GdsSeoContent.m1355": {
+      "text": "Are GDS command reference PDFs available to download?",
+      "sourceHash": "0db188155fa76558a9df565de7f436d4ea92f0194f8f7e2b6cab0ccc779c5261",
+      "status": "published"
+    },
+    "GdsSeoContent.m1356": {
+      "text": "Dedicated Amadeus, Travelport/Galileo and Sabre reference PDFs are planned. Download links will be added only after the documents have been reviewed and published.",
+      "sourceHash": "2ca6a9d34d1856e876cc8c78001494a4b3d418841a30b2e71dfd22de7b7881da",
+      "status": "published"
+    },
+    "GdsSeoContent.m1357": {
+      "text": "GDS commands search engine for travel agents",
+      "sourceHash": "662663eb51d8918e467293421c222dd18659d81c221c7aa22a0f36705ca63ec1",
+      "status": "published"
+    },
+    "GdsSeoContent.m1358": {
+      "text": "Travel Desk Genie helps travel agents and GDS learners discover command references for",
+      "sourceHash": "3dea59038ba9a66e3fece45c02be75d8c329f71e2b263310adad94f014146fcd",
+      "status": "published"
+    },
+    "GdsSeoContent.m1359": {
+      "text": "Travelport/Galileo",
+      "sourceHash": "5feec338eafefea711602ada1fe4efd4aa32f10403b82f1c5bf9636f9a7c7ba1",
+      "status": "published"
+    },
+    "GdsSeoContent.m1360": {
+      "text": "in one place. Search by task, category, keyword or command text to compare the available entries. This is an educational reference tool, not a live booking or ticketing terminal.",
+      "sourceHash": "93310aa151c756322e022f4d70035838fab3811bfb84bee34735e5c25679bf5c",
+      "status": "published"
+    },
+    "GdsSeoContent.m1361": {
+      "text": "Search:",
+      "sourceHash": "bd689c15b2ca8b8c3741e18128352af3c223f622b6bbeaf35200f5748bbeb3ce",
+      "status": "published"
+    },
+    "GdsSeoContent.m1362": {
+      "text": "try a task such as city decoding, hotel search, reservation, ticket issuance or passport DOCS.",
+      "sourceHash": "bac8cf33a53b565a4bddd537da43a449c530fdd74659bfea4e684a8cd020de27",
+      "status": "published"
+    },
+    "GdsSeoContent.m1363": {
+      "text": "Filter:",
+      "sourceHash": "e1146f006ab341fd87d71cf0d913bba2253c28dfc51831688ae938bd01dcd7f5",
+      "status": "published"
+    },
+    "GdsSeoContent.m1364": {
+      "text": "narrow results by command category or GDS platform.",
+      "sourceHash": "a6669f003eff2a4b95f7f2e59dfd8d5a0e5bd3f69265a1ae8c61631c0d593f9a",
+      "status": "published"
+    },
+    "GdsSeoContent.m1365": {
+      "text": "Compare:",
+      "sourceHash": "f74cbb486abfb6da8d4e95b94788f94d0e5c8b627eb734e3360a7481c8f0bf65",
+      "status": "published"
+    },
+    "GdsSeoContent.m1366": {
+      "text": "review the three system columns side by side.",
+      "sourceHash": "66ee753076d3434ad0b7a916091e1f444948e5336ad54126d0bfe7f71c797f96",
+      "status": "published"
+    },
+    "GdsSeoContent.m1367": {
+      "text": "Copy and verify:",
+      "sourceHash": "96cd489f1df151de7f1509b414a4ac6d2128f6dd37143bd4e5f12baa82f03d12",
+      "status": "published"
+    },
+    "GdsSeoContent.m1368": {
+      "text": "copy a reference command, then confirm its current syntax in the relevant official GDS and airline documentation.",
+      "sourceHash": "5ce53d116d084076bfb3dbfc21a8d90157f9ac4c108c9d4d5a60f3cfa9f06b51",
+      "status": "published"
+    },
+    "GdsSeoContent.m1369": {
+      "text": "Compare Amadeus, Sabre and Travelport/Galileo commands",
+      "sourceHash": "440c669f23f98e97857638414bf7c0e5d645b3bb27b10dc41ba054cd98cb2c8f",
+      "status": "published"
+    },
+    "GdsSeoContent.m1370": {
+      "text": "Similar travel-agent tasks can require different formats in each GDS. Side-by-side comparison makes it easier to identify which reference belongs to which platform. An unavailable entry is shown as missing; it should not be interpreted as proof that a GDS does not support the task.",
+      "sourceHash": "12a6bbe684471a6eb3acecabd66f2eba3763fa1b36fe2ce29bcdfecec1a78f85",
+      "status": "published"
+    },
+    "GdsSeoContent.m1371": {
+      "text": "Amadeus GDS commands",
+      "sourceHash": "cf681da929ca77b7d7fe978ebb414ed51c3dffd480921c59bb0c1f6cce576601",
+      "status": "published"
+    },
+    "GdsSeoContent.m1372": {
+      "text": "Find available Amadeus references for common PNR, reservation, ticketing, hotel and passenger-information tasks. Confirm syntax against your current Amadeus environment.",
+      "sourceHash": "681b4e76b1e0fb1c09283a721af428401e975e581709e1e130093499013377b9",
+      "status": "published"
+    },
+    "GdsSeoContent.m1518": {
+      "text": "Read the Amadeus commands cheat sheet →",
+      "sourceHash": "74d8b4cd90abbb19324bf7e8f9ff815033d72f5fdff4bb98fca786c0e77ea58f",
+      "status": "published"
+    },
+    "GdsSeoContent.m1373": {
+      "text": "Travelport / Galileo commands",
+      "sourceHash": "2a514f659856ed3fb367177f9c3495a3263ec2c9e32b206de0cd2973dd621719",
+      "status": "published"
+    },
+    "GdsSeoContent.m1374": {
+      "text": "Explore available Travelport/Galileo references, including Smartpoint-related workflows and passenger information. Host capabilities and formats may vary.",
+      "sourceHash": "5a75f3f9b0c58aae4bafde8aa0690fa92afbf4ee362d7e5accc7885205ce5d17",
+      "status": "published"
+    },
+    "GdsSeoContent.m1519": {
+      "text": "Read the Travelport Galileo commands cheat sheet →",
+      "sourceHash": "af13216d562ef682bb6acfdf33ec15e283cfb3bdb7d62e222c308d0ff2e4e164",
+      "status": "published"
+    },
+    "GdsSeoContent.m1375": {
+      "text": "Sabre GDS commands",
+      "sourceHash": "708f9e5f9879643e2c00f007831e8fec883e51a0229ef8548410854423e1d877",
+      "status": "published"
+    },
+    "GdsSeoContent.m1376": {
+      "text": "Review available Sabre command references for common travel-agency workflows, then verify them against the applicable host and airline instructions.",
+      "sourceHash": "49f4fa09e90f42c1838d69d780409c8399bf65216e30f467829b9982ee14c902",
+      "status": "published"
+    },
+    "GdsSeoContent.m1520": {
+      "text": "Read the Sabre commands cheat sheet →",
+      "sourceHash": "c4d01edffaceec4a8cb84b8cda8a8175e181cd5ca989b2c993ee0a80e5431cec",
+      "status": "published"
+    },
+    "GdsSeoContent.m1377": {
+      "text": "Passport APIS, SSR DOCS, CTCM and CTCE references",
+      "sourceHash": "b7961b7f71280b2a72ed8b2e34e2d0f2ea10ac592239857c550057b1a1b94bfa",
+      "status": "published"
+    },
+    "GdsSeoContent.m1378": {
+      "text": "Passport details and passenger contact information are common GDS workflows, but they involve different data types. Advance Passenger Information (API/APIS) may include travel-document details; SSR DOCS is associated with document information, while CTCM and CTCE relate to passenger contact details. Requirements can depend on the carrier, route, GDS and passenger type.",
+      "sourceHash": "458f6b233dc60f11437d5d35f11b62bfc0e8297762df2d3e1978fb5857c3881f",
+      "status": "published"
+    },
+    "GdsSeoContent.m1379": {
+      "text": "Amadeus passport and contact entries",
+      "sourceHash": "9056e3d459fb7497326e8a920899b0bd30ece2165e6c7bda38dd6bd392e7654d",
+      "status": "published"
+    },
+    "GdsSeoContent.m1380": {
+      "text": "Look up available DOCS, CTCM and CTCE examples. Verify document fields, passenger association and carrier requirements.",
+      "sourceHash": "40cd549adbb6a62069f0625bedfc49d1bc76627f8b4ad091eb9a74d5ffbece86",
+      "status": "published"
+    },
+    "GdsSeoContent.m1521": {
+      "text": "Read the passport DOCS entry guide →",
+      "sourceHash": "ef42d5ca5ba2467394ec25e687c34bd62a6dd007099d7936de1b59a52c619a91",
+      "status": "published"
+    },
+    "GdsSeoContent.m1381": {
+      "text": "Travelport Smartpoint / Galileo APIS",
+      "sourceHash": "7a3392f6f1c8bd07665f1c90eb738634bf7f309f01aedc917d84b66c4b5bd0ed",
+      "status": "published"
+    },
+    "GdsSeoContent.m1382": {
+      "text": "Find available reference entries for entering or reviewing passport and contact information, including passenger-type differences where documented.",
+      "sourceHash": "04327d929c27f2cbe77285c91f949148818f1e94919904c2be454fda5fb7f635",
+      "status": "published"
+    },
+    "GdsSeoContent.m1522": {
+      "text": "Read the adult, child and infant name entry guide →",
+      "sourceHash": "fbdefbdc7b15a8422b376a029eb52dae7908f650fbe3f63eaf3e0f059771ce39",
+      "status": "published"
+    },
+    "GdsSeoContent.m1383": {
+      "text": "Sabre passport details and SSR DOCS",
+      "sourceHash": "c7be93555ca2607f8119c78c91edc19fe878e290b4a5aa80944644597af4ff9d",
+      "status": "published"
+    },
+    "GdsSeoContent.m1384": {
+      "text": "Compare stored Sabre references and check current SSR syntax before making changes to a live passenger record.",
+      "sourceHash": "2be5ff4d431b4108e20d630f6970a22007c98972f1a8a91e1bfcbf7fbaeccfa5",
+      "status": "published"
+    },
+    "GdsSeoContent.m1523": {
+      "text": "Read the CTCM and CTCE passenger contacts guide →",
+      "sourceHash": "01222e02c2e71cc531bcd03495f9b44d1fcba523767829577c6b977ac9beb090",
+      "status": "published"
+    },
+    "GdsSeoContent.m1385": {
+      "text": "Privacy reminder:",
+      "sourceHash": "5fa2c18af6a98558678e9663da3431136b05a19f1fbb1c66e683becf9d9597c6",
+      "status": "published"
+    },
+    "GdsSeoContent.m1386": {
+      "text": "Do not type real passport numbers, dates of birth, passenger names or contact information into this public search field. This website does not process live PNRs.",
+      "sourceHash": "fd23baeb55735a133d03b22b652c4ecdb0ad5237564af85f8f6200107ad5d25f",
+      "status": "published"
+    },
+    "GdsSeoContent.m1387": {
+      "text": "Amadeus, Galileo and Sabre command notes",
+      "sourceHash": "54d889744a76ef7c21ea4f3cb10586d78ee0d453dde82c270c44d339212f5d4b",
+      "status": "published"
+    },
+    "GdsSeoContent.m1388": {
+      "text": "Dedicated PDF reference notes are planned for each platform. Files will be linked here only after they have been supplied, reviewed and published. In the meantime, use the searchable command references above.",
+      "sourceHash": "a8be02e5adb08642d378a5bcec6a0da96a87b4db5feb22f53f395115ecc701cc",
+      "status": "published"
+    },
+    "GdsSeoContent.m1389": {
+      "text": "Amadeus notes",
+      "sourceHash": "94ee385d46834fd19661cdb0c75efdd1ebe69289ea799a8b97f7111296edf672",
+      "status": "published"
+    },
+    "GdsSeoContent.m1390": {
+      "text": "Planned reference notes for Amadeus commands and passenger-information workflows.",
+      "sourceHash": "e7788a9099fa392bf9ce448e49ea2b71577be12cb9e3c4f5a33181021f66d479",
+      "status": "published"
+    },
+    "GdsSeoContent.m1391": {
+      "text": "PDF pending verification",
+      "sourceHash": "7f8bf4949760130a1d9c05a2620229a1ebf32292b635aa238cdb37fc761836b9",
+      "status": "published"
+    },
+    "GdsSeoContent.m1392": {
+      "text": "Travelport / Galileo notes",
+      "sourceHash": "9d0f688905f13c968e6e3bca2a547c7afd4c68c0a08985f3f62bda463d1b7cc2",
+      "status": "published"
+    },
+    "GdsSeoContent.m1393": {
+      "text": "Planned references for Travelport, Galileo and Smartpoint workflows.",
+      "sourceHash": "27432158496faab1abae41c3291b26fe9d4ff1e4c3d0747dfc99bcf56d6908c7",
+      "status": "published"
+    },
+    "GdsSeoContent.m1394": {
+      "text": "Sabre notes",
+      "sourceHash": "f1443dc9d01645d1bf50588c9b3f0b4acd3ff084548f689cd45a19a0e56f7e3c",
+      "status": "published"
+    },
+    "GdsSeoContent.m1395": {
+      "text": "Planned Sabre command and passenger-information reference notes.",
+      "sourceHash": "9f50503860bc50b8a66a7565c032d88dd5a6678142b8b5f499c2577b3c468e9a",
+      "status": "published"
+    },
+    "GdsSeoContent.m1396": {
+      "text": "Optional Windows desktop companion and training",
+      "sourceHash": "9504bc6734e9c39cad1fcad5c2547bedb057dfe4f4e5251b46147f8259b91030",
+      "status": "published"
+    },
+    "GdsSeoContent.m1397": {
+      "text": "Travel Genie Magic Toolbar tutorials and product training",
+      "sourceHash": "2660bce3a8af04505b6fa39f99ae670a8bbdf1033f7bf3281a79e5f131d6b2a1",
+      "status": "published"
+    },
+    "GdsSeoContent.m1398": {
+      "text": "Travel Genie Magic Toolbar helps prepare passenger NAME, DOCS, CTCM and CTCE entries for review and copying. It is separate from the web search engine and does not execute live GDS transactions. Explore video tutorials for product demonstrations and training.",
+      "sourceHash": "32b6eccb54ab652003f67291b5fb1b06e00fa36e34ba58f580eb508760f52eda",
+      "status": "published"
+    },
+    "GdsSeoContent.m1399": {
+      "text": "Watch Travel Desk Genie video tutorials (opens in a new tab)",
+      "sourceHash": "b956410b7d3503ef681c0afa501ce319ee4b58a706e21d23e2ea30fffc8cc8cf",
+      "status": "published"
+    },
+    "GdsSeoContent.m1400": {
+      "text": "Windows desktop application · Microsoft Store download · YouTube training resources",
+      "sourceHash": "b802ca21e8d1b3fc376a2b396099f839d55c0df9ad7a8f121b231057a612f38c",
+      "status": "published"
+    },
+    "GdsSeoContent.m1401": {
+      "text": "Travel Desk Genie blue-and-gold Genie mascot",
+      "sourceHash": "09d7045a0c52b7d696f2f0c6a76b9f0180419acb26c59b16d5906a76cdc50ff4",
+      "status": "published"
+    },
+    "GdsSeoContent.m1402": {
+      "text": "About these GDS command references",
+      "sourceHash": "cead685d34fbda65dc5cdc5392762dac1c079be836af30804f50fc1d1e45856c",
+      "status": "published"
+    },
+    "GdsSeoContent.m1403": {
+      "text": "Travel Desk Genie provides task-focused educational references to support command discovery and comparison. These examples are not live host responses. Actual command support, syntax and acceptance can vary with software version, airline, market and itinerary. Consult current official GDS and airline guidance before using any reference in production.",
+      "sourceHash": "0e23aed466f6885dc828c54462627f037c6ebfefdba052d28161dd3c310f80f8",
+      "status": "published"
+    },
+    "GdsSeoContent.m1404": {
+      "text": "Looking for more travel-agent information? Explore our",
+      "sourceHash": "3e665a30b160871663313231caba35eba0c372533e5dd8f9bc24f7d87c86e680",
+      "status": "published"
+    },
+    "GdsSeoContent.m1405": {
+      "text": "travel-agent resources",
+      "sourceHash": "a0481649fd564b229dc4fc73e54432d83eba0244b4473ca116812d65ca7e39cc",
+      "status": "published"
+    },
+    "GdsSeoContent.m1406": {
+      "text": ", learn about the",
+      "sourceHash": "8496e9581308cf80e80aef11c921feeb5a71911a5d5f92a320e1f722a64981ba",
+      "status": "published"
+    },
+    "GdsSeoContent.m1407": {
+      "text": ", or",
+      "sourceHash": "3d30020b1863441a64e786bdc72745e998a1e3abd32100e1b043bfa7a01b9095",
+      "status": "published"
+    },
+    "GdsSeoContent.m1408": {
+      "text": "contact Travel Desk Genie",
+      "sourceHash": "6b437bcfc173aceef2463342a0733f2317fd5462867f8dd2c20d3cb5d7363875",
+      "status": "published"
+    },
+    "GdsSeoContent.m1409": {
+      "text": "Frequently asked questions about GDS commands",
+      "sourceHash": "cc9bf30759d63176d6993a5e19d33ff38eb1427d19e3868c209083639aa41e0d",
+      "status": "published"
+    },
+    "seed.m1410": {
+      "text": "Encode",
+      "sourceHash": "23389a1f5476e4b0f4abbbe4bdae100f8eb4afe0e1ba2696a910c075cf017441",
+      "status": "published"
+    },
+    "seed.m1411": {
+      "text": "City",
+      "sourceHash": "fc33f73246f48295702f404001e74d56f14d2f82689b2816422dc1a4c2ec4fb2",
+      "status": "published"
+    },
+    "seed.m1412": {
+      "text": "Airline",
+      "sourceHash": "efcedfffa54bda3f5c679703ba4860d2d34a3f3028d801fb06be931398506661",
+      "status": "published"
+    },
+    "i18n.m1198": {
+      "text": "Country",
+      "sourceHash": "701d021d08c54579f23343581e45b65ffb1150b2c99f94352fdac4b7036dbbd5",
+      "status": "published"
+    },
+    "seed.m1413": {
+      "text": "Car company",
+      "sourceHash": "ca2aa09e054153f2569872d12afba3d1cf07b26e13d85ec1b60d26695744baa9",
+      "status": "published"
+    },
+    "seed.m1414": {
+      "text": "GC*12/CAR/BUDGET",
+      "sourceHash": "505223740008fc8786e4639f4e4179d27d01e132687c991d26dce163678d3bbb",
+      "status": "published"
+    },
+    "seed.m1415": {
+      "text": "Hotel company",
+      "sourceHash": "3c7a7b23091a436d04f40867457761af4de3f6c38933d08f1ef2a3165e22bafb",
+      "status": "published"
+    },
+    "seed.m1416": {
+      "text": "GC*11/HTL/RAMADA",
+      "sourceHash": "8aaf37549810c65b2bd5e91dbc36d5721aca6e99d028984e514de8af028cc008",
+      "status": "published"
+    },
+    "seed.m1417": {
+      "text": "Help",
+      "sourceHash": "b79cac926e0b2e347e72cc91d5174037c9e17ae7733fd7bdb570f71b10cd7bfc",
+      "status": "published"
+    },
+    "seed.m1418": {
+      "text": "Decode",
+      "sourceHash": "1ae3fcff1a58694ed37d127f994d077e4d0a13673427eafeb66b55ad1534a5ce",
+      "status": "published"
+    },
+    "seed.m1419": {
+      "text": "W/*PIA",
+      "sourceHash": "728dba23384b8a5244687b8f89d8d93aa7fed91e79ef093d883a700339afb8d9",
+      "status": "published"
+    },
+    "seed.m1420": {
+      "text": "W/*AC",
+      "sourceHash": "04f19936e16065008875b0614e248ae9b4b21ccd4a8fa284f9a8ed12aac1a98d",
+      "status": "published"
+    },
+    "seed.m1421": {
+      "text": "GC*12/CAR/ZD",
+      "sourceHash": "4cc99daad51291058041adbfe7917c4195d1c11a7d4b9b18be29f6c24b6b75d6",
+      "status": "published"
+    },
+    "seed.m1422": {
+      "text": "W/CR*ZD",
+      "sourceHash": "8b7f9716b91f4d5f7a9879edf5bf4f9764932e5fa10bd2b5b7c545719af139ae",
+      "status": "published"
+    },
+    "seed.m1423": {
+      "text": "C*HTL/RA",
+      "sourceHash": "6ad77677d88abbad410095829d7fb24be96faed3d81eb15dcb2b956e25c4c3d4",
+      "status": "published"
+    },
+    "seed.m1424": {
+      "text": "W/HL*RA",
+      "sourceHash": "712ff1b6916a9f116321a738273330fbd386f2515aa0648f7be1f7a7fe7c3b98",
+      "status": "published"
+    },
+    "seed.m1425": {
+      "text": "Miscellaneous",
+      "sourceHash": "5cb0b42660589925c804543d433ba0764dab859487e5a9ed855481dcbfec1f06",
+      "status": "published"
+    },
+    "seed.m1426": {
+      "text": "Decode aircraft types",
+      "sourceHash": "3492abed479471b654392001d3ca9691a03808f2f35fe087aeb2755d1d43876a",
+      "status": "published"
+    },
+    "seed.m1427": {
+      "text": "W/EQ*747",
+      "sourceHash": "2163856eee545ab1801ce47194e99ba8aa93be9645a153c12718494e99c8374f",
+      "status": "published"
+    },
     "GenieChat.m0412": {
       "text": "genie:chat:v2",
       "sourceHash": "82b5a3b3ec720751edfebcd9555c1f8ba05575196b5a349ee39b59c86304e9eb",
@@ -2095,16 +3500,6 @@
     "GenieChat.m0416": {
       "text": "genie:event",
       "sourceHash": "54c6227aefad7c5149fee52b21a9ec85efc87691d8ac313d02c04f9f4099d7e0",
-      "status": "published"
-    },
-    "GenieChat.m0417": {
-      "text": "Copy",
-      "sourceHash": "e21f935f11d7e966dbbae78da9daa378fe8142a14e7c0cd7434183005faa6c5c",
-      "status": "published"
-    },
-    "GenieChat.m0418": {
-      "text": "(prefers-reduced-motion: reduce)",
-      "sourceHash": "fce63bfb9ebaba3d69fc9c9c02547367b47bcc63b3d99e8afdf4b7e429ce4368",
       "status": "published"
     },
     "GenieChat.m0419": {
@@ -2247,6 +3642,11 @@
       "sourceHash": "40f42a96d6f9bb10d297f49eab7f74fa35820c020930c03c0d63cd65f6963e4c",
       "status": "published"
     },
+    "Header.m1517": {
+      "text": "GDS Search Engine",
+      "sourceHash": "d43e68d78264a777f029acdec3d96e3fc5bf2e5e75c179dc556b4bc492096489",
+      "status": "published"
+    },
     "Header.m0447": {
       "text": "(min-width: 901px)",
       "sourceHash": "46a879f96fced8d9c361033b46bb947c5cecfcae2dd1bfd7c544d79f63d3bc51",
@@ -2303,8 +3703,8 @@
       "status": "published"
     },
     "Hero.m0458": {
-      "text": "Travel Genie saves both.",
-      "sourceHash": "41afedb5cd88aaeef630281457c4eb63e3af131eacbadb700d13fcd70aa2ba7c",
+      "text": "Travel Desk Genie saves both.",
+      "sourceHash": "66b445fadd8c221fe84d17e3e0851e7289f9dad9477698ca02551e0549102a26",
       "status": "published"
     },
     "Hero.m0459": {
@@ -2335,11 +3735,6 @@
     "Hero.m0464": {
       "text": "View full size ↗",
       "sourceHash": "2c3d837b06dfc39c3f93076bc20ea8897ce7297d6678bae3babe86b54ad66892",
-      "status": "published"
-    },
-    "JsonLd.m0465": {
-      "text": "\\u003c",
-      "sourceHash": "9f9fdabe6e34f4c1d60e9da00d427cf7d32c1f3b4374d5311f588df8c966dae5",
       "status": "published"
     },
     "JumpNav.m0466": {
@@ -2863,8 +4258,8 @@
       "status": "published"
     },
     "ToolbarCore.m0570": {
-      "text": "Time is Money-Genie Saves Both!",
-      "sourceHash": "5d7d294aab627783b923fbefe320b1e3c8f797a426829baf23e11f985aaa6ab3",
+      "text": "Time is Money-Travel Desk Genie Saves Both!",
+      "sourceHash": "f803dc08d8e97121009489cdba8a114a38b41ebcf7fab41f9cc25968e7f2b04e",
       "status": "published"
     },
     "ToolbarCore.m0571": {
@@ -2912,19 +4307,9 @@
       "sourceHash": "9bbacce15d4a663fdaaab13505223a3104f7585410646ab2ac942f5b095a544e",
       "status": "published"
     },
-    "WorkflowDemo.m0580": {
-      "text": "Amadeus",
-      "sourceHash": "698749ac9971383b7059650e3f1f55ed754728c8f50fde099d198a256f637bba",
-      "status": "published"
-    },
     "WorkflowDemo.m0581": {
       "text": "Travelport+",
       "sourceHash": "47d053163f3e3bd6f8d5604ef7020eca1b59ef81e7abf02b76e45e2ec89e3950",
-      "status": "published"
-    },
-    "WorkflowDemo.m0582": {
-      "text": "Sabre",
-      "sourceHash": "a12a31158c6fa09575faa7b35b5f13327e2088843db380b10c2524a3437d28c0",
       "status": "published"
     },
     "WorkflowDemo.m0583": {
@@ -3872,11 +5257,6 @@
       "sourceHash": "c3c73cd415fc6e87279fa77a927a5901f0cb165debecfe2fdd5e0daddce4e959",
       "status": "published"
     },
-    "resources.m0772": {
-      "text": "Passport DOCS Entry in Amadeus, Galileo and Sabre",
-      "sourceHash": "1dc94de159df97249baadbc779deb92641ad1fdd25cc2d37dcc2e61c5e876edd",
-      "status": "published"
-    },
     "resources.m0773": {
       "text": "How to enter passport details (SSR DOCS) in Amadeus, Travelport Galileo and Sabre, with examples, a format comparison and the checks to make before you end the booking.",
       "sourceHash": "7493868199756f2234e76c6088f9d712dc823407d5f60a1fc8d7fb33add8b2f1",
@@ -4105,11 +5485,6 @@
     "resources.m0818": {
       "text": "Check the country code, the number and the email spelling against what the passenger gave you. Make sure each contact is linked to the right passenger, not the whole booking. If Magic Toolbar warns that a country code is missing, ask the passenger rather than guessing it.",
       "sourceHash": "8da94ccb8f608d4c39d701e082462bc626ab0bc20bd05e56d3b35db2d1257499",
-      "status": "published"
-    },
-    "resources.m0819": {
-      "text": "Adult, Child and Infant Name Entry in GDS",
-      "sourceHash": "c67c7e2c3de21c22973d99134286aa18863a7dd3c7b07da37c18d6359aabd8d5",
       "status": "published"
     },
     "resources.m0820": {
@@ -5767,11 +7142,6 @@
       "sourceHash": "fb7accfff8c6f8ea9b03c91ee5576d0d08080e9ba35918d801aaeb6020dbc88c",
       "status": "published"
     },
-    "site.m1147": {
-      "text": "Travel Desk Genie",
-      "sourceHash": "56ddcee628252b1ff012fc7044ef8342fb08464c7781d86e4e1c231d473d8b3b",
-      "status": "published"
-    },
     "site.m1148": {
       "text": "Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
       "sourceHash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
@@ -6022,11 +7392,6 @@
       "sourceHash": "a4fe65264ef7dbb38d104b1e81eb3350f3142f3d16f32bdec39b1d9b42c1b8d1",
       "status": "published"
     },
-    "i18n.m1198": {
-      "text": "Country",
-      "sourceHash": "701d021d08c54579f23343581e45b65ffb1150b2c99f94352fdac4b7036dbbd5",
-      "status": "published"
-    },
     "i18n.m1199": {
       "text": "New chat",
       "sourceHash": "db18382a249e0206bc28514931d423b77d55dce180c1eb8e4bf35f861c9a50ec",
@@ -6225,6 +7590,11 @@
     "additionalsource.m1238": {
       "text": "Reminders and phone directory",
       "sourceHash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
+      "status": "published"
+    },
+    "page.m0182": {
+      "text": "Confirm the destination’s current official specification",
+      "sourceHash": "247b13d0144f4892e49cca01df7ac467ad44d90ae67d16b5faedf5c4a8138e8e",
       "status": "published"
     },
     "FeatureStory.m0384": {

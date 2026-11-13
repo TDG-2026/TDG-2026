@@ -33,7 +33,7 @@ export default function Hero() {
 
           <L as="p" className="hero-slogan">
             Time is money.{' '}
-            <L as="span" className="grad">Travel Genie saves both.</L>
+            <L as="span" className="grad">Travel Desk Genie saves both.</L>
           </L>
 
           <L as="div" className="hero-actions">

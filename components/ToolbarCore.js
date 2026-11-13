@@ -133,7 +133,7 @@ export default function ToolbarCore() {
           Everything here is included with Magic Toolbar. These aren&apos;t separate purchases, just daily reservation jobs
           all the day, gathered in one place.
         </L>
-        <L as="p" className="eyebrow eyebrow--gold">Time is Money-Genie Saves Both!</L>
+        <L as="p" className="eyebrow eyebrow--gold">Time is Money-Travel Desk Genie Saves Both!</L>
       </L>
         <L as="div" className={styles.stage} ref={stageRef}>
           <svg className={styles.beams} aria-hidden="true">
