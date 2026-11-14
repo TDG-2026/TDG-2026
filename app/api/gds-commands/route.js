@@ -10,10 +10,14 @@ const MAX_LIMIT = 50;
 export async function GET(request) {
   const url = new URL(request.url);
   const search = (url.searchParams.get('q') || '').trim();
+  const offsetText = url.searchParams.get('offset') || '0';
   const limitText = url.searchParams.get('limit') || '20';
 
   if (
     search.length > 100 ||
+    !/^\d+$/.test(offsetText) ||
+    !Number.isSafeInteger(Number(offsetText)) ||
+    Number(offsetText) > Number.MAX_SAFE_INTEGER - MAX_LIMIT ||
     !/^\d+$/.test(limitText) ||
     Number(limitText) < 1 ||
     Number(limitText) > MAX_LIMIT
@@ -32,7 +36,7 @@ export async function GET(request) {
       .select('id, category, topic, travelport, amadeus, sabre, keywords')
       .eq('review_status', 'published')
       .order('id', { ascending: true })
-      .limit(Number(limitText));
+      .range(Number(offsetText), Number(offsetText) + Number(limitText) - 1);
 
     if (search) {
       	const term = search

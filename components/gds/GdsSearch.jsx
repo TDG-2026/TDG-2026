@@ -3,9 +3,8 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import styles from './GdsSearch.module.css';
-import { seed, fields } from './seed';
-
-const key = 'tdg-gds-nextjs-preview-v1';
+import { fields } from './seed';
+import { loadGdsCommands } from './loadGdsCommands.mjs';
 
 const finalSearchPlaceholder =
   'Search all GDS entries ... e.g. decode city, amadeus hotel, reservation, ticket issuance commands.';
@@ -16,91 +15,14 @@ const typingExample =
 const norm = v =>
   String(v ?? '').toLocaleLowerCase().replace(/\s+/g, ' ').trim();
 
-const blank = () =>
-  Object.fromEntries(fields.map(f => [f, '']));
-
-function csvParse(text) {
-  let rows = [], row = [], cell = '', quoted = false;
-  text = text.replace(/^\uFEFF/, '');
-
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-
-    if (quoted) {
-      if (c === '"' && text[i + 1] === '"') {
-        cell += '"';
-        i++;
-      } else if (c === '"') {
-        quoted = false;
-      } else {
-        cell += c;
-      }
-    } else if (c === '"') {
-      quoted = true;
-    } else if (c === ',') {
-      row.push(cell);
-      cell = '';
-    } else if (c === '\r' || c === '\n') {
-      if (c === '\r' && text[i + 1] === '\n') i++;
-      row.push(cell);
-      if (row.some(Boolean)) rows.push(row);
-      row = [];
-      cell = '';
-    } else {
-      cell += c;
-    }
-  }
-
-  if (quoted) throw Error('Unclosed CSV quote');
-
-  row.push(cell);
-  if (row.some(Boolean)) rows.push(row);
-
-  const header = rows.shift()?.map(norm) || [];
-  const indexes = fields.map(f =>
-    header.indexOf(f === 'keywords' ? 'search keywords' : f)
-  );
-
-  if (indexes[0] < 0 || indexes[1] < 0) {
-    throw Error('Category and Topic headers required');
-  }
-
-  return rows.map((r, i) => {
-    if (r.length !== header.length) {
-      throw Error(`Invalid CSV columns at row ${i + 2}`);
-    }
-
-    return Object.fromEntries(
-      fields.map((f, j) => [f, indexes[j] < 0 ? '' : r[indexes[j]]])
-    );
-  });
-}
-
-function exportFile(name, data, type) {
-  const url = URL.createObjectURL(new Blob([data], { type }));
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = name;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-}
-
-const escapeCsv = v => {
-  let s = String(v ?? '');
-  if (/^[\s]*[=+@\-\t\r]/.test(s)) s = "'" + s;
-  return '"' + s.replace(/"/g, '""') + '"';
-};
-
 export default function GdsSearch() {
-  const [entries, setEntries] = useState(seed);
+  const [entries, setEntries] = useState([]);
   const [loaded, setLoaded] = useState(false);
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('');
   const [system, setSystem] = useState('');
   const [page, setPage] = useState(1);
-  const [admin, setAdmin] = useState(false);
-  const [editor, setEditor] = useState(null);
-  const [draft, setDraft] = useState(blank());
+  const [refresh, setRefresh] = useState(0);
   const [message, setMessage] = useState('');
   const [copied, setCopied] = useState('');
 
@@ -187,25 +109,23 @@ export default function GdsSearch() {
   }, []);
 
   useEffect(() => {
-    try {
-      const saved = JSON.parse(localStorage.getItem(key));
-      if (Array.isArray(saved)) setEntries(saved);
-    } catch {}
-
-    setLoaded(true);
-  }, []);
-
-  useEffect(() => {
-    if (!loaded) return;
-
-    try {
-      localStorage.setItem(key, JSON.stringify(entries));
-    } catch {
-      setMessage(
-        'Browser storage is full; changes may not persist. Export your data.'
-      );
-    }
-  }, [entries, loaded]);
+    const controller = new AbortController();
+    setLoaded(false);
+    setMessage('');
+    setEntries([]);
+    loadGdsCommands(fetch, controller.signal)
+      .then(rows => {
+        if (controller.signal.aborted) return;
+        setEntries(rows);
+        setLoaded(true);
+      })
+      .catch(error => {
+        if (controller.signal.aborted) return;
+        setMessage('Unable to load GDS entries. Please retry.');
+        setLoaded(true);
+      });
+    return () => controller.abort();
+  }, [refresh]);
 
   const categories = useMemo(
     () => [...new Set(entries.map(e => e.category).filter(Boolean))].sort(),
@@ -247,180 +167,6 @@ export default function GdsSearch() {
       setMessage(
         'Clipboard unavailable. Use HTTPS or localhost for testing.'
       );
-    }
-  };
-
-  const begin = e => {
-    setDraft(
-      e
-        ? Object.fromEntries(fields.map(f => [f, e[f] || '']))
-        : blank()
-    );
-    setEditor(e?.id || 'new');
-    setMessage('');
-  };
-
-  const save = e => {
-    e.preventDefault();
-
-    if (
-      !draft.category.trim() ||
-      !draft.topic.trim() ||
-      !['travelport', 'amadeus', 'sabre'].some(s => draft[s].trim())
-    ) {
-      setMessage(
-        'Category, topic and at least one GDS command are required.'
-      );
-      return;
-    }
-
-    const dup = entries.find(x =>
-      x.id !== editor &&
-      norm(x.category) === norm(draft.category) &&
-      norm(x.topic) === norm(draft.topic)
-    );
-
-    if (
-      dup &&
-      !window.confirm(
-        'Possible duplicate category and topic. Save separately?'
-      )
-    ) return;
-
-    setEntries(a =>
-      editor === 'new'
-        ? [{ ...draft, id: crypto.randomUUID() }, ...a]
-        : a.map(x =>
-            x.id === editor ? { ...x, ...draft } : x
-          )
-    );
-
-    setEditor(null);
-    setMessage('Saved in this browser (preview only).');
-  };
-
-  const remove = e => {
-    if (window.confirm(`Remove ${e.category} / ${e.topic}?`)) {
-      setEntries(a => a.filter(x => x.id !== e.id));
-      setMessage('Entry removed from browser preview.');
-    }
-  };
-
-  const exportData = format => {
-    const data = entries.map(e =>
-      Object.fromEntries(fields.map(f => [f, e[f] || '']))
-    );
-
-    if (format === 'json') {
-      exportFile(
-        'gds-entries.json',
-        JSON.stringify(data, null, 2),
-        'application/json'
-      );
-    } else {
-      exportFile(
-        'gds-entries.csv',
-        '\uFEFF' +
-          [
-            fields
-              .map(f => f === 'keywords' ? 'Search keywords' : f)
-              .join(','),
-            ...data.map(e =>
-              fields.map(f => escapeCsv(e[f])).join(',')
-            )
-          ].join('\r\n'),
-        'text/csv;charset=utf-8'
-      );
-    }
-  };
-
-  const importData = async event => {
-    const file = event.target.files?.[0];
-    event.target.value = '';
-
-    if (!file) return;
-
-    try {
-      if (file.size > 5_000_000) {
-        throw Error('Preview import maximum is 5 MB');
-      }
-
-      const text = await file.text();
-
-      const rows = file.name.toLowerCase().endsWith('.json')
-        ? JSON.parse(text)
-        : csvParse(text);
-
-      if (!Array.isArray(rows) || rows.length > 10000) {
-        throw Error('Expected an array with no more than 10,000 rows');
-      }
-
-      const clean = rows.map((r, i) => {
-        const e = Object.fromEntries(
-          fields.map(f => [
-            f,
-            String(
-              r[f] ??
-              (f === 'keywords' ? r['Search keywords'] : '') ??
-              ''
-            )
-          ])
-        );
-
-        if (
-          !e.category.trim() ||
-          !e.topic.trim() ||
-          !['travelport', 'amadeus', 'sabre'].some(s => e[s].trim())
-        ) {
-          throw Error(`Invalid entry at row ${i + 1}`);
-        }
-
-        return e;
-      });
-
-      const known = new Set(
-        entries.map(e =>
-          norm(e.category) + '|' + norm(e.topic)
-        )
-      );
-
-      const duplicates = clean.filter(e =>
-        known.has(norm(e.category) + '|' + norm(e.topic))
-      ).length;
-
-      if (
-        !window.confirm(
-          `Import preview: ${clean.length} valid entries; ${duplicates} match existing category/topic pairs. Merge matching entries? Export a backup first.`
-        )
-      ) return;
-
-      setEntries(previous => {
-        const next = [...previous];
-
-        for (const e of clean) {
-          const idx = next.findIndex(x =>
-            norm(x.category) === norm(e.category) &&
-            norm(x.topic) === norm(e.topic)
-          );
-
-          if (idx >= 0) {
-            next[idx] = { ...next[idx], ...e };
-          } else {
-            next.push({
-              ...e,
-              id: crypto.randomUUID()
-            });
-          }
-        }
-
-        return next;
-      });
-
-      setMessage(
-        `Imported ${clean.length} rows into browser preview.`
-      );
-    } catch (err) {
-      setMessage('Import failed: ' + err.message);
     }
   };
 
@@ -603,7 +349,7 @@ export default function GdsSearch() {
               aria-live="polite"
               className={styles.muted}
             >
-              {filtered.length} results
+              {!loaded ? 'Loading…' : `${filtered.length} results`}
             </span>
           </div>
         </div>
@@ -621,148 +367,11 @@ export default function GdsSearch() {
             </p>
           </div>
 
-          <button
-            type="button"
-            onClick={() => setAdmin(v => !v)}
-          >
-            {admin ? 'Close admin preview' : 'Admin preview'}
+          <button type="button" disabled={!loaded} onClick={() => setRefresh(v => v + 1)}>
+            Refresh entries
           </button>
         </div>
-
-        {admin && (
-          <section className={styles.admin}>
-            <h2>
-              Entries manager{' '}
-              <small>Local preview only</small>
-            </h2>
-
-            <p className={styles.muted}>
-              Not authenticated or connected to a backend. Do not publish
-              this admin view. Changes are stored only in this browser.
-            </p>
-
-            <div className={styles.actions}>
-              <button
-                type="button"
-                onClick={() => begin(null)}
-              >
-                + Add entry
-              </button>
-
-              <label className={styles.fileButton}>
-                Import CSV / JSON
-                <input
-                  type="file"
-                  accept=".csv,.json"
-                  onChange={importData}
-                  hidden
-                />
-              </label>
-
-              <button
-                type="button"
-                onClick={() => exportData('csv')}
-              >
-                Export CSV
-              </button>
-
-              <button
-                type="button"
-                onClick={() => exportData('json')}
-              >
-                Export JSON
-              </button>
-            </div>
-
-            <p role="status">{message}</p>
-
-            {editor && (
-              <form onSubmit={save}>
-                <h3>
-                  {editor === 'new' ? 'Add' : 'Edit'} entry
-                </h3>
-
-                <div className={styles.formGrid}>
-                  {fields.map(f => (
-                    <label key={f}>
-                      {f === 'keywords' ? 'Search keywords' : f}
-                      <textarea
-                        rows={
-                          f === 'category' || f === 'topic'
-                            ? 1
-                            : 2
-                        }
-                        value={draft[f]}
-                        onChange={e =>
-                          setDraft(d => ({
-                            ...d,
-                            [f]: e.target.value
-                          }))
-                        }
-                      />
-                    </label>
-                  ))}
-                </div>
-
-                <div className={styles.actions}>
-                  <button type="submit">
-                    Save entry
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setEditor(null)}
-                  >
-                    Cancel
-                  </button>
-                </div>
-              </form>
-            )}
-
-            <div className={styles.adminList}>
-              {entries.slice(0, 200).map(e => (
-                <div
-                  key={e.id}
-                  className={styles.adminRow}
-                >
-                  <span>
-                    <b>{e.category}</b> / {e.topic}
-                  </span>
-
-                  <div>
-                    <button
-                      type="button"
-                      onClick={() => begin(e)}
-                    >
-                      Edit
-                    </button>{' '}
-                    <button
-                      type="button"
-                      onClick={() => remove(e)}
-                    >
-                      Remove
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {entries.length > 200 && (
-              <p className={styles.muted}>
-                Showing the first 200 entries in admin preview.
-              </p>
-            )}
-
-            <details>
-              <summary>
-                Internal desktop toolbar shortcut reference
-              </summary>
-              <p>
-                Windows Magic Toolbar only: Ctrl + Shift + G.
-                Not a website keyboard shortcut.
-              </p>
-            </details>
-          </section>
-        )}
+        {message && <p role="alert">{message}</p>}
 
         {visible.length ? (
           <div className={styles.cards}>
@@ -822,30 +431,9 @@ export default function GdsSearch() {
               height="72"
             />
 
-            <h2>
-              {entries.length
-                ? 'No matching entries'
-                : 'No entries yet'}
-            </h2>
-
-            <p>
-              {entries.length
-                ? 'Try a different search or reset the filters.'
-                : 'Open the admin preview to add your first entry.'}
-            </p>
-
-            <button
-              type="button"
-              onClick={
-                entries.length
-                  ? clear
-                  : () => setAdmin(true)
-              }
-            >
-              {entries.length
-                ? 'Clear filters'
-                : 'Open admin preview'}
-            </button>
+            <h2>{!loaded ? 'Loading GDS entries…' : message ? 'Entries unavailable' : entries.length ? 'No matching entries' : 'No published entries yet'}</h2>
+            <p>{!loaded ? 'Please wait.' : message ? 'Use Refresh entries to try again.' : entries.length ? 'Try a different search or reset the filters.' : 'New entries appear here once published.'}</p>
+            {loaded && entries.length > 0 && <button type="button" onClick={clear}>Clear filters</button>}
           </div>
         )}
 
