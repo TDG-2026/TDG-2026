@@ -2602,94 +2602,19 @@
       "sourceHash": "b934bf57826f1254ca34704fb9f04adee4976fcc0534911707acd44a5217c06f",
       "status": "published"
     },
-    "GdsSearch.m1263": {
-      "text": "Unclosed CSV quote",
-      "sourceHash": "9572c060898ce0df9eecd1cccf02387fa9c537a834281dda7c4a49e112b9bf37",
-      "status": "published"
-    },
-    "GdsSearch.m1264": {
-      "text": "search keywords",
-      "sourceHash": "f8914f4385d7fe407491a6e5bd8946de5c54452d6c0039847e6640adb93c93e8",
-      "status": "published"
-    },
-    "GdsSearch.m1265": {
-      "text": "Category and Topic headers required",
-      "sourceHash": "2527ef18eb305404748387b9cc567dfc2b7b298157542b31c644587535e8a28c",
-      "status": "published"
-    },
     "GenieChat.m0418": {
       "text": "(prefers-reduced-motion: reduce)",
       "sourceHash": "fce63bfb9ebaba3d69fc9c9c02547367b47bcc63b3d99e8afdf4b7e429ce4368",
       "status": "published"
     },
-    "GdsSearch.m1266": {
-      "text": "Browser storage is full; changes may not persist. Export your data.",
-      "sourceHash": "5672fb1114aea78fcc9c5f3a230449f676aa2dc43a7d94c3ccff084d8a00fc42",
+    "GdsSearch.m1524": {
+      "text": "Unable to load GDS entries. Please retry.",
+      "sourceHash": "025d76f8c9f553c92590a4c9e25de47c4bf7034c6e85858fa630ec864c017417",
       "status": "published"
     },
     "GdsSearch.m1267": {
       "text": "Clipboard unavailable. Use HTTPS or localhost for testing.",
       "sourceHash": "d9921ddf1e1f2af252f9670d5ddb1db059c445e8a4fdd88ab1d0d559d36cdf95",
-      "status": "published"
-    },
-    "GdsSearch.m1268": {
-      "text": "Category, topic and at least one GDS command are required.",
-      "sourceHash": "b3c67fc716526b3e853d1388a1e2d726656bb48c528316f7ed99b3f9731854d8",
-      "status": "published"
-    },
-    "GdsSearch.m1269": {
-      "text": "Possible duplicate category and topic. Save separately?",
-      "sourceHash": "76bc5a976e998a86735a53edfe1eeec2b1d2e723e44bec25806bc03dca85eb94",
-      "status": "published"
-    },
-    "GdsSearch.m1270": {
-      "text": "Saved in this browser (preview only).",
-      "sourceHash": "d1c44da33241515c6dc351a025cf80ed0ec90654b00006ff6c4e3b352f23042f",
-      "status": "published"
-    },
-    "GdsSearch.m1271": {
-      "text": "Entry removed from browser preview.",
-      "sourceHash": "0e5b09b12ffd551b666195fe403d689f7427634798841805601058dc9b92a040",
-      "status": "published"
-    },
-    "GdsSearch.m1272": {
-      "text": "gds-entries.json",
-      "sourceHash": "78c2deab22b01ea2bf9b6af553560eb36031cde1c954dee9af98108ab318617d",
-      "status": "published"
-    },
-    "GdsSearch.m1273": {
-      "text": "application/json",
-      "sourceHash": "bacb769b46f6d169fb227ea026550f411d46cbe66a9c2a6ba36449c8cf8e4dea",
-      "status": "published"
-    },
-    "GdsSearch.m1274": {
-      "text": "gds-entries.csv",
-      "sourceHash": "487f618076e439ce094a78b3408f1a25b02a5a72a942e0d730d4877fcdd3e2b1",
-      "status": "published"
-    },
-    "GdsSearch.m1275": {
-      "text": "Search keywords",
-      "sourceHash": "520c45ef94262bff47fd7a94bbbd04aeee6c693c8ca828b6069a6a5ca81b11e4",
-      "status": "published"
-    },
-    "GdsSearch.m1276": {
-      "text": "text/csv;charset=utf-8",
-      "sourceHash": "dbc080e39d857f915b215738744830969d7d4c6aba680faaf0b32090a7ec28dd",
-      "status": "published"
-    },
-    "GdsSearch.m1277": {
-      "text": "Preview import maximum is 5 MB",
-      "sourceHash": "acfee1816cfed6835643b8fddff469647ef2fabf346b12de9047de509d5793e2",
-      "status": "published"
-    },
-    "GdsSearch.m1278": {
-      "text": "Expected an array with no more than 10,000 rows",
-      "sourceHash": "66b034c037dd39625a792b0ae8816f539ac27b35a66730bda57ede2715f6649c",
-      "status": "published"
-    },
-    "GdsSearch.m1279": {
-      "text": "Import failed:",
-      "sourceHash": "113b8e2f4761d74c0c3fa13a4e00524cc71e297e629e30fe41d38d561806d1d4",
       "status": "published"
     },
     "GdsSearch.m1280": {
@@ -2827,9 +2752,9 @@
       "sourceHash": "83b12c2216efb4fdc924e1deb5182e905e4926ed0c1c324d467107f46d5a26a9",
       "status": "published"
     },
-    "GdsSearch.m1306": {
-      "text": "results",
-      "sourceHash": "c099142bc3186ded72786ba27e9ea6d2da240fb9fd3fe79b479ecf8e734b2850",
+    "GdsSearch.m1525": {
+      "text": "Loading…",
+      "sourceHash": "ba3bbbe10d8bef66441c88536ce7b8e724e2829b59a3da658654f4961cd61ae5",
       "status": "published"
     },
     "GdsSearch.m1307": {
@@ -2847,94 +2772,9 @@
       "sourceHash": "f8a623ec036db5e1122a7041f7d94515a4bf01d2ec15d3326c9a08e35bc24c59",
       "status": "published"
     },
-    "GdsSearch.m1310": {
-      "text": "Close admin preview",
-      "sourceHash": "b1a727873d688ae4b5bcc49a7deb60869e5a911cfe1fc6bd6336ec38b18cc979",
-      "status": "published"
-    },
-    "GdsSearch.m1311": {
-      "text": "Admin preview",
-      "sourceHash": "a702a4e31bd03d35c641ca5af59492fff364395d8d00694fff2458aa098171e9",
-      "status": "published"
-    },
-    "GdsSearch.m1312": {
-      "text": "Entries manager",
-      "sourceHash": "507a8e2c87a2d6fe178577251abc432f52952d966fe6639cf0b99f1be402b498",
-      "status": "published"
-    },
-    "GdsSearch.m1313": {
-      "text": "Local preview only",
-      "sourceHash": "9f695f290fd5f1f66ab4fcc82ea50071a0b976173135719e38e26d7db98343d5",
-      "status": "published"
-    },
-    "GdsSearch.m1314": {
-      "text": "Not authenticated or connected to a backend. Do not publish this admin view. Changes are stored only in this browser.",
-      "sourceHash": "109107bdcfabfe6de48719c0e764e05df6316d72fc8e5bb73e186ae51d231189",
-      "status": "published"
-    },
-    "GdsSearch.m1315": {
-      "text": "+ Add entry",
-      "sourceHash": "b355ca9af18b8c4d862d563490b55f0c415a4874e227366c53d6e3449914bc0e",
-      "status": "published"
-    },
-    "GdsSearch.m1316": {
-      "text": "Import CSV / JSON",
-      "sourceHash": "e901a5a64c36f3f98ceda80e77d4250735d9d1479c9707af30543a15820112b0",
-      "status": "published"
-    },
-    "GdsSearch.m1317": {
-      "text": "Export CSV",
-      "sourceHash": "91f71c14c8d6cc647e8658f9a4b9dcb885ff3f7fef1d3e774f46eae35bff0bcd",
-      "status": "published"
-    },
-    "GdsSearch.m1318": {
-      "text": "Export JSON",
-      "sourceHash": "ff25653ee9e47f2a68ebc26cc2431ae8edc54c7b8305d1283357c64ae7cfb087",
-      "status": "published"
-    },
-    "GdsSearch.m1319": {
-      "text": "Add",
-      "sourceHash": "9fd728c66c9a256b121472dabf32a34317aed01d8427d70ec830289cf23a7cc8",
-      "status": "published"
-    },
-    "GdsSearch.m1320": {
-      "text": "Edit",
-      "sourceHash": "464c4ffd019e1e9691dcf0537c797353ef2b1c1d4833d3d463e5b74ae4547344",
-      "status": "published"
-    },
-    "GdsSearch.m1321": {
-      "text": "entry",
-      "sourceHash": "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf",
-      "status": "published"
-    },
-    "GdsSearch.m1322": {
-      "text": "Save entry",
-      "sourceHash": "e5e18267c1986f3bf2bd3c8b127f7ebff101d163c2ae74be31da601d29e254b3",
-      "status": "published"
-    },
-    "GdsSearch.m1323": {
-      "text": "Cancel",
-      "sourceHash": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
-      "status": "published"
-    },
-    "GdsSearch.m1324": {
-      "text": "Remove",
-      "sourceHash": "c3812fc4acb861d5182fc2b8155f327f736fbe5e5eb86a7bd7afcb6dc5497282",
-      "status": "published"
-    },
-    "GdsSearch.m1325": {
-      "text": "Showing the first 200 entries in admin preview.",
-      "sourceHash": "12a47494fac0475a4124f577729006dd0955c3a62ed6238c2af042a70958cfbf",
-      "status": "published"
-    },
-    "GdsSearch.m1326": {
-      "text": "Internal desktop toolbar shortcut reference",
-      "sourceHash": "a6ea399d14ebf63b4acdfb6264161c961a366c153b385941dd149741b9eb9656",
-      "status": "published"
-    },
-    "GdsSearch.m1327": {
-      "text": "Windows Magic Toolbar only: Ctrl + Shift + G. Not a website keyboard shortcut.",
-      "sourceHash": "af53ac9e5b4dd2bcd500a5b4561fa07ce82dcaab8d1d58eb23c91bdf5ce500f1",
+    "GdsSearch.m1526": {
+      "text": "Refresh entries",
+      "sourceHash": "9a7bbf9591a2c83cccb1084a84e2a3431dc04c71f0937c8406bfd7f67266bfd0",
       "status": "published"
     },
     "GdsSearch.m1328": {
@@ -2947,14 +2787,34 @@
       "sourceHash": "e21f935f11d7e966dbbae78da9daa378fe8142a14e7c0cd7434183005faa6c5c",
       "status": "published"
     },
+    "GdsSearch.m1527": {
+      "text": "Loading GDS entries…",
+      "sourceHash": "e38eed24056e5937a2c104115d3d4f6db76747b9876a7447527da88961f38237",
+      "status": "published"
+    },
+    "GdsSearch.m1528": {
+      "text": "Entries unavailable",
+      "sourceHash": "da9bdc7d1694d383eb5ad5f7f06d54c3b8d2fc5c5ea4e612f686b8cc29e670a1",
+      "status": "published"
+    },
     "GdsSearch.m1329": {
       "text": "No matching entries",
       "sourceHash": "9c940e9dbe17d1e441e59e7313347b9ab53f755a57a8b927c033a7096a5138be",
       "status": "published"
     },
-    "GdsSearch.m1330": {
-      "text": "No entries yet",
-      "sourceHash": "84c62b11dc3735d7a03e7938de9eaa6d33789450e096b12aeecca4ed1a0dca92",
+    "GdsSearch.m1529": {
+      "text": "No published entries yet",
+      "sourceHash": "a45b4e8d70da7e24a11e882f298e6be36ede771d393ec455f21210557fc7076a",
+      "status": "published"
+    },
+    "GdsSearch.m1530": {
+      "text": "Please wait.",
+      "sourceHash": "f14a79f0825807a1e7df9767cf1d07442acb48376ef1f6ea9ebddf51bed530b6",
+      "status": "published"
+    },
+    "GdsSearch.m1531": {
+      "text": "Use Refresh entries to try again.",
+      "sourceHash": "6c83798aee2ebeea49c9680390d8576f11bc6d244e2921bafb1f819225f07d29",
       "status": "published"
     },
     "GdsSearch.m1331": {
@@ -2962,19 +2822,14 @@
       "sourceHash": "e1afa8070bf9a95411b9d8801529cb4b12b934cbcbf86a70c111f0f9f29c42d6",
       "status": "published"
     },
-    "GdsSearch.m1332": {
-      "text": "Open the admin preview to add your first entry.",
-      "sourceHash": "34a5842f752c58193ca63cc9d1274c28e41b307bc4081c16a1979a2108317866",
+    "GdsSearch.m1532": {
+      "text": "New entries appear here once published.",
+      "sourceHash": "e26c67512ae22dce0e89690c30a5eba6bfed67ffcffcdfd6030ed1d0320dcd3e",
       "status": "published"
     },
     "GdsSearch.m1333": {
       "text": "Clear filters",
       "sourceHash": "7179ea0035fca783ec62b7185659b68c75f2a7c12b909306a57183dc9b3fa44b",
-      "status": "published"
-    },
-    "GdsSearch.m1334": {
-      "text": "Open admin preview",
-      "sourceHash": "2f1e6a6ae593e7f270e6f8c8580551cc9492cfd8b206f12f73e84b6925e1ef46",
       "status": "published"
     },
     "GdsSearch.m1335": {
@@ -3380,6 +3235,16 @@
     "GdsSeoContent.m1409": {
       "text": "Frequently asked questions about GDS commands",
       "sourceHash": "cc9bf30759d63176d6993a5e19d33ff38eb1427d19e3868c209083639aa41e0d",
+      "status": "published"
+    },
+    "loadGdsCommands.m1533": {
+      "text": "GDS request failed",
+      "sourceHash": "6c2da95acb0e7ba67f551c302c000820835bfa7c7f980e17d37e6f39a5c2dedd",
+      "status": "published"
+    },
+    "loadGdsCommands.m1534": {
+      "text": "Invalid GDS response",
+      "sourceHash": "e67f03641898e9aeebcbfe7b5b7dc2d523f2218ba532d1318e0372877e8e4159",
       "status": "published"
     },
     "seed.m1410": {
@@ -7590,6 +7455,196 @@
     "additionalsource.m1238": {
       "text": "Reminders and phone directory",
       "sourceHash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
+      "status": "published"
+    },
+    "GdsSearch.m1263": {
+      "text": "Unclosed CSV quote",
+      "sourceHash": "9572c060898ce0df9eecd1cccf02387fa9c537a834281dda7c4a49e112b9bf37",
+      "status": "published"
+    },
+    "GdsSearch.m1264": {
+      "text": "search keywords",
+      "sourceHash": "f8914f4385d7fe407491a6e5bd8946de5c54452d6c0039847e6640adb93c93e8",
+      "status": "published"
+    },
+    "GdsSearch.m1265": {
+      "text": "Category and Topic headers required",
+      "sourceHash": "2527ef18eb305404748387b9cc567dfc2b7b298157542b31c644587535e8a28c",
+      "status": "published"
+    },
+    "GdsSearch.m1266": {
+      "text": "Browser storage is full; changes may not persist. Export your data.",
+      "sourceHash": "5672fb1114aea78fcc9c5f3a230449f676aa2dc43a7d94c3ccff084d8a00fc42",
+      "status": "published"
+    },
+    "GdsSearch.m1268": {
+      "text": "Category, topic and at least one GDS command are required.",
+      "sourceHash": "b3c67fc716526b3e853d1388a1e2d726656bb48c528316f7ed99b3f9731854d8",
+      "status": "published"
+    },
+    "GdsSearch.m1269": {
+      "text": "Possible duplicate category and topic. Save separately?",
+      "sourceHash": "76bc5a976e998a86735a53edfe1eeec2b1d2e723e44bec25806bc03dca85eb94",
+      "status": "published"
+    },
+    "GdsSearch.m1270": {
+      "text": "Saved in this browser (preview only).",
+      "sourceHash": "d1c44da33241515c6dc351a025cf80ed0ec90654b00006ff6c4e3b352f23042f",
+      "status": "published"
+    },
+    "GdsSearch.m1271": {
+      "text": "Entry removed from browser preview.",
+      "sourceHash": "0e5b09b12ffd551b666195fe403d689f7427634798841805601058dc9b92a040",
+      "status": "published"
+    },
+    "GdsSearch.m1272": {
+      "text": "gds-entries.json",
+      "sourceHash": "78c2deab22b01ea2bf9b6af553560eb36031cde1c954dee9af98108ab318617d",
+      "status": "published"
+    },
+    "GdsSearch.m1273": {
+      "text": "application/json",
+      "sourceHash": "bacb769b46f6d169fb227ea026550f411d46cbe66a9c2a6ba36449c8cf8e4dea",
+      "status": "published"
+    },
+    "GdsSearch.m1274": {
+      "text": "gds-entries.csv",
+      "sourceHash": "487f618076e439ce094a78b3408f1a25b02a5a72a942e0d730d4877fcdd3e2b1",
+      "status": "published"
+    },
+    "GdsSearch.m1275": {
+      "text": "Search keywords",
+      "sourceHash": "520c45ef94262bff47fd7a94bbbd04aeee6c693c8ca828b6069a6a5ca81b11e4",
+      "status": "published"
+    },
+    "GdsSearch.m1276": {
+      "text": "text/csv;charset=utf-8",
+      "sourceHash": "dbc080e39d857f915b215738744830969d7d4c6aba680faaf0b32090a7ec28dd",
+      "status": "published"
+    },
+    "GdsSearch.m1277": {
+      "text": "Preview import maximum is 5 MB",
+      "sourceHash": "acfee1816cfed6835643b8fddff469647ef2fabf346b12de9047de509d5793e2",
+      "status": "published"
+    },
+    "GdsSearch.m1278": {
+      "text": "Expected an array with no more than 10,000 rows",
+      "sourceHash": "66b034c037dd39625a792b0ae8816f539ac27b35a66730bda57ede2715f6649c",
+      "status": "published"
+    },
+    "GdsSearch.m1279": {
+      "text": "Import failed:",
+      "sourceHash": "113b8e2f4761d74c0c3fa13a4e00524cc71e297e629e30fe41d38d561806d1d4",
+      "status": "published"
+    },
+    "GdsSearch.m1306": {
+      "text": "results",
+      "sourceHash": "c099142bc3186ded72786ba27e9ea6d2da240fb9fd3fe79b479ecf8e734b2850",
+      "status": "published"
+    },
+    "GdsSearch.m1310": {
+      "text": "Close admin preview",
+      "sourceHash": "b1a727873d688ae4b5bcc49a7deb60869e5a911cfe1fc6bd6336ec38b18cc979",
+      "status": "published"
+    },
+    "GdsSearch.m1311": {
+      "text": "Admin preview",
+      "sourceHash": "a702a4e31bd03d35c641ca5af59492fff364395d8d00694fff2458aa098171e9",
+      "status": "published"
+    },
+    "GdsSearch.m1312": {
+      "text": "Entries manager",
+      "sourceHash": "507a8e2c87a2d6fe178577251abc432f52952d966fe6639cf0b99f1be402b498",
+      "status": "published"
+    },
+    "GdsSearch.m1313": {
+      "text": "Local preview only",
+      "sourceHash": "9f695f290fd5f1f66ab4fcc82ea50071a0b976173135719e38e26d7db98343d5",
+      "status": "published"
+    },
+    "GdsSearch.m1314": {
+      "text": "Not authenticated or connected to a backend. Do not publish this admin view. Changes are stored only in this browser.",
+      "sourceHash": "109107bdcfabfe6de48719c0e764e05df6316d72fc8e5bb73e186ae51d231189",
+      "status": "published"
+    },
+    "GdsSearch.m1315": {
+      "text": "+ Add entry",
+      "sourceHash": "b355ca9af18b8c4d862d563490b55f0c415a4874e227366c53d6e3449914bc0e",
+      "status": "published"
+    },
+    "GdsSearch.m1316": {
+      "text": "Import CSV / JSON",
+      "sourceHash": "e901a5a64c36f3f98ceda80e77d4250735d9d1479c9707af30543a15820112b0",
+      "status": "published"
+    },
+    "GdsSearch.m1317": {
+      "text": "Export CSV",
+      "sourceHash": "91f71c14c8d6cc647e8658f9a4b9dcb885ff3f7fef1d3e774f46eae35bff0bcd",
+      "status": "published"
+    },
+    "GdsSearch.m1318": {
+      "text": "Export JSON",
+      "sourceHash": "ff25653ee9e47f2a68ebc26cc2431ae8edc54c7b8305d1283357c64ae7cfb087",
+      "status": "published"
+    },
+    "GdsSearch.m1319": {
+      "text": "Add",
+      "sourceHash": "9fd728c66c9a256b121472dabf32a34317aed01d8427d70ec830289cf23a7cc8",
+      "status": "published"
+    },
+    "GdsSearch.m1320": {
+      "text": "Edit",
+      "sourceHash": "464c4ffd019e1e9691dcf0537c797353ef2b1c1d4833d3d463e5b74ae4547344",
+      "status": "published"
+    },
+    "GdsSearch.m1321": {
+      "text": "entry",
+      "sourceHash": "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf",
+      "status": "published"
+    },
+    "GdsSearch.m1322": {
+      "text": "Save entry",
+      "sourceHash": "e5e18267c1986f3bf2bd3c8b127f7ebff101d163c2ae74be31da601d29e254b3",
+      "status": "published"
+    },
+    "GdsSearch.m1323": {
+      "text": "Cancel",
+      "sourceHash": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "status": "published"
+    },
+    "GdsSearch.m1324": {
+      "text": "Remove",
+      "sourceHash": "c3812fc4acb861d5182fc2b8155f327f736fbe5e5eb86a7bd7afcb6dc5497282",
+      "status": "published"
+    },
+    "GdsSearch.m1325": {
+      "text": "Showing the first 200 entries in admin preview.",
+      "sourceHash": "12a47494fac0475a4124f577729006dd0955c3a62ed6238c2af042a70958cfbf",
+      "status": "published"
+    },
+    "GdsSearch.m1326": {
+      "text": "Internal desktop toolbar shortcut reference",
+      "sourceHash": "a6ea399d14ebf63b4acdfb6264161c961a366c153b385941dd149741b9eb9656",
+      "status": "published"
+    },
+    "GdsSearch.m1327": {
+      "text": "Windows Magic Toolbar only: Ctrl + Shift + G. Not a website keyboard shortcut.",
+      "sourceHash": "af53ac9e5b4dd2bcd500a5b4561fa07ce82dcaab8d1d58eb23c91bdf5ce500f1",
+      "status": "published"
+    },
+    "GdsSearch.m1330": {
+      "text": "No entries yet",
+      "sourceHash": "84c62b11dc3735d7a03e7938de9eaa6d33789450e096b12aeecca4ed1a0dca92",
+      "status": "published"
+    },
+    "GdsSearch.m1332": {
+      "text": "Open the admin preview to add your first entry.",
+      "sourceHash": "34a5842f752c58193ca63cc9d1274c28e41b307bc4081c16a1979a2108317866",
+      "status": "published"
+    },
+    "GdsSearch.m1334": {
+      "text": "Open admin preview",
+      "sourceHash": "2f1e6a6ae593e7f270e6f8c8580551cc9492cfd8b206f12f73e84b6925e1ef46",
       "status": "published"
     },
     "page.m0182": {

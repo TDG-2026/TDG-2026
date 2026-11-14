@@ -625,7 +625,7 @@
       "app/[locale]/gds-search-engine/page.jsx:125",
       "app/[locale]/page.js:113",
       "app/[locale]/resources/page.js:87",
-      "components/gds/GdsSearch.jsx:441"
+      "components/gds/GdsSearch.jsx:187"
     ],
     "retired": false
   },
@@ -1269,7 +1269,7 @@
     "text": "(prefers-color-scheme: light)",
     "hash": "a14746aa02d9b0cd4a9b493b72379b4d802ea210a25bc37f0d736e8438964bbd",
     "sources": [
-      "app/[locale]/layout.js:19"
+      "app/[locale]/layout.js:20"
     ],
     "retired": false
   },
@@ -1277,7 +1277,7 @@
     "text": "(prefers-color-scheme: dark)",
     "hash": "a085a59f1538c1fdc1f97c93d7e7b332b535d52d39225986f001b29cb3c9df44",
     "sources": [
-      "app/[locale]/layout.js:19"
+      "app/[locale]/layout.js:20"
     ],
     "retired": false
   },
@@ -1285,7 +1285,7 @@
     "text": "Skip to content",
     "hash": "ac576a66d4563e600314a2ce6e731725e9826fd88baf2399e05f60bfb177dbc0",
     "sources": [
-      "app/[locale]/layout.js:34",
+      "app/[locale]/layout.js:35",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -1455,7 +1455,7 @@
     "hash": "d9688633e5cf0e3b47d1f25df5bddda704f40f57a1b97e668fd5475656c74f79",
     "sources": [
       "app/[locale]/page.js:143",
-      "components/gds/GdsSearch.jsx:465"
+      "components/gds/GdsSearch.jsx:211"
     ],
     "retired": false
   },
@@ -2292,7 +2292,7 @@
     "hash": "ab81a9e909b65c33bba2541c600221d483c21ab76a0e7376251c1dd552852000",
     "sources": [
       "app/[locale]/products/page.js:10",
-      "components/gds/GdsSearch.jsx:478",
+      "components/gds/GdsSearch.jsx:224",
       "data/site.js:12",
       "data/site.js:1"
     ],
@@ -2509,7 +2509,7 @@
     "hash": "292c06f0045a45d044be282b132b7055ae224e18e02b523a451d8ea96fadfd24",
     "sources": [
       "app/[locale]/products/[slug]/page.js:159",
-      "components/gds/GdsSearch.jsx:564"
+      "components/gds/GdsSearch.jsx:310"
     ],
     "retired": false
   },
@@ -3628,7 +3628,9 @@
     "text": "tg:consent",
     "hash": "1fb25060fde18456b7c738ee165c4b06d9c8b95d42b9299d6fe2fed96acff036",
     "sources": [
-      "components/CookieConsent.js:10"
+      "components/CookieConsent.js:10",
+      "components/GoogleAnalytics.js:97",
+      "components/GoogleAnalytics.js:102"
     ],
     "retired": false
   },
@@ -4320,7 +4322,7 @@
     "text": "Search all GDS entries ... e.g. decode city, amadeus hotel, reservation, ticket issuance commands.",
     "hash": "6744be3cb61fd9f514e7c33af10dba7e12dff5c909daa216dd290cde1da80060",
     "sources": [
-      "components/gds/GdsSearch.jsx:11"
+      "components/gds/GdsSearch.jsx:10"
     ],
     "retired": false
   },
@@ -4328,31 +4330,7 @@
     "text": "Search GDS commands... decode city, amadeus hotel, reservation, ticket issuance",
     "hash": "b934bf57826f1254ca34704fb9f04adee4976fcc0534911707acd44a5217c06f",
     "sources": [
-      "components/gds/GdsSearch.jsx:14"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1263": {
-    "text": "Unclosed CSV quote",
-    "hash": "9572c060898ce0df9eecd1cccf02387fa9c537a834281dda7c4a49e112b9bf37",
-    "sources": [
-      "components/gds/GdsSearch.jsx:54"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1264": {
-    "text": "search keywords",
-    "hash": "f8914f4385d7fe407491a6e5bd8946de5c54452d6c0039847e6640adb93c93e8",
-    "sources": [
-      "components/gds/GdsSearch.jsx:61"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1265": {
-    "text": "Category and Topic headers required",
-    "hash": "2527ef18eb305404748387b9cc567dfc2b7b298157542b31c644587535e8a28c",
-    "sources": [
-      "components/gds/GdsSearch.jsx:65"
+      "components/gds/GdsSearch.jsx:13"
     ],
     "retired": false
   },
@@ -4360,124 +4338,25 @@
     "text": "(prefers-reduced-motion: reduce)",
     "hash": "fce63bfb9ebaba3d69fc9c9c02547367b47bcc63b3d99e8afdf4b7e429ce4368",
     "sources": [
-      "components/gds/GdsSearch.jsx:133",
+      "components/gds/GdsSearch.jsx:55",
       "components/GenieChat.js:115",
       "components/Reveal.js:14",
       "components/ToolbarCore.js:43"
     ],
     "retired": false
   },
-  "GdsSearch.m1266": {
-    "text": "Browser storage is full; changes may not persist. Export your data.",
-    "hash": "5672fb1114aea78fcc9c5f3a230449f676aa2dc43a7d94c3ccff084d8a00fc42",
+  "GdsSearch.m1524": {
+    "text": "Unable to load GDS entries. Please retry.",
+    "hash": "025d76f8c9f553c92590a4c9e25de47c4bf7034c6e85858fa630ec864c017417",
     "sources": [
-      "components/gds/GdsSearch.jsx:205"
-    ],
-    "retired": false
+      "components/gds/GdsSearch.jsx:124"
+    ]
   },
   "GdsSearch.m1267": {
     "text": "Clipboard unavailable. Use HTTPS or localhost for testing.",
     "hash": "d9921ddf1e1f2af252f9670d5ddb1db059c445e8a4fdd88ab1d0d559d36cdf95",
     "sources": [
-      "components/gds/GdsSearch.jsx:248"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1268": {
-    "text": "Category, topic and at least one GDS command are required.",
-    "hash": "b3c67fc716526b3e853d1388a1e2d726656bb48c528316f7ed99b3f9731854d8",
-    "sources": [
-      "components/gds/GdsSearch.jsx:272"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1269": {
-    "text": "Possible duplicate category and topic. Save separately?",
-    "hash": "76bc5a976e998a86735a53edfe1eeec2b1d2e723e44bec25806bc03dca85eb94",
-    "sources": [
-      "components/gds/GdsSearch.jsx:286"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1270": {
-    "text": "Saved in this browser (preview only).",
-    "hash": "d1c44da33241515c6dc351a025cf80ed0ec90654b00006ff6c4e3b352f23042f",
-    "sources": [
-      "components/gds/GdsSearch.jsx:299"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1271": {
-    "text": "Entry removed from browser preview.",
-    "hash": "0e5b09b12ffd551b666195fe403d689f7427634798841805601058dc9b92a040",
-    "sources": [
-      "components/gds/GdsSearch.jsx:305"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1272": {
-    "text": "gds-entries.json",
-    "hash": "78c2deab22b01ea2bf9b6af553560eb36031cde1c954dee9af98108ab318617d",
-    "sources": [
-      "components/gds/GdsSearch.jsx:316"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1273": {
-    "text": "application/json",
-    "hash": "bacb769b46f6d169fb227ea026550f411d46cbe66a9c2a6ba36449c8cf8e4dea",
-    "sources": [
-      "components/gds/GdsSearch.jsx:318"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1274": {
-    "text": "gds-entries.csv",
-    "hash": "487f618076e439ce094a78b3408f1a25b02a5a72a942e0d730d4877fcdd3e2b1",
-    "sources": [
-      "components/gds/GdsSearch.jsx:322"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1275": {
-    "text": "Search keywords",
-    "hash": "520c45ef94262bff47fd7a94bbbd04aeee6c693c8ca828b6069a6a5ca81b11e4",
-    "sources": [
-      "components/gds/GdsSearch.jsx:326",
-      "components/gds/GdsSearch.jsx:364",
-      "components/gds/GdsSearch.jsx:688"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1276": {
-    "text": "text/csv;charset=utf-8",
-    "hash": "dbc080e39d857f915b215738744830969d7d4c6aba680faaf0b32090a7ec28dd",
-    "sources": [
-      "components/gds/GdsSearch.jsx:332"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1277": {
-    "text": "Preview import maximum is 5 MB",
-    "hash": "acfee1816cfed6835643b8fddff469647ef2fabf346b12de9047de509d5793e2",
-    "sources": [
-      "components/gds/GdsSearch.jsx:345"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1278": {
-    "text": "Expected an array with no more than 10,000 rows",
-    "hash": "66b034c037dd39625a792b0ae8816f539ac27b35a66730bda57ede2715f6649c",
-    "sources": [
-      "components/gds/GdsSearch.jsx:355"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1279": {
-    "text": "Import failed:",
-    "hash": "113b8e2f4761d74c0c3fa13a4e00524cc71e297e629e30fe41d38d561806d1d4",
-    "sources": [
-      "components/gds/GdsSearch.jsx:423"
+      "components/gds/GdsSearch.jsx:168"
     ],
     "retired": false
   },
@@ -4485,7 +4364,7 @@
     "text": "GDS COMMAND REFERENCE & COMPARISON",
     "hash": "e184130a81bc41220b9e97b218623a05c989f6b6812fb4b7e5da6b434071fb55",
     "sources": [
-      "components/gds/GdsSearch.jsx:435"
+      "components/gds/GdsSearch.jsx:181"
     ],
     "retired": false
   },
@@ -4493,7 +4372,7 @@
     "text": "Instant GDS Commands Discovery with All GDS Comparison",
     "hash": "1420e07a3a1d99f19faee4c16f07e43bf673ebde2d9e6139e41dbfb931eb2e28",
     "sources": [
-      "components/gds/GdsSearch.jsx:445"
+      "components/gds/GdsSearch.jsx:191"
     ],
     "retired": false
   },
@@ -4501,7 +4380,7 @@
     "text": "All GDS under one umbrella — with a little genie magic.",
     "hash": "e8321d2b48b9e47320d59902e99d0616a6d4c96a22f377ba2e5fcb5afb310c63",
     "sources": [
-      "components/gds/GdsSearch.jsx:449"
+      "components/gds/GdsSearch.jsx:195"
     ],
     "retired": false
   },
@@ -4509,7 +4388,7 @@
     "text": "Travel Desk Genie mascot",
     "hash": "d1954c5189a1652acd3fd25dfa59d6f0d2472b89713cd4b8f891770ace210c95",
     "sources": [
-      "components/gds/GdsSearch.jsx:457"
+      "components/gds/GdsSearch.jsx:203"
     ],
     "retired": false
   },
@@ -4517,7 +4396,7 @@
     "text": "Amadeus",
     "hash": "698749ac9971383b7059650e3f1f55ed754728c8f50fde099d198a256f637bba",
     "sources": [
-      "components/gds/GdsSearch.jsx:464",
+      "components/gds/GdsSearch.jsx:210",
       "components/gds/GdsSeoContent.jsx:53",
       "components/WorkflowDemo.js:14",
       "data/resources.js:16",
@@ -4530,7 +4409,7 @@
     "text": "Sabre",
     "hash": "a12a31158c6fa09575faa7b35b5f13327e2088843db380b10c2524a3437d28c0",
     "sources": [
-      "components/gds/GdsSearch.jsx:466",
+      "components/gds/GdsSearch.jsx:212",
       "components/gds/GdsSeoContent.jsx:54",
       "components/WorkflowDemo.js:16",
       "data/resources.js:18",
@@ -4543,7 +4422,7 @@
     "text": "Travel Genie Magic Toolbar Windows application",
     "hash": "67cd0b4a5b23316446b8a888d89f7cea3ee434a33f7f1e6392202ac28d5fef8d",
     "sources": [
-      "components/gds/GdsSearch.jsx:472"
+      "components/gds/GdsSearch.jsx:218"
     ],
     "retired": false
   },
@@ -4551,7 +4430,7 @@
     "text": "SMART AUTOMATION FOR TRAVEL PROFESSIONALS",
     "hash": "7d523fca43af8f83fe94c34edd16afb51af85bb87f5c35666b78c318de3b13d2",
     "sources": [
-      "components/gds/GdsSearch.jsx:474"
+      "components/gds/GdsSearch.jsx:220"
     ],
     "retired": false
   },
@@ -4559,7 +4438,7 @@
     "text": "Thousands of Passport Entries. Minutes of Work. Pure Magic.",
     "hash": "17b08e21cadc30aba0c64e282573033242d8dc52997c90a16399edb2bc993f80",
     "sources": [
-      "components/gds/GdsSearch.jsx:480"
+      "components/gds/GdsSearch.jsx:226"
     ],
     "retired": false
   },
@@ -4567,7 +4446,7 @@
     "text": "Transform the way you work with GDS. Automatically prepare passenger",
     "hash": "d041b88bc3c7432860a729e0f3a81cf3f6fb0ef746b88c722e737733b5a2a4ba",
     "sources": [
-      "components/gds/GdsSearch.jsx:484"
+      "components/gds/GdsSearch.jsx:230"
     ],
     "retired": false
   },
@@ -4575,7 +4454,7 @@
     "text": "NAME, DOCS, CTCM & CTCE",
     "hash": "e0c4034c53692b80ca7c224584c4f039fed00f4579f398e5b40c4b93dfeafee9",
     "sources": [
-      "components/gds/GdsSearch.jsx:486"
+      "components/gds/GdsSearch.jsx:232"
     ],
     "retired": false
   },
@@ -4583,7 +4462,7 @@
     "text": "entries for",
     "hash": "608e742080479699b80f58ddf14fa8aaf2ba9bddd975be5f260ac7f96af3e3ed",
     "sources": [
-      "components/gds/GdsSearch.jsx:486"
+      "components/gds/GdsSearch.jsx:232"
     ],
     "retired": false
   },
@@ -4591,7 +4470,7 @@
     "text": "all GDS",
     "hash": "8c31636678ad14eff110e50c695b05127508f6c24f0e082c977f4f35d3a4b027",
     "sources": [
-      "components/gds/GdsSearch.jsx:487"
+      "components/gds/GdsSearch.jsx:233"
     ],
     "retired": false
   },
@@ -4599,7 +4478,7 @@
     "text": "with speed, precision, and effortless efficiency.",
     "hash": "1a90460647efd4de86e99021feb619edf8cf71d41cdc7c9d2ac8f9f1ba467632",
     "sources": [
-      "components/gds/GdsSearch.jsx:487"
+      "components/gds/GdsSearch.jsx:233"
     ],
     "retired": false
   },
@@ -4607,7 +4486,7 @@
     "text": "Get the app or learn how to use it",
     "hash": "8a06be577240b27223cc746f41175b1ba0860c47a5ee4c50f1a746841aa1abde",
     "sources": [
-      "components/gds/GdsSearch.jsx:491"
+      "components/gds/GdsSearch.jsx:237"
     ],
     "retired": false
   },
@@ -4615,7 +4494,7 @@
     "text": "Get Travel Genie Magic Toolbar from Microsoft Store (opens in a new tab)",
     "hash": "1da36cabf1cbd94603f730c7ab5da96baf5b722fa9e0232480b0ed0f0a8c5b9a",
     "sources": [
-      "components/gds/GdsSearch.jsx:497",
+      "components/gds/GdsSearch.jsx:243",
       "components/gds/GdsSeoContent.jsx:256"
     ],
     "retired": false
@@ -4624,7 +4503,7 @@
     "text": "GET IT FROM",
     "hash": "169a3cf0cf086bd9c96d5d58e2c75cd8fe12dd20c3f2d93b19543601fd2b76de",
     "sources": [
-      "components/gds/GdsSearch.jsx:503",
+      "components/gds/GdsSearch.jsx:249",
       "components/gds/GdsSeoContent.jsx:263"
     ],
     "retired": false
@@ -4633,7 +4512,7 @@
     "text": "Microsoft Store",
     "hash": "50569f5c60f3bc540408be54fb4ac863f6f07a0b738990e6c17c112ca43a8972",
     "sources": [
-      "components/gds/GdsSearch.jsx:504",
+      "components/gds/GdsSearch.jsx:250",
       "components/gds/GdsSeoContent.jsx:264"
     ],
     "retired": false
@@ -4642,7 +4521,7 @@
     "text": "Watch Travel Desk Genie video tutorials and product training on YouTube (opens in a new tab)",
     "hash": "46241296c46335b90cd82780472232580a12a135d0261e2d54832533f5f76a50",
     "sources": [
-      "components/gds/GdsSearch.jsx:514"
+      "components/gds/GdsSearch.jsx:260"
     ],
     "retired": false
   },
@@ -4650,7 +4529,7 @@
     "text": "WATCH & LEARN",
     "hash": "144ad2d76da7eb3f3a5cea8d2493e15047a5de4ce1c882e6a933d49f59ed98fe",
     "sources": [
-      "components/gds/GdsSearch.jsx:523"
+      "components/gds/GdsSearch.jsx:269"
     ],
     "retired": false
   },
@@ -4658,7 +4537,7 @@
     "text": "Video Tutorials",
     "hash": "c80bfbcb60f8e3f8c7192a49a91e107c1cc7b38e723161ba0a5f5d714d225f62",
     "sources": [
-      "components/gds/GdsSearch.jsx:524"
+      "components/gds/GdsSearch.jsx:270"
     ],
     "retired": false
   },
@@ -4666,7 +4545,7 @@
     "text": "Windows desktop app on Microsoft Store · Tutorials and product training on YouTube",
     "hash": "47e22c3ad3143d3b1e39fdea9b0cbd4f0258565c2b93192f62f92207f026a11d",
     "sources": [
-      "components/gds/GdsSearch.jsx:530"
+      "components/gds/GdsSearch.jsx:276"
     ],
     "retired": false
   },
@@ -4674,7 +4553,7 @@
     "text": "Search GDS entries",
     "hash": "469030aea73a0ec65b328e890cbe2d58c15f44dfea257428cffdcd4f51bc6fe3",
     "sources": [
-      "components/gds/GdsSearch.jsx:550"
+      "components/gds/GdsSearch.jsx:296"
     ],
     "retired": false
   },
@@ -4682,7 +4561,7 @@
     "text": "All categories",
     "hash": "9d5097a837102a179a2d08a921a260c5058495e78469c3f1bad37a1b4bf59053",
     "sources": [
-      "components/gds/GdsSearch.jsx:573"
+      "components/gds/GdsSearch.jsx:319"
     ],
     "retired": false
   },
@@ -4690,7 +4569,7 @@
     "text": "System",
     "hash": "6725e7bbcd28f3a8a586fa34bf191fd72dde8b61756932cd3237c17a6f196f1a",
     "sources": [
-      "components/gds/GdsSearch.jsx:580"
+      "components/gds/GdsSearch.jsx:326"
     ],
     "retired": false
   },
@@ -4698,7 +4577,7 @@
     "text": "All systems",
     "hash": "09fae25379bfd5473b3e4c2fb7dc8e2b6dfe46b086bd3303fc76aeec22df3df7",
     "sources": [
-      "components/gds/GdsSearch.jsx:589"
+      "components/gds/GdsSearch.jsx:335"
     ],
     "retired": false
   },
@@ -4706,23 +4585,22 @@
     "text": "Clear",
     "hash": "83b12c2216efb4fdc924e1deb5182e905e4926ed0c1c324d467107f46d5a26a9",
     "sources": [
-      "components/gds/GdsSearch.jsx:598"
+      "components/gds/GdsSearch.jsx:344"
     ],
     "retired": false
   },
-  "GdsSearch.m1306": {
-    "text": "results",
-    "hash": "c099142bc3186ded72786ba27e9ea6d2da240fb9fd3fe79b479ecf8e734b2850",
+  "GdsSearch.m1525": {
+    "text": "Loading…",
+    "hash": "ba3bbbe10d8bef66441c88536ce7b8e724e2829b59a3da658654f4961cd61ae5",
     "sources": [
-      "components/gds/GdsSearch.jsx:606"
-    ],
-    "retired": false
+      "components/gds/GdsSearch.jsx:352"
+    ]
   },
   "GdsSearch.m1307": {
     "text": "Search results",
     "hash": "e978b00de465a271a13bf2f6b9d74d67fdfaa7d973a37378fa32f988c3280599",
     "sources": [
-      "components/gds/GdsSearch.jsx:616"
+      "components/gds/GdsSearch.jsx:362"
     ],
     "retired": false
   },
@@ -4730,7 +4608,7 @@
     "text": "Browse GDS entries",
     "hash": "50ff9b42a95984f54e5395b39ce392f7742428ecc8bb82ada31d36f99bcbcbf1",
     "sources": [
-      "components/gds/GdsSearch.jsx:616"
+      "components/gds/GdsSearch.jsx:362"
     ],
     "retired": false
   },
@@ -4738,160 +4616,22 @@
     "text": "Copy reference commands individually. This tool does not execute GDS commands.",
     "hash": "f8a623ec036db5e1122a7041f7d94515a4bf01d2ec15d3326c9a08e35bc24c59",
     "sources": [
-      "components/gds/GdsSearch.jsx:618"
+      "components/gds/GdsSearch.jsx:364"
     ],
     "retired": false
   },
-  "GdsSearch.m1310": {
-    "text": "Close admin preview",
-    "hash": "b1a727873d688ae4b5bcc49a7deb60869e5a911cfe1fc6bd6336ec38b18cc979",
+  "GdsSearch.m1526": {
+    "text": "Refresh entries",
+    "hash": "9a7bbf9591a2c83cccb1084a84e2a3431dc04c71f0937c8406bfd7f67266bfd0",
     "sources": [
-      "components/gds/GdsSearch.jsx:628"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1311": {
-    "text": "Admin preview",
-    "hash": "a702a4e31bd03d35c641ca5af59492fff364395d8d00694fff2458aa098171e9",
-    "sources": [
-      "components/gds/GdsSearch.jsx:628"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1312": {
-    "text": "Entries manager",
-    "hash": "507a8e2c87a2d6fe178577251abc432f52952d966fe6639cf0b99f1be402b498",
-    "sources": [
-      "components/gds/GdsSearch.jsx:634"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1313": {
-    "text": "Local preview only",
-    "hash": "9f695f290fd5f1f66ab4fcc82ea50071a0b976173135719e38e26d7db98343d5",
-    "sources": [
-      "components/gds/GdsSearch.jsx:636"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1314": {
-    "text": "Not authenticated or connected to a backend. Do not publish this admin view. Changes are stored only in this browser.",
-    "hash": "109107bdcfabfe6de48719c0e764e05df6316d72fc8e5bb73e186ae51d231189",
-    "sources": [
-      "components/gds/GdsSearch.jsx:639"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1315": {
-    "text": "+ Add entry",
-    "hash": "b355ca9af18b8c4d862d563490b55f0c415a4874e227366c53d6e3449914bc0e",
-    "sources": [
-      "components/gds/GdsSearch.jsx:648"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1316": {
-    "text": "Import CSV / JSON",
-    "hash": "e901a5a64c36f3f98ceda80e77d4250735d9d1479c9707af30543a15820112b0",
-    "sources": [
-      "components/gds/GdsSearch.jsx:652"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1317": {
-    "text": "Export CSV",
-    "hash": "91f71c14c8d6cc647e8658f9a4b9dcb885ff3f7fef1d3e774f46eae35bff0bcd",
-    "sources": [
-      "components/gds/GdsSearch.jsx:665"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1318": {
-    "text": "Export JSON",
-    "hash": "ff25653ee9e47f2a68ebc26cc2431ae8edc54c7b8305d1283357c64ae7cfb087",
-    "sources": [
-      "components/gds/GdsSearch.jsx:672"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1319": {
-    "text": "Add",
-    "hash": "9fd728c66c9a256b121472dabf32a34317aed01d8427d70ec830289cf23a7cc8",
-    "sources": [
-      "components/gds/GdsSearch.jsx:682"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1320": {
-    "text": "Edit",
-    "hash": "464c4ffd019e1e9691dcf0537c797353ef2b1c1d4833d3d463e5b74ae4547344",
-    "sources": [
-      "components/gds/GdsSearch.jsx:682",
-      "components/gds/GdsSearch.jsx:735"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1321": {
-    "text": "entry",
-    "hash": "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf",
-    "sources": [
-      "components/gds/GdsSearch.jsx:682"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1322": {
-    "text": "Save entry",
-    "hash": "e5e18267c1986f3bf2bd3c8b127f7ebff101d163c2ae74be31da601d29e254b3",
-    "sources": [
-      "components/gds/GdsSearch.jsx:708"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1323": {
-    "text": "Cancel",
-    "hash": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
-    "sources": [
-      "components/gds/GdsSearch.jsx:714"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1324": {
-    "text": "Remove",
-    "hash": "c3812fc4acb861d5182fc2b8155f327f736fbe5e5eb86a7bd7afcb6dc5497282",
-    "sources": [
-      "components/gds/GdsSearch.jsx:741"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1325": {
-    "text": "Showing the first 200 entries in admin preview.",
-    "hash": "12a47494fac0475a4124f577729006dd0955c3a62ed6238c2af042a70958cfbf",
-    "sources": [
-      "components/gds/GdsSearch.jsx:750"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1326": {
-    "text": "Internal desktop toolbar shortcut reference",
-    "hash": "a6ea399d14ebf63b4acdfb6264161c961a366c153b385941dd149741b9eb9656",
-    "sources": [
-      "components/gds/GdsSearch.jsx:756"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1327": {
-    "text": "Windows Magic Toolbar only: Ctrl + Shift + G. Not a website keyboard shortcut.",
-    "hash": "af53ac9e5b4dd2bcd500a5b4561fa07ce82dcaab8d1d58eb23c91bdf5ce500f1",
-    "sources": [
-      "components/gds/GdsSearch.jsx:759"
-    ],
-    "retired": false
+      "components/gds/GdsSearch.jsx:370"
+    ]
   },
   "GdsSearch.m1328": {
     "text": "Copied ✓",
     "hash": "58d73ef49a5d977726223c5d2294c8a267174a255399359b5f40d8a750ddd218",
     "sources": [
-      "components/gds/GdsSearch.jsx:800"
+      "components/gds/GdsSearch.jsx:409"
     ],
     "retired": false
   },
@@ -4899,57 +4639,75 @@
     "text": "Copy",
     "hash": "e21f935f11d7e966dbbae78da9daa378fe8142a14e7c0cd7434183005faa6c5c",
     "sources": [
-      "components/gds/GdsSearch.jsx:801",
+      "components/gds/GdsSearch.jsx:410",
       "components/GenieChat.js:56",
       "components/WorkflowDemo.js:113"
     ],
     "retired": false
   },
+  "GdsSearch.m1527": {
+    "text": "Loading GDS entries…",
+    "hash": "e38eed24056e5937a2c104115d3d4f6db76747b9876a7447527da88961f38237",
+    "sources": [
+      "components/gds/GdsSearch.jsx:434"
+    ]
+  },
+  "GdsSearch.m1528": {
+    "text": "Entries unavailable",
+    "hash": "da9bdc7d1694d383eb5ad5f7f06d54c3b8d2fc5c5ea4e612f686b8cc29e670a1",
+    "sources": [
+      "components/gds/GdsSearch.jsx:434"
+    ]
+  },
   "GdsSearch.m1329": {
     "text": "No matching entries",
     "hash": "9c940e9dbe17d1e441e59e7313347b9ab53f755a57a8b927c033a7096a5138be",
     "sources": [
-      "components/gds/GdsSearch.jsx:827"
+      "components/gds/GdsSearch.jsx:434"
     ],
     "retired": false
   },
-  "GdsSearch.m1330": {
-    "text": "No entries yet",
-    "hash": "84c62b11dc3735d7a03e7938de9eaa6d33789450e096b12aeecca4ed1a0dca92",
+  "GdsSearch.m1529": {
+    "text": "No published entries yet",
+    "hash": "a45b4e8d70da7e24a11e882f298e6be36ede771d393ec455f21210557fc7076a",
     "sources": [
-      "components/gds/GdsSearch.jsx:828"
-    ],
-    "retired": false
+      "components/gds/GdsSearch.jsx:434"
+    ]
+  },
+  "GdsSearch.m1530": {
+    "text": "Please wait.",
+    "hash": "f14a79f0825807a1e7df9767cf1d07442acb48376ef1f6ea9ebddf51bed530b6",
+    "sources": [
+      "components/gds/GdsSearch.jsx:435"
+    ]
+  },
+  "GdsSearch.m1531": {
+    "text": "Use Refresh entries to try again.",
+    "hash": "6c83798aee2ebeea49c9680390d8576f11bc6d244e2921bafb1f819225f07d29",
+    "sources": [
+      "components/gds/GdsSearch.jsx:435"
+    ]
   },
   "GdsSearch.m1331": {
     "text": "Try a different search or reset the filters.",
     "hash": "e1afa8070bf9a95411b9d8801529cb4b12b934cbcbf86a70c111f0f9f29c42d6",
     "sources": [
-      "components/gds/GdsSearch.jsx:833"
+      "components/gds/GdsSearch.jsx:435"
     ],
     "retired": false
   },
-  "GdsSearch.m1332": {
-    "text": "Open the admin preview to add your first entry.",
-    "hash": "34a5842f752c58193ca63cc9d1274c28e41b307bc4081c16a1979a2108317866",
+  "GdsSearch.m1532": {
+    "text": "New entries appear here once published.",
+    "hash": "e26c67512ae22dce0e89690c30a5eba6bfed67ffcffcdfd6030ed1d0320dcd3e",
     "sources": [
-      "components/gds/GdsSearch.jsx:834"
-    ],
-    "retired": false
+      "components/gds/GdsSearch.jsx:435"
+    ]
   },
   "GdsSearch.m1333": {
     "text": "Clear filters",
     "hash": "7179ea0035fca783ec62b7185659b68c75f2a7c12b909306a57183dc9b3fa44b",
     "sources": [
-      "components/gds/GdsSearch.jsx:846"
-    ],
-    "retired": false
-  },
-  "GdsSearch.m1334": {
-    "text": "Open admin preview",
-    "hash": "2f1e6a6ae593e7f270e6f8c8580551cc9492cfd8b206f12f73e84b6925e1ef46",
-    "sources": [
-      "components/gds/GdsSearch.jsx:847"
+      "components/gds/GdsSearch.jsx:436"
     ],
     "retired": false
   },
@@ -4957,7 +4715,7 @@
     "text": "Previous",
     "hash": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa",
     "sources": [
-      "components/gds/GdsSearch.jsx:858"
+      "components/gds/GdsSearch.jsx:446"
     ],
     "retired": false
   },
@@ -4965,7 +4723,7 @@
     "text": "Page",
     "hash": "0a30a815d67d7dd2018fe18f4e995a26f3b753369cd4327e9b6034b50a2cd153",
     "sources": [
-      "components/gds/GdsSearch.jsx:862"
+      "components/gds/GdsSearch.jsx:450"
     ],
     "retired": false
   },
@@ -4973,7 +4731,7 @@
     "text": "of",
     "hash": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
     "sources": [
-      "components/gds/GdsSearch.jsx:863"
+      "components/gds/GdsSearch.jsx:451"
     ],
     "retired": false
   },
@@ -4981,7 +4739,7 @@
     "text": "Next",
     "hash": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858",
     "sources": [
-      "components/gds/GdsSearch.jsx:870"
+      "components/gds/GdsSearch.jsx:458"
     ],
     "retired": false
   },
@@ -4989,7 +4747,7 @@
     "text": "Compare at a glance",
     "hash": "ab83cedd71b7c2658ad3b37bb763d7fb9d0b026a7b4ecf978c8a039aa799ea6c",
     "sources": [
-      "components/gds/GdsSearch.jsx:878"
+      "components/gds/GdsSearch.jsx:466"
     ],
     "retired": false
   },
@@ -4997,7 +4755,7 @@
     "text": "Travelport, Amadeus and Sabre side by side, with unavailable commands left blank.",
     "hash": "4b8f32ee745f473d02f0d9dca3f1027ed2447180b1a07761402ac521d71011cf",
     "sources": [
-      "components/gds/GdsSearch.jsx:879"
+      "components/gds/GdsSearch.jsx:467"
     ],
     "retired": false
   },
@@ -5005,7 +4763,7 @@
     "text": "Time is money. Travel Desk Genie saves both.",
     "hash": "13578b21e753287d66e030e36a09a1a2ffa5d0813bd87ce6e0c86eb00dbae90f",
     "sources": [
-      "components/gds/GdsSearch.jsx:883"
+      "components/gds/GdsSearch.jsx:471"
     ],
     "retired": false
   },
@@ -5013,7 +4771,7 @@
     "text": "Decode comparison showing Travelport, Amadeus and Sabre commands",
     "hash": "2699108391f0c27cc78bfd6c0bc79086ad124e5b6cf756a91bd1e19e1e750b84",
     "sources": [
-      "components/gds/GdsSearch.jsx:890"
+      "components/gds/GdsSearch.jsx:478"
     ],
     "retired": false
   },
@@ -5602,6 +5360,20 @@
       "components/gds/GdsSeoContent.jsx:329"
     ],
     "retired": false
+  },
+  "loadGdsCommands.m1533": {
+    "text": "GDS request failed",
+    "hash": "6c2da95acb0e7ba67f551c302c000820835bfa7c7f980e17d37e6f39a5c2dedd",
+    "sources": [
+      "components/gds/loadGdsCommands.mjs:9"
+    ]
+  },
+  "loadGdsCommands.m1534": {
+    "text": "Invalid GDS response",
+    "hash": "e67f03641898e9aeebcbfe7b5b7dc2d523f2218ba532d1318e0372877e8e4159",
+    "sources": [
+      "components/gds/loadGdsCommands.mjs:11"
+    ]
   },
   "seed.m1410": {
     "text": "Encode",
@@ -12889,6 +12661,313 @@
       "messages/additional-source.json:1"
     ],
     "retired": false
+  },
+  "GdsSearch.m1263": {
+    "text": "Unclosed CSV quote",
+    "hash": "9572c060898ce0df9eecd1cccf02387fa9c537a834281dda7c4a49e112b9bf37",
+    "sources": [
+      "components/gds/GdsSearch.jsx:54"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1264": {
+    "text": "search keywords",
+    "hash": "f8914f4385d7fe407491a6e5bd8946de5c54452d6c0039847e6640adb93c93e8",
+    "sources": [
+      "components/gds/GdsSearch.jsx:61"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1265": {
+    "text": "Category and Topic headers required",
+    "hash": "2527ef18eb305404748387b9cc567dfc2b7b298157542b31c644587535e8a28c",
+    "sources": [
+      "components/gds/GdsSearch.jsx:65"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1266": {
+    "text": "Browser storage is full; changes may not persist. Export your data.",
+    "hash": "5672fb1114aea78fcc9c5f3a230449f676aa2dc43a7d94c3ccff084d8a00fc42",
+    "sources": [
+      "components/gds/GdsSearch.jsx:205"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1268": {
+    "text": "Category, topic and at least one GDS command are required.",
+    "hash": "b3c67fc716526b3e853d1388a1e2d726656bb48c528316f7ed99b3f9731854d8",
+    "sources": [
+      "components/gds/GdsSearch.jsx:272"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1269": {
+    "text": "Possible duplicate category and topic. Save separately?",
+    "hash": "76bc5a976e998a86735a53edfe1eeec2b1d2e723e44bec25806bc03dca85eb94",
+    "sources": [
+      "components/gds/GdsSearch.jsx:286"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1270": {
+    "text": "Saved in this browser (preview only).",
+    "hash": "d1c44da33241515c6dc351a025cf80ed0ec90654b00006ff6c4e3b352f23042f",
+    "sources": [
+      "components/gds/GdsSearch.jsx:299"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1271": {
+    "text": "Entry removed from browser preview.",
+    "hash": "0e5b09b12ffd551b666195fe403d689f7427634798841805601058dc9b92a040",
+    "sources": [
+      "components/gds/GdsSearch.jsx:305"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1272": {
+    "text": "gds-entries.json",
+    "hash": "78c2deab22b01ea2bf9b6af553560eb36031cde1c954dee9af98108ab318617d",
+    "sources": [
+      "components/gds/GdsSearch.jsx:316"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1273": {
+    "text": "application/json",
+    "hash": "bacb769b46f6d169fb227ea026550f411d46cbe66a9c2a6ba36449c8cf8e4dea",
+    "sources": [
+      "components/gds/GdsSearch.jsx:318"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1274": {
+    "text": "gds-entries.csv",
+    "hash": "487f618076e439ce094a78b3408f1a25b02a5a72a942e0d730d4877fcdd3e2b1",
+    "sources": [
+      "components/gds/GdsSearch.jsx:322"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1275": {
+    "text": "Search keywords",
+    "hash": "520c45ef94262bff47fd7a94bbbd04aeee6c693c8ca828b6069a6a5ca81b11e4",
+    "sources": [
+      "components/gds/GdsSearch.jsx:326",
+      "components/gds/GdsSearch.jsx:364",
+      "components/gds/GdsSearch.jsx:688"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1276": {
+    "text": "text/csv;charset=utf-8",
+    "hash": "dbc080e39d857f915b215738744830969d7d4c6aba680faaf0b32090a7ec28dd",
+    "sources": [
+      "components/gds/GdsSearch.jsx:332"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1277": {
+    "text": "Preview import maximum is 5 MB",
+    "hash": "acfee1816cfed6835643b8fddff469647ef2fabf346b12de9047de509d5793e2",
+    "sources": [
+      "components/gds/GdsSearch.jsx:345"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1278": {
+    "text": "Expected an array with no more than 10,000 rows",
+    "hash": "66b034c037dd39625a792b0ae8816f539ac27b35a66730bda57ede2715f6649c",
+    "sources": [
+      "components/gds/GdsSearch.jsx:355"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1279": {
+    "text": "Import failed:",
+    "hash": "113b8e2f4761d74c0c3fa13a4e00524cc71e297e629e30fe41d38d561806d1d4",
+    "sources": [
+      "components/gds/GdsSearch.jsx:423"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1306": {
+    "text": "results",
+    "hash": "c099142bc3186ded72786ba27e9ea6d2da240fb9fd3fe79b479ecf8e734b2850",
+    "sources": [
+      "components/gds/GdsSearch.jsx:606"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1310": {
+    "text": "Close admin preview",
+    "hash": "b1a727873d688ae4b5bcc49a7deb60869e5a911cfe1fc6bd6336ec38b18cc979",
+    "sources": [
+      "components/gds/GdsSearch.jsx:628"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1311": {
+    "text": "Admin preview",
+    "hash": "a702a4e31bd03d35c641ca5af59492fff364395d8d00694fff2458aa098171e9",
+    "sources": [
+      "components/gds/GdsSearch.jsx:628"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1312": {
+    "text": "Entries manager",
+    "hash": "507a8e2c87a2d6fe178577251abc432f52952d966fe6639cf0b99f1be402b498",
+    "sources": [
+      "components/gds/GdsSearch.jsx:634"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1313": {
+    "text": "Local preview only",
+    "hash": "9f695f290fd5f1f66ab4fcc82ea50071a0b976173135719e38e26d7db98343d5",
+    "sources": [
+      "components/gds/GdsSearch.jsx:636"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1314": {
+    "text": "Not authenticated or connected to a backend. Do not publish this admin view. Changes are stored only in this browser.",
+    "hash": "109107bdcfabfe6de48719c0e764e05df6316d72fc8e5bb73e186ae51d231189",
+    "sources": [
+      "components/gds/GdsSearch.jsx:639"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1315": {
+    "text": "+ Add entry",
+    "hash": "b355ca9af18b8c4d862d563490b55f0c415a4874e227366c53d6e3449914bc0e",
+    "sources": [
+      "components/gds/GdsSearch.jsx:648"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1316": {
+    "text": "Import CSV / JSON",
+    "hash": "e901a5a64c36f3f98ceda80e77d4250735d9d1479c9707af30543a15820112b0",
+    "sources": [
+      "components/gds/GdsSearch.jsx:652"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1317": {
+    "text": "Export CSV",
+    "hash": "91f71c14c8d6cc647e8658f9a4b9dcb885ff3f7fef1d3e774f46eae35bff0bcd",
+    "sources": [
+      "components/gds/GdsSearch.jsx:665"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1318": {
+    "text": "Export JSON",
+    "hash": "ff25653ee9e47f2a68ebc26cc2431ae8edc54c7b8305d1283357c64ae7cfb087",
+    "sources": [
+      "components/gds/GdsSearch.jsx:672"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1319": {
+    "text": "Add",
+    "hash": "9fd728c66c9a256b121472dabf32a34317aed01d8427d70ec830289cf23a7cc8",
+    "sources": [
+      "components/gds/GdsSearch.jsx:682"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1320": {
+    "text": "Edit",
+    "hash": "464c4ffd019e1e9691dcf0537c797353ef2b1c1d4833d3d463e5b74ae4547344",
+    "sources": [
+      "components/gds/GdsSearch.jsx:682",
+      "components/gds/GdsSearch.jsx:735"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1321": {
+    "text": "entry",
+    "hash": "923fe53966c6cd9343e11af776cd4b05be315ea4b200b02e4d5dfb0f929b73bf",
+    "sources": [
+      "components/gds/GdsSearch.jsx:682"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1322": {
+    "text": "Save entry",
+    "hash": "e5e18267c1986f3bf2bd3c8b127f7ebff101d163c2ae74be31da601d29e254b3",
+    "sources": [
+      "components/gds/GdsSearch.jsx:708"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1323": {
+    "text": "Cancel",
+    "hash": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+    "sources": [
+      "components/gds/GdsSearch.jsx:714"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1324": {
+    "text": "Remove",
+    "hash": "c3812fc4acb861d5182fc2b8155f327f736fbe5e5eb86a7bd7afcb6dc5497282",
+    "sources": [
+      "components/gds/GdsSearch.jsx:741"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1325": {
+    "text": "Showing the first 200 entries in admin preview.",
+    "hash": "12a47494fac0475a4124f577729006dd0955c3a62ed6238c2af042a70958cfbf",
+    "sources": [
+      "components/gds/GdsSearch.jsx:750"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1326": {
+    "text": "Internal desktop toolbar shortcut reference",
+    "hash": "a6ea399d14ebf63b4acdfb6264161c961a366c153b385941dd149741b9eb9656",
+    "sources": [
+      "components/gds/GdsSearch.jsx:756"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1327": {
+    "text": "Windows Magic Toolbar only: Ctrl + Shift + G. Not a website keyboard shortcut.",
+    "hash": "af53ac9e5b4dd2bcd500a5b4561fa07ce82dcaab8d1d58eb23c91bdf5ce500f1",
+    "sources": [
+      "components/gds/GdsSearch.jsx:759"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1330": {
+    "text": "No entries yet",
+    "hash": "84c62b11dc3735d7a03e7938de9eaa6d33789450e096b12aeecca4ed1a0dca92",
+    "sources": [
+      "components/gds/GdsSearch.jsx:828"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1332": {
+    "text": "Open the admin preview to add your first entry.",
+    "hash": "34a5842f752c58193ca63cc9d1274c28e41b307bc4081c16a1979a2108317866",
+    "sources": [
+      "components/gds/GdsSearch.jsx:834"
+    ],
+    "retired": true
+  },
+  "GdsSearch.m1334": {
+    "text": "Open admin preview",
+    "hash": "2f1e6a6ae593e7f270e6f8c8580551cc9492cfd8b206f12f73e84b6925e1ef46",
+    "sources": [
+      "components/gds/GdsSearch.jsx:847"
+    ],
+    "retired": true
   },
   "page.m0182": {
     "text": "Confirm the destination’s current official specification",

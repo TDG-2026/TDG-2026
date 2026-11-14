@@ -12,6 +12,7 @@ import SiteTools from '@/components/SiteTools';
 import StructuredData from '@/components/StructuredData';
 import {site} from '@/data/site';
 import {organizationSchema, websiteSchema} from '@/lib/seo';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export const dynamicParams = false;
 export function generateStaticParams() { return locales.map(({code}) => ({locale: code})); }
@@ -38,6 +39,7 @@ export default async function LocaleLayout({children, params}) {
           <main id="main">{children}</main>
           <Footer />
           <CookieConsent />
+	  <GoogleAnalytics />
           <ChatLauncher />
           <SiteTools />
         </LocaleProvider>
