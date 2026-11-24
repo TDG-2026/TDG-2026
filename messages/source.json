@@ -20,7 +20,7 @@
     "hash": "aa6d6025477234ee9966a72c31e1c7a391bfa8e1fc2d6f89eaa3ece3a1cb6460",
     "sources": [
       "app/[locale]/about/page.js:13",
-      "components/Footer.js:114"
+      "components/Footer.js:120"
     ],
     "retired": false
   },
@@ -679,7 +679,7 @@
     "hash": "f3a0e9ad28d7c08bf0f49285933877869e295ab3e97cbe6b22e697c55c63afef",
     "sources": [
       "app/[locale]/gds-search-engine/page.jsx:117",
-      "components/Footer.js:134"
+      "components/Footer.js:140"
     ],
     "retired": false
   },
@@ -1198,7 +1198,6 @@
     "hash": "318655cea4bd2096fbfad433d7c019bac40750d1a456fc34d366df41fcc77197",
     "sources": [
       "app/[locale]/languages/page.js:27",
-      "components/Footer.js:151",
       "components/LanguageSwitcher.js:18",
       "messages/additional-source.json:1"
     ],
@@ -1311,7 +1310,7 @@
     "hash": "a469ab4ca4e55bf547566e9ebfa1b809c933207e9d558156bc0c4252b17533fe",
     "sources": [
       "app/[locale]/not-found.js:5",
-      "app/[locale]/[...rest]/page.js:3"
+      "app/[locale]/[...rest]/page.js:5"
     ],
     "retired": false
   },
@@ -2351,7 +2350,7 @@
     "hash": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24",
     "sources": [
       "app/[locale]/products/[slug]/page.js:59",
-      "components/Footer.js:129"
+      "components/Footer.js:135"
     ],
     "retired": false
   },
@@ -2360,7 +2359,7 @@
     "hash": "d05723c09029aff91b1afe181397afb94f7d2480935d98449104793a7e3ae4aa",
     "sources": [
       "app/[locale]/products/[slug]/page.js:71",
-      "components/Footer.js:96",
+      "components/Footer.js:99",
       "components/JumpNav.js:8",
       "components/ProductCatalogue.js:91"
     ],
@@ -2387,7 +2386,7 @@
     "hash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6",
     "sources": [
       "app/[locale]/products/[slug]/page.js:96",
-      "components/Footer.js:90",
+      "components/Footer.js:93",
       "components/WorkflowStrip.js:17"
     ],
     "retired": false
@@ -2602,7 +2601,7 @@
       "app/[locale]/resources/page.js:25",
       "app/[locale]/resources/[slug]/page.js:257",
       "app/[locale]/resources/[slug]/page.js:279",
-      "components/Footer.js:140",
+      "components/Footer.js:146",
       "data/site.js:53",
       "data/site.js:1",
       "messages/additional-source.json:1"
@@ -4217,11 +4216,20 @@
     ],
     "retired": false
   },
+  "i18n.m1189": {
+    "text": "Features",
+    "hash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd",
+    "sources": [
+      "components/Footer.js:78",
+      "data/genie/i18n.js:1"
+    ],
+    "retired": false
+  },
   "Footer.m0399": {
     "text": "Passport & DOCS",
     "hash": "b817037095838b78612fb14db7154f42c80a637a9078c712d78a1919d7665b3e",
     "sources": [
-      "components/Footer.js:78",
+      "components/Footer.js:81",
       "components/JumpNav.js:4",
       "data/toolbar.js:2"
     ],
@@ -4231,16 +4239,23 @@
     "text": "Desk tools",
     "hash": "22b91f3566da949849a525359e58645e0da25f75a736c1ca77eb4b966d3b2623",
     "sources": [
-      "components/Footer.js:87",
+      "components/Footer.js:90",
       "components/JumpNav.js:7"
     ],
     "retired": false
+  },
+  "Footer.m1542": {
+    "text": "All products",
+    "hash": "718622df41f1b6443488da87dd52221b8eaed9e880f7b3cd8ebd781b369c34da",
+    "sources": [
+      "components/Footer.js:109"
+    ]
   },
   "Footer.m0401": {
     "text": "Help & resources",
     "hash": "59a592cbcf22c272788630e2fc2b236e1de0f2c7c40b567932674abe693aeb4a",
     "sources": [
-      "components/Footer.js:109"
+      "components/Footer.js:115"
     ],
     "retired": false
   },
@@ -4248,7 +4263,7 @@
     "text": "Getting started",
     "hash": "831d0f72d242b7d12d4ef15123d43145e97e95be5aba57cd150e434159aae202",
     "sources": [
-      "components/Footer.js:120",
+      "components/Footer.js:126",
       "components/GetStarted.js:19"
     ],
     "retired": false
@@ -4257,7 +4272,7 @@
     "text": "Contact",
     "hash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
     "sources": [
-      "components/Footer.js:123",
+      "components/Footer.js:129",
       "data/site.js:56",
       "data/site.js:1"
     ],
@@ -4267,7 +4282,7 @@
     "text": "Pricing",
     "hash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040",
     "sources": [
-      "components/Footer.js:126",
+      "components/Footer.js:132",
       "data/site.js:52",
       "data/genie/i18n.js:1",
       "data/site.js:1"
@@ -4278,7 +4293,7 @@
     "text": "Support",
     "hash": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3",
     "sources": [
-      "components/Footer.js:143",
+      "components/Footer.js:149",
       "data/site.js:55",
       "data/site.js:1"
     ],
@@ -4288,7 +4303,7 @@
     "text": "Security & Privacy",
     "hash": "121fa1521e9563ecceefe26b9673a9decb4c3e820bc7d76349ff09e85dc0d7e8",
     "sources": [
-      "components/Footer.js:146"
+      "components/Footer.js:152"
     ],
     "retired": false
   },
@@ -4296,7 +4311,7 @@
     "text": "User Guide",
     "hash": "d131ef7f9b5e2b457faba856dcc5f90438b46b97df6a849234432e76c63f6cbd",
     "sources": [
-      "components/Footer.js:154",
+      "components/Footer.js:157",
       "data/site.js:54",
       "data/site.js:1"
     ],
@@ -4306,7 +4321,7 @@
     "text": "Legal",
     "hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
     "sources": [
-      "components/Footer.js:160"
+      "components/Footer.js:163"
     ],
     "retired": false
   },
@@ -4314,7 +4329,7 @@
     "text": "Privacy Policy",
     "hash": "506ff394621596dd88138642eddfc1e41833b3ae92d95e5c77c94327098abd9a",
     "sources": [
-      "components/Footer.js:166"
+      "components/Footer.js:169"
     ],
     "retired": false
   },
@@ -4322,7 +4337,7 @@
     "text": "Terms of Use",
     "hash": "12a0015fa32217778863154566bce500732726db6ea596518712c12955d9a225",
     "sources": [
-      "components/Footer.js:168"
+      "components/Footer.js:171"
     ],
     "retired": false
   },
@@ -4330,7 +4345,7 @@
     "text": "Travel Desk Genie. All rights reserved.",
     "hash": "243e00440c946603248f1a04bcf649f21912dd05a3e0d9821ea0f2fd27752fdb",
     "sources": [
-      "components/Footer.js:179"
+      "components/Footer.js:182"
     ],
     "retired": false
   },
@@ -7342,14 +7357,16 @@
     "hash": "e871fa972958d7f5de5cdf5d45ac03ebedca8980ea8c27d82b50ea9fb8c7148c",
     "sources": [
       "data/answers.js:14"
-    ]
+    ],
+    "retired": false
   },
   "answers.m1541": {
     "text": "The website is currently in English. More languages, such as Urdu and Arabic, are added only after a native speaker has reviewed every page. When a new language is ready, you can choose it from the language menu at the top, and your choice is saved on this device.",
     "hash": "6f938ebac306eb575243d84438b3488db41c13426dd1426178d5ab760b8fcb4b",
     "sources": [
       "data/answers.js:15"
-    ]
+    ],
+    "retired": false
   },
   "faqs.m0637": {
     "text": "Who is Magic Toolbar for?",
@@ -12273,14 +12290,6 @@
   "i18n.m1188": {
     "text": "Send",
     "hash": "f6f4688ff23d50c67053963c251fa0ce64a925cf283537cf066b1f362cb9b778",
-    "sources": [
-      "data/genie/i18n.js:1"
-    ],
-    "retired": false
-  },
-  "i18n.m1189": {
-    "text": "Features",
-    "hash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd",
     "sources": [
       "data/genie/i18n.js:1"
     ],

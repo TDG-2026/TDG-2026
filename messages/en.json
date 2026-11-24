@@ -2537,6 +2537,11 @@
       "sourceHash": "6ebcd5d3bdeb717eab7139668a0c7345976c17b3f3609d171d096356db1a137a",
       "status": "published"
     },
+    "i18n.m1189": {
+      "text": "Features",
+      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd",
+      "status": "published"
+    },
     "Footer.m0399": {
       "text": "Passport & DOCS",
       "sourceHash": "b817037095838b78612fb14db7154f42c80a637a9078c712d78a1919d7665b3e",
@@ -2545,6 +2550,11 @@
     "Footer.m0400": {
       "text": "Desk tools",
       "sourceHash": "22b91f3566da949849a525359e58645e0da25f75a736c1ca77eb4b966d3b2623",
+      "status": "published"
+    },
+    "Footer.m1542": {
+      "text": "All products",
+      "sourceHash": "718622df41f1b6443488da87dd52221b8eaed9e880f7b3cd8ebd781b369c34da",
       "status": "published"
     },
     "Footer.m0401": {
@@ -7210,11 +7220,6 @@
     "i18n.m1188": {
       "text": "Send",
       "sourceHash": "f6f4688ff23d50c67053963c251fa0ce64a925cf283537cf066b1f362cb9b778",
-      "status": "published"
-    },
-    "i18n.m1189": {
-      "text": "Features",
-      "sourceHash": "5697d03daef4de9cf8db7cb11755f71358a32b4acca94909a9d449f71040d2dd",
       "status": "published"
     },
     "i18n.m1190": {

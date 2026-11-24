@@ -1,10 +1,10 @@
-
 import {L, Link, Image} from '@/lib/i18n/client';
 import {site, mascot, socialProfiles} from '@/data/site';
 import {products, trademarkNote} from '@/data/products';
 
 export default function Footer() {
-  const named = products.filter((p) => p.status !== 'soon');
+  // Only released products get site-wide links. Unreleased ones stay on /products.
+  const released = products.filter((p) => p.published && p.status !== 'soon');
   const year = new Date().getFullYear();
   const supportEmail = site.supportEmail;
 
@@ -75,6 +75,9 @@ export default function Footer() {
           <L as="h2" id="magic-toolbar">Magic Toolbar</L>
           <L as="ul">
             <L as="li">
+              <Link href="/products/magic-toolbar">Features</Link>
+            </L>
+            <L as="li">
               <Link href="/#passport">Passport &amp; DOCS</Link>
             </L>
             <L as="li">
@@ -95,13 +98,16 @@ export default function Footer() {
         <L as="div">
           <L as="h2" id="more-products">More Products</L>
           <L as="ul">
-            {named.map((p) => (
+            {released.map((p) => (
               <L as="li" key={p.id}>
                 <Link href={p.path || `/products/${p.slug}`}>
                   {p.name}
                 </Link>
               </L>
             ))}
+            <L as="li">
+              <Link href="/products">All products</Link>
+            </L>
           </L>
         </L>
 
@@ -146,9 +152,6 @@ export default function Footer() {
               <Link href="/security-and-privacy">
                 Security &amp; Privacy
               </Link>
-            </L>
-            <L as="li">
-              <Link href="/languages">Languages</Link>
             </L>
             <L as="li">
               <Link href="/guide">User Guide</Link>

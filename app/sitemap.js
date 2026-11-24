@@ -1,5 +1,6 @@
 import {site, mascot} from '@/data/site';
 import {indexableResources as resources} from '@/data/resources';
+import {products} from '@/data/products';
 import {heroScreen, tourScreens} from '@/data/screens';
 import {localePath} from '@/lib/i18n/config';
 import {PUBLISHED_LOCALES} from '@/lib/i18n/published';
@@ -23,6 +24,16 @@ const PAGES = [
     'monthly',
     r.updated || r.published,
   ]),
+
+  // Released products only (published: true in data/products.js).
+  ...products
+    .filter((p) => p.published && p.status !== 'soon')
+    .map((p) => [
+      p.path || '/products/' + p.slug,
+      0.7,
+      'monthly',
+      p.lastReviewed || undefined,
+    ]),
 ];
 
 const abs = (p) => site.url + p;
