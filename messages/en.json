@@ -1602,34 +1602,29 @@
       "sourceHash": "fb83ce3bd7ae7fd21fe88721c8a170dffa8d27e4db5b909d30060e9e5b0a6d7e",
       "status": "published"
     },
-    "page.m0234": {
-      "text": "Passport DOCS Entry: Amadeus, Galileo, Sabre | Travel Genie",
-      "sourceHash": "f2a87f1a23910385c761360e5ea959ec3586afa7a77877ce755cc63d0ea5b27d",
+    "page.m1543": {
+      "text": "Amadeus DOCS Entry: Passport Command, Sabre & Galileo",
+      "sourceHash": "41be7841542462f6a15926063c1aaa4317435caacb722acf82c27a82e29faa19",
       "status": "published"
     },
-    "page.m0235": {
-      "text": "CTCM & CTCE Entry: Amadeus, Galileo, Sabre | Travel Genie",
-      "sourceHash": "5d51a823831418911d432890a4f49b6e966a4fed31342d475654cf723093b40d",
+    "page.m1544": {
+      "text": "Child & Infant Name Entry in Amadeus, Sabre & Galileo",
+      "sourceHash": "57238e52801fc42c344b9b79ab25829c9b2c89deb2a9699f0b64f1b5df243ac9",
       "status": "published"
     },
-    "page.m0236": {
-      "text": "Adult, Child & Infant Name Entry in GDS | Travel Genie",
-      "sourceHash": "77c63ec9b5e6fdb95dde9eeb27b7536025bbbdfdc6ea565084f92a63100343a0",
+    "page.m1545": {
+      "text": "Amadeus Commands List: Cheat Sheet With Examples",
+      "sourceHash": "edcfd1f4835c64c5c3881abaa7d9a0b400d1a16bf72305f2e0f0118fc30f98ed",
       "status": "published"
     },
-    "page.m0237": {
-      "text": "Amadeus Commands Notes & Cheat Sheet | Travel Genie",
-      "sourceHash": "46eab812e4053e66e74d0182d6725b10d94a8c6a6787f3abed5ec458e66c711c",
+    "page.m1546": {
+      "text": "Galileo Commands List: Travelport Cheat Sheet",
+      "sourceHash": "240a333f40085a8574f75d2dd362224eeb468bc77977d0e0312b3a70421d53ed",
       "status": "published"
     },
-    "page.m0238": {
-      "text": "Travelport Galileo Commands Cheat Sheet | Travel Genie",
-      "sourceHash": "dd8df609427f036ac881eedaa27a9559b5a7179b89abf43bcb3e51d37133cf48",
-      "status": "published"
-    },
-    "page.m0239": {
-      "text": "Sabre Commands Notes & Cheat Sheet | Travel Genie",
-      "sourceHash": "26758a97a222a41a453deef82cd8f262722441fdec04452e702f7957a1b756ac",
+    "page.m1547": {
+      "text": "Sabre GDS Commands List: Cheat Sheet With Examples",
+      "sourceHash": "4a4f082b56f344e5d9475b70dc84dd4ce0ff004bf452d01ffd2bc4db027c65bd",
       "status": "published"
     },
     "page.m0240": {
@@ -1657,14 +1652,14 @@
       "sourceHash": "0b14f2a4d9c820b91b9abaca23d76e19784adc347ee1924c4e49c6a3494f9faf",
       "status": "published"
     },
-    "page.m0245": {
-      "text": "Meeting App Mute Hotkeys for Windows | Travel Genie",
-      "sourceHash": "abbf86357bcc0316dcfbc22549fb20d332481f415c875d8919801a47124097d8",
+    "page.m1548": {
+      "text": "Mute Teams, Google Meet & All Meeting Apps With One Hotkey",
+      "sourceHash": "dfc40501c37b4fd57d126b0e8ac8c950ee745de2400f49cae19e87c67fe9815d",
       "status": "published"
     },
-    "page.m0246": {
-      "text": "Mute Zoom Meeting Sound With One Hotkey | Travel Genie",
-      "sourceHash": "314546e290222fbf63ebcc014f99ff8625e5c603f52aed99760f788c899d41ee",
+    "page.m1549": {
+      "text": "Mute Zoom Meeting Sound With One Hotkey (Ctrl+Shift+Z)",
+      "sourceHash": "c4c08c22835c74a0cbe4484c609a0d3d49949365191475666b7633067ea5b628",
       "status": "published"
     },
     "page.m1497": {
@@ -7475,6 +7470,46 @@
     "answers.m0635": {
       "text": "Choose a language",
       "sourceHash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+      "status": "published"
+    },
+    "page.m0234": {
+      "text": "Passport DOCS Entry: Amadeus, Galileo, Sabre | Travel Genie",
+      "sourceHash": "f2a87f1a23910385c761360e5ea959ec3586afa7a77877ce755cc63d0ea5b27d",
+      "status": "published"
+    },
+    "page.m0235": {
+      "text": "CTCM & CTCE Entry: Amadeus, Galileo, Sabre | Travel Genie",
+      "sourceHash": "5d51a823831418911d432890a4f49b6e966a4fed31342d475654cf723093b40d",
+      "status": "published"
+    },
+    "page.m0236": {
+      "text": "Adult, Child & Infant Name Entry in GDS | Travel Genie",
+      "sourceHash": "77c63ec9b5e6fdb95dde9eeb27b7536025bbbdfdc6ea565084f92a63100343a0",
+      "status": "published"
+    },
+    "page.m0237": {
+      "text": "Amadeus Commands Notes & Cheat Sheet | Travel Genie",
+      "sourceHash": "46eab812e4053e66e74d0182d6725b10d94a8c6a6787f3abed5ec458e66c711c",
+      "status": "published"
+    },
+    "page.m0238": {
+      "text": "Travelport Galileo Commands Cheat Sheet | Travel Genie",
+      "sourceHash": "dd8df609427f036ac881eedaa27a9559b5a7179b89abf43bcb3e51d37133cf48",
+      "status": "published"
+    },
+    "page.m0239": {
+      "text": "Sabre Commands Notes & Cheat Sheet | Travel Genie",
+      "sourceHash": "26758a97a222a41a453deef82cd8f262722441fdec04452e702f7957a1b756ac",
+      "status": "published"
+    },
+    "page.m0245": {
+      "text": "Meeting App Mute Hotkeys for Windows | Travel Genie",
+      "sourceHash": "abbf86357bcc0316dcfbc22549fb20d332481f415c875d8919801a47124097d8",
+      "status": "published"
+    },
+    "page.m0246": {
+      "text": "Mute Zoom Meeting Sound With One Hotkey | Travel Genie",
+      "sourceHash": "314546e290222fbf63ebcc014f99ff8625e5c603f52aed99760f788c899d41ee",
       "status": "published"
     },
     "answers.m0636": {

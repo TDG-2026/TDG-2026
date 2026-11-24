@@ -1,4 +1,3 @@
-
 import NextLink from 'next/link';
 import {notFound} from 'next/navigation';
 import {
@@ -25,19 +24,21 @@ export function generateStaticParams() {
   return resources.map((r) => ({slug: r.slug}));
 }
 
+// Search titles (the <title> tag). On-page headings come from data/resources.js.
+// GDS guides lead with the exact phrases agents search for; keep under ~60 characters.
 const SEO_TITLES = {
   'passport-docs-ctcm-ctce-gds':
-    'Passport DOCS Entry: Amadeus, Galileo, Sabre | Travel Genie',
+    'Amadeus DOCS Entry: Passport Command, Sabre & Galileo',
   'ctcm-ctce-passenger-contacts':
-    'CTCM & CTCE Entry: Amadeus, Galileo, Sabre | Travel Genie',
+    'CTCE & CTCM Entry in Amadeus (SRCTCE), Sabre & Galileo',
   'adult-child-infant-name-entry-gds':
-    'Adult, Child & Infant Name Entry in GDS | Travel Genie',
+    'Child & Infant Name Entry in Amadeus, Sabre & Galileo',
   'amadeus-commands-notes':
-    'Amadeus Commands Notes & Cheat Sheet | Travel Genie',
+    'Amadeus Commands List: Cheat Sheet With Examples',
   'travelport-galileo-commands-notes':
-    'Travelport Galileo Commands Cheat Sheet | Travel Genie',
+    'Galileo Commands List: Travelport Cheat Sheet',
   'sabre-commands-notes':
-    'Sabre Commands Notes & Cheat Sheet | Travel Genie',
+    'Sabre GDS Commands List: Cheat Sheet With Examples',
   'visa-photo-preparation':
     'Visa Photo Fixer: Size, Quality & Rotate | Travel Genie',
   'f1-f12-hotkeys-saved-messages':
@@ -48,10 +49,11 @@ const SEO_TITLES = {
     'Travel Desk Shortcuts & Notes | Travel Genie',
   'travel-agency-software-checklist':
     'Travel Agency Software Checklist | Travel Genie',
+  // Two separate features: all meeting apps vs Zoom only.
   'mute-meeting-apps-hotkey':
-    'Meeting App Mute Hotkeys for Windows | Travel Genie',
+    'Mute Teams, Google Meet & All Meeting Apps With One Hotkey',
   'mute-zoom-meeting-hotkey':
-    'Mute Zoom Meeting Sound With One Hotkey | Travel Genie',
+    'Mute Zoom Meeting Sound With One Hotkey (Ctrl+Shift+Z)',
 };
 
 // Only display the GDS Search Engine link on relevant guides.

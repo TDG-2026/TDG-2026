@@ -101,7 +101,7 @@
     "hash": "32c8d8980df3f3465113ea6d12507cb3ee7906efd12993844c4419c2ea68d6bb",
     "sources": [
       "app/[locale]/about/page.js:21",
-      "app/[locale]/resources/[slug]/page.js:562",
+      "app/[locale]/resources/[slug]/page.js:564",
       "components/EcosystemIntro.js:4",
       "messages/additional-source.json:1"
     ],
@@ -666,8 +666,8 @@
       "app/[locale]/products/[slug]/page.js:66",
       "app/[locale]/products/[slug]/page.js:70",
       "app/[locale]/resources/page.js:24",
-      "app/[locale]/resources/[slug]/page.js:256",
-      "app/[locale]/resources/[slug]/page.js:273",
+      "app/[locale]/resources/[slug]/page.js:258",
+      "app/[locale]/resources/[slug]/page.js:275",
       "data/site.js:50",
       "data/site.js:1",
       "messages/additional-source.json:1"
@@ -961,7 +961,7 @@
     "hash": "b5658fc8edda24f9c94eabac9e536e0a18e3055a8ca255f9d1b8f256ea02a6cc",
     "sources": [
       "app/[locale]/guide/page.js:9",
-      "app/[locale]/resources/[slug]/page.js:349",
+      "app/[locale]/resources/[slug]/page.js:351",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -1394,7 +1394,7 @@
     "hash": "40dc9ef14b9091fffeb167b2fa0f58578b7c178cff42cee9368ceb2bc7d54a25",
     "sources": [
       "app/[locale]/page.js:93",
-      "app/[locale]/resources/[slug]/page.js:468"
+      "app/[locale]/resources/[slug]/page.js:470"
     ],
     "retired": false
   },
@@ -2599,8 +2599,8 @@
     "hash": "e89b30aa1dc30a6ad8c34610689bede83b3ef645a24c3a84a0990826687fb735",
     "sources": [
       "app/[locale]/resources/page.js:25",
-      "app/[locale]/resources/[slug]/page.js:257",
-      "app/[locale]/resources/[slug]/page.js:279",
+      "app/[locale]/resources/[slug]/page.js:259",
+      "app/[locale]/resources/[slug]/page.js:281",
       "components/Footer.js:146",
       "data/site.js:53",
       "data/site.js:1",
@@ -2688,59 +2688,46 @@
     ],
     "retired": false
   },
-  "page.m0234": {
-    "text": "Passport DOCS Entry: Amadeus, Galileo, Sabre | Travel Genie",
-    "hash": "f2a87f1a23910385c761360e5ea959ec3586afa7a77877ce755cc63d0ea5b27d",
+  "page.m1543": {
+    "text": "Amadeus DOCS Entry: Passport Command, Sabre & Galileo",
+    "hash": "41be7841542462f6a15926063c1aaa4317435caacb722acf82c27a82e29faa19",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:30"
-    ],
-    "retired": false
+      "app/[locale]/resources/[slug]/page.js:31"
+    ]
   },
-  "page.m0235": {
-    "text": "CTCM & CTCE Entry: Amadeus, Galileo, Sabre | Travel Genie",
-    "hash": "5d51a823831418911d432890a4f49b6e966a4fed31342d475654cf723093b40d",
+  "page.m1544": {
+    "text": "Child & Infant Name Entry in Amadeus, Sabre & Galileo",
+    "hash": "57238e52801fc42c344b9b79ab25829c9b2c89deb2a9699f0b64f1b5df243ac9",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:32"
-    ],
-    "retired": false
+      "app/[locale]/resources/[slug]/page.js:35"
+    ]
   },
-  "page.m0236": {
-    "text": "Adult, Child & Infant Name Entry in GDS | Travel Genie",
-    "hash": "77c63ec9b5e6fdb95dde9eeb27b7536025bbbdfdc6ea565084f92a63100343a0",
+  "page.m1545": {
+    "text": "Amadeus Commands List: Cheat Sheet With Examples",
+    "hash": "edcfd1f4835c64c5c3881abaa7d9a0b400d1a16bf72305f2e0f0118fc30f98ed",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:34"
-    ],
-    "retired": false
+      "app/[locale]/resources/[slug]/page.js:37"
+    ]
   },
-  "page.m0237": {
-    "text": "Amadeus Commands Notes & Cheat Sheet | Travel Genie",
-    "hash": "46eab812e4053e66e74d0182d6725b10d94a8c6a6787f3abed5ec458e66c711c",
+  "page.m1546": {
+    "text": "Galileo Commands List: Travelport Cheat Sheet",
+    "hash": "240a333f40085a8574f75d2dd362224eeb468bc77977d0e0312b3a70421d53ed",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:36"
-    ],
-    "retired": false
+      "app/[locale]/resources/[slug]/page.js:39"
+    ]
   },
-  "page.m0238": {
-    "text": "Travelport Galileo Commands Cheat Sheet | Travel Genie",
-    "hash": "dd8df609427f036ac881eedaa27a9559b5a7179b89abf43bcb3e51d37133cf48",
+  "page.m1547": {
+    "text": "Sabre GDS Commands List: Cheat Sheet With Examples",
+    "hash": "4a4f082b56f344e5d9475b70dc84dd4ce0ff004bf452d01ffd2bc4db027c65bd",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:38"
-    ],
-    "retired": false
-  },
-  "page.m0239": {
-    "text": "Sabre Commands Notes & Cheat Sheet | Travel Genie",
-    "hash": "26758a97a222a41a453deef82cd8f262722441fdec04452e702f7957a1b756ac",
-    "sources": [
-      "app/[locale]/resources/[slug]/page.js:40"
-    ],
-    "retired": false
+      "app/[locale]/resources/[slug]/page.js:41"
+    ]
   },
   "page.m0240": {
     "text": "Visa Photo Fixer: Size, Quality & Rotate | Travel Genie",
     "hash": "2720b89c1c8e3e65a284e3600932dce903c51af5f7ade1dc7350605377f440c9",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:42"
+      "app/[locale]/resources/[slug]/page.js:43"
     ],
     "retired": false
   },
@@ -2748,7 +2735,7 @@
     "text": "F1–F12 Hotkeys for Saved Messages | Travel Genie",
     "hash": "99812671b30600848525585f42d2dcdd889c53215018cd53fd50a6b29f0ff90d",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:44"
+      "app/[locale]/resources/[slug]/page.js:45"
     ],
     "retired": false
   },
@@ -2756,7 +2743,7 @@
     "text": "Translator for Travel Agents | Travel Genie",
     "hash": "b2f0081009f1550154b52035615447e76651143f787504c685de192c48d0b32b",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:46"
+      "app/[locale]/resources/[slug]/page.js:47"
     ],
     "retired": false
   },
@@ -2764,7 +2751,7 @@
     "text": "Travel Desk Shortcuts & Notes | Travel Genie",
     "hash": "a965ed532febbecdbcb3ff66d532d51cef6c727781277d1d552be13ea5d78110",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:48",
+      "app/[locale]/resources/[slug]/page.js:49",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -2773,32 +2760,30 @@
     "text": "Travel Agency Software Checklist | Travel Genie",
     "hash": "0b14f2a4d9c820b91b9abaca23d76e19784adc347ee1924c4e49c6a3494f9faf",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:50",
+      "app/[locale]/resources/[slug]/page.js:51",
       "messages/additional-source.json:1"
     ],
     "retired": false
   },
-  "page.m0245": {
-    "text": "Meeting App Mute Hotkeys for Windows | Travel Genie",
-    "hash": "abbf86357bcc0316dcfbc22549fb20d332481f415c875d8919801a47124097d8",
-    "sources": [
-      "app/[locale]/resources/[slug]/page.js:52"
-    ],
-    "retired": false
-  },
-  "page.m0246": {
-    "text": "Mute Zoom Meeting Sound With One Hotkey | Travel Genie",
-    "hash": "314546e290222fbf63ebcc014f99ff8625e5c603f52aed99760f788c899d41ee",
+  "page.m1548": {
+    "text": "Mute Teams, Google Meet & All Meeting Apps With One Hotkey",
+    "hash": "dfc40501c37b4fd57d126b0e8ac8c950ee745de2400f49cae19e87c67fe9815d",
     "sources": [
       "app/[locale]/resources/[slug]/page.js:54"
-    ],
-    "retired": false
+    ]
+  },
+  "page.m1549": {
+    "text": "Mute Zoom Meeting Sound With One Hotkey (Ctrl+Shift+Z)",
+    "hash": "c4c08c22835c74a0cbe4484c609a0d3d49949365191475666b7633067ea5b628",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:56"
+    ]
   },
   "page.m1497": {
     "text": "Compare Amadeus, Travelport/Galileo and Sabre command references for passport DOCS, passenger information and other GDS workflows.",
     "hash": "bf0ad4a6758fc26becde8673bbda192e5f9a908c18f56b262b97a6f9986d9ca1",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:71"
+      "app/[locale]/resources/[slug]/page.js:73"
     ],
     "retired": false
   },
@@ -2806,7 +2791,7 @@
     "text": "Explore Amadeus, Travelport/Galileo and Sabre references for passenger contact entries, including CTCM and CTCE.",
     "hash": "35395a65faf7536cecde40af41145eef924ba4f70474bfd56715a4802c80b79c",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:74"
+      "app/[locale]/resources/[slug]/page.js:76"
     ],
     "retired": false
   },
@@ -2814,7 +2799,7 @@
     "text": "Find and compare GDS command references for passenger names, reservations and related workflows across Amadeus, Galileo and Sabre.",
     "hash": "2bc68d08c7bf954fa51c28e95ccc9fff5c8de8ad62982c44c50b240480415524",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:77"
+      "app/[locale]/resources/[slug]/page.js:79"
     ],
     "retired": false
   },
@@ -2822,7 +2807,7 @@
     "text": "Search Amadeus command references and compare available equivalents in Travelport/Galileo and Sabre.",
     "hash": "92fcdda49010a9a396a427298844f276ff785a5c36d04c21043991ac7b1e03f6",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:80"
+      "app/[locale]/resources/[slug]/page.js:82"
     ],
     "retired": false
   },
@@ -2830,7 +2815,7 @@
     "text": "Search Travelport/Galileo command references and compare available equivalents in Amadeus and Sabre.",
     "hash": "8ab978b717c07c5e73fd8adea48d36ae8b3b13176841254d4809ef57bb7c02d4",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:83"
+      "app/[locale]/resources/[slug]/page.js:85"
     ],
     "retired": false
   },
@@ -2838,7 +2823,7 @@
     "text": "Search Sabre command references and compare available equivalents in Amadeus and Travelport/Galileo.",
     "hash": "be1b23d302911fd456be6e2267b5a62d5fc8b0f996c2b99d497c13b0b4db65f7",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:86"
+      "app/[locale]/resources/[slug]/page.js:88"
     ],
     "retired": false
   },
@@ -2846,7 +2831,7 @@
     "text": "Look up Amadeus, Travelport/Galileo and Sabre command references online while organizing your travel desk notes and shortcuts.",
     "hash": "1ae5c4e4318db0b517138fd73b82b8d1024327196e40287ca03357f1025373f4",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:89"
+      "app/[locale]/resources/[slug]/page.js:91"
     ],
     "retired": false
   },
@@ -2854,7 +2839,7 @@
     "text": "Photo tools",
     "hash": "4668afe39c9dd198f56ab2986398663cd58bdb39cc5d90d085bf568cbaccb6f4",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:94",
+      "app/[locale]/resources/[slug]/page.js:96",
       "data/resources.js:164",
       "data/resources.js:1"
     ],
@@ -2864,7 +2849,7 @@
     "text": "Fix visa photos in minutes",
     "hash": "ec8dca04e243e3161669d59955100c39d4615f8e99380afe7158d8697df847dc",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:95"
+      "app/[locale]/resources/[slug]/page.js:97"
     ],
     "retired": false
   },
@@ -2872,7 +2857,7 @@
     "text": "Magic Toolbar checks visa photo size, improves quality and straightens tilted photos on Windows, so you can prepare each application photo in minutes.",
     "hash": "6ba42f38173f8a3c5576b90089957b32f9601e88982470678dfd3f6e4b13a7e6",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:96"
+      "app/[locale]/resources/[slug]/page.js:98"
     ],
     "retired": false
   },
@@ -2880,7 +2865,7 @@
     "text": "Desk productivity",
     "hash": "e15b719898bbe6141118eff322e6226cece2966e60c0ac8eeb9acbac719d91dc",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:98",
+      "app/[locale]/resources/[slug]/page.js:100",
       "data/resources.js:182",
       "data/resources.js:195",
       "data/resources.js:208",
@@ -2894,7 +2879,7 @@
     "text": "Make your travel desk faster",
     "hash": "0deeb5111e87be3ff04c9593e3e50a05428b228c05e097153b2ce0633bab764f",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:99"
+      "app/[locale]/resources/[slug]/page.js:101"
     ],
     "retired": false
   },
@@ -2902,7 +2887,7 @@
     "text": "Magic Toolbar puts F1–F12 saved messages, a translator, notes and reminders together on Windows, so your daily desk work moves faster.",
     "hash": "ef5ff293987523c042ca17b6f85dd7bf7707ad7c9cbf3f24fb7cebf464475540",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:100"
+      "app/[locale]/resources/[slug]/page.js:102"
     ],
     "retired": false
   },
@@ -2910,7 +2895,7 @@
     "text": "Ready to prepare entries faster?",
     "hash": "02b78c0a85a00bd5cb45ba219a8b60ddbd13ce178e02384b60b32dfc88f13dd0",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:105",
+      "app/[locale]/resources/[slug]/page.js:107",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -2919,7 +2904,7 @@
     "text": "Magic Toolbar prepares NAME, DOCS, CTCM and CTCE entries for Amadeus, Travelport and Sabre on Windows. You check each entry, then copy it into your GDS.",
     "hash": "a5a2360b9c17bc51e7d7e10568ad86a7a91d4ccfd27d59c0ec8665c0c007acfe",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:106"
+      "app/[locale]/resources/[slug]/page.js:108"
     ],
     "retired": false
   },
@@ -2927,7 +2912,7 @@
     "text": "Feature release status",
     "hash": "8ed2b2d2f601ff0a85485943c2bde4826fff0cc346676d2fb7e2a1a4cc8d9dbb",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:293"
+      "app/[locale]/resources/[slug]/page.js:295"
     ],
     "retired": false
   },
@@ -2935,7 +2920,7 @@
     "text": "Feature release status:",
     "hash": "bc8099f435bea68c430582833e71cf88b0cbe5aefee74dc135aba72b2e528744",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:295"
+      "app/[locale]/resources/[slug]/page.js:297"
     ],
     "retired": false
   },
@@ -2943,7 +2928,7 @@
     "text": "This guide describes meeting-audio controls that have not yet completed Windows release testing. The shortcuts and app compatibility listed below are not confirmed for production use. Please wait for a verified Magic Toolbar release before relying on them.",
     "hash": "e9471111c85547de70d03d93280ec8f803b2e70b0a695ada4893d641f22accfd",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:295"
+      "app/[locale]/resources/[slug]/page.js:297"
     ],
     "retired": false
   },
@@ -2951,7 +2936,7 @@
     "text": "By Travel Genie",
     "hash": "21bdff43ef22bf0ed5ff5f715f2a7533e0513e1e67a3c18b2a0a9d706e130224",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:318",
+      "app/[locale]/resources/[slug]/page.js:320",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -2960,7 +2945,7 @@
     "text": "Published",
     "hash": "2ef42ec21d9300dd21ae3c7ca3711806cce3003fa4edafd22ee744fe86599799",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:323",
+      "app/[locale]/resources/[slug]/page.js:325",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -2969,7 +2954,7 @@
     "text": "Updated",
     "hash": "3a5ecca188c0579c00ee24cf3cab21bd02c15a06f7a70cc8e0a8ff2381dcbbfd",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:333",
+      "app/[locale]/resources/[slug]/page.js:335",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -2978,7 +2963,7 @@
     "text": "{minutes} min read",
     "hash": "7166006e74bc2008d901c104fb4fc0343ddd1876554daf82f375820e0d4b7d67",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:341",
+      "app/[locale]/resources/[slug]/page.js:343",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -2987,7 +2972,7 @@
     "text": "34px 0",
     "hash": "664a9eda702736fed1dc4d235c4624aa17ec1cb75aa545d2800cb2fb7c5dfa94",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:444"
+      "app/[locale]/resources/[slug]/page.js:446"
     ],
     "retired": false
   },
@@ -2995,7 +2980,7 @@
     "text": "clamp(20px, 4vw, 30px)",
     "hash": "f685c99d70f0a9048ec8e69d2020cc837858b842d198fdcd24d79f04afaa4d1f",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:445"
+      "app/[locale]/resources/[slug]/page.js:447"
     ],
     "retired": false
   },
@@ -3003,7 +2988,7 @@
     "text": "1px solid #c8dff6",
     "hash": "47b03f5477ed6c4b1a1631b77febcd5c61923a88b7efa14a356dbbd2b55da1d1",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:447"
+      "app/[locale]/resources/[slug]/page.js:449"
     ],
     "retired": false
   },
@@ -3011,7 +2996,7 @@
     "text": "0 0 8px",
     "hash": "492fea136c1567324613662e0567e6cdec654f80cf247bf7920b3660f282c744",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:454"
+      "app/[locale]/resources/[slug]/page.js:456"
     ],
     "retired": false
   },
@@ -3019,7 +3004,7 @@
     "text": "0.08em",
     "hash": "52ab8565252e31ceadba56a24d084e220d8b0fda23428e73c5d467d9e70c346f",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:458"
+      "app/[locale]/resources/[slug]/page.js:460"
     ],
     "retired": false
   },
@@ -3027,7 +3012,7 @@
     "text": "Free GDS Command Reference",
     "hash": "24e88b2854a178209b72b2bb5ed463868ae7e0310ef68802e60c0a8c2a6bfa64",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:461"
+      "app/[locale]/resources/[slug]/page.js:463"
     ],
     "retired": false
   },
@@ -3035,7 +3020,7 @@
     "text": "clamp(20px, 3vw, 26px)",
     "hash": "2f74973e997d2f65e91b6c1e04348bba668c44368c2d315d38a77120c02f5f9c",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:470"
+      "app/[locale]/resources/[slug]/page.js:472"
     ],
     "retired": false
   },
@@ -3043,7 +3028,7 @@
     "text": "Search Amadeus, Galileo & Sabre Commands",
     "hash": "22c9a97286af5531167d3ed91bf3104ab96017717f7957706e40745042cba1e9",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:473"
+      "app/[locale]/resources/[slug]/page.js:475"
     ],
     "retired": false
   },
@@ -3051,7 +3036,7 @@
     "text": "0 0 18px",
     "hash": "e00b8422a7388d5ec4abdc06c1154a407f9981adf1610357ae715ad54451cbcb",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:479"
+      "app/[locale]/resources/[slug]/page.js:481"
     ],
     "retired": false
   },
@@ -3059,7 +3044,7 @@
     "text": "11px 18px",
     "hash": "ef8cf54f5cc60a04b1a765267db0627b6ac6137549f11c21181819ca17ef9ea3",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:494"
+      "app/[locale]/resources/[slug]/page.js:496"
     ],
     "retired": false
   },
@@ -3067,7 +3052,7 @@
     "text": "Open All GDS Search Engine →",
     "hash": "12ed44a3d1b83681fc0931cd026d2f24d98ee07cce55c7a28da07491a173fd7b",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:502"
+      "app/[locale]/resources/[slug]/page.js:504"
     ],
     "retired": false
   },
@@ -3075,7 +3060,7 @@
     "text": "14px 0 0",
     "hash": "8b29eec1e79b54053d28c489c65860a3fcb232de7b362bd5eeeb9ccba58baf28",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:508"
+      "app/[locale]/resources/[slug]/page.js:510"
     ],
     "retired": false
   },
@@ -3083,7 +3068,7 @@
     "text": "Educational reference only. Verify command formats in your GDS before use.",
     "hash": "b7d45d59fb71d7648bdb0456adcb3a6cb99ac7f60cf6682ddf71d655a7ba788d",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:513"
+      "app/[locale]/resources/[slug]/page.js:515"
     ],
     "retired": false
   },
@@ -3091,7 +3076,7 @@
     "text": "Related guides",
     "hash": "1e5b36078e376cd4606154d914ba9eba7c5cb5aa0c5d35f1c86e4749c54d3279",
     "sources": [
-      "app/[locale]/resources/[slug]/page.js:527",
+      "app/[locale]/resources/[slug]/page.js:529",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -4249,7 +4234,8 @@
     "hash": "718622df41f1b6443488da87dd52221b8eaed9e880f7b3cd8ebd781b369c34da",
     "sources": [
       "components/Footer.js:109"
-    ]
+    ],
+    "retired": false
   },
   "Footer.m0401": {
     "text": "Help & resources",
@@ -12702,6 +12688,70 @@
       "messages/additional-source.json:1"
     ],
     "retired": false
+  },
+  "page.m0234": {
+    "text": "Passport DOCS Entry: Amadeus, Galileo, Sabre | Travel Genie",
+    "hash": "f2a87f1a23910385c761360e5ea959ec3586afa7a77877ce755cc63d0ea5b27d",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:30"
+    ],
+    "retired": true
+  },
+  "page.m0235": {
+    "text": "CTCM & CTCE Entry: Amadeus, Galileo, Sabre | Travel Genie",
+    "hash": "5d51a823831418911d432890a4f49b6e966a4fed31342d475654cf723093b40d",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:32"
+    ],
+    "retired": true
+  },
+  "page.m0236": {
+    "text": "Adult, Child & Infant Name Entry in GDS | Travel Genie",
+    "hash": "77c63ec9b5e6fdb95dde9eeb27b7536025bbbdfdc6ea565084f92a63100343a0",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:34"
+    ],
+    "retired": true
+  },
+  "page.m0237": {
+    "text": "Amadeus Commands Notes & Cheat Sheet | Travel Genie",
+    "hash": "46eab812e4053e66e74d0182d6725b10d94a8c6a6787f3abed5ec458e66c711c",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:36"
+    ],
+    "retired": true
+  },
+  "page.m0238": {
+    "text": "Travelport Galileo Commands Cheat Sheet | Travel Genie",
+    "hash": "dd8df609427f036ac881eedaa27a9559b5a7179b89abf43bcb3e51d37133cf48",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:38"
+    ],
+    "retired": true
+  },
+  "page.m0239": {
+    "text": "Sabre Commands Notes & Cheat Sheet | Travel Genie",
+    "hash": "26758a97a222a41a453deef82cd8f262722441fdec04452e702f7957a1b756ac",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:40"
+    ],
+    "retired": true
+  },
+  "page.m0245": {
+    "text": "Meeting App Mute Hotkeys for Windows | Travel Genie",
+    "hash": "abbf86357bcc0316dcfbc22549fb20d332481f415c875d8919801a47124097d8",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:52"
+    ],
+    "retired": true
+  },
+  "page.m0246": {
+    "text": "Mute Zoom Meeting Sound With One Hotkey | Travel Genie",
+    "hash": "314546e290222fbf63ebcc014f99ff8625e5c603f52aed99760f788c899d41ee",
+    "sources": [
+      "app/[locale]/resources/[slug]/page.js:54"
+    ],
+    "retired": true
   },
   "answers.m0636": {
     "text": "This website is built for more than 80 languages, such as Arabic, Urdu, Hindi, Persian, French, Spanish, Turkish and Chinese. It picks a language from your browser and region. You can change it at any time from the language menu at the top. Your choice is saved on this device.",
