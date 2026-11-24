@@ -9,9 +9,11 @@ const LEGACY_LOCALES = new Set([
   'zh-Hans', 'ms', 'uz',
 ]);
 
+// Permanent (308) redirects from old or duplicate paths to their current page.
 const ALIASES = {
   '/blog': '/resources',
   '/downloads': '/download',
+  '/privacy': '/security-and-privacy',
   '/products/whatsapp-contact-extractor': '/products/whatsapp-contact-number-extractor',
   '/products/customer-observation-desk': '/products/whatsapp-customer-observation-desk',
   '/products/emirates-sales-report-automation': '/products/emirates-portal-sales-report-automation',
@@ -19,11 +21,9 @@ const ALIASES = {
   '/products/b2b-b2c-travel-portal': '/platform/b2b-b2c-travel-portal',
 };
 
-// CHANGED: only published languages can be chosen automatically
+// Only published languages can be chosen automatically
 // (browser language, region or a saved cookie).
-const publishedAvailable = availableLocales.filter((l) =>
-  isPublished(typeof l === 'string' ? l : l.code)
-);
+const publishedAvailable = availableLocales.filter(isPublished);
 
 export function proxy(request) {
   const {pathname} = request.nextUrl;
@@ -34,13 +34,13 @@ export function proxy(request) {
   if (LEGACY_LOCALES.has(firstSegment)) {
     const legacyPath = '/' + pathname.split('/').slice(2).join('/');
     const url = request.nextUrl.clone();
-    url.pathname = localePath(legacyPath || '/', 'en');
+    url.pathname = localePath(ALIASES[legacyPath] || legacyPath || '/', 'en');
     return NextResponse.redirect(url, 308);
   }
 
   const {locale, path} = splitPath(pathname);
 
-  // CHANGED: unreviewed languages go to the same page in English.
+  // Unreviewed languages go to the same page in English.
   // Temporary (307) because these languages will come back once reviewed.
   // Skipped in development so you can still preview them with `npm run dev`.
   if (locale && !isPublished(locale) && process.env.NODE_ENV === 'production') {
@@ -65,7 +65,7 @@ export function proxy(request) {
     cookie: request.cookies.get(COOKIE)?.value,
     acceptLanguage: request.headers.get('accept-language') || '',
     country: trustedCountry(request.headers),
-    available: publishedAvailable, // CHANGED: was availableLocales
+    available: publishedAvailable,
   });
 
   const url = request.nextUrl.clone();

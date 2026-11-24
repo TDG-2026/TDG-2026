@@ -2693,35 +2693,40 @@
     "hash": "41be7841542462f6a15926063c1aaa4317435caacb722acf82c27a82e29faa19",
     "sources": [
       "app/[locale]/resources/[slug]/page.js:31"
-    ]
+    ],
+    "retired": false
   },
   "page.m1544": {
     "text": "Child & Infant Name Entry in Amadeus, Sabre & Galileo",
     "hash": "57238e52801fc42c344b9b79ab25829c9b2c89deb2a9699f0b64f1b5df243ac9",
     "sources": [
       "app/[locale]/resources/[slug]/page.js:35"
-    ]
+    ],
+    "retired": false
   },
   "page.m1545": {
     "text": "Amadeus Commands List: Cheat Sheet With Examples",
     "hash": "edcfd1f4835c64c5c3881abaa7d9a0b400d1a16bf72305f2e0f0118fc30f98ed",
     "sources": [
       "app/[locale]/resources/[slug]/page.js:37"
-    ]
+    ],
+    "retired": false
   },
   "page.m1546": {
     "text": "Galileo Commands List: Travelport Cheat Sheet",
     "hash": "240a333f40085a8574f75d2dd362224eeb468bc77977d0e0312b3a70421d53ed",
     "sources": [
       "app/[locale]/resources/[slug]/page.js:39"
-    ]
+    ],
+    "retired": false
   },
   "page.m1547": {
     "text": "Sabre GDS Commands List: Cheat Sheet With Examples",
     "hash": "4a4f082b56f344e5d9475b70dc84dd4ce0ff004bf452d01ffd2bc4db027c65bd",
     "sources": [
       "app/[locale]/resources/[slug]/page.js:41"
-    ]
+    ],
+    "retired": false
   },
   "page.m0240": {
     "text": "Visa Photo Fixer: Size, Quality & Rotate | Travel Genie",
@@ -2770,14 +2775,16 @@
     "hash": "dfc40501c37b4fd57d126b0e8ac8c950ee745de2400f49cae19e87c67fe9815d",
     "sources": [
       "app/[locale]/resources/[slug]/page.js:54"
-    ]
+    ],
+    "retired": false
   },
   "page.m1549": {
     "text": "Mute Zoom Meeting Sound With One Hotkey (Ctrl+Shift+Z)",
     "hash": "c4c08c22835c74a0cbe4484c609a0d3d49949365191475666b7633067ea5b628",
     "sources": [
       "app/[locale]/resources/[slug]/page.js:56"
-    ]
+    ],
+    "retired": false
   },
   "page.m1497": {
     "text": "Compare Amadeus, Travelport/Galileo and Sabre command references for passport DOCS, passenger information and other GDS workflows.",
@@ -10238,41 +10245,37 @@
     ],
     "retired": false
   },
-  "resources.m0956": {
-    "text": "Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey",
-    "hash": "4feac44d42f5b5418624340fe815f5835d9fb981261124b941b54f487130ec7c",
+  "resources.m1550": {
+    "text": "Mute Microsoft Teams, Google Meet and Any Meeting App Sound With One Hotkey",
+    "hash": "47c65a8f870e50592ed8a62183a312d54e449b8420801e91021ded76f83204a2",
     "sources": [
       "data/resources.js:206",
       "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
-  "resources.m0957": {
-    "text": "Silence Zoom, Microsoft Teams, Google Meet, WhatsApp and other meeting sound with one hotkey in Magic Toolbar, or let it mute meetings when a call comes in.",
-    "hash": "ec7f438c09bdbc0707ae24fb2f713a46812caa55a47c6ec8849c0b8aa3d7574c",
+  "resources.m1551": {
+    "text": "Silence Microsoft Teams, Google Meet, Webex, browser meetings and every other meeting app with one hotkey in Magic Toolbar, or let it mute meetings automatically when a call comes in.",
+    "hash": "3dd15d9a1db041c6575dc8d040b47b9023a8700d49b5caba904aa0312957a0f8",
     "sources": [
       "data/resources.js:207",
       "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
-  "resources.m0958": {
-    "text": "How do I mute meeting sound with one key?",
-    "hash": "431c293498fc8c3548511b52d1abbca2a8146f7140f3184689034746e104538c",
+  "resources.m1552": {
+    "text": "How do I mute all meeting sound with one key?",
+    "hash": "d58ab864d1a505681754415317c6d3a0ec93cc0e2a24e76ba00ff0bf83a7c29b",
     "sources": [
       "data/resources.js:211",
       "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
-  "resources.m0959": {
-    "text": "Press a hotkey while Magic Toolbar is running on Windows. Ctrl+Shift+Z silences Zoom, Ctrl+Alt+K silences all supported meeting apps and web browsers at once, and separate keys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Press the same keys again to bring the sound back.",
-    "hash": "23a7344f5a8673517668dce9547b3b60218104297274a330b526109340562919",
+  "resources.m1553": {
+    "text": "Press Ctrl+Alt+K while Magic Toolbar is running on Windows. It silences Microsoft Teams, Webex, Slack and every other supported meeting app, plus all web browsers, at once. Ctrl+Alt+J silences only Microsoft Teams, and Ctrl+Alt+B only your browsers. Press the same keys again to bring the sound back.",
+    "hash": "94fb7f95a2c5b55e602f5184a63b8c55f3b8f2f1900cd76e46f54b899f9bb192",
     "sources": [
       "data/resources.js:211",
       "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
   "resources.m0960": {
     "text": "Which hotkey mutes which app?",
@@ -10319,30 +10322,11 @@
     ],
     "retired": false
   },
-  "resources.m0965": {
-    "text": "Zoom",
-    "hash": "509c517ede79fef060a5f3a109fd1f45951eef2c7970b25c20992011e36a4070",
-    "sources": [
-      "data/resources.js:214",
-      "data/resources.js:222",
-      "data/resources.js:1"
-    ],
-    "retired": false
-  },
-  "resources.m0966": {
-    "text": "Zoom meetings and webinars in the Zoom desktop app",
-    "hash": "05b9dba111a8265f6e664c170cf25afa64a0ef65e3d9eb21cd87a760ba3d781c",
-    "sources": [
-      "data/resources.js:214",
-      "data/resources.js:1"
-    ],
-    "retired": false
-  },
   "resources.m0967": {
     "text": "All meeting apps",
     "hash": "5a8bc85d24b72b811c0e5c3354162ad1f77952dc82377eda66bafb179676a839",
     "sources": [
-      "data/resources.js:215",
+      "data/resources.js:214",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10350,6 +10334,25 @@
   "resources.m0968": {
     "text": "Every supported meeting app and every web browser at once",
     "hash": "9bde550f21e05ebf93b0e09cfa7b769680b2b0db56227db22111edc76c7e177f",
+    "sources": [
+      "data/resources.js:214",
+      "data/resources.js:1"
+    ],
+    "retired": false
+  },
+  "resources.m0971": {
+    "text": "Microsoft Teams",
+    "hash": "a7b52b269a23c025905190cdd81a2123f01b23aba7e7458b46f56dd0ab5a6ee8",
+    "sources": [
+      "data/resources.js:215",
+      "data/resources.js:222",
+      "data/resources.js:1"
+    ],
+    "retired": false
+  },
+  "resources.m0972": {
+    "text": "Microsoft Teams meetings, calls and notification sounds",
+    "hash": "0a76a22d3a42b3249fd42396032332a4c50a3e54533195f2b658c6068b4ab3c0",
     "sources": [
       "data/resources.js:215",
       "data/resources.js:1"
@@ -10365,39 +10368,19 @@
     ],
     "retired": false
   },
-  "resources.m0970": {
-    "text": "Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
-    "hash": "62b19755881b3c87acab2dbd811688b4da5b680f06449d020de4eb822066f193",
+  "resources.m1554": {
+    "text": "Google Meet and other browser meetings in Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
+    "hash": "ec764e7e8858da17bb64679e950ebc6d1f50e4441bff6d62aec2b82d27e9276e",
     "sources": [
       "data/resources.js:216",
       "data/resources.js:1"
-    ],
-    "retired": false
-  },
-  "resources.m0971": {
-    "text": "Microsoft Teams",
-    "hash": "a7b52b269a23c025905190cdd81a2123f01b23aba7e7458b46f56dd0ab5a6ee8",
-    "sources": [
-      "data/resources.js:217",
-      "data/resources.js:223",
-      "data/resources.js:1"
-    ],
-    "retired": false
-  },
-  "resources.m0972": {
-    "text": "Microsoft Teams meetings, calls and notification sounds",
-    "hash": "0a76a22d3a42b3249fd42396032332a4c50a3e54533195f2b658c6068b4ab3c0",
-    "sources": [
-      "data/resources.js:217",
-      "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
   "resources.m0973": {
     "text": "WhatsApp Desktop",
     "hash": "f8aec84cbada6c00f5f034e7600c76712b840e00c4efdcd28fa517d2a04721c2",
     "sources": [
-      "data/resources.js:218",
+      "data/resources.js:217",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10406,7 +10389,7 @@
     "text": "WhatsApp calls, voice notes and notification sounds",
     "hash": "37df3031e2f1b34188c1233eb9bbb52dba9edc3422a64963937c55bdd133a30a",
     "sources": [
-      "data/resources.js:218",
+      "data/resources.js:217",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10415,7 +10398,7 @@
     "text": "Unite Phone",
     "hash": "d0b0ffeacb39a3e1d2d7e639f5db571aed293e3367d41de8df1c78fbe1b48ff3",
     "sources": [
-      "data/resources.js:219",
+      "data/resources.js:218",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10424,10 +10407,28 @@
     "text": "Unite Phone ringtone and call sound",
     "hash": "1205dc3b855a2ab16669f4d09b57afd5549ffc4ae8c65a182b6f036d9bf101f7",
     "sources": [
-      "data/resources.js:219",
+      "data/resources.js:218",
       "data/resources.js:1"
     ],
     "retired": false
+  },
+  "resources.m0965": {
+    "text": "Zoom",
+    "hash": "509c517ede79fef060a5f3a109fd1f45951eef2c7970b25c20992011e36a4070",
+    "sources": [
+      "data/resources.js:219",
+      "data/resources.js:236",
+      "data/resources.js:1"
+    ],
+    "retired": false
+  },
+  "resources.m1555": {
+    "text": "Zoom desktop app only; see the Zoom mute guide",
+    "hash": "c1db3732808eb92aa365f1216ba3ba1e791f16b3e6dbad6951a482302e5c90f4",
+    "sources": [
+      "data/resources.js:219",
+      "data/resources.js:1"
+    ]
   },
   "resources.m0977": {
     "text": "Which meeting apps does Ctrl+Alt+K cover?",
@@ -10438,14 +10439,13 @@
     ],
     "retired": false
   },
-  "resources.m0978": {
-    "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Zoom and Microsoft Teams also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
-    "hash": "4b0ae7a029aeabbe48b840c9b9c02a40d6bcd1abe4e355686cc70eb358d75f06",
+  "resources.m1556": {
+    "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Microsoft Teams and Zoom also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
+    "hash": "9f1036b92c3119a56dd3c859769ada8cf73245fc959ece8b0762130f91666d80",
     "sources": [
       "data/resources.js:220",
       "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
   "resources.m0979": {
     "text": "Meeting app",
@@ -10479,7 +10479,6 @@
     "hash": "7102842054a4a55bb11a84e9ca549c31daf4d932f05ed075ca8ca569ef09f0ab",
     "sources": [
       "data/resources.js:222",
-      "data/resources.js:223",
       "data/resources.js:224",
       "data/resources.js:225",
       "data/resources.js:226",
@@ -10488,15 +10487,7 @@
       "data/resources.js:229",
       "data/resources.js:230",
       "data/resources.js:231",
-      "data/resources.js:1"
-    ],
-    "retired": false
-  },
-  "resources.m0983": {
-    "text": "Individuals and small teams",
-    "hash": "4737dd0a3774492f59638ee93728a029663ee1000ddef025e1b7c7172410c639",
-    "sources": [
-      "data/resources.js:222",
+      "data/resources.js:236",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10504,6 +10495,37 @@
   "resources.m0984": {
     "text": "Microsoft 365 users",
     "hash": "dda0e854c1ce7c0b01bb5487c6bfe5e133f8d64624bdcc82265b76e9f910a631",
+    "sources": [
+      "data/resources.js:222",
+      "data/resources.js:1"
+    ],
+    "retired": false
+  },
+  "resources.m1001": {
+    "text": "Google Meet",
+    "hash": "78aeb390abbc558f405421c2bf46708d6c4ccf96745cee50e9a4b36dae6f6975",
+    "sources": [
+      "data/resources.js:223",
+      "data/resources.js:1"
+    ],
+    "retired": false
+  },
+  "resources.m1002": {
+    "text": "Web browser",
+    "hash": "21d699ed42e387772c0c2951563ed983d3935865cd9086e6acbcceb147b56399",
+    "sources": [
+      "data/resources.js:223",
+      "data/resources.js:232",
+      "data/resources.js:233",
+      "data/resources.js:234",
+      "data/resources.js:235",
+      "data/resources.js:1"
+    ],
+    "retired": false
+  },
+  "resources.m1003": {
+    "text": "Google Workspace users",
+    "hash": "b176f3580000a7e6e5a85238b6b99d6fa8592e108d7d861e6a078e04d25061d6",
     "sources": [
       "data/resources.js:223",
       "data/resources.js:1"
@@ -10654,42 +10676,11 @@
     ],
     "retired": false
   },
-  "resources.m1001": {
-    "text": "Google Meet",
-    "hash": "78aeb390abbc558f405421c2bf46708d6c4ccf96745cee50e9a4b36dae6f6975",
-    "sources": [
-      "data/resources.js:232",
-      "data/resources.js:1"
-    ],
-    "retired": false
-  },
-  "resources.m1002": {
-    "text": "Web browser",
-    "hash": "21d699ed42e387772c0c2951563ed983d3935865cd9086e6acbcceb147b56399",
-    "sources": [
-      "data/resources.js:232",
-      "data/resources.js:233",
-      "data/resources.js:234",
-      "data/resources.js:235",
-      "data/resources.js:236",
-      "data/resources.js:1"
-    ],
-    "retired": false
-  },
-  "resources.m1003": {
-    "text": "Google Workspace users",
-    "hash": "b176f3580000a7e6e5a85238b6b99d6fa8592e108d7d861e6a078e04d25061d6",
-    "sources": [
-      "data/resources.js:232",
-      "data/resources.js:1"
-    ],
-    "retired": false
-  },
   "resources.m1004": {
     "text": "Whereby",
     "hash": "de4518bbd4eb578feeddd591e24d9620d19d03684ba1fbb2eb68272ec08f9873",
     "sources": [
-      "data/resources.js:233",
+      "data/resources.js:232",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10698,7 +10689,7 @@
     "text": "Video meetings embedded in your own product",
     "hash": "9672f20cc7d3a612c15b3e3afc546136ab20a215515e12d51691887d97996595",
     "sources": [
-      "data/resources.js:233",
+      "data/resources.js:232",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10707,7 +10698,7 @@
     "text": "Livestorm",
     "hash": "1478f68a6ac05b2679a0034b0bbbe7274cbda41ad1e522d81beee53bb4e9f595",
     "sources": [
-      "data/resources.js:234",
+      "data/resources.js:233",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10716,7 +10707,7 @@
     "text": "Client-facing webinars and training",
     "hash": "c49348735a8744f9576cb8ee9f57a97ee17dbe630b7da6d5a45a46e49ac93b45",
     "sources": [
-      "data/resources.js:234",
+      "data/resources.js:233",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10725,7 +10716,7 @@
     "text": "ClickMeeting",
     "hash": "562f266f84659a4e3fd4948a1314ffa35acc28e44c5e63f773d98d376b03e7b3",
     "sources": [
-      "data/resources.js:235",
+      "data/resources.js:234",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10734,7 +10725,7 @@
     "text": "Large online events",
     "hash": "3e38acbb17e3b85f0d8622a60050ce01b9270dcdeea1b655e9802d776fbf298f",
     "sources": [
-      "data/resources.js:235",
+      "data/resources.js:234",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10743,7 +10734,7 @@
     "text": "Viva Engage",
     "hash": "701369762f0e15fcb27cdd390e96d9c089ca8ac9f77c602c09db82a81d1557e1",
     "sources": [
-      "data/resources.js:236",
+      "data/resources.js:235",
       "data/resources.js:1"
     ],
     "retired": false
@@ -10751,6 +10742,15 @@
   "resources.m1011": {
     "text": "Company-wide broadcasts",
     "hash": "bacaf653450c871227e88e27f4eb1cedbd070fb7ec57940b93fbdf5172254a0c",
+    "sources": [
+      "data/resources.js:235",
+      "data/resources.js:1"
+    ],
+    "retired": false
+  },
+  "resources.m0983": {
+    "text": "Individuals and small teams",
+    "hash": "4737dd0a3774492f59638ee93728a029663ee1000ddef025e1b7c7172410c639",
     "sources": [
       "data/resources.js:236",
       "data/resources.js:1"
@@ -10766,14 +10766,13 @@
     ],
     "retired": false
   },
-  "resources.m1013": {
-    "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Zoom or Microsoft Teams run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
-    "hash": "9f979c190f13de8d32f677ba696e0b1b625fa7e68b9430a58616db1b4211dad0",
+  "resources.m1557": {
+    "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Microsoft Teams or Zoom run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
+    "hash": "8c735c3214fdd1c28f8617834d738422b9d2924bd1f1a5b545e357e51e3a9ccc",
     "sources": [
       "data/resources.js:237",
       "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
   "resources.m1014": {
     "text": "Can Magic Toolbar mute meetings automatically when a call comes in?",
@@ -10910,14 +10909,13 @@
     ],
     "retired": false
   },
-  "resources.m1029": {
-    "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Alt+A in Zoom, Ctrl+Shift+M in Microsoft Teams or Ctrl+D in Google Meet on Windows.",
-    "hash": "b1d1adbc08ed2028fa9415e2c49b2c49e123aac61bb3e237b4783af44cd9c700",
+  "resources.m1558": {
+    "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Ctrl+Shift+M in Microsoft Teams, Ctrl+D in Google Meet or Alt+A in Zoom on Windows.",
+    "hash": "8aa60390e051c14276e4bb21a89057bc2af84336fc559f3ddd66900c33ade862",
     "sources": [
       "data/resources.js:245",
       "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
   "resources.m1030": {
     "text": "How to take a call during an online meeting on Windows",
@@ -10937,14 +10935,13 @@
     ],
     "retired": false
   },
-  "resources.m1032": {
-    "text": "Mute your microphone in the meeting app, such as Alt+A in Zoom.",
-    "hash": "f3f853eff1a442cb8843a696cc35a9be8ed829098650ba0bf52000562335f2f9",
+  "resources.m1559": {
+    "text": "Mute your microphone in the meeting app, such as Ctrl+Shift+M in Microsoft Teams.",
+    "hash": "96dd6561eb1767a06bd9a52e2ccc48d76694501256e825cf2e4e7dd8121ac511",
     "sources": [
       "data/resources.js:247",
       "data/resources.js:1"
-    ],
-    "retired": false
+    ]
   },
   "resources.m1033": {
     "text": "Press Ctrl+Alt+K to silence all meeting sound, or the hotkey for one app.",
@@ -12688,6 +12685,96 @@
       "messages/additional-source.json:1"
     ],
     "retired": false
+  },
+  "resources.m0956": {
+    "text": "Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey",
+    "hash": "4feac44d42f5b5418624340fe815f5835d9fb981261124b941b54f487130ec7c",
+    "sources": [
+      "data/resources.js:206",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m0957": {
+    "text": "Silence Zoom, Microsoft Teams, Google Meet, WhatsApp and other meeting sound with one hotkey in Magic Toolbar, or let it mute meetings when a call comes in.",
+    "hash": "ec7f438c09bdbc0707ae24fb2f713a46812caa55a47c6ec8849c0b8aa3d7574c",
+    "sources": [
+      "data/resources.js:207",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m0958": {
+    "text": "How do I mute meeting sound with one key?",
+    "hash": "431c293498fc8c3548511b52d1abbca2a8146f7140f3184689034746e104538c",
+    "sources": [
+      "data/resources.js:211",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m0959": {
+    "text": "Press a hotkey while Magic Toolbar is running on Windows. Ctrl+Shift+Z silences Zoom, Ctrl+Alt+K silences all supported meeting apps and web browsers at once, and separate keys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Press the same keys again to bring the sound back.",
+    "hash": "23a7344f5a8673517668dce9547b3b60218104297274a330b526109340562919",
+    "sources": [
+      "data/resources.js:211",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m0966": {
+    "text": "Zoom meetings and webinars in the Zoom desktop app",
+    "hash": "05b9dba111a8265f6e664c170cf25afa64a0ef65e3d9eb21cd87a760ba3d781c",
+    "sources": [
+      "data/resources.js:214",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m0970": {
+    "text": "Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
+    "hash": "62b19755881b3c87acab2dbd811688b4da5b680f06449d020de4eb822066f193",
+    "sources": [
+      "data/resources.js:216",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m0978": {
+    "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Zoom and Microsoft Teams also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
+    "hash": "4b0ae7a029aeabbe48b840c9b9c02a40d6bcd1abe4e355686cc70eb358d75f06",
+    "sources": [
+      "data/resources.js:220",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m1013": {
+    "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Zoom or Microsoft Teams run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
+    "hash": "9f979c190f13de8d32f677ba696e0b1b625fa7e68b9430a58616db1b4211dad0",
+    "sources": [
+      "data/resources.js:237",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m1029": {
+    "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Alt+A in Zoom, Ctrl+Shift+M in Microsoft Teams or Ctrl+D in Google Meet on Windows.",
+    "hash": "b1d1adbc08ed2028fa9415e2c49b2c49e123aac61bb3e237b4783af44cd9c700",
+    "sources": [
+      "data/resources.js:245",
+      "data/resources.js:1"
+    ],
+    "retired": true
+  },
+  "resources.m1032": {
+    "text": "Mute your microphone in the meeting app, such as Alt+A in Zoom.",
+    "hash": "f3f853eff1a442cb8843a696cc35a9be8ed829098650ba0bf52000562335f2f9",
+    "sources": [
+      "data/resources.js:247",
+      "data/resources.js:1"
+    ],
+    "retired": true
   },
   "page.m0234": {
     "text": "Passport DOCS Entry: Amadeus, Galileo, Sabre | Travel Genie",

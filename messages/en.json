@@ -6037,24 +6037,24 @@
       "sourceHash": "bfccd27362bd44f62f807af9e4bb9dcc7d224c1d948a4db5bd2a78324f42999e",
       "status": "published"
     },
-    "resources.m0956": {
-      "text": "Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey",
-      "sourceHash": "4feac44d42f5b5418624340fe815f5835d9fb981261124b941b54f487130ec7c",
+    "resources.m1550": {
+      "text": "Mute Microsoft Teams, Google Meet and Any Meeting App Sound With One Hotkey",
+      "sourceHash": "47c65a8f870e50592ed8a62183a312d54e449b8420801e91021ded76f83204a2",
       "status": "published"
     },
-    "resources.m0957": {
-      "text": "Silence Zoom, Microsoft Teams, Google Meet, WhatsApp and other meeting sound with one hotkey in Magic Toolbar, or let it mute meetings when a call comes in.",
-      "sourceHash": "ec7f438c09bdbc0707ae24fb2f713a46812caa55a47c6ec8849c0b8aa3d7574c",
+    "resources.m1551": {
+      "text": "Silence Microsoft Teams, Google Meet, Webex, browser meetings and every other meeting app with one hotkey in Magic Toolbar, or let it mute meetings automatically when a call comes in.",
+      "sourceHash": "3dd15d9a1db041c6575dc8d040b47b9023a8700d49b5caba904aa0312957a0f8",
       "status": "published"
     },
-    "resources.m0958": {
-      "text": "How do I mute meeting sound with one key?",
-      "sourceHash": "431c293498fc8c3548511b52d1abbca2a8146f7140f3184689034746e104538c",
+    "resources.m1552": {
+      "text": "How do I mute all meeting sound with one key?",
+      "sourceHash": "d58ab864d1a505681754415317c6d3a0ec93cc0e2a24e76ba00ff0bf83a7c29b",
       "status": "published"
     },
-    "resources.m0959": {
-      "text": "Press a hotkey while Magic Toolbar is running on Windows. Ctrl+Shift+Z silences Zoom, Ctrl+Alt+K silences all supported meeting apps and web browsers at once, and separate keys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Press the same keys again to bring the sound back.",
-      "sourceHash": "23a7344f5a8673517668dce9547b3b60218104297274a330b526109340562919",
+    "resources.m1553": {
+      "text": "Press Ctrl+Alt+K while Magic Toolbar is running on Windows. It silences Microsoft Teams, Webex, Slack and every other supported meeting app, plus all web browsers, at once. Ctrl+Alt+J silences only Microsoft Teams, and Ctrl+Alt+B only your browsers. Press the same keys again to bring the sound back.",
+      "sourceHash": "94fb7f95a2c5b55e602f5184a63b8c55f3b8f2f1900cd76e46f54b899f9bb192",
       "status": "published"
     },
     "resources.m0960": {
@@ -6082,16 +6082,6 @@
       "sourceHash": "3f8d88db585d15e79b9d4b833b88b9bde9cb12b58a130379699b2d255198c810",
       "status": "published"
     },
-    "resources.m0965": {
-      "text": "Zoom",
-      "sourceHash": "509c517ede79fef060a5f3a109fd1f45951eef2c7970b25c20992011e36a4070",
-      "status": "published"
-    },
-    "resources.m0966": {
-      "text": "Zoom meetings and webinars in the Zoom desktop app",
-      "sourceHash": "05b9dba111a8265f6e664c170cf25afa64a0ef65e3d9eb21cd87a760ba3d781c",
-      "status": "published"
-    },
     "resources.m0967": {
       "text": "All meeting apps",
       "sourceHash": "5a8bc85d24b72b811c0e5c3354162ad1f77952dc82377eda66bafb179676a839",
@@ -6102,16 +6092,6 @@
       "sourceHash": "9bde550f21e05ebf93b0e09cfa7b769680b2b0db56227db22111edc76c7e177f",
       "status": "published"
     },
-    "resources.m0969": {
-      "text": "All web browsers",
-      "sourceHash": "25b8f83561930ef93dad9594410817d05fa99bc4df8b73975fe4ccee767e4a09",
-      "status": "published"
-    },
-    "resources.m0970": {
-      "text": "Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
-      "sourceHash": "62b19755881b3c87acab2dbd811688b4da5b680f06449d020de4eb822066f193",
-      "status": "published"
-    },
     "resources.m0971": {
       "text": "Microsoft Teams",
       "sourceHash": "a7b52b269a23c025905190cdd81a2123f01b23aba7e7458b46f56dd0ab5a6ee8",
@@ -6120,6 +6100,16 @@
     "resources.m0972": {
       "text": "Microsoft Teams meetings, calls and notification sounds",
       "sourceHash": "0a76a22d3a42b3249fd42396032332a4c50a3e54533195f2b658c6068b4ab3c0",
+      "status": "published"
+    },
+    "resources.m0969": {
+      "text": "All web browsers",
+      "sourceHash": "25b8f83561930ef93dad9594410817d05fa99bc4df8b73975fe4ccee767e4a09",
+      "status": "published"
+    },
+    "resources.m1554": {
+      "text": "Google Meet and other browser meetings in Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
+      "sourceHash": "ec764e7e8858da17bb64679e950ebc6d1f50e4441bff6d62aec2b82d27e9276e",
       "status": "published"
     },
     "resources.m0973": {
@@ -6142,14 +6132,24 @@
       "sourceHash": "1205dc3b855a2ab16669f4d09b57afd5549ffc4ae8c65a182b6f036d9bf101f7",
       "status": "published"
     },
+    "resources.m0965": {
+      "text": "Zoom",
+      "sourceHash": "509c517ede79fef060a5f3a109fd1f45951eef2c7970b25c20992011e36a4070",
+      "status": "published"
+    },
+    "resources.m1555": {
+      "text": "Zoom desktop app only; see the Zoom mute guide",
+      "sourceHash": "c1db3732808eb92aa365f1216ba3ba1e791f16b3e6dbad6951a482302e5c90f4",
+      "status": "published"
+    },
     "resources.m0977": {
       "text": "Which meeting apps does Ctrl+Alt+K cover?",
       "sourceHash": "0efe52231481b2c1cce805a4d643477e57eeeff9e1845381d2358155f7c3e669",
       "status": "published"
     },
-    "resources.m0978": {
-      "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Zoom and Microsoft Teams also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
-      "sourceHash": "4b0ae7a029aeabbe48b840c9b9c02a40d6bcd1abe4e355686cc70eb358d75f06",
+    "resources.m1556": {
+      "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Microsoft Teams and Zoom also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
+      "sourceHash": "9f1036b92c3119a56dd3c859769ada8cf73245fc959ece8b0762130f91666d80",
       "status": "published"
     },
     "resources.m0979": {
@@ -6172,14 +6172,24 @@
       "sourceHash": "7102842054a4a55bb11a84e9ca549c31daf4d932f05ed075ca8ca569ef09f0ab",
       "status": "published"
     },
-    "resources.m0983": {
-      "text": "Individuals and small teams",
-      "sourceHash": "4737dd0a3774492f59638ee93728a029663ee1000ddef025e1b7c7172410c639",
-      "status": "published"
-    },
     "resources.m0984": {
       "text": "Microsoft 365 users",
       "sourceHash": "dda0e854c1ce7c0b01bb5487c6bfe5e133f8d64624bdcc82265b76e9f910a631",
+      "status": "published"
+    },
+    "resources.m1001": {
+      "text": "Google Meet",
+      "sourceHash": "78aeb390abbc558f405421c2bf46708d6c4ccf96745cee50e9a4b36dae6f6975",
+      "status": "published"
+    },
+    "resources.m1002": {
+      "text": "Web browser",
+      "sourceHash": "21d699ed42e387772c0c2951563ed983d3935865cd9086e6acbcceb147b56399",
+      "status": "published"
+    },
+    "resources.m1003": {
+      "text": "Google Workspace users",
+      "sourceHash": "b176f3580000a7e6e5a85238b6b99d6fa8592e108d7d861e6a078e04d25061d6",
       "status": "published"
     },
     "resources.m0985": {
@@ -6262,21 +6272,6 @@
       "sourceHash": "c7e55a81da07089f935231005d7e3387e9c506a8c1e6e8b09d65085cc15fbda1",
       "status": "published"
     },
-    "resources.m1001": {
-      "text": "Google Meet",
-      "sourceHash": "78aeb390abbc558f405421c2bf46708d6c4ccf96745cee50e9a4b36dae6f6975",
-      "status": "published"
-    },
-    "resources.m1002": {
-      "text": "Web browser",
-      "sourceHash": "21d699ed42e387772c0c2951563ed983d3935865cd9086e6acbcceb147b56399",
-      "status": "published"
-    },
-    "resources.m1003": {
-      "text": "Google Workspace users",
-      "sourceHash": "b176f3580000a7e6e5a85238b6b99d6fa8592e108d7d861e6a078e04d25061d6",
-      "status": "published"
-    },
     "resources.m1004": {
       "text": "Whereby",
       "sourceHash": "de4518bbd4eb578feeddd591e24d9620d19d03684ba1fbb2eb68272ec08f9873",
@@ -6317,14 +6312,19 @@
       "sourceHash": "bacaf653450c871227e88e27f4eb1cedbd070fb7ec57940b93fbdf5172254a0c",
       "status": "published"
     },
+    "resources.m0983": {
+      "text": "Individuals and small teams",
+      "sourceHash": "4737dd0a3774492f59638ee93728a029663ee1000ddef025e1b7c7172410c639",
+      "status": "published"
+    },
     "resources.m1012": {
       "text": "How do I mute a meeting that runs in my browser?",
       "sourceHash": "362c731fbe3373e3b70b3c20262c19ff17432274bb1b7ab644fe12f6903ba75a",
       "status": "published"
     },
-    "resources.m1013": {
-      "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Zoom or Microsoft Teams run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
-      "sourceHash": "9f979c190f13de8d32f677ba696e0b1b625fa7e68b9430a58616db1b4211dad0",
+    "resources.m1557": {
+      "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Microsoft Teams or Zoom run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
+      "sourceHash": "8c735c3214fdd1c28f8617834d738422b9d2924bd1f1a5b545e357e51e3a9ccc",
       "status": "published"
     },
     "resources.m1014": {
@@ -6402,9 +6402,9 @@
       "sourceHash": "89d5bbbde9d4e3a8e49fb7080f903b586a66865970903952c05035e56c75cbe3",
       "status": "published"
     },
-    "resources.m1029": {
-      "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Alt+A in Zoom, Ctrl+Shift+M in Microsoft Teams or Ctrl+D in Google Meet on Windows.",
-      "sourceHash": "b1d1adbc08ed2028fa9415e2c49b2c49e123aac61bb3e237b4783af44cd9c700",
+    "resources.m1558": {
+      "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Ctrl+Shift+M in Microsoft Teams, Ctrl+D in Google Meet or Alt+A in Zoom on Windows.",
+      "sourceHash": "8aa60390e051c14276e4bb21a89057bc2af84336fc559f3ddd66900c33ade862",
       "status": "published"
     },
     "resources.m1030": {
@@ -6417,9 +6417,9 @@
       "sourceHash": "722027796e76ce3113c041ba6d6402b4e4a73374af1b6573ffc856da304ee4e1",
       "status": "published"
     },
-    "resources.m1032": {
-      "text": "Mute your microphone in the meeting app, such as Alt+A in Zoom.",
-      "sourceHash": "f3f853eff1a442cb8843a696cc35a9be8ed829098650ba0bf52000562335f2f9",
+    "resources.m1559": {
+      "text": "Mute your microphone in the meeting app, such as Ctrl+Shift+M in Microsoft Teams.",
+      "sourceHash": "96dd6561eb1767a06bd9a52e2ccc48d76694501256e825cf2e4e7dd8121ac511",
       "status": "published"
     },
     "resources.m1033": {
@@ -7470,6 +7470,56 @@
     "answers.m0635": {
       "text": "Choose a language",
       "sourceHash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+      "status": "published"
+    },
+    "resources.m0956": {
+      "text": "Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey",
+      "sourceHash": "4feac44d42f5b5418624340fe815f5835d9fb981261124b941b54f487130ec7c",
+      "status": "published"
+    },
+    "resources.m0957": {
+      "text": "Silence Zoom, Microsoft Teams, Google Meet, WhatsApp and other meeting sound with one hotkey in Magic Toolbar, or let it mute meetings when a call comes in.",
+      "sourceHash": "ec7f438c09bdbc0707ae24fb2f713a46812caa55a47c6ec8849c0b8aa3d7574c",
+      "status": "published"
+    },
+    "resources.m0958": {
+      "text": "How do I mute meeting sound with one key?",
+      "sourceHash": "431c293498fc8c3548511b52d1abbca2a8146f7140f3184689034746e104538c",
+      "status": "published"
+    },
+    "resources.m0959": {
+      "text": "Press a hotkey while Magic Toolbar is running on Windows. Ctrl+Shift+Z silences Zoom, Ctrl+Alt+K silences all supported meeting apps and web browsers at once, and separate keys cover Microsoft Teams, browsers, WhatsApp and Unite Phone. Press the same keys again to bring the sound back.",
+      "sourceHash": "23a7344f5a8673517668dce9547b3b60218104297274a330b526109340562919",
+      "status": "published"
+    },
+    "resources.m0966": {
+      "text": "Zoom meetings and webinars in the Zoom desktop app",
+      "sourceHash": "05b9dba111a8265f6e664c170cf25afa64a0ef65e3d9eb21cd87a760ba3d781c",
+      "status": "published"
+    },
+    "resources.m0970": {
+      "text": "Chrome, Edge, Firefox, Brave, Opera and Vivaldi",
+      "sourceHash": "62b19755881b3c87acab2dbd811688b4da5b680f06449d020de4eb822066f193",
+      "status": "published"
+    },
+    "resources.m0978": {
+      "text": "Ctrl+Alt+K covers the desktop meeting apps below and every web browser, so meetings you join in Chrome or Edge are included too. Zoom and Microsoft Teams also have their own hotkeys. WhatsApp and Unite Phone are not part of this group, because they are the apps you take calls on.",
+      "sourceHash": "4b0ae7a029aeabbe48b840c9b9c02a40d6bcd1abe4e355686cc70eb358d75f06",
+      "status": "published"
+    },
+    "resources.m1013": {
+      "text": "Google Meet, Whereby, Livestorm, ClickMeeting, Viva Engage and the web versions of Zoom or Microsoft Teams run inside your browser. Press Ctrl+Alt+B to silence Chrome, Edge, Firefox, Brave, Opera and Vivaldi. Windows mutes a whole browser, not a single tab, so music or videos in it go quiet too.",
+      "sourceHash": "9f979c190f13de8d32f677ba696e0b1b625fa7e68b9430a58616db1b4211dad0",
+      "status": "published"
+    },
+    "resources.m1029": {
+      "text": "No. The hotkeys mute the sound you hear, not your microphone or camera, so people in the meeting can still hear you. Use the meeting app’s own control for your microphone, such as Alt+A in Zoom, Ctrl+Shift+M in Microsoft Teams or Ctrl+D in Google Meet on Windows.",
+      "sourceHash": "b1d1adbc08ed2028fa9415e2c49b2c49e123aac61bb3e237b4783af44cd9c700",
+      "status": "published"
+    },
+    "resources.m1032": {
+      "text": "Mute your microphone in the meeting app, such as Alt+A in Zoom.",
+      "sourceHash": "f3f853eff1a442cb8843a696cc35a9be8ed829098650ba0bf52000562335f2f9",
       "status": "published"
     },
     "page.m0234": {
