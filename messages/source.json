@@ -613,6 +613,7 @@
     "sources": [
       "app/[locale]/gds-search-engine/page.jsx:76",
       "data/site.js:11",
+      "data/site.js:13",
       "data/site.js:1"
     ],
     "retired": false
@@ -668,7 +669,7 @@
       "app/[locale]/resources/page.js:24",
       "app/[locale]/resources/[slug]/page.js:258",
       "app/[locale]/resources/[slug]/page.js:275",
-      "data/site.js:50",
+      "data/site.js:52",
       "data/site.js:1",
       "messages/additional-source.json:1"
     ],
@@ -1894,7 +1895,7 @@
       "app/[locale]/products/magic-toolbar/page.js:48",
       "app/[locale]/products/page.js:10",
       "app/[locale]/products/[slug]/page.js:66",
-      "data/site.js:51",
+      "data/site.js:53",
       "data/site.js:1"
     ],
     "retired": false
@@ -1929,7 +1930,7 @@
       "app/[locale]/products/magic-toolbar/page.js:62",
       "components/CookieConsent.js:11",
       "components/ProductCatalogue.js:92",
-      "data/site.js:10",
+      "data/site.js:12",
       "data/site.js:1"
     ],
     "retired": false
@@ -2307,9 +2308,7 @@
     "hash": "ab81a9e909b65c33bba2541c600221d483c21ab76a0e7376251c1dd552852000",
     "sources": [
       "app/[locale]/products/page.js:10",
-      "components/gds/GdsSearch.jsx:224",
-      "data/site.js:12",
-      "data/site.js:1"
+      "components/gds/GdsSearch.jsx:224"
     ],
     "retired": false
   },
@@ -2602,7 +2601,7 @@
       "app/[locale]/resources/[slug]/page.js:259",
       "app/[locale]/resources/[slug]/page.js:281",
       "components/Footer.js:146",
-      "data/site.js:53",
+      "data/site.js:55",
       "data/site.js:1",
       "messages/additional-source.json:1"
     ],
@@ -4266,7 +4265,7 @@
     "hash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
     "sources": [
       "components/Footer.js:129",
-      "data/site.js:56",
+      "data/site.js:58",
       "data/site.js:1"
     ],
     "retired": false
@@ -4276,7 +4275,7 @@
     "hash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040",
     "sources": [
       "components/Footer.js:132",
-      "data/site.js:52",
+      "data/site.js:54",
       "data/genie/i18n.js:1",
       "data/site.js:1"
     ],
@@ -4287,7 +4286,7 @@
     "hash": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3",
     "sources": [
       "components/Footer.js:149",
-      "data/site.js:55",
+      "data/site.js:57",
       "data/site.js:1"
     ],
     "retired": false
@@ -4305,7 +4304,7 @@
     "hash": "d131ef7f9b5e2b457faba856dcc5f90438b46b97df6a849234432e76c63f6cbd",
     "sources": [
       "components/Footer.js:157",
-      "data/site.js:54",
+      "data/site.js:56",
       "data/site.js:1"
     ],
     "retired": false
@@ -10251,7 +10250,8 @@
     "sources": [
       "data/resources.js:206",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m1551": {
     "text": "Silence Microsoft Teams, Google Meet, Webex, browser meetings and every other meeting app with one hotkey in Magic Toolbar, or let it mute meetings automatically when a call comes in.",
@@ -10259,7 +10259,8 @@
     "sources": [
       "data/resources.js:207",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m1552": {
     "text": "How do I mute all meeting sound with one key?",
@@ -10267,7 +10268,8 @@
     "sources": [
       "data/resources.js:211",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m1553": {
     "text": "Press Ctrl+Alt+K while Magic Toolbar is running on Windows. It silences Microsoft Teams, Webex, Slack and every other supported meeting app, plus all web browsers, at once. Ctrl+Alt+J silences only Microsoft Teams, and Ctrl+Alt+B only your browsers. Press the same keys again to bring the sound back.",
@@ -10275,7 +10277,8 @@
     "sources": [
       "data/resources.js:211",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m0960": {
     "text": "Which hotkey mutes which app?",
@@ -10374,7 +10377,8 @@
     "sources": [
       "data/resources.js:216",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m0973": {
     "text": "WhatsApp Desktop",
@@ -10428,7 +10432,8 @@
     "sources": [
       "data/resources.js:219",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m0977": {
     "text": "Which meeting apps does Ctrl+Alt+K cover?",
@@ -10445,7 +10450,8 @@
     "sources": [
       "data/resources.js:220",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m0979": {
     "text": "Meeting app",
@@ -10772,7 +10778,8 @@
     "sources": [
       "data/resources.js:237",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m1014": {
     "text": "Can Magic Toolbar mute meetings automatically when a call comes in?",
@@ -10915,7 +10922,8 @@
     "sources": [
       "data/resources.js:245",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m1030": {
     "text": "How to take a call during an online meeting on Windows",
@@ -10941,7 +10949,8 @@
     "sources": [
       "data/resources.js:247",
       "data/resources.js:1"
-    ]
+    ],
+    "retired": false
   },
   "resources.m1033": {
     "text": "Press Ctrl+Alt+K to silence all meeting sound, or the hotkey for one app.",
@@ -11941,20 +11950,27 @@
     ],
     "retired": false
   },
-  "site.m1148": {
-    "text": "Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
-    "hash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
+  "site.m1560": {
+    "text": "Travel Desk Genie Magic Toolbar",
+    "hash": "23dbfd9ea932978b13b221dd0760019d12b0e6377d258cb2bcdccf735ca85998",
     "sources": [
       "data/site.js:14",
       "data/site.js:1"
-    ],
-    "retired": false
+    ]
+  },
+  "site.m1561": {
+    "text": "Travel Desk Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
+    "hash": "e59e619b4528442f0d60fdd7652d59a9b1058471b2676f943c75633859e38533",
+    "sources": [
+      "data/site.js:16",
+      "data/site.js:1"
+    ]
   },
   "site.m1149": {
     "text": "TravelDeskGenie.TravelDeskGenieMagicToolbar",
     "hash": "e13304451c10f19a261651a72d12f2214058d38194888ace01f694d768488344",
     "sources": [
-      "data/site.js:17",
+      "data/site.js:19",
       "data/site.js:1"
     ],
     "retired": false
@@ -11963,7 +11979,7 @@
     "text": "TravelDeskGenie",
     "hash": "b5e59bcb3de596fb47a20ded8db5c7bc2f9e845b73090ed5d01333cf858b76cb",
     "sources": [
-      "data/site.js:18",
+      "data/site.js:20",
       "data/site.js:1"
     ],
     "retired": false
@@ -11972,18 +11988,17 @@
     "text": "English",
     "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
     "sources": [
-      "data/site.js:25"
+      "data/site.js:27"
     ],
     "retired": false
   },
-  "site.m1249": {
-    "text": "Travel Genie mascot holding a globe with an airplane",
-    "hash": "ac633a67a88c2393ccbf9a96121bf28092b87a359107b1345e407854d4ce4ec8",
+  "site.m1562": {
+    "text": "Travel Desk Genie mascot holding a globe with an airplane",
+    "hash": "0181ee40be23df637220507fdb82eed2d810017e4b4c1dd2d98482d800fb33b7",
     "sources": [
-      "data/site.js:63",
+      "data/site.js:65",
       "data/site.js:1"
-    ],
-    "retired": false
+    ]
   },
   "toolbar.m1153": {
     "text": "Review parsed passport fields, resolve warnings and prepare the DOCS entry for the GDS you choose.",
@@ -12685,6 +12700,24 @@
       "messages/additional-source.json:1"
     ],
     "retired": false
+  },
+  "site.m1148": {
+    "text": "Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
+    "hash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
+    "sources": [
+      "data/site.js:14",
+      "data/site.js:1"
+    ],
+    "retired": true
+  },
+  "site.m1249": {
+    "text": "Travel Genie mascot holding a globe with an airplane",
+    "hash": "ac633a67a88c2393ccbf9a96121bf28092b87a359107b1345e407854d4ce4ec8",
+    "sources": [
+      "data/site.js:63",
+      "data/site.js:1"
+    ],
+    "retired": true
   },
   "resources.m0956": {
     "text": "Mute Zoom, Microsoft Teams and Any Meeting Sound With One Hotkey",

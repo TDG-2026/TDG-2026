@@ -7012,9 +7012,14 @@
       "sourceHash": "fb7accfff8c6f8ea9b03c91ee5576d0d08080e9ba35918d801aaeb6020dbc88c",
       "status": "published"
     },
-    "site.m1148": {
-      "text": "Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
-      "sourceHash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
+    "site.m1560": {
+      "text": "Travel Desk Genie Magic Toolbar",
+      "sourceHash": "23dbfd9ea932978b13b221dd0760019d12b0e6377d258cb2bcdccf735ca85998",
+      "status": "published"
+    },
+    "site.m1561": {
+      "text": "Travel Desk Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
+      "sourceHash": "e59e619b4528442f0d60fdd7652d59a9b1058471b2676f943c75633859e38533",
       "status": "published"
     },
     "site.m1149": {
@@ -7032,9 +7037,9 @@
       "sourceHash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
       "status": "published"
     },
-    "site.m1249": {
-      "text": "Travel Genie mascot holding a globe with an airplane",
-      "sourceHash": "ac633a67a88c2393ccbf9a96121bf28092b87a359107b1345e407854d4ce4ec8",
+    "site.m1562": {
+      "text": "Travel Desk Genie mascot holding a globe with an airplane",
+      "sourceHash": "0181ee40be23df637220507fdb82eed2d810017e4b4c1dd2d98482d800fb33b7",
       "status": "published"
     },
     "toolbar.m1153": {
@@ -7470,6 +7475,16 @@
     "answers.m0635": {
       "text": "Choose a language",
       "sourceHash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+      "status": "published"
+    },
+    "site.m1148": {
+      "text": "Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
+      "sourceHash": "8edaf9ebc09dffd7093ed1cec9baff573a1f82d911e79ca4ebc5ca50c99ca485",
+      "status": "published"
+    },
+    "site.m1249": {
+      "text": "Travel Genie mascot holding a globe with an airplane",
+      "sourceHash": "ac633a67a88c2393ccbf9a96121bf28092b87a359107b1345e407854d4ce4ec8",
       "status": "published"
     },
     "resources.m0956": {

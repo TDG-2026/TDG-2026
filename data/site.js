@@ -7,11 +7,13 @@ export const socialProfiles = [
 ];
 
 export const site = {
-  name: 'Travel Genie',
+  // Brand: Travel Desk Genie. shortName is kept only as an alternate name for search engines.
+  name: 'Travel Desk Genie',
+  shortName: 'Travel Genie',
   publisherName: 'Travel Desk Genie',
-  product: 'Travel Genie Magic Toolbar',
+  product: 'Travel Desk Genie Magic Toolbar',
   url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.traveldeskgenie.com').replace(/\/$/, ''),
-  description: 'Travel Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.',
+  description: 'Travel Desk Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.',
   storeUrl: 'https://apps.microsoft.com/detail/9P1J21G2Z9LZ',
   storeProductId: '9P1J21G2Z9LZ',
   storePackageIdentity: 'TravelDeskGenie.TravelDeskGenieMagicToolbar',
@@ -37,9 +39,9 @@ export const site = {
 
   // Publisher identity is the organization; do not invent a named individual author.
 
-  // Legal and policy pages.
+  // Legal and policy pages. /privacy redirects to /security-and-privacy (see proxy.js).
   legal: {
-    privacy: '/privacy',
+    privacy: '/security-and-privacy',
     terms: '/terms',
     refund: '/refund',
     delivery: '/delivery',
@@ -60,6 +62,5 @@ export const mascot = {
   src: '/images/genie-mascot.webp',
   width: 512,
   height: 512,
-  alt: 'Travel Genie mascot holding a globe with an airplane',
+  alt: 'Travel Desk Genie mascot holding a globe with an airplane',
 };
-
