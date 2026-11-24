@@ -1,23 +1,23 @@
 import NextLink from 'next/link';
 import {locales, localePath} from '@/lib/i18n/config';
-import {getCatalog, getTranslator} from '@/lib/i18n/catalog';
+import {getTranslator} from '@/lib/i18n/catalog';
 import {localizeMetadata} from '@/lib/i18n/metadata';
+import {isPublished} from '@/lib/i18n/published';
 import {pageMeta, webPageSchema, breadcrumbs} from '@/lib/seo';
 import StructuredData from '@/components/StructuredData';
 
-const LANGUAGE_FLAGS = {
-  nl: '🇳🇱', en: '🇬🇧', de: '🇩🇪', fr: '🇫🇷', it: '🇮🇹',
-  es: '🇪🇸', ps: '🇦🇫', ar: '🇸🇦', ur: '🇵🇰',
-};
+// Reviewed languages get links; the rest are listed as plain text until published.
+const publishedLocales = locales.filter((l) => isPublished(l.code));
+const upcomingLocales = locales.filter((l) => !isPublished(l.code));
 
 const META = pageMeta('Website Languages | Travel Genie',
-  'Choose from nine configured website languages. See translation readiness and how browser and region language detection works.', '/languages');
+  'See which languages the Travel Genie website is available in and which are coming after native review.', '/languages',
+  {robots: {index: false, follow: true}});
 export async function generateMetadata({params}) { const {locale} = await params; return localizeMetadata(META, locale); }
 
 export default async function LanguagesPage({params}) {
   const {locale} = await params;
   const t = await getTranslator(locale);
-  const rows = await Promise.all(locales.map(async (l) => { const c = await getCatalog(l.code); return {...l, coverage: c.coverage, published: c.published, machine: c.machine}; }));
   return (
     <section className="section static-page">
       <StructuredData data={[webPageSchema({locale, t, path: '/languages', name: META.title.absolute, description: META.description}),
@@ -26,21 +26,39 @@ export default async function LanguagesPage({params}) {
         <div className="section-head">
           <span className="eyebrow">{t('Languages')}</span>
           <h1 className="title">{t('Choose your language')}</h1>
-          <p className="lead">{t('Travel Genie offers {count} language choices. Full page translations are released after review. Choose the language you prefer; your choice is saved on this device for 180 days.', {count: locales.length})}</p>
+          <p className="lead">{publishedLocales.length > 1
+            ? t('Travel Genie is available in {count} languages. Each language is released only after a native speaker has reviewed it. Your choice is saved on this device for 180 days.', {count: publishedLocales.length})
+            : t('Travel Genie is currently available in English. Each new language is released only after a native speaker has reviewed it.')}</p>
         </div>
+
         <ul className="language-list">
-          {rows.map((l) => {
-            const status = l.code === 'en' || (l.published && !l.machine) ? t('Reviewed') : l.published ? t('Automatic translation')
-              : t('In preparation · {percent}% translated', {percent: Math.round(l.coverage * 100)});
-            return <li key={l.code}>
+          {publishedLocales.map((l) => (
+            <li key={l.code}>
               <NextLink href={localePath('/', l.code)} hrefLang={l.code} prefetch={false} aria-current={l.code === locale ? 'page' : undefined}>
-                <strong lang={l.code} dir={l.dir}><span aria-hidden="true">{LANGUAGE_FLAGS[l.code] || '🌐'} </span>{l.name}</strong><small>{l.english} · {status}</small>
+                <strong lang={l.code} dir={l.dir}>{l.name}</strong><small>{l.english} · {t('Reviewed')}</small>
               </NextLink>
-            </li>;
-          })}
+            </li>
+          ))}
         </ul>
+
+        {upcomingLocales.length > 0 && (
+          <>
+            <h2 className="sub-title">{t('Coming soon')}</h2>
+            <p>{t('These languages are being translated and reviewed. They will appear here as soon as they are ready.')}</p>
+            <ul className="language-list language-list--upcoming">
+              {upcomingLocales.map((l) => (
+                <li key={l.code}>
+                  <span>
+                    <strong lang={l.code} dir={l.dir}>{l.name}</strong><small>{l.english} · {t('In preparation')}</small>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
         <h2 className="sub-title">{t('How is my language chosen?')}</h2>
-        <p className="answer-first">{t('The website first respects an explicit language in the page address and your saved preference. On a first visit it checks your browser language, then your region when the hosting platform provides a trusted country signal, and finally English. Some non-English page catalogs are still awaiting translation and native review; those pages remain out of search indexes until ready. You can change language at any time from the menu.')}</p>
+        <p className="answer-first">{t('The website uses a language from the page address or your saved choice. On a first visit it checks your browser language, then your region, and otherwise shows English. Only languages that have passed native review are offered.')}</p>
       </div>
     </section>
   );

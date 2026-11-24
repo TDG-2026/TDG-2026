@@ -707,9 +707,9 @@
       "sourceHash": "23e57bd745063d5334c71b3c1937f1e9502e3827d182be11a5b4997bc892ed8e",
       "status": "published"
     },
-    "page.m0097": {
-      "text": "Choose from nine configured website languages. See translation readiness and how browser and region language detection works.",
-      "sourceHash": "66237e92f1101054f13b01cf441819b2143fd227fec9de930c9115c27474767c",
+    "page.m1535": {
+      "text": "See which languages the Travel Genie website is available in and which are coming after native review.",
+      "sourceHash": "16e040bfc7adc8c928775b987a1397f328fcd3a6684ef0945128bfe10d63f58a",
       "status": "published"
     },
     "page.m0099": {
@@ -727,9 +727,14 @@
       "sourceHash": "8e2d0664dbbb529de872582461068f7f7f752fc226a03a1b8439a4299dbf5e74",
       "status": "published"
     },
-    "page.m0102": {
-      "text": "Travel Genie offers {count} language choices. Full page translations are released after review. Choose the language you prefer; your choice is saved on this device for 180 days.",
-      "sourceHash": "0387e4c19295ac851d900a3ec93a25fdfdfc61d4d3456ae13bf966f89455b1b4",
+    "page.m1536": {
+      "text": "Travel Genie is available in {count} languages. Each language is released only after a native speaker has reviewed it. Your choice is saved on this device for 180 days.",
+      "sourceHash": "0b65d5e4a59e8e8e51cadde7d65712b8cd84b0d95819f3ae79a96ac39d74c701",
+      "status": "published"
+    },
+    "page.m1537": {
+      "text": "Travel Genie is currently available in English. Each new language is released only after a native speaker has reviewed it.",
+      "sourceHash": "babd44009c7b873a9e7ad7dbf72a0802e7d441761064560e11d9049fd304cd71",
       "status": "published"
     },
     "page.m0103": {
@@ -737,14 +742,19 @@
       "sourceHash": "fad6057bb5403e59709e79e0679965bd362af5fc0841b06c08f48efa21fc588b",
       "status": "published"
     },
-    "page.m0104": {
-      "text": "Automatic translation",
-      "sourceHash": "2981c4cfc61834eebc953cd1a4fdad54e5e159d85d791031689683b3c102918e",
+    "StatusBadge.m0529": {
+      "text": "Coming soon",
+      "sourceHash": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c",
       "status": "published"
     },
-    "page.m0105": {
-      "text": "In preparation · {percent}% translated",
-      "sourceHash": "569d930f366ca3a898984ff734fb1c5ee713ce8144a5b6f2a71e37fa1bbfca25",
+    "page.m1538": {
+      "text": "These languages are being translated and reviewed. They will appear here as soon as they are ready.",
+      "sourceHash": "1509c44b75ec73b476cbb5b0eab4798fbd6bd1a38ae5e51d9b30b74c5143d110",
+      "status": "published"
+    },
+    "ProductCatalogue.m0511": {
+      "text": "In preparation",
+      "sourceHash": "78beb096bbd119dd7c0ec7257c016d2a69d2a67d3a24cc9231e9cc030315c1db",
       "status": "published"
     },
     "page.m0106": {
@@ -752,9 +762,9 @@
       "sourceHash": "4d027b1495be2805cd6ed37df4098c814faed43a1deb00ef35696a5fc6cf711e",
       "status": "published"
     },
-    "page.m0107": {
-      "text": "The website first respects an explicit language in the page address and your saved preference. On a first visit it checks your browser language, then your region when the hosting platform provides a trusted country signal, and finally English. Some non-English page catalogs are still awaiting translation and native review; those pages remain out of search indexes until ready. You can change language at any time from the menu.",
-      "sourceHash": "7c45d8c89fea112ca76fe70efbadd62c914cb0fbdcbc63e59336f3adc0cc5465",
+    "page.m1539": {
+      "text": "The website uses a language from the page address or your saved choice. On a first visit it checks your browser language, then your region, and otherwise shows English. Only languages that have passed native review are offered.",
+      "sourceHash": "af2eb5a8d71903580bbe7ab82f88c03172fcbf553e36dfbbce4eef21c204b925",
       "status": "published"
     },
     "layout.m0108": {
@@ -3827,11 +3837,6 @@
       "sourceHash": "d594fb1646390657043a46a848f2afbc09875fd1be6a2c18d7e9b02fe4b11783",
       "status": "published"
     },
-    "ProductCatalogue.m0511": {
-      "text": "In preparation",
-      "sourceHash": "78beb096bbd119dd7c0ec7257c016d2a69d2a67d3a24cc9231e9cc030315c1db",
-      "status": "published"
-    },
     "ProductCatalogue.m0512": {
       "text": "View details",
       "sourceHash": "d1bf045bb524dae5b02c471c230958bcd1bf232d7a49367b1cdf977855a06b41",
@@ -3915,11 +3920,6 @@
     "StatusBadge.m0528": {
       "text": "Details coming",
       "sourceHash": "6a0370c82956fba6363562b45dc05d0c75f1d51c47be5880a6b08bd6a4d60a07",
-      "status": "published"
-    },
-    "StatusBadge.m0529": {
-      "text": "Coming soon",
-      "sourceHash": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c",
       "status": "published"
     },
     "ToolbarCore.m0530": {
@@ -7407,6 +7407,16 @@
       "sourceHash": "21c3cf034622cf9eafa631d1c571314f449cb4692500a3d16d74287deb62ba00",
       "status": "published"
     },
+    "page.m0104": {
+      "text": "Automatic translation",
+      "sourceHash": "2981c4cfc61834eebc953cd1a4fdad54e5e159d85d791031689683b3c102918e",
+      "status": "published"
+    },
+    "page.m0105": {
+      "text": "In preparation · {percent}% translated",
+      "sourceHash": "569d930f366ca3a898984ff734fb1c5ee713ce8144a5b6f2a71e37fa1bbfca25",
+      "status": "published"
+    },
     "additionalsource.m1229": {
       "text": "The website first uses the language in the page address. If there is none, it uses the language you chose before, then your browser languages, then your region when the hosting platform provides it, and finally English. Automatic detection only picks languages that are fully translated. You can change the language at any time from the menu at the top.",
       "sourceHash": "ea55822b2baf13b20904760fde374884cb027bd374d0024af2dca42a0cd56c30",
@@ -7455,6 +7465,21 @@
     "additionalsource.m1238": {
       "text": "Reminders and phone directory",
       "sourceHash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
+      "status": "published"
+    },
+    "page.m0097": {
+      "text": "Choose from nine configured website languages. See translation readiness and how browser and region language detection works.",
+      "sourceHash": "66237e92f1101054f13b01cf441819b2143fd227fec9de930c9115c27474767c",
+      "status": "published"
+    },
+    "page.m0102": {
+      "text": "Travel Genie offers {count} language choices. Full page translations are released after review. Choose the language you prefer; your choice is saved on this device for 180 days.",
+      "sourceHash": "0387e4c19295ac851d900a3ec93a25fdfdfc61d4d3456ae13bf966f89455b1b4",
+      "status": "published"
+    },
+    "page.m0107": {
+      "text": "The website first respects an explicit language in the page address and your saved preference. On a first visit it checks your browser language, then your region when the hosting platform provides a trusted country signal, and finally English. Some non-English page catalogs are still awaiting translation and native review; those pages remain out of search indexes until ready. You can change language at any time from the menu.",
+      "sourceHash": "7c45d8c89fea112ca76fe70efbadd62c914cb0fbdcbc63e59336f3adc0cc5465",
       "status": "published"
     },
     "GdsSearch.m1263": {

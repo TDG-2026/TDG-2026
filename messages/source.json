@@ -1176,13 +1176,12 @@
     ],
     "retired": false
   },
-  "page.m0097": {
-    "text": "Choose from nine configured website languages. See translation readiness and how browser and region language detection works.",
-    "hash": "66237e92f1101054f13b01cf441819b2143fd227fec9de930c9115c27474767c",
+  "page.m1535": {
+    "text": "See which languages the Travel Genie website is available in and which are coming after native review.",
+    "hash": "16e040bfc7adc8c928775b987a1397f328fcd3a6684ef0945128bfe10d63f58a",
     "sources": [
       "app/[locale]/languages/page.js:14"
-    ],
-    "retired": false
+    ]
   },
   "page.m0099": {
     "text": "Website languages",
@@ -1199,7 +1198,7 @@
     "sources": [
       "app/[locale]/languages/page.js:27",
       "components/Footer.js:151",
-      "components/LanguageSwitcher.js:12",
+      "components/LanguageSwitcher.js:18",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -1213,38 +1212,51 @@
     ],
     "retired": false
   },
-  "page.m0102": {
-    "text": "Travel Genie offers {count} language choices. Full page translations are released after review. Choose the language you prefer; your choice is saved on this device for 180 days.",
-    "hash": "0387e4c19295ac851d900a3ec93a25fdfdfc61d4d3456ae13bf966f89455b1b4",
+  "page.m1536": {
+    "text": "Travel Genie is available in {count} languages. Each language is released only after a native speaker has reviewed it. Your choice is saved on this device for 180 days.",
+    "hash": "0b65d5e4a59e8e8e51cadde7d65712b8cd84b0d95819f3ae79a96ac39d74c701",
     "sources": [
-      "app/[locale]/languages/page.js:29"
-    ],
-    "retired": false
+      "app/[locale]/languages/page.js:30"
+    ]
+  },
+  "page.m1537": {
+    "text": "Travel Genie is currently available in English. Each new language is released only after a native speaker has reviewed it.",
+    "hash": "babd44009c7b873a9e7ad7dbf72a0802e7d441761064560e11d9049fd304cd71",
+    "sources": [
+      "app/[locale]/languages/page.js:31"
+    ]
   },
   "page.m0103": {
     "text": "Reviewed",
     "hash": "fad6057bb5403e59709e79e0679965bd362af5fc0841b06c08f48efa21fc588b",
     "sources": [
-      "app/[locale]/languages/page.js:33",
+      "app/[locale]/languages/page.js:38",
       "messages/additional-source.json:1"
     ],
     "retired": false
   },
-  "page.m0104": {
-    "text": "Automatic translation",
-    "hash": "2981c4cfc61834eebc953cd1a4fdad54e5e159d85d791031689683b3c102918e",
+  "StatusBadge.m0529": {
+    "text": "Coming soon",
+    "hash": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c",
     "sources": [
-      "app/[locale]/languages/page.js:33",
-      "messages/additional-source.json:1"
+      "app/[locale]/languages/page.js:46",
+      "components/StatusBadge.js:6"
     ],
     "retired": false
   },
-  "page.m0105": {
-    "text": "In preparation · {percent}% translated",
-    "hash": "569d930f366ca3a898984ff734fb1c5ee713ce8144a5b6f2a71e37fa1bbfca25",
+  "page.m1538": {
+    "text": "These languages are being translated and reviewed. They will appear here as soon as they are ready.",
+    "hash": "1509c44b75ec73b476cbb5b0eab4798fbd6bd1a38ae5e51d9b30b74c5143d110",
     "sources": [
-      "app/[locale]/languages/page.js:34",
-      "messages/additional-source.json:1"
+      "app/[locale]/languages/page.js:47"
+    ]
+  },
+  "ProductCatalogue.m0511": {
+    "text": "In preparation",
+    "hash": "78beb096bbd119dd7c0ec7257c016d2a69d2a67d3a24cc9231e9cc030315c1db",
+    "sources": [
+      "app/[locale]/languages/page.js:52",
+      "components/ProductCatalogue.js:150"
     ],
     "retired": false
   },
@@ -1252,24 +1264,23 @@
     "text": "How is my language chosen?",
     "hash": "4d027b1495be2805cd6ed37df4098c814faed43a1deb00ef35696a5fc6cf711e",
     "sources": [
-      "app/[locale]/languages/page.js:42",
+      "app/[locale]/languages/page.js:60",
       "messages/additional-source.json:1"
     ],
     "retired": false
   },
-  "page.m0107": {
-    "text": "The website first respects an explicit language in the page address and your saved preference. On a first visit it checks your browser language, then your region when the hosting platform provides a trusted country signal, and finally English. Some non-English page catalogs are still awaiting translation and native review; those pages remain out of search indexes until ready. You can change language at any time from the menu.",
-    "hash": "7c45d8c89fea112ca76fe70efbadd62c914cb0fbdcbc63e59336f3adc0cc5465",
+  "page.m1539": {
+    "text": "The website uses a language from the page address or your saved choice. On a first visit it checks your browser language, then your region, and otherwise shows English. Only languages that have passed native review are offered.",
+    "hash": "af2eb5a8d71903580bbe7ab82f88c03172fcbf553e36dfbbce4eef21c204b925",
     "sources": [
-      "app/[locale]/languages/page.js:43"
-    ],
-    "retired": false
+      "app/[locale]/languages/page.js:61"
+    ]
   },
   "layout.m0108": {
     "text": "(prefers-color-scheme: light)",
     "hash": "a14746aa02d9b0cd4a9b493b72379b4d802ea210a25bc37f0d736e8438964bbd",
     "sources": [
-      "app/[locale]/layout.js:20"
+      "app/[locale]/layout.js:24"
     ],
     "retired": false
   },
@@ -1277,7 +1288,7 @@
     "text": "(prefers-color-scheme: dark)",
     "hash": "a085a59f1538c1fdc1f97c93d7e7b332b535d52d39225986f001b29cb3c9df44",
     "sources": [
-      "app/[locale]/layout.js:20"
+      "app/[locale]/layout.js:24"
     ],
     "retired": false
   },
@@ -1285,7 +1296,7 @@
     "text": "Skip to content",
     "hash": "ac576a66d4563e600314a2ce6e731725e9826fd88baf2399e05f60bfb177dbc0",
     "sources": [
-      "app/[locale]/layout.js:35",
+      "app/[locale]/layout.js:39",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -4350,7 +4361,8 @@
     "hash": "025d76f8c9f553c92590a4c9e25de47c4bf7034c6e85858fa630ec864c017417",
     "sources": [
       "components/gds/GdsSearch.jsx:124"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1267": {
     "text": "Clipboard unavailable. Use HTTPS or localhost for testing.",
@@ -4594,7 +4606,8 @@
     "hash": "ba3bbbe10d8bef66441c88536ce7b8e724e2829b59a3da658654f4961cd61ae5",
     "sources": [
       "components/gds/GdsSearch.jsx:352"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1307": {
     "text": "Search results",
@@ -4625,7 +4638,8 @@
     "hash": "9a7bbf9591a2c83cccb1084a84e2a3431dc04c71f0937c8406bfd7f67266bfd0",
     "sources": [
       "components/gds/GdsSearch.jsx:370"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1328": {
     "text": "Copied ✓",
@@ -4650,14 +4664,16 @@
     "hash": "e38eed24056e5937a2c104115d3d4f6db76747b9876a7447527da88961f38237",
     "sources": [
       "components/gds/GdsSearch.jsx:434"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1528": {
     "text": "Entries unavailable",
     "hash": "da9bdc7d1694d383eb5ad5f7f06d54c3b8d2fc5c5ea4e612f686b8cc29e670a1",
     "sources": [
       "components/gds/GdsSearch.jsx:434"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1329": {
     "text": "No matching entries",
@@ -4672,21 +4688,24 @@
     "hash": "a45b4e8d70da7e24a11e882f298e6be36ede771d393ec455f21210557fc7076a",
     "sources": [
       "components/gds/GdsSearch.jsx:434"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1530": {
     "text": "Please wait.",
     "hash": "f14a79f0825807a1e7df9767cf1d07442acb48376ef1f6ea9ebddf51bed530b6",
     "sources": [
       "components/gds/GdsSearch.jsx:435"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1531": {
     "text": "Use Refresh entries to try again.",
     "hash": "6c83798aee2ebeea49c9680390d8576f11bc6d244e2921bafb1f819225f07d29",
     "sources": [
       "components/gds/GdsSearch.jsx:435"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1331": {
     "text": "Try a different search or reset the filters.",
@@ -4701,7 +4720,8 @@
     "hash": "e26c67512ae22dce0e89690c30a5eba6bfed67ffcffcdfd6030ed1d0320dcd3e",
     "sources": [
       "components/gds/GdsSearch.jsx:435"
-    ]
+    ],
+    "retired": false
   },
   "GdsSearch.m1333": {
     "text": "Clear filters",
@@ -5366,14 +5386,16 @@
     "hash": "6c2da95acb0e7ba67f551c302c000820835bfa7c7f980e17d37e6f39a5c2dedd",
     "sources": [
       "components/gds/loadGdsCommands.mjs:9"
-    ]
+    ],
+    "retired": false
   },
   "loadGdsCommands.m1534": {
     "text": "Invalid GDS response",
     "hash": "e67f03641898e9aeebcbfe7b5b7dc2d523f2218ba532d1318e0372877e8e4159",
     "sources": [
       "components/gds/loadGdsCommands.mjs:11"
-    ]
+    ],
+    "retired": false
   },
   "seed.m1410": {
     "text": "Encode",
@@ -5606,7 +5628,7 @@
     "sources": [
       "components/GenieChat.js:215",
       "components/Header.js:31",
-      "components/LanguageSwitcher.js:8"
+      "components/LanguageSwitcher.js:12"
     ],
     "retired": false
   },
@@ -6053,8 +6075,8 @@
     "text": "; Secure",
     "hash": "40744f57fe9e14b8571352a5289a41170c7c0902e448ef13891a9ae391656144",
     "sources": [
-      "components/LanguageSuggest.js:8",
-      "components/LanguageSwitcher.js:10"
+      "components/LanguageSuggest.js:12",
+      "components/LanguageSwitcher.js:14"
     ],
     "retired": false
   },
@@ -6062,7 +6084,7 @@
     "text": "Language suggestion",
     "hash": "cd7107c69bd7ef514fe4b394830e8c10a1caabd0ef171ac9a16748b89f40f82e",
     "sources": [
-      "components/LanguageSuggest.js:23",
+      "components/LanguageSuggest.js:28",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -6071,7 +6093,7 @@
     "text": "View this page in {language}?",
     "hash": "893875c8db0a21d0476909beb9154d0227fc88fe400068f9ddfdf8b56f399a4d",
     "sources": [
-      "components/LanguageSuggest.js:24",
+      "components/LanguageSuggest.js:29",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -6080,7 +6102,7 @@
     "text": "Not now",
     "hash": "a0e63d7c7125d29af84d6919af5550529be77c327324940c98c4b2cb13a99c8c",
     "sources": [
-      "components/LanguageSuggest.js:28",
+      "components/LanguageSuggest.js:33",
       "messages/additional-source.json:1"
     ],
     "retired": false
@@ -6089,7 +6111,7 @@
     "text": "-panel",
     "hash": "68f4e3ae3fbca42ecfb0c59493cc1b8192ebb182fe17ebe3a8cc5f142fa4e5a2",
     "sources": [
-      "components/LanguageSwitcher.js:7"
+      "components/LanguageSwitcher.js:11"
     ],
     "retired": false
   },
@@ -6097,7 +6119,7 @@
     "text": "-search",
     "hash": "c896c7d84348e80cd30f8b939df3e89482e82fab37f66a254284d9c011fc62a2",
     "sources": [
-      "components/LanguageSwitcher.js:7"
+      "components/LanguageSwitcher.js:11"
     ],
     "retired": false
   },
@@ -6105,7 +6127,7 @@
     "text": "Language could not be loaded. Please try again.",
     "hash": "632ce51fe67cc3375ea0eae81c1e15cb3d424f97ce51b02d8508140a11d1ef8b",
     "sources": [
-      "components/LanguageSwitcher.js:10"
+      "components/LanguageSwitcher.js:14"
     ],
     "retired": false
   },
@@ -6113,7 +6135,7 @@
     "text": "Choose website language",
     "hash": "7988b92a76f73cbca6f01c54e74bc1b9b1f84806a02434f0db4599c0276e2733",
     "sources": [
-      "components/LanguageSwitcher.js:12"
+      "components/LanguageSwitcher.js:18"
     ],
     "retired": false
   },
@@ -6121,7 +6143,7 @@
     "text": "Close",
     "hash": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
     "sources": [
-      "components/LanguageSwitcher.js:12"
+      "components/LanguageSwitcher.js:18"
     ],
     "retired": false
   },
@@ -6129,7 +6151,7 @@
     "text": "Search languages or countries",
     "hash": "9564c9cb7cfad01928fc04e9c765caf85a68a2dff8d6a416e99059f9f9e0a00e",
     "sources": [
-      "components/LanguageSwitcher.js:12"
+      "components/LanguageSwitcher.js:18"
     ],
     "retired": false
   },
@@ -6137,7 +6159,7 @@
     "text": "Countries and regions",
     "hash": "bac86cc25339410db5cf7fa8c5bf0fea2642db1717501efa941860d9d2085328",
     "sources": [
-      "components/LanguageSwitcher.js:12"
+      "components/LanguageSwitcher.js:18"
     ],
     "retired": false
   },
@@ -6145,7 +6167,7 @@
     "text": "Available site languages for this market. All languages remain accessible.",
     "hash": "67c268864ce0849523bef70b1af169909fcbb5e0ff65f918d253376e418e6d33",
     "sources": [
-      "components/LanguageSwitcher.js:12"
+      "components/LanguageSwitcher.js:18"
     ],
     "retired": false
   },
@@ -6153,7 +6175,7 @@
     "text": "Show all languages",
     "hash": "ebd10fbf3cb038b4a7355c15c166c2deef946af74a1969b55f51faf5dc9cf501",
     "sources": [
-      "components/LanguageSwitcher.js:12"
+      "components/LanguageSwitcher.js:18"
     ],
     "retired": false
   },
@@ -6161,7 +6183,7 @@
     "text": "No matches found.",
     "hash": "eb82569d8230c86546e83b83df283488983e6bd4a32cb386481081ee6fd66c19",
     "sources": [
-      "components/LanguageSwitcher.js:12"
+      "components/LanguageSwitcher.js:18"
     ],
     "retired": false
   },
@@ -6169,7 +6191,7 @@
     "text": "Loading language…",
     "hash": "42609e39e159a0b8e43640ad10fdb568187b03b69a490d91f0209d9fbead00bd",
     "sources": [
-      "components/LanguageSwitcher.js:12"
+      "components/LanguageSwitcher.js:18"
     ],
     "retired": false
   },
@@ -6336,14 +6358,6 @@
     ],
     "retired": false
   },
-  "ProductCatalogue.m0511": {
-    "text": "In preparation",
-    "hash": "78beb096bbd119dd7c0ec7257c016d2a69d2a67d3a24cc9231e9cc030315c1db",
-    "sources": [
-      "components/ProductCatalogue.js:150"
-    ],
-    "retired": false
-  },
   "ProductCatalogue.m0512": {
     "text": "View details",
     "hash": "d1bf045bb524dae5b02c471c230958bcd1bf232d7a49367b1cdf977855a06b41",
@@ -6478,14 +6492,6 @@
     "hash": "6a0370c82956fba6363562b45dc05d0c75f1d51c47be5880a6b08bd6a4d60a07",
     "sources": [
       "components/StatusBadge.js:5"
-    ],
-    "retired": false
-  },
-  "StatusBadge.m0529": {
-    "text": "Coming soon",
-    "hash": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c",
-    "sources": [
-      "components/StatusBadge.js:6"
     ],
     "retired": false
   },
@@ -12582,6 +12588,22 @@
     ],
     "retired": false
   },
+  "page.m0104": {
+    "text": "Automatic translation",
+    "hash": "2981c4cfc61834eebc953cd1a4fdad54e5e159d85d791031689683b3c102918e",
+    "sources": [
+      "messages/additional-source.json:1"
+    ],
+    "retired": false
+  },
+  "page.m0105": {
+    "text": "In preparation · {percent}% translated",
+    "hash": "569d930f366ca3a898984ff734fb1c5ee713ce8144a5b6f2a71e37fa1bbfca25",
+    "sources": [
+      "messages/additional-source.json:1"
+    ],
+    "retired": false
+  },
   "additionalsource.m1229": {
     "text": "The website first uses the language in the page address. If there is none, it uses the language you chose before, then your browser languages, then your region when the hosting platform provides it, and finally English. Automatic detection only picks languages that are fully translated. You can change the language at any time from the menu at the top.",
     "hash": "ea55822b2baf13b20904760fde374884cb027bd374d0024af2dca42a0cd56c30",
@@ -12661,6 +12683,30 @@
       "messages/additional-source.json:1"
     ],
     "retired": false
+  },
+  "page.m0097": {
+    "text": "Choose from nine configured website languages. See translation readiness and how browser and region language detection works.",
+    "hash": "66237e92f1101054f13b01cf441819b2143fd227fec9de930c9115c27474767c",
+    "sources": [
+      "app/[locale]/languages/page.js:14"
+    ],
+    "retired": true
+  },
+  "page.m0102": {
+    "text": "Travel Genie offers {count} language choices. Full page translations are released after review. Choose the language you prefer; your choice is saved on this device for 180 days.",
+    "hash": "0387e4c19295ac851d900a3ec93a25fdfdfc61d4d3456ae13bf966f89455b1b4",
+    "sources": [
+      "app/[locale]/languages/page.js:29"
+    ],
+    "retired": true
+  },
+  "page.m0107": {
+    "text": "The website first respects an explicit language in the page address and your saved preference. On a first visit it checks your browser language, then your region when the hosting platform provides a trusted country signal, and finally English. Some non-English page catalogs are still awaiting translation and native review; those pages remain out of search indexes until ready. You can change language at any time from the menu.",
+    "hash": "7c45d8c89fea112ca76fe70efbadd62c914cb0fbdcbc63e59336f3adc0cc5465",
+    "sources": [
+      "app/[locale]/languages/page.js:43"
+    ],
+    "retired": true
   },
   "GdsSearch.m1263": {
     "text": "Unclosed CSV quote",

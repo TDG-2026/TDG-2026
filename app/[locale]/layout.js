@@ -1,7 +1,8 @@
 import '../globals.css';
-import {locales, localeInfo} from '@/lib/i18n/config';
+import {locales, codes, localeInfo} from '@/lib/i18n/config';
 import {getCatalog, getClientDictionary} from '@/lib/i18n/catalog';
 import {LocaleProvider, L} from '@/lib/i18n/client';
+import {PUBLISHED_LOCALES} from '@/lib/i18n/published';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import LanguageNotice from '@/components/LanguageNotice';
@@ -14,8 +15,11 @@ import {site} from '@/data/site';
 import {organizationSchema, websiteSchema} from '@/lib/seo';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 
+// Production builds only published languages; development builds all of them for preview.
+const BUILD_LOCALES = process.env.NODE_ENV === 'production' ? PUBLISHED_LOCALES : codes;
+
 export const dynamicParams = false;
-export function generateStaticParams() { return locales.map(({code}) => ({locale: code})); }
+export function generateStaticParams() { return BUILD_LOCALES.map((locale) => ({locale})); }
 export const viewport = {width: 'device-width', initialScale: 1,
   themeColor: [{media: '(prefers-color-scheme: light)', color: '#ffffff'}, {media: '(prefers-color-scheme: dark)', color: '#0a1028'}]};
 export async function generateMetadata() {
@@ -39,7 +43,7 @@ export default async function LocaleLayout({children, params}) {
           <main id="main">{children}</main>
           <Footer />
           <CookieConsent />
-	  <GoogleAnalytics />
+          <GoogleAnalytics />
           <ChatLauncher />
           <SiteTools />
         </LocaleProvider>

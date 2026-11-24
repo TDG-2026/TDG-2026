@@ -1,9 +1,8 @@
-
 import {site, mascot} from '@/data/site';
 import {indexableResources as resources} from '@/data/resources';
 import {heroScreen, tourScreens} from '@/data/screens';
-import {locales, localePath} from '@/lib/i18n/config';
-import {getCatalog} from '@/lib/i18n/catalog';
+import {localePath} from '@/lib/i18n/config';
+import {PUBLISHED_LOCALES} from '@/lib/i18n/published';
 
 const PAGES = [
   ['/', 1, 'weekly'],
@@ -17,7 +16,6 @@ const PAGES = [
   ['/about', 0.5, 'yearly'],
   ['/contact', 0.5, 'yearly'],
   ['/security-and-privacy', 0.5, 'yearly'],
-  ['/languages', 0.4, 'monthly'],
 
   ...resources.map((r) => [
     '/resources/' + r.slug,
@@ -37,30 +35,21 @@ const IMAGES = {
   ].map(abs),
 };
 
-export default async function sitemap() {
-  const published = [];
-
-  for (const l of locales) {
-    if ((await getCatalog(l.code)).published) {
-      published.push(l.code);
-    }
-  }
+export default function sitemap() {
+  // Single source of truth: lib/i18n/published.js
+  const published = PUBLISHED_LOCALES;
 
   const entries = published.flatMap((locale) =>
     PAGES.map(([path, priority, changeFrequency, lastModified]) => ({
       url: site.url + localePath(path, locale),
-
       ...(lastModified ? {lastModified} : {}),
-
       changeFrequency,
       priority,
-
       ...(IMAGES[path] ? {images: IMAGES[path]} : {}),
     }))
   );
 
   // The GDS Search Engine currently indexes only English.
-  // Other locale routes are marked noindex in page metadata.
   if (published.includes('en')) {
     entries.push({
       url: site.url + localePath('/gds-search-engine', 'en'),

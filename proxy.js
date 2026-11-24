@@ -2,6 +2,7 @@ import {NextResponse} from 'next/server.js';
 import {splitPath, localePath, COOKIE} from './lib/i18n/config.js';
 import {resolveLocale, trustedCountry} from './lib/i18n/resolve.js';
 import {availableLocales} from './lib/i18n/available.js';
+import {isPublished} from './lib/i18n/published.js';
 
 const LEGACY_LOCALES = new Set([
   'fa', 'hi', 'bn', 'ne', 'tr', 'ru', 'pt-BR', 'id', 'vi', 'th',
@@ -18,6 +19,12 @@ const ALIASES = {
   '/products/b2b-b2c-travel-portal': '/platform/b2b-b2c-travel-portal',
 };
 
+// CHANGED: only published languages can be chosen automatically
+// (browser language, region or a saved cookie).
+const publishedAvailable = availableLocales.filter((l) =>
+  isPublished(typeof l === 'string' ? l : l.code)
+);
+
 export function proxy(request) {
   const {pathname} = request.nextUrl;
   const firstSegment = pathname.split('/')[1];
@@ -32,6 +39,15 @@ export function proxy(request) {
   }
 
   const {locale, path} = splitPath(pathname);
+
+  // CHANGED: unreviewed languages go to the same page in English.
+  // Temporary (307) because these languages will come back once reviewed.
+  // Skipped in development so you can still preview them with `npm run dev`.
+  if (locale && !isPublished(locale) && process.env.NODE_ENV === 'production') {
+    const url = request.nextUrl.clone();
+    url.pathname = localePath(ALIASES[path] || path, 'en');
+    return NextResponse.redirect(url, 307);
+  }
 
   if (locale) {
     const alias = ALIASES[path];
@@ -49,7 +65,7 @@ export function proxy(request) {
     cookie: request.cookies.get(COOKIE)?.value,
     acceptLanguage: request.headers.get('accept-language') || '',
     country: trustedCountry(request.headers),
-    available: availableLocales,
+    available: publishedAvailable, // CHANGED: was availableLocales
   });
 
   const url = request.nextUrl.clone();
