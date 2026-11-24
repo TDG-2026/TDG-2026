@@ -1181,7 +1181,8 @@
     "hash": "16e040bfc7adc8c928775b987a1397f328fcd3a6684ef0945128bfe10d63f58a",
     "sources": [
       "app/[locale]/languages/page.js:14"
-    ]
+    ],
+    "retired": false
   },
   "page.m0099": {
     "text": "Website languages",
@@ -1217,14 +1218,16 @@
     "hash": "0b65d5e4a59e8e8e51cadde7d65712b8cd84b0d95819f3ae79a96ac39d74c701",
     "sources": [
       "app/[locale]/languages/page.js:30"
-    ]
+    ],
+    "retired": false
   },
   "page.m1537": {
     "text": "Travel Genie is currently available in English. Each new language is released only after a native speaker has reviewed it.",
     "hash": "babd44009c7b873a9e7ad7dbf72a0802e7d441761064560e11d9049fd304cd71",
     "sources": [
       "app/[locale]/languages/page.js:31"
-    ]
+    ],
+    "retired": false
   },
   "page.m0103": {
     "text": "Reviewed",
@@ -1249,7 +1252,8 @@
     "hash": "1509c44b75ec73b476cbb5b0eab4798fbd6bd1a38ae5e51d9b30b74c5143d110",
     "sources": [
       "app/[locale]/languages/page.js:47"
-    ]
+    ],
+    "retired": false
   },
   "ProductCatalogue.m0511": {
     "text": "In preparation",
@@ -1274,7 +1278,8 @@
     "hash": "af2eb5a8d71903580bbe7ab82f88c03172fcbf553e36dfbbce4eef21c204b925",
     "sources": [
       "app/[locale]/languages/page.js:61"
-    ]
+    ],
+    "retired": false
   },
   "layout.m0108": {
     "text": "(prefers-color-scheme: light)",
@@ -7332,22 +7337,19 @@
     ],
     "retired": false
   },
-  "answers.m0635": {
-    "text": "Choose a language",
-    "hash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+  "answers.m1540": {
+    "text": "See upcoming languages",
+    "hash": "e871fa972958d7f5de5cdf5d45ac03ebedca8980ea8c27d82b50ea9fb8c7148c",
     "sources": [
-      "data/answers.js:14",
-      "messages/additional-source.json:1"
-    ],
-    "retired": false
+      "data/answers.js:14"
+    ]
   },
-  "answers.m0636": {
-    "text": "This website is built for more than 80 languages, such as Arabic, Urdu, Hindi, Persian, French, Spanish, Turkish and Chinese. It picks a language from your browser and region. You can change it at any time from the language menu at the top. Your choice is saved on this device.",
-    "hash": "7531f11e3755fa482a545ffa046bad06d581615068f168489b653f44be0d11f1",
+  "answers.m1541": {
+    "text": "The website is currently in English. More languages, such as Urdu and Arabic, are added only after a native speaker has reviewed every page. When a new language is ready, you can choose it from the language menu at the top, and your choice is saved on this device.",
+    "hash": "6f938ebac306eb575243d84438b3488db41c13426dd1426178d5ab760b8fcb4b",
     "sources": [
       "data/answers.js:15"
-    ],
-    "retired": false
+    ]
   },
   "faqs.m0637": {
     "text": "Who is Magic Toolbar for?",
@@ -12683,6 +12685,22 @@
       "messages/additional-source.json:1"
     ],
     "retired": false
+  },
+  "answers.m0635": {
+    "text": "Choose a language",
+    "hash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+    "sources": [
+      "messages/additional-source.json:1"
+    ],
+    "retired": false
+  },
+  "answers.m0636": {
+    "text": "This website is built for more than 80 languages, such as Arabic, Urdu, Hindi, Persian, French, Spanish, Turkish and Chinese. It picks a language from your browser and region. You can change it at any time from the language menu at the top. Your choice is saved on this device.",
+    "hash": "7531f11e3755fa482a545ffa046bad06d581615068f168489b653f44be0d11f1",
+    "sources": [
+      "data/answers.js:15"
+    ],
+    "retired": true
   },
   "page.m0097": {
     "text": "Choose from nine configured website languages. See translation readiness and how browser and region language detection works.",

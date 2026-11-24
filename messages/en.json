@@ -4437,14 +4437,14 @@
       "sourceHash": "917cae5635dc858e70825a44776ceca6d9d2bd2c65fdfc03824cacc112008a53",
       "status": "published"
     },
-    "answers.m0635": {
-      "text": "Choose a language",
-      "sourceHash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+    "answers.m1540": {
+      "text": "See upcoming languages",
+      "sourceHash": "e871fa972958d7f5de5cdf5d45ac03ebedca8980ea8c27d82b50ea9fb8c7148c",
       "status": "published"
     },
-    "answers.m0636": {
-      "text": "This website is built for more than 80 languages, such as Arabic, Urdu, Hindi, Persian, French, Spanish, Turkish and Chinese. It picks a language from your browser and region. You can change it at any time from the language menu at the top. Your choice is saved on this device.",
-      "sourceHash": "7531f11e3755fa482a545ffa046bad06d581615068f168489b653f44be0d11f1",
+    "answers.m1541": {
+      "text": "The website is currently in English. More languages, such as Urdu and Arabic, are added only after a native speaker has reviewed every page. When a new language is ready, you can choose it from the language menu at the top, and your choice is saved on this device.",
+      "sourceHash": "6f938ebac306eb575243d84438b3488db41c13426dd1426178d5ab760b8fcb4b",
       "status": "published"
     },
     "faqs.m0637": {
@@ -7465,6 +7465,16 @@
     "additionalsource.m1238": {
       "text": "Reminders and phone directory",
       "sourceHash": "a0ac8aa39566b192d3d57af827028dc37ad015b34c0bd82f3dfb88f7c760e310",
+      "status": "published"
+    },
+    "answers.m0635": {
+      "text": "Choose a language",
+      "sourceHash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+      "status": "published"
+    },
+    "answers.m0636": {
+      "text": "This website is built for more than 80 languages, such as Arabic, Urdu, Hindi, Persian, French, Spanish, Turkish and Chinese. It picks a language from your browser and region. You can change it at any time from the language menu at the top. Your choice is saved on this device.",
+      "sourceHash": "7531f11e3755fa482a545ffa046bad06d581615068f168489b653f44be0d11f1",
       "status": "published"
     },
     "page.m0097": {

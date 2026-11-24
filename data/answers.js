@@ -11,6 +11,6 @@ export const answers = [
    a: 'Magic Toolbar costs $30 a month or $220 a year. The yearly plan saves you $140. Ask us for the lifetime price. You can start with a 3-day trial from the download page. Our team then turns it on for each Windows PC on your plan.'},
   {id: 'data-safety', q: 'Is passenger data safe with Magic Toolbar?', link: {href: '/security-and-privacy', label: 'Read how we handle data'},
    a: 'Passport reading and photo editing run on your own PC. Family records you save are locked to your Windows account with Windows DPAPI. Only the translator sends text online, and only the text you pick. This website never asks you to upload a passport.'},
-  {id: 'languages', q: 'Which languages does the Travel Genie website support?', link: {href: '/languages', label: 'Choose a language'},
-   a: 'This website is built for more than 80 languages, such as Arabic, Urdu, Hindi, Persian, French, Spanish, Turkish and Chinese. It picks a language from your browser and region. You can change it at any time from the language menu at the top. Your choice is saved on this device.'},
+  {id: 'languages', q: 'Which languages does the Travel Genie website support?', link: {href: '/languages', label: 'See upcoming languages'},
+   a: 'The website is currently in English. More languages, such as Urdu and Arabic, are added only after a native speaker has reviewed every page. When a new language is ready, you can choose it from the language menu at the top, and your choice is saved on this device.'},
 ];
