@@ -5557,9 +5557,9 @@
       "sourceHash": "ee965cb6a137368212b31f729d6ea8c788f7a3c39d2d4055b92c9aa599753b86",
       "status": "published"
     },
-    "resources.m0839": {
-      "text": "A practical Amadeus cheat sheet for travel agents: availability, booking, names, contacts, pricing and decoding commands, each with a ready example.",
-      "sourceHash": "25659a664d44d8170a5e0ec6cba08fa6f5eeedd258c6529a80e86a554e117347",
+    "resources.m1611": {
+      "text": "Amadeus commands notes for travel agents: availability, booking, names, contacts, pricing and decoding, each with an example. Free PDF download.",
+      "sourceHash": "b38106e9977f3300c9fa010324580fd25761e69e4386e7a9024d357eefeaf56d",
       "status": "published"
     },
     "resources.m0840": {
@@ -5687,6 +5687,16 @@
       "sourceHash": "91f8354adff4405859a72c47fd770c4df44f384c1a5c4bc323c93a9e33afc2d1",
       "status": "published"
     },
+    "resources.m1612": {
+      "text": "Can I download these Amadeus notes as a PDF?",
+      "sourceHash": "44b5647da7ccb340012b6ca796ba1fcb28a8c0383791d06c3c390cacdaf6c1b7",
+      "status": "published"
+    },
+    "resources.m1613": {
+      "text": "Yes. The Amadeus Commands Notes PDF at the top of this page is free, with no sign-up. Keep it open beside your GDS or print it for training. To compare any Amadeus entry with its Travelport Galileo and Sabre format, use the free All GDS Search Engine linked below.",
+      "sourceHash": "e336c78d94f72df9759df5c83775f7c0fbf74cf95bab03ac4cc520047fdef401",
+      "status": "published"
+    },
     "resources.m0865": {
       "text": "How can I keep these notes one key away?",
       "sourceHash": "4ae30758e83acbb216028d33bb258fc6b2b4e46129d1af477d68790680a98211",
@@ -5702,9 +5712,9 @@
       "sourceHash": "8173fa5029a028a9cdc74e33f5149c1a89aec44af295f7554f992d322f0aec91",
       "status": "published"
     },
-    "resources.m0868": {
-      "text": "A practical Travelport Galileo cheat sheet for travel agents: availability, booking, names, phone, pricing and decoding commands, each with a ready example.",
-      "sourceHash": "e7c2e7fff8fe7729f0468051391ae2098d01914d142d77749ecd4ce7ec855ec5",
+    "resources.m1614": {
+      "text": "Travelport Galileo commands notes for travel agents: availability, booking, names, phone, pricing and decoding, each with an example. Free PDF download.",
+      "sourceHash": "86a3a8852e264e53c63f3afdfcc25a56dd961387e6af76de80bd135363f0710e",
       "status": "published"
     },
     "resources.m0869": {
@@ -5777,14 +5787,24 @@
       "sourceHash": "92ab269315dcb65dbf7d8f89390bf31878d8a206c1d7e7ef39867ea53a71ab5d",
       "status": "published"
     },
+    "resources.m1615": {
+      "text": "Can I download these Travelport Galileo notes as a PDF?",
+      "sourceHash": "f9569c81c20349700e4b9db425e8ea1fc57ba6d64c6190186c961f4119fdc003",
+      "status": "published"
+    },
+    "resources.m1616": {
+      "text": "Yes. The Travelport Galileo Commands Notes PDF at the top of this page is free, with no sign-up. Keep it open beside your GDS or print it for training. To compare any Galileo entry with its Amadeus and Sabre format, use the free All GDS Search Engine linked below.",
+      "sourceHash": "bfca768ee5f689d87a4c21abf1b1c171527ee8915cc737466249322fccd7dfdb",
+      "status": "published"
+    },
     "resources.m0883": {
       "text": "Sabre Commands Notes: Travel Agent Cheat Sheet",
       "sourceHash": "799a25f0714fb6294b63f9edfc25b52a539fd5c4df601eaf83059832a6ae1c66",
       "status": "published"
     },
-    "resources.m0884": {
-      "text": "A practical Sabre cheat sheet for travel agents: availability, booking, names, phone, pricing and decoding commands, each with a ready example.",
-      "sourceHash": "9f04abc93a0d80e202bd2ea90b24a9f7268810f73d8f10b2cdd73df7cf2cc1fc",
+    "resources.m1617": {
+      "text": "Sabre commands notes for travel agents: availability, booking, names, phone, pricing and decoding, each with an example. Free PDF download.",
+      "sourceHash": "cf7b5f32aa617020769cdcab97c2150a862f490c74bf3f51e0b68299c42ad9d7",
       "status": "published"
     },
     "resources.m0885": {
@@ -5850,6 +5870,16 @@
     "resources.m0897": {
       "text": "Where are the Sabre passenger entries?",
       "sourceHash": "93d443a5955bd9d823bb61d8da91c4a81c0aedcfdfdf691acf9558d4d838a858",
+      "status": "published"
+    },
+    "resources.m1618": {
+      "text": "Can I download these Sabre notes as a PDF?",
+      "sourceHash": "f77fbaef4cbcb44fd95ca0f1b33bd43ea881f7433394762a3c6eefe92e67ac00",
+      "status": "published"
+    },
+    "resources.m1619": {
+      "text": "Yes. The Sabre Commands Notes PDF at the top of this page is free, with no sign-up. Keep it open beside your GDS or print it for training. To compare any Sabre entry with its Amadeus and Travelport Galileo format, use the free All GDS Search Engine linked below.",
+      "sourceHash": "d0ca99b08da251f9df33695465ea2b57509d4c73f4023fb17df5edf677592882",
       "status": "published"
     },
     "resources.m0898": {
@@ -7575,6 +7605,21 @@
     "answers.m0635": {
       "text": "Choose a language",
       "sourceHash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+      "status": "published"
+    },
+    "resources.m0839": {
+      "text": "A practical Amadeus cheat sheet for travel agents: availability, booking, names, contacts, pricing and decoding commands, each with a ready example.",
+      "sourceHash": "25659a664d44d8170a5e0ec6cba08fa6f5eeedd258c6529a80e86a554e117347",
+      "status": "published"
+    },
+    "resources.m0868": {
+      "text": "A practical Travelport Galileo cheat sheet for travel agents: availability, booking, names, phone, pricing and decoding commands, each with a ready example.",
+      "sourceHash": "e7c2e7fff8fe7729f0468051391ae2098d01914d142d77749ecd4ce7ec855ec5",
+      "status": "published"
+    },
+    "resources.m0884": {
+      "text": "A practical Sabre cheat sheet for travel agents: availability, booking, names, phone, pricing and decoding commands, each with a ready example.",
+      "sourceHash": "9f04abc93a0d80e202bd2ea90b24a9f7268810f73d8f10b2cdd73df7cf2cc1fc",
       "status": "published"
     },
     "page.m1250": {

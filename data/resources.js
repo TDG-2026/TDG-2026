@@ -69,8 +69,9 @@ const allResources = [
 
 {slug: 'amadeus-commands-notes',
  title: 'Amadeus Commands Notes: Travel Agent Cheat Sheet',
- description: 'A practical Amadeus cheat sheet for travel agents: availability, booking, names, contacts, pricing and decoding commands, each with a ready example.',
+ description: 'Amadeus commands notes for travel agents: availability, booking, names, contacts, pricing and decoding, each with an example. Free PDF download.',
  category: 'GDS workflows',
+ updated: '2026-11-25',
  sections: [
   ['What are Amadeus command notes?', 'Amadeus command notes are a short list of the entries a travel agent uses every day: checking seats, booking, adding names and contacts, pricing and saving. This cheat sheet groups the most common commands by task, with an example for each one you can copy and adapt.'],
   ['Which Amadeus commands build a booking?', 'A booking needs flights, names, a contact, a ticketing arrangement and a received-from line before you save it. Check availability with AN, sell seats with SS, then add each element. End and save the booking with ER, which also shows the record again.',
@@ -95,14 +96,16 @@ const allResources = [
      ['Decode an airline', 'DNA', 'DNA EK'],
      ['Help on a command', 'HE', 'HE FXP']]}}],
   ['Where are the Amadeus passenger entries?', 'Name, passport and contact entries have their own detailed guides with examples for adults, children and infants. In short: names use NM, passport details use SRDOCS and contacts use SRCTCM and SRCTCE. Follow the related guides below for the full formats and checks.'],
+  ['Can I download these Amadeus notes as a PDF?', 'Yes. The Amadeus Commands Notes PDF at the top of this page is free, with no sign-up. Keep it open beside your GDS or print it for training. To compare any Amadeus entry with its Travelport Galileo and Sabre format, use the free All GDS Search Engine linked below.'],
   ['How can I keep these notes one key away?', 'Magic Toolbar keeps command notes for Amadeus, Travelport and Sabre in one place on Windows. Its GDS decode search helps you look up codes quickly, and you can save your own entries to F1–F12 keys. Notes are a reference, so always check the response in your GDS.']
  ],
  related: ['adult-child-infant-name-entry-gds', 'passport-docs-ctcm-ctce-gds', 'ctcm-ctce-passenger-contacts', 'travelport-galileo-commands-notes', 'sabre-commands-notes']},
 
 {slug: 'travelport-galileo-commands-notes',
  title: 'Travelport Galileo Commands Notes: Cheat Sheet',
- description: 'A practical Travelport Galileo cheat sheet for travel agents: availability, booking, names, phone, pricing and decoding commands, each with a ready example.',
+ description: 'Travelport Galileo commands notes for travel agents: availability, booking, names, phone, pricing and decoding, each with an example. Free PDF download.',
  category: 'GDS workflows',
+ updated: '2026-11-25',
  sections: [
   ['What are Travelport Galileo command notes?', 'Travelport Galileo command notes are a short list of the entries a travel agent uses every day: checking seats, booking, adding names and contacts, pricing and saving. This cheat sheet groups the most common Galileo commands by task, with an example for each one.'],
   ['Which Galileo commands build a booking?', 'A Galileo booking needs flights, names, a phone field, a ticketing arrangement and a received-from line. Check availability with A, sell seats from the display, then add N. for names, P. for phone, T. for ticketing and R. for received. Save with ER.',
@@ -124,14 +127,16 @@ const allResources = [
      ['Decode a city', '.CD', '.CDKHI'],
      ['Decode an airline', '.AD', '.ADEK']]}}],
   ['Where are the Galileo passenger entries?', 'Name, passport and contact entries have their own detailed guides with examples for adults, children and infants. In short: names use N., passport details use SI.P1/SSRDOCS and contacts use SI.P1/SSRCTCM and SI.P1/SSRCTCE. Follow the related guides below for the full formats.'],
+  ['Can I download these Travelport Galileo notes as a PDF?', 'Yes. The Travelport Galileo Commands Notes PDF at the top of this page is free, with no sign-up. Keep it open beside your GDS or print it for training. To compare any Galileo entry with its Amadeus and Sabre format, use the free All GDS Search Engine linked below.'],
   ['How can I keep these notes one key away?', 'Magic Toolbar keeps command notes for Amadeus, Travelport and Sabre in one place on Windows. Its GDS decode search helps you look up codes quickly, and you can save your own entries to F1–F12 keys. Notes are a reference, so always check the response in your GDS.']
  ],
  related: ['adult-child-infant-name-entry-gds', 'passport-docs-ctcm-ctce-gds', 'ctcm-ctce-passenger-contacts', 'amadeus-commands-notes', 'sabre-commands-notes']},
 
 {slug: 'sabre-commands-notes',
  title: 'Sabre Commands Notes: Travel Agent Cheat Sheet',
- description: 'A practical Sabre cheat sheet for travel agents: availability, booking, names, phone, pricing and decoding commands, each with a ready example.',
+ description: 'Sabre commands notes for travel agents: availability, booking, names, phone, pricing and decoding, each with an example. Free PDF download.',
  category: 'GDS workflows',
+ updated: '2026-11-25',
  sections: [
   ['What are Sabre command notes?', 'Sabre command notes are a short list of the entries a travel agent uses every day: checking seats, booking, adding names and contacts, pricing and saving. This cheat sheet groups the most common Sabre commands by task, with an example for each one you can copy and adapt.'],
   ['Which Sabre commands build a booking?', 'A Sabre booking needs flights, names, a phone field, a ticketing arrangement and a received-from line. Check availability with 1, sell seats with 0, then add names with a hyphen, phone with 9, ticketing with 7 and received with 6. Save with ER.',
@@ -154,6 +159,7 @@ const allResources = [
      ['Decode a city', 'W/*', 'W/*KHI'],
      ['Decode an airline', 'W/*', 'W/*EK']]}}],
   ['Where are the Sabre passenger entries?', 'Name, passport and contact entries have their own detailed guides with examples for adults, children and infants. In short: names start with a hyphen, passport details use 3DOCS and contacts use 3CTCM and 3CTCE. Follow the related guides below for the full formats and checks.'],
+  ['Can I download these Sabre notes as a PDF?', 'Yes. The Sabre Commands Notes PDF at the top of this page is free, with no sign-up. Keep it open beside your GDS or print it for training. To compare any Sabre entry with its Amadeus and Travelport Galileo format, use the free All GDS Search Engine linked below.'],
   ['How can I keep these notes one key away?', 'Magic Toolbar keeps command notes for Amadeus, Travelport and Sabre in one place on Windows. Its GDS decode search helps you look up codes quickly, and you can save your own entries to F1–F12 keys. Notes are a reference, so always check the response in your GDS.']
  ],
  related: ['adult-child-infant-name-entry-gds', 'passport-docs-ctcm-ctce-gds', 'ctcm-ctce-passenger-contacts', 'amadeus-commands-notes', 'travelport-galileo-commands-notes']},
