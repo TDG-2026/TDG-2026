@@ -1,5 +1,8 @@
 import Link from 'next/link';
 
+import PdfDownloadCard from '../PdfDownloadCard';
+import { GDS_PDF_LIST } from '@/data/gdsPdfs';
+import { groupByCategory } from '@/lib/gds/getPublishedCommands';
 import styles from './GdsSeoContent.module.css';
 
 const storeUrl =
@@ -8,10 +11,20 @@ const storeUrl =
 const youtubeUrl =
   'https://www.youtube.com/channel/UCXcwiBG0ojtQK3M0UEZ8Lqw';
 
+const SYSTEMS = [
+  ['travelport', 'Travelport', 'thTravelport'],
+  ['amadeus', 'Amadeus', 'thAmadeus'],
+  ['sabre', 'Sabre', 'thSabre'],
+];
+
 export const faqs = [
   [
     'What is the Travel Desk Genie All GDS Search Engine?',
     'It is a searchable reference library for finding and comparing stored Amadeus, Travelport/Galileo and Sabre commands. It does not connect to or execute transactions in a live GDS.',
+  ],
+  [
+    'Where can I find Amadeus, Sabre and Travelport notes?',
+    'This page lists GDS notes for Amadeus, Travelport/Galileo and Sabre side by side, grouped by category, and offers a free notes PDF for each system. Each GDS also has its own online notes guide with examples.',
   ],
   [
     'How do I find and compare GDS commands?',
@@ -30,16 +43,18 @@ export const faqs = [
     'No. The search engine is a reference and comparison tool. Searching or copying a command does not send passenger details to an airline or modify a PNR. Do not enter real passenger information into the public search field.',
   ],
   [
-    'Where can I learn to use Travel Genie Magic Toolbar?',
+    'Where can I learn to use Travel Desk Genie Magic Toolbar?',
     'Visit the Travel Desk Genie video tutorials channel for product demonstrations and training. The Windows Magic Toolbar is a separate desktop application available through its Microsoft Store listing.',
   ],
   [
-    'Are GDS command reference PDFs available to download?',
-    'Dedicated Amadeus, Travelport/Galileo and Sabre reference PDFs are planned. Download links will be added only after the documents have been reviewed and published.',
+    'Are GDS command notes available as PDF downloads?',
+    'Yes. Free Amadeus, Travelport/Galileo and Sabre command notes are available as PDF downloads on this page and on each GDS notes guide. They are educational references, so verify every command in your current GDS before use.',
   ],
 ];
 
-export default function GdsSeoContent({ locale = 'en' }) {
+export default function GdsSeoContent({ locale = 'en', commands = [] }) {
+  const groups = groupByCategory(commands);
+
   return (
     <div className={styles.content}>
 
@@ -100,7 +115,7 @@ export default function GdsSeoContent({ locale = 'en' }) {
               reservation, ticketing, hotel and passenger-information
               tasks. Confirm syntax against your current Amadeus environment.
             </p>
-            <p><Link href={`/${locale}/resources/amadeus-commands-notes`}>Read the Amadeus commands cheat sheet →</Link></p>
+            <p><Link href={`/${locale}/resources/amadeus-commands-notes`}>Read the Amadeus commands notes →</Link></p>
           </article>
 
           <article>
@@ -110,7 +125,7 @@ export default function GdsSeoContent({ locale = 'en' }) {
               including Smartpoint-related workflows and passenger
               information. Host capabilities and formats may vary.
             </p>
-            <p><Link href={`/${locale}/resources/travelport-galileo-commands-notes`}>Read the Travelport Galileo commands cheat sheet →</Link></p>
+            <p><Link href={`/${locale}/resources/travelport-galileo-commands-notes`}>Read the Travelport Galileo commands notes →</Link></p>
           </article>
 
           <article>
@@ -120,10 +135,75 @@ export default function GdsSeoContent({ locale = 'en' }) {
               travel-agency workflows, then verify them against
               the applicable host and airline instructions.
             </p>
-            <p><Link href={`/${locale}/resources/sabre-commands-notes`}>Read the Sabre commands cheat sheet →</Link></p>
+            <p><Link href={`/${locale}/resources/sabre-commands-notes`}>Read the Sabre commands notes →</Link></p>
           </article>
         </div>
       </section>
+
+      {groups.length > 0 && (
+        <section aria-labelledby="gds-all-notes">
+          <h2 id="gds-all-notes">
+            Complete GDS notes by category: Amadeus, Travelport and Sabre
+          </h2>
+
+          <p className={styles.catIntro}>
+            All {commands.length} published entries across {groups.length}{' '}
+            categories, with the Travelport, Amadeus and Sabre format for
+            each task in one row. Open a category to see its commands.
+            A dash means no reference has been supplied for that system yet.
+          </p>
+
+          <div className={styles.catList}>
+            {groups.map(({ category, items }) => (
+              <details key={category} className={styles.cat}>
+                <summary>
+                  <span>{category} commands</span>
+                  <span className={styles.count}>{items.length}</span>
+                </summary>
+
+                <div className={styles.tableWrap}>
+                  <table className={styles.cmdTable}>
+                    <caption className={styles.srOnly}>
+                      {category} commands in Travelport, Amadeus and Sabre
+                    </caption>
+                    <thead>
+                      <tr>
+                        <th scope="col">Task</th>
+                        {SYSTEMS.map(([key, label, cls]) => (
+                          <th key={key} scope="col" className={styles[cls]}>
+                            {label}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {items.map((row) => (
+                        <tr key={row.id}>
+                          <th scope="row">{row.topic}</th>
+                          {SYSTEMS.map(([key, label]) => (
+                            <td key={key}>
+                              {row[key] ? (
+                                <code dir="ltr" translate="no">{row[key]}</code>
+                              ) : (
+                                <span
+                                  className={styles.none}
+                                  aria-label={`${label}: not supplied`}
+                                >
+                                  —
+                                </span>
+                              )}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section aria-labelledby="gds-passport">
         <h2 id="gds-passport">
@@ -181,49 +261,26 @@ export default function GdsSeoContent({ locale = 'en' }) {
 
       <section aria-labelledby="gds-notes">
         <h2 id="gds-notes">
-          Amadeus, Galileo and Sabre command notes
+          Download Amadeus, Galileo and Sabre command notes (PDF)
         </h2>
 
         <p>
-          Dedicated PDF reference notes are planned for each platform.
-          Files will be linked here only after they have been supplied,
-          reviewed and published. In the meantime, use the searchable
-          command references above.
+          Free printable GDS notes for each system. Keep them open beside
+          your GDS, share them with trainees, or print them for your desk.
+          Each PDF is an educational reference, so verify commands in your
+          current GDS before use.
         </p>
 
-        <div className={styles.grid}>
-          <article>
-            <h3>Amadeus notes</h3>
-            <p>
-              Planned reference notes for Amadeus commands
-              and passenger-information workflows.
-            </p>
-            <span className={styles.pending}>
-              PDF pending verification
-            </span>
-          </article>
-
-          <article>
-            <h3>Travelport / Galileo notes</h3>
-            <p>
-              Planned references for Travelport, Galileo
-              and Smartpoint workflows.
-            </p>
-            <span className={styles.pending}>
-              PDF pending verification
-            </span>
-          </article>
-
-          <article>
-            <h3>Sabre notes</h3>
-            <p>
-              Planned Sabre command and passenger-information
-              reference notes.
-            </p>
-            <span className={styles.pending}>
-              PDF pending verification
-            </span>
-          </article>
+        <div className={styles.pdfGrid}>
+          {GDS_PDF_LIST.map((pdf) => (
+            <PdfDownloadCard
+              key={pdf.slug}
+              pdf={pdf}
+              variant="stacked"
+              headingTag="h3"
+              guideHref={`/${locale}/resources/${pdf.slug}`}
+            />
+          ))}
         </div>
       </section>
 
@@ -237,11 +294,11 @@ export default function GdsSeoContent({ locale = 'en' }) {
           </span>
 
           <h2 id="gds-training">
-            Travel Genie Magic Toolbar tutorials and product training
+            Travel Desk Genie Magic Toolbar tutorials and product training
           </h2>
 
           <p>
-            Travel Genie Magic Toolbar helps prepare passenger
+            Travel Desk Genie Magic Toolbar helps prepare passenger
             NAME, DOCS, CTCM and CTCE entries for review and copying.
             It is separate from the web search engine and does not
             execute live GDS transactions. Explore video tutorials
@@ -253,7 +310,7 @@ export default function GdsSeoContent({ locale = 'en' }) {
             href={storeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Get Travel Genie Magic Toolbar from Microsoft Store (opens in a new tab)"
+            aria-label="Get Travel Desk Genie Magic Toolbar from Microsoft Store (opens in a new tab)"
           >
             <span className={styles.storeIcon} aria-hidden="true">
               ▦
@@ -310,17 +367,17 @@ export default function GdsSeoContent({ locale = 'en' }) {
 
         <p>
           Looking for more travel-agent information? Explore our{' '}
-          <a href={`/${locale}/resources`}>
+          <Link href={`/${locale}/resources`}>
             travel-agent resources
-          </a>
+          </Link>
           , learn about the{' '}
-          <a href={`/${locale}/products/magic-toolbar`}>
+          <Link href={`/${locale}/products/magic-toolbar`}>
             Magic Toolbar
-          </a>
+          </Link>
           , or{' '}
-          <a href={`/${locale}/contact`}>
+          <Link href={`/${locale}/contact`}>
             contact Travel Desk Genie
-          </a>
+          </Link>
           .
         </p>
       </section>

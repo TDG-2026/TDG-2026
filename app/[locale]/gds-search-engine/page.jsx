@@ -1,17 +1,20 @@
-
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import GdsSearch from '../../../components/gds/GdsSearch';
 import GdsSeoContent, { faqs } from '../../../components/gds/GdsSeoContent';
+import { getPublishedCommands } from '../../../lib/gds/getPublishedCommands';
 import { absolute, breadcrumbs, pageMeta, webPageSchema } from '../../../lib/seo';
+
+// Rebuild this page from Supabase at most once per hour.
+export const revalidate = 3600;
 
 const locales = ['en', 'ar', 'de', 'es', 'fr', 'it', 'nl', 'ps', 'ur'];
 const route = '/gds-search-engine';
 
-const title = 'GDS Commands Search Engine | Amadeus, Sabre & Galileo';
+const title = 'GDS Notes & Commands: Amadeus, Travelport & Sabre Compared';
 
 const description =
-  'Search and compare Amadeus, Sabre and Travelport/Galileo GDS commands. Explore reservation, ticketing, hotel, passport DOCS and contact SSR references.';
+  'Free GDS notes: search and compare Amadeus, Travelport/Galileo and Sabre commands side by side, and download Amadeus, Galileo and Sabre notes PDFs.';
 
 const relatedGuides = [
   {
@@ -39,22 +42,22 @@ const relatedGuides = [
     slug: 'amadeus-commands-notes',
     title: 'Amadeus Commands Notes and Cheat Sheet',
     description:
-      'Explore Amadeus availability, booking, passenger details, pricing and decoding command examples.',
-    category: 'Amadeus commands',
+      'Explore Amadeus availability, booking, passenger details, pricing and decoding command examples, plus a free PDF.',
+    category: 'Amadeus notes',
   },
   {
     slug: 'travelport-galileo-commands-notes',
-    title: 'Travelport Galileo Commands Cheat Sheet',
+    title: 'Travelport Galileo Commands Notes and Cheat Sheet',
     description:
-      'Review Travelport Galileo commands for availability, reservations, passenger entries, pricing and decoding.',
-    category: 'Travelport/Galileo commands',
+      'Review Travelport Galileo commands for availability, reservations, passenger entries, pricing and decoding, plus a free PDF.',
+    category: 'Travelport/Galileo notes',
   },
   {
     slug: 'sabre-commands-notes',
     title: 'Sabre Commands Notes and Cheat Sheet',
     description:
-      'Find Sabre command examples for reservations, passenger details, fare pricing and decoding.',
-    category: 'Sabre commands',
+      'Find Sabre command examples for reservations, passenger details, fare pricing and decoding, plus a free PDF.',
+    category: 'Sabre notes',
   },
 ];
 
@@ -84,29 +87,31 @@ export default async function Page({ params }) {
 
   if (!locales.includes(locale)) notFound();
 
+  const commands = await getPublishedCommands();
+
   const url = absolute(`/${locale}${route}`);
 
   const page = {
-  ...webPageSchema({
-    locale,
-    path: route,
-    name: 'Travel Desk Genie All GDS Search Engine',
-    description,
-  }),
-  url,
-  '@id': `${url}#webpage`,
-  mainEntity: { '@id': `${url}#search-tool` },
-  about: [
-    {
-      '@type': 'Thing',
-      name: 'Global Distribution System (GDS) commands',
-    },
-    {
-      '@type': 'Thing',
-      name: 'Amadeus, Sabre and Travelport/Galileo command comparison',
-    },
-  ],
-};
+    ...webPageSchema({
+      locale,
+      path: route,
+      name: 'All GDS Notes & Commands Search Engine',
+      description,
+    }),
+    url,
+    '@id': `${url}#webpage`,
+    mainEntity: { '@id': `${url}#search-tool` },
+    about: [
+      {
+        '@type': 'Thing',
+        name: 'Global Distribution System (GDS) commands',
+      },
+      {
+        '@type': 'Thing',
+        name: 'Amadeus, Sabre and Travelport/Galileo command comparison',
+      },
+    ],
+  };
 
   const graph = [
     page,
@@ -156,9 +161,9 @@ export default async function Page({ params }) {
 
   return (
     <>
-      <GdsSearch />
+      <GdsSearch initialEntries={commands} />
 
-      <GdsSeoContent locale={locale} />
+      <GdsSeoContent locale={locale} commands={commands} />
 
       {/* Related GDS guides — contextual internal links */}
       <section

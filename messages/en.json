@@ -272,14 +272,14 @@
       "sourceHash": "437d0d63bfbd97326878414b17d443b5cf971bb426262793732682a828c0a442",
       "status": "published"
     },
-    "page.m1250": {
-      "text": "GDS Commands Search Engine | Amadeus, Sabre & Galileo",
-      "sourceHash": "8e19f533a3a72a4d2e2013cb4b7e63ba1999e3e18b9df7b6cfe54b56897b8695",
+    "page.m1563": {
+      "text": "GDS Notes & Commands: Amadeus, Travelport & Sabre Compared",
+      "sourceHash": "5fd1787cbc205119015c2d06c1f2c57782030ef0997a49dc075d5114625d2da4",
       "status": "published"
     },
-    "page.m1251": {
-      "text": "Search and compare Amadeus, Sabre and Travelport/Galileo GDS commands. Explore reservation, ticketing, hotel, passport DOCS and contact SSR references.",
-      "sourceHash": "6d976884fe6c5dde2b84002ebbee53256d03fa2f8ea6ee52872269bf7f4bab97",
+    "page.m1564": {
+      "text": "Free GDS notes: search and compare Amadeus, Travelport/Galileo and Sabre commands side by side, and download Amadeus, Galileo and Sabre notes PDFs.",
+      "sourceHash": "9e15530d0ab22b1bc24496c5617c57850406cc2934feea1bdd4e468ad3ecb19d",
       "status": "published"
     },
     "resources.m0772": {
@@ -332,29 +332,29 @@
       "sourceHash": "06a9791e748b32cc3db2bc45d3a46a85d983f1f88f0afe5230e115db7ecc72d0",
       "status": "published"
     },
-    "page.m1435": {
-      "text": "Explore Amadeus availability, booking, passenger details, pricing and decoding command examples.",
-      "sourceHash": "58adff5d0afa3136431a4b50b23216ccfdc342047d7204431ce8d00110ebd943",
+    "page.m1565": {
+      "text": "Explore Amadeus availability, booking, passenger details, pricing and decoding command examples, plus a free PDF.",
+      "sourceHash": "9d60ebbacdf0541b601c20d937d70743fd2145f01700e63c7b535fdea2c018a7",
       "status": "published"
     },
-    "page.m1436": {
-      "text": "Amadeus commands",
-      "sourceHash": "24e6ac7122efda12f91876665050290a6cdb7a5d86a120c2d9899dc4776591bf",
+    "GdsSeoContent.m1389": {
+      "text": "Amadeus notes",
+      "sourceHash": "94ee385d46834fd19661cdb0c75efdd1ebe69289ea799a8b97f7111296edf672",
       "status": "published"
     },
-    "page.m1437": {
-      "text": "Travelport Galileo Commands Cheat Sheet",
-      "sourceHash": "42134be40c782b0af6be233053e2842cb9e6640b89d65aad7c611ad3acea8024",
+    "page.m1566": {
+      "text": "Travelport Galileo Commands Notes and Cheat Sheet",
+      "sourceHash": "73353c0af54b813aec0e9da2867c2f8a550e05cf4b9f31dec8c081616e904d02",
       "status": "published"
     },
-    "page.m1438": {
-      "text": "Review Travelport Galileo commands for availability, reservations, passenger entries, pricing and decoding.",
-      "sourceHash": "a97574c6e4b48b16dd4d6f5c0590f78658a4c77a0932a868d10a7765afd0277a",
+    "page.m1567": {
+      "text": "Review Travelport Galileo commands for availability, reservations, passenger entries, pricing and decoding, plus a free PDF.",
+      "sourceHash": "4281b6455cbe9df8777e98915c2c2ef5c9c2b78f4049a94b3d2a1dc400e59315",
       "status": "published"
     },
-    "page.m1439": {
-      "text": "Travelport/Galileo commands",
-      "sourceHash": "cde8eae5e04edb1e59cca93747b0115486399751d194471e3d62e8f872a39658",
+    "page.m1568": {
+      "text": "Travelport/Galileo notes",
+      "sourceHash": "38feac413fe296aaa5fa5207600039497d49b8d12ee44640ac632d5d6e760f75",
       "status": "published"
     },
     "page.m1440": {
@@ -362,14 +362,14 @@
       "sourceHash": "5e3c463e1b0318827688f75d7db760226fd78a1b5cef5ef3236365d97d4e42fd",
       "status": "published"
     },
-    "page.m1441": {
-      "text": "Find Sabre command examples for reservations, passenger details, fare pricing and decoding.",
-      "sourceHash": "2a725c5f0fea6bd70a6269dd3c0124d3485002cb9e203b9732478eed6fbf678c",
+    "page.m1569": {
+      "text": "Find Sabre command examples for reservations, passenger details, fare pricing and decoding, plus a free PDF.",
+      "sourceHash": "8a5544ee12bd3a8d95d0788d23701b2b6bfa3ae5b34d33affa88b8362c1f36f6",
       "status": "published"
     },
-    "page.m1442": {
-      "text": "Sabre commands",
-      "sourceHash": "a732cb7a298523713e98ffa909143a4db696639e4677995cdb5cd991a82d1f4c",
+    "GdsSeoContent.m1394": {
+      "text": "Sabre notes",
+      "sourceHash": "f1443dc9d01645d1bf50588c9b3f0b4acd3ff084548f689cd45a19a0e56f7e3c",
       "status": "published"
     },
     "site.m1147": {
@@ -377,9 +377,9 @@
       "sourceHash": "56ddcee628252b1ff012fc7044ef8342fb08464c7781d86e4e1c231d473d8b3b",
       "status": "published"
     },
-    "page.m1252": {
-      "text": "Travel Desk Genie All GDS Search Engine",
-      "sourceHash": "6bc386b003b581b05060c7e2f1bc0c5a0df6cf9154decc1b55b4df9636b85ea2",
+    "page.m1570": {
+      "text": "All GDS Notes & Commands Search Engine",
+      "sourceHash": "fb8961a5a5bbbafbacc2a8c8ca99617b30609a2d37b0c677a8f92aadcbf0a807",
       "status": "published"
     },
     "page.m1253": {
@@ -410,6 +410,11 @@
     "page.m1257": {
       "text": "WebApplication",
       "sourceHash": "cb958479f1f201e367aed1aa76a2022e30dde66430099d7557001bd29dddd2f0",
+      "status": "published"
+    },
+    "page.m1252": {
+      "text": "Travel Desk Genie All GDS Search Engine",
+      "sourceHash": "6bc386b003b581b05060c7e2f1bc0c5a0df6cf9154decc1b55b4df9636b85ea2",
       "status": "published"
     },
     "page.m1258": {
@@ -2632,14 +2637,14 @@
       "sourceHash": "d9921ddf1e1f2af252f9670d5ddb1db059c445e8a4fdd88ab1d0d559d36cdf95",
       "status": "published"
     },
-    "GdsSearch.m1280": {
-      "text": "GDS COMMAND REFERENCE & COMPARISON",
-      "sourceHash": "e184130a81bc41220b9e97b218623a05c989f6b6812fb4b7e5da6b434071fb55",
+    "GdsSearch.m1571": {
+      "text": "GDS NOTES & COMMAND COMPARISON",
+      "sourceHash": "a832401c1f2c9046dbb153b675fdea205c60e226ba98aee6052eef792c8f5901",
       "status": "published"
     },
-    "GdsSearch.m1281": {
-      "text": "Instant GDS Commands Discovery with All GDS Comparison",
-      "sourceHash": "1420e07a3a1d99f19faee4c16f07e43bf673ebde2d9e6139e41dbfb931eb2e28",
+    "GdsSearch.m1572": {
+      "text": "Amadeus, Travelport/Galileo and Sabre commands side by side. Search by task, name or entry.",
+      "sourceHash": "9b4790560d3b054f52534184dbed9d65368800c4e9fdcc62580eee65c5141ca8",
       "status": "published"
     },
     "GdsSearch.m1282": {
@@ -2662,14 +2667,19 @@
       "sourceHash": "a12a31158c6fa09575faa7b35b5f13327e2088843db380b10c2524a3437d28c0",
       "status": "published"
     },
-    "GdsSearch.m1285": {
-      "text": "Travel Genie Magic Toolbar Windows application",
-      "sourceHash": "67cd0b4a5b23316446b8a888d89f7cea3ee434a33f7f1e6392202ac28d5fef8d",
+    "GdsSearch.m1573": {
+      "text": "Travel Desk Genie Magic Toolbar Windows application",
+      "sourceHash": "58867ee4543bee22f64ab5e2285e3861d7f16da4d9ac3a98343a6960fe47841d",
       "status": "published"
     },
     "GdsSearch.m1286": {
       "text": "SMART AUTOMATION FOR TRAVEL PROFESSIONALS",
       "sourceHash": "7d523fca43af8f83fe94c34edd16afb51af85bb87f5c35666b78c318de3b13d2",
+      "status": "published"
+    },
+    "site.m1560": {
+      "text": "Travel Desk Genie Magic Toolbar",
+      "sourceHash": "23dbfd9ea932978b13b221dd0760019d12b0e6377d258cb2bcdccf735ca85998",
       "status": "published"
     },
     "GdsSearch.m1287": {
@@ -2707,9 +2717,9 @@
       "sourceHash": "8a06be577240b27223cc746f41175b1ba0860c47a5ee4c50f1a746841aa1abde",
       "status": "published"
     },
-    "GdsSearch.m1294": {
-      "text": "Get Travel Genie Magic Toolbar from Microsoft Store (opens in a new tab)",
-      "sourceHash": "1da36cabf1cbd94603f730c7ab5da96baf5b722fa9e0232480b0ed0f0a8c5b9a",
+    "GdsSearch.m1574": {
+      "text": "Get Travel Desk Genie Magic Toolbar from Microsoft Store (opens in a new tab)",
+      "sourceHash": "9a32d6b3bfd45fdde031276d80c4b211e008c4c9d8bfcff80e0f9c07facb7a8d",
       "status": "published"
     },
     "GdsSearch.m1295": {
@@ -2887,6 +2897,26 @@
       "sourceHash": "2699108391f0c27cc78bfd6c0bc79086ad124e5b6cf756a91bd1e19e1e750b84",
       "status": "published"
     },
+    "GdsSeoContent.m1575": {
+      "text": "Travelport",
+      "sourceHash": "bc4d68cc8c09a368839794d91fc43c576cacdc5c55f32fdb69fe1cd204a0f16a",
+      "status": "published"
+    },
+    "GdsSeoContent.m1576": {
+      "text": "thTravelport",
+      "sourceHash": "0943205e2716ab60a345c68d80b8dc1782d64b653451224e90c9e7145faac319",
+      "status": "published"
+    },
+    "GdsSeoContent.m1577": {
+      "text": "thAmadeus",
+      "sourceHash": "5062d0115048336edc1028e401fa503670d6d9c28d017612af5e38c964fe76d2",
+      "status": "published"
+    },
+    "GdsSeoContent.m1578": {
+      "text": "thSabre",
+      "sourceHash": "9215cee0cb703b141f4a30323d0c2ac22ac8a8b0e6dfdc6079153261ec77a9af",
+      "status": "published"
+    },
     "GdsSeoContent.m1343": {
       "text": "What is the Travel Desk Genie All GDS Search Engine?",
       "sourceHash": "264639555fa693c1e3b6c6491d4699d4c296de8ed33b8dbdc78bdef758e5f953",
@@ -2895,6 +2925,16 @@
     "GdsSeoContent.m1344": {
       "text": "It is a searchable reference library for finding and comparing stored Amadeus, Travelport/Galileo and Sabre commands. It does not connect to or execute transactions in a live GDS.",
       "sourceHash": "763bae9b133e3ef91552dc170d32f4b7a7561e757be1eb9efd724f28fab189f9",
+      "status": "published"
+    },
+    "GdsSeoContent.m1579": {
+      "text": "Where can I find Amadeus, Sabre and Travelport notes?",
+      "sourceHash": "c1c493ac4e906660d49befc761881bdeda520417ef0a37c698075c1200e43730",
+      "status": "published"
+    },
+    "GdsSeoContent.m1580": {
+      "text": "This page lists GDS notes for Amadeus, Travelport/Galileo and Sabre side by side, grouped by category, and offers a free notes PDF for each system. Each GDS also has its own online notes guide with examples.",
+      "sourceHash": "761238b8481c4a630f0266638a194dda40e9835ae40ed31c615f33e42172e0a3",
       "status": "published"
     },
     "GdsSeoContent.m1345": {
@@ -2937,9 +2977,9 @@
       "sourceHash": "5ef2190cf92c2466b6ec3e0aa4ad18c6624a5bab6e8d28695e93f7f5c4511a4a",
       "status": "published"
     },
-    "GdsSeoContent.m1353": {
-      "text": "Where can I learn to use Travel Genie Magic Toolbar?",
-      "sourceHash": "fed55455304bc14bdfebe636f12793583c6ccb34c70dbbf5ff5599559185915f",
+    "GdsSeoContent.m1581": {
+      "text": "Where can I learn to use Travel Desk Genie Magic Toolbar?",
+      "sourceHash": "fda0fc68852ae817e33f60de38a25645761a8d54fe165b4946df1c378417fc32",
       "status": "published"
     },
     "GdsSeoContent.m1354": {
@@ -2947,14 +2987,14 @@
       "sourceHash": "a0acf22e8d55f0c4b94a0c54dbf97eb26252c4045cf86473b87daa4edaf2ce6c",
       "status": "published"
     },
-    "GdsSeoContent.m1355": {
-      "text": "Are GDS command reference PDFs available to download?",
-      "sourceHash": "0db188155fa76558a9df565de7f436d4ea92f0194f8f7e2b6cab0ccc779c5261",
+    "GdsSeoContent.m1582": {
+      "text": "Are GDS command notes available as PDF downloads?",
+      "sourceHash": "1012580df7a142d04f1d42aaa99f7d8111c56c8fe6860607ff6a4ae263c178b7",
       "status": "published"
     },
-    "GdsSeoContent.m1356": {
-      "text": "Dedicated Amadeus, Travelport/Galileo and Sabre reference PDFs are planned. Download links will be added only after the documents have been reviewed and published.",
-      "sourceHash": "2ca6a9d34d1856e876cc8c78001494a4b3d418841a30b2e71dfd22de7b7881da",
+    "GdsSeoContent.m1583": {
+      "text": "Yes. Free Amadeus, Travelport/Galileo and Sabre command notes are available as PDF downloads on this page and on each GDS notes guide. They are educational references, so verify every command in your current GDS before use.",
+      "sourceHash": "26cbd28bfd5e41389122005e405df696cfcc492c2a9e4745e1eb11b2b4f064c2",
       "status": "published"
     },
     "GdsSeoContent.m1357": {
@@ -3037,9 +3077,9 @@
       "sourceHash": "681b4e76b1e0fb1c09283a721af428401e975e581709e1e130093499013377b9",
       "status": "published"
     },
-    "GdsSeoContent.m1518": {
-      "text": "Read the Amadeus commands cheat sheet →",
-      "sourceHash": "74d8b4cd90abbb19324bf7e8f9ff815033d72f5fdff4bb98fca786c0e77ea58f",
+    "GdsSeoContent.m1584": {
+      "text": "Read the Amadeus commands notes →",
+      "sourceHash": "9156352732b2acc13f3add5b1111cd46fa687e8b2b27df8fc68b8a12a61f174b",
       "status": "published"
     },
     "GdsSeoContent.m1373": {
@@ -3052,9 +3092,9 @@
       "sourceHash": "5a75f3f9b0c58aae4bafde8aa0690fa92afbf4ee362d7e5accc7885205ce5d17",
       "status": "published"
     },
-    "GdsSeoContent.m1519": {
-      "text": "Read the Travelport Galileo commands cheat sheet →",
-      "sourceHash": "af13216d562ef682bb6acfdf33ec15e283cfb3bdb7d62e222c308d0ff2e4e164",
+    "GdsSeoContent.m1585": {
+      "text": "Read the Travelport Galileo commands notes →",
+      "sourceHash": "ea188262fc053ad704f8a01e3f64682890dfe6db4ac6815b37e15e23ab12f8a4",
       "status": "published"
     },
     "GdsSeoContent.m1375": {
@@ -3067,9 +3107,39 @@
       "sourceHash": "49f4fa09e90f42c1838d69d780409c8399bf65216e30f467829b9982ee14c902",
       "status": "published"
     },
-    "GdsSeoContent.m1520": {
-      "text": "Read the Sabre commands cheat sheet →",
-      "sourceHash": "c4d01edffaceec4a8cb84b8cda8a8175e181cd5ca989b2c993ee0a80e5431cec",
+    "GdsSeoContent.m1586": {
+      "text": "Read the Sabre commands notes →",
+      "sourceHash": "a9eb1c2ed91d198608ec2f83add7838633a9d0c093322728a1cc2177ab2252c7",
+      "status": "published"
+    },
+    "GdsSeoContent.m1587": {
+      "text": "Complete GDS notes by category: Amadeus, Travelport and Sabre",
+      "sourceHash": "76caf1968cfc4231ec79da277f9a5df984e4413657e9919e849cbd621e8d2edb",
+      "status": "published"
+    },
+    "ProductCatalogue.m0497": {
+      "text": "All",
+      "sourceHash": "a52ace420f2175d08b1577a1bea5445e36801229c074ef9ed6c55a73401fd9c2",
+      "status": "published"
+    },
+    "GdsSeoContent.m1588": {
+      "text": "published entries across",
+      "sourceHash": "92edefc948dcc449eab1240bce8384f8782b6aff714097be7b049853cc2f030e",
+      "status": "published"
+    },
+    "GdsSeoContent.m1589": {
+      "text": "categories, with the Travelport, Amadeus and Sabre format for each task in one row. Open a category to see its commands. A dash means no reference has been supplied for that system yet.",
+      "sourceHash": "26780d5835a023733656494f381804a4217e82d4a29b930af0073c404e4590c8",
+      "status": "published"
+    },
+    "GdsSeoContent.m1590": {
+      "text": "commands",
+      "sourceHash": "10f5f77eef9a6b43dc5bf972c7cfd101133e5b738b5e46a0fcdf9021b13b0519",
+      "status": "published"
+    },
+    "GdsSeoContent.m1591": {
+      "text": "commands in Travelport, Amadeus and Sabre",
+      "sourceHash": "2086c51548459563fd26d8cd571e26ea81a706d62be9f9ff37886ed0cf7b9295",
       "status": "published"
     },
     "GdsSeoContent.m1377": {
@@ -3137,49 +3207,14 @@
       "sourceHash": "fd23baeb55735a133d03b22b652c4ecdb0ad5237564af85f8f6200107ad5d25f",
       "status": "published"
     },
-    "GdsSeoContent.m1387": {
-      "text": "Amadeus, Galileo and Sabre command notes",
-      "sourceHash": "54d889744a76ef7c21ea4f3cb10586d78ee0d453dde82c270c44d339212f5d4b",
+    "GdsSeoContent.m1592": {
+      "text": "Download Amadeus, Galileo and Sabre command notes (PDF)",
+      "sourceHash": "e9e38a4213682b7e7a0348ae22472c4bf5e1c92fbf054f3645180614ead4798b",
       "status": "published"
     },
-    "GdsSeoContent.m1388": {
-      "text": "Dedicated PDF reference notes are planned for each platform. Files will be linked here only after they have been supplied, reviewed and published. In the meantime, use the searchable command references above.",
-      "sourceHash": "a8be02e5adb08642d378a5bcec6a0da96a87b4db5feb22f53f395115ecc701cc",
-      "status": "published"
-    },
-    "GdsSeoContent.m1389": {
-      "text": "Amadeus notes",
-      "sourceHash": "94ee385d46834fd19661cdb0c75efdd1ebe69289ea799a8b97f7111296edf672",
-      "status": "published"
-    },
-    "GdsSeoContent.m1390": {
-      "text": "Planned reference notes for Amadeus commands and passenger-information workflows.",
-      "sourceHash": "e7788a9099fa392bf9ce448e49ea2b71577be12cb9e3c4f5a33181021f66d479",
-      "status": "published"
-    },
-    "GdsSeoContent.m1391": {
-      "text": "PDF pending verification",
-      "sourceHash": "7f8bf4949760130a1d9c05a2620229a1ebf32292b635aa238cdb37fc761836b9",
-      "status": "published"
-    },
-    "GdsSeoContent.m1392": {
-      "text": "Travelport / Galileo notes",
-      "sourceHash": "9d0f688905f13c968e6e3bca2a547c7afd4c68c0a08985f3f62bda463d1b7cc2",
-      "status": "published"
-    },
-    "GdsSeoContent.m1393": {
-      "text": "Planned references for Travelport, Galileo and Smartpoint workflows.",
-      "sourceHash": "27432158496faab1abae41c3291b26fe9d4ff1e4c3d0747dfc99bcf56d6908c7",
-      "status": "published"
-    },
-    "GdsSeoContent.m1394": {
-      "text": "Sabre notes",
-      "sourceHash": "f1443dc9d01645d1bf50588c9b3f0b4acd3ff084548f689cd45a19a0e56f7e3c",
-      "status": "published"
-    },
-    "GdsSeoContent.m1395": {
-      "text": "Planned Sabre command and passenger-information reference notes.",
-      "sourceHash": "9f50503860bc50b8a66a7565c032d88dd5a6678142b8b5f499c2577b3c468e9a",
+    "GdsSeoContent.m1593": {
+      "text": "Free printable GDS notes for each system. Keep them open beside your GDS, share them with trainees, or print them for your desk. Each PDF is an educational reference, so verify commands in your current GDS before use.",
+      "sourceHash": "1a55a8bc59a9e4c10abb8fbccd022ae3d4013bdd65b03d981d103405e6a7dfb5",
       "status": "published"
     },
     "GdsSeoContent.m1396": {
@@ -3187,14 +3222,14 @@
       "sourceHash": "9504bc6734e9c39cad1fcad5c2547bedb057dfe4f4e5251b46147f8259b91030",
       "status": "published"
     },
-    "GdsSeoContent.m1397": {
-      "text": "Travel Genie Magic Toolbar tutorials and product training",
-      "sourceHash": "2660bce3a8af04505b6fa39f99ae670a8bbdf1033f7bf3281a79e5f131d6b2a1",
+    "GdsSeoContent.m1594": {
+      "text": "Travel Desk Genie Magic Toolbar tutorials and product training",
+      "sourceHash": "1d05b1807d13d92e94922e702b00a2306bb8e8bb85396089bd555fb0d69e8482",
       "status": "published"
     },
-    "GdsSeoContent.m1398": {
-      "text": "Travel Genie Magic Toolbar helps prepare passenger NAME, DOCS, CTCM and CTCE entries for review and copying. It is separate from the web search engine and does not execute live GDS transactions. Explore video tutorials for product demonstrations and training.",
-      "sourceHash": "32b6eccb54ab652003f67291b5fb1b06e00fa36e34ba58f580eb508760f52eda",
+    "GdsSeoContent.m1595": {
+      "text": "Travel Desk Genie Magic Toolbar helps prepare passenger NAME, DOCS, CTCM and CTCE entries for review and copying. It is separate from the web search engine and does not execute live GDS transactions. Explore video tutorials for product demonstrations and training.",
+      "sourceHash": "8958b33da06cb267e34c665394e6c97475ca935f5119a1ff261dfabf0dc772d1",
       "status": "published"
     },
     "GdsSeoContent.m1399": {
@@ -3772,9 +3807,34 @@
       "sourceHash": "ef40ba18f2b350c68622ab98c84e82df128d7191532791a37f8f35218a3640ca",
       "status": "published"
     },
-    "ProductCatalogue.m0497": {
-      "text": "All",
-      "sourceHash": "a52ace420f2175d08b1577a1bea5445e36801229c074ef9ed6c55a73401fd9c2",
+    "PdfDownloadCard.m1596": {
+      "text": "Keep these notes offline.",
+      "sourceHash": "9dc8a5311afa81445011657ae886dd0fbb7857cda7129e8e6a73ac02b61d2b57",
+      "status": "published"
+    },
+    "PdfDownloadCard.m1597": {
+      "text": "Download the free",
+      "sourceHash": "ccada64e70729a1c26d199ec954290562abe6bdfcf7e51316d664e94a9f7eeff",
+      "status": "published"
+    },
+    "PdfDownloadCard.m1598": {
+      "text": "Free download ·",
+      "sourceHash": "039eac45175d6177578613164c2bce962d794f22676a021048cf05f3f5649363",
+      "status": "published"
+    },
+    "PdfDownloadCard.m1599": {
+      "text": "Open in browser",
+      "sourceHash": "62a2dc1bd5977c0304574b84ea7a998728daf2dee66e56a12d5ed4936d20fee5",
+      "status": "published"
+    },
+    "PdfDownloadCard.m1600": {
+      "text": "· Free, no sign-up",
+      "sourceHash": "999d6990265ef168d69e9aabd5f6a818c00e099830079bd9a1d563ee5a1df5f3",
+      "status": "published"
+    },
+    "PdfDownloadCard.m1601": {
+      "text": "Read the online guide →",
+      "sourceHash": "3ad84d9141a2f9e8dbacb836d531a244a4f580d52aea1072491110d3976b0dff",
       "status": "published"
     },
     "ProductCatalogue.m0498": {
@@ -4530,6 +4590,51 @@
     "faqs.m0652": {
       "text": "Use the chat on this website for quick answers, or message our team on WhatsApp. You can also send us an email. Tell us your Windows version, the tool you used and what went wrong. Please hide passenger details in any screenshot you send.",
       "sourceHash": "3654f586b874b2a1e136b3263b1da601832e88539d4309ca954c60cc6a5b3012",
+      "status": "published"
+    },
+    "gdsPdfs.m1602": {
+      "text": "Amadeus Commands Notes PDF",
+      "sourceHash": "2fc9b4590379c83e87326b76bf9acde216efc24b6b9b8211292d985a9a7c7bee",
+      "status": "published"
+    },
+    "gdsPdfs.m1603": {
+      "text": "Download Amadeus notes PDF",
+      "sourceHash": "75fa65e1321c72cf543577123c4a68c815373c8cfe0faeaf77071b536936e448",
+      "status": "published"
+    },
+    "gdsPdfs.m1604": {
+      "text": "Printable Amadeus command notes for travel agents. Keep them open beside your GDS or print them for training.",
+      "sourceHash": "5cefd12d9574cce4d09e26e17a9847a3ae08cadd159a2d15f5b69b9dc644cb92",
+      "status": "published"
+    },
+    "gdsPdfs.m1605": {
+      "text": "Travelport Galileo Commands Notes PDF",
+      "sourceHash": "f3e892be68ec6bb98cca0430f48b674b8a264b87592eda72692babf133ac6bb1",
+      "status": "published"
+    },
+    "gdsPdfs.m1606": {
+      "text": "Download Travelport notes PDF",
+      "sourceHash": "4b5a0b92ed87bd47ef406fb59c8caa39542ac4a0d4604a1cfda126e0bec381bc",
+      "status": "published"
+    },
+    "gdsPdfs.m1607": {
+      "text": "Printable Travelport Galileo command notes for travel agents. Keep them open beside your GDS or print them for training.",
+      "sourceHash": "5063f4ee33b5e5f2fde9728caf6e5ce41ebec51a1b34f27c955227031156de99",
+      "status": "published"
+    },
+    "gdsPdfs.m1608": {
+      "text": "Sabre Commands Notes PDF",
+      "sourceHash": "854447b7c16da25f9eedf1f4e51b50911d1dc4fc3c9581dde0fe50cf5898f194",
+      "status": "published"
+    },
+    "gdsPdfs.m1609": {
+      "text": "Download Sabre notes PDF",
+      "sourceHash": "9ca4cf279158091dd22e1c9e911030f8060ef710b42c0b8bafa3e0d337f109b2",
+      "status": "published"
+    },
+    "gdsPdfs.m1610": {
+      "text": "Printable Sabre command notes for travel agents. Keep them open beside your GDS or print them for training.",
+      "sourceHash": "2fc3a3e407a1eaa5cc65b23a41c936bb74aa0002b4defa1b9bc04001e751c5b1",
       "status": "published"
     },
     "config.m0653": {
@@ -7012,11 +7117,6 @@
       "sourceHash": "fb7accfff8c6f8ea9b03c91ee5576d0d08080e9ba35918d801aaeb6020dbc88c",
       "status": "published"
     },
-    "site.m1560": {
-      "text": "Travel Desk Genie Magic Toolbar",
-      "sourceHash": "23dbfd9ea932978b13b221dd0760019d12b0e6377d258cb2bcdccf735ca85998",
-      "status": "published"
-    },
     "site.m1561": {
       "text": "Travel Desk Genie brings travel agency tools together: Windows productivity, passport entries, passenger contacts, and practical GDS workflow guides.",
       "sourceHash": "e59e619b4528442f0d60fdd7652d59a9b1058471b2676f943c75633859e38533",
@@ -7475,6 +7575,146 @@
     "answers.m0635": {
       "text": "Choose a language",
       "sourceHash": "f8416d793a642faa027935eb7b5a975533baa3705a806c57cde08be442c95d46",
+      "status": "published"
+    },
+    "page.m1250": {
+      "text": "GDS Commands Search Engine | Amadeus, Sabre & Galileo",
+      "sourceHash": "8e19f533a3a72a4d2e2013cb4b7e63ba1999e3e18b9df7b6cfe54b56897b8695",
+      "status": "published"
+    },
+    "page.m1251": {
+      "text": "Search and compare Amadeus, Sabre and Travelport/Galileo GDS commands. Explore reservation, ticketing, hotel, passport DOCS and contact SSR references.",
+      "sourceHash": "6d976884fe6c5dde2b84002ebbee53256d03fa2f8ea6ee52872269bf7f4bab97",
+      "status": "published"
+    },
+    "page.m1435": {
+      "text": "Explore Amadeus availability, booking, passenger details, pricing and decoding command examples.",
+      "sourceHash": "58adff5d0afa3136431a4b50b23216ccfdc342047d7204431ce8d00110ebd943",
+      "status": "published"
+    },
+    "page.m1436": {
+      "text": "Amadeus commands",
+      "sourceHash": "24e6ac7122efda12f91876665050290a6cdb7a5d86a120c2d9899dc4776591bf",
+      "status": "published"
+    },
+    "page.m1437": {
+      "text": "Travelport Galileo Commands Cheat Sheet",
+      "sourceHash": "42134be40c782b0af6be233053e2842cb9e6640b89d65aad7c611ad3acea8024",
+      "status": "published"
+    },
+    "page.m1438": {
+      "text": "Review Travelport Galileo commands for availability, reservations, passenger entries, pricing and decoding.",
+      "sourceHash": "a97574c6e4b48b16dd4d6f5c0590f78658a4c77a0932a868d10a7765afd0277a",
+      "status": "published"
+    },
+    "page.m1439": {
+      "text": "Travelport/Galileo commands",
+      "sourceHash": "cde8eae5e04edb1e59cca93747b0115486399751d194471e3d62e8f872a39658",
+      "status": "published"
+    },
+    "page.m1441": {
+      "text": "Find Sabre command examples for reservations, passenger details, fare pricing and decoding.",
+      "sourceHash": "2a725c5f0fea6bd70a6269dd3c0124d3485002cb9e203b9732478eed6fbf678c",
+      "status": "published"
+    },
+    "page.m1442": {
+      "text": "Sabre commands",
+      "sourceHash": "a732cb7a298523713e98ffa909143a4db696639e4677995cdb5cd991a82d1f4c",
+      "status": "published"
+    },
+    "GdsSearch.m1280": {
+      "text": "GDS COMMAND REFERENCE & COMPARISON",
+      "sourceHash": "e184130a81bc41220b9e97b218623a05c989f6b6812fb4b7e5da6b434071fb55",
+      "status": "published"
+    },
+    "GdsSearch.m1281": {
+      "text": "Instant GDS Commands Discovery with All GDS Comparison",
+      "sourceHash": "1420e07a3a1d99f19faee4c16f07e43bf673ebde2d9e6139e41dbfb931eb2e28",
+      "status": "published"
+    },
+    "GdsSearch.m1285": {
+      "text": "Travel Genie Magic Toolbar Windows application",
+      "sourceHash": "67cd0b4a5b23316446b8a888d89f7cea3ee434a33f7f1e6392202ac28d5fef8d",
+      "status": "published"
+    },
+    "GdsSearch.m1294": {
+      "text": "Get Travel Genie Magic Toolbar from Microsoft Store (opens in a new tab)",
+      "sourceHash": "1da36cabf1cbd94603f730c7ab5da96baf5b722fa9e0232480b0ed0f0a8c5b9a",
+      "status": "published"
+    },
+    "GdsSeoContent.m1353": {
+      "text": "Where can I learn to use Travel Genie Magic Toolbar?",
+      "sourceHash": "fed55455304bc14bdfebe636f12793583c6ccb34c70dbbf5ff5599559185915f",
+      "status": "published"
+    },
+    "GdsSeoContent.m1355": {
+      "text": "Are GDS command reference PDFs available to download?",
+      "sourceHash": "0db188155fa76558a9df565de7f436d4ea92f0194f8f7e2b6cab0ccc779c5261",
+      "status": "published"
+    },
+    "GdsSeoContent.m1356": {
+      "text": "Dedicated Amadeus, Travelport/Galileo and Sabre reference PDFs are planned. Download links will be added only after the documents have been reviewed and published.",
+      "sourceHash": "2ca6a9d34d1856e876cc8c78001494a4b3d418841a30b2e71dfd22de7b7881da",
+      "status": "published"
+    },
+    "GdsSeoContent.m1518": {
+      "text": "Read the Amadeus commands cheat sheet →",
+      "sourceHash": "74d8b4cd90abbb19324bf7e8f9ff815033d72f5fdff4bb98fca786c0e77ea58f",
+      "status": "published"
+    },
+    "GdsSeoContent.m1519": {
+      "text": "Read the Travelport Galileo commands cheat sheet →",
+      "sourceHash": "af13216d562ef682bb6acfdf33ec15e283cfb3bdb7d62e222c308d0ff2e4e164",
+      "status": "published"
+    },
+    "GdsSeoContent.m1520": {
+      "text": "Read the Sabre commands cheat sheet →",
+      "sourceHash": "c4d01edffaceec4a8cb84b8cda8a8175e181cd5ca989b2c993ee0a80e5431cec",
+      "status": "published"
+    },
+    "GdsSeoContent.m1387": {
+      "text": "Amadeus, Galileo and Sabre command notes",
+      "sourceHash": "54d889744a76ef7c21ea4f3cb10586d78ee0d453dde82c270c44d339212f5d4b",
+      "status": "published"
+    },
+    "GdsSeoContent.m1388": {
+      "text": "Dedicated PDF reference notes are planned for each platform. Files will be linked here only after they have been supplied, reviewed and published. In the meantime, use the searchable command references above.",
+      "sourceHash": "a8be02e5adb08642d378a5bcec6a0da96a87b4db5feb22f53f395115ecc701cc",
+      "status": "published"
+    },
+    "GdsSeoContent.m1390": {
+      "text": "Planned reference notes for Amadeus commands and passenger-information workflows.",
+      "sourceHash": "e7788a9099fa392bf9ce448e49ea2b71577be12cb9e3c4f5a33181021f66d479",
+      "status": "published"
+    },
+    "GdsSeoContent.m1391": {
+      "text": "PDF pending verification",
+      "sourceHash": "7f8bf4949760130a1d9c05a2620229a1ebf32292b635aa238cdb37fc761836b9",
+      "status": "published"
+    },
+    "GdsSeoContent.m1392": {
+      "text": "Travelport / Galileo notes",
+      "sourceHash": "9d0f688905f13c968e6e3bca2a547c7afd4c68c0a08985f3f62bda463d1b7cc2",
+      "status": "published"
+    },
+    "GdsSeoContent.m1393": {
+      "text": "Planned references for Travelport, Galileo and Smartpoint workflows.",
+      "sourceHash": "27432158496faab1abae41c3291b26fe9d4ff1e4c3d0747dfc99bcf56d6908c7",
+      "status": "published"
+    },
+    "GdsSeoContent.m1395": {
+      "text": "Planned Sabre command and passenger-information reference notes.",
+      "sourceHash": "9f50503860bc50b8a66a7565c032d88dd5a6678142b8b5f499c2577b3c468e9a",
+      "status": "published"
+    },
+    "GdsSeoContent.m1397": {
+      "text": "Travel Genie Magic Toolbar tutorials and product training",
+      "sourceHash": "2660bce3a8af04505b6fa39f99ae670a8bbdf1033f7bf3281a79e5f131d6b2a1",
+      "status": "published"
+    },
+    "GdsSeoContent.m1398": {
+      "text": "Travel Genie Magic Toolbar helps prepare passenger NAME, DOCS, CTCM and CTCE entries for review and copying. It is separate from the web search engine and does not execute live GDS transactions. Explore video tutorials for product demonstrations and training.",
+      "sourceHash": "32b6eccb54ab652003f67291b5fb1b06e00fa36e34ba58f580eb508760f52eda",
       "status": "published"
     },
     "site.m1148": {

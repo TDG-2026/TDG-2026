@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -15,9 +14,11 @@ const typingExample =
 const norm = v =>
   String(v ?? '').toLocaleLowerCase().replace(/\s+/g, ' ').trim();
 
-export default function GdsSearch() {
-  const [entries, setEntries] = useState([]);
-  const [loaded, setLoaded] = useState(false);
+export default function GdsSearch({ initialEntries = [] }) {
+  const hasInitial = initialEntries.length > 0;
+
+  const [entries, setEntries] = useState(initialEntries);
+  const [loaded, setLoaded] = useState(hasInitial);
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('');
   const [system, setSystem] = useState('');
@@ -25,6 +26,9 @@ export default function GdsSearch() {
   const [refresh, setRefresh] = useState(0);
   const [message, setMessage] = useState('');
   const [copied, setCopied] = useState('');
+
+  // Server-rendered entries are already shown, so skip the first browser fetch.
+  const skipFirstLoad = useRef(hasInitial);
 
   // Decorative placeholder animation only.
   // The actual search value is never modified.
@@ -109,6 +113,11 @@ export default function GdsSearch() {
   }, []);
 
   useEffect(() => {
+    if (skipFirstLoad.current) {
+      skipFirstLoad.current = false;
+      return;
+    }
+
     const controller = new AbortController();
     setLoaded(false);
     setMessage('');
@@ -119,7 +128,7 @@ export default function GdsSearch() {
         setEntries(rows);
         setLoaded(true);
       })
-      .catch(error => {
+      .catch(() => {
         if (controller.signal.aborted) return;
         setMessage('Unable to load GDS entries. Please retry.');
         setLoaded(true);
@@ -179,17 +188,18 @@ export default function GdsSearch() {
         <div className={`${styles.wrap} ${styles.heroGrid}`}>
           <div className={styles.heroIntro}>
             <span className={styles.eyebrow}>
-              GDS COMMAND REFERENCE &amp; COMPARISON
+              GDS NOTES &amp; COMMAND COMPARISON
             </span>
 
             <div className={styles.heroTitleRow}>
               <div>
                 <h1 id="gds-hero-title">
-                  Travel Desk Genie All GDS Search Engine
+                  All GDS Notes &amp; Commands Search Engine
                 </h1>
 
                 <p className={styles.heroSubtitle}>
-                  Instant GDS Commands Discovery with All GDS Comparison
+                  Amadeus, Travelport/Galileo and Sabre commands side by side.
+                  Search by task, name or entry.
                 </p>
 
                 <p className={styles.heroSlogan}>
@@ -215,13 +225,13 @@ export default function GdsSearch() {
 
           <aside
             className={styles.heroProduct}
-            aria-label="Travel Genie Magic Toolbar Windows application"
+            aria-label="Travel Desk Genie Magic Toolbar Windows application"
           >
             <span className={styles.productEyebrow}>
               SMART AUTOMATION FOR TRAVEL PROFESSIONALS
             </span>
 
-            <h2>Travel Genie Magic Toolbar</h2>
+            <h2>Travel Desk Genie Magic Toolbar</h2>
 
             <p className={styles.productTagline}>
               Thousands of Passport Entries. Minutes of Work. Pure Magic.
@@ -240,7 +250,7 @@ export default function GdsSearch() {
                 href="https://apps.microsoft.com/detail/9p1j21g2z9lz?hl=en-US&gl=PK"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Get Travel Genie Magic Toolbar from Microsoft Store (opens in a new tab)"
+                aria-label="Get Travel Desk Genie Magic Toolbar from Microsoft Store (opens in a new tab)"
               >
                 <span className={styles.microsoftMark} aria-hidden="true">
                   <i /><i /><i /><i />

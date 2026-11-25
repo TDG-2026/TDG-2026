@@ -2,6 +2,7 @@ import {site, mascot} from '@/data/site';
 import {indexableResources as resources} from '@/data/resources';
 import {products} from '@/data/products';
 import {heroScreen, tourScreens} from '@/data/screens';
+import {GDS_PDF_LIST} from '@/data/gdsPdfs';
 import {localePath} from '@/lib/i18n/config';
 import {PUBLISHED_LOCALES} from '@/lib/i18n/published';
 
@@ -68,6 +69,15 @@ export default function sitemap() {
       priority: 0.9,
     });
   }
+
+  // GDS notes PDFs (public/download/). One URL each, no locale.
+  GDS_PDF_LIST.forEach((pdf) => {
+    entries.push({
+      url: site.url + pdf.file,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  });
 
   return entries;
 }

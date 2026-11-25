@@ -5,6 +5,7 @@ import {
   findResource,
   UNVERIFIED_RESOURCE_SLUGS,
 } from '@/data/resources';
+import {GDS_PDFS} from '@/data/gdsPdfs';
 import {getTranslator} from '@/lib/i18n/catalog';
 import {localizeMetadata} from '@/lib/i18n/metadata';
 import {localePath} from '@/lib/i18n/config';
@@ -17,6 +18,7 @@ import {
   localizedUrl,
 } from '@/lib/seo';
 import StructuredData from '@/components/StructuredData';
+import PdfDownloadCard from '@/components/PdfDownloadCard';
 
 export const dynamicParams = false;
 
@@ -217,6 +219,9 @@ export default async function ResourcePage({params}) {
 
   const showGdsSearch = GDS_GUIDE_SLUGS.has(r.slug);
 
+  // GDS notes PDF for this guide, if one exists (data/gdsPdfs.js).
+  const pdf = GDS_PDFS[r.slug];
+
   return (
     <article className="section static-page">
 
@@ -343,6 +348,9 @@ export default async function ResourcePage({params}) {
           {t('{minutes} min read', {minutes})}
         </p>
 
+        {/* GDS NOTES PDF — PROMINENT DOWNLOAD */}
+        {pdf && <PdfDownloadCard pdf={pdf} />}
+
         <nav
           className="toc"
           aria-labelledby="toc-title"
@@ -437,6 +445,9 @@ export default async function ResourcePage({params}) {
             )}
           </section>
         ))}
+
+        {/* GDS NOTES PDF — REMINDER AFTER THE GUIDE */}
+        {pdf && <PdfDownloadCard pdf={pdf} variant="compact" />}
 
         {/* CONTEXTUAL GDS SEARCH LINK — RELEVANT GUIDES ONLY */}
         {showGdsSearch && (
